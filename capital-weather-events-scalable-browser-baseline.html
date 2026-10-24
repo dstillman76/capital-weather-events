@@ -2430,9 +2430,241 @@ const diagnosticRefresh=setInterval(()=>{
  updateSourceDiagnostics();
 },1000);
 
+/* Verified direct-CORS sources. No proxy or detail-page dependency.
+ * Keep this pool separate so slow legacy feeds cannot delay these records. */
+const VERIFIED_SOURCES=[
+ {name:'Dupont Circle BID',kind:'cty',fid:65,base:'https://dupontcirclebid.org',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'Capitol Hill BID',kind:'cty',fid:19,base:'https://capitolhillbid.org',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'City of Rockville',kind:'tribe',endpoint:'https://www.rockvillemd.gov/wp-json/tribe/events/v1/events',city:'Rockville',county:'Montgomery County',state:'MD'},
+ {name:'NoMa BID',kind:'noma',endpoint:'https://nomabid.org/wp-json/wp/v2/pages?slug=farmersmarket&_fields=id,link,title,content',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'Visit Alexandria',kind:'ical',endpoint:'https://visitalexandria.com/wp-json/ical/v1/events/all',city:'Alexandria',county:'Alexandria City',state:'VA'}
+];
+async function fetchDirectText(url,timeout=8000){
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);
+ try{
+  const response=await fetch(url,{signal:controller.signal,credentials:'omit'});
+  if(!response.ok)throw Error('HTTP '+response.status);
+  const text=await response.text();
+  if(!text.trim())throw Error('Empty response');
+  if(text.length>1800000)throw Error('Response too large');
+  return text;
+ }finally{clearTimeout(timer)}
+}
+function verifiedBase(source,fields){
+ return {source:source.name,city:source.city,county:source.county,state:source.state,
+  description:'',categories:'',venue:'',address:'',time:'',endTime:'',lat:null,lng:null,
+  needsDetail:false,...fields};
+}
+function verifiedOutdoor(e){
+ // A festival name or a nature-center address alone is insufficient evidence.
+ const description=decodeEventText(e.description||'');
+ const explicit=/\b(?:outdoors?|open.air|parking lot|on the (?:lawn|plaza|pier|patio)|in the park|under the stars)\b/i.test(description)
+  && !/\b(?:not outdoors?|no outdoor|indoors? only)\b/i.test(description);
+ const indoor=/\b(?:museum|theat(?:er|re)|library|bookshop|gallery|warehouse|nature center|senior center|church|cat cafe|cat café)\b/i.test(e.venue+' '+e.title);
+ if(/\b(?:cancelled|canceled|postponed|virtual|webinar)\b/i.test(e.title))return false;
+ if(indoor&&!explicit)return false;
+ if(explicit)return true;
+ if(/\b(?:farmers.? market|walking tour|ghost (?:tour|walk)|5k|10k|marathon|bike ride|biking|hike|nature walk)\b/i.test(e.title))return true;
+ return /\b(?:park|plaza|pier|waterfront|square)\b/i.test(e.venue)&&!indoor;
+}
+function verifiedRange(text){
+ const full=timeRange(text);if(full.start)return full;
+ // CTY also uses shared meridiems, e.g. "12-3 pm each Saturday".
+ const m=clean(text).match(/\b(\d{1,2}(?::\d{2})?)\s*[-–—]\s*(\d{1,2}(?::\d{2})?)\s*([ap])\.?m\.?/i);
+ if(!m)return {start:'',end:''};
+ const end=parseTime(m[2]+m[3]+'m');
+ let start=parseTime(m[1]+m[3]+'m');
+ if(start>end&&m[3].toLowerCase()==='p')start=parseTime(m[1]+'am');
+ return {start,end};
+}
+function parseCTYCalendar(html,source,report){
+ const doc=docFrom(html),result=[];
+ const header=textOf(doc.querySelector('.bbq-results-header-middle'));
+ // Do not attach the current year to unlabelled or old HTML.
+ if(!header.includes(days[0].slice(0,4)))throw Error('Missing current calendar year');
+ for(const row of doc.querySelectorAll('.bbq-row')){
+  const month=textOf(row.querySelector('.bbqdate-month')).slice(0,3).toLowerCase();
+  const day=Number(textOf(row.querySelector('.bbqdate-day')));
+  const iso=days.find(d=>Number(d.slice(8))===day&&new Date(d+'T12:00:00Z').toLocaleString('en-US',{month:'short',timeZone:'UTC'}).toLowerCase()===month);
+  for(const a of row.querySelectorAll('.bbq-row-list a[href]')){
+   report.discovered++;
+   if(!iso)continue;
+   const title=textOf(a.querySelector('.lnk-primary')),secondary=textOf(a.querySelector('.lnk-secondary'));
+   const url=safeURL(new URL(a.getAttribute('href'),source.base).href);
+   if(!title||!url)continue;
+   report.parsed++;report.inRange++;
+   const times=verifiedRange(secondary),venue=secondary.includes('/')?secondary.split('/').slice(1).join('/').trim():'';
+   const candidate=verifiedBase(source,{title,url,venue,time:times.start,endTime:times.end,
+    dates:[iso],dateEvidence:'CTY dated calendar occurrence'});
+   if(!verifiedOutdoor(candidate))continue;
+   report.outdoor++;result.push(candidate);
+  }
+ }
+ return result;
+}
+function parseTribeRecords(payload,source,report){
+ if(!Array.isArray(payload.events))throw Error('Invalid Events Calendar response');
+ const result=[];
+ for(const item of payload.events){
+  report.discovered++;
+  const iso=parseDate(item.start_date),url=safeURL(item.url),title=decodeEventText(clean(item.title));
+  if(!iso||!url||!title)continue;
+  report.parsed++;
+  if(!days.includes(iso))continue;report.inRange++;
+  const venue=Array.isArray(item.venue)?item.venue[0]:item.venue;
+  const candidate=verifiedBase(source,{title,url,venue:clean(venue?.venue),address:clean(venue?.address),
+   description:textOf(docFrom(item.description||'').body),
+   time:item.all_day?'':parseTime(String(item.start_date).slice(11)),
+   endTime:item.all_day?'':parseTime(String(item.end_date).slice(11)),
+   dates:[iso],dateEvidence:'Organizer Events Calendar API'});
+  if(!verifiedOutdoor(candidate))continue;
+  report.outdoor++;result.push(candidate);
+ }
+ return result;
+}
+function parseNoMaMarket(payload,source,report){
+ if(!Array.isArray(payload))throw Error('Invalid NoMa response');
+ report.discovered=payload.length;const result=[];
+ for(const item of payload){
+  const doc=docFrom(item.content?.rendered||''),text=textOf(doc.body);
+  // Require the organizer's explicit season year, bounds and weekly schedule.
+  // Never treat WordPress publication/modified dates as event dates.
+  const season=text.match(/\b([A-Z][a-z]+)\s+(\d{1,2})\s*[-–]\s*([A-Z][a-z]+)\s+(\d{1,2}),?\s+(20\d{2})\b/);
+  const weekly=text.match(/on Thursdays from\s+(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})\s*p\.?m\.?/i);
+  const location=text.match(/located on\s+([^,]+),/i);
+  if(!season||!weekly||!location)continue;
+  const start=parseDate(season[1]+' '+season[2]+', '+season[5]),end=parseDate(season[3]+' '+season[4]+', '+season[5]);
+  if(!start||!end)continue;report.parsed++;
+  const dates=days.filter(d=>d>=start&&d<=end&&new Date(d+'T12:00:00Z').getUTCDay()===4);
+  if(!dates.length)continue;report.inRange+=dates.length;
+  const url=safeURL(item.link);if(!url)continue;
+  const candidate=verifiedBase(source,{title:decodeEventText(clean(item.title?.rendered)),url,
+   description:text.slice(0,1100),venue:clean(location[1]),address:clean(location[1]),
+   time:parseTime(weekly[1]+'pm'),endTime:parseTime(weekly[2]+'pm'),dates,
+   dateEvidence:'Organizer explicit season year and Thursday schedule'});
+  if(!verifiedOutdoor(candidate))continue;
+  report.outdoor+=dates.length;result.push(candidate);
+ }
+ return result;
+}
+function icalText(value){
+ return decodeEventText(String(value||'').replace(/\\([nN,;\\])/g,(_,c)=>/[nN]/.test(c)?' ':c));
+}
+function icalStamp(value,params=''){
+ const m=String(value||'').match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})(Z)?)?$/);
+ if(!m)return null;
+ const date=m[1]+'-'+m[2]+'-'+m[3];if(!validISO(date))return null;
+ if(!m[4])return {date,time:''};
+ if(+m[4]>23||+m[5]>59||+m[6]>59)return null;
+ const time=m[4]+':'+m[5];
+ const tz=params.match(/TZID="?([^;" ]+)/)?.[1];
+ if(m[7]||tz==='UTC'){
+  const instant=new Date(date+'T'+time+':'+m[6]+'Z');
+  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(instant).map(p=>[p.type,p.value]));
+  return {date:parts.year+'-'+parts.month+'-'+parts.day,time:parts.hour+':'+parts.minute};
+ }
+ if(tz&&tz!=='America/New_York')return null;
+ return {date,time}; // Organizer's floating times are local Alexandria times.
+}
+function parseAlexandriaICAL(raw,source,report){
+ // This publisher returns literal escaped CRLF separators, not JSON.
+ const text=raw.replace(/\\r\\n/g,'\n').replace(/\r\n/g,'\n').replace(/\n[ \t]/g,'');
+ if(!text.startsWith('BEGIN:VCALENDAR'))throw Error('Invalid iCalendar response');
+ const result=[];
+ for(const block of text.split('BEGIN:VEVENT').slice(1)){
+  report.discovered++;
+  const fields={};let depth=0;
+  for(const line of block.split('\n')){
+   if(line.startsWith('BEGIN:')){depth++;continue}
+   if(line.startsWith('END:')){if(depth){depth--;continue}break}
+   if(depth)continue; // VALARM descriptions are not event descriptions.
+   const m=line.match(/^([A-Z-]+)((?:;[^:]*)?):(.*)$/);
+   if(m&&!fields[m[1]])fields[m[1]]={params:m[2],value:m[3]};
+  }
+  const get=k=>fields[k]?.value||'';
+  if(/CANCELLED|TENTATIVE/.test(get('STATUS'))||get('RRULE'))continue;
+  const start=icalStamp(get('DTSTART'),fields.DTSTART?.params),end=icalStamp(get('DTEND'),fields.DTEND?.params);
+  const title=icalText(get('SUMMARY')),url=safeURL(icalText(get('URL')));
+  if(!start||!title||!url)continue;report.parsed++;
+  if(!days.includes(start.date))continue;report.inRange++;
+  const venue=icalText(fields['X-APPLE-STRUCTURED-LOCATION']?.params.match(/;X-TITLE=([^;]*)/)?.[1]||'');
+  const geo=get('GEO').split(';').map(Number);
+  const candidate=verifiedBase(source,{title,url,venue,address:icalText(get('LOCATION')),
+   county:/^Woodlawn & Pope-Leighey House$/i.test(venue)?'Fairfax County':source.county,
+   description:icalText(get('DESCRIPTION')),time:start.time,endTime:end?.time||'',dates:[start.date],
+   // Coordinates are organizer-supplied. Reject values outside the DC region.
+   lat:geo.length===2&&geo[0]>38&&geo[0]<40?geo[0]:null,
+   lng:geo.length===2&&geo[1]>-78.5&&geo[1]<-76?geo[1]:null,
+   dateEvidence:'Visit Alexandria explicit iCalendar occurrence'});
+  if(!verifiedOutdoor(candidate))continue;
+  report.outdoor++;result.push(candidate);
+ }
+ return result;
+}
+async function loadVerifiedSource(source){
+ const report={source:source.name,ok:true,count:0,candidates:0,discovered:0,parsed:0,inRange:0,outdoor:0,unique:0,requests:0};
+ state.reports.push(report);const began=performance.now(),result=[];
+ try{
+  if(source.kind==='cty'){
+   const stamp=iso=>iso.slice(5,7)+'-'+iso.slice(8)+'-'+iso.slice(2,4);
+   const url='https://xapi.citylightstudio.net/_bbq/_bbq_results.php?'+new URLSearchParams({fid:String(source.fid),key:'106243126',bbqparam:stamp(days[0])+'-to-'+stamp(days[days.length-1])});
+   report.requests++;result.push(...parseCTYCalendar(await fetchDirectText(url),source,report));
+  }else if(source.kind==='tribe'){
+   for(let page=1;page<=3;page++){
+    const params=new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days[days.length-1]+' 23:59:59'});
+    report.requests++;const payload=JSON.parse(await fetchDirectText(source.endpoint+'?'+params));
+    result.push(...parseTribeRecords(payload,source,report));
+    if(page>=Number(payload.total_pages||1)||!payload.events.length)break;
+   }
+  }else if(source.kind==='noma'){
+   report.requests++;const text=await fetchDirectText(source.endpoint);
+   result.push(...parseNoMaMarket(JSON.parse(text),source,report));
+   if(!report.parsed)throw Error('No explicit market season and weekly schedule');
+  }else{
+   report.requests+=2;
+   const [text,index]=await Promise.all([fetchDirectText(source.endpoint),
+    fetchDirectText('https://visitalexandria.com/wp-json/wp/v2/pages?slug=events-sitemap&_fields=id,link,content')]);
+   const payload=JSON.parse(index),links=new Map();
+   if(!Array.isArray(payload))throw Error('Invalid Alexandria event index');
+   for(const page of payload)for(const a of docFrom(page.content?.rendered||'').querySelectorAll('a[href]')){
+    const url=safeURL(a.getAttribute('href'));
+    if(url&&new URL(url).origin==='https://visitalexandria.com'&&new URL(url).pathname.startsWith('/events/'))links.set(norm(decodeEventText(textOf(a))),url);
+   }
+   if(!links.size)throw Error('Empty Alexandria event index');
+   for(const candidate of parseAlexandriaICAL(text,source,report)){
+    const url=links.get(norm(candidate.title));
+    // Publisher URLs avoid stale booking links in the calendar feed.
+    if(url)result.push({...candidate,organizerURL:candidate.url,url});
+   }
+  }
+ }catch(error){report.ok=result.length>0;report.error=error.name==='AbortError'?'Request timed out':error.message}
+ const keys=new Set(),unique=result.filter(c=>{
+  const key=norm(c.title)+'|'+c.dates.join(',')+'|'+c.time+'|'+norm(c.venue);
+  if(keys.has(key))return false;keys.add(key);return true;
+ });
+ report.candidates=unique.length;report.unique=unique.reduce((n,c)=>n+c.dates.length,0);
+ report.ms=Math.round(performance.now()-began);
+ report.detail=report.discovered+' discovered · '+report.parsed+' parsed · '+report.inRange+' in range · '+report.outdoor+' outdoor · '+report.unique+' unique · '+report.requests+' direct requests · '+report.ms+' ms';
+ return unique;
+}
+async function loadVerifiedSources(){
+ let next=0;
+ async function worker(){
+  while(next<VERIFIED_SOURCES.length){
+   const source=VERIFIED_SOURCES[next++],candidates=await loadVerifiedSource(source);
+   const events=candidates.flatMap(c=>c.dates.map(d=>createEvent(c,d,c.dateEvidence)));
+   state.events=dedupe([...state.events,...events]);
+   for(const report of state.reports)if(VERIFIED_SOURCES.some(s=>s.name===report.source))report.count=state.events.filter(e=>e.source===report.source).length;
+   geography();render();updateSourceDiagnostics();
+  }
+ }
+ await Promise.all(Array.from({length:3},worker));
+}
+
 /* Load public tourism, HSEMA, and Ticketmaster sources independently. */
 
 async function load(){
+ const verifiedSources=loadVerifiedSources();
  const princeWilliam=loadPrinceWilliamImGoing().then(events=>{
   if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
 
@@ -2526,6 +2758,7 @@ async function load(){
  state.discoveryTimings=sourceTimings;
  await Promise.all(tasks);
  await allDone;
+ await verifiedSources;
  flush();
  state.enriching=false;
  render();

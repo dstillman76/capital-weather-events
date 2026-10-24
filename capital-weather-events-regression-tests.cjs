@@ -1,7 +1,7 @@
 // Offline regression suite. Run: node capital-weather-events-regression-tests.cjs
 // Tests real functions extracted from the production HTML, not reimplementations.
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const html=fs.readFileSync(process.argv[2]||__dirname+'/capital-weather-events-quality-baseline.html','utf8');
+const html=fs.readFileSync(process.argv[2]||__dirname+'/capital-weather-events-scalable-browser-baseline.html','utf8');
 const js=html.match(/<script>\s*([\s\S]*?)<\/script>/)[1];
 function extract(start,end){const a=js.indexOf(start),b=js.indexOf(end,a);assert(a>=0&&b>a,`Missing ${start}`);return js.slice(a,b)}
 const outdoorDefs=extract('const OUTDOOR=','/* Upcoming 7-day occurrences */');
@@ -39,3 +39,22 @@ test('Cross-source dedupe and entity normalization',()=>{
  const result=dedupe(events);assert.equal(result.length,1);assert.equal(result[0].title,'Ghosts & Exorcist Steps');
 });
 console.log(`${n} checks passed${process.exitCode?' (failures above)':''}`);
+
+// Direct-source pure helpers: execute the actual production definitions.
+vm.runInContext(extract('function parseTime(x){','/* Address parsing:')+'\n'+extract('const VERIFIED_SOURCES=','/* Load public tourism, HSEMA, and Ticketmaster sources independently. */')+'\nthis.direct={verifiedOutdoor,verifiedRange,icalStamp,icalText};',context);
+const {verifiedOutdoor,verifiedRange,icalStamp,icalText}=context.direct;
+test('New sources reject festival at an indoor venue',()=>assert.equal(verifiedOutdoor({title:'Fall Festival',venue:'History Museum',description:''}),false));
+test('Nature center requires explicit outdoor evidence',()=>assert.equal(verifiedOutdoor({title:'Mini-Creep',venue:'Nature Center',description:'Games and crafts'}),false));
+test('Nature journaling explicitly outdoors qualifies',()=>assert.equal(verifiedOutdoor({title:'Nature Journaling',venue:'Nature Center',description:'Spend time outdoors observing seasonal details'}),true));
+test('Negated outdoor claim excluded',()=>assert.equal(verifiedOutdoor({title:'Workshop',venue:'Nature Center',description:'Not outdoors; indoors only'}),false));
+test('Cancelled outdoor event excluded',()=>assert.equal(verifiedOutdoor({title:'Canceled: Park Festival',venue:'City Park',description:'Outdoor festival'}),false));
+test('CTY shared noon meridiem',()=>{const t=verifiedRange('12-3 pm each Saturday');assert.equal(t.start,'12:00');assert.equal(t.end,'15:00')});
+test('CTY morning-to-afternoon meridiem',()=>assert.equal(verifiedRange('10-1 pm').start,'10:00'));
+test('iCalendar escapes decoded',()=>assert.equal(icalText('Art\\, music\\; fun\\nMore'),'Art, music; fun More'));
+test('iCalendar floating local time',()=>assert.equal(icalStamp('20261025T083000').time,'08:30'));
+test('iCalendar all-day date has no invented time',()=>assert.equal(icalStamp('20261025',';VALUE=DATE').time,''));
+test('iCalendar UTC converted to Eastern with date rollover',()=>{const t=icalStamp('20261025T020000Z');assert.equal(t.date,'2026-10-24');assert.equal(t.time,'22:00')});
+test('iCalendar daylight-saving transition',()=>assert.equal(icalStamp('20261101T063000Z').time,'01:30'));
+test('Unknown iCalendar timezone rejected',()=>assert.equal(icalStamp('20261025T083000',';TZID=Europe/Paris'),null));
+test('Invalid iCalendar calendar date rejected',()=>assert.equal(icalStamp('20260230T083000'),null));
+console.log(`${n} total regression checks passed${process.exitCode?' (failures above)':''}`);
