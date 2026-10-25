@@ -2188,8 +2188,9 @@ function render(){
   title.addEventListener('click',event=>{event.stopPropagation();selectEvent(e);});
   card.append(title);
 
-  const loc=el('div','cwe-location',location(e));
-  loc.title=location(e);
+  const loc=el('div','cwe-location',e.outdoorCardNote||location(e));
+  loc.title=e.outdoorNote?e.outdoorNote+' · '+location(e):location(e);
+  if(e.outdoorNote)loc.classList.add('cwe-outdoor-note');
   card.append(loc);
 
   card.append(el('div','cwe-time',displayRange(e)));
@@ -2266,6 +2267,7 @@ function selectEvent(e,showDetails=false){
  detail.append(el('p','',
   pretty(e.date)+' · '+displayRange(e)
  ));
+ if(e.outdoorNote)detail.append(el('p','cwe-outdoor-note',e.outdoorNote));
 
  const loc=[e.venue,e.address,e.city,
   e.county,e.state].filter(Boolean);
@@ -2455,17 +2457,79 @@ function verifiedBase(source,fields){
   description:'',categories:'',venue:'',address:'',time:'',endTime:'',lat:null,lng:null,
   needsDetail:false,...fields};
 }
+/* Activity-level editorial review, 2026-10-24. Evidence is from the linked
+ * event descriptions, not the venue's amenities or an outdoor-sounding title.
+ * Reviews are scoped to source, title and listed venue; dates still come live
+ * from the source adapters. No extra runtime requests are introduced. */
+const OUTDOOR_REVIEWS=[
+ {source:'Dupont Circle BID',title:'Music in the Circle: Fall 2026 Concert Series',venue:'Dupont Circle park',outdoor:true,
+  evidence:'The concert description explicitly places the live performances in Dupont Circle Park.',url:'https://dupontcirclebid.org/do/music-in-the-circle-fall-2026-concert-series'},
+ {source:'Dupont Circle BID',title:'Dupont Circle Farmers Market',venue:'PNC Bank',outdoor:true,
+  evidence:'The market description places vendors in the PNC parking lot and adjacent 20th Street.',url:'https://dupontcirclebid.org/do/dupont-circle-farmers-market'},
+ {source:'Dupont Circle BID',title:'Yoga in Triangle Park',venue:'Triangle Park (Q Street Park)',outdoor:true,
+  evidence:'The instructor leads Friday yoga in the triangle park at 20th and Q Streets.',url:'https://dupontcirclebid.org/do/yoga-in-triangle-park-1'},
+ {source:'Capitol Hill BID',title:'Hill Family Biking: Halloween Ride',venue:'Eastern Market Metro Park',outdoor:true,
+  evidence:'A four-mile street ride starts at Lincoln Park and finishes at Eastern Market Metro Plaza.',url:'https://capitolhillbid.org/do/hill-family-biking-halloween-ride'},
+ {source:'City of Rockville',title:'Drug Take-Back Day',venue:'Rockville City Police Station',outdoor:true,
+  evidence:'Police collect medication outside in the station parking lot with drive-up access.',url:'https://www.rockvillemd.gov/calendar/events/drug-take-back-day-2/'},
+ {source:'City of Rockville',title:'Nature Journaling for Adults',venue:'Croydon Creek Nature Center',outdoor:true,
+  evidence:'Participants explicitly spend time outdoors capturing seasonal details in their journals.',url:'https://www.rockvillemd.gov/calendar/events/nature-journaling-for-adults-2/'},
+ {source:'NoMa BID',title:'NoMa Farmers Market At Third Street',venue:'Third Street NE',outdoor:true,
+  evidence:'The market operates on Third Street NE; its producer describes its outdoor public exhibitor markets.',url:'https://nomabid.org/farmersmarket/'},
+ {source:'Visit Alexandria',title:'King & Rye: Cocktails & Crafts',venue:'King & Rye',outdoor:true,
+  evidence:'The organizer explicitly says craft kits are delivered to courtyard tables and reservations are for the outdoor courtyard.',url:'https://www.kingandrye.com/event/cocktails-crafts/',
+  cardNote:'Courtyard; indoors in bad weather',
+  note:'Scheduled for the outdoor courtyard; moves indoors in inclement weather. Confirm with organizer.'},
+ {source:'Visit Alexandria',title:'Woodlawn & Pope-Leighey House: Countdown to the Holidays',venue:'Woodlawn & Pope-Leighey House',outdoor:false,
+  evidence:'The all-day listing combines house tours, exhibits and workshops with lawn activities and a separate 1–4 p.m. farm program. The full 10 a.m.–4 p.m. event is not an outdoor program.',url:'https://visitalexandria.com/events/woodlawn-pope-leighey-house-countdown-to-the-holidays/'},
+ {source:'Visit Alexandria',title:'Woodlawn & Pope-Leighey House: Canopy of Discovery',venue:'Woodlawn & Pope-Leighey House',outdoor:true,
+  evidence:'This specific program is outdoor mindfulness with a nature walk and extended sit, not a house tour.',url:'https://visitalexandria.com/events/woodlawn-pope-leighey-house-canopy-of-discovery/'},
+ {source:'Visit Alexandria',title:'Lost Boy Cider: Fall Fest 2026',venue:'Lost Boy Cider',outdoor:true,
+  evidence:'The festival fills the cidery lot with makers, barbecue, a petting zoo and an outdoor bar; this is actual outdoor programming.',url:'https://visitalexandria.com/events/lost-boy-cider-fall-fest-2026/',
+  cardNote:'Outdoor lot / indoor tasting room',
+  note:'Outdoor lot festivities; indoor tasting room also available.'},
+ {source:'Visit Alexandria',title:'Alexandria Historic Cemetery Complex: 13 Cemeteries Walking Tour',venue:'Gravestone Stories',outdoor:true,
+  evidence:'Participants walk 1–1.5 miles over cemetery paths and uneven terrain.',url:'https://visitalexandria.com/events/alexandria-historic-cemetery-complex-13-cemeteries-walking-tour/'},
+ {source:'Visit Alexandria',title:'Gravestone Stories - Alexandria Historic Cemetery Complex - 13 Cemeteries Walking Tour',venue:'Gravestone Stories',outdoor:true,
+  evidence:'The Thursday session follows the same 1–1.5-mile route over cemetery paths.',url:'https://visitalexandria.com/events/gravestone-stories-alexandria-historic-cemetery-complex-13-cemeteries-walking-tour/'},
+ {source:'Visit Alexandria',title:'King Street Station Farmers Market',venue:'1800 Diagonal Road',outdoor:true,
+  evidence:'Vendors and the live busker occupy the center plaza surrounding the fountain.',url:'https://visitalexandria.com/events/king-street-station-farmers-market/'}
+];
+function outdoorReview(e){
+ return OUTDOOR_REVIEWS.find(r=>r.source===e.source&&norm(r.title)===norm(e.title)&&norm(r.venue)===norm(e.venue));
+}
 function verifiedOutdoor(e){
- // A festival name or a nature-center address alone is insufficient evidence.
- const description=decodeEventText(e.description||'');
- const explicit=/\b(?:outdoors?|open.air|parking lot|on the (?:lawn|plaza|pier|patio)|in the park|under the stars)\b/i.test(description)
-  && !/\b(?:not outdoors?|no outdoor|indoors? only)\b/i.test(description);
- const indoor=/\b(?:museum|theat(?:er|re)|library|bookshop|gallery|warehouse|nature center|senior center|church|cat cafe|cat café)\b/i.test(e.venue+' '+e.title);
  if(/\b(?:cancelled|canceled|postponed|virtual|webinar)\b/i.test(e.title))return false;
- if(indoor&&!explicit)return false;
- if(explicit)return true;
- if(/\b(?:farmers.? market|walking tour|ghost (?:tour|walk)|5k|10k|marathon|bike ride|biking|hike|nature walk)\b/i.test(e.title))return true;
- return /\b(?:park|plaza|pier|waterfront|square)\b/i.test(e.venue)&&!indoor;
+ const description=decodeEventText(e.description||'');
+ const review=outdoorReview(e);
+ if(review){
+  if(!review.outdoor)return false;
+  // CTY listing records have no description; their linked activity was reviewed.
+  // Rich-feed reviews additionally require the activity evidence to remain present.
+  if(e.source==='Visit Alexandria'&&/King & Rye/.test(e.title))return /outdoor courtyard/i.test(description)&&!/\b(?:event|program|activity) (?:is|will be|has been moved) (?:held )?(?:indoors|inside)\b/i.test(description);
+  if(e.source==='Visit Alexandria'&&/Canopy of Discovery/.test(e.title))return /outdoor mindfulness/i.test(description);
+  if(e.source==='Visit Alexandria'&&/Fall Fest 2026/.test(e.title))return /cidery and its lot|outdoor bar/i.test(description);
+  if(e.source==='Visit Alexandria')return /cemetery paths|center Plaza surrounding the fountain/i.test(description);
+  if(e.source==='City of Rockville')return /spend time outdoors|police station parking lot/i.test(description);
+  if(e.source==='NoMa BID')return /located on Third Street NE/i.test(description);
+  return true;
+ }
+ if(/\b(?:not outdoors?|no outdoor|indoors? only)\b/i.test(description))return false;
+ // Mixed site-wide programs need editorial review; an outdoor sub-event must
+ // not qualify the full house-tour/exhibit/workshop listing.
+ if(/\bsite[ -]wide\b/i.test(description)&&/\b(?:house tours?|exhibit|needlepoint)\b/i.test(description))return false;
+ // Unreviewed records must describe an activity outdoors. A venue name,
+ // "outdoor seating", free parking, or a suggestive title is not evidence.
+ return /\b(?:outdoor|open.air)\s+(?:walk|mindfulness|concert|class|market|festival|movie|event|program|workshop|activities)\b/i.test(description)||
+  /\b(?:spend time|take place|takes place|held|join us|participants (?:walk|gather|meet))[^.!?]{0,100}\b(?:outdoors|outside|on the (?:lawn|plaza|pier)|in the park)\b/i.test(description);
+}
+function acceptVerifiedOutdoor(candidate){
+ if(!verifiedOutdoor(candidate))return false;
+ const review=outdoorReview(candidate);
+ candidate.outdoorEvidence=review?.evidence||'Source description explicitly places the activity outdoors';
+ candidate.outdoorEvidenceURL=review?.url||candidate.url;
+ if(review?.note){candidate.outdoorNote=review.note;candidate.outdoorCardNote=review.cardNote;}
+ return true;
 }
 function verifiedRange(text){
  const full=timeRange(text);if(full.start)return full;
@@ -2496,7 +2560,7 @@ function parseCTYCalendar(html,source,report){
    const times=verifiedRange(secondary),venue=secondary.includes('/')?secondary.split('/').slice(1).join('/').trim():'';
    const candidate=verifiedBase(source,{title,url,venue,time:times.start,endTime:times.end,
     dates:[iso],dateEvidence:'CTY dated calendar occurrence'});
-   if(!verifiedOutdoor(candidate))continue;
+   if(!acceptVerifiedOutdoor(candidate))continue;
    report.outdoor++;result.push(candidate);
   }
  }
@@ -2517,7 +2581,7 @@ function parseTribeRecords(payload,source,report){
    time:item.all_day?'':parseTime(String(item.start_date).slice(11)),
    endTime:item.all_day?'':parseTime(String(item.end_date).slice(11)),
    dates:[iso],dateEvidence:'Organizer Events Calendar API'});
-  if(!verifiedOutdoor(candidate))continue;
+  if(!acceptVerifiedOutdoor(candidate))continue;
   report.outdoor++;result.push(candidate);
  }
  return result;
@@ -2542,7 +2606,7 @@ function parseNoMaMarket(payload,source,report){
    description:text.slice(0,1100),venue:clean(location[1]),address:clean(location[1]),
    time:parseTime(weekly[1]+'pm'),endTime:parseTime(weekly[2]+'pm'),dates,
    dateEvidence:'Organizer explicit season year and Thursday schedule'});
-  if(!verifiedOutdoor(candidate))continue;
+  if(!acceptVerifiedOutdoor(candidate))continue;
   report.outdoor+=dates.length;result.push(candidate);
  }
  return result;
@@ -2596,7 +2660,7 @@ function parseAlexandriaICAL(raw,source,report){
    lat:geo.length===2&&geo[0]>38&&geo[0]<40?geo[0]:null,
    lng:geo.length===2&&geo[1]>-78.5&&geo[1]<-76?geo[1]:null,
    dateEvidence:'Visit Alexandria explicit iCalendar occurrence'});
-  if(!verifiedOutdoor(candidate))continue;
+  if(!acceptVerifiedOutdoor(candidate))continue;
   report.outdoor++;result.push(candidate);
  }
  return result;

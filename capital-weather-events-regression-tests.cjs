@@ -58,3 +58,12 @@ test('iCalendar daylight-saving transition',()=>assert.equal(icalStamp('20261101
 test('Unknown iCalendar timezone rejected',()=>assert.equal(icalStamp('20261025T083000',';TZID=Europe/Paris'),null));
 test('Invalid iCalendar calendar date rejected',()=>assert.equal(icalStamp('20260230T083000'),null));
 console.log(`${n} total regression checks passed${process.exitCode?' (failures above)':''}`);
+
+// Editorial standard: neither the title nor a venue amenity proves activity location.
+test('Park venue alone no longer establishes outdoor activity',()=>assert.equal(verifiedOutdoor({title:'Craft Class',venue:'Riverfront Park',description:''}),false));
+test('Outdoor-sounding title alone is insufficient',()=>assert.equal(verifiedOutdoor({title:'Farmers Market',venue:'Shopping Center',description:''}),false));
+test('Outdoor seating amenity is insufficient',()=>assert.equal(verifiedOutdoor({title:'Cocktail Workshop',venue:'Restaurant',description:'Our restaurant has outdoor seating.'}),false));
+test('Parking availability is insufficient',()=>assert.equal(verifiedOutdoor({title:'Indoor concert',venue:'Community Center',description:'Free parking in the parking lot.'}),false));
+test('Outdoor sub-event does not qualify mixed site-wide program',()=>assert.equal(verifiedOutdoor({title:'Holiday Celebration',venue:'Historic Estate',description:'A site-wide program of house tours and an exhibit. Join us outdoors for a separate farm activity.'}),false));
+test('King and Rye requires current courtyard evidence',()=>assert.equal(verifiedOutdoor({source:'Visit Alexandria',title:'King & Rye: Cocktails & Crafts',venue:'King & Rye',description:'The activity will be held indoors.'}),false));
+console.log(`${n} total checks after editorial review${process.exitCode?' (failures above)':''}`);

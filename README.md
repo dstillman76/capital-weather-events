@@ -4,7 +4,7 @@
 
 The expansion adds direct-CORS adapters for Dupont Circle BID, Capitol Hill BID, City of Rockville, NoMa BID's farmers market, and Visit Alexandria. Existing sources and the `cw:event-selected` contract used by the hourly forecast are retained.
 
-See [the source investigation and validation report](capital-weather-source-expansion-2026-10-24.md) for all 12 investigated calendars, counts, evidence, limitations, and live results. The older audit is historical.
+See [the source investigation and validation report](capital-weather-source-expansion-2026-10-24.md) for all 12 investigated calendars, counts, evidence, limitations, and live results. The older audit is historical. The [editorial review](capital-weather-editorial-review-2026-10-24.md) documents the activity-level check of all original 18 occurrences, removal of Countdown, and the revised 17-occurrence count.
 
 To run tests with Node 20 or later:
 
