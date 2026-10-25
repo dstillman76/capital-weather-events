@@ -1,0 +1,13 @@
+{
+  "name": "capital-weather-events",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-side Capital Weather outdoor event widget",
+  "scripts": {
+    "test": "node capital-weather-events-regression-tests.cjs",
+    "test:browser": "node capital-weather-events-browser-tests.cjs",
+    "test:live": "node capital-weather-events-browser-tests.cjs --live"
+  },
+  "devDependencies": { "playwright": "1.62.1" },
+  "engines": { "node": ">=20" }
+}
