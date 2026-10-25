@@ -6,7 +6,7 @@ const live=process.argv.includes('--live'),base=__dirname;
 const html=fs.readFileSync(path.join(base,'capital-weather-events-scalable-browser-baseline.html'),'utf8');
 const hooks='window.__cweTest={state,days,VERIFIED_SOURCES,parseCTYCalendar,parseTribeRecords,parseNoMaMarket,parseAlexandriaICAL,loadVerifiedSources,loadVerifiedSource,fetchDirectText,createEvent,dedupe,geography,render,parseDate};';
 const content=live?html.replace('load().catch(err=>{',hooks+'\nload().catch(err=>{'):html.replace(/load\(\)\.catch\(err=>\{[\s\S]*?\n\}\);/,hooks);
-const origin='https://capitalweather.com/__widget_test__';
+const origin=new URL('/__widget_test__',process.env.CWE_TEST_ORIGIN||'https://capitalweather.com').href;
 const fixture=name=>fs.readFileSync(path.join(base,'tests/fixtures',name),'utf8');
 let passed=0;
 function check(name,fn){fn();passed++;console.log('PASS',name)}

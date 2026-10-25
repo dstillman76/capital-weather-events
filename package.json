@@ -7,7 +7,8 @@
     "test": "node capital-weather-events-regression-tests.cjs",
     "test:browser": "node capital-weather-events-browser-tests.cjs && node capital-weather-events-round2-browser-tests.cjs",
     "test:live": "node capital-weather-events-browser-tests.cjs --live",
-    "test:round2": "node capital-weather-events-round2-browser-tests.cjs"
+    "test:round2": "node capital-weather-events-round2-browser-tests.cjs",
+    "test:ghost": "node capital-weather-events-ghost-tests.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"
