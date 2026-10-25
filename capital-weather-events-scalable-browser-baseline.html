@@ -1515,7 +1515,7 @@ async function loadPrinceWilliamYodel(){
 function createEvent(candidate,iso,confidence){
  const e={
   ...candidate,
-  id:candidate.source+'|'+candidate.url+'|'+iso,
+  id:candidate.source+'|'+candidate.url+'|'+iso+(candidate.occurrenceTime?'|'+candidate.occurrenceTime+'|'+norm(candidate.venue):''),
   date:parseDate(iso),confidence,
   category:category(candidate)
  };
@@ -2043,25 +2043,23 @@ function decodeEventText(value){
  return text;
 }
 function dedupe(events){
- const seen=new Map();
+ const seen=new Map(),prepared=[];
  for(const e of events){
   for(const field of ['title','venue','address','description','categories']){
    if(typeof e[field]==='string')e[field]=decodeEventText(e[field]);
   }
-  e.date=parseDate(e.date);
-  if(!days.includes(e.date))continue;
-  const title=norm(e.title)
-   .replace(/\b20\d\d\b/g,'')
-   .replace(/[^a-z0-9]/g,'');
-  const key=e.date+'|'+title+'|'+
-   norm(e.county||e.city);
+  e.date=parseDate(e.date);if(days.includes(e.date))prepared.push(e);
+ }
+ const baseKey=e=>e.date+'|'+norm(e.title).replace(/\b20\d\d\b/g,'').replace(/[^a-z0-9]/g,'')+'|'+norm(e.county||e.city);
+ const established=new Set(prepared.filter(e=>!e.occurrenceTime).map(baseKey));
+ for(const e of prepared){
+  const base=baseKey(e);
+  if(e.occurrenceTime&&established.has(base))continue;
+  const key=base+(e.occurrenceTime?'|'+e.occurrenceTime+'|'+norm(e.venue):'');
   if(!seen.has(key))seen.set(key,e);
  }
- return [...seen.values()].sort((a,b)=>
-  a.date.localeCompare(b.date)||
-  (a.time||'99:99').localeCompare(b.time||'99:99')||
-  a.title.localeCompare(b.title)
- );
+ return [...seen.values()].sort((a,b)=>a.date.localeCompare(b.date)||
+  (a.time||'99:99').localeCompare(b.time||'99:99')||a.title.localeCompare(b.title));
 }
 
 /* Filter controls */
@@ -2434,12 +2432,211 @@ const diagnosticRefresh=setInterval(()=>{
 
 /* Verified direct-CORS sources. No proxy or detail-page dependency.
  * Keep this pool separate so slow legacy feeds cannot delay these records. */
+/* Round 2: publisher endpoints verified from Chromium with normal CORS.
+ * Calendars are queried live; no stored event lists or proxy fallbacks. */
+const ROUND2_SOURCES=[
+ {name:'NPS Rock Creek Park',round2:'nps',parkCode:'rocr,cwdw',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'NPS National Mall',round2:'nps',parkCode:'nama',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'M-NCPPC Prince George’s Parks',round2:'tribe',endpoint:'https://www.pgparks.com/wp-json/tribe/events/v1/events',city:'',county:'Prince George’s County',state:'MD'},
+ {name:'National Arboretum (FONA)',round2:'fona',endpoint:'https://www.fona.org/wp-json/wp/v2/pages?slug=events_programs&_fields=id,link,title,content',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'Bethesda Urban Partnership',round2:'tribe',endpoint:'https://www.bethesda.org/wp-json/tribe/events/v1/events',city:'Bethesda',county:'Montgomery County',state:'MD'}
+];
+function round2Text(html){
+ const doc=docFrom(html||'');doc.querySelectorAll('script,style').forEach(n=>n.remove());
+ return decodeEventText(textOf(doc.body));
+}
+function round2OutdoorEvidence(description,activityLocation=''){
+ const d=clean(description),location=clean(activityLocation);
+ // Neither a category, a title nor an outdoor-capable address qualifies.
+ if(/\b(?:indoor\s*\/\s*outdoor|mixed indoor|indoors? only|not outdoors?|inside (?:the )?(?:house|museum|mill|building))\b/i.test(d))return '';
+ const conditionalFallback=/\b(?:if|in case of|inclement weather)\b[^.!?]{0,140}\b(?:indoors|inside)\b/i.test(d);
+ if(/\bindoors?\b|\binside (?:a |the )?(?:gym|classroom)\b/i.test(d)&&!conditionalFallback)return '';
+ if(/\b(?:event|program|activity) (?:is now|has been) (?:moved|relocated) (?:indoors|inside)\b/i.test(d))return '';
+ if(/\b(?:site[ -]wide|screening|movie|crafts?)\b/i.test(d)&&/\b(?:house tours?|exhibit|haunted house|outdoor discovery|also invited)\b/i.test(d))return '';
+ const outdoor=d.match(/\b(?:outdoor (?:mobile )?(?:fitness|zumba|class|adventure|concert|movie|walk|workout|mindfulness)|(?:spend time|program (?:takes place|is held)|join us)[^.!?]{0,70}\b(?:outdoors|outside)|community campfire[^.!?]{0,100}\boutdoors)\b/i);
+ if(outdoor)return outdoor[0];
+ // Route/terrain in the description establishes where the activity occurs.
+ if(/\b(?:walk(?:ing)?|hike|hiking|bike|ride|run)\b/i.test(d)&&/\b(?:trail|woods|woodlands|forests?|cemetery|sidewalks?|neighborhood|creek|river|monuments|memorials|fall foliage)\b/i.test(d))return 'Source describes the activity route or outdoor terrain';
+ if(/\bfollow a scenic trail\b/i.test(d))return 'Exercises take place along the scenic trail';
+ if(/\b(?:8k|5k|2k)\b[^.!?]{0,140}\b(?:race|run|walk)\b|\brace\b[^.!?]{0,100}\b(?:8k|5k|2k)\b/i.test(d))return 'Source describes a distance race/run; indoor programs are screened separately';
+ if(/\b(?:market|vendors|growers)\b/i.test(d)&&/\b(?:explore the fields|grown on.site|on the (?:center |central )?plaza|on the street)\b/i.test(d))return 'Market activity is explicitly located in fields, a plaza or a street';
+ if(/\bguided (?:hike|mindfulness) under (?:the light of )?the full moon\b/i.test(d))return 'Guided activity under the full moon';
+ if(/\bjoin us in the yard\b/i.test(location))return 'Publisher explicitly places this activity in the yard';
+ if(/\bjoin us in [^.!?]{0,60}gardens\b/i.test(d)&&/\bbring a lawn chair\b/i.test(d))return 'Garden program asks participants to bring a lawn chair';
+ return '';
+}
+function round2Weather(candidate){
+ const sentences=candidate.description.match(/[^.!?]*(?:weather|rain|storm|snow|heat)[^.!?]*[.!?]?/gi)||[];
+ const note=sentences.find(s=>/cancel|indoors|inside|postpone|reschedul|rain or shine/i.test(s));
+ if(note){
+  candidate.outdoorNote=clean(note);
+  candidate.outdoorCardNote=/indoors|inside/i.test(note)?'Outdoors; indoor weather fallback':'Weather contingency; see details';
+ }
+ return candidate;
+}
+function round2Candidate(source,fields,report){
+ const c=verifiedBase(source,fields);
+ c.title=decodeEventText(clean(c.title));c.description=clean(c.description);
+ c.url=safeURL(c.url);
+ if(!c.title||!c.url||!c.time||!c.endTime||!c.dates?.length||!c.venue){report.invalid++;return null}
+ if(!c.dates.every(d=>days.includes(d))){report.outside++;return null}
+ const evidence=round2OutdoorEvidence(c.description,c.activityLocation||'');
+ if(!evidence){report.rejectedOutdoor++;return null}
+ c.outdoorEvidence=evidence;c.outdoorEvidenceURL=c.url;
+ // Explicit sessions may share a title/date but have different start times.
+ // The global deduper still prefers an established-source listing on overlap.
+ c.occurrenceTime=c.time;c.round2=true;
+ report.outdoor++;
+ return round2Weather(c);
+}
+function parseNPSRound2(payload,source,report){
+ if(!Array.isArray(payload.data)||payload.errors?.length)throw Error('Invalid NPS calendar response');
+ const result=[];
+ for(const item of payload.data){
+  report.discovered++;
+  const date=String(item.date||'');
+  // expandRecurring supplies explicit dates. Do not expand recurrence rules,
+  // use a series start, or copy every dates[] entry onto every record.
+  if(!validISO(date)||!days.includes(date)){report.outside++;continue}
+  const cancelled=String(item.cancelledDateList||'').match(/\d{4}-\d{2}-\d{2}/g)||[];
+  if(cancelled.includes(date)){report.cancelled++;continue}
+  if(!/^[A-Fa-f0-9-]{20,}$/.test(item.id||'')){report.invalid++;continue}
+  const description=round2Text(item.description),venue=clean(item.location);
+  if(!description||!venue){report.invalid++;continue}
+  report.parsed++;
+  for(const time of item.times||[]){
+   if(time.sunriseStart||time.sunsetEnd){report.invalid++;continue}
+   const duration=description.match(/\b(\d+)[ -]minute\b/i);
+   const begin=parseTime(time.timeStart),finish=parseTime(time.timeEnd);
+   const minutes=t=>Number(t.slice(0,2))*60+Number(t.slice(3));
+   if(duration&&begin&&finish&&minutes(finish)-minutes(begin)!==Number(duration[1])){report.invalid++;continue}
+   const lat=Number(item.latitude),lng=Number(item.longitude);
+   const candidate=round2Candidate(source,{title:item.title,
+    url:'https://www.nps.gov/planyourvisit/event-details.htm?id='+encodeURIComponent(item.id),
+    venue,address:venue,activityLocation:venue,description,
+    time:parseTime(time.timeStart),endTime:parseTime(time.timeEnd),dates:[date],
+    lat:lat>38&&lat<40?lat:null,lng:lng>-78.5&&lng<-76?lng:null,
+    dateEvidence:'NPS explicit occurrence and time slot'},report);
+   if(candidate)result.push(candidate);
+  }
+ }
+ return result;
+}
+function pgRound2Location(item,description){
+ // PG's API often returns venue: []. Do not invent locations for those events.
+ const at=decodeEventText(clean(item.title)).match(/\s@\s+(.+?)(?:\s*\([^)]*\))?$/);
+ if(at&&/\bpark\b/i.test(at[1]))return {venue:at[1],city:'',address:''};
+ const nature=description.match(/\b([A-Z][\w’'-]+(?:\s+[A-Z][\w’'-]+){0,4}\s+Nature Center) is located in ([^.]+?) in ([^,]+), MD\b/);
+ if(nature)return {venue:nature[1]+' — '+nature[2],city:nature[3],address:''};
+ const farm=description.match(/\bUrban Farm Incubator at ([A-Z][\w ]+Regional Park)\b/);
+ const address=description.match(/\b(?:held at|located at)\s+(\d+\s+[^.!?]+?)(?:\s+For more|$)/i);
+ if(farm)return {venue:'Urban Farm Incubator at '+farm[1],city:'',address:address?clean(address[1]):''};
+ return null;
+}
+function parseTribeRound2(payload,source,report){
+ if(!Array.isArray(payload.events))throw Error('Invalid Events Calendar response');
+ const result=[];
+ for(const item of payload.events){
+  report.discovered++;
+  const date=String(item.start_date||'').slice(0,10);
+  if(!validISO(date)||!days.includes(date)){report.outside++;continue}
+  if(item.is_virtual||item.hide_from_listings||/\b(?:cancell?ed|postponed|sold out)\b/i.test(item.title)){report.cancelled++;continue}
+  const description=round2Text(item.description);
+  const rawVenue=Array.isArray(item.venue)?item.venue[0]:item.venue;
+  let place=rawVenue?.venue?{venue:decodeEventText(rawVenue.venue),address:clean(rawVenue.address),city:clean(rawVenue.city)||source.city}:null;
+  if(!place&&source.county==='Prince George’s County')place=pgRound2Location(item,description);
+  if(!place){report.missingLocation++;continue}
+  // A multi-day indoor/outdoor horse show is not a scheduled outdoor segment.
+  if(String(item.end_date||'').slice(0,10)!==date){report.invalid++;continue}
+  report.parsed++;
+  const candidate=round2Candidate(source,{title:item.title,url:item.url,description,...place,
+   time:item.all_day?'':parseTime(String(item.start_date).slice(11)),
+   endTime:item.all_day?'':parseTime(String(item.end_date).slice(11)),dates:[date],
+   dateEvidence:'Publisher Events Calendar explicit local schedule'},report);
+  if(candidate)result.push(candidate);
+ }
+ return result;
+}
+function round2Epoch(raw){
+ const value=Number(raw);if(!Number.isFinite(value)||value<1e9||value>5e9)return null;
+ const d=new Date(value*1000);
+ const p=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(d).map(p=>[p.type,p.value]));
+ return {date:p.year+'-'+p.month+'-'+p.day,time:p.hour+':'+p.minute};
+}
+function parseFONARound2(payload,source,report){
+ if(!Array.isArray(payload)||!payload[0]?.content?.rendered)throw Error('Invalid FONA page response');
+ const doc=docFrom(payload[0].content.rendered),cards=[...doc.querySelectorAll('.eventon_list_event')],result=[];
+ if(!cards.length)throw Error('FONA event cards missing');
+ for(const card of cards){
+  report.discovered++;
+  if(!card.classList.contains('scheduled')){report.cancelled++;continue}
+  const stamps=String(card.getAttribute('data-time')||'').split('-'),start=round2Epoch(stamps[0]),end=round2Epoch(stamps[1]);
+  if(!start||!end||start.date!==end.date){report.invalid++;continue}
+  if(!days.includes(start.date)){report.outside++;continue}
+  const rawStart=card.querySelector('[itemprop="startDate"]')?.getAttribute('content')||'';
+  // EventON emits malformed offsets such as -4:00. Epochs are authoritative;
+  // require their Eastern date/clock to agree with the publisher's local label.
+  const label=rawStart.match(/^(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})/);
+  if(!label||[label[1],label[2].padStart(2,'0'),label[3].padStart(2,'0')].join('-')!==start.date||label[4]!==start.time){report.invalid++;continue}
+  const rawEnd=card.querySelector('[itemprop="endDate"]')?.getAttribute('content')||'';
+  const endLabel=rawEnd.match(/^(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})/);
+  if(!endLabel||[endLabel[1],endLabel[2].padStart(2,'0'),endLabel[3].padStart(2,'0')].join('-')!==end.date||endLabel[4]!==end.time){report.invalid++;continue}
+  const title=decodeEventText(textOf(card.querySelector('.evcal_event_title')));
+  let description=textOf(card.querySelector('.evcal_event_subtitle'));
+  // Match a live feature description to its card, without using unrelated
+  // page text or storing a list of approved event names in JavaScript.
+  for(const heading of doc.querySelectorAll('h2,h3,h4')){
+   if(norm(decodeEventText(textOf(heading)))!==norm(title))continue;
+   const feature=heading.closest('.wpb_text_column')?.parentElement;
+   if(feature&&feature.querySelectorAll('h2,h3,h4').length===1)description+=' '+round2Text(feature.innerHTML);
+  }
+  const place=card.querySelector('[itemprop="location"]');
+  const venue=textOf(place?.querySelector('[itemprop="name"]'));
+  const address=textOf(place?.querySelector('[itemprop="streetAddress"]'));
+  report.parsed++;
+  const candidate=round2Candidate(source,{title,url:card.querySelector('a[itemprop="url"]')?.getAttribute('href'),
+   venue,address,description,time:start.time,endTime:end.time,dates:[start.date],
+   dateEvidence:'FONA live event card epochs and matching Eastern clock labels'},report);
+  if(candidate)result.push(candidate);
+ }
+ return result;
+}
+async function loadRound2Source(source){
+ const report={source:source.name,round2:true,ok:true,count:0,discovered:0,parsed:0,outdoor:0,outside:0,cancelled:0,invalid:0,missingLocation:0,rejectedOutdoor:0,requests:0};
+ state.reports.push(report);const began=performance.now(),result=[];
+ try{
+  if(source.round2==='fona'){
+   report.requests++;result.push(...parseFONARound2(JSON.parse(await fetchDirectText(source.endpoint)),source,report));
+  }else{
+   for(let page=1;page<=3;page++){
+    const params=source.round2==='nps'?new URLSearchParams({method:'getEvents',parkCode:source.parkCode,dateStart:days[0],dateEnd:days.at(-1),expandRecurring:'true',pageSize:'50',pageNumber:String(page)}):
+     new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days.at(-1)+' 23:59:59'});
+    const endpoint=source.round2==='nps'?'https://home.nps.gov/common/components/nps/eventcalendar/EventCalendarService.cfc':source.endpoint;
+    report.requests++;const payload=JSON.parse(await fetchDirectText(endpoint+'?'+params));
+    result.push(...(source.round2==='nps'?parseNPSRound2(payload,source,report):parseTribeRound2(payload,source,report)));
+    const pages=source.round2==='nps'?Math.ceil(Number(payload.total)/Number(payload.pageSize||50)):Number(payload.total_pages||1);
+    if(page>=pages)break;
+    if(page===3)report.limited=true;
+   }
+  }
+ }catch(error){report.ok=result.length>0;report.error=error.name==='AbortError'?'Request timed out':error.message}
+ const seen=new Set(),unique=result.filter(c=>{
+  const key=norm(c.title)+'|'+c.dates[0]+'|'+c.time+'|'+norm(c.venue);
+  if(seen.has(key))return false;seen.add(key);return true;
+ });
+ report.candidates=unique.length;report.unique=unique.length;report.inRange=report.parsed;
+ report.ms=Math.round(performance.now()-began);
+ report.detail=report.discovered+' discovered · '+report.parsed+' parsed · '+report.outdoor+' outdoor slots · '+report.unique+' unique · '+report.cancelled+' cancelled · '+report.missingLocation+' missing location · '+report.rejectedOutdoor+' unconfirmed outdoor · '+report.requests+' direct requests · '+report.ms+' ms'+(report.limited?' · page limit reached':'');
+ return unique;
+}
+
 const VERIFIED_SOURCES=[
  {name:'Dupont Circle BID',kind:'cty',fid:65,base:'https://dupontcirclebid.org',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'Capitol Hill BID',kind:'cty',fid:19,base:'https://capitolhillbid.org',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'City of Rockville',kind:'tribe',endpoint:'https://www.rockvillemd.gov/wp-json/tribe/events/v1/events',city:'Rockville',county:'Montgomery County',state:'MD'},
  {name:'NoMa BID',kind:'noma',endpoint:'https://nomabid.org/wp-json/wp/v2/pages?slug=farmersmarket&_fields=id,link,title,content',city:'Washington',county:'District of Columbia',state:'DC'},
- {name:'Visit Alexandria',kind:'ical',endpoint:'https://visitalexandria.com/wp-json/ical/v1/events/all',city:'Alexandria',county:'Alexandria City',state:'VA'}
+ {name:'Visit Alexandria',kind:'ical',endpoint:'https://visitalexandria.com/wp-json/ical/v1/events/all',city:'Alexandria',county:'Alexandria City',state:'VA'},
+ ...ROUND2_SOURCES
 ];
 async function fetchDirectText(url,timeout=8000){
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);
@@ -2666,6 +2863,7 @@ function parseAlexandriaICAL(raw,source,report){
  return result;
 }
 async function loadVerifiedSource(source){
+ if(source.round2)return loadRound2Source(source);
  const report={source:source.name,ok:true,count:0,candidates:0,discovered:0,parsed:0,inRange:0,outdoor:0,unique:0,requests:0};
  state.reports.push(report);const began=performance.now(),result=[];
  try{
@@ -2711,11 +2909,11 @@ async function loadVerifiedSource(source){
  report.detail=report.discovered+' discovered · '+report.parsed+' parsed · '+report.inRange+' in range · '+report.outdoor+' outdoor · '+report.unique+' unique · '+report.requests+' direct requests · '+report.ms+' ms';
  return unique;
 }
-async function loadVerifiedSources(){
+async function loadVerifiedSources(sources=VERIFIED_SOURCES){
  let next=0;
  async function worker(){
-  while(next<VERIFIED_SOURCES.length){
-   const source=VERIFIED_SOURCES[next++],candidates=await loadVerifiedSource(source);
+  while(next<sources.length){
+   const source=sources[next++],candidates=await loadVerifiedSource(source);
    const events=candidates.flatMap(c=>c.dates.map(d=>createEvent(c,d,c.dateEvidence)));
    state.events=dedupe([...state.events,...events]);
    for(const report of state.reports)if(VERIFIED_SOURCES.some(s=>s.name===report.source))report.count=state.events.filter(e=>e.source===report.source).length;
@@ -2739,7 +2937,7 @@ async function load(){
  });
  const tourismSources=[
   ...FEEDS.map(source=>()=>loadFeed(source)),
-  ...NEIGHBORHOOD_CALENDARS.map(source=>()=>loadNeighborhood(source)),
+  ...NEIGHBORHOOD_CALENDARS.filter(source=>!ROUND2_SOURCES.some(s=>s.name===source.name)).map(source=>()=>loadNeighborhood(source)),
   ...BID_SOURCES.map(source=>()=>source.name==='Rosslyn BID'?loadRosslyn(source):source.name==='Downtown Silver Spring'?loadSilverSpring(source):source.name==='Georgetown BID'?loadGeorgetown(source):source.name==='Reston Town Center'?loadReston(source):loadBid(source)),
   ...CALENDAR_SOURCES.map(source=>()=>loadCalendar(source))
  ];
