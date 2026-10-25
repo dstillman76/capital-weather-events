@@ -2667,6 +2667,12 @@ const OUTDOOR_REVIEWS=[
   evidence:'The instructor leads Friday yoga in the triangle park at 20th and Q Streets.',url:'https://dupontcirclebid.org/do/yoga-in-triangle-park-1'},
  {source:'Capitol Hill BID',title:'Hill Family Biking: Halloween Ride',venue:'Eastern Market Metro Park',outdoor:true,
   evidence:'A four-mile street ride starts at Lincoln Park and finishes at Eastern Market Metro Plaza.',url:'https://capitolhillbid.org/do/hill-family-biking-halloween-ride'},
+ {source:'Capitol Hill BID',title:'HOWL-O-WEEN Dog Costume Contest',venue:'',venueAliases:['Lincoln Park'],outdoor:true,validFrom:'2026-10-31',validThrough:'2026-10-31',
+  activityVenue:'Lincoln Park',
+  description:'Dog costume contest with local vendors and pet organizations at Lincoln Park, Capitol Hill, D.C. Registration begins at noon; the contest begins at 1 p.m.',
+  evidence:'The publisher places the actual dog costume contest, registration and vendors at Lincoln Park; this is not an inference from a park amenity.',
+  url:'https://capitolhillbid.org/do/howl-o-weendog-costume-contest',
+  cardNote:'Lincoln Park; registration at noon',note:'Registration starts at noon. The publisher lists the contest from 1–3 p.m.'},
  {source:'City of Rockville',title:'Drug Take-Back Day',venue:'Rockville City Police Station',outdoor:true,
   evidence:'Police collect medication outside in the station parking lot with drive-up access.',url:'https://www.rockvillemd.gov/calendar/events/drug-take-back-day-2/'},
  {source:'City of Rockville',title:'Nature Journaling for Adults',venue:'Croydon Creek Nature Center',outdoor:true,
@@ -2693,7 +2699,10 @@ const OUTDOOR_REVIEWS=[
   evidence:'Vendors and the live busker occupy the center plaza surrounding the fountain.',url:'https://visitalexandria.com/events/king-street-station-farmers-market/'}
 ];
 function outdoorReview(e){
- return OUTDOOR_REVIEWS.find(r=>r.source===e.source&&norm(r.title)===norm(e.title)&&norm(r.venue)===norm(e.venue));
+ return OUTDOOR_REVIEWS.find(r=>r.source===e.source&&norm(r.title)===norm(e.title)&&
+  [r.venue,...(r.venueAliases||[])].some(v=>norm(v)===norm(e.venue))&&
+  (!r.activityVenue||safeURL(e.url)===r.url)&&
+  (!r.validThrough||((e.dates||[e.date]).length>0&&(e.dates||[e.date]).every(d=>d&&d>=r.validFrom&&d<=r.validThrough))));
 }
 function verifiedOutdoor(e){
  if(/\b(?:cancelled|canceled|postponed|virtual|webinar)\b/i.test(e.title))return false;
@@ -2701,6 +2710,7 @@ function verifiedOutdoor(e){
  const review=outdoorReview(e);
  if(review){
   if(!review.outdoor)return false;
+  if(review.activityVenue&&(!e.time||!e.endTime))return false;
   // CTY listing records have no description; their linked activity was reviewed.
   // Rich-feed reviews additionally require the activity evidence to remain present.
   if(e.source==='Visit Alexandria'&&/King & Rye/.test(e.title))return /outdoor courtyard/i.test(description)&&!/\b(?:event|program|activity) (?:is|will be|has been moved) (?:held )?(?:indoors|inside)\b/i.test(description);
@@ -2723,6 +2733,12 @@ function verifiedOutdoor(e){
 function acceptVerifiedOutdoor(candidate){
  if(!verifiedOutdoor(candidate))return false;
  const review=outdoorReview(candidate);
+ // A reviewed activity can supply metadata omitted by the summary feed.
+ // Occurrence dates and times still have to be supplied by the live calendar.
+ if(review?.activityVenue){
+  candidate.venue=candidate.venue||review.activityVenue;
+  candidate.description=candidate.description||review.description;
+ }
  candidate.outdoorEvidence=review?.evidence||'Source description explicitly places the activity outdoors';
  candidate.outdoorEvidenceURL=review?.url||candidate.url;
  if(review?.note){candidate.outdoorNote=review.note;candidate.outdoorCardNote=review.cardNote;}
@@ -2757,7 +2773,10 @@ function parseCTYCalendar(html,source,report){
    const times=verifiedRange(secondary),venue=secondary.includes('/')?secondary.split('/').slice(1).join('/').trim():'';
    const candidate=verifiedBase(source,{title,url,venue,time:times.start,endTime:times.end,
     dates:[iso],dateEvidence:'CTY dated calendar occurrence'});
-   if(!acceptVerifiedOutdoor(candidate))continue;
+   if(!acceptVerifiedOutdoor(candidate)){
+    if(!outdoorReview(candidate))report.unreviewed=(report.unreviewed||0)+1;
+    continue;
+   }
    report.outdoor++;result.push(candidate);
   }
  }
@@ -2907,6 +2926,7 @@ async function loadVerifiedSource(source){
  report.candidates=unique.length;report.unique=unique.reduce((n,c)=>n+c.dates.length,0);
  report.ms=Math.round(performance.now()-began);
  report.detail=report.discovered+' discovered · '+report.parsed+' parsed · '+report.inRange+' in range · '+report.outdoor+' outdoor · '+report.unique+' unique · '+report.requests+' direct requests · '+report.ms+' ms';
+ if(source.kind==='cty')report.detail+=' · '+(report.unreviewed||0)+' summaries without reviewed outdoor evidence';
  return unique;
 }
 async function loadVerifiedSources(sources=VERIFIED_SOURCES){

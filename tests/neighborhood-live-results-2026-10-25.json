@@ -1,0 +1,108 @@
+{
+  "window": [
+    "2026-10-25",
+    "2026-10-31"
+  ],
+  "origin": "https://www.capitalweather.com",
+  "corsEnforced": true,
+  "liveChecksPassed": 7,
+  "totalReturnedOccurrences": 104,
+  "scope": "Only the reported CTY correction is newly reviewed; this is not a fresh editorial audit of all legacy results. Other source counts vary with network availability.",
+  "countsBySource": {
+    "Visit Prince William (ImGoing)": 10,
+    "Dupont Circle BID": 3,
+    "Visit Loudoun": 57,
+    "Bethesda Urban Partnership": 1,
+    "Visit Howard County": 2,
+    "M-NCPPC Prince George’s Parks": 5,
+    "NPS Rock Creek Park": 9,
+    "Visit Alexandria": 9,
+    "City of Rockville": 1,
+    "Ticketmaster": 1,
+    "National Arboretum (FONA)": 3,
+    "NoMa BID": 1,
+    "NPS National Mall": 1,
+    "Capitol Hill BID": 1
+  },
+  "correctedOccurrence": {
+    "source": "Capitol Hill BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Dog costume contest with local vendors and pet organizations at Lincoln Park, Capitol Hill, D.C. Registration begins at noon; the contest begins at 1 p.m.",
+    "categories": "",
+    "venue": "Lincoln Park",
+    "address": "",
+    "time": "13:00",
+    "endTime": "15:00",
+    "lat": null,
+    "lng": null,
+    "title": "HOWL-O-WEEN Dog Costume Contest",
+    "url": "https://capitolhillbid.org/do/howl-o-weendog-costume-contest",
+    "dateEvidence": "CTY dated calendar occurrence",
+    "outdoorEvidence": "The publisher places the actual dog costume contest, registration and vendors at Lincoln Park; this is not an inference from a park amenity.",
+    "outdoorEvidenceURL": "https://capitolhillbid.org/do/howl-o-weendog-costume-contest",
+    "outdoorNote": "Registration starts at noon. The publisher lists the contest from 1–3 p.m.",
+    "outdoorCardNote": "Lincoln Park; registration at noon",
+    "id": "Capitol Hill BID|https://capitolhillbid.org/do/howl-o-weendog-costume-contest|2026-10-31",
+    "date": "2026-10-31",
+    "confidence": "CTY dated calendar occurrence",
+    "category": "other"
+  },
+  "firstCardMs": 766.1999999999534,
+  "elapsedMs": 39044,
+  "failedSources": [
+    {
+      "source": "Visit Fairfax",
+      "error": "Failed to fetch"
+    },
+    {
+      "source": "Experience Prince George’s",
+      "error": "Failed to fetch"
+    },
+    {
+      "source": "Falls Church",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Downtown Silver Spring",
+      "error": "HTTP 408"
+    },
+    {
+      "source": "Visit Montgomery",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Rosslyn BID",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Visit Frederick",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Georgetown BID",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Reston Town Center",
+      "error": "Calendar fetch failed: signal is aborted without reason; trying known event pages · 2 event URLs · 0 eligible · 0 no date · 0 outside 7 days · 0 missing title · 0 not outdoor · 2 detail fetch failures"
+    },
+    {
+      "source": "Visit Annapolis",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "DC HSEMA",
+      "error": "signal is aborted without reason"
+    },
+    {
+      "source": "Visit Annapolis calendar",
+      "error": "Failed to fetch"
+    },
+    {
+      "source": "Experience Prince George’s calendar",
+      "error": "signal is aborted without reason"
+    }
+  ]
+}
