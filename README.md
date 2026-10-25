@@ -2,6 +2,8 @@
 
 `capital-weather-events-scalable-browser-baseline.html` is the complete HTML/CSS/JavaScript widget for embedding in the existing page. It remains entirely browser-side. This repository does not deploy the widget.
 
+**Installing in Ghost:** follow [the private-page installation and testing guide](GHOST-TESTING.md). Copy the complete HTML file above into one HTML card. Hourly forecasts require the separate existing Capital Weather forecast module; they are not bundled in this events file. `npm run test:ghost` checks HTML-card embedding.
+
 Round 1 added direct-CORS adapters for Dupont Circle BID, Capitol Hill BID, City of Rockville, NoMa BID's farmers market, and Visit Alexandria. Round 2 adds Rock Creek Park/NPS, National Mall/NPS, the National Arboretum through FONA, Prince George’s Parks, and an upgrade of Bethesda’s existing source to its direct API. All five round-1 integrations and the `cw:event-selected` contract used by the hourly forecast are retained.
 
 See [the round-2 investigation and validation report](capital-weather-source-expansion-round2-2026-10-25.md) for all 20 investigated sources, browser evidence, the 19-occurrence net addition, and limitations. The earlier [round-1 investigation and validation report](capital-weather-source-expansion-2026-10-24.md) covers all 12 investigated calendars, counts, evidence, limitations, and live results. The older audit is historical. The [editorial review](capital-weather-editorial-review-2026-10-24.md) documents the activity-level check of all original 18 occurrences, removal of Countdown, and the revised 17-occurrence count.
