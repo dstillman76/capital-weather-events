@@ -1,0 +1,11 @@
+# Round 2 fixture provenance
+
+Captured October 25, 2026 from the public publisher endpoints below. Fixtures are used only by tests. The production widget always retrieves live data.
+
+- `nps-rocr.json` and `nps-mall.json`: `https://home.nps.gov/common/components/nps/eventcalendar/EventCalendarService.cfc`, the endpoint used by NPS's own calendar JavaScript. Query: `method=getEvents`, `parkCode=rocr,cwdw` or `nama`, `dateStart=2026-10-25`, `dateEnd=2026-10-31`, `expandRecurring=true`, `pageSize=50`, `pageNumber=1`. Contains all 20 and 21 returned records, with unused API fields omitted. Canceled dates and indoor/ambiguous programs remain as negative cases.
+- `pg-api.json` and `pg-api-page2.json`: `https://www.pgparks.com/wp-json/tribe/events/v1/events?per_page=50&page=1&start_date=2026-10-25&end_date=2026-10-31` and page 2. All 67 returned records are preserved with fields consumed by the parser. Unused image metadata, categories, ticket URLs and tokens were omitted. The API's empty venue arrays are deliberately preserved.
+- `bethesda-api.json`: `https://www.bethesda.org/wp-json/tribe/events/v1/events?per_page=50&start_date=2026-10-25&end_date=2026-10-31`. All 16 records preserved with parser fields; unused metadata omitted.
+- `fona.json`: `https://www.fona.org/wp-json/wp/v2/pages?slug=events_programs&_fields=id,link,title,content`. Preserves the 16 live EventON cards and the matching feature-description block for the race. Non-calendar page sections are omitted. Epochs and the original malformed `-4:00` offset labels remain intact; parser tests require Eastern clock agreement rather than trusting malformed offsets.
+- `baseline-events.json`: the 27 rendered events obtained by running merged main commit `e73d3c7` in Chromium in the same October 25–31 window. It verifies preservation and deduplication against the actual prior widget output, not a newly invented event list.
+
+The round-2 browser suite freezes the date to October 25. It adds 19 occurrences to the captured baseline for a total of 46. Existing round-1 fixture tests still freeze October 24 and retain their established 17-occurrence expectation. Live tests use the actual current date and do not substitute these responses.

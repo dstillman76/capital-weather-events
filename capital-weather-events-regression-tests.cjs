@@ -41,7 +41,7 @@ test('Cross-source dedupe and entity normalization',()=>{
 console.log(`${n} checks passed${process.exitCode?' (failures above)':''}`);
 
 // Direct-source pure helpers: execute the actual production definitions.
-vm.runInContext(extract('function parseTime(x){','/* Address parsing:')+'\n'+extract('const VERIFIED_SOURCES=','/* Load public tourism, HSEMA, and Ticketmaster sources independently. */')+'\nthis.direct={verifiedOutdoor,verifiedRange,icalStamp,icalText};',context);
+vm.runInContext(extract('function parseTime(x){','/* Address parsing:')+'\n'+extract('const ROUND2_SOURCES=','/* Load public tourism, HSEMA, and Ticketmaster sources independently. */')+'\nthis.direct={verifiedOutdoor,verifiedRange,icalStamp,icalText};',context);
 const {verifiedOutdoor,verifiedRange,icalStamp,icalText}=context.direct;
 test('New sources reject festival at an indoor venue',()=>assert.equal(verifiedOutdoor({title:'Fall Festival',venue:'History Museum',description:''}),false));
 test('Nature center requires explicit outdoor evidence',()=>assert.equal(verifiedOutdoor({title:'Mini-Creep',venue:'Nature Center',description:'Games and crafts'}),false));
@@ -67,3 +67,17 @@ test('Parking availability is insufficient',()=>assert.equal(verifiedOutdoor({ti
 test('Outdoor sub-event does not qualify mixed site-wide program',()=>assert.equal(verifiedOutdoor({title:'Holiday Celebration',venue:'Historic Estate',description:'A site-wide program of house tours and an exhibit. Join us outdoors for a separate farm activity.'}),false));
 test('King and Rye requires current courtyard evidence',()=>assert.equal(verifiedOutdoor({source:'Visit Alexandria',title:'King & Rye: Cocktails & Crafts',venue:'King & Rye',description:'The activity will be held indoors.'}),false));
 console.log(`${n} total checks after editorial review${process.exitCode?' (failures above)':''}`);
+
+vm.runInContext('this.r2api={round2OutdoorEvidence,round2Epoch};',context);
+const {round2OutdoorEvidence,round2Epoch}=context.r2api;
+test('Round 2 rejects indoor race descriptions',()=>assert.equal(round2OutdoorEvidence('Run an indoor 5K race around the gym.'),''));
+test('Round 2 rejects park amenity evidence',()=>assert.equal(round2OutdoorEvidence('This venue offers outdoor seating and free parking.'),''));
+test('Round 2 accepts actual trail exercise instructions',()=>assert(round2OutdoorEvidence('Follow a scenic trail and scan QR codes at each station.')));
+test('Round 2 rejects mixed indoor/outdoor shows',()=>assert.equal(round2OutdoorEvidence('Join our indoor/outdoor show for outdoor activities.'),''));
+test('Round 2 timestamps respect Eastern daylight saving',()=>assert.equal(round2Epoch(Date.parse('2026-11-01T06:30:00Z')/1000).time,'01:30'));
+const session=(time,extra={})=>({title:'Guided Walk',date:'2026-10-27',county:'District of Columbia',venue:'Trailhead',time,occurrenceTime:time,...extra});
+test('Confirmed distinct session times survive deduplication',()=>assert.equal(dedupe([session('10:00'),session('14:00')]).length,2));
+test('Duplicate session times and venues collapse',()=>assert.equal(dedupe([session('10:00'),session('10:00')]).length,1));
+test('Established source wins overlap regardless of arrival order',()=>{const established={title:'Guided Walk',date:'2026-10-27',county:'District of Columbia',source:'Established',time:'10:00'};for(const events of [[session('10:00'),established],[established,session('10:00')]]){const out=dedupe(events);assert.equal(out.length,1);assert.equal(out[0].source,'Established')}});
+test('Distinct session venues remain separate',()=>assert.equal(dedupe([session('10:00'),session('10:00',{venue:'Other Trailhead'})]).length,2));
+console.log(`${n} total regression checks${process.exitCode?' (failures above)':''}`);

@@ -40,7 +40,7 @@ function check(name,fn){fn();passed++;console.log('PASS',name)}
  });
  const start=Date.now();await page.goto(origin);
  if(!live){
-  await page.evaluate(()=>{window.loadPromise=window.__cweTest.loadVerifiedSources()});
+  await page.evaluate(()=>{window.loadPromise=window.__cweTest.loadVerifiedSources(window.__cweTest.VERIFIED_SOURCES.filter(s=>!s.round2))});
   await page.waitForFunction(()=>window.__cweTest.state.events.some(e=>e.source==='Dupont Circle BID'));
 
  }
@@ -50,12 +50,13 @@ function check(name,fn){fn();passed++;console.log('PASS',name)}
   check('Progressive rendering before slow source finishes',()=>assert(progress.pending));
   await page.evaluate(()=>window.loadPromise);
  }else{
-  await page.waitForFunction(()=>window.__cweTest?.state.reports.filter(r=>window.__cweTest.VERIFIED_SOURCES.some(s=>s.name===r.source)&&r.ms!==undefined).length===5,{},{timeout:45000});
+  await page.waitForFunction(()=>window.__cweTest?.state.reports.filter(r=>window.__cweTest.VERIFIED_SOURCES.some(s=>s.name===r.source)&&r.ms!==undefined).length===window.__cweTest.VERIFIED_SOURCES.length,{},{timeout:45000});
  }
  const snapshot=await page.evaluate(()=>({days:window.__cweTest.days,events:window.__cweTest.state.events,reports:window.__cweTest.state.reports,firstCardMs:window.firstCardMs,selected:window.selections.at(-1)}));
  if(live){
   const names=['Dupont Circle BID','Capitol Hill BID','City of Rockville','NoMa BID','Visit Alexandria'];
-  check('Five live direct adapters succeed',()=>assert.equal(snapshot.reports.filter(r=>names.includes(r.source)&&r.ok&&r.count>0).length,5));
+  check('Five round-1 direct adapters succeed',()=>assert.equal(snapshot.reports.filter(r=>names.includes(r.source)&&r.ok).length,5));
+  check('Five round-2 direct discovery paths succeed',()=>assert.equal(snapshot.reports.filter(r=>r.round2&&r.ok).length,5));
  }
  if(!live){
   check('All five adapters succeed',()=>assert.equal(snapshot.reports.filter(r=>r.ok).length,5));

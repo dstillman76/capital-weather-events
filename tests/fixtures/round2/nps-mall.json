@@ -1,0 +1,435 @@
+{
+  "total": 21,
+  "errors": [],
+  "data": [
+    {
+      "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
+      "date": "2026-10-25",
+      "title": "World War II Memorial",
+      "description": "<p>Explore the history and art of the World War II Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the World War II Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "10:00 AM",
+          "timeEnd": "10:30 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888553",
+      "longitude": "-77.040542"
+    },
+    {
+      "id": "20C8A006-9D75-B08D-B9660EEE010654DD",
+      "date": "2026-10-25",
+      "title": "Korean War Veterans Memorial",
+      "description": "<p>Explore the history and art of the Korean War Veterans Memorial\u00a0with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Korean War Memorial Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "11:00 AM",
+          "timeEnd": "11:30 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888361",
+      "longitude": "-77.049099"
+    },
+    {
+      "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+      "date": "2026-10-25",
+      "title": "Vietnam Veterans Memorial",
+      "description": "<p>Explore the history and art of the Vietnam Veteran's Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Korean War Memorial Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "12:00 PM",
+          "timeEnd": "12:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888361",
+      "longitude": "-77.049099"
+    },
+    {
+      "id": "20E95621-C801-29EC-8D514DA27A4B20BD",
+      "date": "2026-10-25",
+      "title": "Lincoln Memorial",
+      "description": "<p>Explore the history and art of the Lincoln Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Lincoln Memorial on the plaza at the base of the stairs.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "01:00 PM",
+          "timeEnd": "01:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.889271",
+      "longitude": "-77.049732"
+    },
+    {
+      "id": "20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+      "date": "2026-10-25",
+      "title": "Martin Luther King, Jr Memorial",
+      "description": "<p>Explore the history and art of the\u00a0Martin Luther King, Jr Memorial with a ranger.\u00a0</p>",
+      "location": "Meet at the Martin Luther King Memorial.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.886465",
+      "longitude": "-77.044619"
+    },
+    {
+      "id": "20FF2C70-D41B-B05C-B574977383870A1E",
+      "date": "2026-10-25",
+      "title": "Franklin Delano Roosevelt Memorial",
+      "description": "<p>Explore the history and art of the\u00a0Franklin Delano Roosevelt Memorial\u00a0with a ranger.</p>",
+      "location": "Meet at the bookstore in the memorial.",
+      "cancelledDateList": "2026-11-08",
+      "times": [
+        {
+          "timeStart": "03:00 PM",
+          "timeEnd": "03:45 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.883884",
+      "longitude": "-77.044233"
+    },
+    {
+      "id": "210B48F0-9F51-FC75-4436E2F198520714",
+      "date": "2026-10-25",
+      "title": "Thomas Jefferson Memorial",
+      "description": "<p>Explore the history and art of the Thomas Jefferson Memorial with a ranger.</p>",
+      "location": "Meet at the base of the stairs to the chamber where the statue of Jefferson is located.",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "05:00 PM",
+          "timeEnd": "05:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.881855",
+      "longitude": "-77.036562"
+    },
+    {
+      "id": "532AF7A5-F8A9-0909-6270E5C8EBFA8464",
+      "date": "2026-10-26",
+      "title": "July Fourth, 1862\u2014At Sea",
+      "description": "<p>What was Independence Day like aboard a sailing ship in the middle of the ocean? Join us for the story of six-year-old Sara Delano, future mother of Franklin D. Roosevelt, who spent 128 days at sea traveling to China in 1862. Drawn from a firsthand Roosevelt family journal, this talk reveals a world of tall ships, global voyages, and a Fourth of July celebration complete with cake, ice cream, and cannon fire.</p>",
+      "location": "Franklin Delano Roosevelt Memorial (meet the ranger in the exhibit area of the park store)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "10:30 AM",
+          "timeEnd": "11:00 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "532D259A-0C06-E60D-923ECE6791FDA63D",
+      "date": "2026-10-27",
+      "title": "July Fourth, 1862\u2014At Sea",
+      "description": "<p>What was Independence Day like aboard a sailing ship in the middle of the ocean? Join us for the story of six-year-old Sara Delano, future mother of Franklin D. Roosevelt, who spent 128 days at sea traveling to China in 1862. Drawn from a firsthand Roosevelt family journal, this talk reveals a world of tall ships, global voyages, and a Fourth of July celebration complete with cake, ice cream, and cannon fire.</p>",
+      "location": "Franklin Delano Roosevelt Memorial (meet the ranger in the exhibit area of the park store)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "10:30 AM",
+          "timeEnd": "11:00 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "8E2F45B9-AC5F-ED8A-454C8ADD2C027CFE",
+      "date": "2026-10-28",
+      "title": "Korean War Memorial Tour",
+      "description": "<p>Join a ranger to explore the memorial and learn about the significance of its various elements.</p>",
+      "location": "Korean War Veterans Memorial (meet the ranger inside the memorial)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "10:00 AM",
+          "timeEnd": "10:15 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "11:00 AM",
+          "timeEnd": "11:15 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "01:00 PM",
+          "timeEnd": "01:15 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:15 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "03:00 PM",
+          "timeEnd": "03:15 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "04:00 PM",
+          "timeEnd": "04:15 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+      "date": "2026-10-29",
+      "title": "The Unfinished America: A 250-Year Journey of Liberty and Economic Freedom",
+      "description": "<p><span data-olk-copy-source=\"MessageBody\">Meet at the World War II Kiosk and join a National Park Service volunteer for an immersive 90-minute walking tour exploring the evolution of individual liberty and economic freedom while visiting several National Mall monuments and memorials. From the towering legacy of George Washington to the revolutionary courage of the 56 Signers of the Declaration of Independence, we will trace America\u2019s fitful yet persistent progress toward a \"more perfect union.\" This journey weaves together iconic sites with personal stories of stowaways, soldiers, and the \"Greatest Generation\" to honor the sacrifices that built our modern world. <br /><br />As we celebrate this year's historic semiquincentennial, you are invited to connect your own family\u2019s legacy to our shared pursuit of freedom and learn about nationwide celebrations ahead. Discover why the torch lit 250 years ago remains an exceptional beacon of democratic leadership in the world today. Memorials visited include: WWII and Washington Monument, Japanese Lantern, Martin Luther King Jr. Memorial, Korean and Vietnam War Memorials, the Lincoln Memorial, and Signers' Island. </span></p>\n<p><span data-olk-copy-source=\"MessageBody\">Walk is less then 2 miles.\u00a0</span></p>",
+      "location": "World War II Memorial (contact station)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "09:30 AM",
+          "timeEnd": "10:30 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "53335DF5-D56C-BA9A-55CB14A6C094CBAF",
+      "date": "2026-10-29",
+      "title": "July Fourth, 1862\u2014At Sea",
+      "description": "<p>What was Independence Day like aboard a sailing ship in the middle of the ocean? Join us for the story of six-year-old Sara Delano, future mother of Franklin D. Roosevelt, who spent 128 days at sea traveling to China in 1862. Drawn from a firsthand Roosevelt family journal, this talk reveals a world of tall ships, global voyages, and a Fourth of July celebration complete with cake, ice cream, and cannon fire.</p>",
+      "location": "Franklin Delano Roosevelt Memorial (meet the ranger in the exhibit area of the park store)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "10:30 AM",
+          "timeEnd": "11:00 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        },
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
+      "date": "2026-10-31",
+      "title": "World War II Memorial",
+      "description": "<p>Explore the history and art of the World War II Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the World War II Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "10:00 AM",
+          "timeEnd": "10:30 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888553",
+      "longitude": "-77.040542"
+    },
+    {
+      "id": "20C8A006-9D75-B08D-B9660EEE010654DD",
+      "date": "2026-10-31",
+      "title": "Korean War Veterans Memorial",
+      "description": "<p>Explore the history and art of the Korean War Veterans Memorial\u00a0with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Korean War Memorial Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "11:00 AM",
+          "timeEnd": "11:30 AM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888361",
+      "longitude": "-77.049099"
+    },
+    {
+      "id": "F287D42C-B131-0332-20CFD5183032FA44",
+      "date": "2026-10-31",
+      "title": "Picnic in the Park: History Through Music - Halloween Edition",
+      "description": "<p data-pm-slice=\"1 1 []\">Join us in Constitution Gardens for a unique blend of music and history! Discover the history behind Halloween as we explore the people, events, and stories of America\u2019s past through music.</p>\n<p data-pm-slice=\"1 1 []\">Bring a lawn chair and your favorite snacks!</p>",
+      "location": "Constitution Gardens (meet the rangers near the water on the side closest to the World War II Memorial)",
+      "cancelledDateList": "2026-10-17",
+      "times": [
+        {
+          "timeStart": "11:30 AM",
+          "timeEnd": "03:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+      "date": "2026-10-31",
+      "title": "Vietnam Veterans Memorial",
+      "description": "<p>Explore the history and art of the Vietnam Veteran's Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Korean War Memorial Kiosk.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "12:00 PM",
+          "timeEnd": "12:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.888361",
+      "longitude": "-77.049099"
+    },
+    {
+      "id": "20E95621-C801-29EC-8D514DA27A4B20BD",
+      "date": "2026-10-31",
+      "title": "Lincoln Memorial",
+      "description": "<p>Explore the history and art of the Lincoln Memorial with a ranger.\u00a0</p>",
+      "location": "Meet in front of the Lincoln Memorial on the plaza at the base of the stairs.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "01:00 PM",
+          "timeEnd": "01:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.889271",
+      "longitude": "-77.049732"
+    },
+    {
+      "id": "20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+      "date": "2026-10-31",
+      "title": "Martin Luther King, Jr Memorial",
+      "description": "<p>Explore the history and art of the\u00a0Martin Luther King, Jr Memorial with a ranger.\u00a0</p>",
+      "location": "Meet at the Martin Luther King Memorial.",
+      "cancelledDateList": "2026-10-25",
+      "times": [
+        {
+          "timeStart": "02:00 PM",
+          "timeEnd": "02:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.886465",
+      "longitude": "-77.044619"
+    },
+    {
+      "id": "20FF2C70-D41B-B05C-B574977383870A1E",
+      "date": "2026-10-31",
+      "title": "Franklin Delano Roosevelt Memorial",
+      "description": "<p>Explore the history and art of the\u00a0Franklin Delano Roosevelt Memorial\u00a0with a ranger.</p>",
+      "location": "Meet at the bookstore in the memorial.",
+      "cancelledDateList": "2026-11-08",
+      "times": [
+        {
+          "timeStart": "03:00 PM",
+          "timeEnd": "03:45 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.883884",
+      "longitude": "-77.044233"
+    },
+    {
+      "id": "8E1CD759-A313-6D53-F8B0ECD4164BA87F",
+      "date": "2026-10-31",
+      "title": "Tales of the Odd and Unusual",
+      "description": "<p>Join a park ranger for a program that celebrates the spirit of Halloween but without the supernatural. There have been two hundred and fifty years of strange happenings on the National Mall and around Washington. Together, we\u2019ll explore true Washington tales of the strange, the unusual, and the just plain odd.</p>",
+      "location": "World War II Memorial (ranger contact station)",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "04:00 PM",
+          "timeEnd": "04:45 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "",
+      "longitude": ""
+    },
+    {
+      "id": "210B48F0-9F51-FC75-4436E2F198520714",
+      "date": "2026-10-31",
+      "title": "Thomas Jefferson Memorial",
+      "description": "<p>Explore the history and art of the Thomas Jefferson Memorial with a ranger.</p>",
+      "location": "Meet at the base of the stairs to the chamber where the statue of Jefferson is located.",
+      "cancelledDateList": "",
+      "times": [
+        {
+          "timeStart": "05:00 PM",
+          "timeEnd": "05:30 PM",
+          "sunsetEnd": false,
+          "sunriseStart": false
+        }
+      ],
+      "latitude": "38.881855",
+      "longitude": "-77.036562"
+    }
+  ],
+  "dates": "2026-10-25,2026-10-26,2026-10-27,2026-10-28,2026-10-29,2026-10-31",
+  "pageNumber": 1.0,
+  "pageSize": 50.0
+}
