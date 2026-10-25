@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "74e6ce78-e52a-d03c-8826-cc823718c8d6",
+    "title": "Virginia Gun Collectors Association Gun Show",
+    "name": "Virginia Gun Collectors Association Gun Show",
+    "startTime": "2026-11-07T14:00:00.000Z",
+    "endTime": "2026-11-08T21:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adcc8483af2859a42a47b3f",
+        "startTime": "2026-11-07T14:00:00.000Z",
+        "endTime": "2026-11-07T22:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 9:00 AM EST",
+        "startTimeText": "Nov 7 @ 9:00 AM ",
+        "endTimeFormatted": "Nov 7 @ 5:00 PM EST",
+        "endTimeText": "Nov 7 @ 5:00 PM "
+      },
+      {
+        "_id": "6adcc8483af2859a42a47b40",
+        "startTime": "2026-11-08T15:00:00.000Z",
+        "endTime": "2026-11-08T21:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 8 @ 10:00 AM EST",
+        "startTimeText": "Nov 8 @ 10:00 AM ",
+        "endTimeFormatted": "Nov 8 @ 4:00 PM EST",
+        "endTimeText": "Nov 8 @ 4:00 PM "
+      }
+    ],
+    "eventLink": "https://gunshownation.com/gun-shows/virginia/dale-city/virginia-gun-collectors-association-gun-show/2026-11-07",
+    "ticketUri": null,
+    "hostLink": "https://www.vgca.net/",
+    "description": "Collector-focused gun show featuring firearms-related displays, vendors, evaluations, ammunition, accessories, and shooting-sports items. General admission is listed as $10, with a $15 weekend pass.",
+    "venue": "VFW Post 1503",
+    "venueInfo": {
+      "name": "VFW Post 1503"
+    },
+    "address": {
+      "address": "14631 Minnieville Road, Dale City, VA 22193",
+      "lat": 38.6334025,
+      "lng": -77.3701261,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab1b832e45a0cfecbb389",
+          "long_name": "14631",
+          "short_name": "14631"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38a",
+          "long_name": "Minnieville Road",
+          "short_name": "Minnieville Rd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38b",
+          "long_name": "Dale City",
+          "short_name": "Dale City"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38c",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38d",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38e",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab1b832e45a0cfecbb38f",
+          "long_name": "22193",
+          "short_name": "22193"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6acab1b832e45a0cfecbb390",
+          "long_name": "3217",
+          "short_name": "3217"
+        }
+      ],
+      "placeId": "ChIJWQqIdAf4tokRQNzIFErueJ8"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794060000000
+  },
+  {
+    "id": "aea67034-90e3-5825-870e-2840274ab2f4",
+    "title": "We, The Marines - Set Your Price Days",
+    "name": "We, The Marines - Set Your Price Days",
+    "startTime": "2026-11-07T15:00:00.000Z",
+    "endTime": "2026-11-11T21:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adb6fd5fd35149a0e3c7faf",
+        "startTime": "2026-11-07T15:00:00.000Z",
+        "endTime": "2026-11-11T21:00:00.000Z",
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 7 @ 10:00 AM EST",
+        "startTimeText": "Nov 7 @ 10:00 AM ",
+        "endTimeFormatted": "Nov 11 @ 4:00 PM EST",
+        "endTimeText": "Nov 11 @ 4:00 PM "
+      }
+    ],
+    "eventLink": "https://www.facebook.com/events/1627759822407243",
+    "ticketUri": "https://www.marineheritage.org/medalofhonortheater",
+    "hostLink": "https://en-gb.facebook.com/MarineCorpsHeritageFdn",
+    "description": "<div class=\"xdj266r x14z9mp xat24cr x1lziwak x1vvkbs\">Celebrate Veterans Day and the Marine Corps birthday with special “Set Your Own Price” showings of \"We, The Marines\" at the National Museum of the Marine Corps, Nov. 7–11, 2026. Narrated by the late Academy Award®-winning actor and Marine Gene Hackman, the film remains an inspiring tribute to the men and women who serve our nation.</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">Admission is set by you, with a minimum price of $2.50 per person. Online ticket purchases are subject to a $1.00 booking fee per ticket. <div class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj xzsf02u x1s688f\" role=\"button\" tabindex=\"0\"></div> \r\n </div> \r\n ",
+    "venue": "National Museum of the Marine Corps — Medal of Honor Theater",
+    "venueInfo": {
+      "name": "National Museum of the Marine Corps — Medal of Honor Theater"
+    },
+    "address": {
+      "address": "1775 Semper Fidelis Way, Triangle, VA, United States, Virginia 22172, Medal of Honor Theater, 1775 Semper Fidelis Way, Triangle, VA, United States",
+      "lat": 38.5442562,
+      "lng": -77.3432328,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b4",
+          "long_name": "1775",
+          "short_name": "1775"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b5",
+          "long_name": "Semper Fidelis Way",
+          "short_name": "Semper Fidelis Wy"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b6",
+          "long_name": "Marine Corps Base Quantico",
+          "short_name": "Marine Corps Base Quantico"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b7",
+          "long_name": "Triangle",
+          "short_name": "Triangle"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b8",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac3b1898c8241981f7a21b9",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac3b1898c8241981f7a21ba",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac3b1898c8241981f7a21bb",
+          "long_name": "22172",
+          "short_name": "22172"
+        }
+      ],
+      "placeId": "ChIJx3R1ryj6tokRg06BZ-8zivw"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794063600000
+  },
+  {
+    "id": "13680772-54db-d348-fa4b-e49ad43def33",
+    "title": "Wildlife Watch",
+    "name": "Wildlife Watch",
+    "startTime": "2026-11-07T15:00:00.000Z",
+    "endTime": "2026-11-07T16:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ac0e25141a818bbce4f4e58",
+        "startTime": "2026-11-07T15:00:00.000Z",
+        "endTime": "2026-11-07T16:30:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 10:00 AM EST",
+        "startTimeText": "Nov 7 @ 10:00 AM ",
+        "endTimeFormatted": "Nov 7 @ 11:30 AM EST",
+        "endTimeText": "Nov 7 @ 11:30 AM "
+      }
+    ],
+    "eventLink": "https://www.pwcva.gov/events/wildlife-watch-0",
+    "ticketUri": "https://parksandrec.pwcgov.org/webtrac/web/search.html?Action=Start&SubAction=&arwebsearch_buttonsearch=yes&display=Detail&keyword=watch&keywordoption=Match+One&module=AR",
+    "hostLink": "https://www.pwcva.gov/department/parks-recreation",
+    "description": "A nature program for ages 4–10 at Lake Ridge Park. Young explorers learn to observe forest wildlife, including insects, reptiles, mammals, and birds; nature and animal-identification cards are included. Registration required; listed cost is $12.",
+    "venue": "Lake Ridge Park",
+    "venueInfo": {
+      "name": "Lake Ridge Park"
+    },
+    "address": {
+      "address": "12350 Cotton Mill Dr, Lake Ridge, VA 22192",
+      "lat": 38.692756,
+      "lng": -77.32023749999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5a",
+          "long_name": "12350",
+          "short_name": "12350"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5b",
+          "long_name": "Cotton Mill Drive",
+          "short_name": "Cotton Mill Dr"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5c",
+          "long_name": "Lake Ridge",
+          "short_name": "Lake Ridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5d",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5e",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e5f",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac0e25141a818bbce4f4e60",
+          "long_name": "22192",
+          "short_name": "22192"
+        }
+      ],
+      "placeId": "ChIJX4UYzMJWtokR_LhOQC0CJ80"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794063600000
+  },
+  {
+    "id": "64716eb2-d27a-e1e9-283e-282c611a5a6c",
+    "title": "\"3rd Culture: Unseen Threads\" by Kwaku Ofori-Yirenyki Solo Art Exhibit",
+    "name": "\"3rd Culture: Unseen Threads\" by Kwaku Ofori-Yirenyki Solo Art Exhibit",
+    "startTime": "2026-11-07T15:00:00.000Z",
+    "endTime": "2026-12-06T22:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ac91a81fe2e33a7f764ddef",
+        "startTime": "2026-11-07T15:00:00.000Z",
+        "endTime": "2026-12-06T22:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      }
+    ],
+    "eventLink": "https://virginiaartfactory.org/event/third-culture-kwaku-exhibit/",
+    "ticketUri": "https://virginiaartfactory.org/event/third-culture-kwaku-exhibit/",
+    "hostLink": "https://virginiaartfactory.org/event/third-culture-kwaku-exhibit/",
+    "description": "<p><strong><span style=\"font-size:17px\">ARTfactory Presents “3<sup>rd</sup> Culture: Unseen Threads”, a Solo Exhibition by Kwaku Ofori-Yirenkyi Exploring Family, Migration, Memory, and Identity</span></strong></p><p><strong><em><br> </em></strong><span style=\"font-size:14px\">On display: November 7 – December 6, 2026<br> </span><strong><span style=\"font-size:15px\">Opening Reception: Saturday, November 7 | 6:00–8:00 PM</span></strong><strong><span style=\"font-size:14px\"><br> </span></strong><em><span style=\"font-size:14px\">Exhibition programming sponsored by Micron.<br> <br> </span></em><strong><span style=\"font-size:14px\">Meet the Artist: Print, Create &amp; Connect: Saturday, November 14 | 12:00-5:00 PM</span></strong><em><span style=\"font-size:14px\"><br> <br> </span></em><strong><u>Exhibit Summary</u></strong><br> ARTfactory is proud to present “3rd Culture: Unseen Threads” a solo exhibition by artist Kwaku Ofori- Yirenkyi (ABSKU) exploring the intersections of family, migration, memory, and cultural inheritance.</p><p> </p><p>Through painting, fabric, photography, relief, pattern, and abstraction, Ofori-Yirenkyi traces the unseen connections between Ghanaian heritage and contemporary American cultural influences, revealing how identity evolves across generations.</p><p> </p><p>The faceless black figures in his compositions shift attention away from individual likeness and toward presence—gesture, relationships, clothing, symbols, and the ways people carry one another. Kente and Ankara textiles, Adinkra symbols, family imagery, and Ghanaian cultural references exist alongside contemporary abstraction and Western influences.</p><p> </p><p>Across the exhibition, abstract fields of pattern and symbol gradually give way to more specific relationships, places, and family histories. This evolution reflects the artist’s understanding of 3rd Culture: traditional Ghanaian and contemporary Western cultures do not simply exist side by side. Through migration, assimilation, inheritance, and lived experience, they become interwoven into something new.</p><p> </p><p>The unseen threads are what remain connected through that transformation—family, ancestry, memory, values, culture, and belonging. The work asks not only what we inherit, but what we change, what we carry forward, and what we ultimately make our own.<br> <strong><br> <u>About the Artist</u></strong><br> Kwaku Ofori-Yirenkyi, also known as ABSKU, is a Ghanaian American visual artist based in Virginia whose work explores migration, cultural memory, identity, and belonging through the lens of the African diaspora. Born in Ghana and raised in the United States, he draws on Ghanaian textiles, Adinkra symbolism, family narratives, and personal and collective memory. Working primarily in painting and mixed media, ABSKU combines acrylic, oil pastel, fabric, collage, and sculptural materials to create layered works that examine how culture and identity are inherited, carried, and transformed across generations.</p><p> </p><p>For additional information, please visit the ARTfactory or contact the gallery for exhibition details.<br> <br> <strong><u>Press Inquiries</u></strong><br> Jordan Exum, Gallery Director<br> ARTfactory | Caton Merchant Gallery | 9419 Battle St, Manassas, VA 20110<br> 703.330.2787 | <a href=\"mailto:jexum@virginiaARTfactory.org\">jexum@virginiaARTfactory.org</a> | <a href=\"https://virginiaartfactory.org/\">https://virginiaartfactory.org/</a><br> Gallery hours: Tuesday-Saturday, 10 am-5 pm, Sunday, 12-5 pm </p><p> </p>",
+    "venue": "ARTfactory",
+    "address": {
+      "lat": 38.7505135,
+      "lng": -77.472129,
+      "address": "9419 Battle St, Manassas, VA 20110, USA",
+      "placeId": "ChIJeXPHEXVctokRnceWHhQLarU",
+      "cityName": "Manassas",
+      "stateAbbr": "VA",
+      "country": "United States",
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf0",
+          "qh": {
+            "longText": "9419",
+            "shortText": "9419",
+            "types": [
+              "street_number"
+            ]
+          },
+          "short_name": "9419",
+          "long_name": "9419",
+          "shortText": "9419",
+          "longText": "9419"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf1",
+          "qh": {
+            "longText": "Battle Street",
+            "shortText": "Battle St",
+            "types": [
+              "route"
+            ]
+          },
+          "short_name": "Battle St",
+          "long_name": "Battle Street",
+          "shortText": "Battle St",
+          "longText": "Battle Street"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf2",
+          "qh": {
+            "longText": "Manassas",
+            "shortText": "Manassas",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          "short_name": "Manassas",
+          "long_name": "Manassas",
+          "shortText": "Manassas",
+          "longText": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf3",
+          "qh": {
+            "longText": "Virginia",
+            "shortText": "VA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          "short_name": "VA",
+          "long_name": "Virginia",
+          "shortText": "VA",
+          "longText": "Virginia"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf4",
+          "qh": {
+            "longText": "United States",
+            "shortText": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          "short_name": "US",
+          "long_name": "United States",
+          "shortText": "US",
+          "longText": "United States"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf5",
+          "qh": {
+            "longText": "20110",
+            "shortText": "20110",
+            "types": [
+              "postal_code"
+            ]
+          },
+          "short_name": "20110",
+          "long_name": "20110",
+          "shortText": "20110",
+          "longText": "20110"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6ac91a81fe2e33a7f764ddf6",
+          "qh": {
+            "longText": "5438",
+            "shortText": "5438",
+            "types": [
+              "postal_code_suffix"
+            ]
+          },
+          "short_name": "5438",
+          "long_name": "5438",
+          "shortText": "5438",
+          "longText": "5438"
+        }
+      ]
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794063600000
+  },
+  {
+    "id": "f294ecf9-9e3e-9766-f651-9316c3876e67",
+    "title": "Norton Showcase - Presented by Norton Network",
+    "name": "Norton Showcase - Presented by Norton Network",
+    "startTime": "2026-11-07T16:00:00.000Z",
+    "endTime": "2026-11-07T22:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6a75113b82e4be12c7febd27",
+        "startTime": "2026-11-07T16:00:00.000Z",
+        "endTime": "2026-11-07T22:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      }
+    ],
+    "eventLink": null,
+    "ticketUri": "https://www.eventbrite.com/e/norton-showcase-presented-by-norton-network-grand-norton-tasting-tickets-1995323710932",
+    "hostLink": "https://www.facebook.com/share/1Brj1xfSah/",
+    "description": "Celebrate Norton, Virginia's native grape, at the Norton Showcase, presented by Norton Network! This exclusive event brings together Virginia's premier Norton producers for a day of exceptional wines, great food, live music, and friendly competition.\n\nWhether you're a longtime Norton fan or discovering the varietal for the first time, you'll enjoy sampling a wide range of Norton wines, meeting the winemakers behind them, and experiencing the passion that makes Virginia's native grape so special.\n\nGrand Norton Tasting Tickets\nYour Grand Norton Tasting Ticket includes tasting samples from each of the participating wineries.\n**$30 when purchased in advance\n*$40 when purchased at the gate on the day of the event\n\nGuests must be 21 years of age or older with a valid government-issued photo ID to purchase or redeem a Grand Norton Tasting Ticket. All IDs will be checked before participating in wine tastings or purchasing wine by the bottle or glass.\n\nEvent Highlights\n-Grand Norton Tasting featuring Virginia's top Norton producers\n-Virginia Norton Judgement wine competition\n-Meet the winemakers\n-Live music\n-Local food trucks and artisan vendors\n\nPlease Note\n-No pets allowed.\n-This is an outdoor event. Please dress for the weather.\n\nJoin us for a day of great wine, delicious food, live entertainment, and a celebration of Virginia's signature grape!\n",
+    "venue": "Piedmont Meadows",
+    "address": {
+      "lat": 38.5636055,
+      "lng": -77.38995969999999,
+      "address": "Marine Corps Base, 17937 Joplin Rd, Triangle, VA 22172, USA",
+      "placeId": "ChIJ91Y0_U_3tokRW6I-gzN9XJc",
+      "cityName": "Triangle",
+      "stateAbbr": "VA",
+      "country": "United States",
+      "addressComponents": [
+        {
+          "types": [
+            "point_of_interest",
+            "establishment"
+          ],
+          "_id": "6a75113b82e4be12c7febd28",
+          "qh": {
+            "longText": "Marine Corps Base",
+            "shortText": "Marine Corps Base",
+            "types": [
+              "point_of_interest",
+              "establishment"
+            ]
+          },
+          "short_name": "Marine Corps Base",
+          "long_name": "Marine Corps Base",
+          "shortText": "Marine Corps Base",
+          "longText": "Marine Corps Base"
+        },
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6a75113b82e4be12c7febd29",
+          "qh": {
+            "longText": "17937",
+            "shortText": "17937",
+            "types": [
+              "street_number"
+            ]
+          },
+          "short_name": "17937",
+          "long_name": "17937",
+          "shortText": "17937",
+          "longText": "17937"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6a75113b82e4be12c7febd2a",
+          "qh": {
+            "longText": "Joplin Road",
+            "shortText": "Joplin Rd",
+            "types": [
+              "route"
+            ]
+          },
+          "short_name": "Joplin Rd",
+          "long_name": "Joplin Road",
+          "shortText": "Joplin Rd",
+          "longText": "Joplin Road"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6a75113b82e4be12c7febd2b",
+          "qh": {
+            "longText": "Triangle",
+            "shortText": "Triangle",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          "short_name": "Triangle",
+          "long_name": "Triangle",
+          "shortText": "Triangle",
+          "longText": "Triangle"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6a75113b82e4be12c7febd2c",
+          "qh": {
+            "longText": "Prince William County",
+            "shortText": "Prince William County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          "short_name": "Prince William County",
+          "long_name": "Prince William County",
+          "shortText": "Prince William County",
+          "longText": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6a75113b82e4be12c7febd2d",
+          "qh": {
+            "longText": "Virginia",
+            "shortText": "VA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          "short_name": "VA",
+          "long_name": "Virginia",
+          "shortText": "VA",
+          "longText": "Virginia"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6a75113b82e4be12c7febd2e",
+          "qh": {
+            "longText": "United States",
+            "shortText": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          "short_name": "US",
+          "long_name": "United States",
+          "shortText": "US",
+          "longText": "United States"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6a75113b82e4be12c7febd2f",
+          "qh": {
+            "longText": "22172",
+            "shortText": "22172",
+            "types": [
+              "postal_code"
+            ]
+          },
+          "short_name": "22172",
+          "long_name": "22172",
+          "shortText": "22172",
+          "longText": "22172"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6a75113b82e4be12c7febd30",
+          "qh": {
+            "longText": "1613",
+            "shortText": "1613",
+            "types": [
+              "postal_code_suffix"
+            ]
+          },
+          "short_name": "1613",
+          "long_name": "1613",
+          "shortText": "1613",
+          "longText": "1613"
+        }
+      ]
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794067200000
+  },
+  {
+    "id": "f372155e-43f9-f585-9f99-51b8303e7069",
+    "title": "How to Make Stickers",
+    "name": "How to Make Stickers",
+    "startTime": "2026-11-07T16:00:00.000Z",
+    "endTime": "2026-11-07T19:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ad3d56707cb5daf7dbbd736",
+        "startTime": "2026-11-07T16:00:00.000Z",
+        "endTime": "2026-11-07T19:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 11:00 AM EST",
+        "startTimeText": "Nov 7 @ 11:00 AM ",
+        "endTimeFormatted": "Nov 7 @ 2:00 PM EST",
+        "endTimeText": "Nov 7 @ 2:00 PM "
+      }
+    ],
+    "eventLink": "https://virginiaartfactory.org/event/how-to-make-stickers/",
+    "ticketUri": null,
+    "hostLink": "https://www.virginiaartfactory.org/",
+    "description": "A hands-on one-day workshop teaching participants to design, print, and create custom stickers, including methods using and not using a cutting machine. Supplies are provided through a supply fee.",
+    "venue": "ARTfactory",
+    "venueInfo": {
+      "name": "ARTfactory"
+    },
+    "address": {
+      "address": "9419 Battle Street, Manassas, VA 20110",
+      "lat": 38.7505135,
+      "lng": -77.472129,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55a",
+          "long_name": "9419",
+          "short_name": "9419"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55b",
+          "long_name": "Battle Street",
+          "short_name": "Battle St"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55c",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55d",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55e",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab38f32e45a0cfecbe55f",
+          "long_name": "20110",
+          "short_name": "20110"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6acab38f32e45a0cfecbe560",
+          "long_name": "5438",
+          "short_name": "5438"
+        }
+      ],
+      "placeId": "ChIJeXPHEXVctokRnceWHhQLarU"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794067200000
+  },
+  {
+    "id": "8d43f7f2-c1f8-dfe5-7e53-44e21e0408be",
+    "title": "Celestial Sound Voyage: A Planetarium Sound Bath",
+    "name": "Celestial Sound Voyage: A Planetarium Sound Bath",
+    "startTime": "2026-11-07T17:00:00.000Z",
+    "endTime": "2026-11-07T18:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adc547f804a9862baeb3e89",
+        "startTime": "2026-11-07T17:00:00.000Z",
+        "endTime": "2026-11-07T18:00:00.000Z",
+        "startTimeFormatted": "Nov 7 @ 12:00 PM EST",
+        "startTimeText": "Nov 7 @ 12:00 PM ",
+        "endTimeFormatted": "Nov 7 @ 1:00 PM EST",
+        "endTimeText": "Nov 7 @ 1:00 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/celestial-sound-voyage-a-planetarium-sound-bath-tickets-1995245875123",
+    "ticketUri": "https://www.eventbrite.com/checkout-external?eid=1995245875123",
+    "hostLink": "https://www.eventbrite.com/o/beth-a-wolfe-yoga-9379684381",
+    "description": "Relax under the gentle glow of the night sky as waves of sound surround you in the planetarium dome.",
+    "address": {
+      "address": "14051 Spriggs Road, Woodbridge, VA 22193",
+      "lat": 38.649165,
+      "lng": -77.3844785,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc547f804a9862baeb3e8a",
+          "long_name": "14051",
+          "short_name": "14051"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc547f804a9862baeb3e8b",
+          "long_name": "Spriggs Road",
+          "short_name": "Spriggs Road"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e8c",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e8d",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e8e",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e8f",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc547f804a9862baeb3e90",
+          "long_name": "22193",
+          "short_name": "22193"
+        }
+      ],
+      "placeId": "ChIJ3TkE7xtYtokRl69u40wlytE"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794070800000
+  },
+  {
+    "id": "b13ededf-0f6f-3b46-1a33-65b57ff0b267",
+    "title": "Drinks of the Revolution",
+    "name": "Drinks of the Revolution",
+    "startTime": "2026-11-07T17:00:00.000Z",
+    "endTime": "2026-11-07T18:45:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adccb3f3af2859a42a4ae0c",
+        "startTime": "2026-11-07T17:00:00.000Z",
+        "endTime": "2026-11-07T18:45:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 12:00 PM EST",
+        "startTimeText": "Nov 7 @ 12:00 PM ",
+        "endTimeFormatted": "Nov 7 @ 1:45 PM EST",
+        "endTimeText": "Nov 7 @ 1:45 PM "
+      }
+    ],
+    "eventLink": "https://www.pwcva.gov/events/drinks-revolution",
+    "ticketUri": null,
+    "hostLink": "https://www.pwcva.gov/department/historic-preservation",
+    "description": "Historic foodways presentation about colonial-era tea, coffee, and hot chocolate, with samples provided.",
+    "venue": "Rippon Lodge Historic Site",
+    "venueInfo": {
+      "name": "Rippon Lodge Historic Site"
+    },
+    "address": {
+      "address": "15520 Blackburn Road, Woodbridge, VA 22191",
+      "lat": 38.6125384,
+      "lng": -77.27549189999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab5d532e45a0cfecc124f",
+          "long_name": "2150",
+          "short_name": "2150"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab5d532e45a0cfecc1250",
+          "long_name": "Silversmith Court",
+          "short_name": "Silversmith Ct"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab5d532e45a0cfecc1251",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab5d532e45a0cfecc1252",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab5d532e45a0cfecc1253",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab5d532e45a0cfecc1254",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab5d532e45a0cfecc1255",
+          "long_name": "22191",
+          "short_name": "22191"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6acab5d532e45a0cfecc1256",
+          "long_name": "4123",
+          "short_name": "4123"
+        }
+      ],
+      "placeId": "ChIJV7XeBlH_tokRr07uN0Mri5I"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794070800000
+  },
+  {
+    "id": "245677a0-47dd-b443-878a-1b4593233c3f",
+    "title": "Drinks of the Revolution at Rippon Lodge",
+    "name": "Drinks of the Revolution at Rippon Lodge",
+    "startTime": "2026-11-07T17:00:00.000Z",
+    "endTime": "2026-11-07T17:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6a7c81e65d88d85a9fbcc0d9",
+        "startTime": "2026-11-07T17:00:00.000Z",
+        "endTime": null,
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 7 @ 12:00 PM EST",
+        "startTimeText": "Nov 7 @ 12:00 PM "
+      }
+    ],
+    "eventLink": "https://www.facebook.com/events/1383036133287587/",
+    "ticketUri": "https://pwcparks.info/historicprograms&h=AUDUof_PZEAwLDgRMO_5xNsD9UIyNq7R0AKQ7FxH8QMvAIToTPwAWOR6yJOEYFVq6HTK3M8n3WwVmN0xQ_6mhRVdItIVU_upgQwCfwqc-xSdeSr_-qB9TDpv3gmO1NSqlspWphGwOkWDh_fviueEjg",
+    "hostLink": "https://en-gb.facebook.com/pwhistoric",
+    "description": "<div class=\"xdj266r x14z9mp xat24cr x1lziwak x1vvkbs\">Explore history through the flavors of the past at Rippon Lodge Historic Site.  Learn about the history of tea, coffee and hot chocolate from the colonial period with this special foodways presentation.  Samples of each will be provided.  Limited space and guests and advanced registration required <div class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj xzsf02u x1s688f\" role=\"button\" tabindex=\"0\"></div> \r\n </div> \r\n ",
+    "address": {
+      "address": "15520 Blackburn Rd, Woodbridge, VA 22191-4101, United States, 15520 Blackburn Rd, Woodbridge, VA 22191-4101, United States",
+      "lat": 38.6125384,
+      "lng": -77.27549189999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6977a55331965ab5f9fb562b",
+          "long_name": "15520",
+          "short_name": "15520"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6977a55331965ab5f9fb562c",
+          "long_name": "Blackburn Road",
+          "short_name": "Blackburn Rd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6977a55331965ab5f9fb562d",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6977a55331965ab5f9fb562e",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6977a55331965ab5f9fb562f",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6977a55331965ab5f9fb5630",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6977a55331965ab5f9fb5631",
+          "long_name": "22191",
+          "short_name": "22191"
+        }
+      ],
+      "placeId": "ChIJSb8H80__tokRd6e8lF1Q8po"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794070800000
+  },
+  {
+    "id": "ced1e06a-bd46-2cef-7dd6-522770082b0d",
+    "title": "Dancing with Epilepsy 2026",
+    "name": "Dancing with Epilepsy 2026",
+    "startTime": "2026-11-07T20:00:00.000Z",
+    "endTime": "2026-11-07T22:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ad85a624266eb3355618954",
+        "startTime": "2026-11-07T20:00:00.000Z",
+        "endTime": "2026-11-07T22:00:00.000Z",
+        "startTimeFormatted": "Nov 7 @ 3:00 PM EST",
+        "startTimeText": "Nov 7 @ 3:00 PM ",
+        "endTimeFormatted": "Nov 7 @ 5:00 PM EST",
+        "endTimeText": "Nov 7 @ 5:00 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/dancing-with-epilepsy-2026-tickets-2002620612160",
+    "ticketUri": "https://www.eventbrite.com/checkout-external?eid=2002620612160",
+    "hostLink": "https://www.eventbrite.com/o/rebekah-regeness-14933072876",
+    "description": "Get ready to groove at Dancing with Epilepsy , an epic in-person event celebrating movement and awareness towards the Epilepsy Foundation!",
+    "venue": "Onelife Fitness - Gainesville Heritage Village",
+    "venueInfo": {
+      "name": "Onelife Fitness - Gainesville Heritage Village"
+    },
+    "address": {
+      "address": "7201 Heritage Village Plaza, Gainesville, VA 20155",
+      "lat": 38.8023098,
+      "lng": -77.6042166,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ad85a624266eb3355618955",
+          "long_name": "7201",
+          "short_name": "7201"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ad85a624266eb3355618956",
+          "long_name": "Heritage Village Plaza",
+          "short_name": "Heritage Village Plaza"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ad85a624266eb3355618957",
+          "long_name": "Gainesville",
+          "short_name": "Gainesville"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ad85a624266eb3355618958",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ad85a624266eb3355618959",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ad85a624266eb335561895a",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ad85a624266eb335561895b",
+          "long_name": "20155",
+          "short_name": "20155"
+        }
+      ],
+      "placeId": "ChIJ0wPRurVntokRH6QIeuhGy4A"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794081600000
+  },
+  {
+    "id": "877d0e4a-02a4-ed31-80b2-e59516452b68",
+    "title": "Shemekia Copeland",
+    "name": "Shemekia Copeland",
+    "startTime": "2026-11-07T22:00:00.000Z",
+    "endTime": "2026-11-07T22:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ad876264266eb33556c4bec",
+        "startTime": "2026-11-07T22:00:00.000Z",
+        "endTime": null,
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 7 @ 5:00 PM EST",
+        "startTimeText": "Nov 7 @ 5:00 PM "
+      }
+    ],
+    "eventLink": "https://hylton.calendar.gmu.edu/shemekia-copeland",
+    "ticketUri": null,
+    "hostLink": "https://hyltoncenter.org/",
+    "description": "Five-time Grammy nominee Shemekia Copeland performs blues with contemporary edge in the Hylton Center's American Roots Series. Snacks and beverages are available for purchase during the performance.",
+    "venue": "Hylton Performing Arts Center, Gregory Family Theater",
+    "venueInfo": {
+      "name": "Hylton Performing Arts Center, Gregory Family Theater"
+    },
+    "address": {
+      "address": "10960 George Mason Circle, Manassas, VA 20110",
+      "lat": 38.7593876,
+      "lng": -77.5243392,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "69f21018ca33fc8b80448be5",
+          "long_name": "10960",
+          "short_name": "10960"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "69f21018ca33fc8b80448be6",
+          "long_name": "George Mason Circle",
+          "short_name": "George Mason Cir"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "69f21018ca33fc8b80448be7",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "69f21018ca33fc8b80448be8",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "69f21018ca33fc8b80448be9",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "69f21018ca33fc8b80448bea",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "69f21018ca33fc8b80448beb",
+          "long_name": "20110",
+          "short_name": "20110"
+        }
+      ],
+      "placeId": "ChIJVbF61bBdtokRvYREb5_MfWg"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794088800000
+  },
+  {
+    "id": "da8a46c1-2b10-5e58-cfed-d74fcab7e568",
+    "title": "Spike Burrton",
+    "name": "Spike Burrton",
+    "startTime": "2026-11-07T23:00:00.000Z",
+    "endTime": "2026-11-08T02:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ac0e23d41a818bbce4f48fa",
+        "startTime": "2026-11-07T23:00:00.000Z",
+        "endTime": "2026-11-08T02:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 6:00 PM EST",
+        "startTimeText": "Nov 7 @ 6:00 PM ",
+        "endTimeFormatted": "Nov 7 @ 9:00 PM EST",
+        "endTimeText": "Nov 7 @ 9:00 PM "
+      }
+    ],
+    "eventLink": "https://www.thefarmbreweryatbroadrun.com/event/spike-burrton/",
+    "ticketUri": null,
+    "hostLink": "https://www.thefarmbreweryatbroadrun.com/",
+    "description": "Live music at The Farm Brewery at Broad Run.",
+    "venue": "The Farm Brewery at Broad Run",
+    "venueInfo": {
+      "name": "The Farm Brewery at Broad Run"
+    },
+    "address": {
+      "address": "16015 John Marshall Hwy, Broad Run, VA 20137",
+      "lat": 38.8187437,
+      "lng": -77.6687488,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48fc",
+          "long_name": "16015",
+          "short_name": "16015"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48fd",
+          "long_name": "John Marshall Highway",
+          "short_name": "John Marshall Hwy"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48fe",
+          "long_name": "Broad Run",
+          "short_name": "Broad Run"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48ff",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f4900",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f4901",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac0e23d41a818bbce4f4902",
+          "long_name": "20137",
+          "short_name": "20137"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6ac0e23d41a818bbce4f4903",
+          "long_name": "2250",
+          "short_name": "2250"
+        }
+      ],
+      "placeId": "ChIJ2Wvb9-5ltokRR7kfPiTrWtI"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794092400000
+  },
+  {
+    "id": "e3938a44-acc0-290e-ad22-e4cc24b86927",
+    "title": "Dopo Ora's First Saturdays Live Jazz",
+    "name": "Dopo Ora's First Saturdays Live Jazz",
+    "startTime": "2026-11-08T01:00:00.000Z",
+    "endTime": "2026-12-06T02:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adc5468804a9862baeb3511",
+        "startTime": "2026-11-08T01:00:00.000Z",
+        "endTime": "2026-11-08T02:30:00.000Z",
+        "startTimeFormatted": "Nov 7 @ 8:00 PM EST",
+        "startTimeText": "Nov 7 @ 8:00 PM ",
+        "endTimeFormatted": "Nov 7 @ 9:30 PM EST",
+        "endTimeText": "Nov 7 @ 9:30 PM "
+      },
+      {
+        "_id": "6adc5468804a9862baeb3512",
+        "startTime": "2026-12-06T01:00:00.000Z",
+        "endTime": "2026-12-06T02:30:00.000Z",
+        "startTimeFormatted": "Dec 5 @ 8:00 PM EST",
+        "startTimeText": "Dec 5 @ 8:00 PM ",
+        "endTimeFormatted": "Dec 5 @ 9:30 PM EST",
+        "endTimeText": "Dec 5 @ 9:30 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/dopo-oras-first-saturdays-live-jazz-tickets-1984217794838",
+    "ticketUri": "https://www.eventbrite.com/checkout-external?eid=1984217794838",
+    "hostLink": "https://www.eventbrite.com/o/dopo-ora-116873097711",
+    "description": "Experience Haymarket’s most refined live music night.\nOn the first Saturday of every month, Dopo Ora transforms into an intimate jazz lounge",
+    "address": {
+      "address": "15120 Washington Street, Haymarket, VA 20169",
+      "lat": 38.8133609,
+      "lng": -77.6382269,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc5468804a9862baeb3513",
+          "long_name": "15120",
+          "short_name": "15120"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc5468804a9862baeb3514",
+          "long_name": "Washington Street",
+          "short_name": "Washington Street"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb3515",
+          "long_name": "Haymarket",
+          "short_name": "Haymarket"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb3516",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb3517",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb3518",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc5468804a9862baeb3519",
+          "long_name": "20169",
+          "short_name": "20169"
+        }
+      ],
+      "placeId": "ChIJM98nZBFmtokR0ii-4-TR2jU"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794099600000
+  },
+  {
+    "id": "b961d800-66dc-7eae-3b3b-046db6ba3136",
+    "title": "Riedel Tasting Event",
+    "name": "Riedel Tasting Event",
+    "startTime": "2026-11-08T16:00:00.000Z",
+    "endTime": "2026-11-08T16:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adcc91c3af2859a42a48d56",
+        "startTime": "2026-11-08T16:00:00.000Z",
+        "endTime": null,
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 8 @ 11:00 AM EST",
+        "startTimeText": "Nov 8 @ 11:00 AM "
+      }
+    ],
+    "eventLink": "https://wineryatlagrange.orderport.net/product-details/1543/riedel-tasting-event",
+    "ticketUri": "https://wineryatlagrange.orderport.net/product-details/1543/riedel-tasting-event",
+    "hostLink": "https://wineryatlagrange.com/",
+    "description": "An educational wine tasting led by a Riedel representative exploring how glass shape affects wine perception. Wines are provided by The Winery at La Grange, with light snacks and a complimentary Riedel Performance Collection tasting set included.",
+    "venue": "The Winery at La Grange",
+    "venueInfo": {
+      "name": "The Winery at La Grange"
+    },
+    "address": {
+      "address": "4970 Antioch Road, Haymarket, VA 20169",
+      "lat": 38.851303,
+      "lng": -77.6864712,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e20",
+          "long_name": "4970",
+          "short_name": "4970"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e21",
+          "long_name": "Antioch Road",
+          "short_name": "Antioch Rd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e22",
+          "long_name": "Haymarket",
+          "short_name": "Haymarket"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e23",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e24",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e25",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e26",
+          "long_name": "20169",
+          "short_name": "20169"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6ac0e20c41a818bbce4f2e27",
+          "long_name": "2259",
+          "short_name": "2259"
+        }
+      ],
+      "placeId": "ChIJGdDvoW1vtokRoAiJupPpQfY"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794153600000
+  },
+  {
+    "id": "82f66fdf-95b2-c92a-7186-740a5ce8d8b6",
+    "title": "Wool Spinning Workshop",
+    "name": "Wool Spinning Workshop",
+    "startTime": "2026-11-08T19:00:00.000Z",
+    "endTime": "2026-11-08T21:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adcc8793af2859a42a47fd5",
+        "startTime": "2026-11-08T19:00:00.000Z",
+        "endTime": "2026-11-08T21:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 8 @ 2:00 PM EST",
+        "startTimeText": "Nov 8 @ 2:00 PM ",
+        "endTimeFormatted": "Nov 8 @ 4:00 PM EST",
+        "endTimeText": "Nov 8 @ 4:00 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/wool-spinning-workshop-tickets-2002233253560",
+    "ticketUri": "https://www.eventbrite.com/e/wool-spinning-workshop-tickets-2002233253560",
+    "hostLink": "https://historicdumfriesva.org/",
+    "description": "Learn how to spin sheep’s wool into yarn. Participants will learn to card wool and spin it on a spinning wheel and drop spinner, and may bring yarn scraps to spin into new yarn.",
+    "venue": "Weems-Botts Museum Welcome Center",
+    "venueInfo": {
+      "name": "Weems-Botts Museum Welcome Center"
+    },
+    "address": {
+      "address": "3944 Cameron Street, Dumfries, VA 22026",
+      "lat": 38.5687139,
+      "lng": -77.3298401,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc5479804a9862baeb3dd5",
+          "long_name": "3944",
+          "short_name": "3944"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc5479804a9862baeb3dd6",
+          "long_name": "Cameron Street",
+          "short_name": "Cameron Street"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc5479804a9862baeb3dd7",
+          "long_name": "Dumfries",
+          "short_name": "Dumfries"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc5479804a9862baeb3dd8",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc5479804a9862baeb3dd9",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc5479804a9862baeb3dda",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc5479804a9862baeb3ddb",
+          "long_name": "22026",
+          "short_name": "22026"
+        }
+      ],
+      "placeId": "ChIJQbNMLwv5tokRI-x-GbggeW0"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794164400000
+  },
+  {
+    "id": "32210bcc-0546-7e45-a2ef-461406eb2f13",
+    "title": "Keyboard Conversations® with Jeffrey Siegel: Popular Piano Classics",
+    "name": "Keyboard Conversations® with Jeffrey Siegel: Popular Piano Classics",
+    "startTime": "2026-11-08T19:00:00.000Z",
+    "endTime": "2026-11-08T19:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6a7c7ee05d88d85a9fbbd460",
+        "startTime": "2026-11-08T19:00:00.000Z",
+        "endTime": null,
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 8 @ 2:00 PM EST",
+        "startTimeText": "Nov 8 @ 2:00 PM "
+      }
+    ],
+    "eventLink": "https://hylton.calendar.gmu.edu/keyboard-conversations-174-with-jeffrey-siegel-popular-piano-classics",
+    "ticketUri": null,
+    "hostLink": "https://hyltoncenter.org/",
+    "description": "Pianist Jeffrey Siegel presents Beethoven, Mozart, Chopin, Debussy, and Gershwin with commentary, followed by a short audience Q&A. A pre-performance discussion begins one hour before the concert.",
+    "venue": "Hylton Performing Arts Center, Merchant Hall",
+    "venueInfo": {
+      "name": "Hylton Performing Arts Center, Merchant Hall"
+    },
+    "address": {
+      "address": "10960 George Mason Circle, Manassas, VA 20110",
+      "lat": 38.7593876,
+      "lng": -77.5243392,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "69ef6d797413bfbbd15b1227",
+          "long_name": "10960",
+          "short_name": "10960"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "69ef6d797413bfbbd15b1228",
+          "long_name": "George Mason Circle",
+          "short_name": "George Mason Cir"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "69ef6d797413bfbbd15b1229",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "69ef6d797413bfbbd15b122a",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "69ef6d797413bfbbd15b122b",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "69ef6d797413bfbbd15b122c",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "69ef6d797413bfbbd15b122d",
+          "long_name": "20110",
+          "short_name": "20110"
+        }
+      ],
+      "placeId": "ChIJVbF61bBdtokRvYREb5_MfWg"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794164400000
+  }
+]

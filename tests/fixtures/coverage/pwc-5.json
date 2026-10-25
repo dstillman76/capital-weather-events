@@ -1,0 +1,2696 @@
+[
+  {
+    "id": "1ec688eb-4e57-de96-3b6e-5d47ea9a1d30",
+    "title": "Weekend at Bernies",
+    "name": "Weekend at Bernies",
+    "startTime": "2026-10-31T18:00:00.000Z",
+    "endTime": "2026-10-31T21:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ac0e23d41a818bbce4f48cf",
+        "startTime": "2026-10-31T18:00:00.000Z",
+        "endTime": "2026-10-31T21:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Oct 31 @ 2:00 PM EDT",
+        "startTimeText": "Oct 31 @ 2:00 PM ",
+        "endTimeFormatted": "Oct 31 @ 5:00 PM EDT",
+        "endTimeText": "Oct 31 @ 5:00 PM "
+      }
+    ],
+    "eventLink": "https://www.thefarmbreweryatbroadrun.com/event/weekend-at-bernies/",
+    "ticketUri": null,
+    "hostLink": "https://www.thefarmbreweryatbroadrun.com/",
+    "description": null,
+    "venue": "The Farm Brewery at Broad Run",
+    "venueInfo": {
+      "name": "The Farm Brewery at Broad Run"
+    },
+    "address": {
+      "address": "16015 John Marshall Hwy, Broad Run, VA 20137",
+      "lat": 38.8187437,
+      "lng": -77.6687488,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d1",
+          "long_name": "16015",
+          "short_name": "16015"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d2",
+          "long_name": "John Marshall Highway",
+          "short_name": "John Marshall Hwy"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d3",
+          "long_name": "Broad Run",
+          "short_name": "Broad Run"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d4",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d5",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d6",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d7",
+          "long_name": "20137",
+          "short_name": "20137"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6ac0e23d41a818bbce4f48d8",
+          "long_name": "2250",
+          "short_name": "2250"
+        }
+      ],
+      "placeId": "ChIJ2Wvb9-5ltokRR7kfPiTrWtI"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793469600000
+  },
+  {
+    "id": "f7a1fe09-02e4-b7eb-8bc5-051407331322",
+    "title": "Legal In The District",
+    "name": "Legal In The District",
+    "startTime": "2026-10-31T22:30:00.000Z",
+    "endTime": "2026-11-01T02:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6acd05d6bd1e3e07d67dc134",
+        "startTime": "2026-10-31T22:30:00.000Z",
+        "endTime": "2026-11-01T02:30:00.000Z",
+        "timezone": "EDT",
+        "startTimeFormatted": "Oct 31 @ 6:30 PM EDT",
+        "startTimeText": "Oct 31 @ 6:30 PM ",
+        "endTimeFormatted": "Oct 31 @ 10:30 PM EDT",
+        "endTimeText": "Oct 31 @ 10:30 PM "
+      }
+    ],
+    "eventLink": "https://www.facebook.com/events/28050639594632369/",
+    "ticketUri": null,
+    "hostLink": "https://en-gb.facebook.com/NovaLiveVA",
+    "description": "<div class=\"xdj266r x14z9mp xat24cr x1lziwak x1vvkbs\">Performing outdoors on theYARD live music venue stage at NOVA LIVE; A collection of talented DC area musicians that rock fun cover tunes on stages entertaining the masses</div> \r\n ",
+    "address": {
+      "address": "NOVA LIVE, 9927 Discovery Blvd, Manassas, VA 20109, United States",
+      "lat": 38.7420199,
+      "lng": -77.5228977,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2cc",
+          "long_name": "9901",
+          "short_name": "9901"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2cd",
+          "long_name": "Discovery Boulevard",
+          "short_name": "Discovery Blvd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2ce",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2cf",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2d0",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2d1",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acd05d8bd1e3e07d67dc2d2",
+          "long_name": "20109",
+          "short_name": "20109"
+        }
+      ],
+      "placeId": "ChIJ1bLV9tFdtokRVWdRUf673e4"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793485800000
+  },
+  {
+    "id": "5203532b-38f4-8f8b-c8e0-c36dafe62744",
+    "title": "JaggedEdge Halloween Party + Costume Contest",
+    "name": "JaggedEdge Halloween Party + Costume Contest",
+    "startTime": "2026-10-31T23:30:00.000Z",
+    "endTime": "2026-11-01T02:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adcc8903af2859a42a484f2",
+        "startTime": "2026-10-31T23:30:00.000Z",
+        "endTime": "2026-11-01T02:30:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Oct 31 @ 7:30 PM EDT",
+        "startTimeText": "Oct 31 @ 7:30 PM ",
+        "endTimeFormatted": "Oct 31 @ 10:30 PM EDT",
+        "endTimeText": "Oct 31 @ 10:30 PM "
+      }
+    ],
+    "eventLink": "https://whattododmv.com/?event=pwc_e2f697cf",
+    "ticketUri": null,
+    "hostLink": "https://craftworxtaproom.com/",
+    "description": "Halloween party at CraftWorx Taproom featuring JaggedEdge, craft beer, spooky entertainment, and a costume contest.",
+    "venue": "CraftWorx Taproom",
+    "venueInfo": {
+      "name": "CraftWorx Taproom"
+    },
+    "address": {
+      "address": "5615 Wellington Road, Suite 101, Gainesville, VA 20155",
+      "lat": 38.7929726,
+      "lng": -77.59294129999999,
+      "addressComponents": [
+        {
+          "types": [
+            "subpremise"
+          ],
+          "_id": "6acab26e32e45a0cfecbce65",
+          "long_name": "101",
+          "short_name": "101"
+        },
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab26e32e45a0cfecbce66",
+          "long_name": "5615",
+          "short_name": "5615"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab26e32e45a0cfecbce67",
+          "long_name": "Wellington Road",
+          "short_name": "Wellington Rd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab26e32e45a0cfecbce68",
+          "long_name": "Gainesville",
+          "short_name": "Gainesville"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab26e32e45a0cfecbce69",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab26e32e45a0cfecbce6a",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab26e32e45a0cfecbce6b",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab26e32e45a0cfecbce6c",
+          "long_name": "20155",
+          "short_name": "20155"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6acab26e32e45a0cfecbce6d",
+          "long_name": "1689",
+          "short_name": "1689"
+        }
+      ],
+      "placeId": "ChIJw5WILrtntokRDDCEsXOtZW4"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793489400000
+  },
+  {
+    "id": "e365bfd6-d9cc-6080-9ca9-9c774b56b956",
+    "title": "Obsession Band",
+    "name": "Obsession Band",
+    "startTime": "2026-11-01T00:00:00.000Z",
+    "endTime": "2026-11-01T00:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6acab1d732e45a0cfecbb9f5",
+        "startTime": "2026-11-01T00:00:00.000Z",
+        "endTime": null,
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Oct 31 @ 8:00 PM EDT",
+        "startTimeText": "Oct 31 @ 8:00 PM "
+      }
+    ],
+    "eventLink": "https://www.therosegamingresort.com/playbook-events/obsession-band/",
+    "ticketUri": null,
+    "hostLink": "https://www.therosegamingresort.com/",
+    "description": "Obsession is a Go-Go band from the DMV that writes and produces original music. This free live show is scheduled for 8:00 PM. Guests must be 21 or older.",
+    "venue": "The Rose Gaming Resort",
+    "venueInfo": {
+      "name": "The Rose Gaming Resort"
+    },
+    "address": {
+      "address": "17680 Colonial Street, Dumfries, VA 22026",
+      "lat": 38.5703076,
+      "lng": -77.32336029999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9f7",
+          "long_name": "17680",
+          "short_name": "17680"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9f8",
+          "long_name": "Colonial Street",
+          "short_name": "Colonial St"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9f9",
+          "long_name": "Dumfries",
+          "short_name": "Dumfries"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9fa",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9fb",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9fc",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab1d732e45a0cfecbb9fd",
+          "long_name": "22026",
+          "short_name": "22026"
+        }
+      ],
+      "placeId": "ChIJLQwTrg35tokRdgrF5yLOgEU"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793491200000
+  },
+  {
+    "id": "ff27ae93-4b41-4959-f51c-fbe5ace40264",
+    "title": "Rock Your Decade Party - The Trilogy",
+    "name": "Rock Your Decade Party - The Trilogy",
+    "startTime": "2026-11-01T00:00:00.000Z",
+    "endTime": "2026-11-01T04:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adc547f804a9862baeb3e9a",
+        "startTime": "2026-11-01T00:00:00.000Z",
+        "endTime": "2026-11-01T04:00:00.000Z",
+        "startTimeFormatted": "Oct 31 @ 8:00 PM EDT",
+        "startTimeText": "Oct 31 @ 8:00 PM ",
+        "endTimeFormatted": "Nov 1 @ 12:00 AM EDT",
+        "endTimeText": "Nov 1 @ 12:00 AM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/rock-your-decade-party-the-trilogy-tickets-2002057374501",
+    "ticketUri": "https://www.eventbrite.com/checkout-external?eid=2002057374501",
+    "hostLink": "https://www.eventbrite.com/o/pwc-xal-chapter-of-alpha-phi-alpha-fraternity-74577744303",
+    "description": "Get ready to dance through the decades this Halloween!  The Rock Your Decade Party is back for the Trilogy!",
+    "address": {
+      "address": "12745 Sea Ray Lane, Woodbridge, VA 22192",
+      "lat": 38.67534759999999,
+      "lng": -77.25387719999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc547f804a9862baeb3e9b",
+          "long_name": "12745",
+          "short_name": "12745"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc547f804a9862baeb3e9c",
+          "long_name": "Sea Ray Lane",
+          "short_name": "Sea Ray Lane"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e9d",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e9e",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e9f",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3ea0",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc547f804a9862baeb3ea1",
+          "long_name": "22192",
+          "short_name": "22192"
+        }
+      ],
+      "placeId": "ChIJSau1G0VUtokROy0ZxdSi0Qo"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793491200000
+  },
+  {
+    "id": "b10e8738-4482-c96f-d89b-b99be603856e",
+    "title": "Dale City Winter Farmers Market",
+    "name": "Dale City Winter Farmers Market",
+    "startTime": "2026-10-25T12:00:00.000Z",
+    "endTime": "2026-11-29T18:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adb70cefd35149a0e3c80b8",
+        "startTime": "2026-10-25T12:00:00.000Z",
+        "endTime": "2026-10-25T17:00:00.000Z",
+        "startTimeFormatted": "Oct 25 @ 8:00 AM EDT",
+        "startTimeText": "Oct 25 @ 8:00 AM ",
+        "endTimeFormatted": "Oct 25 @ 1:00 PM EDT",
+        "endTimeText": "Oct 25 @ 1:00 PM "
+      },
+      {
+        "_id": "6adb70cefd35149a0e3c80b9",
+        "startTime": "2026-11-01T13:00:00.000Z",
+        "endTime": "2026-11-01T18:00:00.000Z",
+        "startTimeFormatted": "Nov 1 @ 8:00 AM EST",
+        "startTimeText": "Nov 1 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 1 @ 1:00 PM EST",
+        "endTimeText": "Nov 1 @ 1:00 PM "
+      },
+      {
+        "_id": "6adb70cefd35149a0e3c80ba",
+        "startTime": "2026-11-08T13:00:00.000Z",
+        "endTime": "2026-11-08T18:00:00.000Z",
+        "startTimeFormatted": "Nov 8 @ 8:00 AM EST",
+        "startTimeText": "Nov 8 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 8 @ 1:00 PM EST",
+        "endTimeText": "Nov 8 @ 1:00 PM "
+      },
+      {
+        "_id": "6adb70cefd35149a0e3c80bb",
+        "startTime": "2026-11-15T13:00:00.000Z",
+        "endTime": "2026-11-15T18:00:00.000Z",
+        "startTimeFormatted": "Nov 15 @ 8:00 AM EST",
+        "startTimeText": "Nov 15 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 15 @ 1:00 PM EST",
+        "endTimeText": "Nov 15 @ 1:00 PM "
+      },
+      {
+        "_id": "6adb70cefd35149a0e3c80bc",
+        "startTime": "2026-11-22T13:00:00.000Z",
+        "endTime": "2026-11-22T18:00:00.000Z",
+        "startTimeFormatted": "Nov 22 @ 8:00 AM EST",
+        "startTimeText": "Nov 22 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 22 @ 1:00 PM EST",
+        "endTimeText": "Nov 22 @ 1:00 PM "
+      },
+      {
+        "_id": "6adb70cefd35149a0e3c80bd",
+        "startTime": "2026-11-29T13:00:00.000Z",
+        "endTime": "2026-11-29T18:00:00.000Z",
+        "startTimeFormatted": "Nov 29 @ 8:00 AM EST",
+        "startTimeText": "Nov 29 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 29 @ 1:00 PM EST",
+        "endTimeText": "Nov 29 @ 1:00 PM "
+      }
+    ],
+    "eventLink": "https://www.facebook.com/events/736235929515281",
+    "ticketUri": null,
+    "hostLink": "https://en-gb.facebook.com/PWCParks",
+    "description": "<div class=\"xdj266r x14z9mp xat24cr x1lziwak x1vvkbs\">At the winter market you can find high quality honey, produce, as well as prepared and ready to eat foods, freshly baked breads, and sweet treats. There are hardy greens, winter squashes, apples, sweet potatoes, and other root vegetables. </div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">This is the time of year to enjoy slow roasted meats and veggies, stews, chili, and hearty soups. Get out your roasting pan, stew pot, and slow cooker. Soon the aroma coming from your kitchen will be irresistible!</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">No animals are allowed at both markets with the exception of service animals.</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\"><a class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj x1fey0fg x1s688f\" href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fpwcparks.info%2Ffarmersmarket&amp;h=AUALhRFOgvpfrYUhzJbjmE6kbqIEdhe1bNtFhoADaaZSEf1340UaP7BQSgQfRmeWJZB3mUhkR_rFqfTBYoFm1bN6ThdaXee826mxjRHqUSz9u4FXI4Z946TFOfcUO2itjCzQYe6ksbGCEE-qM9P_vbOHZx8-Yl3M&amp;__tn__=q&amp;c[0]=AUDD90Rdoy_YbvRK6eMiOxcurjnEaMdmPyg5e5B_qcAyTYfnLC-ui6MPEz8Yd5LsZ6em3unD_u5ZpFWPOmMuXk-2LtaZMD3xMs_OQmCzOWQzSQXKKW6fQTZd7Okm5D2VN-xGQYxlfXvktL37pZJxJP6PCMir5wm3xlU\" rel=\"nofollow noreferrer\" role=\"link\" tabindex=\"0\" target=\"_blank\">https://pwcparks.info/farmersmarket</a></div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">14090 Gemini Way, Dale City</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">Dale City Farmers Market<br class=\"html-br\">Since 1987, Dale City Farmers Market has been at the forefront of serving Prince William County residents. With nearly the 50 vendors in the summer and 30+ in the winter, is one of the largest open-air markets in the region.</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">Winter Market, December 2025-March 2026: 10am-1pm<br class=\"html-br\">Spring/Summer/Fall Market, April-November, 2026: 8am-1pm<br class=\"html-br\">Note: Closed Easter Sunday <div class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj xzsf02u x1s688f\" role=\"button\" tabindex=\"0\"></div> \r\n </div> \r\n ",
+    "address": {
+      "address": "Dale City Farmer's Market, 14040 Gemini Way, Woodbridge, VA 22193, United States",
+      "lat": 38.6481685,
+      "lng": -77.34112189999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6939435cd1170347e284e86e",
+          "long_name": "4395",
+          "short_name": "4395"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6939435cd1170347e284e86f",
+          "long_name": "Dale Boulevard",
+          "short_name": "Dale Blvd"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6939435cd1170347e284e870",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6939435cd1170347e284e871",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6939435cd1170347e284e872",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6939435cd1170347e284e873",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6939435cd1170347e284e874",
+          "long_name": "22193",
+          "short_name": "22193"
+        }
+      ],
+      "placeId": "ChIJaRqy4chXtokRXhadjLTPVXM"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793538000000
+  },
+  {
+    "id": "12665721-4437-bde3-40af-d90af0006bde",
+    "title": "Intro to Tap for Adults",
+    "name": "Intro to Tap for Adults",
+    "startTime": "2026-11-01T17:00:00.000Z",
+    "endTime": "2026-11-01T18:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6acab38f32e45a0cfecbe544",
+        "startTime": "2026-11-01T17:00:00.000Z",
+        "endTime": "2026-11-01T18:30:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 1 @ 12:00 PM EST",
+        "startTimeText": "Nov 1 @ 12:00 PM ",
+        "endTimeFormatted": "Nov 1 @ 1:30 PM EST",
+        "endTimeText": "Nov 1 @ 1:30 PM "
+      }
+    ],
+    "eventLink": "https://virginiaartfactory.org/event/intro-to-tap-for-adults/",
+    "ticketUri": null,
+    "hostLink": "https://www.virginiaartfactory.org/",
+    "description": "A beginner tap-dance class covering ankle work, toe taps, and foundational steps. Students must provide their own tap shoes. Ages 15 and older.",
+    "venue": "ARTfactory",
+    "venueInfo": {
+      "name": "ARTfactory"
+    },
+    "address": {
+      "address": "9419 Battle Street, Manassas, VA 20110",
+      "lat": 38.7505135,
+      "lng": -77.472129,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab38f32e45a0cfecbe546",
+          "long_name": "9419",
+          "short_name": "9419"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab38f32e45a0cfecbe547",
+          "long_name": "Battle Street",
+          "short_name": "Battle St"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe548",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe549",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab38f32e45a0cfecbe54a",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab38f32e45a0cfecbe54b",
+          "long_name": "20110",
+          "short_name": "20110"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6acab38f32e45a0cfecbe54c",
+          "long_name": "5438",
+          "short_name": "5438"
+        }
+      ],
+      "placeId": "ChIJeXPHEXVctokRnceWHhQLarU"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793552400000
+  },
+  {
+    "id": "104f10f7-4802-d9c2-a459-f87f2b46df21",
+    "title": "Program Update: The Acting Company: Great Expectations",
+    "name": "Program Update: The Acting Company: Great Expectations",
+    "startTime": "2026-11-01T19:00:00.000Z",
+    "endTime": "2026-11-01T19:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ad3d56707cb5daf7dbbd734",
+        "startTime": "2026-11-01T19:00:00.000Z",
+        "endTime": null,
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 1 @ 2:00 PM EST",
+        "startTimeText": "Nov 1 @ 2:00 PM "
+      }
+    ],
+    "eventLink": "https://hylton.calendar.gmu.edu/program-update-the-acting-company-great-expectations",
+    "ticketUri": null,
+    "hostLink": "https://hyltoncenter.org/",
+    "description": "A theatrical presentation by The Acting Company at the Hylton Performing Arts Center.",
+    "venue": "Hylton Performing Arts Center, Merchant Hall",
+    "venueInfo": {
+      "name": "Hylton Performing Arts Center, Merchant Hall"
+    },
+    "address": {
+      "address": "10960 George Mason Circle, Manassas, VA 20110",
+      "lat": 38.7593876,
+      "lng": -77.5243392,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab38e32e45a0cfecbe41b",
+          "long_name": "10960",
+          "short_name": "10960"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab38e32e45a0cfecbe41c",
+          "long_name": "George Mason Circle",
+          "short_name": "George Mason Cir"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab38e32e45a0cfecbe41d",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab38e32e45a0cfecbe41e",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab38e32e45a0cfecbe41f",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab38e32e45a0cfecbe420",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab38e32e45a0cfecbe421",
+          "long_name": "20110",
+          "short_name": "20110"
+        }
+      ],
+      "placeId": "ChIJVbF61bBdtokRvYREb5_MfWg"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793559600000
+  },
+  {
+    "id": "52caa797-6e87-10e4-7c19-af8d237a5386",
+    "title": "American Trap Upgrades",
+    "name": "American Trap Upgrades",
+    "startTime": "2026-11-04T17:00:00.000Z",
+    "endTime": "2026-11-04T17:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "69e52fdf60e8033e32839f18",
+        "startTime": "2026-11-04T17:00:00.000Z",
+        "endTime": null,
+        "isAllDay": true
+      }
+    ],
+    "eventLink": "https://boisegunclub.com/virginia/events/american-trap-upgrades-2026-11-04",
+    "hostLink": "https://www.google.com/search?sca_esv=0eb4af0c9f494922&gl=us&hl=en&q=Quantico+Shooting+Club&ludocid=14881993622655294644&ibp=gwp%3B0,7",
+    "description": "The targets should make setup and tear down much faster, while adding consistency to the match course of fire Thanks to our member dues for this more than $1,500 enhancement Our project to...",
+    "venueInfo": {
+      "name": "Quantico Shooting Club",
+      "link": "https://www.google.com/search?sca_esv=0eb4af0c9f494922&gl=us&hl=en&q=Quantico+Shooting+Club&ludocid=14881993622655294644&ibp=gwp%3B0,7",
+      "rating": 4.7,
+      "reviews": 25
+    },
+    "address": {
+      "address": "MCB 4, Triangle, VA",
+      "lat": 38.5303751,
+      "lng": -77.42737989999999,
+      "addressComponents": [
+        {
+          "types": [],
+          "_id": "69e52fdf60e8033e32839f19",
+          "long_name": "MCB 4",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "69e52fdf60e8033e32839f1a",
+          "long_name": "Triangle",
+          "short_name": "Triangle"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "_id": "69e52fdf60e8033e32839f1b",
+          "long_name": "Marine Corps Base Quantico",
+          "short_name": "Marine Corps Base Quantico"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "69e52fdf60e8033e32839f1c",
+          "long_name": "Stafford County",
+          "short_name": "Stafford County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "69e52fdf60e8033e32839f1d",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "69e52fdf60e8033e32839f1e",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "69e52fdf60e8033e32839f1f",
+          "long_name": "22172",
+          "short_name": "22172"
+        }
+      ],
+      "placeId": "ChIJjSmVZxrxtokRtFz_A1p2h84"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793811600000
+  },
+  {
+    "id": "7b221b44-53dc-fa5b-f1f6-45f9895b97da",
+    "title": "The Ritual of Mask Making: Play, Performance, and Self-Permission Workshop",
+    "name": "The Ritual of Mask Making: Play, Performance, and Self-Permission Workshop",
+    "startTime": "2026-11-05T00:00:00.000Z",
+    "endTime": "2026-11-05T02:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adb6f79fd35149a0e3c7afe",
+        "startTime": "2026-11-05T00:00:00.000Z",
+        "endTime": "2026-11-05T02:00:00.000Z",
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 4 @ 7:00 PM EST",
+        "startTimeText": "Nov 4 @ 7:00 PM ",
+        "endTimeFormatted": "Nov 4 @ 9:00 PM EST",
+        "endTimeText": "Nov 4 @ 9:00 PM "
+      }
+    ],
+    "eventLink": "https://www.facebook.com/events/1773717730537992",
+    "hostLink": "https://en-gb.facebook.com/HyltonCenter",
+    "description": "<div class=\"xdj266r x14z9mp xat24cr x1lziwak x1vvkbs\">In this workshop, participants will create a face mask, allowing Veterans and their adult family members to express their emotional journeys through art. Creating masks provides a symbolic way to explore and represent inner emotions, offering a tangible outlet for processing the complexities of trauma and recovery. The workshop will also encourage participants to share their stories through mask creations and accompanying personal reflections. Led by Steven Luu, U.S. Air Force Veteran, recent MFA graduate and artist in George Mason University's School of Art, this workshop is open and FREE to Veterans, Servicemembers, military family members, and military caregivers ages 18 and older. Space is limited.</div> \r\n <div class=\"x14z9mp xat24cr x1lziwak x1vvkbs xtlvy1s\">Please reference our information sheet for details, including minimum age requirement and community policies regarding Veterans and the Arts on-site workshops. More information about the on-site workshop will be provided to registrants by email. <div class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xkrqix3 x1sur9pj xzsf02u x1s688f\" role=\"button\" tabindex=\"0\"></div> \r\n </div> \r\n ",
+    "address": {
+      "address": "10960 George Mason Cir, Manassas, VA, United States, Virginia 20110, 10960 George Mason Cir, Manassas, VA 20110, United States",
+      "lat": 38.7593876,
+      "lng": -77.5243392,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd0",
+          "long_name": "10960",
+          "short_name": "10960"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd1",
+          "long_name": "George Mason Circle",
+          "short_name": "George Mason Cir"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd2",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd3",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd4",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd5",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac3b1328c8241981f79dfd6",
+          "long_name": "20110",
+          "short_name": "20110"
+        }
+      ],
+      "placeId": "ChIJVbF61bBdtokRvYREb5_MfWg"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793836800000
+  },
+  {
+    "id": "56221449-ac6e-4e21-9db9-8e8cce11662c",
+    "title": "MCFTB Military Family USMC Birthday Ball",
+    "name": "MCFTB Military Family USMC Birthday Ball",
+    "startTime": "2026-11-05T21:00:00.000Z",
+    "endTime": "2026-11-06T01:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adccb153af2859a42a4a2c1",
+        "startTime": "2026-11-05T21:00:00.000Z",
+        "endTime": "2026-11-06T01:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 5 @ 4:00 PM EST",
+        "startTimeText": "Nov 5 @ 4:00 PM ",
+        "endTimeFormatted": "Nov 5 @ 8:00 PM EST",
+        "endTimeText": "Nov 5 @ 8:00 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/2026-military-family-usmc-birthday-ball-tickets-2001013168252",
+    "ticketUri": "https://www.eventbrite.com/e/2026-military-family-usmc-birthday-ball-tickets-2001013168252",
+    "hostLink": "https://quantico.usmc-mccs.org/",
+    "description": "A family Marine Corps Birthday celebration recognizing military children and the Marine Corps’ 251st birthday. Activities include a traditional cake-cutting ceremony, guest speaker, dancing, kid-friendly buffet options, and other family activities. Civilian dress is semi-formal; attendance is limited to DoD-authorized patrons.",
+    "venue": "The Clubs at Quantico",
+    "venueInfo": {
+      "name": "The Clubs at Quantico"
+    },
+    "address": {
+      "address": "3017 Russell Road, Quantico, VA 22134",
+      "lat": 38.5096073,
+      "lng": -77.31081379999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc547f804a9862baeb3e6d",
+          "long_name": "3017",
+          "short_name": "3017"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc547f804a9862baeb3e6e",
+          "long_name": "Russell Road",
+          "short_name": "Russell Road"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e6f",
+          "long_name": "Quantico",
+          "short_name": "Quantico"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e70",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e71",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc547f804a9862baeb3e72",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc547f804a9862baeb3e73",
+          "long_name": "22134",
+          "short_name": "22134"
+        }
+      ],
+      "placeId": "ChIJUbk0GKL7tokRSuefTRjgQv8"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793912400000
+  },
+  {
+    "id": "37f56722-2a61-d6bd-67d1-1d801284f5df",
+    "title": "SPICE GIRLS TRIBUTE \"WANNABE\"",
+    "name": "SPICE GIRLS TRIBUTE \"WANNABE\"",
+    "startTime": "2026-11-06T01:00:00.000Z",
+    "endTime": "2026-11-06T03:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6acab38d32e45a0cfecbe398",
+        "startTime": "2026-11-06T01:00:00.000Z",
+        "endTime": "2026-11-06T03:30:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 5 @ 8:00 PM EST",
+        "startTimeText": "Nov 5 @ 8:00 PM ",
+        "endTimeFormatted": "Nov 5 @ 10:30 PM EST",
+        "endTimeText": "Nov 5 @ 10:30 PM "
+      }
+    ],
+    "eventLink": "https://thesalisburycenter.com/tc-events/wannabe-live-november-5-2026/",
+    "ticketUri": null,
+    "hostLink": "https://thesalisburycenter.com/",
+    "description": "A high-energy Spice Girls tribute concert featuring five performers, a six-piece live band, live vocals, choreography, colorful costumes, audience participation, food, drinks, and professional stage production. All ages are welcome; guests under 18 must attend with a parent or guardian.",
+    "venue": "The Salisbury Center",
+    "venueInfo": {
+      "name": "The Salisbury Center"
+    },
+    "address": {
+      "address": "8890 Mathis Avenue, Manassas, VA 20110, United States",
+      "lat": 38.7626629,
+      "lng": -77.4632853,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39a",
+          "long_name": "8890",
+          "short_name": "8890"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39b",
+          "long_name": "Mathis Avenue",
+          "short_name": "Mathis Ave"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39c",
+          "long_name": "Manassas",
+          "short_name": "Manassas"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39d",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39e",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab38d32e45a0cfecbe39f",
+          "long_name": "20110",
+          "short_name": "20110"
+        }
+      ],
+      "placeId": "ChIJldRKDIRbtokRwo3LuDmT9aI"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1793926800000
+  },
+  {
+    "id": "cc2b9687-2dce-1803-0d6d-645e910ac35b",
+    "title": "Friday Night Karaoke",
+    "name": "Friday Night Karaoke",
+    "startTime": "2026-11-07T00:00:00.000Z",
+    "endTime": "2029-06-02T23:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b2",
+        "startTime": "2026-11-07T00:00:00.000Z",
+        "endTime": "2026-11-08T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b3",
+        "startTime": "2026-11-14T00:00:00.000Z",
+        "endTime": "2026-11-15T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b4",
+        "startTime": "2026-11-21T00:00:00.000Z",
+        "endTime": "2026-11-22T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b5",
+        "startTime": "2026-11-28T00:00:00.000Z",
+        "endTime": "2026-11-29T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b6",
+        "startTime": "2026-12-05T00:00:00.000Z",
+        "endTime": "2026-12-06T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b7",
+        "startTime": "2026-12-12T00:00:00.000Z",
+        "endTime": "2026-12-13T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b8",
+        "startTime": "2026-12-19T00:00:00.000Z",
+        "endTime": "2026-12-20T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5b9",
+        "startTime": "2026-12-26T00:00:00.000Z",
+        "endTime": "2026-12-27T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ba",
+        "startTime": "2027-01-02T00:00:00.000Z",
+        "endTime": "2027-01-03T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5bb",
+        "startTime": "2027-01-09T00:00:00.000Z",
+        "endTime": "2027-01-10T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5bc",
+        "startTime": "2027-01-16T00:00:00.000Z",
+        "endTime": "2027-01-17T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5bd",
+        "startTime": "2027-01-23T00:00:00.000Z",
+        "endTime": "2027-01-24T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5be",
+        "startTime": "2027-01-30T00:00:00.000Z",
+        "endTime": "2027-01-31T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5bf",
+        "startTime": "2027-02-06T00:00:00.000Z",
+        "endTime": "2027-02-07T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c0",
+        "startTime": "2027-02-13T00:00:00.000Z",
+        "endTime": "2027-02-14T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c1",
+        "startTime": "2027-02-20T00:00:00.000Z",
+        "endTime": "2027-02-21T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c2",
+        "startTime": "2027-02-27T00:00:00.000Z",
+        "endTime": "2027-02-28T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c3",
+        "startTime": "2027-03-06T00:00:00.000Z",
+        "endTime": "2027-03-07T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c4",
+        "startTime": "2027-03-13T00:00:00.000Z",
+        "endTime": "2027-03-14T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c5",
+        "startTime": "2027-03-19T23:00:00.000Z",
+        "endTime": "2027-03-20T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c6",
+        "startTime": "2027-03-26T23:00:00.000Z",
+        "endTime": "2027-03-27T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c7",
+        "startTime": "2027-04-02T23:00:00.000Z",
+        "endTime": "2027-04-03T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c8",
+        "startTime": "2027-04-09T23:00:00.000Z",
+        "endTime": "2027-04-10T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5c9",
+        "startTime": "2027-04-16T23:00:00.000Z",
+        "endTime": "2027-04-17T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ca",
+        "startTime": "2027-04-23T23:00:00.000Z",
+        "endTime": "2027-04-24T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5cb",
+        "startTime": "2027-04-30T23:00:00.000Z",
+        "endTime": "2027-05-01T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5cc",
+        "startTime": "2027-05-07T23:00:00.000Z",
+        "endTime": "2027-05-08T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5cd",
+        "startTime": "2027-05-14T23:00:00.000Z",
+        "endTime": "2027-05-15T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ce",
+        "startTime": "2027-05-21T23:00:00.000Z",
+        "endTime": "2027-05-22T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5cf",
+        "startTime": "2027-05-28T23:00:00.000Z",
+        "endTime": "2027-05-29T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d0",
+        "startTime": "2027-06-04T23:00:00.000Z",
+        "endTime": "2027-06-05T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d1",
+        "startTime": "2027-06-11T23:00:00.000Z",
+        "endTime": "2027-06-12T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d2",
+        "startTime": "2027-06-18T23:00:00.000Z",
+        "endTime": "2027-06-19T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d3",
+        "startTime": "2027-06-25T23:00:00.000Z",
+        "endTime": "2027-06-26T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d4",
+        "startTime": "2027-07-02T23:00:00.000Z",
+        "endTime": "2027-07-03T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d5",
+        "startTime": "2027-07-09T23:00:00.000Z",
+        "endTime": "2027-07-10T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d6",
+        "startTime": "2027-07-16T23:00:00.000Z",
+        "endTime": "2027-07-17T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d7",
+        "startTime": "2027-07-23T23:00:00.000Z",
+        "endTime": "2027-07-24T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d8",
+        "startTime": "2027-07-30T23:00:00.000Z",
+        "endTime": "2027-07-31T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5d9",
+        "startTime": "2027-08-06T23:00:00.000Z",
+        "endTime": "2027-08-07T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5da",
+        "startTime": "2027-08-13T23:00:00.000Z",
+        "endTime": "2027-08-14T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5db",
+        "startTime": "2027-08-20T23:00:00.000Z",
+        "endTime": "2027-08-21T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5dc",
+        "startTime": "2027-08-27T23:00:00.000Z",
+        "endTime": "2027-08-28T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5dd",
+        "startTime": "2027-09-03T23:00:00.000Z",
+        "endTime": "2027-09-04T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5de",
+        "startTime": "2027-09-10T23:00:00.000Z",
+        "endTime": "2027-09-11T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5df",
+        "startTime": "2027-09-17T23:00:00.000Z",
+        "endTime": "2027-09-18T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e0",
+        "startTime": "2027-09-24T23:00:00.000Z",
+        "endTime": "2027-09-25T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e1",
+        "startTime": "2027-10-01T23:00:00.000Z",
+        "endTime": "2027-10-02T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e2",
+        "startTime": "2027-10-08T23:00:00.000Z",
+        "endTime": "2027-10-09T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e3",
+        "startTime": "2027-10-15T23:00:00.000Z",
+        "endTime": "2027-10-16T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e4",
+        "startTime": "2027-10-22T23:00:00.000Z",
+        "endTime": "2027-10-23T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e5",
+        "startTime": "2027-10-29T23:00:00.000Z",
+        "endTime": "2027-10-30T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e6",
+        "startTime": "2027-11-05T23:00:00.000Z",
+        "endTime": "2027-11-06T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e7",
+        "startTime": "2027-11-13T00:00:00.000Z",
+        "endTime": "2027-11-14T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e8",
+        "startTime": "2027-11-20T00:00:00.000Z",
+        "endTime": "2027-11-21T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5e9",
+        "startTime": "2027-11-27T00:00:00.000Z",
+        "endTime": "2027-11-28T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ea",
+        "startTime": "2027-12-04T00:00:00.000Z",
+        "endTime": "2027-12-05T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5eb",
+        "startTime": "2027-12-11T00:00:00.000Z",
+        "endTime": "2027-12-12T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ec",
+        "startTime": "2027-12-18T00:00:00.000Z",
+        "endTime": "2027-12-19T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ed",
+        "startTime": "2027-12-25T00:00:00.000Z",
+        "endTime": "2027-12-26T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ee",
+        "startTime": "2028-01-01T00:00:00.000Z",
+        "endTime": "2028-01-02T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ef",
+        "startTime": "2028-01-08T00:00:00.000Z",
+        "endTime": "2028-01-09T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f0",
+        "startTime": "2028-01-15T00:00:00.000Z",
+        "endTime": "2028-01-16T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f1",
+        "startTime": "2028-01-22T00:00:00.000Z",
+        "endTime": "2028-01-23T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f2",
+        "startTime": "2028-01-29T00:00:00.000Z",
+        "endTime": "2028-01-30T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f3",
+        "startTime": "2028-02-05T00:00:00.000Z",
+        "endTime": "2028-02-06T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f4",
+        "startTime": "2028-02-12T00:00:00.000Z",
+        "endTime": "2028-02-13T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f5",
+        "startTime": "2028-02-19T00:00:00.000Z",
+        "endTime": "2028-02-20T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f6",
+        "startTime": "2028-02-26T00:00:00.000Z",
+        "endTime": "2028-02-27T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f7",
+        "startTime": "2028-03-04T00:00:00.000Z",
+        "endTime": "2028-03-05T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f8",
+        "startTime": "2028-03-11T00:00:00.000Z",
+        "endTime": "2028-03-12T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5f9",
+        "startTime": "2028-03-17T23:00:00.000Z",
+        "endTime": "2028-03-18T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5fa",
+        "startTime": "2028-03-24T23:00:00.000Z",
+        "endTime": "2028-03-25T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5fb",
+        "startTime": "2028-03-31T23:00:00.000Z",
+        "endTime": "2028-04-01T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5fc",
+        "startTime": "2028-04-07T23:00:00.000Z",
+        "endTime": "2028-04-08T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5fd",
+        "startTime": "2028-04-14T23:00:00.000Z",
+        "endTime": "2028-04-15T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5fe",
+        "startTime": "2028-04-21T23:00:00.000Z",
+        "endTime": "2028-04-22T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca5ff",
+        "startTime": "2028-04-28T23:00:00.000Z",
+        "endTime": "2028-04-29T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca600",
+        "startTime": "2028-05-05T23:00:00.000Z",
+        "endTime": "2028-05-06T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca601",
+        "startTime": "2028-05-12T23:00:00.000Z",
+        "endTime": "2028-05-13T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca602",
+        "startTime": "2028-05-19T23:00:00.000Z",
+        "endTime": "2028-05-20T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca603",
+        "startTime": "2028-05-26T23:00:00.000Z",
+        "endTime": "2028-05-27T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca604",
+        "startTime": "2028-06-02T23:00:00.000Z",
+        "endTime": "2028-06-03T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca605",
+        "startTime": "2028-06-09T23:00:00.000Z",
+        "endTime": "2028-06-10T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca606",
+        "startTime": "2028-06-16T23:00:00.000Z",
+        "endTime": "2028-06-17T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca607",
+        "startTime": "2028-06-23T23:00:00.000Z",
+        "endTime": "2028-06-24T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca608",
+        "startTime": "2028-06-30T23:00:00.000Z",
+        "endTime": "2028-07-01T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca609",
+        "startTime": "2028-07-07T23:00:00.000Z",
+        "endTime": "2028-07-08T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60a",
+        "startTime": "2028-07-14T23:00:00.000Z",
+        "endTime": "2028-07-15T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60b",
+        "startTime": "2028-07-21T23:00:00.000Z",
+        "endTime": "2028-07-22T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60c",
+        "startTime": "2028-07-28T23:00:00.000Z",
+        "endTime": "2028-07-29T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60d",
+        "startTime": "2028-08-04T23:00:00.000Z",
+        "endTime": "2028-08-05T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60e",
+        "startTime": "2028-08-11T23:00:00.000Z",
+        "endTime": "2028-08-12T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca60f",
+        "startTime": "2028-08-18T23:00:00.000Z",
+        "endTime": "2028-08-19T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca610",
+        "startTime": "2028-08-25T23:00:00.000Z",
+        "endTime": "2028-08-26T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca611",
+        "startTime": "2028-09-01T23:00:00.000Z",
+        "endTime": "2028-09-02T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca612",
+        "startTime": "2028-09-08T23:00:00.000Z",
+        "endTime": "2028-09-09T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca613",
+        "startTime": "2028-09-15T23:00:00.000Z",
+        "endTime": "2028-09-16T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca614",
+        "startTime": "2028-09-22T23:00:00.000Z",
+        "endTime": "2028-09-23T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca615",
+        "startTime": "2028-09-29T23:00:00.000Z",
+        "endTime": "2028-09-30T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca616",
+        "startTime": "2028-10-06T23:00:00.000Z",
+        "endTime": "2028-10-07T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca617",
+        "startTime": "2028-10-13T23:00:00.000Z",
+        "endTime": "2028-10-14T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca618",
+        "startTime": "2028-10-20T23:00:00.000Z",
+        "endTime": "2028-10-21T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca619",
+        "startTime": "2028-10-27T23:00:00.000Z",
+        "endTime": "2028-10-28T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61a",
+        "startTime": "2028-11-03T23:00:00.000Z",
+        "endTime": "2028-11-04T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61b",
+        "startTime": "2028-11-11T00:00:00.000Z",
+        "endTime": "2028-11-12T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61c",
+        "startTime": "2028-11-18T00:00:00.000Z",
+        "endTime": "2028-11-19T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61d",
+        "startTime": "2028-11-25T00:00:00.000Z",
+        "endTime": "2028-11-26T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61e",
+        "startTime": "2028-12-02T00:00:00.000Z",
+        "endTime": "2028-12-03T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca61f",
+        "startTime": "2028-12-09T00:00:00.000Z",
+        "endTime": "2028-12-10T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca620",
+        "startTime": "2028-12-16T00:00:00.000Z",
+        "endTime": "2028-12-17T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca621",
+        "startTime": "2028-12-23T00:00:00.000Z",
+        "endTime": "2028-12-24T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca622",
+        "startTime": "2028-12-30T00:00:00.000Z",
+        "endTime": "2028-12-31T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca623",
+        "startTime": "2029-01-06T00:00:00.000Z",
+        "endTime": "2029-01-07T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca624",
+        "startTime": "2029-01-13T00:00:00.000Z",
+        "endTime": "2029-01-14T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca625",
+        "startTime": "2029-01-20T00:00:00.000Z",
+        "endTime": "2029-01-21T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca626",
+        "startTime": "2029-01-27T00:00:00.000Z",
+        "endTime": "2029-01-28T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca627",
+        "startTime": "2029-02-03T00:00:00.000Z",
+        "endTime": "2029-02-04T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca628",
+        "startTime": "2029-02-10T00:00:00.000Z",
+        "endTime": "2029-02-11T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca629",
+        "startTime": "2029-02-17T00:00:00.000Z",
+        "endTime": "2029-02-18T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62a",
+        "startTime": "2029-02-24T00:00:00.000Z",
+        "endTime": "2029-02-25T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62b",
+        "startTime": "2029-03-03T00:00:00.000Z",
+        "endTime": "2029-03-04T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62c",
+        "startTime": "2029-03-10T00:00:00.000Z",
+        "endTime": "2029-03-11T00:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62d",
+        "startTime": "2029-03-16T23:00:00.000Z",
+        "endTime": "2029-03-17T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62e",
+        "startTime": "2029-03-23T23:00:00.000Z",
+        "endTime": "2029-03-24T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca62f",
+        "startTime": "2029-03-30T23:00:00.000Z",
+        "endTime": "2029-03-31T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca630",
+        "startTime": "2029-04-06T23:00:00.000Z",
+        "endTime": "2029-04-07T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca631",
+        "startTime": "2029-04-13T23:00:00.000Z",
+        "endTime": "2029-04-14T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca632",
+        "startTime": "2029-04-20T23:00:00.000Z",
+        "endTime": "2029-04-21T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca633",
+        "startTime": "2029-04-27T23:00:00.000Z",
+        "endTime": "2029-04-28T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca634",
+        "startTime": "2029-05-04T23:00:00.000Z",
+        "endTime": "2029-05-05T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca635",
+        "startTime": "2029-05-11T23:00:00.000Z",
+        "endTime": "2029-05-12T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca636",
+        "startTime": "2029-05-18T23:00:00.000Z",
+        "endTime": "2029-05-19T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca637",
+        "startTime": "2029-05-25T23:00:00.000Z",
+        "endTime": "2029-05-26T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      },
+      {
+        "_id": "6ac11e8b2e4525be2a9ca638",
+        "startTime": "2029-06-01T23:00:00.000Z",
+        "endTime": "2029-06-02T23:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false
+      }
+    ],
+    "eventLink": "https://thespotatbelmontbay.com/page/events-and-specials",
+    "ticketUri": null,
+    "hostLink": "https://thespotatbelmontbay.com/page/events-and-specials",
+    "description": "<p>Grab the mic and kick off your weekend with us! Join us for <strong>Friday Night Karaoke at The Spot at Belmont Bay in Woodbridge, VA</strong>—where great food, delicious cocktails, waterfront views, and plenty of laughs come together for one FUN night! 🍹🎤🌅</p><p>Whether you're ready to belt out your favorite song, cheer on your friends, or just sit back with a drink and enjoy the entertainment, there's a seat waiting for you.</p><p>Come hungry, come thirsty, and bring your best karaoke song! 🎵</p><p>📍 <strong>The Spot at Belmont Bay&nbsp;</strong><br>🎤 <strong>Friday Night Karaoke Starts at 7pm&nbsp;</strong><br>🍽️ Great Food • 🍹 Great Drinks • 🎶 Great Times</p><p><strong>Eat. Drink. Sing. Repeat.</strong></p>",
+    "venue": "The Spot at Belmont Bay",
+    "address": {
+      "lat": 38.6542946,
+      "lng": -77.2337878,
+      "address": "551 Harbor Side St, Woodbridge, VA 22191, USA",
+      "placeId": "ChIJRRnDFQRVtokRV7KDFaadMgU",
+      "cityName": "Woodbridge",
+      "stateAbbr": "VA",
+      "country": "United States",
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca639",
+          "qh": {
+            "longText": "551",
+            "shortText": "551",
+            "types": [
+              "street_number"
+            ]
+          },
+          "short_name": "551",
+          "long_name": "551",
+          "shortText": "551",
+          "longText": "551"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63a",
+          "qh": {
+            "longText": "Harbor Side Street",
+            "shortText": "Harbor Side St",
+            "types": [
+              "route"
+            ]
+          },
+          "short_name": "Harbor Side St",
+          "long_name": "Harbor Side Street",
+          "shortText": "Harbor Side St",
+          "longText": "Harbor Side Street"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63b",
+          "qh": {
+            "longText": "Woodbridge",
+            "shortText": "Woodbridge",
+            "types": [
+              "locality",
+              "political"
+            ]
+          },
+          "short_name": "Woodbridge",
+          "long_name": "Woodbridge",
+          "shortText": "Woodbridge",
+          "longText": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63c",
+          "qh": {
+            "longText": "Prince William County",
+            "shortText": "Prince William County",
+            "types": [
+              "administrative_area_level_2",
+              "political"
+            ]
+          },
+          "short_name": "Prince William County",
+          "long_name": "Prince William County",
+          "shortText": "Prince William County",
+          "longText": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63d",
+          "qh": {
+            "longText": "Virginia",
+            "shortText": "VA",
+            "types": [
+              "administrative_area_level_1",
+              "political"
+            ]
+          },
+          "short_name": "VA",
+          "long_name": "Virginia",
+          "shortText": "VA",
+          "longText": "Virginia"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63e",
+          "qh": {
+            "longText": "United States",
+            "shortText": "US",
+            "types": [
+              "country",
+              "political"
+            ]
+          },
+          "short_name": "US",
+          "long_name": "United States",
+          "shortText": "US",
+          "longText": "United States"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca63f",
+          "qh": {
+            "longText": "22191",
+            "shortText": "22191",
+            "types": [
+              "postal_code"
+            ]
+          },
+          "short_name": "22191",
+          "long_name": "22191",
+          "shortText": "22191",
+          "longText": "22191"
+        },
+        {
+          "types": [
+            "postal_code_suffix"
+          ],
+          "_id": "6ac11e8b2e4525be2a9ca640",
+          "qh": {
+            "longText": "5473",
+            "shortText": "5473",
+            "types": [
+              "postal_code_suffix"
+            ]
+          },
+          "short_name": "5473",
+          "long_name": "5473",
+          "shortText": "5473",
+          "longText": "5473"
+        }
+      ]
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794009600000
+  },
+  {
+    "id": "07a90fa4-3d48-fed5-4b79-fb99bba26581",
+    "title": "Next Stop Comedy at Trouvaille Brewing Company! - Haymarket, VA",
+    "name": "Next Stop Comedy at Trouvaille Brewing Company! - Haymarket, VA",
+    "startTime": "2026-11-07T01:00:00.000Z",
+    "endTime": "2027-01-16T02:30:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adc5468804a9862baeb34f7",
+        "startTime": "2026-11-07T01:00:00.000Z",
+        "endTime": "2026-11-07T02:30:00.000Z",
+        "startTimeFormatted": "Nov 6 @ 8:00 PM EST",
+        "startTimeText": "Nov 6 @ 8:00 PM ",
+        "endTimeFormatted": "Nov 6 @ 9:30 PM EST",
+        "endTimeText": "Nov 6 @ 9:30 PM "
+      },
+      {
+        "_id": "6adc5468804a9862baeb34f8",
+        "startTime": "2027-01-01T01:00:00.000Z",
+        "endTime": "2027-01-01T02:30:00.000Z",
+        "startTimeFormatted": "Dec 31 @ 8:00 PM EST",
+        "startTimeText": "Dec 31 @ 8:00 PM ",
+        "endTimeFormatted": "Dec 31 @ 9:30 PM EST",
+        "endTimeText": "Dec 31 @ 9:30 PM "
+      },
+      {
+        "_id": "6adc5468804a9862baeb34f9",
+        "startTime": "2027-01-16T01:00:00.000Z",
+        "endTime": "2027-01-16T02:30:00.000Z",
+        "startTimeFormatted": "Jan 15 @ 8:00 PM EST",
+        "startTimeText": "Jan 15 @ 8:00 PM ",
+        "endTimeFormatted": "Jan 15 @ 9:30 PM EST",
+        "endTimeText": "Jan 15 @ 9:30 PM "
+      }
+    ],
+    "eventLink": "https://www.eventbrite.com/e/next-stop-comedy-at-trouvaille-brewing-company-haymarket-va-tickets-1990902834973",
+    "ticketUri": "https://www.eventbrite.com/checkout-external?eid=1990902834973",
+    "hostLink": "https://www.eventbrite.com/o/next-stop-comedy-38476008843",
+    "description": "Next Stop! - A Comedy Show Near You! Join us at Trouvaille Brewing for a brand new line-up of comedians each month!",
+    "address": {
+      "address": "14600 Washington Street #Unit 150, Haymarket, VA 20169",
+      "lat": 38.80991269999999,
+      "lng": -77.62877399999999,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6adc5468804a9862baeb34fa",
+          "long_name": "14600",
+          "short_name": "14600"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6adc5468804a9862baeb34fb",
+          "long_name": "Washington Street",
+          "short_name": "Washington Street"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb34fc",
+          "long_name": "Haymarket",
+          "short_name": "Haymarket"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb34fd",
+          "long_name": "",
+          "short_name": ""
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb34fe",
+          "long_name": "VA",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6adc5468804a9862baeb34ff",
+          "long_name": "US",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6adc5468804a9862baeb3500",
+          "long_name": "20169",
+          "short_name": "20169"
+        }
+      ],
+      "placeId": "ChIJdxtyTz5mtokRbH-zveKVy6M"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794013200000
+  },
+  {
+    "id": "328ec683-8004-f49d-f175-baf1e25fc83a",
+    "title": "Virginia Bird Calls at Veterans Memorial Park",
+    "name": "Virginia Bird Calls at Veterans Memorial Park",
+    "startTime": "2026-11-07T13:00:00.000Z",
+    "endTime": "2026-11-07T15:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adccb3f3af2859a42a4adfc",
+        "startTime": "2026-11-07T13:00:00.000Z",
+        "endTime": "2026-11-07T15:00:00.000Z",
+        "isAllDay": false,
+        "isEndAllDay": false,
+        "startTimeFormatted": "Nov 7 @ 8:00 AM EST",
+        "startTimeText": "Nov 7 @ 8:00 AM ",
+        "endTimeFormatted": "Nov 7 @ 10:00 AM EST",
+        "endTimeText": "Nov 7 @ 10:00 AM "
+      }
+    ],
+    "eventLink": "https://whattododmv.com/?event=pwc_8f8e56dd",
+    "ticketUri": null,
+    "hostLink": "https://www.pwcva.gov/department/parks-recreation",
+    "description": "Master Naturalist Candice Lowther discusses Virginia bird species, followed by a park stroll to listen for and learn familiar bird calls.",
+    "venue": "Veterans Memorial Park",
+    "venueInfo": {
+      "name": "Veterans Memorial Park"
+    },
+    "address": {
+      "address": "14300 Veterans Drive, Woodbridge, VA 22191",
+      "lat": 38.6437414,
+      "lng": -77.2498549,
+      "addressComponents": [
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6acab5d332e45a0cfecc1127",
+          "long_name": "14300",
+          "short_name": "14300"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6acab5d332e45a0cfecc1128",
+          "long_name": "Veterans Drive",
+          "short_name": "Veterans Dr"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6acab5d332e45a0cfecc1129",
+          "long_name": "Woodbridge",
+          "short_name": "Woodbridge"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6acab5d332e45a0cfecc112a",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6acab5d332e45a0cfecc112b",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6acab5d332e45a0cfecc112c",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6acab5d332e45a0cfecc112d",
+          "long_name": "22191",
+          "short_name": "22191"
+        }
+      ],
+      "placeId": "ChIJl9yU_KJVtokRCLiK7FLcKRY"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794056400000
+  },
+  {
+    "id": "eaed8d5d-5b53-f3a7-01fb-34b8698776d2",
+    "title": "Place a Flag in Semper Fidelis Memorial Park",
+    "name": "Place a Flag in Semper Fidelis Memorial Park",
+    "startTime": "2026-11-07T14:00:00.000Z",
+    "endTime": "2026-11-11T22:00:00.000Z",
+    "eventTimes": [
+      {
+        "_id": "6adb6fd5fd35149a0e3c7fae",
+        "startTime": "2026-11-07T14:00:00.000Z",
+        "endTime": "2026-11-11T22:00:00.000Z",
+        "timezone": "EST",
+        "startTimeFormatted": "Nov 7 @ 9:00 AM EST",
+        "startTimeText": "Nov 7 @ 9:00 AM ",
+        "endTimeFormatted": "Nov 11 @ 5:00 PM EST",
+        "endTimeText": "Nov 11 @ 5:00 PM "
+      }
+    ],
+    "eventLink": "https://www.marineheritage.org/veterans-day-weekend-at-the-museum",
+    "ticketUri": null,
+    "hostLink": "https://www.marineheritage.org/",
+    "description": "Visitors may pick up a complimentary American flag and place it along the trails of Semper Fidelis Memorial Park in honor of veterans and Marines. The next occurrence begins November 7, 2026. ([marineheritage.org](https://www.marineheritage.org/veterans-day-weekend-at-the-museum?utm_source=openai))",
+    "venue": "Semper Fidelis Memorial Park, National Museum of the Marine Corps",
+    "venueInfo": {
+      "name": "Semper Fidelis Memorial Park, National Museum of the Marine Corps"
+    },
+    "address": {
+      "address": "1775 Semper Fidelis Way, Triangle, VA 22172",
+      "lat": 38.5445,
+      "lng": -77.34364529999999,
+      "addressComponents": [
+        {
+          "types": [
+            "establishment",
+            "museum",
+            "park",
+            "parking",
+            "point_of_interest",
+            "tourist_attraction"
+          ],
+          "_id": "6ac3b1868c8241981f7a1ef8",
+          "long_name": "National Museum of the Marine Corps",
+          "short_name": "National Museum of the Marine Corps"
+        },
+        {
+          "types": [
+            "street_number"
+          ],
+          "_id": "6ac3b1868c8241981f7a1ef9",
+          "long_name": "1775",
+          "short_name": "1775"
+        },
+        {
+          "types": [
+            "route"
+          ],
+          "_id": "6ac3b1868c8241981f7a1efa",
+          "long_name": "Semper Fidelis Way",
+          "short_name": "Semper Fidelis Wy"
+        },
+        {
+          "types": [
+            "neighborhood",
+            "political"
+          ],
+          "_id": "6ac3b1868c8241981f7a1efb",
+          "long_name": "Marine Corps Base Quantico",
+          "short_name": "Marine Corps Base Quantico"
+        },
+        {
+          "types": [
+            "locality",
+            "political"
+          ],
+          "_id": "6ac3b1868c8241981f7a1efc",
+          "long_name": "Triangle",
+          "short_name": "Triangle"
+        },
+        {
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ],
+          "_id": "6ac3b1868c8241981f7a1efd",
+          "long_name": "Prince William County",
+          "short_name": "Prince William County"
+        },
+        {
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ],
+          "_id": "6ac3b1868c8241981f7a1efe",
+          "long_name": "Virginia",
+          "short_name": "VA"
+        },
+        {
+          "types": [
+            "country",
+            "political"
+          ],
+          "_id": "6ac3b1868c8241981f7a1eff",
+          "long_name": "United States",
+          "short_name": "US"
+        },
+        {
+          "types": [
+            "postal_code"
+          ],
+          "_id": "6ac3b1868c8241981f7a1f00",
+          "long_name": "22172",
+          "short_name": "22172"
+        }
+      ],
+      "placeId": "ChIJuz184Cj6tokRXiVmNvpaej0"
+    },
+    "categories": [],
+    "isCancelled": false,
+    "isRemoved": false,
+    "isBlocked": false,
+    "_sortTime": 1794060000000
+  }
+]
