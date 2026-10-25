@@ -36,10 +36,10 @@ let passed=0;function check(name,test){test();passed++;console.log('PASS',name)}
  const snapshot=await p.evaluate(()=>({events:r2.state.events,reports:r2.state.reports}));
  const added=snapshot.events.filter(e=>e.round2);
  check('Five round-2 discovery paths succeed',()=>assert.equal(snapshot.reports.filter(r=>r.ok).length,5));
- check('19 unique outdoor occurrences added after deduplication',()=>assert.equal(added.length,19));
- check('All 27 captured baseline occurrences remain',()=>assert.equal(snapshot.events.filter(e=>!e.round2).length,27));
- check('Combined fixture widget has 46 unique occurrences',()=>assert.equal(snapshot.events.length,46));
- check('Per-source verified counts',()=>assert.deepEqual(Object.fromEntries(snapshot.reports.map(r=>[r.source,r.count])),{'NPS Rock Creek Park':9,'NPS National Mall':1,'M-NCPPC Prince George’s Parks':5,'National Arboretum (FONA)':3,'Bethesda Urban Partnership':1}));
+ check('21 unique outdoor occurrences added after deduplication',()=>assert.equal(added.length,21));
+ check('26 baseline occurrences remain after removing the known duplicate parade',()=>assert.equal(snapshot.events.filter(e=>!e.round2).length,26));
+ check('Combined fixture widget has 47 unique occurrences',()=>assert.equal(snapshot.events.length,47));
+ check('Per-source verified counts',()=>assert.deepEqual(Object.fromEntries(snapshot.reports.map(r=>[r.source,r.count])),{'NPS Rock Creek Park':10,'NPS National Mall':1,'M-NCPPC Prince George’s Parks':6,'National Arboretum (FONA)':3,'Bethesda Urban Partnership':1}));
  check('Each new occurrence has schedule, location and evidence',()=>assert(added.every(e=>e.date&&e.time&&e.endTime&&e.venue&&e.outdoorEvidence&&e.outdoorEvidenceURL&&e.url.startsWith('https://'))));
  check('No source proxy requests added',()=>assert(calls.length===6&&calls.every(x=>!x.includes('cors.dev')&&!x.includes('allorigins'))));
  check('Requests share the existing three-worker bound',()=>assert(peak<=3));
@@ -73,9 +73,9 @@ let passed=0;function check(name,test){test();passed++;console.log('PASS',name)}
  check('FONA inconsistent local end label fails closed',()=>assert.equal(edge.endMismatches,0));
  await p.route(url=>url.hostname==='www.pgparks.com'&&url.pathname==='/wp-json/tribe/events/v1/events',r=>r.fulfill(new URL(r.request().url()).searchParams.get('page')==='2'?{status:503,body:'Unavailable',headers:{'access-control-allow-origin':'*'}}:{body:read('pg-api.json'),headers:{'access-control-allow-origin':'*'}}));
  const partial=await p.evaluate(async()=>{const candidates=await r2.loadRound2Source({...r2.ROUND2_SOURCES[2],name:'Partial PG fixture'});return {candidates:candidates.length,report:r2.state.reports.at(-1),total:r2.state.events.length}});
- check('Later-page failure retains four valid PG sessions',()=>assert.equal(partial.candidates,4));
+ check('Later-page failure retains five valid PG sessions',()=>assert.equal(partial.candidates,5));
  check('Later-page failure records exact HTTP error',()=>assert.equal(partial.report.error,'HTTP 503'));
- check('Partial source failure leaves all rendered events intact',()=>assert.equal(partial.total,46));
+ check('Partial source failure leaves all rendered events intact',()=>assert.equal(partial.total,47));
  await p.locator('#cwe-search').fill('Get Fit Mobile');await p.locator('[data-day="4"]').click();
  const cards=p.locator('.cwe-card');const cardCount=await cards.count();check('Three scheduled fitness cards rendered',()=>assert.equal(cardCount,3));
  await cards.last().click();const selected=await p.evaluate(()=>window.selected.at(-1));

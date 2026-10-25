@@ -1,0 +1,1983 @@
+{
+  "total": 74,
+  "total_pages": 2,
+  "events": [
+    {
+      "id": 4214955,
+      "title": "CHASING THE LIGHT﻿ &#8211; From Paris to the Peloponnese",
+      "url": "https://www.georgetowndc.com/event/chasing-the-light-from-paris-to-the-peloponnese/2026-10-30/",
+      "start_date": "2026-10-30 11:00:00",
+      "end_date": "2026-10-30 17:00:00",
+      "description": "<p>Calloway Fine Art &amp; Consulting is delighted to present the work of artists Bernard Dellario and Jean Schwartz. This latest exhibition explores light, luminosity, and reflections, inviting contemplation and serenity. Chasing The Light beckons viewers to rediscover the beauty of the world through works that capture the City of Light&#8217;s unique character and charm, as well as the uniquely sharp, radiant, and transformative light of the Peloponnese. Light has shaped the region&#8217;s culture, history, geography, and artistic legacy for millennia. The specific qualities of the Greek sun and atmospheric clarity are widely recognized as fundamental forces in defining the landscape, ancient mythology, architecture, and the emotional resonance of the Mediterranean.</p>\n<p>*The gallery is closed on Sundays</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4185660,
+        "author": "3",
+        "status": "publish",
+        "date": "2023-10-05 17:11:28",
+        "date_utc": "2023-10-05 21:11:28",
+        "modified": "2023-10-05 17:11:28",
+        "modified_utc": "2023-10-05 21:11:28",
+        "url": "https://www.georgetowndc.com/venue/calloway-fine-art-consulting-1643-wisconsin-ave-nw/",
+        "venue": "Calloway Fine Art &#038; Consulting (1643 Wisconsin Ave NW)",
+        "slug": "calloway-fine-art-consulting-1643-wisconsin-ave-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4185660",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4185660"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Art",
+          "slug": "art",
+          "term_group": 0,
+          "term_taxonomy_id": 100,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 744,
+          "filter": "raw",
+          "id": 100,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/100",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215093,
+      "title": "Free Umbrella With Purchase",
+      "url": "https://www.georgetowndc.com/event/free-umbrella-with-purchase/2026-10-30/",
+      "start_date": "2026-10-30 11:00:00",
+      "end_date": "2026-10-30 19:00:00",
+      "description": "<p>Stay ready for whatever the weather brings. Shop the 101 Rain collection and receive a complimentary umbrella with your purchase. Only available in store for a limited time, while supplies last.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1080\" class=\"aligncenter size-full wp-image-4215085\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1.jpg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1.jpg 1080w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-350x350.jpg 350w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-768x768.jpg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-600x600.jpg 600w\" sizes=\"auto, (max-width: 1080px) 100vw, 1080px\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4189672,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-06-14 11:45:10",
+        "date_utc": "2024-06-14 15:45:10",
+        "modified": "2024-06-14 11:45:10",
+        "modified_utc": "2024-06-14 15:45:10",
+        "url": "https://www.georgetowndc.com/venue/dr-martens-3108-m-st-nw-2/",
+        "venue": "Dr Martens (3108 M St NW)",
+        "slug": "dr-martens-3108-m-st-nw-2",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4189672",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4189672"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Fashion",
+          "slug": "fashion",
+          "term_group": 0,
+          "term_taxonomy_id": 187,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1203,
+          "filter": "raw",
+          "id": 187,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/187",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214925,
+      "title": "Puppy Happy Hour with Tito&#8217;s Handmade Vodka",
+      "url": "https://www.georgetowndc.com/event/puppy-happy-hour-with-titos-handmade-vodka/",
+      "start_date": "2026-10-30 17:00:00",
+      "end_date": "2026-10-30 19:00:00",
+      "description": "<p>Join The Ritz-Carlton Georgetown, Washington, D.C. for Puppy Happy Hour in The Yard on October 30th from 5:00 pm to 7:00 pm—an evening of refined indulgence and heartfelt purpose. Guests are invited to bring their beloved pets and enjoy exclusive cocktails and light bites, created in partnership with Tito’s Handmade Vodka, in support of Humane Rescue Alliance.</p>",
+      "all_day": false,
+      "venue": {
+        "id": 2738921,
+        "author": "3",
+        "status": "publish",
+        "date": "2021-11-16 17:33:37",
+        "date_utc": "2021-11-16 22:33:37",
+        "modified": "2021-11-16 17:33:37",
+        "modified_utc": "2021-11-16 22:33:37",
+        "url": "https://www.georgetowndc.com/venue/the-ritz-carlton-georgetown-3100-south-st-nw/",
+        "venue": "The Ritz-Carlton Georgetown (3100 South St NW)",
+        "slug": "the-ritz-carlton-georgetown-3100-south-st-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=2738921",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=2738921"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Community",
+          "slug": "community",
+          "term_group": 0,
+          "term_taxonomy_id": 209,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 330,
+          "filter": "raw",
+          "id": 209,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/209",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Drink",
+          "slug": "drink",
+          "term_group": 0,
+          "term_taxonomy_id": 52,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1016,
+          "filter": "raw",
+          "id": 52,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/52",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214667,
+      "title": "Sips &#038; Sounds",
+      "url": "https://www.georgetowndc.com/event/sips-sounds/2026-10-30/",
+      "start_date": "2026-10-30 18:00:00",
+      "end_date": "2026-10-30 21:00:00",
+      "description": "<p>Join us for live music by Joseph Monasterial on the patio, featuring a mix of pop, R&amp;B, and a touch of country, paired with handcrafted cocktails and a chef-driven menu.</p>",
+      "all_day": false,
+      "venue": {
+        "id": 143226,
+        "author": "3",
+        "status": "publish",
+        "date": "2019-10-23 13:29:10",
+        "date_utc": "2019-10-23 17:29:10",
+        "modified": "2019-10-23 13:29:10",
+        "modified_utc": "2019-10-23 17:29:10",
+        "url": "https://www.georgetowndc.com/venue/pinstripes-1064-wisconsin-ave-nw/",
+        "venue": "Pinstripes (1064 Wisconsin Ave NW)",
+        "slug": "pinstripes-1064-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=143226",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=143226"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Drink",
+          "slug": "drink",
+          "term_group": 0,
+          "term_taxonomy_id": 52,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1016,
+          "filter": "raw",
+          "id": 52,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/52",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Music",
+          "slug": "music",
+          "term_group": 0,
+          "term_taxonomy_id": 184,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 363,
+          "filter": "raw",
+          "id": 184,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/184",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215146,
+      "title": "Murder Mystery Dinners",
+      "url": "https://www.georgetowndc.com/event/murder-mystery-dinners/2026-10-30/",
+      "start_date": "2026-10-30 18:00:00",
+      "end_date": "2026-10-30 21:00:00",
+      "description": "<p>Join us at 1310 Kitchen &amp; Bar October 30 and 31st for Midnight at the Masquerade, a wickedly fun murder mystery dinner filled with secrets, scandals, and suspicious characters.</p>\n<p>Costumes are optional- Masquerade masks, glamorous Halloween looks, old-Hollywood drama, mysterious strangers, and questionable alibis are highly encouraged.</p>\n<p>📅 When: Friday October 30 &amp; 31, 6:00 PM &#8211; 9:00 PM</p>\n<p>📍 Where: 1310 Wisconsin Ave NW, Washington DC 20007</p>\n<p>💲 Tickets: $95 inclusive per person (Includes interactive mystery experience &amp; family style dinner plus tax and gratuity ***Beverages NOT included and will be available for purchase)</p>\n<p>🍴 A family style dinner including grilled salmon with black beluga lentils, waygu flat iron steak with chimichurri, roasted potatoes, grilled cauliflower with lemon quinoa, romesco (vegan), and kale salad with apples, pomegranate, and almonds. For dessert, enjoy pumpkin creme brulee.</p>\n<p>Friday October 30:https://www.eventbrite.com/e/1533298891259?aff=oddtdtcreator<br />\nSaturday October 31: https://www.eventbrite.com/e/2003041242276?aff=oddtdtcreator</p>",
+      "all_day": false,
+      "venue": {
+        "id": 2689333,
+        "author": "3",
+        "status": "publish",
+        "date": "2021-10-26 11:31:54",
+        "date_utc": "2021-10-26 15:31:54",
+        "modified": "2021-10-26 11:31:54",
+        "modified_utc": "2021-10-26 15:31:54",
+        "url": "https://www.georgetowndc.com/venue/1310-kitchen-bar-1310-wisconsin-ave-nw/",
+        "venue": "1310 Kitchen &#038; Bar (1310 Wisconsin Ave NW)",
+        "slug": "1310-kitchen-bar-1310-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=2689333",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=2689333"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Drink",
+          "slug": "drink",
+          "term_group": 0,
+          "term_taxonomy_id": 52,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1016,
+          "filter": "raw",
+          "id": 52,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/52",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214629,
+      "title": "Ghosts of Georgetown &#038; Exorcist Steps Haunted Walking Tour",
+      "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-30/",
+      "start_date": "2026-10-30 19:00:00",
+      "end_date": "2026-10-30 21:30:00",
+      "description": "<p>Come along to hear about the ghosts and spirits that still haunt these streets&#8230;if you dare.</p>\n<p>This is a family-friendly ghost tour through Georgetown to see this exclusive neighborhood&#8217;s darker side. Stroll among the historic streets, manicured gardens, and Victorian row houses as you hear stories and deep, dark secrets about DC’s finest neighborhood&#8217;s forgotten past. <strong>The October 31 tour will include a special haunted light show at the Exorcist steps!</strong></p>\n<ul>\n<li>We will see one of the most haunted and historic buildings in Washington, DC, the Old Stone House. A pre-Revolutionary home whose original builder may still roam the halls.</li>\n<li>Look up at old porches painted Haint Blue to keep out the spirits from crossing over the porch. But what if the spirit was already inside?</li>\n<li>Find out what happened at boarding schools turned hospitals during the American Civil War. Can you still hear the screams of amputations with no sedation?</li>\n<li>Walk past the historic house whose lights turned off every night at the same time; a nanny&#8217;s rules enforced long after her departure.</li>\n<li>Meet an eccentric man who built stairs to nowhere, slept in a coffin and refused to add electricity to his 1799 home. Hear why one of our guides refuses to lead this tour because he has been stalking her for 10 years, flickering lights when she walks by.</li>\n<li>End the tour at the Exorcist Stairs, featured in The Exorcist, and hear the true story that inspired a Georgetown student to write the book.</li>\n</ul>\n<p>Meet your guide outside 3051 M St NW at the Old Stone House. The tour ends at the top of Exorcist Steps at 36th and Prospect St NW</p>\n<p>Tour Duration: 1.5 Hours Walking Tour. Tours are available nightly at 7pm and 8pm.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"400\" class=\"aligncenter size-full wp-image-4214599\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/600_400_WEBP4505-2.jpg\" alt=\"\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4191436,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-10-16 14:53:40",
+        "date_utc": "0000-00-00 00:00:00",
+        "modified": "2024-10-16 14:53:40",
+        "modified_utc": "0000-00-00 00:00:00",
+        "url": "https://www.georgetowndc.com/venue/3051-m-st-nw/",
+        "venue": "3051 M St NW",
+        "slug": "3051-m-st-nw",
+        "geo_lat": 38.9053936,
+        "geo_lng": -77.060371,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4191436",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4191436"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214021,
+      "title": "Trick or Treat at Tudor Place",
+      "url": "https://www.georgetowndc.com/event/trick-or-treat-at-tudor-place/",
+      "start_date": "2026-10-31 10:00:00",
+      "end_date": "2026-10-31 12:00:00",
+      "description": "<p>Join us for our annual fall youth and family program, Trick or Treat at Tudor Place! This program is the perfect way to spend an autumn morning in Georgetown. Explore the gardens while gathering treats (both food and non-food items) and show off your Halloween costume! There will be coffee, cider, and other goodies along with crafts, games, face-painting, and more.</p>",
+      "all_day": false,
+      "venue": {
+        "id": 168461,
+        "author": "3",
+        "status": "publish",
+        "date": "2019-10-25 16:42:40",
+        "date_utc": "2019-10-25 20:42:40",
+        "modified": "2019-10-25 16:42:40",
+        "modified_utc": "2019-10-25 20:42:40",
+        "url": "https://www.georgetowndc.com/venue/tudor-place-1644-31st-st-nw/",
+        "venue": "Tudor Place (1644 31st St NW)",
+        "slug": "tudor-place-1644-31st-st-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=168461",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=168461"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Children",
+          "slug": "children",
+          "term_group": 0,
+          "term_taxonomy_id": 121,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 107,
+          "filter": "raw",
+          "id": 121,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/121",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Community",
+          "slug": "community",
+          "term_group": 0,
+          "term_taxonomy_id": 209,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 330,
+          "filter": "raw",
+          "id": 209,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/209",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214540,
+      "title": "Halloween-Themed Cupcakes",
+      "url": "https://www.georgetowndc.com/event/halloween-themed-cupcakes/2026-10-31/",
+      "start_date": "2026-10-31 10:00:00",
+      "end_date": "2026-10-31 21:00:00",
+      "description": "<p>Georgetown Cupcake&#8217;s new Trick or Treat Dozen features 1 Vanilla Bat, 1 Pumpkin Spice, 1 Chocolate Marshmallow Ghost, 1 Salted Caramel, 1 Lava Fudge, 1 Midnight Cookies &amp; Creme, 1 Red Velvet, 1 Vanilla Candy, 1 Chocolate Brownie Cheesecake, 1 Pumpkin Cheesecake, 1 Chocolate Toffee Spider Web, and 1 Peanut Butter Fudge, all decorated with spooky Halloween-themed fondant decorations.</p>\n<p>Georgetown Cupcake&#8217;s Haunted Dozen features 2 Vanilla &amp; Orange-Tinted Vanilla Buttercream, 2 Pumpkin Spice, 2 Chocolate Toffee Spider Web, 2 Chocolate Goonache, 2 Red Velvet, and 2 Chocolate Marshmallow Ghost cupcakes, all decorated with spooky Halloween-themed fondant.</p>\n<p>Georgetown Cupcake&#8217;s Sweet &amp; Spooky Dozen features 2 Chocolate Peanut Butter Pieces, 2 Halloween Surprise, 2 Mint Monster, 2 Chocolate Toffee Spider Web, 2 Chocolate Caramel Cookie Crunch, and 2 Vanilla Candy cupcakes.</p>\n<p>Georgetown Cupcake&#8217;s new Halloween Party Dozen features 3 Vanilla &amp; orange-tinted Vanilla Buttercream, 3 Double Milk Chocolate Birthday, 3 Vanilla &amp; neon green-tinted Vanilla Buttercream, and 3 Chocolate &amp; purple-tinted Vanilla Buttercream, all decorated with Halloween party sprinkles and fun Halloween-themed fondant.</p>\n<p>$45/Dozen. Available for store pick-up, local delivery, or nationwide overnight shipping.</p>\n<p>Available October 1 – October 31 on georgetowncupcake.com.</p>\n<p><img loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"927\" class=\"aligncenter size-medium wp-image-4214509\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-1200x927.png\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-1200x927.png 1200w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-1600x1236.png 1600w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-768x593.png 768w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-1536x1187.png 1536w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-2048x1582.png 2048w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Georgetown-Cupcake-Haunted-Dozen-1800x1391.png 1800w\" sizes=\"auto, (max-width: 1200px) 100vw, 1200px\" /><em>(Photo courtesy of Georgetown Cupcake)</em></p>",
+      "all_day": false,
+      "venue": {
+        "id": 2122277,
+        "author": "3",
+        "status": "publish",
+        "date": "2021-01-05 09:46:22",
+        "date_utc": "2021-01-05 14:46:22",
+        "modified": "2021-01-05 09:46:22",
+        "modified_utc": "2021-01-05 14:46:22",
+        "url": "https://www.georgetowndc.com/venue/georgetown-cupcake-3301-m-st-nw/",
+        "venue": "Georgetown Cupcake (3301 M St NW)",
+        "slug": "georgetown-cupcake-3301-m-st-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=2122277",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=2122277"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214560,
+      "title": "Dry Point Printing 2-Day Workshop with Bridget Murphy",
+      "url": "https://www.georgetowndc.com/event/dry-point-printing-2-day-workshop-with-bridget-murphy/2026-10-31/",
+      "start_date": "2026-10-31 10:00:00",
+      "end_date": "2026-10-31 14:00:00",
+      "description": "<p>Explore dry point technique to create your monoprint artwork. In this class we will discuss image composition and combining drawing, texture, and form to create a monoprint of your image.</p>\n<p>Students should to bring their sketchbook and multiple images (landscape, still life, portrait, abstract, photograph, etc.) and ideas to review for their first print. Black and white images, preferred. Artwork should be sized to 6&#215;8. Students will be expected to work on their own during the course. No experience necessary.</p>\n<p><img loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"857\" class=\"aligncenter size-medium wp-image-4214561\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-1200x857.jpg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-1200x857.jpg 1200w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-1600x1143.jpg 1600w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-768x549.jpg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-1536x1097.jpg 1536w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-2048x1463.jpg 2048w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Dry-Point-Murphy-1800x1286.jpg 1800w\" sizes=\"auto, (max-width: 1200px) 100vw, 1200px\" /><em>(Photo courtesy of Washington Printmakers Gallery)</em></p>",
+      "all_day": false,
+      "venue": {
+        "id": 3797314,
+        "author": "3",
+        "status": "publish",
+        "date": "2023-02-03 10:05:32",
+        "date_utc": "2023-02-03 15:05:32",
+        "modified": "2023-02-03 10:05:32",
+        "modified_utc": "2023-02-03 15:05:32",
+        "url": "https://www.georgetowndc.com/venue/washington-printmakers-gallery-1675-wisconsin-ave-nw/",
+        "venue": "Washington Printmakers Gallery (1675 Wisconsin Ave NW)",
+        "slug": "washington-printmakers-gallery-1675-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=3797314",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=3797314"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Art",
+          "slug": "art",
+          "term_group": 0,
+          "term_taxonomy_id": 100,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 744,
+          "filter": "raw",
+          "id": 100,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/100",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215074,
+      "title": "SOME (So Others Might Eat) Event",
+      "url": "https://www.georgetowndc.com/event/some-so-others-might-eat-event/2026-10-31/",
+      "start_date": "2026-10-31 10:00:00",
+      "end_date": "2026-10-31 18:00:00",
+      "description": "<p>Sid + Ann Mashburn Shop for Hunger Card event will run Oct. 23 – Oct. 31, 2026. During this exciting, week-long event, in-store shoppers who make a one-time $80 donation to SOME (So Others Might Eat) at the Sid + Ann Mashburn store in Georgetown will receive 20% off nearly everything on their in-store purchases.</p>\n<p>SOME, an interfaith, community-based service organization that serves D.C. neighbors experiencing homelessness and poverty, has been the Sid + Ann Mashburn D.C. store nonprofit partner since 2019. Funds raised from the Shop for Hunger Card benefit SOME&#8217;s provision of daily emergency services, affordable housing, counseling, substance use disorder treatment, job training, and other crucial services.</p>",
+      "all_day": false,
+      "venue": {
+        "id": 317899,
+        "author": "3",
+        "status": "publish",
+        "date": "2019-11-05 15:37:57",
+        "date_utc": "2019-11-05 20:37:57",
+        "modified": "2019-11-05 15:37:57",
+        "modified_utc": "2019-11-05 20:37:57",
+        "url": "https://www.georgetowndc.com/venue/ann-mashburn-3251-prospect-st-nw/",
+        "venue": "Ann Mashburn (3251 Prospect St NW)",
+        "slug": "ann-mashburn-3251-prospect-st-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=317899",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=317899"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Community",
+          "slug": "community",
+          "term_group": 0,
+          "term_taxonomy_id": 209,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 330,
+          "filter": "raw",
+          "id": 209,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/209",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215187,
+      "title": "For the Ones Outside Whatever the Weather",
+      "url": "https://www.georgetowndc.com/event/for-the-ones-outside-whatever-the-weather/2026-10-31/",
+      "start_date": "2026-10-31 10:00:00",
+      "end_date": "2026-10-31 19:00:00",
+      "description": "<p>Keep moving through the season with our specially crafted boots designed for every aspect of winter. Featuring waterproof DryWair, insulated WarmWair linings, and extra-traction DM’s WinterGrip soles. Whether the temperature drops, rain falls, or it’s time to party down, we’ve got the footwear for every winter occasion.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"675\" height=\"1200\" class=\"aligncenter size-medium wp-image-4215177\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-675x1200.png\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-675x1200.png 675w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-900x1600.png 900w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-768x1365.png 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-864x1536.png 864w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1-1013x1800.png 1013w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-62-FOR-THE-ONES-OUTSIDE-WHATEVER-THE-WEATHER-EN-Image-Set-1-1080x1920-1.png 1080w\" sizes=\"auto, (max-width: 675px) 100vw, 675px\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4189672,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-06-14 11:45:10",
+        "date_utc": "2024-06-14 15:45:10",
+        "modified": "2024-06-14 11:45:10",
+        "modified_utc": "2024-06-14 15:45:10",
+        "url": "https://www.georgetowndc.com/venue/dr-martens-3108-m-st-nw-2/",
+        "venue": "Dr Martens (3108 M St NW)",
+        "slug": "dr-martens-3108-m-st-nw-2",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4189672",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4189672"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Fashion",
+          "slug": "fashion",
+          "term_group": 0,
+          "term_taxonomy_id": 187,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1203,
+          "filter": "raw",
+          "id": 187,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/187",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214678,
+      "title": "Halloween Kids Club",
+      "url": "https://www.georgetowndc.com/event/halloween-kids-club/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 13:00:00",
+      "description": "<p>Join us for an extra Kids Club event this October as we celebrate Halloween! Bring the little ones for a fun-filled afternoon featuring Halloween crafts, candy, and face painting. Come dressed in your favorite costume and celebrate Halloween with us at Pinstripes!</p>",
+      "all_day": false,
+      "venue": {
+        "id": 143226,
+        "author": "3",
+        "status": "publish",
+        "date": "2019-10-23 13:29:10",
+        "date_utc": "2019-10-23 17:29:10",
+        "modified": "2019-10-23 13:29:10",
+        "modified_utc": "2019-10-23 17:29:10",
+        "url": "https://www.georgetowndc.com/venue/pinstripes-1064-wisconsin-ave-nw/",
+        "venue": "Pinstripes (1064 Wisconsin Ave NW)",
+        "slug": "pinstripes-1064-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=143226",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=143226"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Children",
+          "slug": "children",
+          "term_group": 0,
+          "term_taxonomy_id": 121,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 107,
+          "filter": "raw",
+          "id": 121,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/121",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214750,
+      "title": "Special Student Promo",
+      "url": "https://www.georgetowndc.com/event/special-student-promo/2026-10-31/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 22:00:00",
+      "description": "<p>Back to School Student Special — $16</p>\n<ul>\n<li>Choice of one appetizer: 4-piece Pork Gyoza / Impossible Tacos (2) / Salmon Poke Tacos (2) / Nikuman / Crispy Chicken (5 pieces)</li>\n<li>Choice of one small ramen or rice bowl: Chicken Ramen / Spicy Creamy V Ramen / Tonkatsu Black / Crispy Chicken Rice Bowl</li>\n<li>Fountain soda</li>\n</ul>\n<p>Dine-in only. Valid student ID required. Limited time only.</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4212120,
+        "author": "3",
+        "status": "publish",
+        "date": "2026-03-05 16:20:52",
+        "date_utc": "2026-03-05 21:20:52",
+        "modified": "2026-03-05 16:20:52",
+        "modified_utc": "2026-03-05 21:20:52",
+        "url": "https://www.georgetowndc.com/venue/jinya-ramen-bar-1525-wisconsin-ave-nw/",
+        "venue": "Jinya Ramen Bar (1525 Wisconsin Ave NW)",
+        "slug": "jinya-ramen-bar-1525-wisconsin-ave-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4212120",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4212120"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214876,
+      "title": "Kids Eat Free on Halloween",
+      "url": "https://www.georgetowndc.com/event/kids-eat-free-on-halloween/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 23:00:00",
+      "description": "<p>Kids eat free at JINYA Ramen Bar! Receive one free small kid&#8217;s ramen with the purchase of an adult entree (dine-in only). Weekend brunch is also running from 11am-3pm. Come in costume and celebrate in spirit!</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1080\" class=\"aligncenter size-full wp-image-4214878\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/jrb_dmv-area_halloween_sns_26_01_fin_gtown_1080.jpg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/jrb_dmv-area_halloween_sns_26_01_fin_gtown_1080.jpg 1080w, https://www.georgetowndc.com/wp-content/uploads/2026/09/jrb_dmv-area_halloween_sns_26_01_fin_gtown_1080-350x350.jpg 350w, https://www.georgetowndc.com/wp-content/uploads/2026/09/jrb_dmv-area_halloween_sns_26_01_fin_gtown_1080-768x768.jpg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/09/jrb_dmv-area_halloween_sns_26_01_fin_gtown_1080-600x600.jpg 600w\" sizes=\"auto, (max-width: 1080px) 100vw, 1080px\" />\n<p>&nbsp;</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4212120,
+        "author": "3",
+        "status": "publish",
+        "date": "2026-03-05 16:20:52",
+        "date_utc": "2026-03-05 21:20:52",
+        "modified": "2026-03-05 16:20:52",
+        "modified_utc": "2026-03-05 21:20:52",
+        "url": "https://www.georgetowndc.com/venue/jinya-ramen-bar-1525-wisconsin-ave-nw/",
+        "venue": "Jinya Ramen Bar (1525 Wisconsin Ave NW)",
+        "slug": "jinya-ramen-bar-1525-wisconsin-ave-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4212120",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4212120"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Children",
+          "slug": "children",
+          "term_group": 0,
+          "term_taxonomy_id": 121,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 107,
+          "filter": "raw",
+          "id": 121,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/121",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214908,
+      "title": "&#8220;Ladies of Georgetown&#8221; Jewelry Collection",
+      "url": "https://www.georgetowndc.com/event/ladies-of-georgetown-jewelry-collection/2026-10-31/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 15:00:00",
+      "description": "<p>Amanda Hagerman Jewelry (3259 Prospect Street NW) is celebrating its first year in Georgetown with a new capsule collection, Ladies of Georgetown. The one-of-a-kind 18K gold jewels are inspired by six extraordinary women who called Georgetown home, including Julia Child, Elizabeth Taylor, Evangeline Bruce, Lorraine Cooper, and The Peters Sisters. Jamie Peva, a Georgetown resident, realtor, and local history enthusiast, helped Amanda bring the stories behind the collection to life. Each piece in the capsule offers a glimpse into one woman’s story and a connection to modern Georgetown. The pieces are on display throughout October and available for purchase.</p>\n<p>Hours: Friday / 11am-5pm; Saturday / 11am &#8211; 6pm; Sunday / 11am &#8211; 3pm</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"960\" height=\"1200\" class=\"aligncenter size-medium wp-image-4214886\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Julia-Child-1350x1080-1-960x1200.png\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Julia-Child-1350x1080-1-960x1200.png 960w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Julia-Child-1350x1080-1-768x960.png 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Julia-Child-1350x1080-1.png 1080w\" sizes=\"auto, (max-width: 960px) 100vw, 960px\" />\n<p>(Photo courtesy of Amanda Hagerman Jewelry)</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4211216,
+        "author": "3",
+        "status": "publish",
+        "date": "2025-11-10 10:06:44",
+        "date_utc": "2025-11-10 15:06:44",
+        "modified": "2025-11-10 10:06:44",
+        "modified_utc": "2025-11-10 15:06:44",
+        "url": "https://www.georgetowndc.com/venue/amanda-hagerman-jewelry-3259-prospect-st-nw/",
+        "venue": "Amanda Hagerman Jewelry (3259 Prospect St NW)",
+        "slug": "amanda-hagerman-jewelry-3259-prospect-st-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4211216",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4211216"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Fashion",
+          "slug": "fashion",
+          "term_group": 0,
+          "term_taxonomy_id": 187,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1203,
+          "filter": "raw",
+          "id": 187,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/187",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "History",
+          "slug": "history",
+          "term_group": 0,
+          "term_taxonomy_id": 186,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 252,
+          "filter": "raw",
+          "id": 186,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/186",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214956,
+      "title": "CHASING THE LIGHT﻿ &#8211; From Paris to the Peloponnese",
+      "url": "https://www.georgetowndc.com/event/chasing-the-light-from-paris-to-the-peloponnese/2026-10-31/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 17:00:00",
+      "description": "<p>Calloway Fine Art &amp; Consulting is delighted to present the work of artists Bernard Dellario and Jean Schwartz. This latest exhibition explores light, luminosity, and reflections, inviting contemplation and serenity. Chasing The Light beckons viewers to rediscover the beauty of the world through works that capture the City of Light&#8217;s unique character and charm, as well as the uniquely sharp, radiant, and transformative light of the Peloponnese. Light has shaped the region&#8217;s culture, history, geography, and artistic legacy for millennia. The specific qualities of the Greek sun and atmospheric clarity are widely recognized as fundamental forces in defining the landscape, ancient mythology, architecture, and the emotional resonance of the Mediterranean.</p>\n<p>*The gallery is closed on Sundays</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4185660,
+        "author": "3",
+        "status": "publish",
+        "date": "2023-10-05 17:11:28",
+        "date_utc": "2023-10-05 21:11:28",
+        "modified": "2023-10-05 17:11:28",
+        "modified_utc": "2023-10-05 21:11:28",
+        "url": "https://www.georgetowndc.com/venue/calloway-fine-art-consulting-1643-wisconsin-ave-nw/",
+        "venue": "Calloway Fine Art &#038; Consulting (1643 Wisconsin Ave NW)",
+        "slug": "calloway-fine-art-consulting-1643-wisconsin-ave-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4185660",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4185660"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Art",
+          "slug": "art",
+          "term_group": 0,
+          "term_taxonomy_id": 100,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 744,
+          "filter": "raw",
+          "id": 100,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/100",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215094,
+      "title": "Free Umbrella With Purchase",
+      "url": "https://www.georgetowndc.com/event/free-umbrella-with-purchase/2026-10-31/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 19:00:00",
+      "description": "<p>Stay ready for whatever the weather brings. Shop the 101 Rain collection and receive a complimentary umbrella with your purchase. Only available in store for a limited time, while supplies last.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1080\" class=\"aligncenter size-full wp-image-4215085\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1.jpg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1.jpg 1080w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-350x350.jpg 350w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-768x768.jpg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/Dr.-Martens-Campaign-63-Free-Umbrella-with-Purchase.-EN-Image-Set-1-1080x1080-1-600x600.jpg 600w\" sizes=\"auto, (max-width: 1080px) 100vw, 1080px\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4189672,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-06-14 11:45:10",
+        "date_utc": "2024-06-14 15:45:10",
+        "modified": "2024-06-14 11:45:10",
+        "modified_utc": "2024-06-14 15:45:10",
+        "url": "https://www.georgetowndc.com/venue/dr-martens-3108-m-st-nw-2/",
+        "venue": "Dr Martens (3108 M St NW)",
+        "slug": "dr-martens-3108-m-st-nw-2",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4189672",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4189672"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Fashion",
+          "slug": "fashion",
+          "term_group": 0,
+          "term_taxonomy_id": 187,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1203,
+          "filter": "raw",
+          "id": 187,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/187",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215207,
+      "title": "Wisconsin Avenue Woof Walk",
+      "url": "https://www.georgetowndc.com/event/wisconsin-avenue-woof-walk/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 14:00:00",
+      "description": "<p>Trick-or-treat for your pup on Wisconsin Ave! Small businesses, treats &amp; costume contest!</p>\n<p>Grab your pup and your shopping bags and come on the inaugural Wisconsin Avenue Woof Walk. Check in to get your trick-or-treat bag and map of participating locations. Visit as many or few participating shops to grab treats for your dog. Come prepared to SHOP LOCAL.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"900\" height=\"1200\" class=\"aligncenter size-medium wp-image-4215208\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/75335654-82F9-4DCF-842E-DDF556E889BB-900x1200.jpg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/75335654-82F9-4DCF-842E-DDF556E889BB-900x1200.jpg 900w, https://www.georgetowndc.com/wp-content/uploads/2026/10/75335654-82F9-4DCF-842E-DDF556E889BB-768x1024.jpg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/75335654-82F9-4DCF-842E-DDF556E889BB-1152x1536.jpg 1152w, https://www.georgetowndc.com/wp-content/uploads/2026/10/75335654-82F9-4DCF-842E-DDF556E889BB.jpg 1170w\" sizes=\"auto, (max-width: 900px) 100vw, 900px\" />\n<p>(Photo courtesy of Georgetown Main Street)</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4215209,
+        "author": "3",
+        "status": "publish",
+        "date": "2026-10-22 16:16:26",
+        "date_utc": "2026-10-22 20:16:26",
+        "modified": "2026-10-22 16:16:26",
+        "modified_utc": "2026-10-22 20:16:26",
+        "url": "https://www.georgetowndc.com/venue/3206-n-st-nw-around-georgetown/",
+        "venue": "3206 N St NW &#038; Around Georgetown",
+        "slug": "3206-n-st-nw-around-georgetown",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4215209",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4215209"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Community",
+          "slug": "community",
+          "term_group": 0,
+          "term_taxonomy_id": 209,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 330,
+          "filter": "raw",
+          "id": 209,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/209",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215211,
+      "title": "The Glow Before the Boo",
+      "url": "https://www.georgetowndc.com/event/the-glow-before-the-boo/",
+      "start_date": "2026-10-31 11:00:00",
+      "end_date": "2026-10-31 19:00:00",
+      "description": "<p>👻 The Glow Before the Boo ✨<br />\nA Halloween Facial Experience at L’Occitane Georgetown</p>\n<p>Get your glow on before the ghouls come out! 🎃✨</p>\n<p>Celebrate Halloween with a little luxury, a little magic, and a whole lot of glow. Join L’Occitane en Provence in Georgetown for a special skincare experience designed to refresh your complexion and treat yourself to some well-deserved self-care.</p>\n<p>Whether you&#8217;re getting ready for Halloween festivities or simply looking for a moment to unwind, we&#8217;re here to help you discover your glow!</p>\n<p>**✨ WHAT TO EXPECT**<br />\n&#8211; 🧖 Mini facial experiences to refresh and pamper your skin<br />\n&#8211; 🌿 Personalized skincare consultations with our beauty experts<br />\n&#8211; 💧 Discover luxurious, nature-inspired skincare for your skin&#8217;s needs<br />\n&#8211; 🎃 A festive atmosphere filled with Halloween spirit and beauty surprises</p>\n<p>**📍 EVENT DETAILS**</p>\n<p>**Date:** Saturday, October 31, 2026<br />\n**Location:** L’Occitane en Provence – Georgetown<br />\n3106 M Street NW, Washington, DC</p>\n<p>**Come for the facial, stay for the glow!** 👻</p>\n<p>Reserve your spot and spend Halloween weekend treating your skin to something special. We can&#8217;t wait to help you glow!</p>\n<p>#GlowBeforeTheBoo #LOccitaneGeorgetown #HalloweenGlow #SkincareSelfCare</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"800\" height=\"1200\" class=\"aligncenter size-medium wp-image-4215212\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/LOccitane-Glow-Before-the-Boo-800x1200.png\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/10/LOccitane-Glow-Before-the-Boo-800x1200.png 800w, https://www.georgetowndc.com/wp-content/uploads/2026/10/LOccitane-Glow-Before-the-Boo-768x1152.png 768w, https://www.georgetowndc.com/wp-content/uploads/2026/10/LOccitane-Glow-Before-the-Boo.png 1024w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4194391,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-12-03 16:56:24",
+        "date_utc": "2024-12-03 21:56:24",
+        "modified": "2024-12-03 16:56:24",
+        "modified_utc": "2024-12-03 21:56:24",
+        "url": "https://www.georgetowndc.com/venue/loccitane-en-provence-3106-m-st-nw/",
+        "venue": "L&#8217;Occitane en Provence (3106 M St NW)",
+        "slug": "loccitane-en-provence-3106-m-st-nw",
+        "address": "M Street Northwest",
+        "city": "Washington",
+        "country": "United States",
+        "state": "District of Columbia",
+        "zip": "20007",
+        "geo_lat": 38.9050351,
+        "geo_lng": -77.061472,
+        "show_map": false,
+        "show_map_link": false,
+        "global_id": "www.georgetowndc.com?id=4194391",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4194391"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Beauty",
+          "slug": "beauty",
+          "term_group": 0,
+          "term_taxonomy_id": 192,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 131,
+          "filter": "raw",
+          "id": 192,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/192",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Shopping",
+          "slug": "shopping",
+          "term_group": 0,
+          "term_taxonomy_id": 122,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1574,
+          "filter": "raw",
+          "id": 122,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/122",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215147,
+      "title": "Murder Mystery Dinners",
+      "url": "https://www.georgetowndc.com/event/murder-mystery-dinners/2026-10-31/",
+      "start_date": "2026-10-31 18:00:00",
+      "end_date": "2026-10-31 21:00:00",
+      "description": "<p>Join us at 1310 Kitchen &amp; Bar October 30 and 31st for Midnight at the Masquerade, a wickedly fun murder mystery dinner filled with secrets, scandals, and suspicious characters.</p>\n<p>Costumes are optional- Masquerade masks, glamorous Halloween looks, old-Hollywood drama, mysterious strangers, and questionable alibis are highly encouraged.</p>\n<p>📅 When: Friday October 30 &amp; 31, 6:00 PM &#8211; 9:00 PM</p>\n<p>📍 Where: 1310 Wisconsin Ave NW, Washington DC 20007</p>\n<p>💲 Tickets: $95 inclusive per person (Includes interactive mystery experience &amp; family style dinner plus tax and gratuity ***Beverages NOT included and will be available for purchase)</p>\n<p>🍴 A family style dinner including grilled salmon with black beluga lentils, waygu flat iron steak with chimichurri, roasted potatoes, grilled cauliflower with lemon quinoa, romesco (vegan), and kale salad with apples, pomegranate, and almonds. For dessert, enjoy pumpkin creme brulee.</p>\n<p>Friday October 30:https://www.eventbrite.com/e/1533298891259?aff=oddtdtcreator<br />\nSaturday October 31: https://www.eventbrite.com/e/2003041242276?aff=oddtdtcreator</p>",
+      "all_day": false,
+      "venue": {
+        "id": 2689333,
+        "author": "3",
+        "status": "publish",
+        "date": "2021-10-26 11:31:54",
+        "date_utc": "2021-10-26 15:31:54",
+        "modified": "2021-10-26 11:31:54",
+        "modified_utc": "2021-10-26 15:31:54",
+        "url": "https://www.georgetowndc.com/venue/1310-kitchen-bar-1310-wisconsin-ave-nw/",
+        "venue": "1310 Kitchen &#038; Bar (1310 Wisconsin Ave NW)",
+        "slug": "1310-kitchen-bar-1310-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=2689333",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=2689333"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Drink",
+          "slug": "drink",
+          "term_group": 0,
+          "term_taxonomy_id": 52,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1016,
+          "filter": "raw",
+          "id": 52,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/52",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214630,
+      "title": "Ghosts of Georgetown &#038; Exorcist Steps Haunted Walking Tour",
+      "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-31/",
+      "start_date": "2026-10-31 19:00:00",
+      "end_date": "2026-10-31 21:30:00",
+      "description": "<p>Come along to hear about the ghosts and spirits that still haunt these streets&#8230;if you dare.</p>\n<p>This is a family-friendly ghost tour through Georgetown to see this exclusive neighborhood&#8217;s darker side. Stroll among the historic streets, manicured gardens, and Victorian row houses as you hear stories and deep, dark secrets about DC’s finest neighborhood&#8217;s forgotten past. <strong>The October 31 tour will include a special haunted light show at the Exorcist steps!</strong></p>\n<ul>\n<li>We will see one of the most haunted and historic buildings in Washington, DC, the Old Stone House. A pre-Revolutionary home whose original builder may still roam the halls.</li>\n<li>Look up at old porches painted Haint Blue to keep out the spirits from crossing over the porch. But what if the spirit was already inside?</li>\n<li>Find out what happened at boarding schools turned hospitals during the American Civil War. Can you still hear the screams of amputations with no sedation?</li>\n<li>Walk past the historic house whose lights turned off every night at the same time; a nanny&#8217;s rules enforced long after her departure.</li>\n<li>Meet an eccentric man who built stairs to nowhere, slept in a coffin and refused to add electricity to his 1799 home. Hear why one of our guides refuses to lead this tour because he has been stalking her for 10 years, flickering lights when she walks by.</li>\n<li>End the tour at the Exorcist Stairs, featured in The Exorcist, and hear the true story that inspired a Georgetown student to write the book.</li>\n</ul>\n<p>Meet your guide outside 3051 M St NW at the Old Stone House. The tour ends at the top of Exorcist Steps at 36th and Prospect St NW</p>\n<p>Tour Duration: 1.5 Hours Walking Tour. Tours are available nightly at 7pm and 8pm.</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"400\" class=\"aligncenter size-full wp-image-4214599\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/600_400_WEBP4505-2.jpg\" alt=\"\" />",
+      "all_day": false,
+      "venue": {
+        "id": 4191436,
+        "author": "3",
+        "status": "publish",
+        "date": "2024-10-16 14:53:40",
+        "date_utc": "0000-00-00 00:00:00",
+        "modified": "2024-10-16 14:53:40",
+        "modified_utc": "0000-00-00 00:00:00",
+        "url": "https://www.georgetowndc.com/venue/3051-m-st-nw/",
+        "venue": "3051 M St NW",
+        "slug": "3051-m-st-nw",
+        "geo_lat": 38.9053936,
+        "geo_lng": -77.060371,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4191436",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4191436"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214631,
+      "title": "Haunted Light Show at the Exorcist Steps",
+      "url": "https://www.georgetowndc.com/event/haunted-light-show-at-the-exorcist-steps/",
+      "start_date": "2026-10-31 19:00:00",
+      "end_date": "2026-10-31 23:00:00",
+      "description": "<p>Enjoy a free haunted light show on Halloween night at the Exorcist steps, presented by EventLightsUSA and <em>The Exorcist</em> movie enthusiast Andrew Huff. Wear your best costume and stop by from 7pm-11pm for a spooky evening in Georgetown. You can also join a <a href=\"https://dcbyfoot.com/?re-product-id=4505&amp;rwstep=product\" target=\"_blank\" rel=\"noopener\">haunted walking tour</a> that night!</p>\n<img loading=\"lazy\" decoding=\"async\" width=\"928\" height=\"1200\" class=\"aligncenter size-medium wp-image-4214632\" src=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Red-Vintage-Haunted-House-Event-Announcement-Flyer-928x1200.jpeg\" alt=\"\" srcset=\"https://www.georgetowndc.com/wp-content/uploads/2026/09/Red-Vintage-Haunted-House-Event-Announcement-Flyer-928x1200.jpeg 928w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Red-Vintage-Haunted-House-Event-Announcement-Flyer-768x993.jpeg 768w, https://www.georgetowndc.com/wp-content/uploads/2026/09/Red-Vintage-Haunted-House-Event-Announcement-Flyer.jpeg 961w\" sizes=\"auto, (max-width: 928px) 100vw, 928px\" />\n<p>&nbsp;</p>",
+      "all_day": false,
+      "venue": {
+        "id": 4214633,
+        "author": "3",
+        "status": "publish",
+        "date": "2026-09-21 11:41:36",
+        "date_utc": "2026-09-21 15:41:36",
+        "modified": "2026-09-21 11:41:36",
+        "modified_utc": "2026-09-21 15:41:36",
+        "url": "https://www.georgetowndc.com/venue/exorcist-steps-3601-m-st-nw/",
+        "venue": "Exorcist Steps (3601 M St NW)",
+        "slug": "exorcist-steps-3601-m-st-nw",
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=4214633",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=4214633"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4214874,
+      "title": "Halloween Party",
+      "url": "https://www.georgetowndc.com/event/halloween-party/",
+      "start_date": "2026-10-31 19:30:00",
+      "end_date": "2026-10-31 23:00:00",
+      "description": "<p>Join us for a special Halloween Party at Pinstripes Georgetown! Break out your best costume and celebrate the season with a night of music, treats, and festive fun.</p>\n<p>A live DJ will keep the party going all night (lineup to be announced soon!), and we&#8217;ve lined up some bewitching extras to make your night one to remember:</p>\n<ul>\n<li>Permanent jewelry: Leave with a custom piece to remember the night</li>\n<li>Tarot readings: See what the cards have in store for you</li>\n<li>Caricature artist: Take home a one-of-a-kind portrait of you and your crew (costumes encouraged!)</li>\n</ul>\n<p>Gather your group and spend Halloween night with us in Georgetown!</p>",
+      "all_day": false,
+      "venue": {
+        "id": 143226,
+        "author": "3",
+        "status": "publish",
+        "date": "2019-10-23 13:29:10",
+        "date_utc": "2019-10-23 17:29:10",
+        "modified": "2019-10-23 13:29:10",
+        "modified_utc": "2019-10-23 17:29:10",
+        "url": "https://www.georgetowndc.com/venue/pinstripes-1064-wisconsin-ave-nw/",
+        "venue": "Pinstripes (1064 Wisconsin Ave NW)",
+        "slug": "pinstripes-1064-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=143226",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=143226"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Drink",
+          "slug": "drink",
+          "term_group": 0,
+          "term_taxonomy_id": 52,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1016,
+          "filter": "raw",
+          "id": 52,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/52",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Food",
+          "slug": "food",
+          "term_group": 0,
+          "term_taxonomy_id": 51,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 1766,
+          "filter": "raw",
+          "id": 51,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/51",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4215149,
+      "title": "Dolly Look-A-Like Contest",
+      "url": "https://www.georgetowndc.com/event/dolly-look-a-like-contest/",
+      "start_date": "2026-10-31 21:00:00",
+      "end_date": "2026-10-31 22:30:00",
+      "description": "<p>Big hair. Big glam. Big Dolly energy. This Halloween, 1310 is going full Dolly After Dark.</p>\n<p>Think:<br />\n✨ BIG HAIR<br />\n💎 BIG GLAM<br />\n👢 BIG BOOTS<br />\n🎤 BIG DOLLY ENERGY</p>\n<p>Come dressed as Dolly and compete for prizes.</p>\n<p>💎 THE PRIZE<br />\n$250 1310 Kitchen &amp; Bar Gift Card for the Best Dolly of the Night AND the winner is invited to appear in-studio on FOX-5 DC on Monday, November 2 in the 10AM hour, dressed as Dolly!</p>\n<p>Come solo, bring your friends, bring your best Dolly impression, or just come watch the madness unfold. Everyone is welcome to compete. Food and Beverage available for purchase. Dolly After Dark is FREE to attend with <a href=\"https://www.eventbrite.com/e/dolly-parton-look-alike-contest-tickets-2003118056028?aff=oddtdtcreator\" target=\"_blank\" rel=\"noopener\">RSVP</a>. Limited tickets available.</p>\n<p>(Please note: RSVP to Dolly After Dark does not include the Murder Mystery Dinner. A separate ticket is required for the dinner experience.)</p>\n<p>&nbsp;</p>",
+      "all_day": false,
+      "venue": {
+        "id": 2689333,
+        "author": "3",
+        "status": "publish",
+        "date": "2021-10-26 11:31:54",
+        "date_utc": "2021-10-26 15:31:54",
+        "modified": "2021-10-26 11:31:54",
+        "modified_utc": "2021-10-26 15:31:54",
+        "url": "https://www.georgetowndc.com/venue/1310-kitchen-bar-1310-wisconsin-ave-nw/",
+        "venue": "1310 Kitchen &#038; Bar (1310 Wisconsin Ave NW)",
+        "slug": "1310-kitchen-bar-1310-wisconsin-ave-nw",
+        "country": "United States",
+        "state": "DC",
+        "stateprovince": "DC",
+        "geo_lat": 38.9071923,
+        "geo_lng": -77.0368707,
+        "show_map": true,
+        "show_map_link": true,
+        "global_id": "www.georgetowndc.com?id=2689333",
+        "global_id_lineage": [
+          "www.georgetowndc.com?id=2689333"
+        ]
+      },
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Community Events",
+          "slug": "community-events",
+          "term_group": 0,
+          "term_taxonomy_id": 31,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5455,
+          "filter": "raw",
+          "id": 31,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories/31",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Entertainment",
+          "slug": "entertainment",
+          "term_group": 0,
+          "term_taxonomy_id": 222,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 610,
+          "filter": "raw",
+          "id": 222,
+          "urls": {
+            "self": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags/222",
+            "collection": "https://www.georgetowndc.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    }
+  ]
+}

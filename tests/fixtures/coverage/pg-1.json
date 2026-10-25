@@ -1,0 +1,4603 @@
+{
+  "total": 67,
+  "total_pages": 2,
+  "events": [
+    {
+      "id": 1402190,
+      "title": "Family Discovery Hike",
+      "url": "https://www.pgparks.com/event_list/family-discovery-hike",
+      "start_date": "2026-10-25 10:00:00",
+      "end_date": "2026-10-25 11:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Ready to hit the trail? Take a hike with the whole family and enjoy a guided outdoor adventure with a naturalist. Experience the sights and sounds of nature as you travel the trail and discover the plants, animals, and seasonal wonders that make every hike unique. Designed for all ages.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Clearwater Nature Center is located in Cosca Regional Park in Clinton, MD.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Walks/Runs",
+          "slug": "walks-runs",
+          "term_group": 0,
+          "term_taxonomy_id": 664,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 37,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 664,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/664",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Clearwater Nature Center Events",
+          "slug": "clearwater-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 701,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 43,
+          "filter": "raw",
+          "term_order": "15",
+          "id": 701,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/701",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1411382,
+      "title": "Family Discovery Hike",
+      "url": "https://www.pgparks.com/event_list/family-discovery-hike-3",
+      "start_date": "2026-10-25 10:00:00",
+      "end_date": "2026-10-25 11:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Take a hike! Enjoy the sights and sounds of nature.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        },
+        {
+          "name": "Walks/Runs",
+          "slug": "walks-runs",
+          "term_group": 0,
+          "term_taxonomy_id": 664,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 37,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 664,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/664",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10006468,
+      "title": "STEAM Hour",
+      "url": "https://www.pgparks.com/event_list/steam-hour-9/2026-10-25",
+      "start_date": "2026-10-25 10:30:00",
+      "end_date": "2026-10-25 11:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Join our educators at this hands-on activity table where creativity takes flight! Perfect for budding engineers and aviation enthusiasts, this interactive program allows visitors to design and build their own creations. Whether you’re constructing airplanes, airports, or inventing something entirely new, Saturday STEAM Hour encourages you to dream big and bring your ideas to life. Drop in anytime during the hour for an opportunity to explore the wonders of aviation through play. This program is ideal for learners ages six to twelve and is FREE. No registration required.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "History",
+          "slug": "history",
+          "term_group": 0,
+          "term_taxonomy_id": 533,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 151,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 533,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/533",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Technology",
+          "slug": "technology",
+          "term_group": 0,
+          "term_taxonomy_id": 531,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 12,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 531,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/531",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "College Park Aviation Museum",
+          "slug": "college-park-aviation-museum",
+          "term_group": 0,
+          "term_taxonomy_id": 387,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 59,
+          "filter": "raw",
+          "term_order": "127",
+          "id": 387,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/387",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1408900,
+      "title": "Around the World with Bright Star Touring Theatre ",
+      "url": "https://www.pgparks.com/event_list/around-the-world-with-bright-star-touring-theatre",
+      "start_date": "2026-10-25 14:00:00",
+      "end_date": "2026-10-25 15:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Celebrate world cultures and folktales from around the globe with this fun, high-energy show from Bright Star Touring Theatre. This educational performance celebrates diverse global cultures with interactive folktales and stories like Anansi and Pourquoi. Bright Star Touring Theatre is a national touring theatre company based in North Carolina that creates programs designed to bring the magic of theatre to young people who may not otherwise have the opportunity to experience it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please note, everyone must have a ticket to enter, regardless of age. All Publick Playhouse ticket sales are final. There are no refunds or exchanges.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Arts",
+          "slug": "arts",
+          "term_group": 0,
+          "term_taxonomy_id": 534,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 548,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 534,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/534",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Performance",
+          "slug": "performance",
+          "term_group": 0,
+          "term_taxonomy_id": 539,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 224,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 539,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/539",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Family Fun Series - PPH",
+          "slug": "family-fun-series-pph",
+          "term_group": 0,
+          "term_taxonomy_id": 756,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 4,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 756,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/756",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009156,
+      "title": "Aerobics: Adults with Sheryl ",
+      "url": "https://www.pgparks.com/event_list/aerobics-adults-w-sheryl-2/2026-10-25",
+      "start_date": "2026-10-25 14:30:00",
+      "end_date": "2026-10-25 15:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Get your blood pumpin&#8217; and heart thumpin&#8217;! This energetic exercise class will rev up your mood and muscles as you progress your way to great overall fitness. Strengthen your heart and lungs. Burn calories and have fun with others moving to great music.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1407168,
+      "title": "Abbegael Greene",
+      "url": "https://www.pgparks.com/event_list/abbegael-greene",
+      "start_date": "2026-10-25 15:00:00",
+      "end_date": "2026-10-25 16:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Mezzo-soprano Abbegael Greene has already built an illustrious career, with her voice described as having “emotional intimacy through her velvet voice” (The Millbrook Independent). Her stage credits include Marthe Schwerlein in Faust with Berkshire Opera Festival and the title role in Gilbert and Sullivan’s Iolanthe with The Orchestra Now. Greene is joined by pianist Lara Saldanha for a vocal-piano recital featuring works by Gustav Mahler, Samuel Coleridge-Taylor, and Manuel de Falla, exploring themes of wayfaring, belonging, and human connection in times of transience.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Arts",
+          "slug": "arts",
+          "term_group": 0,
+          "term_taxonomy_id": 534,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 548,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 534,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/534",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Performance",
+          "slug": "performance",
+          "term_group": 0,
+          "term_taxonomy_id": 539,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 224,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 539,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/539",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "MAC - Free Classical Recitals",
+          "slug": "free-classical-recitals",
+          "term_group": 0,
+          "term_taxonomy_id": 671,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 9,
+          "filter": "raw",
+          "term_order": "45",
+          "id": 671,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/671",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007864,
+      "title": "Hidden Spaces Tours",
+      "url": "https://www.pgparks.com/event_list/hidden-spaces-tours/2026-10-25",
+      "start_date": "2026-10-25 15:30:00",
+      "end_date": "2026-10-25 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">See seldom seen areas of Montpelier and hear about the original construction and preservation of this 18th-century plantation house. Advance registration is recommended. Drop-ins are welcome, subject to availability. Wear comfortable clothing and shoes. Participants will climb narrow stairs and ladders. This activity is not ADA accessible. Members of the Montpelier Historic Site &amp; Museum should call 301-377-7817 to register.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "250th Anniversary",
+          "slug": "250th-anniversary",
+          "term_group": 0,
+          "term_taxonomy_id": 714,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 74,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 714,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/714",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "History",
+          "slug": "history",
+          "term_group": 0,
+          "term_taxonomy_id": 533,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 151,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 533,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/533",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Tours",
+          "slug": "tours",
+          "term_group": 0,
+          "term_taxonomy_id": 667,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 75,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 667,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/667",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Montpelier House Museum",
+          "slug": "montpelier-house-museum-events",
+          "term_group": 0,
+          "term_taxonomy_id": 697,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 32,
+          "filter": "raw",
+          "term_order": "19",
+          "id": 697,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/697",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007112,
+      "title": "Fitness in the Parks - Urban Line Dancing   ",
+      "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-urban-line-dancing/2026-10-26",
+      "start_date": "2026-10-26 08:30:00",
+      "end_date": "2026-10-26 09:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Let your creativity loose on the dance floor! Learn all the latest dances suitable for beginners and seasoned line dancers. Enjoy this great way to exercise, socialize, and energize yourself.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007344,
+      "title": "Walk With Ease ",
+      "url": "https://www.pgparks.com/event_list/walk-with-ease/2026-10-26",
+      "start_date": "2026-10-26 09:00:00",
+      "end_date": "2026-10-26 10:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Walking benefits your mind, mood, and overall health. Join us for our Walk With Ease Program. We combine our walking with health education and warm up/cooldown exercises. If you can be on your feet for 10 minutes without increased pain, you can have success with Walk With Ease. No classes on federal holidays. Registration required. </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Walks/Runs",
+          "slug": "walks-runs",
+          "term_group": 0,
+          "term_taxonomy_id": 664,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 37,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 664,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/664",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10001371,
+      "title": "Living Strong",
+      "url": "https://www.pgparks.com/event_list/living-strong-2-2/2026-10-26",
+      "start_date": "2026-10-26 09:30:00",
+      "end_date": "2026-10-26 10:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Whether you’re a graduate of Fit &amp; Strong! or new to group fitness and would like a challenge, Living Strong is a great way to stay active and build strength in a supportive environment. This class includes strength training, aerobic exercise, balance, flexibility and more, along with goal setting to help you stay motivated and consistent. Come improve your endurance, boost your energy, and keep Living Strong!</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10009161,
+      "title": "Chair Aerobics: Cycling with Darlina ",
+      "url": "https://www.pgparks.com/event_list/chair-aerobics-cycling-w-darlina/2026-10-26",
+      "start_date": "2026-10-26 09:30:00",
+      "end_date": "2026-10-26 10:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Sit and still get fit! Suitable for anyone who wants the combination of stationary cycling and chair aerobics, this class will help you tone and stretch. Get your legs moving and stay healthy longer. Register now for this active ride that will change your life.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008119,
+      "title": "Open Carving Days",
+      "url": "https://www.pgparks.com/event_list/open-carving-days/2026-10-26",
+      "start_date": "2026-10-26 11:00:00",
+      "end_date": "2026-10-26 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Come see artist Carving Colin bring two new wood sculptures to life during a live carving experience at Clearwater Nature Center. This event is supported in part by the <a href=\"https://www.msac.org/\">Maryland State Arts Council</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Location:</strong> Clearwater Nature Center, 11401 Thrift Rd, Clinton, MD 20735.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Weekly Schedule:</strong><br>Week 1: October 5-9, 11 am-5 pm<br>Week 2: October 12-16, 11 am-5 pm<br>Week 3: October 19-22, 11 am-5 pm<br>Week 4: October 26-28, 11 am-5 pm</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Clearwater Nature Center Events",
+          "slug": "clearwater-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 701,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 43,
+          "filter": "raw",
+          "term_order": "15",
+          "id": 701,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/701",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008026,
+      "title": "Fitness in the Parks - Dance Fitness",
+      "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-dance-fitness/2026-10-26",
+      "start_date": "2026-10-26 17:30:00",
+      "end_date": "2026-10-26 18:30:00",
+      "description": "<p class=\"wp-block-paragraph\">This is not your ordinary hip-hop dance class. Get moving and grooving to upbeat music while your fitness level improves. It&#8217;s all fun and all good in this energetic workout.  Level: All </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009201,
+      "title": "Zumba Fitness ",
+      "url": "https://www.pgparks.com/event_list/zumba-fitness/2026-10-26",
+      "start_date": "2026-10-26 19:00:00",
+      "end_date": "2026-10-26 20:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Get ready to experience the global dance fitness phenomena! Zumba incorporates a fusion of Latin and international music. The use of multicultural dance themes create a dynamic and exciting total-body fitness routine. Experience Zumba&#8217;s benefits to your mood, heart, and dance skills.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Langley",
+          "slug": "live-well-langley",
+          "term_group": 0,
+          "term_taxonomy_id": 771,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 13,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 771,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/771",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007166,
+      "title": "QR Fit Trail - Instructor Led Sessions",
+      "url": "https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions/2026-10-27",
+      "start_date": "2026-10-27 08:00:00",
+      "end_date": "2026-10-27 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Looking for an exciting workout experience? Follow a scenic trail and scan QR codes at each station to access video instructions for your next exercise. This program goes beyond walking by incorporating resistance and flexibility exercises to build strength, improve mobility, and reduce the risk of injury. Let&#8217;s get moving together and create a balanced and effective fitness routine! </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        },
+        {
+          "name": "Walks/Runs",
+          "slug": "walks-runs",
+          "term_group": 0,
+          "term_taxonomy_id": 664,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 37,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 664,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/664",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008459,
+      "title": "Senior Fit",
+      "url": "https://www.pgparks.com/event_list/senior-fit/2026-10-27",
+      "start_date": "2026-10-27 10:15:00",
+      "end_date": "2026-10-27 11:00:00",
+      "description": "<p class=\"wp-block-paragraph\">This exercise program focuses on strength, balance, agility, and cardiovascular fitness. Exercising regularly help to prevent falls, manage chronic illnesses, and achieve better quality of life. Our Senior Fit instructors are experienced, certified fitness professionals. Sponsored by Holy Cross Health. Registration is required.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Langley",
+          "slug": "live-well-langley",
+          "term_group": 0,
+          "term_taxonomy_id": 771,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 13,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 771,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/771",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008120,
+      "title": "Open Carving Days",
+      "url": "https://www.pgparks.com/event_list/open-carving-days/2026-10-27",
+      "start_date": "2026-10-27 11:00:00",
+      "end_date": "2026-10-27 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Come see artist Carving Colin bring two new wood sculptures to life during a live carving experience at Clearwater Nature Center. This event is supported in part by the <a href=\"https://www.msac.org/\">Maryland State Arts Council</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Location:</strong> Clearwater Nature Center, 11401 Thrift Rd, Clinton, MD 20735.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Weekly Schedule:</strong><br>Week 1: October 5-9, 11 am-5 pm<br>Week 2: October 12-16, 11 am-5 pm<br>Week 3: October 19-22, 11 am-5 pm<br>Week 4: October 26-28, 11 am-5 pm</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Clearwater Nature Center Events",
+          "slug": "clearwater-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 701,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 43,
+          "filter": "raw",
+          "term_order": "15",
+          "id": 701,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/701",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009039,
+      "title": "Tai Chi: Beginner with Hero ",
+      "url": "https://www.pgparks.com/event_list/tai-chi-beginner-w-hero/2026-10-27",
+      "start_date": "2026-10-27 11:00:00",
+      "end_date": "2026-10-27 12:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Meditation in motion is how health experts describe tai chi – an ancient form of exercise for balance, stretching, muscle tone, and flexibility. Incorporate deep breathing along with these gentle, flowing, focused movements into your exercise program for better overall health and the relief of stress. Sometimes the ancient way is the best way!</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008927,
+      "title": "Tai Chi: Intermediate with Hero ",
+      "url": "https://www.pgparks.com/event_list/tai-chi-intermediate-w-hero/2026-10-27",
+      "start_date": "2026-10-27 12:00:00",
+      "end_date": "2026-10-27 13:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Tai chi is an art embracing the mind, body and spirit. Originating in ancient China, tai chi is one of the most effective exercises for health of mind and body. Although an art with great depth of knowledge and skill, it can be easy to learn and soon delivers its health benefits. For many, it continues as a life-long journey.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1413397,
+      "title": "Prince George’s Plaza Multigenerational Center Concept Design Workshop",
+      "url": "https://www.pgparks.com/event_list/prince-georges-plaza-multigenerational-center-concept-design-workshop",
+      "start_date": "2026-10-27 18:00:00",
+      "end_date": "2026-10-27 20:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join us for our Concept Design Workshop, an open-house style event to share updates about <a href=\"https://www.pgparks.com/projects/prince-georges-plaza-multigenerational-center\">the new Multigenerational Center</a> and gather feedback from the community to help shape the design and programming of this new facility. This is a drop-in event, so come when you can and stay for as long as you are able. <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.eventbrite.com%2Fe%2F2003199277965%3Faff%3Doddtdtcreator&amp;data=05%7C02%7CKenneth.Goins%40pgparks.com%7C919a8ab8bc6d4645db3208df28571666%7Ca9061e0c24ca4c1cbeff039bb8c05816%7C0%7C0%7C639274026680312752%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=7yh%2FfSxAi%2Bx8ktcxWzlKgWAZPJ7jA3qx8tYlSH5r6Y8%3D&amp;reserved=0\">Registration</a> is requested to ensure adequate staffing and materials, and the ability to prepare and provide any requested attendee accommodations. If you require translation/interpretation services or other accommodations, please complete the question at the end of the registration process. Accommodation requests should be received at least 10 days prior to the event.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please spread the word about the workshop among your friends, neighbors, and colleagues in the community. We look forward to seeing you there!</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Community Meeting",
+          "slug": "community-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 736,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 736,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/736",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Virtual",
+          "slug": "virtual",
+          "term_group": 0,
+          "term_taxonomy_id": 628,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 31,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 628,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/628",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10009206,
+      "title": "Aerobics: Adults with Sheryl ",
+      "url": "https://www.pgparks.com/event_list/aerobics-adults-w-sheryl/2026-10-27",
+      "start_date": "2026-10-27 18:45:00",
+      "end_date": "2026-10-27 19:45:00",
+      "description": "<p class=\"wp-block-paragraph\">Get your blood pumpin&#8217; and heart thumpin&#8217;! This energetic exercise class will rev up your mood and muscles as you progress your way to great overall fitness. Strengthen your heart and lungs. Burn calories and have fun with others while moving to great music.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007128,
+      "title": "Fitness in the Parks - AM Sweatshop",
+      "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-am-sweatshop/2026-10-28",
+      "start_date": "2026-10-28 08:00:00",
+      "end_date": "2026-10-28 09:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join us for this fun, effective cardio workout that combines several different workout methods including aerobics&nbsp;and&nbsp;bodyweight strength training.&nbsp;Enjoy a high-energy group environment as you improve your strength and cardiovascular endurance.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007345,
+      "title": "Walk With Ease ",
+      "url": "https://www.pgparks.com/event_list/walk-with-ease/2026-10-28",
+      "start_date": "2026-10-28 09:00:00",
+      "end_date": "2026-10-28 10:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Walking benefits your mind, mood, and overall health. Join us for our Walk With Ease Program. We combine our walking with health education and warm up/cooldown exercises. If you can be on your feet for 10 minutes without increased pain, you can have success with Walk With Ease. No classes on federal holidays. Registration required. </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Walks/Runs",
+          "slug": "walks-runs",
+          "term_group": 0,
+          "term_taxonomy_id": 664,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 37,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 664,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/664",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1413279,
+      "title": "Connecting with Community Organizations",
+      "url": "https://www.pgparks.com/event_list/connecting-with-community-organizations",
+      "start_date": "2026-10-28 09:00:00",
+      "end_date": "2026-10-28 12:30:00",
+      "description": "<p class=\"wp-block-paragraph\">An information session for nonprofit organizations, civic and neighborhood associations, and community groups.</p>\n\n\n\n<div class=\"wp-block-group has-background-color has-secondary-background-color has-text-color has-background has-link-color wp-elements-1 is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"has-background-color has-text-color has-link-color wp-elements-2 wp-block-paragraph\">Organization representatives who attend will:</p>\n\n\n\n<div class=\"wp-block-advgb-list\"><ul class=\"advgblist-cb45c79f-42bd-4609-bd83-65bfe233e7ec\">\n<li>Learn the Department’s program area priorities.</li>\n\n\n\n<li>Discover how the Department supports and serves the community.</li>\n\n\n\n<li>Find their organization’s role in expanding this work.</li>\n\n\n\n<li>Explore exhibitor resource tables.</li>\n</ul></div>\n</div>\n<style class=\"advgb-styles-renderer\">.wp-block-advgb-list ul.advgblist-cb45c79f-42bd-4609-bd83-65bfe233e7ec > li{font-size:16px;}.wp-block-advgb-list ul.advgblist-cb45c79f-42bd-4609-bd83-65bfe233e7ec > li{font-size:16px;}</style>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Community Meeting",
+          "slug": "community-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 736,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 5,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 736,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/736",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10001372,
+      "title": "Living Strong",
+      "url": "https://www.pgparks.com/event_list/living-strong-2-2/2026-10-28",
+      "start_date": "2026-10-28 09:30:00",
+      "end_date": "2026-10-28 10:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Whether you’re a graduate of Fit &amp; Strong! or new to group fitness and would like a challenge, Living Strong is a great way to stay active and build strength in a supportive environment. This class includes strength training, aerobic exercise, balance, flexibility and more, along with goal setting to help you stay motivated and consistent. Come improve your endurance, boost your energy, and keep Living Strong!</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10002169,
+      "title": "Yoga",
+      "url": "https://www.pgparks.com/event_list/yoga-2/2026-10-28",
+      "start_date": "2026-10-28 09:30:00",
+      "end_date": "2026-10-28 10:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Stretch toward your fitness goals! Learn basic yoga to improve health and flexibility through deep breathing and controlled stretching. Reduce stress, get better sleep, and build muscle stamina as you practice new or previously learned yoga skills. </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "May is Fitness Month",
+          "slug": "may-is-fitness-month",
+          "term_group": 0,
+          "term_taxonomy_id": 564,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 117,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 564,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/564",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10009227,
+      "title": "Chair Aerobics: Cycling with Darlina ",
+      "url": "https://www.pgparks.com/event_list/chair-aerobics-cycling-w-darlina/2026-10-28",
+      "start_date": "2026-10-28 09:30:00",
+      "end_date": "2026-10-28 10:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Sit and still get fit! Suitable for anyone who wants the combination of stationary cycling and chair aerobics, this class will help you tone and stretch. Get your legs moving and stay healthy longer. Register now for this active ride that will change your life.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1411380,
+      "title": "Know Your Numbers – Walk into Wellness!",
+      "url": "https://www.pgparks.com/event_list/know-your-numbers-walk-into-wellness",
+      "start_date": "2026-10-28 11:00:00",
+      "end_date": "2026-10-28 13:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Held in partnership with MedStar Southern Maryland Hospital Center and M-NCPPC, Department of Parks and Recreation, Prince George&#8217;s County, enjoy a guided walk with healthcare professionals, along with blood pressure screenings, health education, and opportunities to ask questions and connect with wellness experts. Learn what your health numbers mean, discover healthy lifestyle choices, and leave with practical tips and community resources to support your overall wellness.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Lifestyle &amp; Learning",
+          "slug": "lifestyle-learning",
+          "term_group": 0,
+          "term_taxonomy_id": 530,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 100,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 530,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/530",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008121,
+      "title": "Open Carving Days",
+      "url": "https://www.pgparks.com/event_list/open-carving-days/2026-10-28",
+      "start_date": "2026-10-28 11:00:00",
+      "end_date": "2026-10-28 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Come see artist Carving Colin bring two new wood sculptures to life during a live carving experience at Clearwater Nature Center. This event is supported in part by the <a href=\"https://www.msac.org/\">Maryland State Arts Council</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Location:</strong> Clearwater Nature Center, 11401 Thrift Rd, Clinton, MD 20735.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Weekly Schedule:</strong><br>Week 1: October 5-9, 11 am-5 pm<br>Week 2: October 12-16, 11 am-5 pm<br>Week 3: October 19-22, 11 am-5 pm<br>Week 4: October 26-28, 11 am-5 pm</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Clearwater Nature Center Events",
+          "slug": "clearwater-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 701,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 43,
+          "filter": "raw",
+          "term_order": "15",
+          "id": 701,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/701",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1413925,
+      "title": "Info Session: I Am a Survivor",
+      "url": "https://www.pgparks.com/event_list/info-session-i-am-a-survivor",
+      "start_date": "2026-10-28 11:00:00",
+      "end_date": "2026-10-28 12:00:00",
+      "description": "<p>Come hear the inspiring journeys of breast cancer survivors during this empowering session. Learn about their experiences, gain insight, and discover resources that support prevention and treatment. Whether you are a survivor, a caregiver, or simply want to learn more, this session will offer hope, education, and encouragement. Light refreshments will be provided.</p>\n<p>Sign up in the FREE Book at the front desk of John E. Howard Senior Activity Center. Space is limited.</p>\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Lifestyle &amp; Learning",
+          "slug": "lifestyle-learning",
+          "term_group": 0,
+          "term_taxonomy_id": 530,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 100,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 530,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/530",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Howard",
+          "slug": "live-well-howard",
+          "term_group": 0,
+          "term_taxonomy_id": 772,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 16,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 772,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/772",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009181,
+      "title": "Chair Aerobics: Cycling with Darlina ",
+      "url": "https://www.pgparks.com/event_list/chair-aerobics-cycling-w-darlina-2/2026-10-28",
+      "start_date": "2026-10-28 11:00:00",
+      "end_date": "2026-10-28 12:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Sit and still get fit! Suitable for anyone who wants the combination of stationary cycling and chair aerobics, this class will help you tone and stretch. Get your legs moving and stay healthy longer. Register now for this active ride that will change your life.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007971,
+      "title": "Fitness in the Parks - Circuit Workout",
+      "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-circuit-workout-2/2026-10-28",
+      "start_date": "2026-10-28 17:30:00",
+      "end_date": "2026-10-28 18:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Shake up your routine with this dynamic Circuit Workout! Move through a series of timed exercises that target strength, cardio, and endurance — perfect for a full-body challenge. Work at your own pace with options for all fitness levels. Please bring a mat or towel.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1413200,
+      "title": "Autumn Sunset Boat Tour",
+      "url": "https://www.pgparks.com/event_list/autumn-sunset-boat-tour",
+      "start_date": "2026-10-28 17:30:00",
+      "end_date": "2026-10-28 18:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Celebrate the beauty of fall on a relaxing pontoon boat tour along the Anacostia River. Enjoy scenic river views as the sun sets and autumn colors begin to transform the landscape around Bladensburg Waterfront Park.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Program Information:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Guided pontoon boat tour on the Anacostia River</p>\n\n\n\n<p class=\"wp-block-paragraph\">Seasonal views of fall foliage and sunset scenery</p>\n\n\n\n<p class=\"wp-block-paragraph\">Opportunities to observe local wildlife</p>\n\n\n\n<p class=\"wp-block-paragraph\">Binoculars welcome; a limited number will be available to borrow</p>\n\n\n\n<p class=\"wp-block-paragraph\">Bladensburg Waterfront Park is located in Bladensburg, MD along the Anacostia River.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Tours",
+          "slug": "tours",
+          "term_group": 0,
+          "term_taxonomy_id": 667,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 75,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 667,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/667",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Bladensburg Waterfront Park Events",
+          "slug": "bladensburg-waterfront-events",
+          "term_group": 0,
+          "term_taxonomy_id": 702,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 48,
+          "filter": "raw",
+          "term_order": "14",
+          "id": 702,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/702",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008460,
+      "title": "Senior Fit",
+      "url": "https://www.pgparks.com/event_list/senior-fit/2026-10-29",
+      "start_date": "2026-10-29 10:15:00",
+      "end_date": "2026-10-29 11:00:00",
+      "description": "<p class=\"wp-block-paragraph\">This exercise program focuses on strength, balance, agility, and cardiovascular fitness. Exercising regularly help to prevent falls, manage chronic illnesses, and achieve better quality of life. Our Senior Fit instructors are experienced, certified fitness professionals. Sponsored by Holy Cross Health. Registration is required.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Seniors",
+          "slug": "seniors",
+          "term_group": 0,
+          "term_taxonomy_id": 766,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 29,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 766,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/766",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Langley",
+          "slug": "live-well-langley",
+          "term_group": 0,
+          "term_taxonomy_id": 771,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 13,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 771,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/771",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007893,
+      "title": "Toddler Time at Mount Rainier (October)",
+      "url": "https://www.pgparks.com/event_list/toddler-time-at-mount-rainier-october/2026-10-29",
+      "start_date": "2026-10-29 11:00:00",
+      "end_date": "2026-10-29 11:45:00",
+      "description": "<p class=\"wp-block-paragraph\">Introduce your toddler to the wonders of nature through hands-on exploration, stories, songs, crafts, and outdoor discovery. Each Toddler Time session features a unique theme focused on animals, plants, habitats, or other natural wonders, helping young learners build curiosity and a connection to the world around them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Designed for ages 2-5, this fun and interactive program encourages children to learn through play, movement, and their senses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An adult must accompany each child.</p>\n\n\n\n<p class=\"wp-block-paragraph\">October line-up:<br>&#8211; October 1: Eight-legged friends<br>&#8211; October 8: Bird migration<br>&#8211; October 15: Fall colors<br>&#8211; October 22: Morning fog<br>&#8211; October 29: Mariposa monarca y el Dia de los Muertos</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Mt Rainier Nature Center Events",
+          "slug": "mt-ranier-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 700,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 48,
+          "filter": "raw",
+          "term_order": "16",
+          "id": 700,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/700",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1411702,
+      "title": "Toddler Time at Mount Rainier: Mariposa Monarca y el Dia de los Muertos",
+      "url": "https://www.pgparks.com/event_list/toddler-time-at-mount-rainier-mariposa-monarca-y-el-dia-de-los-muertos",
+      "start_date": "2026-10-29 11:00:00",
+      "end_date": "2026-10-29 11:45:00",
+      "description": "<p class=\"wp-block-paragraph\">Introduce your toddler to the wonders of nature through hands-on exploration, stories, songs, crafts, and outdoor discovery. Each <em>Toddler Time</em> session features a unique theme focused on animals, plants, habitats, or other natural wonders, helping young learners build curiosity and a connection to the world around them.<br><br>Designed for ages two to five, this fun and interactive program encourages children to learn through play, movement, and their senses.<br><br>An adult must accompany each child.<br></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Heritage Celebrations",
+          "slug": "heritage-celebrations",
+          "term_group": 0,
+          "term_taxonomy_id": 536,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 536,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/536",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Holidays &amp; Celebrations",
+          "slug": "holidays-celebrations",
+          "term_group": 0,
+          "term_taxonomy_id": 537,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 61,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 537,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/537",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Mt Rainier Nature Center Events",
+          "slug": "mt-ranier-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 700,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 48,
+          "filter": "raw",
+          "term_order": "16",
+          "id": 700,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/700",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008122,
+      "title": "Open Carving Days",
+      "url": "https://www.pgparks.com/event_list/open-carving-days/2026-10-29",
+      "start_date": "2026-10-29 11:00:00",
+      "end_date": "2026-10-29 17:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Come see artist Carving Colin bring two new wood sculptures to life during a live carving experience at Clearwater Nature Center. This event is supported in part by the <a href=\"https://www.msac.org/\">Maryland State Arts Council</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Location:</strong> Clearwater Nature Center, 11401 Thrift Rd, Clinton, MD 20735.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Weekly Schedule:</strong><br>Week 1: October 5-9, 11 am-5 pm<br>Week 2: October 12-16, 11 am-5 pm<br>Week 3: October 19-22, 11 am-5 pm<br>Week 4: October 26-28, 11 am-5 pm</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Clearwater Nature Center Events",
+          "slug": "clearwater-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 701,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 43,
+          "filter": "raw",
+          "term_order": "15",
+          "id": 701,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/701",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009210,
+      "title": "Tai Chi: Beginner with Hero ",
+      "url": "https://www.pgparks.com/event_list/tai-chi-beginner-w-hero-2/2026-10-29",
+      "start_date": "2026-10-29 11:00:00",
+      "end_date": "2026-10-29 12:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Meditation in motion is how health experts describe tai chi – an ancient form of exercise for balance, stretching, muscle tone, and flexibility. Incorporate deep breathing along with these gentle, flowing, focused movements into your exercise program for better overall health and the relief of stress. Sometimes the ancient way is the best way!</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009197,
+      "title": "Kinder Craft and Story ",
+      "url": "https://www.pgparks.com/event_list/kinder-craft-and-story/2026-10-29",
+      "start_date": "2026-10-29 11:00:00",
+      "end_date": "2026-10-29 12:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Listen and learn! Let your little ones&#8217; imaginations expand through creating crafts and listening to stories while positively interacting with other children. Story-listening encourages kids to grow in their love of reading, develop literacy skills, and strengthen their memories. Enroll your child in this class of creative self-expression and social maturation.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Langley",
+          "slug": "live-well-langley",
+          "term_group": 0,
+          "term_taxonomy_id": 771,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 13,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 771,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/771",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10009095,
+      "title": "Tai Chi: Intermediate with Hero ",
+      "url": "https://www.pgparks.com/event_list/tai-chi-intermediate-w-hero-2/2026-10-29",
+      "start_date": "2026-10-29 12:00:00",
+      "end_date": "2026-10-29 13:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Tai chi is an art embracing the mind, body and spirit. Originating in ancient China, tai chi is one of the most effective exercises for health of mind and body. Although an art with great depth of knowledge and skill, it can be easy to learn and soon delivers its health benefits. For many, it continues as a life-long journey.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "18 and up",
+          "slug": "18andup",
+          "term_group": 0,
+          "term_taxonomy_id": 731,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 126,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 731,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/731",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Live Well",
+          "slug": "live-well",
+          "term_group": 0,
+          "term_taxonomy_id": 770,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 770,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/770",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "Live Well Marlow",
+          "slug": "live-well-marlow",
+          "term_group": 0,
+          "term_taxonomy_id": 773,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 773,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/773",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10003940,
+      "title": "Revolution, Rebellion, Treason: A Slice of History Discussion Series",
+      "url": "https://www.pgparks.com/event_list/revolution-rebellion-treason-a-slice-of-history-discussion-series-2/2026-10-29",
+      "start_date": "2026-10-29 16:00:00",
+      "end_date": "2026-10-29 17:30:00",
+      "description": "<p class=\"wp-block-paragraph\">What are the differences between revolutions, rebellions, and acts of treason? Join the Surratt Historic Site &amp; Museum as we take a long view of sparking change in American history, beginning with the Declaration of Independence and concluding with our present day. Intended for our youngest and soon-to-be leaders, this program will facilitate a shared understanding of what it means to be an engaged citizen in 2026 and beyond.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Part 1</strong>: Thursday, August 27, 4 pm</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Part 2</strong>: Thursday, October 29, 4 pm</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "250th Anniversary",
+          "slug": "250th-anniversary",
+          "term_group": 0,
+          "term_taxonomy_id": 714,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 74,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 714,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/714",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Black History",
+          "slug": "black-history",
+          "term_group": 0,
+          "term_taxonomy_id": 548,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 80,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 548,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/548",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "History",
+          "slug": "history",
+          "term_group": 0,
+          "term_taxonomy_id": 533,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 151,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 533,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/533",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Teens",
+          "slug": "teens",
+          "term_group": 0,
+          "term_taxonomy_id": 715,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 105,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 715,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/715",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Youth",
+          "slug": "youth",
+          "term_group": 0,
+          "term_taxonomy_id": 532,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 219,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 532,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/532",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Surratt House Museum Events",
+          "slug": "surratt-house-museum-events",
+          "term_group": 0,
+          "term_taxonomy_id": 703,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 15,
+          "filter": "raw",
+          "term_order": "13",
+          "id": 703,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/703",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10007656,
+      "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
+      "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-watkins-regional-park/2026-10-29",
+      "start_date": "2026-10-29 17:00:00",
+      "end_date": "2026-10-29 18:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10008002,
+      "title": "Fitness in the Parks - Zumba",
+      "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-zumba-2/2026-10-29",
+      "start_date": "2026-10-29 17:30:00",
+      "end_date": "2026-10-29 18:30:00",
+      "description": "<p class=\"wp-block-paragraph\">Dance your way into fitness with this outdoor Zumba® class! The use of multicultural dance themes create a dynamic and exciting total body fitness routine. Experience Zumba&#8217;s benefits to your mood, heart, and dance skills!</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10002233,
+      "title": "Get Fit Mobile: Fitness on the Fly @ Fairwood Park",
+      "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly/2026-10-29",
+      "start_date": "2026-10-29 18:00:00",
+      "end_date": "2026-10-29 19:00:00",
+      "description": "<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class. Ages 13 &amp; up; FREE  </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10002285,
+      "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
+      "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-2/2026-10-29",
+      "start_date": "2026-10-29 18:00:00",
+      "end_date": "2026-10-29 19:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class. Ages 13 &amp; up; FREE  </p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": 10007546,
+      "title": "Get Fit Mobile: Strength in Motion (4-week program)  ",
+      "url": "https://www.pgparks.com/event_list/get-fit-mobile-strength-in-motion-4-week-program/2026-10-29",
+      "start_date": "2026-10-29 18:00:00",
+      "end_date": "2026-10-29 19:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! Strength in motion is a dynamic circuit-based fitness class designed to build strength, improve endurance, and keep the body moving through a series of structured exercise stations. This class is ideal for individuals looking for a full-body workout that is energizing, and adaptable for all fitness levels. The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Fitness",
+          "slug": "fitness",
+          "term_group": 0,
+          "term_taxonomy_id": 550,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 102,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 550,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/550",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Health &amp; Wellness",
+          "slug": "health-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 542,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 168,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 542,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Outdoor Wellness",
+          "slug": "outdoor-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 709,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 542,
+          "count": 28,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 709,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/709",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories",
+            "up": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/542"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Health and Wellness",
+          "slug": "health-and-wellness",
+          "term_group": 0,
+          "term_taxonomy_id": 710,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw",
+          "term_order": "7",
+          "id": 710,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/710",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1411670,
+      "title": "Nature Game Night with Elizabeth Hargrave",
+      "url": "https://www.pgparks.com/event_list/nature-game-night-with-elizabeth-hargrave",
+      "start_date": "2026-10-29 18:30:00",
+      "end_date": "2026-10-29 21:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join us for an incredible evening of classic games, friendly competition, and nature-themed fun featuring special guest Elizabeth Hargrave, creator of the popular game Wingspan. In collaboration with the Mycological Association of Washington, D.C., participants can enjoy a variety of nature-inspired games, including Wingspan, Wyrmspan, and Undergrove, with 12 tables of four players each ready for adventure.</p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Nature &amp; Outdoor",
+          "slug": "nature-outdoor",
+          "term_group": 0,
+          "term_taxonomy_id": 547,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 208,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 547,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/547",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Special Event",
+          "slug": "special-event",
+          "term_group": 0,
+          "term_taxonomy_id": 540,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 123,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 540,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/540",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Mt Rainier Nature Center Events",
+          "slug": "mt-ranier-nature-center-events",
+          "term_group": 0,
+          "term_taxonomy_id": 700,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 48,
+          "filter": "raw",
+          "term_order": "16",
+          "id": 700,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/700",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10006356,
+      "title": "Guitar Workshops: Jazz Chords for Folkies... from Cowboy Chords to Jazz Voicings",
+      "url": "https://www.pgparks.com/event_list/guitar-workshops-jazz-chords-for-folkies-from-cowboy-chords-to-jazz-voicings/2026-10-29",
+      "start_date": "2026-10-29 19:00:00",
+      "end_date": "2026-10-29 20:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join musician Ken Avis for a four-part workshop series. Ken is a guitarist that hails from the UK and is one half of the duo Veronneau. Students will be introduced to new chords, fusions, and history that span jazz, folk, and country. Sessions last for 60 minutes.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Workshop dates:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Thursday, October 15, 2026, 7-8 pm</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Thursday, October 22, 2026, 7-8 pm</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Thursday, October 29, 2026, 7-8 pm</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Thursday, November 5, 2026, 7-8 pm</strong></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Arts",
+          "slug": "arts",
+          "term_group": 0,
+          "term_taxonomy_id": 534,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 548,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 534,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/534",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Workshops",
+          "slug": "workshops",
+          "term_group": 0,
+          "term_taxonomy_id": 593,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 101,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 593,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/593",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "MAC - Special Events",
+          "slug": "special-events-mac",
+          "term_group": 0,
+          "term_taxonomy_id": 672,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 24,
+          "filter": "raw",
+          "term_order": "44",
+          "id": 672,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/672",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1411175,
+      "title": "Riversdale After-Hours Tour \"From the Source(s)\"",
+      "url": "https://www.pgparks.com/event_list/riversdale-after-hours-tour-from-the-sources",
+      "start_date": "2026-10-29 19:00:00",
+      "end_date": "2026-10-29 20:00:00",
+      "description": "<p class=\"wp-block-paragraph\">Join the after-hours tour, “From the Source(s): Life and Death at Riversdale Historic House &amp; Museum.” This reflective evening program explores stories of life, loss, and legacy at the historic site, honoring those who lived and labored there through primary sources and thoughtful interpretation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "Black History",
+          "slug": "black-history",
+          "term_group": 0,
+          "term_taxonomy_id": 548,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 80,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 548,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/548",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "History",
+          "slug": "history",
+          "term_group": 0,
+          "term_taxonomy_id": 533,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 151,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 533,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/533",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Tours",
+          "slug": "tours",
+          "term_group": 0,
+          "term_taxonomy_id": 667,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 75,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 667,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/667",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Riversdale Events",
+          "slug": "riversdale-events",
+          "term_group": 0,
+          "term_taxonomy_id": 692,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 42,
+          "filter": "raw",
+          "term_order": "24",
+          "id": 692,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/692",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1413773,
+      "title": "BEST Horse Show",
+      "url": "https://www.pgparks.com/event_list/best-horse-show-2",
+      "start_date": "2026-10-30 08:00:00",
+      "end_date": "2026-10-31 20:00:00",
+      "description": "<p class=\"wp-block-paragraph\">The BEST Horse Show series returns to Prince George&#8217;s Equestrian Center and The Show Place Arena with their final fall indoor/outdoor show. Schooling begins at 12 noon on Friday, October 30, followed by two days of competition (Saturday, October 31 and Sunday, November 1).</p>\n\n\n\n<p class=\"wp-block-paragraph\">Contact information:&nbsp;<a href=\"mailto:besthorseshows@gmail.com\" rel=\"noopener\" target=\"_blank\">besthorseshows@gmail.com</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Owner/Show Manager: Jaime Suchoski, 410-340-5793</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.besthorseshows.com/\" target=\"_blank\" rel=\"noreferrer noopener\">Click here to view show website</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>",
+      "all_day": false,
+      "venue": [],
+      "is_virtual": false,
+      "hide_from_listings": false,
+      "categories": [
+        {
+          "name": "All Ages",
+          "slug": "all-ages",
+          "term_group": 0,
+          "term_taxonomy_id": 727,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 566,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 727,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/727",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "Free",
+          "slug": "free",
+          "term_group": 0,
+          "term_taxonomy_id": 726,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 638,
+          "filter": "raw",
+          "term_order": "0",
+          "id": 726,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/categories/726",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/categories"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "Show Place Arena",
+          "slug": "show-place-arena",
+          "term_group": 0,
+          "term_taxonomy_id": 706,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 13,
+          "filter": "raw",
+          "term_order": "10",
+          "id": 706,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/706",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        },
+        {
+          "name": "SPA - Events",
+          "slug": "spa-events",
+          "term_group": 0,
+          "term_taxonomy_id": 693,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 21,
+          "filter": "raw",
+          "term_order": "23",
+          "id": 693,
+          "urls": {
+            "self": "https://www.pgparks.com/wp-json/tribe/events/v1/tags/693",
+            "collection": "https://www.pgparks.com/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ]
+    }
+  ]
+}

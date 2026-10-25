@@ -28,8 +28,8 @@ test('US date extraction',()=>assert.equal(parseDate('10/27/2026'),'2026-10-27')
 test('HTML numeric ampersand',()=>assert.equal(decodeEventText('Ghosts &#038; Exorcist Steps'),'Ghosts & Exorcist Steps'));
 test('Nested HTML ampersand',()=>assert.equal(decodeEventText('Ghosts &amp;#038; Steps'),'Ghosts & Steps'));
 test('HTML curly apostrophe',()=>assert.equal(decodeEventText('Children&#8217;s Festival'),'Children’s Festival'));
-test('Outdoor street festival',()=>assert.equal(outdoor({title:'Neighborhood street festival',description:'',venue:'Main Street',address:'',categories:''}),true));
-test('Outdoor road race',()=>assert.equal(outdoor({title:'Community 5K',description:'',venue:'',address:'',categories:''}),true));
+test('Outdoor street festival',()=>assert.equal(outdoor({title:'Neighborhood street festival',description:'Join us outdoors for the neighborhood festival.',venue:'Main Street',address:'',categories:''}),true));
+test('Outdoor road race',()=>assert.equal(outdoor({title:'Community 5K',description:'Join the 5K race along the river trail.',venue:'',address:'',categories:''}),true));
 test('Indoor museum event excluded',()=>assert.equal(outdoor({title:'Autumn Festival',description:'',venue:'History Museum',address:'',categories:''}),false));
 test('Indoor theater excluded',()=>assert.equal(outdoor({title:'Theater performance',description:'',venue:'',address:'',categories:''}),false));
 test('Cross-source dedupe and entity normalization',()=>{
@@ -81,3 +81,10 @@ test('Duplicate session times and venues collapse',()=>assert.equal(dedupe([sess
 test('Established source wins overlap regardless of arrival order',()=>{const established={title:'Guided Walk',date:'2026-10-27',county:'District of Columbia',source:'Established',time:'10:00'};for(const events of [[session('10:00'),established],[established,session('10:00')]]){const out=dedupe(events);assert.equal(out.length,1);assert.equal(out[0].source,'Established')}});
 test('Distinct session venues remain separate',()=>assert.equal(dedupe([session('10:00'),session('10:00',{venue:'Other Trailhead'})]).length,2));
 console.log(`${n} total regression checks${process.exitCode?' (failures above)':''}`);
+
+test('A street festival title alone does not establish activity location',()=>assert.equal(outdoor({title:'Street Festival',description:''}),false));
+test('A race title alone does not establish activity location',()=>assert.equal(outdoor({title:'Community 5K',description:''}),false));
+const tmVenue=html.match(/const TM_OUTDOOR_VENUE=([^;]+);/)[1];
+vm.runInContext('this.tmOutdoor='+tmVenue,context);
+test('Barns at Wolf Trap is never an approved outdoor venue',()=>assert.equal(context.tmOutdoor.test('The Barns at Wolf Trap'),false));
+console.log(`${n} final regression checks`);

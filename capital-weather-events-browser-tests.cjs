@@ -40,7 +40,7 @@ function check(name,fn){fn();passed++;console.log('PASS',name)}
  });
  const start=Date.now();await page.goto(origin);
  if(!live){
-  await page.evaluate(()=>{window.loadPromise=window.__cweTest.loadVerifiedSources(window.__cweTest.VERIFIED_SOURCES.filter(s=>!s.round2))});
+  await page.evaluate(()=>{window.loadPromise=window.__cweTest.loadVerifiedSources(window.__cweTest.VERIFIED_SOURCES.filter(s=>!s.round2&&!s.coverage))});
   await page.waitForFunction(()=>window.__cweTest.state.events.some(e=>e.source==='Dupont Circle BID'));
 
  }
@@ -61,8 +61,9 @@ function check(name,fn){fn();passed++;console.log('PASS',name)}
  if(!live){
   check('All five adapters succeed',()=>assert.equal(snapshot.reports.filter(r=>r.ok).length,5));
   const counts=Object.fromEntries(snapshot.reports.map(r=>[r.source,r.count]));
-  check('Editorial review leaves 17 unique occurrences',()=>assert.equal(snapshot.events.length,17));
-  check('Source counts match verified fixtures',()=>assert.deepEqual(counts,{'Dupont Circle BID':3,'Capitol Hill BID':1,'City of Rockville':2,'NoMa BID':1,'Visit Alexandria':10}));
+  fs.writeFileSync('work/coverage-implementation/round1-snapshot.json',JSON.stringify(snapshot,null,2));
+  check('Expanded evidence leaves 21 unique occurrences',()=>assert.equal(snapshot.events.length,21));
+  check('Source counts match verified fixtures',()=>assert.deepEqual(counts,{'Dupont Circle BID':3,'Capitol Hill BID':1,'City of Rockville':2,'NoMa BID':1,'Visit Alexandria':14}));
   check('Indoor nature-center craft sessions excluded',()=>assert(!snapshot.events.some(e=>e.title==='Mini-Creep')));
   const market=snapshot.events.find(e=>e.source==='NoMa BID');
   check('NoMa explicit weekly schedule',()=>assert.deepEqual([market.date,market.time,market.endTime,market.address],['2026-10-29','16:00','20:00','Third Street NE']));
@@ -71,15 +72,14 @@ function check(name,fn){fn();passed++;console.log('PASS',name)}
   const alex=snapshot.events.filter(e=>e.source==='Visit Alexandria');
   check('Alexandria links use matched publisher event pages',()=>assert(alex.every(e=>e.url.startsWith('https://visitalexandria.com/events/'))));
   check('Duplicate Alexandria publisher records removed',()=>assert.equal(alex.filter(e=>e.title==='Lost Boy Cider: Fall Fest 2026').length,1));
-  check('Four confirmed courtyard craft occurrences retained',()=>assert.equal(alex.filter(e=>e.title==='King & Rye: Cocktails & Crafts').length,4));
+  check('Courtyard events without published clocks excluded',()=>assert.equal(alex.filter(e=>e.title==='King & Rye: Cocktails & Crafts').length,0));
   check('Mixed Woodlawn all-day event excluded',()=>assert(!alex.some(e=>e.title.includes('Countdown to the Holidays'))));
   check('Activity-level evidence accompanies every new occurrence',()=>assert(snapshot.events.every(e=>e.outdoorEvidence&&e.outdoorEvidenceURL)));
-  await page.locator('#cwe-search').fill('Cocktails & Crafts');
-  check('Courtyard indoor-weather fallback is visible on cards',()=>assert(snapshot.events.filter(e=>e.title==='King & Rye: Cocktails & Crafts').every(e=>e.outdoorNote.includes('moves indoors'))));
-  assert(await page.locator('.cwe-card .cwe-outdoor-note').first().isVisible());
+  await page.locator('#cwe-search').fill('Patriots Path');
+  check('Seven explicitly scheduled encampment dates recovered',()=>assert.equal(alex.filter(e=>e.title.startsWith('Patriots Path')).length,7));
   await page.locator('.cwe-show-details').first().click();
-  const courtyardDetails=await page.locator('#cwe-detail').innerText();
-  check('Full courtyard contingency is visible in event details',()=>assert(courtyardDetails.includes('moves indoors in inclement weather')));
+  const activityDetails=await page.locator('#cwe-detail').innerText();
+  check('Full activity evidence is visible in event details',()=>assert(activityDetails.includes('encampment')));
   await page.locator('#cwe-search').fill('');
   check('Woodlawn physical county retained',()=>assert(alex.filter(e=>e.venue==='Woodlawn & Pope-Leighey House').every(e=>e.county==='Fairfax County')));
   check('Only direct publisher/API requests used',()=>assert(calls.length===6&&calls.every(u=>!u.includes('cors.dev')&&!u.includes('allorigins'))));
