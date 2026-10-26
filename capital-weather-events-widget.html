@@ -2458,7 +2458,7 @@ function keyWords(t,drop){
  }
  return out;
 }
-function venueWords(v){return keyWords(v).size?new Set([...keyWords(v)].filter(w=>!/^(?:park|center|centre|regional|national|state|garden|square|plaza|street|avenue|road|hall)$/.test(w))):new Set()}
+function venueWords(v){return keyWords(v).size?new Set([...keyWords(v)].filter(w=>!/^(?:park|center|centre|regional|national|state|garden|square|plaza|street|avenue|road|hall|farm|orchard|winery|vineyard|brewery|brewing|company|market|library|church|school|museum|house|lake|river|creek|trail|field|green|common|community|recreation|recreational|nature|preserve|island|beach|harbor|harbour|historic|site|club|theater|theatre|stadium|arena|county|city|town|village|district|memorial|estate|manor|mansion|mill|tree|pumpkin|patch)$/.test(w))):new Set()}
 function samePlace(a,b){
  if(Number.isFinite(a.lat)&&Number.isFinite(b.lat)&&Number.isFinite(a.lng)&&Number.isFinite(b.lng)&&a.lat&&b.lat&&
     Math.hypot((a.lat-b.lat)*111,(a.lng-b.lng)*86)<0.4)return 'confirmed';
@@ -5027,7 +5027,12 @@ async function adaptCollector(source,r){
   const city=clean(rec.city||'');
   // A stated town outside the coverage area is rejected, not filed under the
   // tourism office's county.
-  const county=city&&st?countyFor(city,st):'';
+  let county=city&&st?countyFor(city,st):'';
+  // v38: a small town the list doesn't know (Bluemont, Mt. Airy, Buckeystown)
+  // keeps the tourism office's county when the publisher's map pin is inside
+  // the coverage area; pins on the Eastern Shore or beyond are still rejected.
+  const inArea=Number(rec.lat)>37.9&&Number(rec.lat)<39.8&&Number(rec.lng)>-78.4&&Number(rec.lng)<-76.25;
+  if(city&&st&&!county&&inArea&&rec.siteCounty&&GEOGRAPHY[st]?.includes(rec.siteCounty))county=rec.siteCounty;
   if(city&&st&&!county){bumpExtra(r,'outside the coverage area',dates.length);continue}
   // v26: FindLocal events at music venues, bars, restaurants, breweries,
   // performing-arts or community centers need the listing itself to say they
