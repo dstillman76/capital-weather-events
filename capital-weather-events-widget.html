@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v32: wider outdoor-music category; no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v33: event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -1032,23 +1032,21 @@ function outdoor(e){
  return !!(outdoorEvidence(e)||legacyOutdoorEvidence(e)||activityEvidence(e));
 }
 function category(e){
- const s=(e.title+' '+e.categories).toLowerCase();
- if(/market/.test(s))return 'market';
- if(/festival|fair|parade|block party/.test(s))return 'festival';
- if(/boat|kayak|sail|paddle/.test(s))return 'water';
- if(/5k|10k|run|race|marathon|yoga|fitness|cycling/.test(s))
-  return 'fitness';
- if(/football|soccer|baseball|sports|battle of the bands/.test(s))return 'sports';
- // v32: performers and series named without the word "music" ("Jazz in the
- // Plaza", "Sips & Sounds", a cover band's name) were filed under "other".
- if(/concert|music|outdoor movie|\bjazz\b|bluegrass|orchestra|symphony|\bbands?\b|\bdj\b|choir|chorus|salsa night|friday night salsa|sounds\b|\bjam(?:boree)?\b|open mic|unplugged/.test(s))return 'music';
- if(/nature|hike|park|trail|garden|ghost tour|walking tour|public art tour/.test(s))
-  return 'nature';
- if(/pumpkin|kids|family|children|trick.or.treat|hayride/.test(s))
-  return 'family';
- // The listing's own description: "Performing outdoors on theYARD live music
- // venue stage", "live music by … on the patio".
+ // v33: word-bounded rules in a deliberate order. The older substring tests
+ // put "Trunk or Treat" under runs ("t-run-k") and anything in Fairfax or
+ // Fairwood under festivals ("fair"), and ignored descriptions.
+ const t=(e.title+' '+(e.categories||'')).toLowerCase();
  const d=String(e.description||'').slice(0,600).toLowerCase();
+ if(/\bmarkets?\b|farmers.? market|\bflea\b|\bbazaar\b/.test(t))return 'market';
+ if(/\b(?:boats?|kayak\w*|canoe\w*|sail\w*|paddl\w*|cruises?|crabbing|fishing|rowing|sunrise photographic)\b/.test(t))return 'water';
+ if(/\b(?:5k|10k|half.marathon|marathon|runs?|running|parkrun|races?|yoga|tai chi|pilates|zumba|fitness|fit|bootcamp|workout|cycling|bikes?|biking|rides?|tour de|mindfulness|line danc\w*|sweatshop|sculpt)\b/.test(t))return 'fitness';
+ if(/\b(?:football|soccer|baseball|softball|lacrosse|hockey|polo|archery|golf|pickleball|tennis|sports?)\b|\bvs\.?\s/.test(t))return 'sports';
+ if(/concert|music|\bjazz\b|bluegrass|orchestra|symphony|\bbands?\b|\bdj\b|choir|chorus|salsa|\bsounds\b|\bjam(?:boree)?\b|open mic|unplugged/.test(t))return 'music';
+ if(/\b(?:festivals?|fest|fairs?|parades?|block party|street party|carnival|food trucks?)\b|spooktacular|spook-tacular|fall.o.ween|hilloween/.test(t))return 'festival';
+ if(/trick.or.treat|trunk.or.treat|\bpumpkins?\b|corn maze|hayrides?|\bkids?\b|\bfamily\b|\bchildren\b|\btoddlers?\b|\bmovies?\b|\bfilm\b|projection|candy hunt|scavenger hunt|storytime|eye spy|mini golf|petting|\bpony\b|ponies|puppet|costume|howl.o.ween/.test(t))return 'family';
+ if(/\b(?:nature|hikes?|hiking|walks?|walking|stroll|ramble|meander|trails?|gardens?|birds?|birding|birdwalk|bats?|batty|trees?|forest|campfires?|s.mores|naturalists?|rangers?|memorial|tours?|parks?|farms?|foraging|zip|cemeter(?:y|ies)|archaeology|chickens?|invasive|clean.?up|moon)\b/.test(t))return 'nature';
+ if(/\bhalloween\b/.test(t))return 'family';
+ if(/farmers.? market/.test(d))return 'market';
  if(/\blive music\b|\bconcerts?\b|\b(?:cover|live|jazz|brass|rock|blues|tribute) band\b|performing (?:outdoors|live)|\bdj set\b|\bsinger.songwriter\b|\bacoustic (?:set|duo|trio|band)\b|\b(?:orchestra|symphony|bluegrass|jazz)\b/.test(d))return 'music';
  return 'other';
 }
