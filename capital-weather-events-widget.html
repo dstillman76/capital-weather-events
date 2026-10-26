@@ -4971,10 +4971,12 @@ function collectorFile(){
 // v38: the daily GitHub run (collector/screen.mjs) now reads EVERY source,
 // so readers' browsers normally load one file. A source loads live in the
 // browser only when the file is missing or stale, or that source failed there.
-// collect.mjs itself reads the Simpleview tourism sites and Visit Montgomery,
-// so the headless run skips their feeds and calendars.
+// collect.mjs itself reads Visit Montgomery, so the headless run skips it.
 const LIVE_ONLY=new Set(['Daily collector (GitHub)']);
-const COLLECT_MJS_SOURCES=new Set(['Visit Fairfax','Visit Loudoun','Visit Frederick','Experience Prince George’s','Visit Howard County','Visit Annapolis','Visit Montgomery']);
+// Only Visit Montgomery: the tourism feeds and calendars are still screened
+// headless too, because they carry daily runs of long events (harbor cruises,
+// farm festivals) that the sitemap reader leaves out.
+const COLLECT_MJS_SOURCES=new Set(['Visit Montgomery']);
 function collectedHere(name){name=String(name||'');return !LIVE_ONLY.has(name)&&!COLLECT_MJS_SOURCES.has(name.replace(/ calendar$/,''))}
 const COLLECTED_SOURCES={has:collectedHere};
 async function fromCollector(name){

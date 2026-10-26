@@ -35,7 +35,10 @@ async function run() {
   try { browser = await chromium.launch({channel: 'chrome', args: ['--disable-web-security']}); }
   catch { browser = await chromium.launch({args: ['--disable-web-security']}); }
   try {
-    const page = await browser.newPage();
+    // Eastern time, like readers: the runner's clock is UTC, which shifted some
+    // dates (an HSEMA permit showed a day early) and the widget's "today".
+    const context = await browser.newContext({timezoneId: TZ, locale: 'en-US'});
+    const page = await context.newPage();
     page.on('pageerror', e => console.log('Page error:', e.message));
     // The flag goes in the page itself: setContent reuses the blank page, so an
     // init script would not run before the widget.
