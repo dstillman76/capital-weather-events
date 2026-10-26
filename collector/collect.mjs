@@ -238,7 +238,7 @@ export function simpleviewDates(datesVar, startVar, endVar) {
       const a = parseUSDate(range[0]), b = parseUSDate(range[1]);
       // A span of more than three days with no daily schedule does not say
       // which days the event actually runs; the widget rejects those too.
-      if (a && b && b >= a) return daysBetween(a, b) > 3 ? {dates: [], kind: 'long-range'} : {dates: rangeDates(a, b), kind: 'range'};
+      if (a && b && b >= a) return daysBetween(a, b) > 3 ? {dates: [], kind: 'long-range', range: [a, b]} : {dates: rangeDates(a, b), kind: 'range'};
     }
     const many = list.split(/\s*,\s*(?=\d{1,2}\/|[A-Z][a-z]+\s+\d)/).map(parseUSDate).filter(Boolean);
     if (many.length) return {dates: [...new Set(many)].sort(), kind: many.length > 1 ? 'list' : 'single'};
@@ -255,7 +255,7 @@ export function parseSimpleviewPage(html, url, src) {
   const li = infoList(html);
   const title = decode(data.title || (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '').replace(/<[^>]+>/g, '').trim();
   const startVar = extractVar(html, 'startDate'), endVar = extractVar(html, 'endDate');
-  const {dates, kind} = simpleviewDates(extractVar(html, 'dates') || li.dates || '', startVar, endVar);
+  const {dates, kind, range} = simpleviewDates(extractVar(html, 'dates') || li.dates || '', startVar, endVar);
   const tr = parseTimeRange(extractVar(html, 'time') || li.time || '');
   const time = tr.start || parseClock(startVar), endTime = tr.end || parseClock(endVar);
   const liAddress = (li.address || '').match(/^(.*?),\s*([^,]+,\s*[A-Z]{2}\b.*)$/);
@@ -264,7 +264,7 @@ export function parseSimpleviewPage(html, url, src) {
   const csz = cityStateZip.match(/^(.*?),\s*([A-Z]{2})\b/);
   return {
     source: src.name, siteCounty: src.county, title, url,
-    dates, dateKind: kind, time, endTime: endTime && endTime > time ? endTime : '',
+    dates, dateKind: kind, ...(range ? {range} : {}), time, endTime: endTime && endTime > time ? endTime : '',
     venue: decode(data.location || li.location || '').trim(),
     address: [street, cityStateZip].filter(Boolean).join(', '),
     city: decode(data.city || (csz ? csz[1] : '')).trim(),
@@ -276,8 +276,27 @@ export function parseSimpleviewPage(html, url, src) {
     admission: decode(data.admission || '').trim(),
   };
 }
+// "Recurring daily" / "Recurring weekly on Sunday, Thursday" inside a long
+// date range: the days in the window the publisher says it runs. Anything else
+// (monthly, irregular) gives no dates, as before.
+const WEEKDAY = {sunday: 0, monday: 1, tuesday: 2, wednesday: 3, thursday: 4, friday: 5, saturday: 6};
+export function recurringDates(range, recurrence, today, windowEnd) {
+  if (!range) return [];
+  const from = range[0] > today ? range[0] : today, to = range[1] < windowEnd ? range[1] : windowEnd;
+  if (from > to) return [];
+  const all = rangeDates(from, to);
+  if (/^recurring daily\b/i.test(recurrence)) return all;
+  const w = String(recurrence).match(/^recurring weekly on (.+)$/i);
+  if (w) {
+    const want = new Set(w[1].toLowerCase().split(/\s*(?:,|and)\s*/).map(x => WEEKDAY[x.trim()]).filter(x => x != null));
+    return want.size ? all.filter(d => want.has(new Date(d + 'T12:00:00Z').getUTCDay())) : [];
+  }
+  return [];
+}
 function needsRefetch(entry, lastmod, today) {
   if (!entry) return true;
+  // Long ranges cached before their bounds were kept.
+  if (entry.record && entry.record.dateKind === 'long-range' && !entry.record.range) return true;
   if (lastmod && entry.lastmod !== lastmod) return true;
   if (Date.now() - entry.fetched > REFRESH_DAYS * 864e5) return true;
   // "Next occurrence" pages move forward without a sitemap change.
@@ -319,7 +338,8 @@ async function collectSimpleview(src, cache, today, windowEnd) {
   const records = [];
   for (const {record} of Object.values(store)) {
     if (!record) continue;
-    const inWin = record.dates.filter(d => d >= today && d <= windowEnd);
+    const inWin = record.dateKind === 'long-range' ? recurringDates(record.range, record.recurrence, today, windowEnd)
+      : record.dates.filter(d => d >= today && d <= windowEnd);
     if (!inWin.length) continue;
     records.push({...record, dates: inWin});
   }
