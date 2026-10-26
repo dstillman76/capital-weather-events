@@ -21,7 +21,7 @@ week, and only 2 of those were in its 30-item feed.
 - It reads only pages that `robots.txt` allows, and waits the `Crawl-delay` between requests (at least
   1 second, 2 seconds by default). It makes one request at a time per site.
 - It identifies itself in its user agent.
-- It caches every page it opens. A page is opened again only when its sitemap `lastmod` changes,
+- It caches every page it opens, in the GitHub Actions cache rather than the repository. A page is opened again only when its sitemap `lastmod` changes,
   when a recurring event's next date has passed, or a week after the last visit.
 - A run opens at most 500 pages per site and stops opening pages after 40 minutes. The first run
   might not reach every page; later runs pick up where it left off.

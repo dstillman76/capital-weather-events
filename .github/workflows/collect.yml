@@ -22,13 +22,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      # The page cache (~2 MB) lives in the Actions cache, not in git, so the
+      # repository doesn't grow with every run. If it's ever evicted, the next
+      # run simply re-reads every page once (about 15 minutes).
+      - name: Restore page cache
+        uses: actions/cache/restore@v4
+        with:
+          path: collector/data/cache.json
+          key: collector-cache-${{ github.run_id }}
+          restore-keys: collector-cache-
       - name: Run collector
         run: node collector/collect.mjs
+      - name: Save page cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: collector/data/cache.json
+          key: collector-cache-${{ github.run_id }}
       - name: Publish events file
         run: |
           git config user.name "events-collector"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add collector/data/events.json collector/data/cache.json
+          git add collector/data/events.json
           if git diff --cached --quiet; then
             echo "No changes"
           else
