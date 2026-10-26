@@ -33,5 +33,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
+            # main may have moved during a long run; replay this commit on top.
+            git pull --rebase -X theirs origin main
             git push
           fi
