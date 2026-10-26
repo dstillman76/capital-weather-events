@@ -3462,6 +3462,7 @@ function publishCoverage(candidates){
  geography();render();updateSourceDiagnostics();
 }
 async function loadCoverageSource(source){
+ if(source.coverage==='geodir'&&await collectorReadSource(source.name))return [];
  const report=coverageReport(source.name),started=performance.now(),all=[];
  const fields=source.coverage==='geodir'?'id,title.rendered,link,content.rendered,start_datetime.raw,end_datetime.raw,schedule_id,place,street,city,region,latitude,longitude':
  'id,title.rendered,link,acf.market.individual_banner,acf.market.banner,acf.market.address,acf.market.location_notes,acf.market.open_date,acf.market.close_date,acf.market.day,acf.market.open_time,acf.market.close_time,acf.market.day_2,acf.market.open_time_2,acf.market.close_time_2,acf.market.about_content.text,acf.market.optional_date_range_text';
@@ -4946,7 +4947,7 @@ function collectorFile(){
  * those already-screened events instead of loading the source itself; when
  * the file is missing, stale or the source failed there, the source loads live
  * as before. */
-const COLLECTED_SOURCES=new Set(['National Landing BID','City of Fairfax','George Washington’s Mount Vernon','NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
+const COLLECTED_SOURCES=new Set(['National Landing BID','City of Fairfax','George Washington’s Mount Vernon','NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
 async function fromCollector(name){
  if(!COLLECTED_SOURCES.has(name))return false;
  const {file}=await collectorFile();
@@ -4958,6 +4959,19 @@ async function fromCollector(name){
  if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
  state.reports.push({source:name,ok:true,collector:true,candidates:events.length,count:0,requests:0,
   discoveryComplete:true,outcome:'Read by the daily collector ('+new Date(group.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET): '+status.status});
+ return true;
+}
+/* v28: sources the collector reads itself (collect.mjs), whose raw records
+ * arrive through adaptCollector: when that read is fresh and succeeded, the
+ * browser skips its own (slow) load of the source. */
+async function collectorReadSource(name){
+ if(COLLECT_MODE)return false;
+ const {file}=await collectorFile();
+ const ageH=file?(Date.now()-Date.parse(file.generatedAt))/36e5:Infinity;
+ const rep=(file?.sources||[]).find(x=>x.source===name);
+ if(!(ageH<COLLECTOR_MAX_AGE_HOURS)||!rep||!['ok','partial'].includes(rep.status))return false;
+ state.reports.push({source:name,ok:true,collector:true,candidates:0,count:0,requests:0,discoveryComplete:rep.status==='ok',
+  outcome:'Read by the daily collector ('+rep.inWindow+' listings this week); qualifying events are counted under “Daily collector (GitHub)”'});
  return true;
 }
 async function adaptCollector(source,r){

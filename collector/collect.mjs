@@ -167,7 +167,7 @@ class Site {
     if (!allowedBy(this.rules, u.pathname + u.search)) throw Object.assign(Error('robots.txt disallows ' + u.pathname), {robots: true});
     const wait = this.last + this.delay - Date.now(); if (wait > 0) await sleep(wait);
     this.last = Date.now(); this.requests++;
-    const res = await fetch(url, {...opts, headers: {'user-agent': UA, 'accept-language': 'en-US', ...(opts.headers || {})}, redirect: 'follow', signal: AbortSignal.timeout(30000)});
+    const res = await fetch(url, {...opts, headers: {'user-agent': UA, 'accept-language': 'en-US', ...(opts.headers || {})}, redirect: 'follow', signal: AbortSignal.timeout(opts.timeout || 30000)});
     if (res.status === 401 || res.status === 403) { this.refused++; throw Object.assign(Error('HTTP ' + res.status + ' (publisher refused)'), {refused: true}); }
     if (res.status === 429 || res.status >= 500) { this.delay = Math.min(this.delay * 2, 20000); throw Error('HTTP ' + res.status); }
     if (!res.ok) throw Object.assign(Error('HTTP ' + res.status), {status: res.status});
@@ -414,6 +414,53 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
   return {report, records};
 }
 
+/* ---------- Visit Montgomery ---------- */
+
+// Visit Montgomery's GeoDirectory API often takes 10–60 s a page, longer than
+// readers' browsers (and the CORS relay) will wait, so the collector reads it
+// here, politely (robots.txt asks for 10 s between requests), with retries.
+const VISIT_MONTGOMERY = {name: 'Visit Montgomery', host: 'visitmontgomery.com', county: 'Montgomery County', state: 'MD'};
+async function collectVisitMontgomery(today, windowEnd) {
+  const src = VISIT_MONTGOMERY;
+  const report = {source: src.name, kind: 'api', status: 'ok', pages: 0, listings: 0, inWindow: 0, errors: 0, note: ''};
+  const site = new Site(src.host); await site.init();
+  const fields = 'id,title.rendered,link,content.rendered,start_datetime.raw,end_datetime.raw,place,street,city,region,latitude,longitude';
+  const byKey = new Map();
+  for (const period of ['today', 'next_7_days']) {
+    for (let page = 1; page <= 15; page++) {
+      const url = `https://${src.host}/wp-json/geodir/v2/events?per_page=100&page=${page}&event_type=${period}&single_event=false&_fields=${fields}`;
+      let rows = null;
+      for (let attempt = 0; attempt < 3 && !rows; attempt++) {
+        try { rows = JSON.parse(await site.get(url, {timeout: 90000})); }
+        catch (e) { if (e.refused || e.robots || e.status === 400) { report.status = e.refused ? 'blocked' : report.status; rows = []; break; } report.errors++; }
+      }
+      if (!Array.isArray(rows)) { report.status = 'partial'; report.note = `Page ${page} (${period}) did not load after 3 tries.`; break; }
+      report.pages++; report.listings += rows.length;
+      for (const e of rows) {
+        const start = e.start_datetime?.raw || '', end = e.end_datetime?.raw || '', date = start.slice(0, 10);
+        if (!/^\d{4}-\d\d-\d\dT\d\d:\d\d/.test(start) || date < today || date > windowEnd) continue;
+        const sameDay = end.slice(0, 10) === date && end > start;
+        const key = e.id + '|' + start;
+        if (byKey.has(key)) continue;
+        const csz = cityStateOf(', ' + (e.city || '') + ', ' + (e.region || 'MD'));
+        byKey.set(key, {
+          source: src.name, siteCounty: src.county, title: textOf(e.title?.rendered), url: e.link, dates: [date], dateKind: 'single',
+          time: start.slice(11, 16) === '00:00' ? '' : start.slice(11, 16), endTime: sameDay ? end.slice(11, 16) : '',
+          venue: textOf(e.place || ''), address: textOf(e.street || ''), city: textOf(e.city || ''), state: csz ? csz[2] : 'MD',
+          lat: Number(e.latitude) || null, lng: Number(e.longitude) || null,
+          description: textOf(e.content?.rendered).slice(0, 1500), categories: '', recurrence: '', admission: '',
+        });
+      }
+      if (rows.length < 100) break;
+    }
+    if (report.status !== 'ok') break;
+  }
+  const records = [...byKey.values()];
+  report.inWindow = records.length;
+  if (report.status === 'ok' && !report.pages) report.status = 'failed';
+  return {report, records};
+}
+
 /* ---------- main ---------- */
 
 /* ---------- FindLocal ---------- */
@@ -512,6 +559,7 @@ async function main() {
   const results = await Promise.all([
     ...SIMPLEVIEW.map(src => collectSimpleview(src, cache, today, windowEnd).catch(e => ({report: {source: src.name, status: 'failed', note: e.message}, records: []}))),
     collectMontgomeryParks(cache, today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
+    collectVisitMontgomery(today, windowEnd).catch(e => ({report: {source: VISIT_MONTGOMERY.name, status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
