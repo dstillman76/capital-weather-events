@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T13:33:59.525Z",
+ "generatedAt": "2026-10-26T13:49:27.832Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 82,
-   "opened": 3,
+   "opened": 0,
    "cached": 82,
    "refused": 0,
    "errors": 0,
@@ -108,15 +108,15 @@
    "kind": "api",
    "status": "ok",
    "calls": 3,
-   "remaining": 95,
-   "listings": 1031,
-   "inWindow": 571,
-   "skipped": 191,
-   "note": "3 call(s) used; 95 left this month; next refresh in 2 day(s).",
-   "indoorVenue": 269
+   "remaining": 92,
+   "listings": 1115,
+   "inWindow": 623,
+   "skipped": 201,
+   "note": "3 call(s) used; 92 left this month; next refresh in 2 day(s).",
+   "indoorVenue": 291
   }
  ],
- "count": 893,
+ "count": 945,
  "events": [
   {
    "source": "FindLocal",
@@ -139,6 +139,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -162,6 +164,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -185,6 +189,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "$56.00",
+   "venueType": "Performing Arts Center",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -332,6 +338,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$$24 (R) $32 (NR) Age: 60 & Better",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -355,6 +363,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -378,6 +388,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -467,6 +479,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -490,6 +504,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -540,6 +556,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -563,6 +581,8 @@
    "categories": "food_drink, tasting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -612,6 +632,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "Free Age: 13 and up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -635,6 +657,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "Free Age: 13 and up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -680,6 +704,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -703,6 +729,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -726,6 +754,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -821,6 +851,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -866,6 +898,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -889,6 +923,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -934,6 +970,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -957,6 +995,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -980,6 +1020,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -1025,6 +1067,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1070,6 +1114,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1115,6 +1161,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$25",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1160,6 +1208,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$15 residents, $20 non-residents Age: 18 and up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -1205,6 +1255,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -1228,6 +1280,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -1273,6 +1327,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -1296,6 +1352,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -1319,6 +1377,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -1342,6 +1402,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1365,6 +1427,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1388,6 +1452,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -1437,6 +1503,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1460,6 +1528,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1505,6 +1575,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -1528,6 +1600,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1551,6 +1625,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1596,6 +1672,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1619,6 +1697,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -1718,6 +1798,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1741,6 +1823,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -1786,6 +1870,8 @@
    "categories": "fitness, run_ride",
    "recurrence": "",
    "admission": "$10 Resident; $13 Non-Resident Age: 18 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -1837,6 +1923,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -1860,6 +1948,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$$36 (R) $47 (NR) Age: 13 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -1883,6 +1973,8 @@
    "categories": "food_drink, food_event, drag",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -1906,6 +1998,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -1929,6 +2023,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1952,6 +2048,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -1975,6 +2073,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -1998,6 +2098,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2021,6 +2123,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2044,6 +2148,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2067,6 +2173,8 @@
    "categories": "literary, festival",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -2134,6 +2242,8 @@
    "categories": "fitness, run_ride",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2157,6 +2267,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$36 Resident, $47 Non-resident Age: 18 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -2180,6 +2292,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2203,6 +2317,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$35 - $95",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2226,6 +2342,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2249,6 +2367,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -2272,6 +2392,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -2295,6 +2417,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2318,6 +2442,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2341,6 +2467,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2364,6 +2492,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2387,6 +2517,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2410,6 +2542,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2433,6 +2567,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2456,6 +2592,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2479,6 +2617,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2502,6 +2642,8 @@
    "categories": "community, fundraiser",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -2547,6 +2689,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2570,6 +2714,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2593,6 +2739,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2616,6 +2764,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2639,6 +2789,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2684,6 +2836,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2707,6 +2861,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2730,6 +2886,8 @@
    "categories": "community, meetup",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -2753,6 +2911,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2776,6 +2936,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -2799,6 +2961,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -2822,6 +2986,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -2845,6 +3011,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -2868,6 +3036,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2891,6 +3061,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -2958,6 +3130,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3003,6 +3177,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3026,6 +3202,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -3071,6 +3249,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -3094,6 +3274,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -3117,6 +3299,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "Free Age: All Ages",
+   "venueType": "Arena & Stadium",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -3140,6 +3324,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -3163,6 +3349,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "Free Age: 13 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -3186,6 +3374,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -3209,6 +3399,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3232,6 +3424,8 @@
    "categories": "community, meetup",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -3277,6 +3471,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -3300,6 +3496,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "FREE Age: 60 & Better",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -3323,6 +3521,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3390,6 +3590,8 @@
    "categories": "dance, social_dance",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "dance",
    "outdoorHint": ""
   },
   {
@@ -3413,6 +3615,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -3458,6 +3662,8 @@
    "categories": "parks",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3481,6 +3687,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$30 (R) $39 (NR) Age: 18 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -3504,6 +3712,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "$30 Resident, $39 Non-resident Age: 18 & up",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -3527,6 +3737,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -3595,6 +3807,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -3618,6 +3832,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -3708,6 +3924,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -3753,6 +3971,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -3776,6 +3996,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -3843,6 +4065,8 @@
    "categories": "comedy, stand_up",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "comedy",
    "outdoorHint": ""
   },
   {
@@ -3888,6 +4112,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "festival",
    "outdoorHint": ""
   },
   {
@@ -3911,6 +4137,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -3956,6 +4184,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -3979,6 +4209,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4047,6 +4279,8 @@
    "categories": "theater, play",
    "recurrence": "",
    "admission": "$11.50",
+   "venueType": "Performing Arts Center",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -4093,6 +4327,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "$$4 Resident, $6 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4116,6 +4352,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4139,6 +4377,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4206,6 +4446,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -4229,6 +4471,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "$15",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4252,6 +4496,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4275,6 +4521,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "$2",
+   "venueType": "Music Venue",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -4345,6 +4593,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4368,6 +4618,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -4391,6 +4643,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4414,6 +4668,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4437,6 +4693,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -4506,6 +4764,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -4529,6 +4789,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4552,6 +4814,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4575,6 +4839,8 @@
    "categories": "fitness, run_ride",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4598,6 +4864,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -4621,6 +4889,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -4645,6 +4915,8 @@
    "categories": "parks, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4690,6 +4962,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "$5, $8, $6, $2, $2, $5",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -4713,6 +4987,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Every week on Wednesday at 11:00 AM from October 07, 2026 to March 31, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4759,6 +5035,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4782,6 +5060,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -4805,6 +5085,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4828,6 +5110,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$35",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4851,6 +5135,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -4874,6 +5160,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -4897,6 +5185,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5008,6 +5298,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5031,6 +5323,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5054,6 +5348,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5099,6 +5395,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5144,6 +5442,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5167,6 +5467,8 @@
    "categories": "literary, reading",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -5190,6 +5492,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5213,6 +5517,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5236,6 +5542,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "$20.95",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -5259,6 +5567,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5282,6 +5592,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5305,6 +5617,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5328,6 +5642,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5351,6 +5667,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5374,6 +5692,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5397,6 +5717,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "film",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5420,6 +5742,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5487,6 +5811,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5510,6 +5836,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -5581,6 +5909,8 @@
    "categories": "parks",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5648,6 +5978,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "$18.71",
+   "venueType": "Music Venue",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -5671,6 +6003,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5694,6 +6028,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5717,6 +6053,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5740,6 +6078,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "nightlife",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5763,6 +6103,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5786,6 +6128,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5853,6 +6197,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -5876,6 +6222,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5899,6 +6247,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -5922,6 +6272,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -5989,6 +6341,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -6034,6 +6388,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -6057,6 +6413,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6102,6 +6460,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6125,6 +6485,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6192,6 +6554,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$36.00",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6215,6 +6579,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -6238,6 +6604,8 @@
    "categories": "theater, play",
    "recurrence": "",
    "admission": "$10.50",
+   "venueType": "Performing Arts Center",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -6305,6 +6673,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -6350,6 +6720,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6373,6 +6745,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6396,6 +6770,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$35",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6463,6 +6839,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6508,6 +6886,8 @@
    "categories": "comedy, stand_up",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "comedy",
    "outdoorHint": ""
   },
   {
@@ -6531,6 +6911,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6554,6 +6936,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6646,6 +7030,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6691,6 +7077,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$20",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6714,6 +7102,8 @@
    "categories": "community",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -6759,6 +7149,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6782,6 +7174,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -6849,6 +7243,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -6872,6 +7268,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -6919,6 +7317,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "$5, $8, $6, $2, $2, $5",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -6942,6 +7342,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7077,6 +7479,8 @@
    "categories": "food_drink, tasting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -7100,6 +7504,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -7123,6 +7529,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -7168,6 +7576,8 @@
    "categories": "fitness, run_ride",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "fitness",
    "outdoorHint": ""
   },
   {
@@ -7191,6 +7601,8 @@
    "categories": "nightlife, bingo_games",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -7214,6 +7626,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7237,6 +7651,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "Every week on Thursday at 3:00 PM from October 01, 2026 to March 25, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7260,6 +7676,8 @@
    "categories": "music, dj_set",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -7327,6 +7745,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7350,6 +7770,8 @@
    "categories": "comedy, stand_up",
    "recurrence": "",
    "admission": "$25",
+   "venueType": "Music Venue",
+   "flCategory": "comedy",
    "outdoorHint": ""
   },
   {
@@ -7373,6 +7795,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -7441,6 +7865,8 @@
    "categories": "theater, play",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Music Venue",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -7464,6 +7890,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -7487,6 +7915,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "workshop",
    "outdoorHint": ""
   },
   {
@@ -7510,6 +7940,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -7555,6 +7987,8 @@
    "categories": "nightlife, bingo_games",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -7578,6 +8012,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "$10 Resident, $13 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7623,6 +8059,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7670,6 +8108,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$49 - $79 | $14.78 - $16.88 Fees",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -7693,6 +8133,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7716,6 +8158,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -7739,6 +8183,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7784,6 +8230,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -7873,6 +8321,8 @@
    "categories": "parks",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7918,6 +8368,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -7963,6 +8415,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "$18.71",
+   "venueType": "Music Venue",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -7986,6 +8440,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8009,6 +8465,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -8032,6 +8490,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -8055,6 +8515,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -8122,6 +8584,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -8145,6 +8609,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "$4 Resident, $6 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8168,6 +8634,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "$4 Resident, $6 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8213,6 +8681,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -8236,6 +8706,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8259,6 +8731,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8282,6 +8756,8 @@
    "categories": "literary, author_talk",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -8305,6 +8781,8 @@
    "categories": "theater, play",
    "recurrence": "",
    "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -8328,6 +8806,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8351,6 +8831,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8374,6 +8856,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -8419,6 +8903,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8442,6 +8928,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -8465,6 +8953,8 @@
    "categories": "nightlife, dance_party, dj_set",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -8510,6 +9000,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8533,6 +9025,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8600,6 +9094,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "$15",
+   "venueType": "Park & Outdoors",
+   "flCategory": "film",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8623,6 +9119,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "Cost: $5-10 at the door",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8668,6 +9166,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8713,6 +9213,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8736,6 +9238,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8759,6 +9263,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8826,6 +9332,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$25",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -8849,6 +9357,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8916,6 +9426,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Oct 30, 2026 at 2:00 PM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -8983,6 +9495,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -9006,6 +9520,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9029,6 +9545,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9052,6 +9570,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9075,6 +9595,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9142,6 +9664,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9209,6 +9733,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9232,6 +9758,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$35",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9277,6 +9805,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -9322,6 +9852,8 @@
    "categories": "theater, cabaret_variety",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -9345,6 +9877,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9368,6 +9902,8 @@
    "categories": "community",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -9457,6 +9993,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9480,6 +10018,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9503,6 +10043,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9548,6 +10090,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9593,6 +10137,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Every week on Friday at 4:00 PM from October 02, 2026 to March 26, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9638,6 +10184,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -9661,6 +10209,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9684,6 +10234,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "nightlife",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9729,6 +10281,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9754,6 +10308,8 @@
    "categories": "parks, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9799,6 +10355,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "$6 Resident, $8 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9822,6 +10380,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "$5, $8, $6, $2, $2, $5",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -9845,6 +10405,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9890,6 +10452,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -9913,6 +10477,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -9936,6 +10502,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -9959,6 +10527,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10004,6 +10574,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Oct 30, 2026 at 3:30 PM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10027,6 +10599,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10094,6 +10668,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10117,6 +10693,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10140,6 +10718,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "$11",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -10229,6 +10809,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "Oct 30, 2026 at 10:00 AM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10296,6 +10878,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10341,6 +10925,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "family",
    "outdoorHint": ""
   },
   {
@@ -10542,6 +11128,8 @@
    "categories": "market, craft_market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -10565,6 +11153,8 @@
    "categories": "nightlife, karaoke",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "nightlife",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10632,6 +11222,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10722,6 +11314,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10745,6 +11339,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "",
+   "venueType": "University & College",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -10770,6 +11366,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -10837,6 +11435,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10860,6 +11460,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10883,6 +11485,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "USD$12.04",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10906,6 +11510,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$36.06",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10951,6 +11557,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -10974,6 +11582,8 @@
    "categories": "community",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -10997,6 +11607,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -11020,6 +11632,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$15",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11087,6 +11701,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11110,6 +11726,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11133,6 +11751,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11178,6 +11798,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11201,6 +11823,8 @@
    "categories": "parks",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11268,6 +11892,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -11313,6 +11939,8 @@
    "categories": "literary, reading",
    "recurrence": "",
    "admission": "$45 | $14.51 Fees",
+   "venueType": "Music Venue",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -11336,6 +11964,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11359,6 +11989,8 @@
    "categories": "dance, dance_performance",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "dance",
    "outdoorHint": ""
   },
   {
@@ -11472,6 +12104,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11495,6 +12129,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -11518,6 +12154,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11541,6 +12179,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -11564,6 +12204,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$22.00-$27.00",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11609,6 +12251,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11632,6 +12276,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11655,6 +12301,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "festival",
    "outdoorHint": ""
   },
   {
@@ -11678,6 +12326,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "Cost: $5-10 at the door",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11701,6 +12351,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -11724,6 +12376,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11747,6 +12401,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11770,6 +12426,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11793,6 +12451,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11816,6 +12476,8 @@
    "categories": "literary, reading",
    "recurrence": "",
    "admission": "$45 | $14.51 Fees",
+   "venueType": "Music Venue",
+   "flCategory": "literary",
    "outdoorHint": ""
   },
   {
@@ -11949,6 +12611,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -11972,6 +12636,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "USD$12.04-$17.44",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -11995,6 +12661,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -12041,6 +12709,8 @@
    "categories": "parks, nature_program, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12086,6 +12756,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Oct 31, 2026 at 10:00 AM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12109,6 +12781,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12132,6 +12806,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "Oct 31, 2026 at 12:00 PM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12177,6 +12853,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -12222,6 +12900,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -12289,6 +12969,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12312,6 +12994,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$25.00-$50.00",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12335,6 +13019,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12380,6 +13066,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -12403,6 +13091,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12426,6 +13116,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12515,6 +13207,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -12560,6 +13254,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12649,6 +13345,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12672,6 +13370,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Oct 31, 2026 at 10:00 AM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12695,6 +13395,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -12718,6 +13420,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -12741,6 +13445,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12809,6 +13515,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12832,6 +13540,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -12855,6 +13565,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12878,6 +13590,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12901,6 +13615,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12925,6 +13641,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -12970,6 +13688,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -12993,6 +13713,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13016,6 +13738,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13039,6 +13763,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -13084,6 +13810,8 @@
    "categories": "music, dj_set",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -13107,6 +13835,8 @@
    "categories": "food_drink, tasting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -13152,6 +13882,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13197,6 +13929,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13264,6 +13998,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13287,6 +14023,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -13310,6 +14048,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -13355,6 +14095,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -13378,6 +14120,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13511,6 +14255,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13556,6 +14302,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -13579,6 +14327,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -13646,6 +14396,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -13669,6 +14421,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -13692,6 +14446,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -13759,6 +14515,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -13848,6 +14606,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -13871,6 +14631,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -13916,6 +14678,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Other",
+   "flCategory": "family",
    "outdoorHint": ""
   },
   {
@@ -14005,6 +14769,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14028,6 +14794,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$50",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14051,6 +14819,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14118,6 +14888,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14141,6 +14913,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14164,6 +14938,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14187,6 +14963,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14254,6 +15032,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14431,6 +15211,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$1",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14476,6 +15258,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14499,6 +15283,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14522,6 +15308,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14545,6 +15333,8 @@
    "categories": "music, cabaret_variety",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14568,6 +15358,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "workshop",
    "outdoorHint": ""
   },
   {
@@ -14591,6 +15383,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -14636,6 +15430,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -14659,6 +15455,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14682,6 +15480,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -14727,6 +15527,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14794,6 +15596,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$12",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14817,6 +15621,8 @@
    "categories": "film, film_screening",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "film",
    "outdoorHint": ""
   },
   {
@@ -14840,6 +15646,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14863,6 +15671,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -14886,6 +15696,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "$30",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14909,6 +15721,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -14977,6 +15791,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -15022,6 +15838,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Every week on Saturday at 2:00 PM from October 03, 2026 to March 27, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15045,6 +15863,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15068,6 +15888,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Every week on Sunday and Saturday at 10:00 AM, 12:00 PM, and 1:00 PM from October 03, 2026 to Oct...",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15091,6 +15913,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Every week on Sunday and Saturday at 11:30 AM, 12:30 PM, 1:30 PM, 2:30 PM, and 3:30 PM from Octob...",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15114,6 +15938,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -15137,6 +15963,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -15160,6 +15988,8 @@
    "categories": "nightlife, dance_party",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -15183,6 +16013,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Oct 31, 2026 at 2:00 PM",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15206,6 +16038,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15251,6 +16085,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15274,6 +16110,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -15407,6 +16245,8 @@
    "categories": "nightlife, karaoke",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -15452,6 +16292,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15475,6 +16317,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -15498,6 +16342,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -15543,6 +16389,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -15588,6 +16436,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -15633,6 +16483,8 @@
    "categories": "theater, play",
    "recurrence": "",
    "admission": "$05",
+   "venueType": "Music Venue",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -15656,6 +16508,8 @@
    "categories": "theater, cabaret_variety",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "theater",
    "outdoorHint": ""
   },
   {
@@ -15701,6 +16555,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -15724,6 +16580,8 @@
    "categories": "dance, dance_performance",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "dance",
    "outdoorHint": ""
   },
   {
@@ -15747,6 +16605,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15836,6 +16696,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -15881,6 +16743,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15927,6 +16791,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -15994,6 +16860,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16017,6 +16885,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16040,6 +16910,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -16085,6 +16957,8 @@
    "categories": "fitness, fitness_class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16108,6 +16982,8 @@
    "categories": "nightlife, drag",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -16131,6 +17007,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -16154,6 +17032,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16243,6 +17123,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16266,6 +17148,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -16289,6 +17173,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16312,6 +17198,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16335,6 +17223,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -16402,6 +17292,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16447,6 +17339,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16470,6 +17364,8 @@
    "categories": "nightlife, bingo_games",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -16515,6 +17411,8 @@
    "categories": "festival, fair_parade",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16560,6 +17458,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -16583,6 +17483,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16606,6 +17508,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16651,6 +17555,8 @@
    "categories": "market, farmers_market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "market",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16674,6 +17580,8 @@
    "categories": "music, classical_concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -16697,6 +17605,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -16720,6 +17630,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -16765,6 +17677,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -16788,6 +17702,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -16811,6 +17727,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "art",
    "outdoorHint": ""
   },
   {
@@ -16834,6 +17752,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16901,6 +17821,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16924,6 +17846,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16969,6 +17893,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Every week on Sunday at 10:00 AM from October 04, 2026 to March 28, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -16992,6 +17918,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17037,6 +17965,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -17060,6 +17990,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17105,6 +18037,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17128,6 +18062,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17217,6 +18153,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17240,6 +18178,8 @@
    "categories": "community, meetup",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -17263,6 +18203,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17330,6 +18272,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17375,6 +18319,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -17398,6 +18344,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17443,6 +18391,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17466,6 +18416,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -17511,6 +18463,8 @@
    "categories": "music, classical_concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17534,6 +18488,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -17557,6 +18513,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -17580,6 +18538,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17625,6 +18585,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17670,6 +18632,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17693,6 +18657,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17716,6 +18682,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Every week on Sunday and Saturday at 11:30 AM, 12:30 PM, 1:30 PM, 2:30 PM, and 3:30 PM from Octob...",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17805,6 +18773,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -17828,6 +18798,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17873,6 +18845,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17896,6 +18870,8 @@
    "categories": "nightlife, karaoke",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -17919,6 +18895,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -17942,6 +18920,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$35",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -17965,6 +18945,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -17988,6 +18970,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -18011,6 +18995,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -18078,6 +19064,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -18101,6 +19089,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18146,6 +19136,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18169,6 +19161,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -18236,6 +19230,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18303,6 +19299,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -18326,6 +19324,8 @@
    "categories": "dance, dance_performance",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "dance",
    "outdoorHint": ""
   },
   {
@@ -18349,6 +19349,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18372,6 +19374,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18417,6 +19421,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18440,6 +19446,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -18485,6 +19493,8 @@
    "categories": "market",
    "recurrence": "",
    "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
    "outdoorHint": ""
   },
   {
@@ -18508,6 +19518,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18619,6 +19631,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18664,6 +19678,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$0.0",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18687,6 +19703,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18710,6 +19728,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18733,6 +19753,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18756,6 +19778,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18779,6 +19803,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18802,6 +19828,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "community",
    "outdoorHint": ""
   },
   {
@@ -18825,6 +19853,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18848,6 +19878,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "$25",
+   "venueType": "Music Venue",
+   "flCategory": "talks",
    "outdoorHint": ""
   },
   {
@@ -18871,6 +19903,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18894,6 +19928,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -18939,6 +19975,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$25",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18962,6 +20000,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -18985,6 +20025,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19008,6 +20050,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19031,6 +20075,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -19054,6 +20100,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -19077,6 +20125,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -19100,6 +20150,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19123,6 +20175,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19146,6 +20200,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -19169,6 +20225,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19258,6 +20316,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -19281,6 +20341,8 @@
    "categories": "sports, sports_game",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "sports",
    "outdoorHint": ""
   },
   {
@@ -19304,6 +20366,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19327,6 +20391,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19350,6 +20416,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19373,6 +20441,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19396,6 +20466,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19441,6 +20513,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19486,6 +20560,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -19531,6 +20607,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19554,6 +20632,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "workshop",
    "outdoorHint": ""
   },
   {
@@ -19577,6 +20657,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$20.00-$45.00",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -19622,6 +20704,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19645,6 +20729,8 @@
    "categories": "family, kids_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19668,6 +20754,8 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19691,6 +20779,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -19714,6 +20804,8 @@
    "categories": "fitness, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19737,6 +20829,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19760,6 +20854,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19783,6 +20879,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19806,6 +20904,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19829,6 +20929,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19852,6 +20954,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19875,6 +20979,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "$30",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -19898,6 +21004,8 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -19943,6 +21051,8 @@
    "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -19988,6 +21098,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -20011,6 +21123,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -20034,6 +21148,8 @@
    "categories": "nightlife",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
   },
   {
@@ -20057,6 +21173,8 @@
    "categories": "food_drink",
    "recurrence": "",
    "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -20124,6 +21242,8 @@
    "categories": "music, music_open_mic",
    "recurrence": "",
    "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -20147,6 +21267,8 @@
    "categories": "art, exhibition",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20170,6 +21292,8 @@
    "categories": "talks, lecture",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20193,6 +21317,8 @@
    "categories": "parks, tour",
    "recurrence": "",
    "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20260,6 +21386,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -20283,6 +21411,8 @@
    "categories": "community, community_meeting",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20306,6 +21436,8 @@
    "categories": "fitness",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20329,6 +21461,8 @@
    "categories": "workshop, class",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20352,6 +21486,8 @@
    "categories": "food_drink, food_event",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "food_drink",
    "outdoorHint": ""
   },
   {
@@ -20375,6 +21511,8 @@
    "categories": "parks",
    "recurrence": "",
    "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -20398,6 +21536,8 @@
    "categories": "music, concert",
    "recurrence": "",
    "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
    "outdoorHint": ""
   },
   {
@@ -20421,11 +21561,1313 @@
    "categories": "nightlife, trivia",
    "recurrence": "",
    "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
    "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ak’chamel Ecology Homestones",
+   "url": "https://www.rhizomedc.org/new-events/2026/11/4/akchamel-ecology-homestones",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rhizome DC",
+   "address": "6950 Maple St NW, Washington, DC 20012",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9741508,
+   "lng": -77.0156719,
+   "description": "Wednesday November 4 * doors at 7, show at 7:30 * $20 advance $25 day of show * TICKETS Ak’chamel - “For 15 years the trio of Ak’chamel has built a solid reputation as a compelling stage project. Wearing nightmarish costumes and engaging in hallucinatory “rituals”, their singular sound comprising desert-scorched psychedelia, post-apocalyptic shamanism, and lo-fi ritual-folk is as unique as the physical theater of their live performances.” Ecology Homestones - A/V noise project from Philadelphi",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "almost monday - THANK GOD IT'S ALMOST MONDAY Tour",
+   "url": "https://www.ticketmaster.com/almost-monday-thank-god-its-almost-silver-spring-maryland-11-04-2026/event/150064D39FAE70C8",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "The Fillmore Silver Spring",
+   "address": "8656 Colesville Road, Silver Spring, MD 20910",
+   "city": "Silver Spring",
+   "state": "MD",
+   "lat": 38.99734055,
+   "lng": -77.02746183,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Arts on Stage Presents...A More Perfect Union",
+   "url": "https://www.chesapeakearts.org/eventscalendar/3q0kdu6205dxmswxijigc6i29k3uxv",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "10:15",
+   "endTime": "",
+   "venue": "Chesapeake Arts Center",
+   "address": "194 Hammonds Lane, Brooklyn Park, MD 21225",
+   "city": "Brooklyn Park",
+   "state": "MD",
+   "lat": 39.2171819,
+   "lng": -76.6195218,
+   "description": "Arts on Stage Presents… A More Perfect Union Wednesday, November 4, 2026 in the Hammonds Lane Theatre 10:15 am 12 pm $11.50 Grades 3-8 Study guide, click here A spirited folk musical introducing the people and events that led to the writing and signing of our Constitution. The story of “A More Perfect Union” begins in Boston, 1773 and ends at the Constitutional Convention in Philadelphia, 1787. The play covers the critical and tempestuous time in our nation’s history in which revolution, war, and a failed attempt at self-governing finally led to the writing of the U.S. Constitution and the birth of our country as we know it today. Briefly addressing the American Revolution and the underlying causes thereof, the majority of the play examines that period between the winning of our Independence and the formation of our national government.",
+   "categories": "theater, musical",
+   "recurrence": "",
+   "admission": "$11.50",
+   "venueType": "Performing Arts Center",
+   "flCategory": "theater",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "ASHLEY MONROE & CHARLIE WORSHAM",
+   "url": "https://www.birchmere.com/events/ashley-monroe-charlie-worsham/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Birchmere",
+   "address": "3701 Mt. Vernon Ave, Alexandria, VA 22305",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.839787,
+   "lng": -77.061339,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Boombox Bingo",
+   "url": "https://www.geekswhodrink.com/venues/3317048474",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Quincy Hall",
+   "address": "4001 Fairfax Drive, Arlington, VA 22203",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.882692,
+   "lng": -77.1083527,
+   "description": "Geeks Who Drink Boombox Bingo, Wednesdays 7pm",
+   "categories": "nightlife",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Capitol Hill Jazz Jam",
+   "url": "https://www.mrhenrysdc.com/event/capitol-hill-jazz-jam-2-2-2-2-2-2/2026-11-04/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "",
+   "venue": "Mr. Henry's Restaurant",
+   "address": "601 Pennsylvania Avenue Southeast, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8851718,
+   "lng": -76.9982684,
+   "description": "The Capitol Hill Jazz Jam (CHJJ) is a weekly jazz jam session held at Mr. Henry’s Restaurant in the Capitol Hill neighborhood of Washington D.C. every Wednesday from 8-11 PM....",
+   "categories": "music, music_open_mic",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Cem Adrian",
+   "url": "https://www.unionstagepresents.com/shows/cem-adrian-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Union Stage",
+   "address": "740 Water Street Southwest, Washington, DC 20024",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.877998,
+   "lng": -77.019798,
+   "description": "One of the most distinctive singer-songwriters to emerge from Turkey in the last two decades, Cem Adrian has built a career defined by fearless experimentation and emotional depth. Blending alternative pop, folk, jazz, classical influences, he is creating a sound that is both intimate and expansive. Known for his extraordinary vocal range and haunting performances, Adrian has become one of Turkey’s most respected singer-songwriters, earning a devoted following through his uncompromising artistic vision rather than mainstream conventions. Since the release of his debut album Ben Bu Şarkıyı Sana Yazdım in 2005, Cem Adrian has continuously pushed the boundaries of Turkish music, releasing an extensive catalog that explores themes of love, loss, identity, solitude, and resilience. Whether performing stripped-back piano ballads or cinematic orchestral compositions, Adrian’s music is distinguished by its emotional honesty and poetic lyricism. Over two decades into his career, Cem Adrian remains one of the defining figures of Turkey’s independent music scene. His concerts are renowned for their intimacy and emotional intensity, transforming each performance into a deeply personal experien",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Color, Dine and Sip",
+   "url": "https://www.three-whistles.com/events/color-dine-and-sip-20/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Three Whistles",
+   "address": "2719 Wilson Blvd, Arlington, VA 22201",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8896424,
+   "lng": -77.0912434,
+   "description": "Unwind with some colorful fun, tasty bites, and drinks in a chill vibe you won’t want to miss. Sign up",
+   "categories": "food_drink, food_event",
+   "recurrence": "",
+   "admission": "$2",
+   "venueType": "Music Venue",
+   "flCategory": "food_drink",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Dead Gowns, Lamplight",
+   "url": "https://calendar.rediscoverfirebooking.com/shows/dead-gowns-lamplight-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "21:00",
+   "endTime": "",
+   "venue": "Comet Ping Pong",
+   "address": "5037 Connecticut Avenue Northwest, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9559493,
+   "lng": -77.0699729,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Dead Gowns, Lamplight, Sabel Jane",
+   "url": "https://calendar.rediscoverfirebooking.com/shows/dead-gowns-lamplight-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "21:00",
+   "endTime": "",
+   "venue": "Comet Ping Pong",
+   "address": "5037 Connecticut Avenue Northwest, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9559493,
+   "lng": -77.0699729,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "FDR and His Love of the Sea",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=5621CCD1-AA46-9B3D-2321BCE6710C00E4",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Join a ranger to learn how Franklin Delano Roosevelt's life was shaped by his love of the sea.",
+   "categories": "talks, lecture",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "talks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Foggy Bottom FRESHFARM Market",
+   "url": "https://www.freshfarm.org/markets/foggy-bottom",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "FRESHFARM Foggy Bottom Market",
+   "address": "901 23rd St NW, Washington, DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9053108,
+   "lng": -77.0502663,
+   "description": "Wednesday FRESHFARM market, 3-7pm (winter hours begin December 2026).",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Market",
+   "flCategory": "market",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Forward Brewing Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "5K run around Eastport and Dock Street followed by drinks.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "fitness",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Geeks Who Drink Trivia",
+   "url": "https://www.geekswhodrink.com/venues/2440847694",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Crooked Crab Brewing Company",
+   "address": "8251 Telegraph Rd Ste D, Odenton, MD 21113",
+   "city": "Odenton",
+   "state": "MD",
+   "lat": 39.0974987,
+   "lng": -76.6936948,
+   "description": "Geeks Who Drink pub trivia, Wednesdays 7pm",
+   "categories": "food_drink",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "food_drink",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Geeks Who Drink Trivia (Wednesday)",
+   "url": "https://www.geekswhodrink.com/venues/1775123681",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Ballston Local",
+   "address": "900 North Glebe Rd, Arlington, VA 22031",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8808844,
+   "lng": -77.1155983,
+   "description": "Geeks Who Drink pub trivia, Wednesdays 7:30pm",
+   "categories": "nightlife",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Get ready to put your knowledge to the test and show off your trivia skills at The St. James Trivia Night - it's game time! Presented by Rockstar DJ & Karaoke and hosted by the electrifying Angela Envy, this weekly showdown is your chance to flex your brainpower, jam to great tunes, and compete for prizes and bragging rights. Think you’ve got what it takes to claim the title of trivia champion? Gather your crew, grab a drink, and join us Wednesday nights.",
+   "url": "https://www.eventbrite.com/signin/signup?referrer=%2Fmytickets",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "The St. James",
+   "address": "6805 Industrial Road, Springfield, VA 22151",
+   "city": "Springfield",
+   "state": "VA",
+   "lat": 38.798398,
+   "lng": -77.178967,
+   "description": "Get ready to put your knowledge to the test and show off your trivia skills at The St. James Trivia Night - it's game time! Presented by Rockstar DJ & Karaoke and hosted by the electrifying Angela Envy, this weekly showdown is your chance to flex your brainpower, jam to great tunes, and compete for prizes and bragging rights. Think you’ve got what it takes to claim the title of trivia champion? Gather your crew, grab a drink, and join us Wednesday nights.",
+   "categories": "nightlife, trivia",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Arena & Stadium",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Heroes Remembered: Stories from Battleground National Cemetery",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A6E146DE-B965-23A4-793385D42D061348",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Join a ranger for a 30-minute, family-friendly walk through Battleground National Cemetery and discover the stories of the soldiers buried here. Learn who these men were and how their service helped shape our nation's history.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Every week on Wednesday at 11:00 AM from October 07, 2026 to March 31, 2027",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Homeschool Grades 5-8: Agriculture",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-08-21-07-21-51-444201-fag",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "From farm to table, the food we eat has a story. Location: Visitor Center",
+   "categories": "family, kids_activity",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Homeschool Grades K-4: Agriculture",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-08-21-07-21-16-161523-pvf",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "From farm to table, the food we eat has a story. Location: Visitor Center",
+   "categories": "workshop, class",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Homeschool Hikers - The Sun and Earth’s Relationship",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/homeschool-hikers-sun-and-earths-relationship-2",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Hot Club of Baltimore - November Jazz Guitar Series",
+   "url": "https://www.instantseats.com/?fuseaction=home.artist&VenueID=3&artistid=21241",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Blues Alley",
+   "address": "1073 Wisconsin Avenue Northwest, Washington, DC 20007",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9046983,
+   "lng": -77.0625642,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "$35",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Jeopardy! Bar League",
+   "url": "https://www.geekswhodrink.com/venues/3158717263",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Boundary Stone",
+   "address": "116 Rhode Island Ave NW, Washington, DC 20001",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9152722,
+   "lng": -77.01274099999999,
+   "description": "Geeks Who Drink Jeopardy! Bar League trivia, Wednesdays 7:30pm",
+   "categories": "nightlife",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Jim Messina Orleans",
+   "url": "https://www.wolftrap.org/show/2627barns/110426/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "The Barns At Wolf Trap",
+   "address": "1635 Trap Road, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.932504,
+   "lng": -77.2655428,
+   "description": "The Barns season begins with the easy melodies of Jim Messina and Orleans. With a career spanning three different supergroups—Buffalo Springfield, Poco, and Loggins & Messina (“Your Momma Don’t Dance,” “Angry Eyes”)—and a successful solo career (“New and Different Way”), Messina’s musical genius is not to be missed. Harmonizing for more than 50 years on 17 albums, Orleans’ hits “Still the One,” “Dance With Me,” and “Love Takes Time” will continue to resonate long after their final bows. 6 PM",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Join us for live music with Anton Tuvelman, the “Human Jukebox!” 🎶 With unmatched energy and versatility, Anton delivers a dynamic set filled with rock, funk, blues, and acoustic favorites",
+   "url": "https://www.twainstavern.com/events/?post_type=tribe_events&p=10002424",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "Twain's Tavern",
+   "address": "8359 Baltimore Annapolis Boulevard, Pasadena, MD 21122",
+   "city": "Pasadena",
+   "state": "MD",
+   "lat": 39.1139987,
+   "lng": -76.5578576,
+   "description": "Join us for live music with Anton Tuvelman, the “Human Jukebox!” 🎶 With unmatched energy and versatility, Anton delivers a dynamic set filled with rock, funk, blues, and acoustic favorites. […]",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Jug Bay Homeschool Nature Club - Ages 11-15",
+   "url": "https://www.pgparks.com/event_list/jug-bay-homeschool-nature-club/2026-11-04",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "14:30",
+   "endTime": "",
+   "venue": "Patuxent River Park",
+   "address": "16000 Croom Airport Rd, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.7513973,
+   "lng": -76.7016674,
+   "description": "Discover the outdoors through hands-on science, nature exploration, and environmental education at Patuxent River Park. Each session features a different nature topic with engaging activities, field observations, and guided learning.",
+   "categories": "family, kids_activity",
+   "recurrence": "",
+   "admission": "$$6 Resident, $8 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Jug Bay Homeschool Nature Club - Ages 5-10",
+   "url": "https://www.pgparks.com/event_list/jug-bay-homeschool-nature-club-2/2026-11-04",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Patuxent River Park",
+   "address": "16000 Croom Airport Rd, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.7513973,
+   "lng": -76.7016674,
+   "description": "Discover the outdoors through hands-on science, nature exploration, and environmental education at Patuxent River Park. Each session features a different nature topic with engaging activities, field observations, and guided learning.",
+   "categories": "family, kids_activity",
+   "recurrence": "",
+   "admission": "$$6 Resident, $8 Non-resident",
+   "venueType": "Park & Outdoors",
+   "flCategory": "family",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Open Carving Days",
+   "url": "https://www.pgparks.com/event_list/open-carving-days/2026-11-04",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Clearwater Nature Center",
+   "address": "11000 Thrift Rd, Clinton, MD 20735",
+   "city": "Clinton",
+   "state": "MD",
+   "lat": 38.7333049,
+   "lng": -76.9188068,
+   "description": "Come see artist Carving Colin bring two new wood sculptures to life during a live carving experience at Clearwater Nature Center.",
+   "categories": "art, exhibition",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "art",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Paige Fish – The Midnight Crisis Tour",
+   "url": "https://www.unionstagepresents.com/shows/paige-fish-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "",
+   "venue": "Pearl Street Warehouse",
+   "address": "33 Pearl Street Southwest, Washington, DC 20024",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8788327,
+   "lng": -77.024004,
+   "description": "Paige Fish, the Utah-born songstress from Springville, has captivated audiences with a voice and presence beyond her years. Drawing inspiration from the likes of Stevie Nicks, Norah Jones, Noah Kahan, and Zach Bryan, Paige has been songwriting since childhood, penning tunes and performing long before most artists get their start. She quickly found her footing on social media, capturing hearts and gaining a devoted following. In 2023, she released the standout track \"26 and 24,\" which struck a chord with fans and marked a pivotal moment in her growing career. Since then, she has released three projects, including the fan-favorite \"Baby Blondie\". Paige has become a regular headliner, selling out shows across the country and building a passionate audience with her cinematic pop and country storytelling, which is rooted in deeply personal, diary-inspired lyrics.",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Park Literacy Project & Park Books of Maryland Presents.. Author Tini Younger",
+   "url": "https://www.chesapeakearts.org/eventscalendar/park-literacy-project-amp-park-books-of-maryland-presents-author-tini-younger",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Chesapeake Arts Center",
+   "address": "194 Hammonds Lane, Brooklyn Park, MD 21225",
+   "city": "Brooklyn Park",
+   "state": "MD",
+   "lat": 39.2171819,
+   "lng": -76.6195218,
+   "description": "Park Literacy Project & Park Books of Maryland Present…. Author Tini Younger November 4, 2026 5:30 pm | 6:30 pm Hammonds Lane Theatre Tickets: $35-$90 Park Literacy Project and our many partners welcome home one of our own. Tini Younger--Maryland native, trained chef, and the social media sensation behind some of the most-watched comfort food videos on the internet- is coming back to Maryland to celebrate the launch of her debut cookbook, Today We Are Cooking... Recipes That Teach You to Think Like a Chef! Join us for an evening with Tini as she prepares a delicious recipe live from the book, answers your questions, and proves that the best food always starts in your own kitchen when you think like a chef! Every attendee will leave with a signed copy of the cookbook! She may have taken her talents beyond the DMV, but a Baltimore girly never really leaves Raven's country! We could not be more excited to have her here! Let's get cookin'! This event is presented in partnership with Chesapeake Arts Center, Jimmy's Famous Seafood, and Park Books of Maryland. This event is brought to you by Park Literacy Project. Park Literacy Project LLC provides equitable access to books, literacy prog",
+   "categories": "literary, author_talk",
+   "recurrence": "",
+   "admission": "$35-$90",
+   "venueType": "Performing Arts Center",
+   "flCategory": "literary",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Pollinator Wednesday",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/pollinator-wednesday",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Rawayana - ¿Dónde Es El After? World Tour",
+   "url": "https://mgmnationalharbor.mgmresorts.com/en/entertainment/rawayana.html",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "",
+   "venue": "The Theater at MGM National Harbor",
+   "address": "101 MGM National Ave, National Harbor, MD 20745",
+   "city": "National Harbor",
+   "state": "MD",
+   "lat": 38.791707,
+   "lng": -77.003002,
+   "description": "Grammy and Latin Grammy–winning Venezuelan band Rawayana brings their ¿Dónde Es El After? World Tour to the stage, showcasing the genre-blending sound that has made them a standout in Latin alternative music. Known for fusing Caribbean rhythms with funk, reggae, soul, house, and rock, the band has built a global following since their 2011 debut with vibrant live shows and infectious hits like “Feriado” and “Binikini.” With acclaimed albums including Trippy Caribbean and ¿Quién Trae Las Cornetas?, Rawayana continues to push their sound forward with their newest era, ¿Dónde Es El After?, blending tropical grooves, playful energy, and sharp songwriting into songs made for festival crowds and late-night singalongs. With millions of listeners worldwide and major international tours, Rawayana’s live performance turns every show into a high-energy celebration that keeps the party going long after the music starts.",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Performing Arts Center",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Sap w/ Sludge Mother, easterlin",
+   "url": "https://www.pieshopdc.com/shows/sap-w-sludge-mother-easterlin-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Pie Shop",
+   "address": "1339 H Street Northeast, Washington, DC 20002",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9000028,
+   "lng": -76.9869196,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Sawmill Workshop",
+   "url": "https://www.aacounty.org/sawmill-workshop",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Kinder Farm Park",
+   "address": "1001 Kinder Farm Park Rd, Millersville, MD 21108",
+   "city": "Millersville",
+   "state": "MD",
+   "lat": 39.1003025,
+   "lng": -76.5859904,
+   "description": "",
+   "categories": "workshop, class",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Showtime Trivia",
+   "url": "https://showtimetrivia.com/the_point.html",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "The Point Towson",
+   "address": "523 York Road, Towson, MD 21204",
+   "city": "Towson",
+   "state": "MD",
+   "lat": 39.401165,
+   "lng": -76.6024516,
+   "description": "Weekly team trivia hosted by Showtime Trivia league.",
+   "categories": "nightlife",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Sophia Bush",
+   "url": "https://www.sixthandi.org/event/sophia-bush/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Sixth & I",
+   "address": "600 I St NW, Washington, DC 20001",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9006401,
+   "lng": -77.0202066,
+   "description": "Sophia Bush has always understood the power of stories. She’s seen it in the connection millions of viewers have had to the women she’s played on-screen—Dr. Sam Griffith on “Good Sam” and Dr. Cass Beckman on “Grey’s Anatomy,” Detective Erin Lindsay on “Chicago P.D.,” and the iconic Brooke Davis on “One Tree Hill.” She’s seen it in her activism, where speaking truth to inequality and power has prompted real change. And she’s seen it in her personal life, when her experiences and opinions have been distorted to drive clicks and create drama. In And I Will Tell You Mine, Bush shares stories about what has most shaped her: her childhood in Los Angeles, the unexpected road from journalism student to actor, navigating Hollywood and fighting for her character’s integrity, and the realities of marriage and divorce. She also offers sides of herself not often seen: the lifelong learner, the friend, the adventurer. And I Will Tell You Mine is an account of becoming, un-becoming, and becoming again to return home to our truest selves. Bush will be in conversation with Aaron Parnas, an independent journalist, political commentator, and attorney. This service will be ASL-interpreted. To sit in t",
+   "categories": "literary, author_talk",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Community Center",
+   "flCategory": "literary",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Starr Hill Brewpub Weekly Trivia!",
+   "url": "https://www.starrhilltysons.com/events/starr-hill-brewpub-weekly-trivia-267lb-tabra",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Starr Hill Biergarten",
+   "address": "1805 Capital One Drive, Tysons, VA 22102",
+   "city": "Tysons",
+   "state": "VA",
+   "lat": 38.9253182,
+   "lng": -77.2108505,
+   "description": "Join us every Wednesday at 7 PM for free trivia, tasty brews, good company, and the chance to score some cool prizes!🍻💡 Heads up: we don’t take reservations, so grab dinner with us and snag your spot early!",
+   "categories": "nightlife, trivia",
+   "recurrence": "",
+   "admission": "Free",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "parks",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Alternate Routes & Pete Muller & The Kindred Souls",
+   "url": "https://www.unionstagepresents.com/shows/the-alternate-routes-04-nov",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Jammin' Java",
+   "address": "227 Maple Ave E, Vienna, VA 22180",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.9041815,
+   "lng": -77.261163,
+   "description": "The Alternate Routes are the band that helped us to remember “we are how we treat each other, and nothing more.” “Nothing More” propelled the band into new ears and new heights, having been featured prominently in the 2014 Winter Olympics, on NCIS, and with numerous other organizations. It was followed up with “Somewhere in America,” a poignant and personal conversation about gun violence that earned the band a 2016 Independent Music Award and a visit to the White House. The Alternate Routes first burst onto the scene in 2005 with their breakthrough album Good and Reckless and True. They released several albums on Vanguard Records and on their own, toured extensively, and relentlessly refined their craft. They have collaborated with such seemingly disparate artists as singer-songwriter Patti Griffin, director Lisa Cholodenko (The Kids Are All Right), and guitarist Carl Broemel of My Morning Jacket. They’ve performed on The Late Late Show with Craig Ferguson, Late Night with Conan O’Brien, and have been repeat guests on NPR’s Mountain Stage. Critically acclaimed songwriter and pianist Pete Muller is known for his dynamic live shows and genre-spanning blend of roots, rock, soul, and ",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Layla Collective",
+   "url": "https://www.eventbrite.com/e/the-layla-collective-tickets-1997780928536",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "The Collective Encore",
+   "address": "10221 Wincopin Circle, Columbia, MD 21044",
+   "city": "Columbia",
+   "state": "MD",
+   "lat": 39.2158123,
+   "lng": -76.8559674,
+   "description": "Jonathan Sloane, Bobby Thompson, Ricky Wise, and Ian Trusheim come together to highlight the blues/rock sound of the late '60s early '70s!",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "$24.49",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Music of Hey Arnold! - Live!",
+   "url": "https://www.930.com/e/the-music-of-hey-arnold-live",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "9:30 CLUB",
+   "address": "815 V Street N.W., Washington, DC 20001",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.91795,
+   "lng": -77.02373,
+   "description": "",
+   "categories": "music, concert",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "music",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "THE TRUMPETER",
+   "url": "https://dupontunderground.org/calendar/trumpeter",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Dupont Underground",
+   "address": "19 Dupont Circle NW, Washington, DC 20036",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9104845,
+   "lng": -77.0435233,
+   "description": "THEATRE DRAMA THE TRUMPETER Get Tickets Presented by: Alliance for New Music-Theatre in partnership with Ukraine House and United Help Ukraine Written by Inna Goncharova | English Translation by John Farndon Directed by János Szász Alliance for New Music-Theatre’s production of The Trumpeter returns to Dupont Underground for an immersive experience! Following a successful run garnering critical acclaim and a Helen Hayes Recommendation, this powerful production returns to the bunker-like tunnels of Dupont Underground for 13 performances. Staged in the tunnel, Inna Goncharova’s play captures the siege and bombing of Mariupol during the first year of the Russian invasion of Ukraine. Directed by Hungarian director János Szász, the show features DC actors Michael Kevin Darnall and Lise Bruneau, enriched by trumpeter Kevin McKee and a male chorus of Ukrainian singers led by Ruslan Bondar. Audiences will also experience complementary photo exhibits curated by Ukraine House and United Help Ukraine in the venue prior to the performance. Show & Ticket Details Dates: Wednesday, November 4 – Sunday, November 22, 2026 (13 Performances) Dates: Wednesday, November 4 – Sunday, November 22, 2026 (1",
+   "categories": "theater, play",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "theater",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Trans Night @AYA",
+   "url": "https://www.asyouarebar.com",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "As You Are",
+   "address": "500 8th St SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8825789,
+   "lng": -76.9947048,
+   "description": "",
+   "categories": "nightlife, dance_party",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Trivia",
+   "url": "https://danieloconnells.com/events/trivia/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Daniel O'Connell's Irish Restaurant & Bar",
+   "address": "112 King Street, Alexandria, VA 22314",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.8051095,
+   "lng": -77.0470229,
+   "description": "",
+   "categories": "nightlife, trivia",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Restaurant",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Trivia - Taproom",
+   "url": "https://www.rightproperbrewing.com/our-events/weekly-trivia-at-taproom-1104",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Right Proper Brewing Company",
+   "address": "920 Girard Street NE, Washington, DC 20017",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9266284,
+   "lng": -76.993027,
+   "description": "",
+   "categories": "nightlife, trivia",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Brewery & Winery",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Wednesday Evening Live Jazz",
+   "url": "https://www.stvincentwine.com/live-music",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "St. Vincent Wine",
+   "address": "3212 Georgia Avenue Northwest, Washington, DC 20010",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9304272,
+   "lng": -77.0237423,
+   "description": "Live jazz from top local talent, 7-9 PM (outdoors in summer, weather permitting)",
+   "categories": "nightlife",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "WEEKLY TRIVIA",
+   "url": "https://www.roofersuniondc.com",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Roofers Union",
+   "address": "2446 18th St NW, Washington, DC 20009",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9217704,
+   "lng": -77.042704,
+   "description": "TRIVIA AT ROOFERS UNION IS BACK! Join us in partnership with District Trivia for a night filled with brain scratching questions, great food and drink, and your best teammates!",
+   "categories": "nightlife, trivia",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Bar",
+   "flCategory": "nightlife",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Wine Pairing Workshop",
+   "url": "https://www.three-whistles.com/events/wine-pairing-workshop-2/",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Three Whistles",
+   "address": "2719 Wilson Blvd, Arlington, VA 22201",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8896424,
+   "lng": -77.0912434,
+   "description": "Join us for an evening of wine 101 and introduction to cheese pairings with sessions at 6 PM and 7:30 PM. Whether you're a wine enthusiast or just looking to try something new, this is the perfect way to spend an evening with friends.",
+   "categories": "food_drink, tasting, class",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Music Venue",
+   "flCategory": "food_drink",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Wood Shop Workday",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/wood-shop-workday",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Kinder Farm Park",
+   "address": "1001 Kinder Farm Park Rd, Millersville, MD 21108",
+   "city": "Millersville",
+   "state": "MD",
+   "lat": 39.1003025,
+   "lng": -76.5859904,
+   "description": "",
+   "categories": "workshop, class",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Writing Workshop - Wild World-Building",
+   "url": "https://www.fairfaxcounty.gov/parks/green-spring/writing-workshop-wild-world-building/110426",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "13:30",
+   "endTime": "",
+   "venue": "Green Spring Gardens",
+   "address": "4603 Green Spring Road, Alexandria, VA 22312",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.8245605,
+   "lng": -77.1574232,
+   "description": "(16-Adult) Explore how landscapes, ecosystems, and natural forces can shape fictional worlds. Learn to use climate, geography, flora and fauna as powerful storytelling tools—informing culture, conflict and character. Through guided exercises and discussion, craft immersive settings where nature is not just background, but a living, influential…",
+   "categories": "workshop, class",
+   "recurrence": "",
+   "admission": "",
+   "venueType": "Park & Outdoors",
+   "flCategory": "workshop",
+   "outdoorHint": "a Park & Outdoors venue"
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T13:46:39.440Z",
+  "generatedAt": "2026-10-26T13:50:05.129Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -20450,7 +22892,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 443
+    "ms": 512
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -20458,7 +22900,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 37292
+    "ms": 4939
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -20466,7 +22908,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 16099
+    "ms": 2571
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -20474,7 +22916,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 682
+    "ms": 705
    },
    "National Landing BID": {
     "ok": true,
@@ -20482,7 +22924,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 6589
+    "ms": 6414
    },
    "City of Fairfax": {
     "ok": true,
@@ -20490,7 +22932,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2392
+    "ms": 1731
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -20498,18 +22940,18 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1887
+    "ms": 5883
    },
    "Visit Montgomery": {
     "ok": true,
     "status": "EVENTS FOUND — coverage incomplete",
-    "events": 1,
+    "events": 9,
     "outcome": "",
-    "error": "Request timed out | RSS fallback: timed out",
-    "ms": 22221
+    "error": "",
+    "ms": 33046
    }
   },
-  "count": 57,
+  "count": 65,
   "events": [
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -20564,6 +23006,28 @@
     "category": "other"
    },
    {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-26",
+    "date": "2026-10-26",
+    "confidence": "event page schedule",
+    "category": "other"
+   },
+   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -20591,6 +23055,28 @@
     "category": "nature"
    },
    {
+    "title": "Trolleyween Weekend",
+    "url": "https://visitmontgomery.com/events/trolleyween-weekend/",
+    "source": "Visit Montgomery",
+    "description": "Trolley-ween is rolling back into the National Capital Trolley Museum! Join us for a spooktacular afternoon of happy haunts, festive fun, and not-so-scary surprises for the whole family. Explore Halloween-decorated streetcars in Street Car Hall, take part in a themed scavenger hunt with prizes, and enjoy unlimited rides aboard our historic streetcars. Come in costume! Read More » The post Trolleyween Weekend appeared first on Visit Montgomery, MD. Trolley-ween is rolling back into the National Capital Trolley Museum! Join us for a spooktacular afternoon of happy haunts, festive fun, and not-so-scary surprises for the whole family. Explore Halloween-decorated streetcars in Street Car Hall, take part in a themed scavenger hunt with prizes, and enjoy unlimited rides aboard our historic streetcars. Come in costume! Children in costume will receive a special treat. Families can also paint and decorate their own wooden Halloween ornaments for a nominal additional charge while supplies last. It is a frightfully fun way to celebrate the season and experience history in motion. The post Trolleyween Weekend appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Trolleyween Weekend",
+    "address": "1313 Bonifant Road",
+    "city": "Colesville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "12:00",
+    "endTime": "17:00",
+    "lat": 39.0982801,
+    "lng": -77.0317533,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/trolleyween-weekend/|2026-10-26",
+    "date": "2026-10-26",
+    "confidence": "event page schedule",
+    "category": "other"
+   },
+   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -20616,31 +23102,6 @@
     "date": "2026-10-26",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Damascus",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "Welcome to L eech Woods According to Montgomery County historical land records, the present site of Leech Woods was originally settled by Warwick and Jeanne Leech and their six children sometime in early 1790. Having immigrated from Hungary, the family chose Damascus, Maryland, based on its temperate climate and heavily wooded region, which reminded them of their homeland. The Leech family store thrived as the leading local merchant of hides, furs, and hunting supplies. During the disastrous Winter of 1804, the Leech family store was robbed and vandalized by unknown attackers and the body of John Leech, the youngest son, was found nailed to the back wall of the store. The remaining bodies of the family members were later found bludgeoned and bound inside of the root cellar of their homestead. No further information about the attackers or motives for the killings is known. ​ Remnants of the Leech family homestead still stand deep in the woods where the present Leech Woods experience is built. The Leech Woods immersive experience follows the original walking path from the site of the Leech family hunting supply store to the remnants of the original family homestead. As the property was classified as a historical site in 1972, no artifacts may be removed, and we ask that you respect the privacy of the grave sites. What’s new? More Scares. More scenes. More Screams. We added 6 new scenes to the original trail to bring you even more terror. The Horror Hayride also has new scenes added to the 20-minute ride/walk-through. What to expect Leech Woods is a thirty-minute immersive haunted trail experience of dark terror. We promise a night of chainsaws, clowns, and dark corners. When you are done screaming, we offer amazing food and drinks, alcoholic beverages, bonfires, glow-in-the-dark axe-throwing, fire dancers, a DJ booth, fortune telling, and other forms of entertainment every night in the Leech Woods Midway, where Admission Is Free. Trail What is our Trail? Leech Woods is one of the scariest haunted trails in all of Maryland. It’s about a 30-minute walk with now over 15 highly detailed immersive walkthrough scenes, all enhanced this year with even more scares. Plus, our trail has over 50 professionally trained scarers. You can check out our gallery to see photos of our trail and actors. Recommend age: 12+ HORROR HAYRIDE What is the Horror Hayride? The Horror Hayride is a 20-minute ride and walk-through full of brand new, highly detailed, immersive scenes. On this trail, you discover what is believed to be the Leech Woods family cemetery. Limited to 25 victims per trip. Please respect the graves and reserve your seats now. ​ Recommended Age: 12+ Tickets 15% OFF Groups of 5 Or More Use Code “GROUP”",
-    "categories": "",
-    "venue": "Leech Woods",
-    "address": "11201 Bethesda Church Road, Damascus View, Diamond View",
-    "time": "19:00",
-    "endTime": "21:30",
-    "lat": 39.3006965,
-    "lng": -77.2341112,
-    "title": "Leech Woods",
-    "url": "https://visitmontgomery.com/events/leech-woods/",
-    "coverage": true,
-    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/leech-woods/",
-    "occurrenceTime": "19:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/leech-woods/|2026-10-26|19:00|leech woods",
-    "date": "2026-10-26",
-    "confidence": "Publisher explicit schedule",
-    "category": "other"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -20719,6 +23180,28 @@
     "id": "Visit Alexandria|https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/|2026-10-27|09:00|george washington's mount vernon",
     "date": "2026-10-27",
     "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "other"
+   },
+   {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-27",
+    "date": "2026-10-27",
+    "confidence": "event page schedule",
     "category": "other"
    },
    {
@@ -20852,6 +23335,28 @@
     "category": "other"
    },
    {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-28",
+    "date": "2026-10-28",
+    "confidence": "event page schedule",
+    "category": "other"
+   },
+   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -20981,6 +23486,28 @@
     "id": "Visit Alexandria|https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/|2026-10-29|09:00|george washington's mount vernon",
     "date": "2026-10-29",
     "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "other"
+   },
+   {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-29",
+    "date": "2026-10-29",
+    "confidence": "event page schedule",
     "category": "other"
    },
    {
@@ -21243,6 +23770,28 @@
     "id": "Visit Alexandria|https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/|2026-10-30|09:00|george washington's mount vernon",
     "date": "2026-10-30",
     "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "other"
+   },
+   {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-30",
+    "date": "2026-10-30",
+    "confidence": "event page schedule",
     "category": "other"
    },
    {
@@ -21532,6 +24081,28 @@
     "category": "nature"
    },
    {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-10-31",
+    "date": "2026-10-31",
+    "confidence": "event page schedule",
+    "category": "other"
+   },
+   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -21792,6 +24363,28 @@
     "category": "other"
    },
    {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-11-01",
+    "date": "2026-11-01",
+    "confidence": "event page schedule",
+    "category": "other"
+   },
+   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -21951,6 +24544,28 @@
     "id": "Visit Alexandria|https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/|2026-11-02|09:00|george washington's mount vernon",
     "date": "2026-11-02",
     "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "other"
+   },
+   {
+    "title": "Ice Skating: Rockville Town Square",
+    "url": "https://visitmontgomery.com/events/ice-skating-rockville-town-square/",
+    "source": "Visit Montgomery",
+    "description": "Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a Read More » The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD. Online reservations are highly recommended – we do sell out! The reservation price is discounted compared to the walk-up rate. Skating tickets are for up to two hours of skating. Tickets can be purchased up to two weeks in advance. Please arrive within two minutes of your scheduled reservation time. Please come and enjoy a wonderful skating experience! You’ll love gliding through the ice with the wind in your hair! We will also validate for two hours of parking. Online Reserve Pricing 13 years old and older: $12 12 years old and under: $11 Senior: $11 Skate Rental: $6 Walk-up Pricing (Walk-ups are subject to availability) 13 years old and older: $13 12 years old and under: $12 Senior: $12 Skate Rental: $6 Hours Sunday: 10am-10pm Monday-Thursday: 12pm-10pm Friday: 12pm-11pm Saturday: 10am-11pm Holiday Hours Thanksgiving Day: 10am-11pm Black Friday: 10am-11pm Christmas Eve: 10am-11pm Christmas Day: 10am-11pm December 26-30: 10am-11pm New Year’s Eve: 10am-9pm New Year’s Day: 10am-11pm The post Ice Skating: Rockville Town Square appeared first on Visit Montgomery, MD.",
+    "categories": "",
+    "venue": "Ice Skating: Rockville Town Square",
+    "address": "131 Gibbs Street",
+    "city": "Rockville",
+    "county": "Montgomery County",
+    "state": "MD",
+    "time": "10:00",
+    "endTime": "21:00",
+    "lat": null,
+    "lng": null,
+    "scheduleAmbiguous": false,
+    "dateEvidence": "event page schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/ice-skating-rockville-town-square/|2026-11-02",
+    "date": "2026-11-02",
+    "confidence": "event page schedule",
     "category": "other"
    },
    {
