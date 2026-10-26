@@ -5047,7 +5047,13 @@ function findLocalLinkKind(rec){
  const path=u.pathname.replace(/\/+$/,'').toLowerCase();
  const root=String(rec.links?.root_url||rec.links?.venue_url||'').replace(/\/+$/,'').toLowerCase();
  if((!path&&!u.search)||String(rec.url).replace(/\/+$/,'').toLowerCase()===root||
-    (!u.search&&/^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path)))return 'venue';
+    (!u.search&&/^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path))){
+  // When the venue IS the event (a farmers market's or a parkrun's own site),
+  // its home page is the right page.
+  const T=keyWords(rec.title||''),V=new Set([...keyWords(rec.venue||'')].filter(w=>w.length>=4&&!/^(?:park|center|centre|county|city|town|regional|national|state|community)$/.test(w)));
+  if([...V].some(w=>T.has(w))||(/market/i.test(rec.title||'')&&/market/i.test(rec.venue||'')))return 'event';
+  return 'venue';
+ }
  return rec.linkKind==='tickets'?'tickets':'event';
 }
 async function adaptCollector(source,r){
