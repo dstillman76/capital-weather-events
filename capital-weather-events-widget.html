@@ -3467,10 +3467,10 @@ async function loadCoverageSource(source){
  'id,title.rendered,link,acf.market.individual_banner,acf.market.banner,acf.market.address,acf.market.location_notes,acf.market.open_date,acf.market.close_date,acf.market.day,acf.market.open_time,acf.market.close_time,acf.market.day_2,acf.market.open_time_2,acf.market.close_time_2,acf.market.about_content.text,acf.market.optional_date_range_text';
  const periods=source.coverage==='geodir'?['today','next_7_days']:[''];
  // v28: the daily collector has time to read every GeoDirectory page.
- const pageSize=source.coverage==='markets'?100:50,maxPages=source.coverage==='geodir'&&COLLECT_MODE?10:3;
+ const pageSize=source.coverage==='markets'?100:50,maxPages=source.coverage==='geodir'&&COLLECT_MODE?20:3;
  for(const period of periods){
   for(let page=1;page<=maxPages;page++){
-   if(report.requests>=(source.coverage==='geodir'?(COLLECT_MODE?16:5):4)){report.limited=true;break}
+   if(report.requests>=(source.coverage==='geodir'?(COLLECT_MODE?40:5):4)){report.limited=true;break}
    const params=source.coverage==='georgetown'?new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days.at(-1)+' 23:59:59'}):
     new URLSearchParams({per_page:String(pageSize),page:String(page),_fields:fields});
    if(period){params.set('event_type',period);params.set('single_event','false')}
