@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v25: Ghost HTML card, self-contained. Adds Mosaic District, Union Market District, The Boro and One Loudoun; open-air stadium events; one listing per stadium game. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v26: Ghost HTML card, self-contained. General cross-source duplicate matching (date, time, place, title key words). Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -2219,6 +2219,10 @@ async function loadHSEMA(){
   async function process(){
    while(index<items.length){
     const item=items[index++];
+    // v26: HSEMA lists next year's permits too ("thunder-alley-2027"); a year
+    // outside this window in the link or title rules the page out unopened.
+    const named=(item.url+' '+item.title).match(/\b(20\d\d)\b/);
+    if(named&&!days.some(d=>d.startsWith(named[1]))){outsideRange++;continue}
     let date=item.listingDate,title=item.title,time='',endTime='',venue='',address='',description='';
     try{
      const html=await fetchText(item.url,10000);detailFetched++;
@@ -2376,6 +2380,88 @@ function conflictingEntity(e){
  const words=norm(e.title).replace(/\b(?:at|the|and|20\d\d)\b/g,'').replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean).sort().join('');
  return e.source+'|'+e.date+'|'+words+'|'+norm(e.venue)+'|'+e.endTime;
 }
+
+/* v26: general duplicate matching across sources. Two listings are one event
+ * when they share the date and start time (or one has no time and the place
+ * is confirmed), the place agrees, and the titles share most of their key
+ * words once accents, filler words and the venue's own name are removed.
+ *  - Place confirmed (same venue name, coordinates within 400 m, or the same
+ *    street address): 60% of the shorter title's key words must match.
+ *  - Same town only, and neither venue contradicts the other: the shorter
+ *    title's key words must all appear in the longer one (at least two).
+ *  - One side gives only an organization as the place: same state, and all
+ *    of at least three key words must match.
+ * Two named venues that disagree are never merged, so "Bird Walk" at two
+ * parks at 8 a.m. stays two events. The more complete listing is kept. */
+const DEDUPE_FILLER=new Set('the a an at of and in on for with to by from annual free event events day night family fun all ages kids presents present featuring feat live 2026 2027 edition series weekly saturday saturdays sunday sundays monday mondays tuesday tuesdays wednesday wednesdays thursday thursdays friday fridays'.split(' '));
+const GENERIC_VENUE=/^(?:(?:town|city|village|county) of\b|various|multiple|downtown\b|tbd|tba|online|see (?:website|details)|.*\b(?:bid|business improvement|tourism|visitors? bureau|convention|parks? (?:&|and) rec(?:reation)?|county parks|events?)$)/i;
+function foldText(t){return String(t||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9 ]+/g,' ')}
+function keyWords(t,drop){
+ const out=new Set();
+ for(let w of foldText(t).split(/\s+/)){
+  if(w.length<3||DEDUPE_FILLER.has(w)||(drop&&drop.has(w)))continue;
+  if(w.length>4&&w.endsWith('s'))w=w.slice(0,-1);   // "Saturdays"/"Saturday", "Tours"/"Tour"
+  out.add(w);
+ }
+ return out;
+}
+function venueWords(v){return keyWords(v).size?new Set([...keyWords(v)].filter(w=>!/^(?:park|center|centre|regional|national|state|garden|square|plaza|street|avenue|road|hall)$/.test(w))):new Set()}
+function samePlace(a,b){
+ if(Number.isFinite(a.lat)&&Number.isFinite(b.lat)&&Number.isFinite(a.lng)&&Number.isFinite(b.lng)&&a.lat&&b.lat&&
+    Math.hypot((a.lat-b.lat)*111,(a.lng-b.lng)*86)<0.4)return 'confirmed';
+ const va=clean(a.venue),vb=clean(b.venue);
+ const aGeneric=!va||GENERIC_VENUE.test(va),bGeneric=!vb||GENERIC_VENUE.test(vb);
+ if(!aGeneric&&!bGeneric){
+  const A=venueWords(va),B=venueWords(vb);
+  if(A.size&&B.size&&[...A].some(w=>B.has(w)))return 'confirmed';
+  if(foldText(va).trim()===foldText(vb).trim())return 'confirmed';
+ }
+ const street=x=>(foldText(x.address).match(/\b\d{2,6} [a-z0-9]+(?: [a-z0-9]+)?/)||[''])[0];
+ if(street(a)&&street(a)===street(b))return 'confirmed';
+ if(!aGeneric&&!bGeneric)return 'conflict';
+ const area=x=>foldText(x.city||x.county).trim();
+ if(area(a)&&area(a)===area(b))return 'town';
+ // One side names only an organization (FindLocal often gives a parks
+ // department's office address): same state, and the titles must agree fully.
+ return (aGeneric||bGeneric)&&a.state&&a.state===b.state?'loose':'conflict';
+}
+function sameEvent(a,b){
+ if(a.date!==b.date)return false;
+ const ta=a.time||'',tb=b.time||'';
+ if(ta&&tb&&ta!==tb)return false;
+ const place=samePlace(a,b);
+ if(place==='conflict')return false;
+ if((!ta||!tb)&&ta!==tb&&place!=='confirmed')return false;
+ const drop=new Set([...venueWords(a.venue),...venueWords(b.venue)]);
+ let A=keyWords(a.title,drop),B=keyWords(b.title,drop);
+ if(!A.size||!B.size){A=keyWords(a.title);B=keyWords(b.title)}
+ const [small,big]=A.size<=B.size?[A,B]:[B,A];
+ if(!small.size)return false;
+ const shared=[...small].filter(w=>big.has(w)).length;
+ if(place==='confirmed')return small.size>=2?shared/small.size>=0.6:shared===1&&big.size===1;
+ if(place==='loose')return small.size>=3&&shared===small.size;
+ return small.size>=2&&shared===small.size;
+}
+function listingRank(e){return (e.endTime?2:0)+(e.time?2:0)+(e.address?1:0)+(Number.isFinite(e.lat)&&e.lat?1:0)+(e.viaFindLocal?0:1)+Math.min(2,Math.floor(String(e.description||'').length/300))}
+function mergeSameEvents(list){
+ const byDate=new Map();
+ for(const e of list){if(!byDate.has(e.date))byDate.set(e.date,[]);byDate.get(e.date).push(e)}
+ const drop=new Set();
+ for(const group of byDate.values()){
+  for(let i=0;i<group.length;i++){
+   if(drop.has(group[i]))continue;
+   for(let j=i+1;j<group.length;j++){
+    const a=group[i],b=group[j];
+    if(drop.has(b)||!sameEvent(a,b))continue;
+    const [keep,lose]=listingRank(b)>listingRank(a)?[b,a]:[a,b];
+    drop.add(lose);
+    keep.alsoListedBy=[...new Set([...(keep.alsoListedBy||[]),lose.source,...(lose.alsoListedBy||[])])].filter(s=>s!==keep.source);
+    if(lose===group[i])break;
+   }
+  }
+ }
+ return list.filter(e=>!drop.has(e));
+}
 function dedupe(events){
  const prepared=[];
  for(const e of events){
@@ -2434,7 +2520,7 @@ function dedupe(events){
   const rank=x=>(x.coverage?0:10)+(x.endTime?2:0)+(x.address?1:0);
   if(rank(e)>rank(previous))seen.set(key,e);
  }
- return [...seen.values()].sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'99:99').localeCompare(b.time||'99:99')||a.title.localeCompare(b.title));
+ return mergeSameEvents([...seen.values()]).sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'99:99').localeCompare(b.time||'99:99')||a.title.localeCompare(b.title));
 }
 
 /* Filter controls */
