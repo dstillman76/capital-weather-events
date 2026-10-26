@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T17:46:52.188Z",
+ "generatedAt": "2026-10-26T17:50:32.454Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -11,12 +11,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 386,
-   "opened": 0,
-   "cached": 374,
+   "opened": 51,
+   "cached": 372,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 68,
+   "inWindow": 106,
    "pending": 0,
    "note": ""
   },
@@ -25,12 +25,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 368,
-   "opened": 0,
+   "opened": 28,
    "cached": 356,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 95,
+   "inWindow": 114,
    "pending": 0,
    "note": ""
   },
@@ -39,12 +39,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 220,
-   "opened": 0,
-   "cached": 210,
+   "opened": 33,
+   "cached": 208,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 32,
+   "inWindow": 52,
    "pending": 0,
    "note": ""
   },
@@ -53,12 +53,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 82,
-   "opened": 0,
+   "opened": 4,
    "cached": 82,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 24,
+   "inWindow": 26,
    "pending": 0,
    "note": ""
   },
@@ -67,12 +67,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 60,
-   "opened": 0,
+   "opened": 2,
    "cached": 38,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 9,
+   "inWindow": 11,
    "pending": 0,
    "note": ""
   },
@@ -81,12 +81,12 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 264,
-   "opened": 0,
+   "opened": 30,
    "cached": 260,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 45,
+   "inWindow": 67,
    "pending": 0,
    "note": ""
   },
@@ -145,8 +145,73 @@
    "keptPrevious": 623
   }
  ],
- "count": 1185,
+ "count": 1288,
  "events": [
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "“Fall into the Arts” with artoberVA",
+   "url": "https://www.fxva.com/event/%e2%80%9cfall-into-the-arts%e2%80%9d-with-artoberva/48074/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-17",
+    "2026-10-31"
+   ],
+   "time": "15:00",
+   "endTime": "16:30",
+   "venue": "Various Locations",
+   "address": "VA",
+   "city": "",
+   "state": "VA",
+   "lat": 37.4315734,
+   "lng": -78.6568942,
+   "description": "ArtsFairfax invites the community to \"Fall into the Arts\" with artoberVA, a month-long celebration of local arts and culture throughout October 2026. From October 1st–31st, ArtsFairfax encourages residents to stay curious and stay local, taking advantage of arts and culture deals and free events celebrating National Arts and Humanities Month. This vibrant initiative showcases Fairfax County's creative community through diverse programming, cultural experiences, and artistic offerings accessible to all. Whether exploring visual art, performing arts, music, theater, or creative workshops, artoberVA provides opportunities to engage with local artists, discover new cultural experiences, and celebrate what makes Fairfax County's arts scene vibrant and inclusive. artoberVA: Fall into the Arts combines community celebration, cultural connection, artistic discovery, and accessible creative experiences throughout Fairfax County, Virginia. Explore the full lineup of October events and special offers at https://artsfairfax.org/artoberva/ . Discover More Attractions in #FXVA",
+   "categories": "Family Friendly, Free, Live Music/Concerts, Art Galleries & Exhibits, Arts & Crafts, Sully District, Dranesville District, Franconia District, Mason District, Mount Vernon District, Providence District, Springfield District",
+   "recurrence": "Recurring daily",
+   "admission": "Free"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "19th Amendment Rotunda Display",
+   "url": "https://www.fxva.com/event/19th-amendment-rotunda-display/45872/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-03-15",
+    "2027-01-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Archives",
+   "address": "700 Pennsylvania Ave NW, Washington, DC 20004",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8928365542,
+   "lng": -77.0229792595,
+   "description": "For the first time since 1952, the National Archives will welcome new, permanent document cases in the Rotunda as it unveils the original 19th Amendment ratified in 1920. While the Founding Documents—the Declaration of Independence, U.S. Constitution, and Bill of Rights—established the nation’s path during the revolutionary and colonial period, the addition of the 19th Amendment to the Rotunda demonstrates the nation’s continued journey to expand rights to its citizens.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
   {
    "source": "Patch",
    "siteCounty": "Montgomery County",
@@ -195,6 +260,38 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "A BOOtanical Halloween Scavenger Hunt",
+   "url": "https://www.fxva.com/event/a-bootanical-halloween-scavenger-hunt/39692/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-11-01"
+   ],
+   "time": "10:00",
+   "endTime": "18:00",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Court, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.9380887,
+   "lng": -77.2819094,
+   "description": "Get into the Halloween spirit with a BOOtanical Halloween Scavenger Hunt at Meadowlark Botanical Gardens, available daily October 1 through November 1, from 10am to 6pm! It all starts with a book trail featuring Millie Fleur’s Poison Garden, a wonderfully illustrated story about Millie and her wonderfully weird garden. Follow the trail to the Children’s Garden, then search the veggie garden, peek into the log cabin windows, and look along the edge of the woods for spooky scavenger hunt surprises. This activity is fun for all ages. Scavenger hunt sheets can be purchased for $10 at the Visitor Center admissions desk. Show your completed sheet to receive a BOOtastic prize. We’re dying to see what you find! Meadowlark Botanical Gardens is located off Beulah Road, at 9750 Meadowlark Gardens Court, in Vienna, Virginia.",
+   "categories": "Family Friendly, Seasonal & Holidays, Halloween",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "A BOOtanical Halloween Scavenger Hunt!",
@@ -218,6 +315,72 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "America's 250 Harbor Cruise",
+   "url": "https://www.visitannapolis.org/event/americas-250-harbor-cruise/17352/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-16",
+    "2026-11-01"
+   ],
+   "time": "13:00",
+   "endTime": "15:30",
+   "venue": "Annapolis Harbor - Darling Charters",
+   "address": "Pier 4 Marina, 301 Fourth Street, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.972056,
+   "lng": -76.48261,
+   "description": "America’s 250 Private Cruise Celebrate on the Water Aboard Darling Put on your red, white, and blue and join us aboard our beautifully restored 1973 classic yacht for the perfect way to honor America’s 250th birthday! Cruise the historic waters of Annapolis while enjoying stunning views of the Maryland State House, the U.S. Naval Academy, and the charming waterfront lined with the largest collection of original 18th-century buildings in the country. You’ll even get a sense of what early explorers first saw when they navigated the Chesapeake Bay. Your private 2.5-hour experience includes: A beautifully restored 1973 American classic yacht ( for up to 6 guests ) An upscale charcuterie board with premium non-alcoholic beverages (BYOB welcome — we provide stemware, ice, and champagne buckets) A knowledgeable private captain who tailors the cruise just for you The best way to experience historic Annapolis and surrounding waterways Limited Edition Darling keepsake for each guest to remember this day! Time: 1:00 – 3:30 pm Available: 7 days a week, April – October Charter Rate : $995 Ready to celebrate America’s milestone in true Darling style? Book online or contact us today to reserve your private America’s 250 Afternoon Harbor Cruise! Morning and sunset cruises are also available, along with custom times when possible.",
+   "categories": "History, On the Water, Family Friendly, Outdoors, America 250",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "American Icon The US Flag in Art",
+   "url": "https://www.fxva.com/event/american-icon-the-us-flag-in-art/46072/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-06",
+    "2026-11-06"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Gallery of Art",
+   "address": "4th and Constitution Avenue NW, Washington, DC 20565",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8913000483,
+   "lng": -77.0198464394,
+   "description": "Old Glory, reimagined: artists transform our flag over the centuries. Across generations, the Stars and Stripes has inspired pride, protest, and profound artistic expression. From battlefields to modern cultural movements, our flag's journey through art reveals a nation constantly redefining itself. This installation features some 30 artworks from the late 1800s to present day, tracing how the meaning of the US flag has evolved over time. It explores what the flag represents and how people connect with it. You’ll find paintings, prints, and photographs by renowned artists like Gordon Parks, Childe Hassam, Dorothea Lange, Jasper Johns, and Faith Ringgold.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "Visit Montgomery",
@@ -287,6 +450,38 @@
    "categories": "Live Music/Concerts",
    "recurrence": "",
    "admission": "$46.00+"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Annapolis Darling Sunset Cruise",
+   "url": "https://www.visitannapolis.org/event/annapolis-darling-sunset-cruise/17353/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-15",
+    "2026-11-01"
+   ],
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Annapolis Harbor - Darling Charters",
+   "address": "301 Fourth Street, Pier 4 Marina, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.972056,
+   "lng": -76.48261,
+   "description": "The most magical time of the day is enhanced when enjoyed from the cockpit of Darling, a restored 1973 American classic powerboat. Sit back and enjoy this cruise around the harbor, and watch as Annapolis lights up with the setting sun. The perfect setting for a romantic evening or celebration with friends and family. What's included in your 2 hour private sunset cruise : Exclusive private access to Darling, a beautifully restored 19731 American classic (for your party of up to 6 guests) An upscale charcuterie board and premium non-alcoholic beverages (BYOB welcome - we provide stemware, ice and champagne buckets) Knowledgable USCG certified captain who tailors the cruise just for you Lux touches such as cashmere blankets for cooler evening, and personalized touches so your guests feel pampered Start time: 2 hours prior to sunset Charter Rate : Mon-Wed $875, Thursday-Sunday $950 When you deserve the best, book a Darling Charter. Reserve online, or contact us for more details.",
+   "categories": "History, On the Water, Naval Academy, Family Friendly, Outdoors, America 250",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "Experience Prince George’s",
@@ -415,6 +610,40 @@
   {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
+   "title": "Bison: Standing Strong",
+   "url": "https://www.fxva.com/event/bison%3a-standing-strong/46146/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-07",
+    "2028-10-20"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Museum of Natural History",
+   "address": "10th St. & Constitution Ave., NW, Washington, DC 20560",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.892093,
+   "lng": -77.0259034,
+   "description": "Explore the remarkable story of bison. These iconic animals shaped North American landscapes for more than 100,000 years and anchored Indigenous lifeways for generations. Pushed to the brink of extinction in the 19th century, bison survived thanks to dedicated conservation efforts. Today, they stand strong as an enduring symbol of survival and resilience. The Bison: Standing Strong exhibit invites you into this incredible journey. Explore a full-sized bull bison specimen, the six-foot-wide skull of an ancient bison ancestor, an immersive soundscape, multimedia, cutting-edge scientific research, and Native objects and stories shared in collaboration with community members. Experience the deep history of America’s national mammal and discover the hopeful future being built for generations to come.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
    "title": "Bluey x CAMP: Bluey's House",
    "url": "https://www.fxva.com/event/bluey-x-camp%3a-blueys-house/47664/",
    "dates": [
@@ -433,6 +662,102 @@
    "categories": "Family Friendly",
    "recurrence": "Recurring daily",
    "admission": "Starting at $42+"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Brick-or-Treat",
+   "url": "https://www.fxva.com/event/brick-or-treat/44932/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "10:00",
+   "endTime": "17:00",
+   "venue": "LEGO Discovery Center Washington, DC",
+   "address": "6563 Springfield Mall, Suite 12004, Springfield, VA 22150",
+   "city": "Springfield",
+   "state": "VA",
+   "lat": 38.7747804,
+   "lng": -77.1748202,
+   "description": "From October 1st - October 31st, families can get into the Halloween spirit as LEGO® Minifigure Monsters take over LEGO Discovery Center Washington, D.C., and they’re bringing a frightfully fun Halloween adventure with them! Brick-or Treat Activities: Build your way through Halloween Catch the exclusive 4D LEGO® Movie, The Great Monster Chase Get creative in the Ghoulish Glow Zone Wear a costume and join us in the best Brick-or-Treat ever! ...and more! Booook Now!",
+   "categories": "Family Friendly, Seasonal & Holidays, Halloween",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Bronze Bison: Exhibit",
+   "url": "https://www.fxva.com/event/bronze-bison%3a-exhibit/46148/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-03-19",
+    "2026-12-31"
+   ],
+   "time": "10:00",
+   "endTime": "17:30",
+   "venue": "National Museum of Natural History",
+   "address": "10th St. & Constitution Ave., NW, Washington, DC 20560",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.892093,
+   "lng": -77.0259034,
+   "description": "More than 100 years ago, real bison grazed outside the Smithsonian Castle building. Bison are returning in a bold new way! Three larger-than-life bronze bison, created by sculptor Gary Staab, find a permanent home outside the Smithsonian National Museum of Natural History. These towering sculptures of a bull, cow, and calf are at 125 percent scale and modeled after taxidermy specimens seen at the Smithsonian between 1888 and 1957. The original bison diorama introduced generations of visitors to an animal and a prairie landscape they had never seen and helped spark the bison conservation movement. The new bison bronzes will welcome visitors from around the world and celebrate America’s national mammal. Gift of Naoma Tate and the family of Hal Tate.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Captain's Charter",
+   "url": "https://www.visitannapolis.org/event/captains-charter/18382/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-01",
+    "2026-10-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "",
+   "address": "2 Yacht Club Dr, Cambridge, MD 21613",
+   "city": "Cambridge",
+   "state": "MD",
+   "lat": 38.5755888,
+   "lng": -76.0738186,
+   "description": "Captain’s Charter Your Day. Your Adventure. Spend an entire day exploring the Chesapeake with a completely customized itinerary designed around your interests. Duration - 8 Hours What's Included - Fully customizable itinerary - Lighthouse tours, waterfront towns, secluded anchorages, or build-your-own adventure - Catered breakfast - Catered lunch - Eastern Shore light bites - Fine wines, craft beer, sodas, and refreshments - Branded keepsake Perfect for family outings, special celebrations, photography excursions, corporate retreats, and unforgettable full-day Chesapeake adventures.",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -505,6 +830,69 @@
    "venueType": "Park & Outdoors",
    "flCategory": "community",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Chesapeake Sampler - Crabbing + Fishing",
+   "url": "https://www.visitannapolis.org/event/chesapeake-sampler-crabbing-%2b-fishing/18384/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-01",
+    "2026-10-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "",
+   "address": "2 Yacht Club Dr, Cambridge, MD 21613",
+   "city": "Cambridge",
+   "state": "MD",
+   "lat": 38.5755888,
+   "lng": -76.0738186,
+   "description": "A Little Crabbing. A Little Fishing. A Whole Lot of Chesapeake. Get a taste of life on the Chesapeake with a relaxed, hands-on adventure aboard the Lois Ann. Perfect for families, first-timers, younger guests, grandparents, or anyone looking for a shorter introduction to two Eastern Shore traditions. Duration •3 Hours",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Chesapeake Sunrise Photographic Experience",
+   "url": "https://www.visitannapolis.org/event/chesapeake-sunrise-photographic-experience/17358/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-17",
+    "2026-11-01"
+   ],
+   "time": "05:00",
+   "endTime": "08:30",
+   "venue": "Annapolis Harbor - Darling Charters",
+   "address": "Pier 4 Marina, 301 Fourth Street, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.97205599999999,
+   "lng": -76.48261,
+   "description": "A Luxury On-the-Water Photographic Workshop We are pleased to partner with acclaimed photographer Jeff Poe to offer refined, on-the-water photographic workshop experiences. This creative partnership combines the elegance of a Darling Charter with a hands on photographic learning experiences (for amateurs to seasoned photographers). Step aboard Darling at first light. As your captain navigates to the region's most compelling sunrise locations, Jeff provides continuous guidance to help you capture exceptional images in a truly unique setting. This intimate workshop emphasizes: Understanding light and composition Unlocking hidden photo features on phones and optimizing camera settings Photographing iconic landmarks such as Thomas Point Lighthouse and the Chesapeake Bay Bridge Capturing local wildlife, including ospreys and great blue herons. What's included on your private Photographic Workshop Cruise: 3.5 hours on the water aboard Darling for your group (up to 6 guests) USCG certified captain Hands-on photographic instruction by Jeff Poe throughout the experience Freshly baked scones, coffee & assortment of cold beverages Complete Package Price: $1,950 (for up to 6 guests) More details on our website, or contact us to learn more. Note : We are also doing a few public workshops where you can purchase individual tickets. See our website for these limited dates.",
+   "categories": "Arts & Culture, On the Water, Outdoors, America 250",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -645,6 +1033,68 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Costumes with Cupcake",
+   "url": "https://www.visitloudoun.org/event/costumes-with-cupcake/52099/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "09:00",
+   "endTime": "15:00",
+   "venue": "Salamander Middleburg",
+   "address": "500 N Pendleton St., Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.97441930000001,
+   "lng": -77.7433449,
+   "description": "Spend time with Cupcake, our beloved miniature horse, during this festive Halloween experience. Children will groom Cupcake before dressing her in a Halloween costume of their choice, creating a playful seasonal activity perfect for young equestrian enthusiasts.",
+   "categories": "Equestrian, Family-Friendly, Farm & Nature, Holiday Celebrations",
+   "recurrence": "Recurring daily",
+   "admission": "185.00+ for up to two children. | Ages 4+. | Reservations required."
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Cox Farms Fall Festival",
+   "url": "https://www.fxva.com/event/cox-farms-fall-festival/39060/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-19",
+    "2026-11-08"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Cox Farms",
+   "address": "15621 Braddock Road, Centreville, VA 20120",
+   "city": "Centreville",
+   "state": "VA",
+   "lat": 38.8813847,
+   "lng": -77.4866131,
+   "description": "The Fall Festival opens September 19th and will be open Thursdays-Mondays until November 8, 2026. The festival is open 10 a.m. to 6 p.m. through October, and 10 a.m. to 5 p.m. in November. * Last entry is one hour before closing. Visit Northern Virginia's largest and most famous Fall Festival! Washington Post Editor's Choice: Cox Farms is \"the Big Kahuna of farms with fall festivities in Northern Virginia.\" Giant slides, world-famous hayrides, rope swings, farm animals & their babies, CORNundrum© Cornfield adventure, farm chores, kiddie zone, local apples & fresh cider, food, entertainment, Imaginature Trail, over 90 acres of fun! Check out other Fall Festival attractions here: https://coxfarmsva.com/fall-festival/festival-attractions/ While at the Festival, visit Foamhenge - a lifesize replica of England's famous Stonehenge, but created entirely out of Styrofoam by artist Mark Cline. Access is included with admission to Festival/Fields of Fear.",
+   "categories": "Family Friendly, Seasonal & Holidays, Fairs & Festivals, Halloween, Spotlight Events",
+   "recurrence": "Recurring weekly on Sunday, Monday, Thursday, Friday, Saturday",
+   "admission": "$15 - $30"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Daniel Nayeri Book Release",
@@ -668,6 +1118,67 @@
    "venueType": "Community Center",
    "flCategory": "literary",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Davis Mansion Tours",
+   "url": "https://www.visitloudoun.org/event/davis-mansion-tours/51520/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-12",
+    "2026-11-16"
+   ],
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Morven Park",
+   "address": "17195 Southern Planter Ln, Leesburg, VA 20176",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.141821,
+   "lng": -77.57267449999999,
+   "description": "Take a guided tour of the iconic Davis Mansion at Morven Park! Tours offered on Friday, Saturday, Sunday, and Monday each week. Tours start promptly at 10:00 a.m., 11:00 a.m., 1:00 p.m., 2:00 p.m., and 3:00 p.m.",
+   "categories": "History",
+   "recurrence": "Recurring weekly on Sunday, Monday, Friday, Saturday",
+   "admission": "$16 for adults; free for guests 17 and under"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Daydream Days",
+   "url": "https://www.visitloudoun.org/event/daydream-days/52280/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "11:00",
+   "endTime": "19:00",
+   "venue": "Bluemont Vineyard",
+   "address": "18755 Foggy Bottom Road, Bluemont, VA 20135",
+   "city": "Bluemont",
+   "state": "VA",
+   "lat": 39.0963185,
+   "lng": -77.83241749999999,
+   "description": "Daydreamers, your latest go-to sip is now a sparkling new reality — and this year, every glass gives back. October is Virginia Wine Month, and there's no better way to celebrate than with the feature of Bluemont Vineyard's Daydream Rosé — a fresh and fruity fantasy all pink wine lovers won't want to wake from! We invite Rosé Revelers everywhere to join us for an exclusive Daydream Days in the heart of Virginia wine country, featuring a brand-new installation and a shared mission close to our hearts. Bluemont Vineyard's Daydream Days are the perfect outing for vineyard regulars and newcomers alike. Join us \"on Cloud Wine\" as we sip, savor, and celebrate the best rosé in Virginia — right in the midst of Virginia Wine Month, all while raising a glass (and funds) for breast cancer awareness. NEW This Year: The Pink Ribbon Vine Walk We're bringing Daydream Days to life with an all-new Pink Ribbon Vine Walk — a dedicated row of vines transformed into a walkable tribute path, lined with pink ribbons in honor of those touched by breast cancer. For a $5 donation, guests can add their own ribbon to the vines, writing a name or message in tribute to someone they love. Every dollar goes directly to the Loudoun Breast Health Network. As the weekend unfolds, the vine walk grows more vivid — a living, blooming tribute built one ribbon, one story, and one glass of Daydream Rosé at a time!",
+   "categories": "Annual Event, Family-Friendly, Wine",
+   "recurrence": "Recurring daily",
+   "admission": "Free Admission"
   },
   {
    "source": "Visit Loudoun",
@@ -720,6 +1231,74 @@
    "venueType": "Restaurant",
    "flCategory": "sports",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Emancipation Proclamation Rotunda Display",
+   "url": "https://www.fxva.com/event/emancipation-proclamation-rotunda-display/45871/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-21",
+    "2027-01-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Archives",
+   "address": "700 Pennsylvania Avenue, N.W., Washington, DC 20408",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.892861,
+   "lng": -77.0230716,
+   "description": "For the first time since 1952, the National Archives welcome new, permanent document cases in the Rotunda as it unveils the original 1863 Emancipation Proclamation signed by Abraham Lincoln. While the Founding Documents—the Declaration of Independence, U.S. Constitution, and Bill of Rights—established the nation’s path during the revolutionary and colonial period, the addition of the Emancipation Proclamation to the Rotunda demonstrates the nation’s continued journey to expand rights to its citizens.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": "Free"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Entertainment Nation",
+   "url": "https://www.fxva.com/event/entertainment-nation/46165/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-02-24",
+    "2026-12-31"
+   ],
+   "time": "10:00",
+   "endTime": "17:30",
+   "venue": "National Museum of American History",
+   "address": "14th Street and Constitution Avenue, N.W., Washington, DC 20560",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8921011,
+   "lng": -77.0319568,
+   "description": "Entertainment has the power to captivate, inspire and transform us. It brings us together. We share it when we spontaneously recite lines from a favorite movie, dance to the same groove or recreate a national sports moment on a neighborhood street. It can also spur critical conversations, expose divides, and foster important historical change. Through the National Museum of American History’s extraordinary collection of theater, music, sports, movie and television objects, the exhibition features a powerful, ever-changing selection of objects and interactive experiences. Through the objects and their stories, the exhibition explores how, for more than 150 years, entertainment has provided a forum for important national conversations about who we are, and who we want to be.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -795,6 +1374,93 @@
    "admission": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Fall Foliage Zip Tour",
+   "url": "https://www.visitloudoun.org/event/fall-foliage-zip-tour/52100/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-28"
+   ],
+   "time": "11:00",
+   "endTime": "16:00",
+   "venue": "Salamander Middleburg",
+   "address": "500 N Pendleton St., Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.97441930000001,
+   "lng": -77.7433449,
+   "description": "Soar through the treetops and witness the change of season. You will have the perfect vantage point to view Virginia's beautiful autumn foliage! Tours available from 11:00 AM–1:00 PM and 2:00–4:00 PM.",
+   "categories": "Family-Friendly, Farm & Nature, Sports & Recreation",
+   "recurrence": "Recurring daily",
+   "admission": "149.00 per guest | Reservations required."
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Fall Fun Festival at Gaver Farm",
+   "url": "https://www.visitfrederick.org/event/fall-fun-festival-at-gaver-farm/20763/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-04",
+    "2026-11-01"
+   ],
+   "time": "10:00",
+   "endTime": "18:00",
+   "venue": "Gaver Farm",
+   "address": "5501 Detrick Rd., Mt. Airy, MD 21771",
+   "city": "Mt. Airy",
+   "state": "MD",
+   "lat": 39.3833907,
+   "lng": -77.24065,
+   "description": "Celebrate the vibrant colors and crisp air of autumn at the Fall Fun Festival at Gaver Farm! Running throughout September and October, this family-friendly event offers over 65 exciting attractions, making it the perfect destination for a day of fun, laughter, and unforgettable memories. Explore the Corn Maze . It’s a 7-acre corn maze, perfect for all ages. This maze combines the thrill of exploration with the joy of discovery. Whether you’re working together as a family or racing against friends, our corn maze promises a day of fun and excitement. Meet Our Friendly Barnyard Animals : Get up close and personal with our friendly barnyard animals, including goats, sheep, cow, alpacas, pigs, donkey, pony, bunnies, peacocks, turkeys, ducks and chickens. Kids (and adults!) love the opportunity to feed and interact with our goats, creating cherished memories and learning about farm life along the way. Fall Fun Fest Admission is $20.50 per person on September weekends, $24.00 per person on October weekends, and $14.50 per person on weekdays. Kids under 24 months are free. Tickets are available online and in person at the farm.",
+   "categories": "Fairs & Festivals, Outdoor, Foodie, Family Friendly",
+   "recurrence": "Recurring daily",
+   "admission": "$20.50 per person on September weekends, $24.00 per person on October weekends, and $14.50 per person on weekdays. Kids under 24 months are free."
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "First Exposure: Beginner Photography (4- week workshop)",
+   "url": "https://www.visitannapolis.org/event/first-exposure%3a-beginner-photography-(4-week-workshop)/18252/",
+   "dates": [
+    "2026-10-26",
+    "2026-11-02"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-19",
+    "2026-11-02"
+   ],
+   "time": "18:30",
+   "endTime": "20:30",
+   "venue": "AftFarm Studios",
+   "address": "111 Chinquapin Round Road, Suite 200, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9787689,
+   "lng": -76.5236699,
+   "description": "Have a digital camera but don't know how to use it? Want to brush up on your photography skills? Join photographer Kaitlyn McQuaid for \"First Exposure,” a 4-week digital photography workshop covering the foundations of photography. This workshop will run for 2 hours each week, and we'll cover one element of photography in-depth, including: - Aperture - ISO - Shutter Speed - Lighting - Composition We'll practice with in-class, hands-on exercises, and tips for capturing moments on your own outside of class. NOTES You will receive an email 1 week before class starts with additional information. CLASS REQUIREMENTS A digital DSLR camera is strongly recommended, but if you only have a sophisticated point-and-shoot, we are happy to have you as well. Just be mindful that some point-and-shoots don't let you adjust as many settings. With this in mind, please check in with us if you have something different so our Instructor can see what kind of digital camera you have before the workshop starts.",
+   "categories": "Arts & Culture",
+   "recurrence": "Recurring weekly on Monday",
+   "admission": "$225"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Fitness in the Parks - Dance Fitness",
@@ -865,6 +1531,40 @@
    "categories": "paid",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Friends Gather Here: A Legacy of Two Communities at Woodlawn",
+   "url": "https://www.fxva.com/event/friends-gather-here%3a-a-legacy-of-two-communities-at-woodlawn/47126/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-27",
+    "2026-12-30"
+   ],
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Frank Lloyd Wright's Pope-Leighey House",
+   "address": "9000 Richmond Highway, Alexandria, VA 22309",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.7182062,
+   "lng": -77.1370923,
+   "description": "Friends Gather Here: A Legacy of Two Communities at Woodlawn explores the powerful history of Quaker families who came to Woodlawn to establish an antislavery community rooted in equality and nonviolence. Through innovative farming and free labor, they sought to demonstrate an alternative to slavery in Virginia, settling alongside a small, established free Black community already living in the area. This exhibit examines the parallel lives, shared aspirations, and evolving relationships between these neighboring communities. As part of the Virginia 250th commemoration, Friends Gather Here invites us to reflect on this quiet revolution and examine our nation’s foundational ideals. On View: June 27 – December 30, 2026 Admission: Free (with suggested donation)",
+   "categories": "History & Heritage, Lectures/Educational",
+   "recurrence": "Recurring daily",
+   "admission": "Free"
   },
   {
    "source": "Visit Loudoun",
@@ -988,6 +1688,37 @@
   {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
+   "title": "Halloween Zip Tour",
+   "url": "https://www.visitloudoun.org/event/halloween-zip-tour/52104/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-23",
+    "2026-10-31"
+   ],
+   "time": "11:00",
+   "endTime": "16:00",
+   "venue": "Salamander Middleburg",
+   "address": "500 N Pendleton St., Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.97441930000001,
+   "lng": -77.7433449,
+   "description": "Take to the treetops for a spirited Halloween zip tour filled with festive music and plenty of candy along the way. Guests are encouraged to come in costume for the chance to win a complimentary Tree Top Zip Tour, adding a playful twist to this seasonal adventure. Tours available from 11:00 AM–1:00 PM and 2:00–4:00 PM.",
+   "categories": "Family-Friendly, Farm & Nature, Holiday Celebrations",
+   "recurrence": "Recurring daily",
+   "admission": "134.00 per guest. | Reservations required."
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
    "title": "Happy Hour at O'Malley's",
    "url": "https://www.visitloudoun.org/event/happy-hour-at-omalleys/50891/",
    "dates": [
@@ -1034,6 +1765,36 @@
    "categories": "Arts & Culture",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Haunted Wine Tours 2026",
+   "url": "https://www.fxva.com/event/haunted-wine-tours-2026/47782/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-29",
+    "2026-11-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "The Winery at Bull Run",
+   "address": "15950 Route 29, Centreville, VA 20120",
+   "city": "Centreville",
+   "state": "VA",
+   "lat": 36.8028706,
+   "lng": -79.3934927,
+   "description": "The Bull Run Haunted Wine Tour is a one-hour, lantern-led, outdoor walking tour through the historic and hallowed grounds of The Winery at Bull Run. Our tour guides will lead you as spirits of the battlefield come to life and share with you stories of the past as you enjoy our award-winning Virginia wines. Tickets include a souvenir wine glass, a wine tasting throughout the tour, exclusive access to The Winery after hours, and special deals on mulled wine + branded mug combos. Tours are held outside, so please dress accordingly! This event is restricted to guests Ages 21+ only. An indoor version of the tour will be offered in case of inclement weather, so tours are rain or shine and no refunds are possible. **PLEASE NOTE - WHEN BOOKING YOUR TICKETS, WE DO NOT RECOMMEND USING THE PRIVATE/APPLE ID 'HIDE MY EMAIL' FEATURE to change your email address. We have noticed that not all ticketholders who do this will receive follow-up emails if an event changes or has to be canceled or rescheduled. Please make sure a standard email address (such as Gmail, Yahoo, etc.) shows up in your Tock account settings. Thank you!**",
+   "categories": "Seasonal & Holidays, Nature & Outdoors, Halloween",
+   "recurrence": "Recurring weekly on Sunday, Monday, Tuesday, Wednesday, Thursday",
+   "admission": "$55 per ticket"
   },
   {
    "source": "FindLocal",
@@ -1133,6 +1894,37 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Hosted Chesapeake Experience",
+   "url": "https://www.visitannapolis.org/event/hosted-chesapeake-experience/18380/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-01",
+    "2026-10-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "",
+   "address": "2 Yacht Club Dr, Cambridge, MD 21613",
+   "city": "Cambridge",
+   "state": "MD",
+   "lat": 38.5755888,
+   "lng": -76.0738186,
+   "description": "A Curated Dining Experience on the Water A fully hosted experience combining incredible local food, thoughtful hospitality, and unforgettable Chesapeake views. Duration - 4 Hours What's Included - Private cruise aboard the Lois Ann - Dedicated onboard host - Complimentary bottled water, sodas, seltzers, wine, and beer - Personalized cruise itinerary - Branded keepsake Dining Options - Eastern Shore Light Bites - Authentic Eastern Shore Crab Feast - Chesapeake Supper Available for daytime, sunset, and evening cruises. Available for daytime, sunset or evening cruises. Perfect for date nights, anniversaries, small group celebrations, vacation guests, and intimate corporate entertaining.",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Huntley Meadows Monday Morning Birdwalk",
@@ -1178,6 +1970,40 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "In Pursuit of Life, Liberty & Happiness",
+   "url": "https://www.fxva.com/event/in-pursuit-of-life-liberty-%26-happiness/46073/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-14",
+    "2027-01-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Museum of American History",
+   "address": "14th Street and Constitution Avenue, N.W., Washington, DC 20560",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8912804651,
+   "lng": -77.0300489028,
+   "description": "The Smithsonian’s National Museum of American History will lead the nation’s 250th anniversary celebrations with a bold, immersive exhibition exploring the ideals of the Declaration of Independence. In Pursuit of Life, Liberty & Happiness will span three floors and 300,000 square feet, featuring 250 significant objects, including the desk Jefferson used to draft the Declaration of Independence. Another noteworthy artifact is the only surviving ship of the early U.S. Navy, the gunboat Philadelphia . This National Historic Landmark helped stall British forces and now will undergo an on-site conservation to preserve it for future generations. Visitors and online audiences can engage with both the triumphs and challenges of America’s journey through a year-long series of dynamic programs, from hands-on activities and theatrical performances to educational tools and virtual field trips for classrooms across the country. The museum's Semiquincentennial exhibitions and events begin in the spring of 2026, welcoming all Americans to reflect on the enduring and sometimes delayed or denied promises that surround the ongoing pursuit of life, liberty and happiness.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -1484,6 +2310,40 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Locally Gathered FALL pop-up shop",
+   "url": "https://www.visitannapolis.org/event/locally-gathered-fall-pop-up-shop/18492/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-16",
+    "2026-11-08"
+   ],
+   "time": "10:00",
+   "endTime": "18:00",
+   "venue": "HERE. a pop-up shop",
+   "address": "110 Dock Street, #2, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.978211,
+   "lng": -76.493849,
+   "description": "We have LOCALLY GATHERED 70+ amazing makers and Naptown Flea Vintage Collections 📍 110 Dock Street, Annapolis October 16th thru November 8th as our fall pop-up & then Reopening November 13th thru December 21st as HOLIDAY! Daily Hours: 10am-6pm with lots of events & later nights! See Calendar for all the dates, deets & to sign up! Where Are We Now? | HERE. a pop-up shop ​​ We also love GIVING BACK. Supporting Small Businesses 💙 🌈 Being Inclusive Having fun 🥂 We promise this one is really gonna be the #bestoneyet xo, El + Crew",
+   "categories": "Arts & Culture, Family Friendly, Shopping",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Lunch at the Library: The Schuyler Sisters in an Age of Revolution",
@@ -1504,6 +2364,72 @@
    "categories": "History & Heritage, Lectures/Educational, America250 in Virginia, Mount Vernon District",
    "recurrence": "",
    "admission": "$40"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Magical Places and Creatures - Art Exhibit by Donnalynne Lefever",
+   "url": "https://www.fxva.com/event/magical-places-and-creatures-art-exhibit-by-donnalynne-lefever/47662/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-10",
+    "2026-11-08"
+   ],
+   "time": "18:00",
+   "endTime": "21:00",
+   "venue": "Workhouse Arts Center - Arches Gallery",
+   "address": "9518 Workhouse Way, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6983738,
+   "lng": -77.2541653,
+   "description": "Enter into the magical world created by artist Donnalynne Lefever for a month this October in which you will encounter mythical and made up creatures and places that will open your imagination and take you to other places. Many of the places and creatures were either from her mind or inspired by what she saw on her canvases as she was painting. Mythology, mystic worlds, the unknown, dreams, archetypes, etc. all play heavily into how Donnalynne sees the world. Seeing her paintings in person invites you to look closer as there are many layers of paint and often images within images. In the spirit of Halloween, her favorite holiday, come and join her at the reception and you will get a treat. Show dates: October 9 - November 8 2026 Reception: October 10 from 6-9pm Location: Arches Gallery building W9A Lorton Workhouse Arts Center 9518 Workhouse Way Lorton, VA 22079 Discover More Attractions in #FXVA",
+   "categories": "Art Galleries & Exhibits",
+   "recurrence": "Recurring daily",
+   "admission": "free"
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Maryland Lacrosse League",
+   "url": "https://www.experienceprincegeorges.com/event/maryland-lacrosse-league/30604/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-26",
+    "2026-11-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Maryland Lacrosse League Event",
+   "categories": "Sports",
+   "recurrence": "Recurring daily",
+   "admission": "Email: fields@libertysportspark.com or call 443.794.7004 for more details"
   },
   {
    "source": "FindLocal",
@@ -1529,6 +2455,40 @@
    "venueType": "University & College",
    "flCategory": "talks",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Miguel Braceli: UNBURIAL (exhibition)",
+   "url": "https://www.visitannapolis.org/event/miguel-braceli%3a-unburial-(exhibition)/18331/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-12",
+    "2026-12-06"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Elizabeth Myers Mitchell Art Museum",
+   "address": "St. John's College, 60 College Avenue, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.981963,
+   "lng": -76.491536,
+   "description": "Unburial treats absence as a site for learning and reflection. The void left by the Liberty Tree becomes more than metaphor: an art intervention transforms it into a place to be repurposed and reclaimed through rituals and celebrations that probe what freedom means today. On the front lawn, where the Liberty Tree once stood, the artist Miguel Braceli has installed a 40'-diameter circle of cemetery vases filled with common wildflowers. It calls attention to the tree's absence and reclaims it as a tree for all people, not just the privileged and elite (e.g., the Sons of Liberty and the four Annapolis signers of the Declaration of Independence). In the museum, Braceli, with the help of a team of fabricators, created three enormous murals and two other works. The murals perform an autopsy of the tree. The largest multiplies the tulip poplar's distinctive leaf shape across a 33'-long wall in a wind-swept swirl of energy (the leaves were made from stencils of the Liberty Tree scion's actual leaves). A second mural abstracts the tree's tangled root system into a water-bearing drawing (using PVC tubing) that sprouts purple carnations. The third mural's subject is the tree's massive trunk, which was cut to pieces in 1999, with much of the wood later finding commemorative as Liberty Tree guitars, conference tables, and bible boxes. Onto nine chalkboards, Braceli has mounted nine pieces of raw wood, each supporting live orchids. What can we learn anew from this tree?, it seems to ask. The two other works urge us to turn away from nation-state identities and to look and listen more closely to nature. A sculptural ear is mounted onto the red silhouette of a rose petal, borrowed from the work of Columbia-born, Venezuela-based artist Roberto Obregoń. Nearby, a flag of yellow roses hangs from a flagpole that has been fabricated from a branch. Admission & Hours Free & open to the public Wednesday, Thursday, Saturday, and Sunday, 10 a.m. to 6 p.m. Open Friday, 12 to 7:30 p.m. Parking",
+   "categories": "Arts & Culture",
+   "recurrence": "Recurring daily",
+   "admission": "Free"
   },
   {
    "source": "FindLocal",
@@ -1651,6 +2611,103 @@
    "venueType": "Music Venue",
    "flCategory": "nightlife",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Much Here is Beautiful: Photography Surveys of the U.S. Bicentennial",
+   "url": "https://www.fxva.com/event/much-here-is-beautiful%3a-photography-surveys-of-the-u-s-bicentennial/46129/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-18",
+    "2027-04-18"
+   ],
+   "time": "11:30",
+   "endTime": "19:00",
+   "venue": "",
+   "address": "8th and G Streets, NW, Washington, DC",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8983356,
+   "lng": -77.0307714,
+   "description": "From the California coast to the Kansas heartland to the streets of New York City, the photographs in Much Here is Beautiful: Photography Surveys of the U.S. Bicentennial present an expansive and evocative portrait of America with a focus on the 1970s and early 1980s. The exhibition offers a history of federal survey photography, beginning in the 19th century and leading up to the years just before and after the Bicentennial in 1976, through selected images that document people and places in the United States.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "National Roller Skating Month!",
+   "url": "https://www.visitannapolis.org/event/national-roller-skating-month!/18387/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "21:00",
+   "endTime": "",
+   "venue": "Skate Zone Crofton",
+   "address": "1082 Route 3 South, Crofton, MD 21114",
+   "city": "Crofton",
+   "state": "MD",
+   "lat": 39.02609959999999,
+   "lng": -76.6929591,
+   "description": "Join us as we celebrate National Roller Skating Month! Every Wednesday in Odenton & every Thursday in Crofton from 630-9pm. $7 admission, $5 skate rentals. Everyone must pay admission, including spectating parents. Skate to all different generations of music! Plus fun games!",
+   "categories": "Family Friendly",
+   "recurrence": "Recurring daily",
+   "admission": "$7"
+  },
+  {
+   "source": "Visit Howard County",
+   "siteCounty": "Howard County",
+   "title": "NEW! Autumn LEGO Train Garden (All ages)",
+   "url": "https://www.visithowardcounty.com/event/new!-autumn-lego-train-garden-(all-ages)/23581/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-03",
+    "2026-11-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Baltimore & Ohio Ellicott City Station Museum",
+   "address": "3711 Maryland Avenue, Columbia, MD 21043",
+   "city": "Columbia",
+   "state": "MD",
+   "lat": 39.18863580000001,
+   "lng": -76.7845344,
+   "description": "NEW! Visit the B&O Ellicott City Station Museum for a new “spooktacular” display! Ghosts, ghouls, wizards and witches of all ages are welcome to celebrate the season with our LEGO® Autumn Train Garden. Available during regular museum hours from October 3 through November 1. Center Hours (Admission to the museum is free): Wed-Thurs: 10am-3pm Fri-Sun: 10am-5pm Closed on Mondays and Tuesdays Info: 410-313-1945.",
+   "categories": "Family Fun, Event",
+   "recurrence": "Recurring daily",
+   "admission": "NEW! Visit the B&O Ellicott City Station Museum for a new “spooktacular” display! Ghosts, ghouls, wizards and witches of all ages are welcome to  celebrate the season with our LEGO® Autumn Train Garden. Available during regular museum hours from October 3 through November 1. \r\n\r\nCenter Hours (Admission to the museum is free):\r\n\r\nWed-Thurs: 10am-3pm\r\nFri-Sun: 10am-5pm \r\nClosed on Mondays and Tuesdays\r\n\r\nInfo: 410-313-1945."
   },
   {
    "source": "FindLocal",
@@ -1779,6 +2836,40 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Patriots Path: A Revolutionary War Encampment",
+   "url": "https://www.fxva.com/event/patriots-path%3a-a-revolutionary-war-encampment/46450/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-03-17",
+    "2026-12-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "George Washington's Mount Vernon",
+   "address": "3200 Mount Vernon Memorial Highway, Mount Vernon, VA 22121",
+   "city": "Mount Vernon",
+   "state": "VA",
+   "lat": 38.7104387,
+   "lng": -77.0869606,
+   "description": "Immerse yourself in the daily life of soldiers, military officers, and the camp followers who traveled with the army as you explore a Revolutionary War encampment. At this hands-on attraction, you can touch the items inside the soldiers' tents and officer's tent, wash clothes in the laundry yard, and examine cooking utensils used by camp followers. See two daily programs about enlisting in General Washington’s army and how soldiers prepared their meals while traveling. This attraction is made possible thanks to Americana Corner.",
+   "categories": "Family Friendly, Nature & Outdoors, History & Heritage",
+   "recurrence": "Recurring daily",
+   "admission": "Included with admission (admission is $30 for ages 12+, $16 for ages 6-11, free for ages 0-5, free for members)"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Peake Social Run Club",
@@ -1806,6 +2897,40 @@
   {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
+   "title": "Pickleball at Metro Park",
+   "url": "https://www.fxva.com/event/pickleball-at-metro-park/48047/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-02",
+    "2026-11-11"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Metro Park at Capital One Center",
+   "address": "1803 Capital One Dr S, Tysons, VA 22102",
+   "city": "Tysons",
+   "state": "VA",
+   "lat": 38.926108,
+   "lng": -77.2124917,
+   "description": "Capital One Center now offers four professional-grade pickleball courts at Metro Park at 1820 Capital One Drive South in Tysons, Fairfax County, Virginia. Courts are suitable for both singles and doubles play and utilize premium acrylic hardcourt surfacing material (Laykold) with professional-grade nets and court striping that meet USA Pickleball standards. Courts operate daily from 8:00 a.m. to 9:00 p.m. and stay open through the beginning of November. Metro Park features bleacher seating for 150 spectators. Walk-ups are allowed; however, all players should check the CourtReserve booking system before arriving and make reservations through the platform. Reserve court time at https://app.courtreserve.com/Online/Portal/Index/17560 . For private events or tournament reservations, email reservations@capitalonecenter.com . Metro Park is easily accessible via McLean Metro Station on the Silver Line. Parking is available at Metro Park (Block D) Garage and Wegmans Garage: free for 0–2 hours; $6.00 for 2–3 hours; $8.00 for 3–4 hours; $16.00 for 4–6 hours; $25.00 for 6–24 hours. Pickleball at Metro Park combines accessible recreation, professional-grade facilities, and community play in Fairfax County, Virginia. Discover More Attractions in #FXVA",
+   "categories": "Sports, Nature & Outdoors, Health & Wellness, Providence District",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
    "title": "Pizza Decorating for Kids",
    "url": "https://www.fxva.com/event/pizza-decorating-for-kids/41755/",
    "dates": [
@@ -1824,6 +2949,184 @@
    "categories": "Family Friendly, Food and Drink",
    "recurrence": "Recurring weekly on Sunday, Monday",
    "admission": "$25 per child"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Ponies & Pumpkins",
+   "url": "https://www.visitloudoun.org/event/ponies-%26-pumpkins/52098/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "09:00",
+   "endTime": "15:00",
+   "venue": "Salamander Middleburg",
+   "address": "500 N Pendleton St., Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.9744193,
+   "lng": -77.7433449,
+   "description": "Spend an hour at the Equestrian Center with a festive Halloween twist. Children will dress up their pony and enjoy Halloween-themed games wile riding in the outdoor arena.",
+   "categories": "Equestrian, Family-Friendly, Farm & Nature, Holiday Celebrations",
+   "recurrence": "Recurring daily",
+   "admission": "175.00+ per child | Ages 4+ | Reservations required."
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Pour House Trivia at Sandbox Brewhouse",
+   "url": "https://www.visitfrederick.org/event/pour-house-trivia-at-sandbox-brewhouse/23336/",
+   "dates": [
+    "2026-10-26",
+    "2026-11-02"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-02-09",
+    "2026-12-21"
+   ],
+   "time": "19:00",
+   "endTime": "21:00",
+   "venue": "Sandbox Brewhouse",
+   "address": "880 N. East St. #201, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4248026,
+   "lng": -77.4028387,
+   "description": "Monday nights presented by Pour House Trivia are so ON! Every Monday, 7-close. Bring a friend, grab a beer, and be prepared to test your knowledge with your host, Ian, from Pour House Trivia.",
+   "categories": "Wineries, Breweries, Distilleries, Sports & Games, Food Trucks, Downtown Frederick, Free",
+   "recurrence": "Recurring weekly on Monday",
+   "admission": "FREE"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Private Daytime Charter",
+   "url": "https://www.visitannapolis.org/event/private-daytime-charter/17514/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-24",
+    "2026-10-30"
+   ],
+   "time": "12:00",
+   "endTime": "14:30",
+   "venue": "Chesapeake Classic Yacht Charters",
+   "address": "410 Severn Ave, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9716696,
+   "lng": -76.4833652,
+   "description": "Enjoy a beautiful day exploring the Chesapeake Bay aboard a comfortable Hinckley Picnic Boat! 2.5 hours – Up to 6 people (all ages). Families welcome! $925 includes captain, light snacks, and cool refreshments",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": "https://chesapeakeclassicyachtcharters.as.me"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Private Sunset Charters",
+   "url": "https://www.visitannapolis.org/event/private-sunset-charters/17513/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-24",
+    "2026-10-28"
+   ],
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Annapolis City Marina",
+   "address": "410 Severn Ave, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9716696,
+   "lng": -76.4833652,
+   "description": "Come join us for a private sunset charter on the Chesapeake Bay! 2 hours – Up to 6 people (all ages) Start times vary seasonally, beginning 2 hours prior to sunset $875 includes a captain, fuel, and a bottle of wine and charcuterie from Artisan Charcuterie Co.",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Pumpkin Patch At Mayne's",
+   "url": "https://www.visitfrederick.org/event/pumpkin-patch-at-maynes/24117/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Mayne's Tree Farm",
+   "address": "3420 Buckeystown Pike, Buckeystown, MD 21717",
+   "city": "Buckeystown",
+   "state": "MD",
+   "lat": 39.3262771,
+   "lng": -77.4400774,
+   "description": "Pumpkin Patch At Mayne's Celebrate Fall at Mayne's Tree Farm Pumpkin Patch in Frederick, MD. Our pumpkin patch is open for the month of October on weekdays from 10a.m. - 6p.m. and on the weekends from 10a.m. - 5p.m. Pumpkins are available in small, medium and large. Large groups by appointment during the week. Click Here for our full events schedule on facebook! Fall Activities Include: Hayrides To The Patch Corn Maze Apple Cider Scarecrow Making Straw Jumpin Antique Tractor Display For Your Fall Decoration Needs We Offer: Gourds ~ Mini Pumpkins ~ Indian Corn ~ Corn Stalks ~ Straw Bales",
+   "categories": "Fairs & Festivals, Outdoor, Family Friendly",
+   "recurrence": "Recurring daily",
+   "admission": "Free Entry"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Pumpkin Picking & Corn Maze",
+   "url": "https://www.visitloudoun.org/event/pumpkin-picking-%26-corn-maze/51918/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-19",
+    "2026-10-31"
+   ],
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Great Country Farms",
+   "address": "18780 Foggy Bottom Rd, Bluemont, VA 20135",
+   "city": "Bluemont",
+   "state": "VA",
+   "lat": 39.0967479,
+   "lng": -77.8258044,
+   "description": "Pumpkin Picking & Corn Maze Come celebrate Fall Y’all and enjoy an unforgettable experience picking pumpkins, getting lost in our corn maze and roasting marshmallows at the bonfire. Don’t forget those freshly made Cider Donuts! Pumpkins are sold separately by the pound for $.59/lb for carving and specialty pumpkins. Pie Pumpkins are $5.99 each. We do not include a pumpkin in our admission so you may choose any shape, variety and size that meets your heart’s desire. Tickets (S ave with Advance Tickets Online) At Gate: Tuesday – Friday and Non-Holiday Monday Admission: Tickets at the gate are $16/guest age 3 and older (adult or child). Children 2 and under are free. Columbus Monday, Saturday & Sunday Admission: Tickets at the gate are $18/guest age 3 and older. Children 2 and under are free. Activities Pumpkin Picking, Last wagon at 4pm Enjoy Lunch Friday-Monday at the Henway Cider Barn Explore our 15 acre play area, fully stocked farm market, visit the animals, book bunny or goat cuddling Music on the Roosterant lawn on select days! Weekends Fire the Cannons and see if you can hit the targets in the field! $5/small box and $10/large box) Open October weekends October from 11am-4pm Roast marshmallows over an open fire 11am-4pm Cheer on the Swine at the annual running of the Pig Races at 11am, 1pm & 3pm Chomp some pumpkins with P-Rex, the Pumpkin Eating Dinosaur at 12pm & 2pm (October weekends only) Check out our 1865 Press and learn about classic apple pressing then taste our fresh cider. Demos at 11:30am, 1:30pm and 3:30pm. View all event details, times, and full music schedule HERE!",
+   "categories": "Annual Event, Beer, Family-Friendly, Fairs, Festivals & Parades, Farm & Nature, Wine",
+   "recurrence": "Recurring daily",
+   "admission": "Tuesday – Friday and Non-Holiday Monday Admission:  Tickets at the gate are $16/guest age 3 and older (adult or child).  Children 2 and under are free."
   },
   {
    "source": "FindLocal",
@@ -1948,6 +3251,103 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Seasons of the Chesapeake",
+   "url": "https://www.visitannapolis.org/event/seasons-of-the-chesapeake/18467/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-15",
+    "2026-11-01"
+   ],
+   "time": "11:00",
+   "endTime": "20:00",
+   "venue": "Annapolis Maritime Museum",
+   "address": "57 West Street, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9782116,
+   "lng": -76.4955044,
+   "description": "The Annapolis Arts Alliance's annual members art exhibition celebrates \"Seasons of the Chesapeake\". Artist reception Thursday October 15th 6-8 pm More than 25 artists' works are featured at the Annapolis Maritime Museum now thru Nov 1. Don't miss this beautiful collection available for purchase!",
+   "categories": "Arts & Culture",
+   "recurrence": "Recurring daily",
+   "admission": "0"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Shifting Boundaries: Perspectives on American Landscapes",
+   "url": "https://www.fxva.com/event/shifting-boundaries%3a-perspectives-on-american-landscapes/46164/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-01",
+    "2026-12-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "National Museum of Asian Art",
+   "address": "Jefferson Drive at 12th St., SW, Washington, DC",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8886581,
+   "lng": -77.0281975,
+   "description": "American painters Willard Metcalf, Dwight Tryon, Winslow Homer, and Abbott Thayer created profoundly beautiful views of the New England landscapes where they lived and worked. These paintings largely depict that environment as timeless and static. Shifting Boundaries looks at these works from a new angle by engaging a multiplicity of voices and viewpoints to explore what these paintings can tell us about changes to this region both past and present. As Shifting Boundaries reveals, the views these artists created of pasturelands in Massachusetts and of seascapes in Maine were transforming even as these artists recorded them. This reshaping of landscapes has only accelerated in the century since Metcalf, Tryon, Homer, and Thayer depicted them. Shifting Boundaries pilots a new mode of collaborative curatorial practice. NMAA Lunder Curator of American Art Diana Greenwold , curatorial assistant Mary Mulcahy , and interpretation specialists Liz Gardner and Amy Freesun partnered with Lauren Brandes (Smithsonian Gardens), Dennis Chestnut (Groundwork Anacostia River DC), Jerome Foster II (Waic Up), Elizabeth James-Perry (Aquinnah Wampanoag artist), Lorette Picciano (Rural Coalition), Stephanie Toothman (National Park Service), and Melinda Whicher (Smithsonian Gardens) to develop the themes for this exhibition, select works of art, and write object labels. The group’s perspectives, drawn from their individual areas of professional expertise and their own personal experiences, allow us to see new details in these stunning works of art. The landscapes become invitations to explore a century of human impact on New England land and water, the erasure of indigenous histories, and the environmental changes that are altering this region today.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Signature Cruise",
+   "url": "https://www.visitannapolis.org/event/signature-cruise/18379/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-01",
+    "2026-10-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Tides and Traditions",
+   "address": " Long Wharf Park, 2 Yacht Club Drive, Cambridge, MD 21613",
+   "city": "Cambridge",
+   "state": "MD",
+   "lat": 38.5755888,
+   "lng": -76.0738186,
+   "description": "A Relaxed Private Cruise Perfect for sightseeing, celebrating a special occasion, or simply spending quality time on the Chesapeake. Duration - 3 Hours What's Included - Private cruise aboard the Lois Ann - Complimentary bottled water, sodas, and seltzers - Flexible itinerary customized to your group - Scenic cruising throughout the Chesapeake Bay Perfect for couples, families, small groups, Airbnb and hotel guests, or anyone celebrating a birthday, anniversary, or special occasion.",
+   "categories": "On the Water",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Small Batch Trivia",
@@ -1993,6 +3393,98 @@
    "categories": "Family-Friendly, Farm & Nature",
    "recurrence": "",
    "admission": "159.00 per guest. | Ages 9+. | Reservations required."
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Spooky Fun for All",
+   "url": "https://www.visitfrederick.org/event/spooky-fun-for-all/25806/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-26",
+    "2026-10-30"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Various Frederick County Park Locations",
+   "address": "Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.41426879999999,
+   "lng": -77.4105409,
+   "description": "Embark on a thrilling, inclusive and self-guided adventure! This exciting program invites individuals of all abilities the opportunity for a fun and accessible trick or treat! For the week leading up to Halloween, some trick and/or treats will be hidden in one of our parks, every day. This adventure highlights our accessible trails within Frederick County Parks and will only be found within those trails. This inclusive opportunity is a free way to explore our parks and create lasting memories with friends and family! *CLUES FOR WHICH PARK THE TRICK OR TREAT WILL BE EACH DAY WILL BE EMAILED AT 9:00 AM AND YOU MUST BE REGISTERED TO RECEIVE THE EMAIL*",
+   "categories": "Holiday Events, Family Friendly, Free",
+   "recurrence": "Recurring daily",
+   "admission": "Free"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Spooky Halloween Activities at Monster Mini Golf Chantilly",
+   "url": "https://www.fxva.com/event/spooky-halloween-activities-at-monster-mini-golf-chantilly/47932/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-15",
+    "2026-10-31"
+   ],
+   "time": "12:00",
+   "endTime": "22:00",
+   "venue": "Monster Mini Golf - Chantilly",
+   "address": "14130 Sullyfield Circle, Suite G, Chantilly, VA 20151",
+   "city": "Chantilly",
+   "state": "VA",
+   "lat": 38.8946136,
+   "lng": -77.4399779,
+   "description": "Looking for Halloween activities in Chantilly that are not limited to one crowded weekend? Make Monster Mini Golf Chantilly part of your spooky season plans throughout October. Gather your favorite ghouls for glow-in-the-dark mini golf, arcade games and monstrous indoor fun in an immersive setting made for the season. Add a Halloween date night, family night out, October birthday celebration or something fun to do with friends this season! Monster Mini Golf offers a friendly fright for all ages, any day of the week. Discover More Attractions in #FXVA",
+   "categories": "Halloween, Sully District",
+   "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Spooky Halloween Activities at Monster Mini Golf Crofton",
+   "url": "https://www.visitannapolis.org/event/spooky-halloween-activities-at-monster-mini-golf-crofton/18372/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-15",
+    "2026-10-31"
+   ],
+   "time": "12:00",
+   "endTime": "22:00",
+   "venue": "Monster Mini Golf Crofton",
+   "address": "2225 Defense Highway, Crofton, MD 21114",
+   "city": "Crofton",
+   "state": "MD",
+   "lat": 38.9906771,
+   "lng": -76.7012724,
+   "description": "Looking for Halloween activities in Crofton that are not limited to one crowded weekend? Make Monster Mini Golf Crofton part of your spooky season plans throughout October. Gather your favorite ghouls for glow-in-the-dark mini golf, arcade games and monstrous indoor fun in an immersive setting made for the season. Add a Halloween date night, family night out, October birthday celebration or something fun to do with friends this season! Monster Mini Golf offers a friendly fright for all ages, any day of the week. Monster Mini Golf Crofton welcomes guests from Bowie, Gambrills, and surrounding areas. Stop by the nearest location today!",
+   "categories": "Family Friendly",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "Visit Montgomery",
@@ -2044,6 +3536,40 @@
    "description": "Bring the whole family to Temple Hall Farm Regional Park for a memorable day of fall fun. Start by taking a wagon ride to pick your own pumpkin right from the patch, then cut your own bouquet and capture beautiful fall photos in the flower fields. Plus, stroll through the farm to discover bouncy jumping pillows, interactive playgrounds, and farm animal adventures that everyone will love. Treat yourself with delicious fall snacks and a local brew from Barnhouse Brewery.Admission is $15 per person ages 2 and over and includes one pick-your-own pumpkin and flowers. SAVE $3 per ticket when you visit on weekdays!OPEN Daily September 26 through November 3, 9am-5pm. For more information, visit novaparks.com/PumpkinPatch",
    "categories": "Family-Friendly, Farm & Nature",
    "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "The American Story",
+   "url": "https://www.fxva.com/event/the-american-story/46086/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-02-19",
+    "2026-12-31"
+   ],
+   "time": "10:00",
+   "endTime": "17:30",
+   "venue": "National Archives",
+   "address": "700 Pennsylvania Ave NW, Washington, DC 20004",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8928365542,
+   "lng": -77.0229792595,
+   "description": "The National Archives Museum debuts a once-in-a generation redesign of its permanent exhibits: The American Story and the Discovery Center - connecting visitors with the National Archives in revolutionary ways. The American Story will showcase items and records in the National Archives that tell important moments in our nation's history. Visitors will get up close to more than 40 original artifacts and documents, including a rare 1823 Stone Engraving of the Declaration of Independence, George Washington's annotated copy of the Constitution, and presidential gifts including horseshoes to President Bush from Queen Elizabeth II. The American Story will be the first and only museum in Washington, DC to use artificial intelligence (AI) to bring each visitor a special, individualized opportunity to explore the records of the American people and engage with American history. This exhibit brings more than two million historic records to life, offering a personalized journey through our nation's past. This new museum experience provides all Americans with a special opportunity to celebrate the 250th anniversary of the Declaration of Independence.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
    "admission": ""
   },
   {
@@ -2210,6 +3736,40 @@
    "venueType": "Arena & Stadium",
    "flCategory": "fitness",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "We Make History",
+   "url": "https://www.fxva.com/event/we-make-history/46162/",
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-30",
+    "2026-12-31"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Anacostia Community Museum",
+   "address": "1901 Fort Place, SE, Washington, DC 20020",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8562584,
+   "lng": -76.9766866,
+   "description": "As the nation commemorates 250 years since the signing of the Declaration of Independence, \"We Make History\" explores how history happens, is preserved and shared. In Washington, D.C. and places around the country, many people were quietly keeping the records, building the collections, and developing the skills that would create America’s historical narrative. These community-based stories serve as the building blocks for 250 years of American history. Using the country’s anniversary as a milestone, the museum uses its community driven practice to celebrate local civic engagement and encourage local history keeping. This exhibition is a tribute to celebrating our communities and making possible a better understanding of our shared past. These stories are important to marking the Semiquincentennial because they help show the legacy of how people make history one act, one document, one story at a time. By bringing these stories to the forefront in 2026, the exhibit inspires the next generation to keep and share their own stories and records to add to America’s historical narrative. We Make History has an anticipated opening date of May 30, 2026.",
+   "categories": "America250 in DC",
+   "recurrence": "Recurring daily",
+   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -2725,6 +4285,35 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Beer Garden at the Mount Vernon Inn Restaurant",
+   "url": "https://www.fxva.com/event/beer-garden-at-the-mount-vernon-inn-restaurant/46897/",
+   "dates": [
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-12",
+    "2026-10-30"
+   ],
+   "time": "16:00",
+   "endTime": "19:00",
+   "venue": "George Washington's Mount Vernon",
+   "address": "3200 Mount Vernon Memorial Highway, Mount Vernon, VA 22121",
+   "city": "Mount Vernon",
+   "state": "VA",
+   "lat": 38.71040199999999,
+   "lng": -77.0870243,
+   "description": "Enjoy craft beer, wine, and a special food menu during happy hour available Tuesday to Friday from 4 p.m. to 7 p.m. at the historic Mount Vernon Inn Restaurant. They are proud to feature local breweries as part of our rotating selection of craft beers.",
+   "categories": "Food and Drink, History & Heritage, America250 in Virginia, Mount Vernon District",
+   "recurrence": "Recurring weekly on Tuesday, Wednesday, Thursday, Friday",
+   "admission": "Menu Prices Vary"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Bird Walk",
@@ -2917,6 +4506,34 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "City of Frederick Parks & Rec: Senior Exercise",
+   "url": "https://www.visitfrederick.org/event/city-of-frederick-parks-%26-rec%3a-senior-exercise/24651/",
+   "dates": [
+    "2026-10-27",
+    "2026-10-29",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-13",
+    "2026-12-31"
+   ],
+   "time": "09:00",
+   "endTime": "10:00",
+   "venue": "Wm. R. Talley Recreation Center",
+   "address": "121 N. Bentz St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.416666,
+   "lng": -77.41461000000001,
+   "description": "A full body class! Utilizing bands, light weights and body weight exercises you will get a full body workout. Cardio and stretching are incorporated into this class to give you a well-rounded workout.",
+   "categories": "Downtown Frederick, Classes & Workshops",
+   "recurrence": "Recurring weekly on Tuesday, Thursday",
+   "admission": "$3 City Resident / $6 Non City Resident"
   },
   {
    "source": "Visit Montgomery",
@@ -4281,6 +5898,60 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Story Time: Space Spinners",
+   "url": "https://www.fxva.com/event/story-time%3a-space-spinners/47226/",
+   "dates": [
+    "2026-10-27",
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-29"
+   ],
+   "time": "11:00",
+   "endTime": "11:30",
+   "venue": "National Air and Space Museum Steven F. Udvar-Hazy Center",
+   "address": "14390 Air and Space Museum Parkway, Chantilly, VA 20151",
+   "city": "Chantilly",
+   "state": "VA",
+   "lat": 38.9109189,
+   "lng": -77.4442075,
+   "description": "Listen to a funny story about two tiny spiders who stowed away on a Space Shuttle. Find out more about the experience of space travel. Learn about the real experiments of sending spiders to space to see whether they can spin webs in microgravity. Sponsored by the Conrad N. Hilton Foundation",
+   "categories": "Family Friendly, Free",
+   "recurrence": "Recurring weekly on Tuesday, Thursday",
+   "admission": "Free, parking $15"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Story Time: Space Spinners",
+   "url": "https://www.visitloudoun.org/event/story-time%3a-space-spinners/51257/",
+   "dates": [
+    "2026-10-27",
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-01",
+    "2026-10-29"
+   ],
+   "time": "11:00",
+   "endTime": "11:30",
+   "venue": "Smithsonian National Air and Space Museum Steven F. Udvar-Hazy Center",
+   "address": "14390 Air and Space Museum Pkwy, Chantilly, VA 20151",
+   "city": "Chantilly",
+   "state": "VA",
+   "lat": 38.9109189,
+   "lng": -77.44420749999999,
+   "description": "Listen to a funny story about two tiny spiders who stowed away on a Space Shuttle. Find out more about the experience of space travel. Learn about the real experiments of sending spiders to space to see whether they can spin webs in microgravity. Sponsored by the Conrad N. Hilton Foundation.",
+   "categories": "Family-Friendly",
+   "recurrence": "Recurring weekly on Tuesday, Thursday",
+   "admission": "Free; parking $15"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Story Time: Tuck Me in",
@@ -4864,6 +6535,32 @@
    "venueType": "Restaurant",
    "flCategory": "food_drink",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "YMCA of Frederick Farmers Market",
+   "url": "https://www.visitfrederick.org/event/ymca-of-frederick-farmers-market/23990/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-07-07",
+    "2026-10-27"
+   ],
+   "time": "15:30",
+   "endTime": "18:30",
+   "venue": "YMCA of Frederick County",
+   "address": "1000 N. Market St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4263831,
+   "lng": -77.4059579,
+   "description": "Fresh finds, local vendors, and community connection are waiting for you. Come shop seasonal produce, handmade goods, and more while supporting local farmers and small businesses.",
+   "categories": "Farmers' Markets",
+   "recurrence": "Recurring weekly on Tuesday",
+   "admission": "FREE"
   },
   {
    "source": "Patch",
@@ -5719,6 +7416,32 @@
   {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
+   "title": "Family Bingo Night at Stockyard",
+   "url": "https://www.visitloudoun.org/event/family-bingo-night-at-stockyard/51411/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-10",
+    "2026-12-30"
+   ],
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Stockyard Brewery",
+   "address": "12428 Mountain Road, Lovettsville, VA 20180",
+   "city": "Lovettsville",
+   "state": "VA",
+   "lat": 39.2707849,
+   "lng": -77.6873631,
+   "description": "Join us every Wednesday from 6:00 PM - 8:00 PM for Family Bingo Night at Stockyard Brewery! Bring the whole family out to the farm for an evening filled with laughs, friendly competition, great food, craft beer, and fun for all ages. Whether you're a bingo champion or playing for the first time, everyone is welcome to join in on the excitement. Bingo is completely free to participate in, and fun prizes will be awarded throughout the night to lucky winners! Kids can enjoy the family-friendly farm atmosphere and visit the animals while adults relax with locally crafted drinks and delicious food. Gather your friends and family, grab a table, and make Wednesday nights your new favorite tradition at Stockyard Brewery!",
+   "categories": "Beer",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
    "title": "Family Friendly Haunted Trail",
    "url": "https://www.visitloudoun.org/event/family-friendly-haunted-trail/52105/",
    "dates": [
@@ -5863,6 +7586,33 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Frederick City Parks & Rec: Senior Yoga",
+   "url": "https://www.visitfrederick.org/event/frederick-city-parks-%26-rec%3a-senior-yoga/24650/",
+   "dates": [
+    "2026-10-28",
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-14",
+    "2026-12-30"
+   ],
+   "time": "10:30",
+   "endTime": "11:30",
+   "venue": "Wm. R. Talley Recreation Center",
+   "address": "121 N. Bentz St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.416666,
+   "lng": -77.41461000000001,
+   "description": "A yoga class focused on stretching the body. Slow movements and long holds are emphasized in this class. Modifications are provided and welcome during your practice. All ages are welcome.",
+   "categories": "Downtown Frederick, Classes & Workshops",
+   "recurrence": "Recurring weekly on Wednesday, Friday",
+   "admission": "$3 City Resident / $6 Non City Resident"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Anne Arundel County",
    "title": "FREE Tai Chi Class",
@@ -5883,6 +7633,32 @@
    "categories": "paid",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Game Night",
+   "url": "https://www.visitfrederick.org/event/game-night/24976/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-03-11",
+    "2026-12-30"
+   ],
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Frederick Social",
+   "address": "50 Citizens Way, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4129309,
+   "lng": -77.4120123,
+   "description": "Join us weekly and participate in a FREE poker tournament. Games start at 6:00pm and 8:00pm. Check out our large library of board games. Test your chess skill with a growing group of chess enthusiasts (all levels are welcome). Happy Hour Specials: $3 Beef Tacos, $3 canned beer, & $5 Margarita's",
+   "categories": "Sports & Games, Downtown Frederick, Family Friendly, Free",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": "FREE"
   },
   {
    "source": "FindLocal",
@@ -6407,6 +8183,32 @@
    "admission": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "McCutcheon/Mount Vernon Farmers Market",
+   "url": "https://www.fxva.com/event/mccutcheon-mount-vernon-farmers-market/20184/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-22",
+    "2026-11-04"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Sherwood Library",
+   "address": "2501 Sherwood Hall Lane, Alexandria, VA 22306",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.7435514,
+   "lng": -77.0747041,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects. SNAP accepted, bonus dollar program!",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": "FREE"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Midweek Meander Along the Canal D: Violettes Lock, MD",
@@ -6549,6 +8351,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Oakmont Farmers Market",
+   "url": "https://www.fxva.com/event/oakmont-farmers-market/20185/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-06",
+    "2026-10-28"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Oakmont Rec Center",
+   "address": "3200 Jermantown Road, Oakton, VA 22124",
+   "city": "Oakton",
+   "state": "VA",
+   "lat": 38.8751768,
+   "lng": -77.3142951,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects.",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": "FREE"
   },
   {
    "source": "Visit Montgomery",
@@ -7454,6 +9282,32 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Trivia Night",
+   "url": "https://www.visitloudoun.org/event/trivia-night/52014/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-08-19",
+    "2026-12-30"
+   ],
+   "time": "18:30",
+   "endTime": "20:30",
+   "venue": "8 Chains North",
+   "address": "38593 Daymont Ln, Waterford, VA 20197",
+   "city": "Waterford",
+   "state": "VA",
+   "lat": 39.1780542,
+   "lng": -77.66879340000001,
+   "description": "Engage your brain and join us for Trivia Night every Wednesday beginning at 6:30 pm. Your host is Pour House Trivia , the largest pub trivia company based in the Washington D.C. metro area. Thought-provoking questions, great music, entertaining hosts, plus great wine and beer—what could be better to get over that mid-week slump? Trivia is free to play and an absolute blast. Enjoy this healthy competitive activity in our inviting Tasting Room. Our kitchen will be open, as well, so make an evening of it.",
+   "categories": "Beer",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Trivia Night",
@@ -7662,6 +9516,32 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Wakefield Farmers Market",
+   "url": "https://www.fxva.com/event/wakefield-farmers-market/20186/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-06",
+    "2026-10-28"
+   ],
+   "time": "14:00",
+   "endTime": "18:00",
+   "venue": "Wakefield Park",
+   "address": "8100 Braddock Rd., Annandale, VA 22003",
+   "city": "Annandale",
+   "state": "VA",
+   "lat": 38.8146476,
+   "lng": -77.2252242,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects. Check website for pre-order options! SNAP accepted, bonus dollar program!",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": "FREE"
   },
   {
    "source": "FindLocal",
@@ -7877,6 +9757,34 @@
    "admission": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "2026 Exhibits at Museum of Frederick County History",
+   "url": "https://www.visitfrederick.org/event/2026-exhibits-at-museum-of-frederick-county-history/24908/",
+   "dates": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-03-07",
+    "2026-12-12"
+   ],
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Museum of Frederick County History",
+   "address": "24 E. Church St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4150555,
+   "lng": -77.4091107,
+   "description": "Take a deep dive into various topics that have defined Frederick's history, as we celebrate America's 250th anniversary and our County's role in the Revolution. Featuring brand new exhibits: Cultivating Independence: Frederick in the Revolution Witnessing Revolution All Saints Street: Avenue to the History of Frederick and Its African American Community Growing Gold: A History of Frederick’s Goldfish Industry And returning favorites: Etchison Connections Timeless Toys 24 E Church Street Decorative Arts See our all new and renovated exhibits, March 7,2026 through December 12, 2026. Buy tickets here .",
+   "categories": "History & Heritage, Downtown Frederick, Events, America 250",
+   "recurrence": "Recurring weekly on Thursday, Friday, Saturday",
+   "admission": "$10: Adults\r\n$5: Seniors, students, kids\r\nFree: Members"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "606 Run Club (5-mile group run)",
@@ -8043,6 +9951,32 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Annandale Farmers Market",
+   "url": "https://www.fxva.com/event/annandale-farmers-market/20182/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-07",
+    "2026-10-29"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Mason District Park",
+   "address": "6621 Columbia Pike, Annandale, VA 22003",
+   "city": "Annandale",
+   "state": "VA",
+   "lat": 38.8348371,
+   "lng": -77.1743282,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects. SNAP accepted, bonus dollar program!",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "FREE"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Arts on Stage Presents...Grace for President",
@@ -8184,6 +10118,32 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Board Game Night",
+   "url": "https://www.visitfrederick.org/event/board-game-night/23706/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2025-07-03",
+    "2026-12-31"
+   ],
+   "time": "18:00",
+   "endTime": "21:00",
+   "venue": "Sandbox Brewhouse",
+   "address": "880 N. East St. #201, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4248026,
+   "lng": -77.4028387,
+   "description": "Join us at the Sandbox for Board Game Night! Every Thursday evening at 6PM. Learn a new game from local board game enthusiast Michael Southers and stay to play! The games are provided, and Michael’s easy going style makes games approachable to new players for the evening. First come, first served. Alternatively, feel free to come out with friends to play your own game to be around others with a shared interest.",
+   "categories": "Wineries, Breweries, Distilleries, Sports & Games, Downtown Frederick, Family Friendly, Free",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "FREE"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "BONEY JAMES",
@@ -8254,6 +10214,35 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Candle Making Workshop",
+   "url": "https://www.visitloudoun.org/event/candle-making-workshop/49596/",
+   "dates": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-22",
+    "2026-12-31"
+   ],
+   "time": "12:00",
+   "endTime": "20:00",
+   "venue": "The Global Local",
+   "address": "102 Loudoun St. Southwest, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.1147994,
+   "lng": -77.566666,
+   "description": "Downtown Leesburg’s Most Creative Experience Step inside a beautifully restored historic building in the heart of downtown Leesburg and create a memory you can take home with you. The Candle Bar at The Global Local is Loudoun County’s only candle-making workshop, offering a warm, hands-on experience where creativity, connection, and a touch of nostalgia come together. Guests are invited to blend their own custom scent, pour their candle, and leave with a meaningful souvenir they crafted themselves perfect for commemorating a day spent exploring historic Leesburg. During the workshop, enjoy a cozy tea-party experience with tea served on vintage China, featuring local honey and gluten-free treats. Whether you’re gathering friends for a birthday, planning a team outing, or enjoying a relaxed day downtown with family, our workshops are designed to feel easy, welcoming, and memorable. Our team takes care of all setup and cleanup so you can simply enjoy the moment. Candle Bar workshops are offered Thursday through Sunday. All skill levels are welcome, and each guest receives a 10% in-store shopping discount on the day of their class. Please visit our website for current availability and class times. Reservations are recommended. Walk-ins are welcome if space allows.",
+   "categories": "Family-Friendly, Arts & Culture",
+   "recurrence": "Recurring weekly on Sunday, Thursday, Friday, Saturday",
+   "admission": "$15.00 Deposit \r\n$35.00 Standard vessel\r\n$40.00 Large Vessel"
   },
   {
    "source": "Visit Annapolis",
@@ -8345,6 +10334,32 @@
    "categories": "Wineries, Breweries, Distilleries, Foodie, Downtown Frederick",
    "recurrence": "",
    "admission": "$85/person"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "CCR Annapolis Pub Run",
+   "url": "https://www.visitannapolis.org/event/ccr-annapolis-pub-run/18408/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-08",
+    "2026-12-17"
+   ],
+   "time": "18:00",
+   "endTime": "19:00",
+   "venue": "Charm City Run",
+   "address": "87 Forest Plaza, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9788875,
+   "lng": -76.54251409999999,
+   "description": "Join us for a weekly Thursday evening Pub Run. Meet at our Annapolis store location and we'll head out for a group fun run and meet back at the store for beverages.",
+   "categories": "Shopping, Food and Drink, Outdoors, Fitness",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -9048,6 +11063,32 @@
    "admission": "Take advantage of our Early Bird special rate of $40 through 9/29/2026.\r\nRegular Pricing: $50"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Herndon Farmers Market",
+   "url": "https://www.fxva.com/event/herndon-farmers-market/28662/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-07",
+    "2026-10-29"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Old Town Herndon, near the Red Caboose",
+   "address": "765 Lynn St., Herndon, VA 20170",
+   "city": "Herndon",
+   "state": "VA",
+   "lat": 38.9710468,
+   "lng": -77.3862949,
+   "description": "Herndon Farmers' Market - fresh produce, baked goods, meats and more - sold directly by local growers and producers.",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "Free"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "High Tea with the Highlands: A Bridgerton-Inspired Tea Party + Highland Cow Affair",
@@ -9615,6 +11656,32 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Mental Reset: Sound Bath + Reiki : Thursday Evenings in Falls Church",
+   "url": "https://www.fxva.com/event/mental-reset%3a-sound-bath-%2b-reiki-%3a-thursday-evenings-in-falls-church/48149/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-29",
+    "2026-12-17"
+   ],
+   "time": "18:30",
+   "endTime": "19:30",
+   "venue": "",
+   "address": "7777 Leesburg Pike, Ste 204S, Falls Church, VA 22043",
+   "city": "Falls Church",
+   "state": "VA",
+   "lat": 38.9073859,
+   "lng": -77.21444489999999,
+   "description": "Thursday is a weird day. The week isn't over, but you are. Mental Reset is one hour at the end of the workday where nobody needs anything from you. You come in, you lie down on a mat, you get a blanket and a bolster, and for the next sixty minutes your only job is to listen. I play crystal singing bowls, guide you through a short meditation so your mind has something to do besides replay the day, and offer Reiki while you rest. Most people tell me some version of the same thing afterward: the noise in their head finally turned down. Not off: down. Enough that they can go home and actually be home, instead of answering emails in their head at the dinner table. You don't need experience. You don't need to know how to meditate, and you definitely don't need to “clear your mind.” If you could do that, you wouldn't need this class. First-timers are in the room most weeks. There are ten spots. That's deliberate. It's a small room, I can see everyone in it, and it never feels like an event. It feels like an exhale. A few regulars started as skeptics; more than one of our Google reviews comes from someone who arrived doubting the whole thing and left surprised at how settled they felt. You don't have to believe in anything for an hour of sound and rest to do you some good. Run by Victoria Vita: CPA for 20+ years, healer for 7+. I sat behind a desk with a brain that wouldn't switch off for a long time before I found this work. Thursday nights are built for the person I used to be. Rated 5.0 from 32 Google reviews. Come straight from work. Leave like the week let go of you first. What's included: • 60 minutes of crystal singing bowls, guided meditation and Reiki • Mat, blanket, and bolster everything is here; you bring nothing • Small group: 10 people maximum, same teacher every week • Time at the end to sit up slowly, have water, and not rush out Discover More Attractions in #FXVA",
+   "categories": "Health & Wellness",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "$45.00"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "MICO - Running From A Feeling Tour",
@@ -9943,6 +12010,32 @@
    "admission": "$27 for students/65+/military and $30 general admission"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Pour House Trivia at Steinhardt Brewing Company",
+   "url": "https://www.visitfrederick.org/event/pour-house-trivia-at-steinhardt-brewing-company/18781/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2022-10-27",
+    "2026-12-31"
+   ],
+   "time": "19:00",
+   "endTime": "21:00",
+   "venue": "Steinhardt Brewing Company",
+   "address": "340 East Patrick St., Suite 100, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4135062,
+   "lng": -77.4038066,
+   "description": "Trivia hosted by Pour House Trivia. Every Thursday 7-9 PM",
+   "categories": "Wineries, Breweries, Distilleries",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "Free"
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "Pumpkin Festival at Butler’s Orchard",
@@ -10063,6 +12156,33 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Rocking the dock Live music",
+   "url": "https://www.visitannapolis.org/event/rocking-the-dock-live-music/18272/",
+   "dates": [
+    "2026-10-29",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-17",
+    "2028-10-22"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Wharf 38",
+   "address": "479 Deale Road, Deale, MD 20751",
+   "city": "Deale",
+   "state": "MD",
+   "lat": 38.7785109,
+   "lng": -76.5596745,
+   "description": "Live music every Thursday 5:00-8:00pm & Sunday 2:00-5:00pm 9/17 Ryan Forrester 9/20 Chesapeake Sons 9/24 Greg Barrick 9/27 Shook Shack",
+   "categories": "Concerts & Live Music",
+   "recurrence": "Recurring weekly on Sunday, Thursday",
+   "admission": ""
   },
   {
    "source": "Montgomery Parks",
@@ -10690,6 +12810,32 @@
    "categories": "Beer, Arts & Culture",
    "recurrence": "Recurring weekly on Thursday",
    "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Trivia at Stockyard",
+   "url": "https://www.visitloudoun.org/event/trivia-at-stockyard/51388/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-04",
+    "2026-12-31"
+   ],
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Stockyard Brewery",
+   "address": "12428 Mountain Road, Lovettsville, VA 20180",
+   "city": "Lovettsville",
+   "state": "VA",
+   "lat": 39.2707849,
+   "lng": -77.6873631,
+   "description": "Join us for Trivia Night at Stockyard Brewery hosted by Pour House Trivia for an evening packed with laughs, friendly competition, great beer, and farm brewery fun! Gather your smartest friends, bring the whole crew, and test your knowledge across a variety of fun and unexpected trivia categories. Whether you’re a serious trivia pro or just coming out for a fun night with friends and family, everyone is welcome to play. Trivia is completely free to participate in, and prizes will be awarded to the winning teams! Enjoy delicious drinks, food, and the relaxed atmosphere at Stockyard while competing for bragging rights and prizes. Come early to grab your table, order your favorite drinks, and get ready for a fun-filled night on the farm. Teams of all sizes are welcome!",
+   "categories": "Beer",
+   "recurrence": "Recurring weekly on Thursday",
+   "admission": "Free to participate"
   },
   {
    "source": "FindLocal",
@@ -11365,6 +13511,33 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Best of Annapolis Tour: Colonial Annapolis, Maryland State House & U.S. Naval Academy",
+   "url": "https://www.visitannapolis.org/event/best-of-annapolis-tour%3a-colonial-annapolis-maryland-state-house-%26-u-s-naval-academy/16775/",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-04",
+    "2026-10-31"
+   ],
+   "time": "10:00",
+   "endTime": "12:15",
+   "venue": "188 Main Street",
+   "address": "Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9764364,
+   "lng": -76.489642,
+   "description": "A favorite for 50 years and a wonderful introduction to so much of what Annapolis offers! Stroll through the historic district with your colonial-attired guide. Discover Annapolis’ unique history and culture, featuring the 18th century, long considered the Golden Age of Annapolis. Visit Maryland’s State House, the oldest state capitol in continuous legislative use, where George Washington resigned his commission as Commander-in-Chief of the Continental Army and where the Treaty of Paris was ratified. Continue to the U.S. Naval Academy, where you will experience the history and highlights of what life on the Yard is like for the brigade of midshipmen.",
+   "categories": "History, Naval Academy, Family Friendly",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "$25/Adult $16/Child"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Beyond the 4th: Stories of Laurel’s FreedomCelebrations",
@@ -11457,6 +13630,58 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Board Game Night",
+   "url": "https://www.visitfrederick.org/event/board-game-night/25654/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-06-26",
+    "2026-10-30"
+   ],
+   "time": "17:00",
+   "endTime": "21:00",
+   "venue": "The Elk's Haven",
+   "address": "340 E. Patrick St. #104, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4131393,
+   "lng": -77.40382380000001,
+   "description": "Looking for a fun way to kick off your weekend? Join us every Friday from 5 PM–9 PM for Game Night! Bring your favorite board game, card game, or tabletop game, or choose from our growing collection of games available to play. Whether you’re a serious strategist, a casual player, or just looking to meet new people, everyone is welcome. As a bonus, all Game Night participants receive 10% off glasses during the event.",
+   "categories": "Wineries, Breweries, Distilleries, Downtown Frederick, Family Friendly, Free",
+   "recurrence": "Recurring weekly on Friday",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Bottle & Board Friday Special",
+   "url": "https://www.visitloudoun.org/event/bottle-%26-board-friday-special/52013/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-08-21",
+    "2026-12-18"
+   ],
+   "time": "12:00",
+   "endTime": "21:00",
+   "venue": "8 Chains North Winery",
+   "address": "38593 Daymont Ln, Waterford, VA 20197",
+   "city": "Waterford",
+   "state": "VA",
+   "lat": 39.178061,
+   "lng": -77.6687569,
+   "description": "Friday food and wine special! Kick the weekend off right with our Bottle & Board Friday Special . Purchase a bottle of wine for on-premise consumption, and enjoy a Bruschetta Board for only $5.00 extra. Choose four bruschetta from an array of seasonal options, including Salami, Pesto & Manchego; Brie, Pepper Jelly & Apple; Caprese; Smoked Salmon, Garlic Herb Spread & Capers, and more. Or try a personal pizza for just $5.00. Four delicious flavors available. A delicious bottle of wine and hearty nosh is perfect for date night or an outing with friends.",
+   "categories": "Wine",
+   "recurrence": "Recurring weekly on Friday",
+   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -11741,6 +13966,33 @@
    "admission": ""
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Colonial Annapolis & Maryland State House",
+   "url": "https://www.visitannapolis.org/event/colonial-annapolis-%26-maryland-state-house/16780/",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-04",
+    "2026-10-31"
+   ],
+   "time": "13:30",
+   "endTime": "15:00",
+   "venue": "188 Main Street",
+   "address": "Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9764364,
+   "lng": -76.489642,
+   "description": "Follow your colonial-attired guide through Annapolis’s historic district, highlighting the 18th century, long considered the Golden Age of Annapolis. Then visit the Maryland State House, the oldest state capitol in continuous legislative use, where George Washington resigned his commission as Commander-in-Chief of the Continental Army and where the Treaty of Paris was ratified. Stroll by modest homes and gentry mansions as you learn about the many people who have made Annapolis what it is today.",
+   "categories": "History, Family Friendly",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "$20/Adult $12/Child"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Comedy Show to Benefit Gift of Adoption",
@@ -11899,6 +14151,34 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Docent Led Public Tours",
+   "url": "https://www.visitloudoun.org/event/docent-led-public-tours/50594/",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-02-27",
+    "2026-12-20"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "George C. Marshall's Dodona Manor",
+   "address": "312 East Market St., Leesburg, VA 20176",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.112742,
+   "lng": -77.5587434,
+   "description": "Docent led public tours of General George C. Marshall's Dodona Manor",
+   "categories": "History",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "$15 adults, $12 seniors, $5 students"
   },
   {
    "source": "FindLocal",
@@ -12208,6 +14488,33 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Fields of Fear",
+   "url": "https://www.fxva.com/event/fields-of-fear/20520/",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-25",
+    "2026-11-07"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Cox Farms",
+   "address": "15621 Braddock Road, Centreville, VA 20120",
+   "city": "Centreville",
+   "state": "VA",
+   "lat": 38.8817144,
+   "lng": -77.4904062,
+   "description": "When night falls on the farm, it’s time for Fields of Fear! The friendly Imaginature Trail at Cox Farms Fall Festival takes a dark turn for Fields of Fear, transforming into The Forest: Back 40, which consists of half a mile of fear. The Forest joins two other haunted attractions at Fields of Fear, the Dark Side Hayride and the Cornightmare. The Firegrounds feature several bonfires, a six-lane slide, music, karaoke, entertainment, tasty treats, Foamhenge, and more! Not Recommended for children under 12 years old. Anyone under age 14 must be accompanied by a parent or guardian (18+). Tickets are ONLY available online- quantities are limited and will sell out, so buy your tickets early! Fields of Fear is open Friday and Saturday nights from Friday, September 25 – Saturday, November 7 (plus bonus night Sunday, Oct. 11). Open 7:30pm-11pm; last entry is at 10pm.",
+   "categories": "Seasonal & Holidays, Fairs & Festivals, Halloween, Spotlight Events",
+   "recurrence": "Recurring weekly on Friday, Saturday",
+   "admission": "$40-$45 depending on date"
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "Flickering Flames Story Exchange for Adults",
@@ -12343,6 +14650,32 @@
    "description": "Friday Night Salsa Return to the Pike District! Grab your friends and head back to the Pike District Pop-Up Park every Friday from September through October from 6-8 p.m. for Friday Night Salsa! Beginners and seasoned dancers are all welcome, no partner needed. Each evening kicks off with a free beginner-friendly lesson led by All Out Danza, then the dance floor opens up for community dancing under the stars. It’s the perfect way to kick off your weekend. See you on the dance floor! FREE to attend!",
    "categories": "",
    "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Friday Night Trivia at Fleetwood",
+   "url": "https://www.visitloudoun.org/event/friday-night-trivia-at-fleetwood/50298/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-01-23",
+    "2026-12-11"
+   ],
+   "time": "18:30",
+   "endTime": "20:30",
+   "venue": "",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": 38.7945952,
+   "lng": -106.5348379,
+   "description": "Friday is here, which means Trivia Night at Fleetwood is back! Join us 6:30–8:30 PM for a fun and relaxed evening hosted by David from Barton Smart Trivia. Each week features new categories and questions, perfect for trivia regulars and first-timers alike. No tickets required, just show up, grab a seat, and play! Our full menu and bar will be available, so bring your team, enjoy a Fleetwood flight or flatbread, and kick off your weekend with us!",
+   "categories": "Wine",
+   "recurrence": "Recurring weekly on Friday",
    "admission": ""
   },
   {
@@ -12576,6 +14909,32 @@
    "categories": "Wineries, Breweries, Distilleries, Live Music, Downtown Frederick, Events, Free",
    "recurrence": "",
    "admission": "Free"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Guided Exhibit Tours",
+   "url": "https://www.visitfrederick.org/event/guided-exhibit-tours/25817/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-07-24",
+    "2026-12-11"
+   ],
+   "time": "13:00",
+   "endTime": "14:00",
+   "venue": "The Museum of Frederick County History",
+   "address": "24 E. Church St., FREDERICK, MD 21701",
+   "city": "FREDERICK",
+   "state": "MD",
+   "lat": 39.4150555,
+   "lng": -77.4091107,
+   "description": "Experience the Museum of Frederick County History through a guided tour. Join the staff and volunteers who curated our 2026 exhibits as they explore our various galleries. Each tour is a unique experience based on the interests of the group and what special things staff wants to highlight that week. Descriptions of each week's tour can be found on the Heritage Frederick website, which includes accessibility notes. Tours are included with admission!",
+   "categories": "History & Heritage, Downtown Frederick",
+   "recurrence": "Recurring weekly on Friday",
+   "admission": "$5, $10"
   },
   {
    "source": "FindLocal",
@@ -13103,6 +15462,33 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Jumbo's Pumpkin Patch Fall Festival",
+   "url": "https://www.visitfrederick.org/event/jumbos-pumpkin-patch-fall-festival/11483/",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-25",
+    "2026-10-31"
+   ],
+   "time": "10:00",
+   "endTime": "18:00",
+   "venue": "Jumbo's Pumpkin Patch",
+   "address": "6521 Holter Rd., Middletown, MD 21769",
+   "city": "Middletown",
+   "state": "MD",
+   "lat": 39.4126924,
+   "lng": -77.5204073,
+   "description": "Celebrate the season with a full day of festive fun for all ages at Jumbo’s Pumpkin Patch! From classic farm adventures to fall-themed attractions, our Fall Fun Festival is the perfect weekend outing for families, friends, and pumpkin lovers. What’s Included with Admission: Your ticket includes unlimited access to a variety of seasonal attractions: Hayrides through the farm 30+ acre u-pick pumpkin patch (pumpkins sold by the pound) Corn maze (14 acres) Petting zoo Jumping pillow Giant slides Mini mazes for younger guests Playgrounds and yard games General Store with fall shopping and décor ​ Optional Add-Ons: (Available for Purchase Onsite - Saturday and Sunday Only) Enhance your day with these fun extras: Pony Rides – $7 Face Painting – $4 Sandy Candy (Edible Sand Art) – $4 Corn Cannon – $5 (3 shots) ​ Food & Drinks: Come hungry! A variety of food, snacks, and beverages are available for purchase, including selections from Liquidity Ale Works of Mt. Airy. Tickets available online or at the gate.",
+   "categories": "Fairs & Festivals, Outdoor, Family Friendly",
+   "recurrence": "Recurring weekly on Friday, Saturday, Sunday",
+   "admission": "Children 2 and under: FREE\r\nAges 3+ (kids & adults):\r\nGeneral Admission: $12\r\nSeniors 65+: $10\r\nMilitary (with ID): $10"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Ladies Night Out",
@@ -13241,6 +15627,32 @@
    "admission": "No charge"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Live Music Every Friday 6 - 9PM",
+   "url": "https://www.visitloudoun.org/event/live-music-every-friday-6-9pm/48002/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2024-12-27",
+    "2027-01-01"
+   ],
+   "time": "18:00",
+   "endTime": "21:00",
+   "venue": "Solace Brewing Company",
+   "address": "42615 Trade West Drive, Suite 100, Sterling, VA 20166",
+   "city": "Sterling",
+   "state": "VA",
+   "lat": 38.9508675,
+   "lng": -77.5279101,
+   "description": "Live music at Solace in Sterling every Friday night featuring local artist's. Check the website, solacebrewing.com, for a list of specific acts.",
+   "categories": "Musical Performances",
+   "recurrence": "Recurring weekly on Friday",
+   "admission": "Free"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Live Music: Hancock and Espo",
@@ -13355,6 +15767,32 @@
    "categories": "Holiday Celebrations, Shopping",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "McLean Farmers Market",
+   "url": "https://www.fxva.com/event/mclean-farmers-market/20181/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-01",
+    "2026-10-30"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Lewinsville Park",
+   "address": "1659 Chain Bridge Rd., McLean, VA 22101",
+   "city": "McLean",
+   "state": "VA",
+   "lat": 38.9287009,
+   "lng": -77.19051,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects.",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Friday",
+   "admission": "FREE"
   },
   {
    "source": "Patch",
@@ -14991,6 +17429,32 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Workhouse Haunt: Dark Encounters",
+   "url": "https://www.fxva.com/event/workhouse-haunt%3a-dark-encounters/44734/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-03",
+    "2026-10-30"
+   ],
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Workhouse Arts Center",
+   "address": "9518 Workhouse Way, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6977776,
+   "lng": -77.2545675,
+   "description": "Now entering its 13th year, our signature Halloween attraction returns with a bold new vision. Trading theatrical gimmicks for raw, unrelenting tension, guests are guided through the prison's dense woodland and beyond. This immersive terror runs Friday, Saturday, and Sunday evenings. Afterward, enjoy themed cocktails, mocktails, and a DJ at Rizer Pavilion. Ticket prices will range from $25 to $35, depending on which night you plan to attend.",
+   "categories": "Seasonal & Holidays, Halloween, Performing Arts/Theater/Film, Spotlight Events",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "Starting at $25"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "You know them",
@@ -15392,6 +17856,32 @@
    "admission": "Under 3-Free, 16 & Under-$25, Over 16-$30"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Alley Nights",
+   "url": "https://www.visitfrederick.org/event/alley-nights/23158/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-30",
+    "2026-10-31"
+   ],
+   "time": "22:00",
+   "endTime": "",
+   "venue": "Brewer's Alley Restaurant",
+   "address": "124 N. Market St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4160829,
+   "lng": -77.4105258,
+   "description": "Welcome to Alley Nights — your Saturday night destination in Downtown Frederick. With three bars open, the party moves wherever the night takes you! Start in our newly renovated Main Bar, catch the DJ spinning in Terrace, or head upstairs to the rooftop bar for drinks and views of downtown Frederick. Add late-night bites, great music, and a lively crowd — and you’ve got everything you need for the perfect Saturday night! Benefactor Events joins us every first and third Saturday of the month to get the party going in Terrace! Meet us at Alley Nights! No cover | 21+ event.",
+   "categories": "Foodie, Live Music, Downtown Frederick, Free",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "FREE"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Anacostia parkrun",
@@ -15703,6 +18193,32 @@
    "admission": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Burke Farmers Market",
+   "url": "https://www.fxva.com/event/burke-farmers-market/20179/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-18",
+    "2026-11-21"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "VRE Parking Lot",
+   "address": "5671 Roberts Pkwy., Burke, VA 22015",
+   "city": "Burke",
+   "state": "VA",
+   "lat": 38.796975,
+   "lng": -77.298861,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects.",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "FREE"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Burke Farmers Market",
@@ -15816,6 +18332,32 @@
    "admission": "FREE"
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Chesapeake Bay Experience",
+   "url": "https://www.visitannapolis.org/event/chesapeake-bay-experience/17989/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-07-18",
+    "2026-10-31"
+   ],
+   "time": "08:00",
+   "endTime": "11:00",
+   "venue": "Endless Summer Charters",
+   "address": "3096 Tudor Hall Rd, 655 Americana Dr, Riva, MD 21140",
+   "city": "Riva",
+   "state": "MD",
+   "lat": 38.9493425,
+   "lng": -76.57562639999999,
+   "description": "Spend a few hours cruising the Chesapeake Bay. Catch Maryland Blue Crabs, spend some time fishing, and seeing some critters that live in the bay. Captain Rob is a Maryland native born and raised on the Chesapeake and wants to share the full experience from the crabs, fish, oysters and birds of the bay. Its a great hands on experience for families.",
+   "categories": "On the Water, Outdoors",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Chicken Feeding",
@@ -15839,6 +18381,33 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Children's Science Center Haunted Lab",
+   "url": "https://www.fxva.com/event/childrens-science-center-haunted-lab/23289/",
+   "dates": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-03",
+    "2026-11-01"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "Children's Science Center Lab",
+   "address": "11948 Fair Oaks Mall, Fairfax, VA 22033",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.8647131,
+   "lng": -77.3575687,
+   "description": "Visit the Lab during any timed entry ( 10:00 am, 1:00 pm, and 3:30 pm) from October 3 rd through November 3 rd for special STEM activities— more info coming soon!",
+   "categories": "Family Friendly, Seasonal & Holidays, Halloween",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -16472,6 +19041,33 @@
    "admission": "General Admission: Saturdays & Sundays: $17.00 online / $22.00 at the gate. Children 2 & under are FREE! (Tickets can be purchased online or in-person upon arrival)"
   },
   {
+   "source": "Visit Howard County",
+   "siteCounty": "Howard County",
+   "title": "FALL FESTIVAL WEEKENDS",
+   "url": "https://www.visithowardcounty.com/event/fall-festival-weekends/23565/",
+   "dates": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-26",
+    "2026-11-08"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "10500 Clarksville Pike Ellicott City, MD 21042",
+   "address": "12230 Clarksville Pike, 12250 Clarksville Pike, Clarksville, MD 21029",
+   "city": "Clarksville",
+   "state": "MD",
+   "lat": 39.2111327,
+   "lng": -76.9390087,
+   "description": "FALL FESTIVAL WEEKENDS Weekends: 10 am to 5:30 pm - Sept 19, 20, 26, 27; Oct 3, 4, 10, 11, 17, 18, 24, 25, 31; Nov 1, 7, 8; Also Friday October 16 Admission $13.00 per person (age 1 and above) This includes visiting the petting farm animals, exploring the Enchanted Forest attractions and Fairy Forest, enjoying the play areas, slides and picnic tables, Castle Store Gift Shop Plus Hay Wagon Ride, Hay Bale Mazes, Hay Mountain and Princess Visits Also available on these days: Enchanted Express Train - $5.00 Cow Train - $3.00 Gem Mining: $8.00 - $15.00 Bag of Goat Feed - $1.00 Pumpkin from the Patch - $3.00 (kid-sized pumpkin) All varieties of pumpkins for sale in Castle Store. Apple Cider Donuts - ($) | Food Vendors - ($) | Facepainting - ($)",
+   "categories": "Family Fun, Food & Drink, Event",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": "$13.00 per person (age 1 and above)"
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "Fall Frolic",
@@ -16514,6 +19110,32 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Fall Fun Fest at Reston Farm Garden Market",
+   "url": "https://www.fxva.com/event/fall-fun-fest-at-reston-farm-garden-market/32501/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-09-26",
+    "2026-10-31"
+   ],
+   "time": "10:00",
+   "endTime": "17:00",
+   "venue": "Reston Farm Garden Market",
+   "address": "10800 Baron Cameron Ave., Reston, VA 20190",
+   "city": "Reston",
+   "state": "VA",
+   "lat": 38.9771192,
+   "lng": -77.3167822,
+   "description": "Join us for loads of fun activities, games, pumpkins, train rides, animals and more. Tickets include FREE pumpkin for each paid child’s ticket; unlimited access to bounce houses and games; train rides around the Garden Center; access to our petting zoo, and more! Additional purchases may be made on-site for face painting, balloons, food, and beverages. Toddlers under 2 are free. WHAT YOU'LL FIND: 🌽 5 BIG inflatables 🐖 Petting zoo & farm animals – pigs and goats! 🏀 Inflatable connect 4 basketball 🎾 4-wall ball mazes 🚂 Train ride – loops twice around the market 👻 Cutest fall decor!! 🎃 Pumpkins of ALL sizes 🛍️ Market goods – honey, plants, gardening goods 🖼️ Face painting, balloons, and balloon art are available for an extra fee 🍩 Food options: donuts, apple cider, snacks, food trucks, market produce, and pumpkins available to purchase 🌮 Leo’s food truck is available for purchase 📸 Cute photo ops 📖 Spookley the Square Pumpkin story walk by the petting zoo Discover More Attractions in #FXVA",
+   "categories": "Family Friendly, Seasonal & Holidays, Fairs & Festivals, Halloween",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": "$19 per child and $8 per accompanying adult; Kids under 2 are free"
   },
   {
    "source": "Visit Fairfax",
@@ -16583,6 +19205,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Field Fresh Farmers Market",
+   "url": "https://www.visitfrederick.org/event/field-fresh-farmers-market/23988/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-07-04",
+    "2026-11-21"
+   ],
+   "time": "09:00",
+   "endTime": "13:00",
+   "venue": "Frederick Fairgrounds",
+   "address": "797 E. Patrick St. Lot A, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4113201,
+   "lng": -77.3942367,
+   "description": "Come visit the largest producer-only farmers market in Frederick County, MD, featuring over 30 local vendors! We're open every Saturday from April 25 to November 21, 2026, 9 am - 1 pm. See you there, at the corner of E. Patrick St. & Franklin St.!",
+   "categories": "Farmers' Markets",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -16806,6 +19454,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Frederick Farmers Market",
+   "url": "https://www.visitfrederick.org/event/frederick-farmers-market/25396/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-09",
+    "2026-11-21"
+   ],
+   "time": "10:00",
+   "endTime": "13:00",
+   "venue": "Sophie & Madigan's Playground",
+   "address": "632 Contender Way, Frederick, MD 21703",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4066899,
+   "lng": -77.4505009,
+   "description": "Frederick Farmer’s Market welcomes you every Saturday from 10AM to 1PM, running from April 25 through November 21, 2026. It's a delightful producer-only market where you can enjoy fresh, local goodness. Cross streets: Butterfly Lane & Himes Ave.",
+   "categories": "Farmers' Markets",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "FREE"
   },
   {
    "source": "FindLocal",
@@ -18605,6 +21279,32 @@
    "admission": "$140 (Ages 21+)"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Leesburg Farmers Market",
+   "url": "https://www.visitloudoun.org/event/leesburg-farmers-market/51138/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-09",
+    "2026-10-31"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Leesburg Farmers' Market",
+   "address": "Virginia Village Shopping Center, 30 Catoctin Circle SE, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.1084729,
+   "lng": -77.56664599999999,
+   "description": "The Leesburg Farmers Market is a vibrant, producer-only market featuring local farmers, bakers, and artisans from across the region. Shop fresh seasonal produce, pasture-raised meats, eggs, baked goods, specialty foods, coffee, and handcrafted products while supporting small businesses and sustainable agriculture. Enjoy a welcoming, community-focused atmosphere in the heart of Leesburg. Open Saturdays from 8:00 AM to 12:00 PM. SNAP benefits accepted.",
+   "categories": "Family-Friendly, Farm & Nature, Shopping",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Lincoln Memorial",
@@ -19119,6 +21819,32 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Murder & Mayhem Walking Tour",
+   "url": "https://www.visitfrederick.org/event/murder-%26-mayhem-walking-tour/24084/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-03",
+    "2026-10-31"
+   ],
+   "time": "19:00",
+   "endTime": "20:30",
+   "venue": "Heritage Frederick",
+   "address": "24 E. Church St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4150555,
+   "lng": -77.4091107,
+   "description": "There’s plenty of ghost tours to be found this time of year, but ours is spooky AND true! Delve into the true crime stories that haunt the streets of Frederick. From burglaries and brawls to bootlegging and bedaubing (vandalism), Frederick's history is full of all things macabre- and we’re here to share them with you! *This tour discusses violence and crime and is recommended for visitors age 12+*",
+   "categories": "History & Heritage, Tours, Downtown Frederick",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "$8-$12/pp"
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "MV Farmers’ Market",
@@ -19139,6 +21865,32 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Myersville Farmers Market",
+   "url": "https://www.visitfrederick.org/event/myersville-farmers-market/21730/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-18",
+    "2026-10-31"
+   ],
+   "time": "09:00",
+   "endTime": "12:00",
+   "venue": "Municipal Parking Lot",
+   "address": "301 Main St., Myersville, MD 21773",
+   "city": "Myersville",
+   "state": "MD",
+   "lat": 39.5060011,
+   "lng": -77.565972,
+   "description": "Celebrate local products, fresh food, and community at the Myersville Farmers Market! Explore seasonal fruits and vegetables, fresh mushrooms, meats eggs and cheeses, baked goods, local honey, local spirits, bath and body products, locally made crafts, and more! The purpose of these markets is to build community spirt and engagement, as well as and to increase relationships between the artisans, crafters, and farmers with their customers.",
+   "categories": "Farmers' Markets",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "FREE"
   },
   {
    "source": "Patch",
@@ -19795,6 +22547,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Reston Farmers Market",
+   "url": "https://www.fxva.com/event/reston-farmers-market/20180/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-04-25",
+    "2026-11-21"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "Lake Anne Village Center",
+   "address": "1609 Washington Plz N, Reston, VA 20190",
+   "city": "Reston",
+   "state": "VA",
+   "lat": 38.9691871,
+   "lng": -77.3409431,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects. SNAP accepted, bonus dollar program!",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "FREE"
   },
   {
    "source": "FindLocal",
@@ -21095,6 +23873,33 @@
   {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
+   "title": "Vintage China Cake Stand Workshop",
+   "url": "https://www.visitloudoun.org/event/vintage-china-cake-stand-workshop/47212/",
+   "dates": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2025-01-25",
+    "2026-12-27"
+   ],
+   "time": "12:00",
+   "endTime": "16:00",
+   "venue": "The Global Local",
+   "address": "102 Loudoun St. Southwest, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.1147994,
+   "lng": -77.566666,
+   "description": "Downtown Leesburg’s Most Nostalgic Creative Experience Step inside a beautifully restored historic building in the heart of downtown Leesburg and take part in a hands-on workshop that turns timeless china into a memory you can take home. The Vintage China Workshop at The Global Local invites guests to slow down, get creative, and give new life to carefully curated vintage pieces. Guests choose from an ever-changing selection of vintage plates and components, which are drilled on-site before being assembled into a custom tiered stand or serving piece. Each finished creation becomes a one-of-a-kind keepsake, perfect for celebrating a special day, gathering with friends, or marking a meaningful moment spent exploring historic Leesburg. The workshop itself is complimentary, with each stand individually priced based on the vintage pieces you choose to build. Our team handles all technical preparation and guides you through assembly, making the experience easy and approachable for all skill levels. Vintage China Workshops are held Saturdays and Sundays from 12–4 PM. Each guest receives a 10% in-store shopping discount on the day of their workshop. Please visit our website for current details and availability. Reservations are recommended. Walk-ins are welcome if space allows.",
+   "categories": "Arts & Culture",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
    "title": "Visionaries 2026 : A Halloween Night at the Art Gala",
    "url": "https://www.visitloudoun.org/event/visionaries-2026-%3a-a-halloween-night-at-the-art-gala/52304/",
    "dates": [
@@ -21157,6 +23962,32 @@
    "categories": "Family Friendly, Food and Drink",
    "recurrence": "Recurring weekly on Sunday, Saturday",
    "admission": "0"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Weekend Unwind: Sound Bath + Reiki : Saturday Mornings in Falls Church",
+   "url": "https://www.fxva.com/event/weekend-unwind%3a-sound-bath-%2b-reiki-%3a-saturday-mornings-in-falls-church/48150/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-10-24",
+    "2026-12-19"
+   ],
+   "time": "11:00",
+   "endTime": "12:00",
+   "venue": "",
+   "address": "7777 Leesburg Pike, Ste 204S, Falls Church, VA 22043",
+   "city": "Falls Church",
+   "state": "VA",
+   "lat": 38.9073859,
+   "lng": -77.21444489999999,
+   "description": "Most people start their Saturday with a list. Groceries, errands, the thing they didn't finish on Friday, still buzzing around in their head. By the time they've “relaxed,” it's Sunday night. Weekend Unwind flips that. Eleven o'clock, one hour, lying down. Crystal singing bowls, a short guided meditation, and Reiki, in a small room with ten people in it and no agenda at all. Nothing to achieve, nothing to be good at. You just lie there and let the week drain out of your shoulders. This class has a different feel from our Thursday night one. Thursday is about switching off. Saturday is slower. People arrive less wound up, settle in faster, and tend to float out rather than rush out. Several regulars come as their standing Saturday thing, the way other people have a standing brunch. It pairs well with brunch afterwards, for the record. If you've never been to a sound bath: you keep your clothes on, you lie on a mat under a blanket, you close your eyes, and I do the rest. The bowls are played around and near you, the sound is physical as much as it is musical, you feel it in your chest, and an hour passes faster than you expect. Everything is provided. Show up in something comfortable with ten minutes to spare, and that's the whole preparation. I'm Victoria Vita. I've been a CPA for over twenty years and a healer for more than seven, and I teach every one of these classes myself. When you come back, and most people do, it's the same room, the same bowls, and the same person. That sameness is kind of the point. Rated 5.0 from 32 Google reviews. Guests mention the warm welcome, feeling comfortable from the first visit, and booking again — that's the Saturday I try to run. What's included: • 60 minutes of crystal singing bowls, guided meditation and Reiki • Mat, blanket and bolster provided... just bring yourself • Ten spots only, so the room stays quiet and unhurried • A slow finish... no one is hustled out the door at noon Discover More Attractions in #FXVA",
+   "categories": "Health & Wellness, Providence District",
+   "recurrence": "Recurring weekly on Saturday",
+   "admission": "$45.00"
   },
   {
    "source": "FindLocal",
@@ -21657,6 +24488,32 @@
    "admission": ""
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Best of Annapolis Tour: Colonial Annapolis, Maryland State House & U.S. Naval Academy",
+   "url": "https://www.visitannapolis.org/event/best-of-annapolis-tour%3a-colonial-annapolis-maryland-state-house-%26-u-s-naval-academy/16776/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-01",
+    "2026-12-06"
+   ],
+   "time": "10:00",
+   "endTime": "12:15",
+   "venue": "188 Main Street",
+   "address": "Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9764364,
+   "lng": -76.489642,
+   "description": "A favorite for 50 years and a wonderful introduction to so much of what Annapolis offers! Stroll through the historic district with your colonial-attired guide. Discover Annapolis’ unique history and culture, featuring the 18th century, long considered the Golden Age of Annapolis. Visit Maryland’s State House, the oldest state capitol in continuous legislative use, where George Washington resigned his commission as Commander-in-Chief of the Continental Army and where the Treaty of Paris was ratified. Continue to the U.S. Naval Academy, where you will experience the history and highlights of what life on the Yard is like for the brigade of midshipmen.",
+   "categories": "History, Naval Academy, Family Friendly",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": "$25/Adult $16/Child"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Bird Walk - Guided Program",
@@ -21820,6 +24677,32 @@
    "admission": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Cascades Farmers Market",
+   "url": "https://www.visitloudoun.org/event/cascades-farmers-market/51139/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-10",
+    "2026-11-01"
+   ],
+   "time": "09:00",
+   "endTime": "12:00",
+   "venue": "Cascades Farmers Market",
+   "address": "21060 Whitfield Pl, (behind senior center), Sterling, VA 20165",
+   "city": "Sterling",
+   "state": "VA",
+   "lat": 39.0321738,
+   "lng": -77.39519609999999,
+   "description": "The Cascades Farmers Market is a lively, family-friendly market featuring local farmers, bakers, and artisans from across the region. Shop fresh seasonal produce, pasture-raised meats, eggs, baked goods, specialty foods, coffee, and handcrafted goods while supporting small businesses and sustainable agriculture. Located in the Cascades area of Sterling, this community market offers a welcoming atmosphere for all ages. Open Sundays from 9:00 AM to 12:00 PM (seasonal). SNAP benefits accepted.",
+   "categories": "Family-Friendly, Farm & Nature, Shopping",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Celebración Día de los Muertos at The Wharf",
@@ -21940,6 +24823,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "fitness",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Colonial Annapolis & Maryland State House",
+   "url": "https://www.visitannapolis.org/event/colonial-annapolis-%26-maryland-state-house/16781/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-01",
+    "2026-12-27"
+   ],
+   "time": "13:30",
+   "endTime": "15:00",
+   "venue": "188 Main Street",
+   "address": "Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9764364,
+   "lng": -76.489642,
+   "description": "Follow your colonial-attired guide through Annapolis’s historic district, highlighting the 18th century, long considered the Golden Age of Annapolis. Then visit the Maryland State House, the oldest state capitol in continuous legislative use, where George Washington resigned his commission as Commander-in-Chief of the Continental Army and where the Treaty of Paris was ratified. Stroll by modest homes and gentry mansions as you learn about the many people who have made Annapolis what it is today.",
+   "categories": "History, Family Friendly",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": "$20/Adult $12/Child"
   },
   {
    "source": "Patch",
@@ -22344,6 +25253,32 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Frederick City Market",
+   "url": "https://www.visitfrederick.org/event/frederick-city-market/11348/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-17",
+    "2026-11-29"
+   ],
+   "time": "09:00",
+   "endTime": "13:00",
+   "venue": "Downtown Frederick",
+   "address": "622 N. Market St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4223388,
+   "lng": -77.4091426,
+   "description": "The Frederick City Market is a local food and artisan market located in the historic district of Downtown Frederick, Maryland. Join us on every Sunday from May through November. Parking is free on Sundays and there are usually plenty of spots on 7th Street and Market Street. You can park at Gravel and Grind (15 E 6th Street) and walk through the gap into the market lot.",
+   "categories": "Farmers' Markets",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -22924,6 +25859,32 @@
    "categories": "Musical Performances, Wine",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Lorton Farmers Market",
+   "url": "https://www.fxva.com/event/lorton-farmers-market/20187/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-05-03",
+    "2026-11-22"
+   ],
+   "time": "08:00",
+   "endTime": "12:00",
+   "venue": "VRE Parking Lot",
+   "address": "8994 Potomac Bend, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.7143898,
+   "lng": -77.213255,
+   "description": "The Markets offer a wide variety of freshly picked fruits, vegetables, and cut flowers. There are also fresh eggs, baked goods, honey and cider to purchase. Milk and cheese products, along with a wide array of meat products, round out the edible delights. If gardening is an interest, many vendors have small plants at the beginning of the season, while other vendors have larger landscape plants for those ambitious projects. SNAP accepted, bonus dollar program!",
+   "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": "FREE"
   },
   {
    "source": "FindLocal",
@@ -25654,6 +28615,33 @@
    "outdoorHint": ""
   },
   {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "University of Maryland Lacrosse",
+   "url": "https://www.experienceprincegeorges.com/event/university-of-maryland-lacrosse/30612/",
+   "dates": [
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-02",
+    "2026-11-08"
+   ],
+   "time": "",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "University of Maryland Lacrosse, Lacrosse Event",
+   "categories": "Sports",
+   "recurrence": "Recurring daily",
+   "admission": "Email: fields@libertysportspark.com or call 443.794.7004 for more details"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Volunteer Days: Mystery Project",
@@ -28176,7 +31164,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T17:47:15.389Z",
+  "generatedAt": "2026-10-26T17:51:40.053Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -28185,7 +31173,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 981
+    "ms": 849
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -28193,7 +31181,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 334
+    "ms": 411
    },
    "City of Rockville": {
     "ok": true,
@@ -28201,7 +31189,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 2135
+    "ms": 1794
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -28209,7 +31197,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 514
+    "ms": 482
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -28217,7 +31205,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 516
+    "ms": 382
    },
    "Navy Yard BID": {
     "ok": true,
@@ -28225,7 +31213,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 392
+    "ms": 340
    },
    "DowntownDC BID": {
     "ok": true,
@@ -28233,23 +31221,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 584
-   },
-   "Experience Prince George’s": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
-   },
-   "Visit Loudoun": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
+    "ms": 605
    },
    "Falls Church": {
     "ok": true,
@@ -28257,14 +31229,6 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": null
-   },
-   "Visit Fairfax": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
     "ms": null
    },
    "Downtown Silver Spring": {
@@ -28275,28 +31239,12 @@
     "error": "",
     "ms": null
    },
-   "Visit Howard County": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
-   },
    "Rosslyn BID": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": null
-   },
-   "Visit Frederick": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
     "ms": null
    },
    "Reston Town Center": {
@@ -28307,37 +31255,13 @@
     "error": "",
     "ms": null
    },
-   "NoMa BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 808
-   },
-   "Visit Annapolis": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
-   },
    "Mount Vernon Triangle CID": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 293
-   },
-   "Experience Prince George’s calendar": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
+    "ms": 111
    },
    "Southwest BID": {
     "ok": true,
@@ -28345,7 +31269,15 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 273
+    "ms": 456
+   },
+   "NoMa BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 409
    },
    "The Wharf": {
     "ok": true,
@@ -28353,15 +31285,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 379
-   },
-   "Visit Annapolis calendar": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": null
+    "ms": 455
    },
    "City of Takoma Park": {
     "ok": true,
@@ -28369,7 +31293,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 935
+    "ms": 1177
    },
    "Ticketmaster": {
     "ok": true,
@@ -28385,7 +31309,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 860
+    "ms": 549
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 246
    },
    "City of Bowie": {
     "ok": true,
@@ -28393,7 +31325,255 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1425
+    "ms": 938
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 12,
+    "outcome": "",
+    "error": "",
+    "ms": 248
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 814
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 20,
+    "outcome": "",
+    "error": "",
+    "ms": 358
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 10401
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 599
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 289
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 718
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 255
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 681
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 926
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 28
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 218
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 584
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 230
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 108
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 932
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 18,
+    "outcome": "",
+    "error": "",
+    "ms": 62
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 899
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 533
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 2571
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 474
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 483
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 456
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 556
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 6103
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1515
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 307
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 573
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 134
+   },
+   "One Loudoun": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 49
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1735
    },
    "DC HSEMA": {
     "ok": true,
@@ -28402,262 +31582,6 @@
     "outcome": "",
     "error": "",
     "ms": null
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 539
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 228
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 12,
-    "outcome": "",
-    "error": "",
-    "ms": 283
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 20,
-    "outcome": "",
-    "error": "",
-    "ms": 315
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2436
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2449
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 1035
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 440
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1809
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 347
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 690
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1259
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2332
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 6233
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 292
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 476
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 239
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 1424
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 18,
-    "outcome": "",
-    "error": "",
-    "ms": 137
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 2089
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 843
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 463
-   },
-   "City of Frederick": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 592
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 424
-   },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 461
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 7508
-   },
-   "City of Fairfax": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1362
-   },
-   "Mosaic District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 206
-   },
-   "Union Market District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 520
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
-    "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 123
-   },
-   "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 70
-   },
-   "George Washington’s Mount Vernon": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 689
    }
   },
   "count": 194,
