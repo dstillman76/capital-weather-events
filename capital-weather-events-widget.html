@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v31: no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v32: wider outdoor-music category; no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -1039,11 +1039,17 @@ function category(e){
  if(/5k|10k|run|race|marathon|yoga|fitness|cycling/.test(s))
   return 'fitness';
  if(/football|soccer|baseball|sports|battle of the bands/.test(s))return 'sports';
- if(/concert|music|outdoor movie/.test(s))return 'music';
+ // v32: performers and series named without the word "music" ("Jazz in the
+ // Plaza", "Sips & Sounds", a cover band's name) were filed under "other".
+ if(/concert|music|outdoor movie|\bjazz\b|bluegrass|orchestra|symphony|\bbands?\b|\bdj\b|choir|chorus|salsa night|friday night salsa|sounds\b|\bjam(?:boree)?\b|open mic|unplugged/.test(s))return 'music';
  if(/nature|hike|park|trail|garden|ghost tour|walking tour|public art tour/.test(s))
   return 'nature';
  if(/pumpkin|kids|family|children|trick.or.treat|hayride/.test(s))
   return 'family';
+ // The listing's own description: "Performing outdoors on theYARD live music
+ // venue stage", "live music by … on the patio".
+ const d=String(e.description||'').slice(0,600).toLowerCase();
+ if(/\blive music\b|\bconcerts?\b|\b(?:cover|live|jazz|brass|rock|blues|tribute) band\b|performing (?:outdoors|live)|\bdj set\b|\bsinger.songwriter\b|\bacoustic (?:set|duo|trio|band)\b|\b(?:orchestra|symphony|bluegrass|jazz)\b/.test(d))return 'music';
  return 'other';
 }
 
