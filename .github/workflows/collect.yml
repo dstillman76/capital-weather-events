@@ -1,0 +1,37 @@
+name: Collect events
+
+on:
+  schedule:
+    # Every 6 hours, at minute 23 (scheduled runs can start late; that's fine).
+    - cron: '23 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run collector
+        run: node collector/collect.mjs
+      - name: Publish events file
+        run: |
+          git config user.name "events-collector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add collector/data/events.json collector/data/cache.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update events $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
