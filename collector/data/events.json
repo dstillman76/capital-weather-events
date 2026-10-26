@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T04:22:13.174Z",
+ "generatedAt": "2026-10-26T13:20:11.746Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -16,7 +16,7 @@
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 61,
+   "inWindow": 68,
    "pending": 0,
    "note": ""
   },
@@ -30,7 +30,7 @@
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 92,
+   "inWindow": 95,
    "pending": 0,
    "note": ""
   },
@@ -58,7 +58,7 @@
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 19,
+   "inWindow": 24,
    "pending": 0,
    "note": ""
   },
@@ -94,9 +94,9 @@
    "source": "Montgomery Parks",
    "kind": "sitemap+pages",
    "status": "ok",
-   "sitemapEvents": 199,
-   "opened": 10,
-   "cached": 197,
+   "sitemapEvents": 200,
+   "opened": 166,
+   "cached": 198,
    "refused": 0,
    "errors": 0,
    "inWindow": 49,
@@ -108,15 +108,38 @@
    "kind": "api",
    "status": "ok",
    "calls": 1,
-   "remaining": 99,
-   "listings": 179,
-   "inWindow": 158,
-   "skipped": 21,
-   "note": "1 call(s) used; 99 left this month."
+   "remaining": 98,
+   "listings": 253,
+   "inWindow": 203,
+   "skipped": 50,
+   "note": "1 call(s) used; 98 left this month; next refresh in 1 day(s)."
   }
  ],
- "count": 465,
+ "count": 525,
  "events": [
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "606 Run Club (5-mile group run)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "06:06",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Weekday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
   {
    "source": "FindLocal",
    "siteCounty": "",
@@ -243,6 +266,51 @@
    "admission": "$495 per couple on weeknights/ $550 on Friday & Saturday Nights"
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Bluey x CAMP: Bluey's House",
+   "url": "https://www.fxva.com/event/bluey-x-camp%3a-blueys-house/47664/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "next-of-range",
+   "time": "",
+   "endTime": "",
+   "venue": "CAMP DC",
+   "address": "1961 Chain Bridge Rd, Tysons Corner, VA 22102",
+   "city": "Tysons Corner",
+   "state": "VA",
+   "lat": 38.9170135,
+   "lng": -77.2227938,
+   "description": "Calling all Bluey fans! Come laugh, play, and pretend with Bluey, Bingo, Mum, and Dad, everyone’s favorite family. Your family can step inside Bluey’s House for an unforgettable immersive adventure that ends with a meet-and-greet with Bluey and Bingo!",
+   "categories": "Family Friendly",
+   "recurrence": "Recurring daily",
+   "admission": "Starting at $42+"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chair Aerobics: Cycling with Darlina",
+   "url": "https://www.pgparks.com/event_list/chair-aerobics-cycling-w-darlina/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "09:30",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Sit and still get fit! Suitable for anyone who wants the combination of stationary cycling and chair aerobics, this class will help you tone and stretch.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$$24 (R) $32 (NR) Age: 60 & Better",
+   "outdoorHint": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Chicken Feeding",
@@ -286,6 +354,28 @@
    "categories": "Sports",
    "recurrence": "Recurring weekly on Monday",
    "admission": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Civil War History in Oakton and Vienna",
+   "url": "https://www.fxva.com/event/civil-war-history-in-oakton-and-vienna/48065/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "next",
+   "time": "09:00",
+   "endTime": "13:00",
+   "venue": "Oakton Community Park",
+   "address": "2841 Hunter Mill Road, Tysons, VA 22124",
+   "city": "Tysons",
+   "state": "VA",
+   "lat": 38.88704329999999,
+   "lng": -77.30103570000001,
+   "description": "Greater Oakton Community Association invites history enthusiasts to join a narrated historic bus tour led by acclaimed local historian Jim Lewis on from 9:00 a.m. to 1:00 p.m. Please arrive at 9:00 a.m. at Oakton Community Park at 2841 Hunter Mill Road (next to the old schoolhouse and roundabout) for Jim Lewis's opening comments, then board the bus for departure by 9:30 a.m. The tour will end at 1:00 p.m. This 3.5-hour journey spans Fairfax County's history from its formation in 1742 through the early 1900s, focusing on sites primarily on or just off Hunter Mill Road. Participants hear stories of where the old mills and roads were located and learn about famed military figures (particularly from the Civil War era) and colorful residents who graced the area. Numerous period photographs support the narrative, bringing history to life. Walking requirements are minimal, although one segment involves going down a slight grassy decline. The tour runs rain or shine. Snacks and water are included. Cost is $45 per seat. In the event of cancellation, refunds are provided if a replacement is found for the seat; a wait list is maintained for this purpose. There are 23 seats on the bus. Special \"Event Pricing\" is offered for the award-winning \"Danger Between the Lines\" DVD and tour-related illustrated books, available for purchase with cash only. Narrated Historic Bus Tour with Jim Lewis combines local history education, community connection, and immersive storytelling in Fairfax County, Virginia. Questions? Email contact@greateroakton.com . Discover More Attractions in #FXVA",
+   "categories": "History & Heritage",
+   "recurrence": "Recurring daily",
+   "admission": "$45"
   },
   {
    "source": "Visit Annapolis",
@@ -363,6 +453,52 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fitness in the Parks - Dance Fitness",
+   "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-dance-fitness/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "This is not your ordinary hip-hop dance class. Get moving and grooving to upbeat music while your fitness level improves",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "Free Age: 13 and up",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fitness in the Parks - Urban Line Dancing",
+   "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-urban-line-dancing/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "08:30",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Let your creativity loose on the dance floor! Learn all the latest dances suitable for beginners and seasoned line dancers.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "Free Age: 13 and up",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Full Moon Horoscope Tasting Series | 2026",
@@ -385,6 +521,29 @@
    "admission": "$54.00"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Full Moon Rising at Mayo Beach Park",
+   "url": "https://www.aacounty.org/full-moon-rising-mayo-beach-park",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "17:45",
+   "endTime": "",
+   "venue": "Mayo Beach Park",
+   "address": "4150 Honeysuckle Drive, Edgewater, MD 21037",
+   "city": "Edgewater",
+   "state": "MD",
+   "lat": 38.8928811,
+   "lng": -76.4921394,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Halloween Spooktacular",
@@ -404,6 +563,28 @@
    "description": "A family Halloween program featuring creepy crafts and ghoulish games.",
    "categories": "Holiday Celebrations",
    "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Happy Hour at O'Malley's",
+   "url": "https://www.visitloudoun.org/event/happy-hour-at-omalleys/50891/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "next",
+   "time": "15:00",
+   "endTime": "18:00",
+   "venue": "O'Malley's Pub",
+   "address": "45425 Holiday Drive, Sterling, VA 20166",
+   "city": "Sterling",
+   "state": "VA",
+   "lat": 38.98451370000001,
+   "lng": -77.4285453,
+   "description": "Enjoy Happy Hour at O'Malley's daily from 3–6PM with food and drink specials including $4 bottled domestic and imported beers, $5 house wine-by-the-glass, $6 O'Malley's house drafts, $7 cocktails and small bites. Every Wednesday, come early and stay late with Live Music from 6–9PM!",
+   "categories": "Beer, Culinary, Wine",
+   "recurrence": "Recurring daily",
    "admission": ""
   },
   {
@@ -547,6 +728,51 @@
   {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
+   "title": "Lives Bound Together: Slavery at Mount Vernon Exhibit",
+   "url": "https://www.fxva.com/event/lives-bound-together%3a-slavery-at-mount-vernon-exhibit/44330/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "next",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "George Washington's Mount Vernon",
+   "address": "3200 Mount Vernon Memorial Highway, Mount Vernon, VA 22121",
+   "city": "Mount Vernon",
+   "state": "VA",
+   "lat": 38.7097996,
+   "lng": -77.0864236,
+   "description": "Explore the lives of the 317 enslaved people who lived and worked at Mount Vernon in new exhibit. Discover how they formed families, built tight-knit communities, earned a living, and acquired personal possessions. Uncover the voices of the enslaved through ancestral histories and recently-excavated archaeological artifacts. Learn about the legacy of Washington’s decision in his will to free those enslaved to him—the only founding father to do so.",
+   "categories": "History & Heritage, Art Galleries & Exhibits, Juneteenth, America250 in Virginia",
+   "recurrence": "Recurring daily",
+   "admission": "Included with admission (admission is $28 for ages 12+, $15 for ages 6-11, free for ages 0-5, free for members)"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Living Strong",
+   "url": "https://www.pgparks.com/event_list/living-strong-2-2/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "09:30",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Living Strong is a great way to stay active and build strength in a supportive environment. This class includes strength training, aerobic exercise, balance, flexibility and more, along with goal setting to help you stay motivated and consistent.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$15 residents, $20 non-residents Age: 18 and up",
+   "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
    "title": "Lunch at the Library: The Schuyler Sisters in an Age of Revolution",
    "url": "https://www.fxva.com/event/lunch-at-the-library%3a-the-schuyler-sisters-in-an-age-of-revolution/47616/",
    "dates": [
@@ -613,6 +839,51 @@
    "categories": "Family-Friendly",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Peake Social Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "5K or shorter fun run/walk from Chessie's Wharf in West Annapolis; all paces.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Pizza Decorating for Kids",
+   "url": "https://www.fxva.com/event/pizza-decorating-for-kids/41755/",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "next",
+   "time": "17:00",
+   "endTime": "22:00",
+   "venue": "Davio's Northern Italian Steakhouse",
+   "address": "1902 Reston Metro Plaza, Reston, VA 20190",
+   "city": "Reston",
+   "state": "VA",
+   "lat": 38.9490338,
+   "lng": -77.3377959,
+   "description": "Davio's hosts Pizza Decorating for Kids! Looking for a delightful and interactive way to entertain your little ones while dining out? Davio’s Northern Italian Steakhouse in Reston has the perfect solution: Pizza Decorating for Kids ! Every Sunday and Monday evening from 5:00 pm to 10:00 pm, kids can channel their inner chef and create their very own masterpiece pizzas in a fun, family-friendly atmosphere. What’s Included: · Hands-On Pizza Making: Each child receives their very own pizza kit, complete with fresh pizza dough, authentic San Marzano tomato sauce, gooey mozzarella cheese, and flavorful pepperoni. · Keepsake Apron & Chef Hat: Every little chef gets a personalized Davio’s apron & Chef hat to wear and take home as a souvenir of their culinary adventure. · Interactive Fun: While the pizzas bake to perfection, kids are given a mini dough ball to play with, keeping them entertained and engaged. Bring the Fun Home: Can’t stay to dine in? No problem! Davio’s offers Pizza Kits for pick-up after 5:00 pm on Sundays and Mondays. These kits include all the same fresh ingredients, so your child can enjoy the experience of pizza making right at home. How to Reserve: To ensure your kit is ready, please call at least one hour before your desired pick-up time. Space and supplies are limited, so advance reservations are highly recommended for both dine-in and takeout options.",
+   "categories": "Family Friendly, Food and Drink",
+   "recurrence": "Recurring weekly on Sunday, Monday",
+   "admission": "$25 per child"
   },
   {
    "source": "FindLocal",
@@ -758,6 +1029,29 @@
    "admission": "0"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Walk With Ease",
+   "url": "https://www.pgparks.com/event_list/walk-with-ease/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Walking benefits your mind, mood, and overall health. Join us for our Walk With Ease Program.",
+   "categories": "fitness, run_ride",
+   "recurrence": "",
+   "admission": "$10 Resident; $13 Non-Resident Age: 18 & up",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Weekdays - Happy Hours - Monday to Friday - 4PM to 7PM",
@@ -784,6 +1078,52 @@
    "categories": "Beer, Family-Friendly",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Zumba Fitness",
+   "url": "https://www.pgparks.com/event_list/zumba-fitness/2026-10-26",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Get ready to experience the global dance fitness phenomena! Zumba incorporates a fusion of Latin and international music.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$$36 (R) $47 (NR) Age: 13 & up",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "606 Run Club (5-mile group run)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "06:06",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Weekday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "FindLocal",
@@ -851,6 +1191,52 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Adult Pick Up Soccer",
+   "url": "https://montgomeryparks.org/events/adult-pick-up-soccer-46/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Montgomery Parks",
+   "address": "2425 Reedie Dr, Wheaton, MD 20902",
+   "city": "Wheaton",
+   "state": "MD",
+   "lat": 39.0391001,
+   "lng": -77.052059,
+   "description": "",
+   "categories": "fitness, run_ride",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Aerobics: Adults with Sheryl",
+   "url": "https://www.pgparks.com/event_list/aerobics-adults-w-sheryl/2026-10-27",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:45",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Get your blood pumpin' and heart thumpin'! This energetic exercise class will rev up your mood and muscles as you progress your way to great overall fitness.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$36 Resident, $47 Non-resident Age: 18 & up",
+   "outdoorHint": ""
   },
   {
    "source": "FindLocal",
@@ -961,6 +1347,29 @@
    "lng": -77.052059,
    "description": "",
    "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Infant/Toddler Hike",
+   "url": "https://www.aacounty.org/recreation-parks/parks/park-calendar/infant-toddler-hike",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Quiet Waters Park",
+   "address": "600 Quiet Waters Park Rd, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9449013,
+   "lng": -76.4948885,
+   "description": "",
+   "categories": "parks, outdoor_activity",
    "recurrence": "",
    "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
@@ -1079,6 +1488,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "QR Fit Trail - Instructor Led Sessions",
+   "url": "https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions/2026-10-27",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Looking for an exciting workout experience? Follow a scenic trail and scan QR codes at each station to access video instructions for your next exercise.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "Free Age: 13 & up",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Ranger Led Garden Tour",
    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
    "dates": [
@@ -1120,6 +1552,52 @@
    "categories": "Family Friendly, Food and Drink",
    "recurrence": "Recurring weekly on Tuesday",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Senior Fit",
+   "url": "https://www.pgparks.com/event_list/senior-fit/2026-10-27",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "10:15",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "This exercise program focuses on strength, balance, agility, and cardiovascular fitness. Exercising regularly help to prevent falls, manage chronic illnesses, and achieve better quality of life.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "FREE Age: 60 & Better",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Steady Strides Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "All-paces run around the Navy-Marine Corps Memorial Stadium path; meets near Cedar Park Road parking.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -1209,6 +1687,52 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi: Beginner with Hero",
+   "url": "https://www.pgparks.com/event_list/tai-chi-beginner-w-hero/2026-10-27",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Meditation in motion is how health experts describe tai chi – an ancient form of exercise for balance, stretching, muscle tone, and flexibility.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$30 (R) $39 (NR) Age: 18 & up",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi: Intermediate with Hero",
+   "url": "https://www.pgparks.com/event_list/tai-chi-intermediate-w-hero/2026-10-27",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Show Place Arena",
+   "address": "14900 Pennsylvania Ave, Upper Marlboro, MD 20772",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.812819,
+   "lng": -76.749845,
+   "description": "Tai chi is an art embracing the mind, body and spirit. Originating in ancient China, tai chi is one of the most effective exercises for health of mind and body.",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "$30 Resident, $39 Non-resident Age: 18 & up",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Loudoun",
@@ -1801,6 +2325,52 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Forward Brewing Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "5K run around Eastport and Dock Street followed by drinks.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Forward Run Club",
+   "url": "https://www.annapolis.gov/Calendar.aspx?EID=11152&month=10&year=2026&day=24&calType=0",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "17:45",
+   "endTime": "",
+   "venue": "City of Annapolis Events",
+   "address": "160 Duke of Gloucester St, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.976515,
+   "lng": -76.4894587,
+   "description": "At 418 4th Street",
+   "categories": "fitness, run_ride",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Halloween at Upton Hill",
    "url": "https://www.novaparks.com/parks/upton-hill-regional-park/events/halloween-at-upton-hill",
    "dates": [
@@ -2090,6 +2660,29 @@
    "categories": "Arts & Culture, Family Friendly, Shopping",
    "recurrence": "",
    "admission": "$55"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Pollinator Wednesday",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/pollinator-wednesday",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "FindLocal",
@@ -2427,6 +3020,29 @@
    "categories": "Farm & Nature",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "606 Run Club (5-mile group run)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "06:06",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Weekday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "FindLocal",
@@ -2991,6 +3607,28 @@
    "admission": "$22/Adult $12/Child"
   },
   {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Historic Hyattsville Public Art Walking Tour",
+   "url": "https://www.experienceprincegeorges.com/event/historic-hyattsville-public-art-walking-tour/31038/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "next",
+   "time": "16:00",
+   "endTime": "18:00",
+   "venue": "",
+   "address": "4318 Gallatin Street, Hyattsville, MD 20781",
+   "city": "Hyattsville",
+   "state": "MD",
+   "lat": 38.9527633,
+   "lng": -76.9409424,
+   "description": "",
+   "categories": "Nature & Outdoor",
+   "recurrence": "Recurring weekly on Sunday, Thursday",
+   "admission": "Sundays 1pm \r\nThursdays 4pm - 6pm"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Historic Manassas Farmers Market (Thursdays)",
@@ -3034,6 +3672,29 @@
    "categories": "History, Arts & Culture, Family Friendly",
    "recurrence": "",
    "admission": "$15 General Admission. $12 for Historic Annapolis members and Military."
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Join us every Thursday at 6:00PM at The St. James Performance Club in Springfield. Open to the public, Run Club welcomes all paces and experience levels—from those building a consistent running routine to experienced runners looking to get their miles in with a community. Meet at the Performance Club and check in at the front desk concierge upon arrival. Come ready to move, connect, and enjoy the miles together.",
+   "url": "https://marketing.thestjames.com/run-club",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "The St. James",
+   "address": "6805 Industrial Road, Springfield, VA 22151",
+   "city": "Springfield",
+   "state": "VA",
+   "lat": 38.798398,
+   "lng": -77.178967,
+   "description": "Join us every Thursday at 6:00PM at The St. James Performance Club in Springfield. Open to the public, Run Club welcomes all paces and experience levels—from those building a consistent running routine to experienced runners looking to get their miles in with a community. Meet at the Performance Club and check in at the front desk concierge upon arrival. Come ready to move, connect, and enjoy the miles together.",
+   "categories": "fitness, run_ride",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Fairfax",
@@ -3529,6 +4190,29 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Waterbird Survey",
+   "url": "https://www.aacounty.org/waterbird-survey",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "07:30",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Weekly trivia every Thursday at Loudoun Brewing Company - 630-830pm - hosted by Owen Palmiotti",
@@ -3774,6 +4458,28 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Beyond the 4th: Stories of Laurel’s FreedomCelebrations",
+   "url": "https://www.experienceprincegeorges.com/event/beyond-the-4th%3a-stories-of-laurel%e2%80%99s-freedomcelebrations/30694/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "next-of-range",
+   "time": "",
+   "endTime": "",
+   "venue": "Laurel Historical Society and Museum",
+   "address": "817 Main Street, Laurel, MD 20707",
+   "city": "Laurel",
+   "state": "MD",
+   "lat": 39.1097261,
+   "lng": -76.8571259,
+   "description": "Beyond the 4th: Stories of Laurel’s Freedom Celebrations explores how Laurel has celebrated independence and freedom, from the 1876 Centennial to the 1976 Bicentennial and beyond. Alongside Laurel’s patriotic traditions, the exhibit also shines a light on celebrations that reflect the community’s broader understandings of liberty, including Emancipation Day, Juneteenth, Laurel Pride, and Hispanic Heritage Month. Through artifacts, photographs, and personal stories, we invite you to discover how Laurel has come together to honor freedom and community. OPEN WITH FREE ADMISSION: February 15, 2026 to December 20, 2026 FRIDAY TO SUNDAY 12:00 to 4:00 PM",
+   "categories": "History & Heritage",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "Free"
   },
   {
    "source": "Visit Loudoun",
@@ -4224,6 +4930,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Field Work Fridays",
+   "url": "https://www.aacounty.org/field-work-fridays",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Fort Tour",
    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
    "dates": [
@@ -4560,6 +5289,29 @@
    "admission": "$15 General Admission. $12 for Historic Annapolis members and Military."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Jug Bay Halloween Critter Crawl",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/jug-bay-halloween-critter-crawl",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Jug Bay Wetlands Sanctuary",
+   "address": "1361 Wrighton Rd, Lothian, MD 20711",
+   "city": "Lothian",
+   "state": "MD",
+   "lat": 38.7916902,
+   "lng": -76.6695908,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Legends & Lore",
@@ -4580,6 +5332,28 @@
    "categories": "Holiday Events, Tours, Downtown Frederick",
    "recurrence": "",
    "admission": "$35 per person"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Life, Liberty, Loudoun! Revolutionary Stories",
+   "url": "https://www.visitloudoun.org/event/life-liberty-loudoun!-revolutionary-stories/50912/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "next",
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Loudoun Museum",
+   "address": "16 Loudoun St., SW, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.114759,
+   "lng": -77.5664745,
+   "description": "During the Revolutionary Era Loudoun County was home to a diverse population, including statesmen, soldiers, farmers, enslaved and free Black people, women, preachers, and others who made an impact and altered the nation’s history. This exhibit will explore the different perspectives of those residing in Loudoun County during the time of the American Revolution and how they experienced the era in different and sometimes conflicting ways.",
+   "categories": "Family-Friendly, History, VA 250th Events",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "FREE"
   },
   {
    "source": "Montgomery Parks",
@@ -4869,6 +5643,28 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Oatlands Historic House - Mansion Tour",
+   "url": "https://www.visitloudoun.org/event/oatlands-historic-house-mansion-tour/44441/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "next",
+   "time": "10:00",
+   "endTime": "17:00",
+   "venue": "Oatlands Historic House and Gardens",
+   "address": "20850 Oatlands Plantation Ln, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.0409193,
+   "lng": -77.6173988,
+   "description": "The 1804 mansion at Oatlands Historic House & Gardens is available for walk-in tours every Friday, Saturday and Sunday at 11am, 1pm, and 3pm. The cost is $20/person and includes access to the grounds. Guests not wanting to visit the house can purchase a $10/person Grounds Pass.",
+   "categories": "History",
+   "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
+   "admission": "Tours $20/person, Grounds Pass $10/person"
   },
   {
    "source": "Visit Loudoun",
@@ -5456,6 +6252,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "606 Run Club (Saturday)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "07:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Saturday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "A BOOtanical Halloween Scavenger Hunt!",
    "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
    "dates": [
@@ -5589,6 +6408,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Anacostia parkrun",
+   "url": "https://www.parkrun.us/anacostia/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Anacostia Park",
+   "address": "1500 Anacostia Dr, Washington, DC 20020",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8631449,
+   "lng": -76.9837074,
+   "description": "Free weekly 5k run/walk in Anacostia Park, every Saturday at 9:00am.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Arlington Courthouse Farmers Market",
    "url": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Parks-Events/Arlington-Market",
    "dates": [
@@ -5698,6 +6540,29 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Oct 31, 2026 at 10:00 AM",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "B&A Trail parkrun (free 5K)",
+   "url": "https://www.parkrun.us/baltimoreandannapolistrail/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Baltimore and Annapolis Trail parkrun",
+   "address": "8120 Jumpers Hole Rd, Pasadena, MD 21122",
+   "city": "Pasadena",
+   "state": "MD",
+   "lat": 39.1224343,
+   "lng": -76.5894435,
+   "description": "Free weekly timed 5K on the B&A Trail off Jumpers Hole Road. Register once with parkrun.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -5947,6 +6812,29 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "College Park parkrun",
+   "url": "https://www.parkrun.us/collegepark/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Paint Branch Trail",
+   "address": "4289 Metzerott Road, College Park, MD 20740",
+   "city": "College Park",
+   "state": "MD",
+   "lat": 39.0024368,
+   "lng": -76.9654177,
+   "description": "Free weekly 5k run/walk on the Paint Branch Trail, every Saturday at 9:00am.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -6258,6 +7146,29 @@
    "lng": -77.3319079,
    "description": "Join our rangers around the campfire to roast some s'mores, eat some sweets, and listen for spirits while learning about the native wildlife and the seasonal lore that has sprung up around them. Location: Aquia Picnic Area",
    "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fletcher's Cove parkrun",
+   "url": "https://www.parkrun.us/fletcherscove/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Fletcher's Cove",
+   "address": "4940 Canal Road NW, Washington, DC 20007",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9191377,
+   "lng": -77.1019852,
+   "description": "Free weekly 5k run/walk on the C&O Canal towpath, every Saturday at 9:00am.",
+   "categories": "fitness",
    "recurrence": "",
    "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
@@ -7136,6 +8047,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Kensington parkrun",
+   "url": "https://www.parkrun.us/kensington/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Rock Creek Trail at Beach Drive",
+   "address": "Beach Dr and Cedar Ln, Bethesda, MD 20814",
+   "city": "Bethesda",
+   "state": "MD",
+   "lat": 39.0056711,
+   "lng": -77.1002294,
+   "description": "Free weekly 5k run/walk on the Rock Creek Trail, every Saturday at 9:00am.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Korean War Veterans Memorial:: Meet at Korean War Veterans Memorial Kiosk",
    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD",
    "dates": [
@@ -7969,6 +8903,29 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Roosevelt Island DC parkrun",
+   "url": "https://www.parkrun.us/rooseveltislanddc/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Theodore Roosevelt Island",
+   "address": "George Washington Memorial Parkway, Arlington, VA 22211",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.89541,
+   "lng": -77.0622019,
+   "description": "Free weekly 5k run/walk on Roosevelt Island, every Saturday at 9:00am.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Salute the Sunset: United States Air Force Band Airmen of Note Septet",
@@ -8012,6 +8969,29 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Saturday Farmers Market",
+   "url": "https://marylandsbest.maryland.gov/producers/anne-arundel-county-farmers-market/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "07:00",
+   "endTime": "12:00",
+   "venue": "Anne Arundel County Farmers' Market",
+   "address": "50 Harry S. Truman Parkway, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9789018,
+   "lng": -76.5555627,
+   "description": "Saturday market at Riva Road and Harry S Truman Parkway, April 4 - December 31, 2026.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Fairfax",
@@ -8391,6 +9371,29 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Unwanted Uproot",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/unwanted-uproot",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Fort Smallwood Park",
+   "address": "1100 Fort Smallwood Rd, Pasadena, MD 21122",
+   "city": "Pasadena",
+   "state": "MD",
+   "lat": 39.1435784,
+   "lng": -76.5254979,
+   "description": "",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "USSSA- Mike Campbell",
@@ -8459,6 +9462,28 @@
    "admission": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Weekend Brunch at Makers Union",
+   "url": "https://www.fxva.com/event/weekend-brunch-at-makers-union/43148/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "next-of-range",
+   "time": "",
+   "endTime": "",
+   "venue": "Makers Union",
+   "address": "1811 Library St, Reston, VA 20190",
+   "city": "Reston",
+   "state": "VA",
+   "lat": 38.9583373,
+   "lng": -77.3584834,
+   "description": "Join us for Makers Union Family-Style Weekend Brunch with \"Endless\" Mimosas. Enjoy Makers Union favorites, like our Maryland Crab Eggs Benedict, Warren's Fine Fried Chicken & Waffles and Cornflake Crusted French Toast, alongside our \"Endless\" Mimosas.",
+   "categories": "Family Friendly, Food and Drink",
+   "recurrence": "Recurring weekly on Sunday, Saturday",
+   "admission": "0"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "World War II Memorial- Look for the Ranger",
@@ -8502,6 +9527,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Zumba® for Breast Cancer Awareness",
+   "url": "https://www.pwcva.gov/events/zumbar-breast-cancer-awareness",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:15",
+   "endTime": "",
+   "venue": "Prince William County Parks & Recreation",
+   "address": "14715 Bristow Rd, Manassas, VA 20112",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.6365079,
+   "lng": -77.4348195,
+   "description": "Location: 13025 Chinn Park Dr, Woodbridge, VA",
+   "categories": "fitness, fitness_class",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "FindLocal",
@@ -8864,6 +9912,29 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Church of the Long Run",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "07:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Group run/walk on the B&A Trail behind Naval Bagels in Arnold, 2 to 10 miles, no one left behind.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Crack The Sky",
@@ -8930,6 +10001,28 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Dyke Marsh Sunday Morning Bird Walks",
+   "url": "https://www.fxva.com/event/dyke-marsh-sunday-morning-bird-walks/17970/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "next",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Dyke Marsh",
+   "address": "6401 George Washington Memorial Parkway, Alexandria, VA 22307",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.7808203,
+   "lng": -77.0538953,
+   "description": "Friends of Dyke Marsh organizers lead bird walks every Sunday morning. Meet at 8 a.m. in the south parking lot of the Belle Haven picnic area. Walks are led by experienced birders and everyone is welcome to join us.",
+   "categories": "Nature & Outdoors, Free",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": "Free"
   },
   {
    "source": "FindLocal",
@@ -9178,6 +10271,28 @@
    "recurrence": "",
    "admission": "Free",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Holiday Arts + Crafts Market",
+   "url": "https://www.experienceprincegeorges.com/event/holiday-arts-%2b-crafts-market/30365/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "next",
+   "time": "10:00",
+   "endTime": "14:00",
+   "venue": "",
+   "address": "14900 Health Center dr., bowie, MD 20716",
+   "city": "bowie",
+   "state": "MD",
+   "lat": 38.9470166,
+   "lng": -76.7410188,
+   "description": "The City of Bowie invites you to the Holiday Arts + Crafts Market on Saturday, November 15, 2025, from 10 a.m.to 2 p.m. at the Bowie Senior Center . Admission is free and open to all ages. Shop unique handmade works from local artisans and crafters, featuring jewelry, pottery, textiles, glass, photography, baked goods, wood, wreaths, and more. Proceeds from vendor fees support the City of Bowie Arts Scholarship program for graduating seniors pursuing art-related degrees. Vendors: If you would like to be a vendor, please complete this form . Applications are open until October 24 . For questions, email Allyssa Jarrett at community@cityofbowie.org or call 240-695-2643.",
+   "categories": "General",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
   },
   {
    "source": "Visit Annapolis",
@@ -9742,6 +10857,51 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Sunday Farmers Market",
+   "url": "https://marylandsbest.maryland.gov/producers/anne-arundel-county-farmers-market/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "12:00",
+   "venue": "Anne Arundel County Farmers' Market",
+   "address": "50 Harry S. Truman Parkway, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9789018,
+   "lng": -76.5555627,
+   "description": "Sunday market at Riva Road and Harry S Truman Parkway, year-round.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Sunday Jazz Brunch at Neutral Ground Bar and Kitchen",
+   "url": "https://www.fxva.com/event/sunday-jazz-brunch-at-neutral-ground-bar-and-kitchen/44348/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "next",
+   "time": "10:00",
+   "endTime": "15:00",
+   "venue": "Neutral Ground Bar and Kitchen",
+   "address": "6641 Old Dominion Dr, McLean, VA 22101",
+   "city": "McLean",
+   "state": "VA",
+   "lat": 38.9309856,
+   "lng": -77.1734324,
+   "description": "Sunday Brunch is hitting all the right notes with Jazz Brunch! Strike up the LIVE band and raise your glass! It is a perfect harmony of flavors, spirits, and tunes to create the ultimate Sunday. Featuring the acclaimed Les Quatre Boulevardiers, your Sunday Brunch is about to get a whole lot cooler. Derek Brock brings his New Orleans-inspired guitar magic, while multi-instrumentalist James Key switches effortlessly between Django-style guitar and upright bass. Keeping the groove steady is someone we all know from the neighborhood, Pete Walby, whose drumming has graced stages everywhere from Blues Alley to the Kennedy Center. Injecting a soulful sound, veteran upright bass player Jim Scotti keeps us grounded with our tunes. Pair their sophisticated sounds with some new cocktails that are a nod to the 60s era and signature Southern brunch dishes. From a \"Swoonata\" cocktail that brings you back to the days of Frank Sinatra to our Sunday session, awaits your visit to transform brunch into an experience that feeds the body and soul. Reservations recommended",
+   "categories": "Food and Drink, Live Music/Concerts",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Sunset Cruise",
@@ -9785,6 +10945,28 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": ""
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "The Big Chess Social @ Mixt Foodhall",
+   "url": "https://www.experienceprincegeorges.com/event/the-big-chess-social-%40-mixt-foodhall/30117/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "next",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "miXt Food Hall",
+   "address": "3809 Rhode Island Ave, Brentwood, MD 20722 ",
+   "city": "",
+   "state": "MD",
+   "lat": 38.9390255,
+   "lng": -76.95519960000001,
+   "description": "Every Sunday meet us at the Mixt Food Hall. Enjoy a friendly game of chess. Good food & drinks. Good Music Vibes. Meet new people and power network. Plenty of tables in lower level and loft Support of food vendors & bar encouraged Chess sets available All ages welcome (16 and under must be accompanied by an adult) Free parking in Mixt food hall & Bunker Hill Fire Station Comm",
+   "categories": "General",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -9831,6 +11013,28 @@
    "recurrence": "",
    "admission": "",
    "outdoorHint": ""
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "The Greenbelt Farmers Market",
+   "url": "https://www.experienceprincegeorges.com/event/the-greenbelt-farmers-market/30363/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "next",
+   "time": "10:00",
+   "endTime": "14:00",
+   "venue": "",
+   "address": "25 Crescent Road, Greenbelt, MD 20770",
+   "city": "Greenbelt",
+   "state": "MD",
+   "lat": 39.0005129,
+   "lng": -76.8774668,
+   "description": "The Greenbelt Farmers Market is proud to bring a fantastic mix of local vendors to Roosevelt Center in Old Greenbelt. Our vendors will be offering produce, pasture-raised meats, sustainable seafood, soaps, ice cream, breads and baked goods, mushrooms, flowers, bedding plants, vegetable and herb plant starts, honey, coffee, wine, beer, baked desserts, and prepared entrees and sides, both frozen and hot. Not all vendors attend each week, and the information listed below is subject to change. For up-to-date information sign up for our weekly customer newsletter .",
+   "categories": "Food & Drink",
+   "recurrence": "Recurring weekly on Sunday",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -10123,6 +11327,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "606 Run Club (5-mile group run)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "06:06",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Weekday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -10165,6 +11392,29 @@
    "categories": "parks, nature_program",
    "recurrence": "",
    "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Family Nature Walk",
+   "url": "https://www.aacounty.org/recreation-parks/parks/parks-calendar/family-nature-walk-0",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Fort Smallwood Park",
+   "address": "1100 Fort Smallwood Rd, Pasadena, MD 21122",
+   "city": "Pasadena",
+   "state": "MD",
+   "lat": 39.1435784,
+   "lng": -76.5254979,
+   "description": "",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
@@ -10258,6 +11508,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Peake Social Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "5K or shorter fun run/walk from Chessie's Wharf in West Annapolis; all paces.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Ranger Led Garden Tour",
    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
    "dates": [
@@ -10345,6 +11618,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "606 Run Club (5-mile group run)",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "06:06",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "Weekday 5-mile run from City Dock around USNA and downtown Annapolis.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -10413,6 +11709,29 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "DC Pop-Up & Wellness Essentials Presents: Tuesday Evening Qigong",
+   "url": "https://theparksdc.com/event/dc-pop-up-presents-tuesday-evening-qigong/",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "The Parks at Walter Reed",
+   "address": "1010 Butternut St NW, Washington, DC 20012",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9735732,
+   "lng": -77.02763759999999,
+   "description": "Evening QiGong at The DC Pop-Up on Tuesdays in November",
+   "categories": "fitness, class",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Glory of Fall Garden Tour",
@@ -10433,6 +11752,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Infant/Toddler Hike",
+   "url": "https://www.aacounty.org/recreation-parks/parks/park-calendar/infant-toddler-hike",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Quiet Waters Park",
+   "address": "600 Quiet Waters Park Rd, Annapolis, MD 21403",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9449013,
+   "lng": -76.4948885,
+   "description": "",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -10570,6 +11912,29 @@
   {
    "source": "FindLocal",
    "siteCounty": "",
+   "title": "Steady Strides Run Club",
+   "url": "https://www.annapolisstriders.org/local-group-runs/",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Annapolis Striders",
+   "address": "City Dock, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775941,
+   "lng": -76.4858178,
+   "description": "All-paces run around the Navy-Marine Corps Memorial Stadium path; meets near Cedar Park Road parking.",
+   "categories": "fitness",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
    "title": "Tai Chi at the Lily Pond",
    "url": "https://tregaron.org/",
    "dates": [
@@ -10592,7 +11957,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T04:23:09.742Z",
+  "generatedAt": "2026-10-26T13:21:20.197Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -10617,7 +11982,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 643
+    "ms": 1001
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -10625,15 +11990,15 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 27682
+    "ms": 32792
    },
    "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2003
+    "ok": false,
+    "status": "PARTIAL — time limit reached",
+    "events": 0,
+    "outcome": "Stopped at the 45-second source limit",
+    "error": "Stopped at the 45-second source limit",
+    "ms": 45001
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -10641,7 +12006,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 793
+    "ms": 470
    },
    "National Landing BID": {
     "ok": true,
@@ -10649,7 +12014,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 5031
+    "ms": 6480
    },
    "City of Fairfax": {
     "ok": true,
@@ -10657,7 +12022,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1880
+    "ms": 2055
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -10665,15 +12030,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 11161
+    "ms": 3498
    },
    "Visit Montgomery": {
     "ok": true,
     "status": "EVENTS FOUND — coverage incomplete",
-    "events": 9,
+    "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 24106
+    "ms": 31039
    }
   },
   "count": 64,
@@ -10827,6 +12192,31 @@
     "date": "2026-10-26",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
+   },
+   {
+    "source": "Visit Montgomery",
+    "city": "Damascus",
+    "county": "Montgomery County",
+    "state": "MD",
+    "description": "Welcome to L eech Woods According to Montgomery County historical land records, the present site of Leech Woods was originally settled by Warwick and Jeanne Leech and their six children sometime in early 1790. Having immigrated from Hungary, the family chose Damascus, Maryland, based on its temperate climate and heavily wooded region, which reminded them of their homeland. The Leech family store thrived as the leading local merchant of hides, furs, and hunting supplies. During the disastrous Winter of 1804, the Leech family store was robbed and vandalized by unknown attackers and the body of John Leech, the youngest son, was found nailed to the back wall of the store. The remaining bodies of the family members were later found bludgeoned and bound inside of the root cellar of their homestead. No further information about the attackers or motives for the killings is known. ​ Remnants of the Leech family homestead still stand deep in the woods where the present Leech Woods experience is built. The Leech Woods immersive experience follows the original walking path from the site of the Leech family hunting supply store to the remnants of the original family homestead. As the property was classified as a historical site in 1972, no artifacts may be removed, and we ask that you respect the privacy of the grave sites. What’s new? More Scares. More scenes. More Screams. We added 6 new scenes to the original trail to bring you even more terror. The Horror Hayride also has new scenes added to the 20-minute ride/walk-through. What to expect Leech Woods is a thirty-minute immersive haunted trail experience of dark terror. We promise a night of chainsaws, clowns, and dark corners. When you are done screaming, we offer amazing food and drinks, alcoholic beverages, bonfires, glow-in-the-dark axe-throwing, fire dancers, a DJ booth, fortune telling, and other forms of entertainment every night in the Leech Woods Midway, where Admission Is Free. Trail What is our Trail? Leech Woods is one of the scariest haunted trails in all of Maryland. It’s about a 30-minute walk with now over 15 highly detailed immersive walkthrough scenes, all enhanced this year with even more scares. Plus, our trail has over 50 professionally trained scarers. You can check out our gallery to see photos of our trail and actors. Recommend age: 12+ HORROR HAYRIDE What is the Horror Hayride? The Horror Hayride is a 20-minute ride and walk-through full of brand new, highly detailed, immersive scenes. On this trail, you discover what is believed to be the Leech Woods family cemetery. Limited to 25 victims per trip. Please respect the graves and reserve your seats now. ​ Recommended Age: 12+ Tickets 15% OFF Groups of 5 Or More Use Code “GROUP”",
+    "categories": "",
+    "venue": "Leech Woods",
+    "address": "11201 Bethesda Church Road, Damascus View, Diamond View",
+    "time": "19:00",
+    "endTime": "21:30",
+    "lat": 39.3006965,
+    "lng": -77.2341112,
+    "title": "Leech Woods",
+    "url": "https://visitmontgomery.com/events/leech-woods/",
+    "coverage": true,
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://visitmontgomery.com/events/leech-woods/",
+    "occurrenceTime": "19:00",
+    "dateEvidence": "Publisher explicit schedule",
+    "id": "Visit Montgomery|https://visitmontgomery.com/events/leech-woods/|2026-10-26|19:00|leech woods",
+    "date": "2026-10-26",
+    "confidence": "Publisher explicit schedule",
+    "category": "other"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -11959,30 +13349,6 @@
     "date": "2026-10-31",
     "confidence": "Mount Vernon event page schema.org dates",
     "category": "family"
-   },
-   {
-    "source": "Visit Fredericksburg",
-    "city": "Fredericksburg",
-    "county": "Fredericksburg City",
-    "state": "VA",
-    "categories": "",
-    "venue": "Fredericksburg Church of Christ",
-    "address": "336 Riverside Drive, Fredericksburg, VA 22401",
-    "description": "Fall Festival – Trunk or Treat Event Details Saturday, October 31, 2026 5:30pm - 8:30pm Fredericksburg Church of Christ 336 Riverside Drive, Fredericksburg, VA 22401",
-    "time": "17:30",
-    "endTime": "20:30",
-    "lat": null,
-    "lng": null,
-    "title": "Fall Festival – Trunk or Treat",
-    "url": "https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/",
-    "activityLocation": "Fredericksburg Church of Christ",
-    "dateEvidence": "Visit Fredericksburg event page schedule",
-    "outdoorEvidence": "Event title identifies an outdoor activity",
-    "outdoorEvidenceURL": "https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/",
-    "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/|2026-10-31",
-    "date": "2026-10-31",
-    "confidence": "Visit Fredericksburg event page schedule",
-    "category": "festival"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
