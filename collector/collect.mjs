@@ -663,8 +663,7 @@ async function collectVisitMontgomery(today, windowEnd) {
 export function findLocalLinkKind(e, url) {
   let u; try { u = new URL(url); } catch { return 'venue'; }
   const path = u.pathname.replace(/\/+$/, '').toLowerCase();
-  const root = String(e.root_url || e.venue_url || '').replace(/\/+$/, '').toLowerCase();
-  const generic = (!path && !u.search) || String(url).replace(/\/+$/, '').toLowerCase() === root ||
+  const generic = (!path && !u.search) ||
     (!u.search && /^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path));
   if (generic) return 'venue';
   return url === e.detail_page_url ? 'event' : url === e.ticket_page_url ? 'tickets' : 'venue';

@@ -5045,8 +5045,7 @@ async function collectorReadSource(name){
 function findLocalLinkKind(rec){
  let u;try{u=new URL(rec.url)}catch{return 'venue'}
  const path=u.pathname.replace(/\/+$/,'').toLowerCase();
- const root=String(rec.links?.root_url||rec.links?.venue_url||'').replace(/\/+$/,'').toLowerCase();
- if((!path&&!u.search)||String(rec.url).replace(/\/+$/,'').toLowerCase()===root||
+ if((!path&&!u.search)||
     (!u.search&&/^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path))){
   // When the venue IS the event (a farmers market's or a parkrun's own site),
   // its home page is the right page.
