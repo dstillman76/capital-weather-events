@@ -415,7 +415,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
   // A changed request (radius, categories) is fetched at once, not on schedule.
-  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories;
+  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v2';   // v2 adds venueType/flCategory
   if (state.query !== query) { state.lastFetch = ''; state.query = query; }
   // Refresh as often as the quota allows: with 3 calls per refresh (100-row
   // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
@@ -482,6 +482,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
       description: textOf(e.description).slice(0, 1200),
       categories: [e.category, ...types].filter(Boolean).join(', '),
       recurrence: '', admission: e.price || '',
+      venueType: e.venue_type || '', flCategory: e.category || '',
       outdoorHint: e.venue_type === 'Park & Outdoors' ? 'a Park & Outdoors venue' : types.includes('outdoor_activity') ? 'an outdoor activity' : '',
     });
   }

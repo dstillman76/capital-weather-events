@@ -36,12 +36,14 @@ jobs:
         run: node collector/collect.mjs
       # Second step: run the widget itself headless for the sources that are
       # slow or unreliable in readers' browsers (see collector/README.md).
-      - name: Install headless Chromium
+      - name: Install Playwright (uses the runner's Google Chrome)
         continue-on-error: true
         working-directory: collector
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
         run: |
           npm install --no-save --no-package-lock playwright@1.49.1
-          npx playwright install --with-deps chromium
+          google-chrome --version || npx playwright install --with-deps chromium
       - name: Run widget sources headless
         continue-on-error: true
         run: node collector/screen.mjs

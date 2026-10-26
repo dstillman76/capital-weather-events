@@ -29,7 +29,11 @@ function todayISO() {
 
 async function run() {
   const html = await readFile(WIDGET, 'utf8');
-  const browser = await chromium.launch({args: ['--disable-web-security']});
+  // GitHub's Ubuntu runners come with Google Chrome; using it avoids a slow
+  // browser download. Playwright's own Chromium is the fallback.
+  let browser;
+  try { browser = await chromium.launch({channel: 'chrome', args: ['--disable-web-security']}); }
+  catch { browser = await chromium.launch({args: ['--disable-web-security']}); }
   try {
     const page = await browser.newPage();
     page.on('pageerror', e => console.log('Page error:', e.message));
