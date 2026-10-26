@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v27: Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v28: Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -1006,8 +1006,8 @@ function legacyOutdoorEvidence(e){
  * Market", and programs a nature center runs on its trails or campfire ring.
  * Classes, talks, exhibits and screenings never qualify here. */
 const ACTIVITY_NOT_OUTDOOR=/\b(?:class(?:es)?|workshops?|lectures?|talks?|exhibits?|exhibitions?|crafts?|indoors?|virtual|webinar|online|screenings?|films?|trivia|karaoke|private|dinner cruise|happy hour|seminar|book club|storytime|paint (?:and|&|n.?) sip|haunted house)\b/i;
-const ACTIVITY_OUTDOOR=/\b(?:hikes?|hiking|bird(?:ing)?\s*walks?|birding|bird.?watching|foraging|campfires?|bonfires?|zip.?(?:lines?|tours?)|fishing|crabbing|stargazing|star party|pump track|bike park|mountain bik\w*|trail (?:runs?|rides?)|fun runs?|5k|10k|(?:shoreline|park|stream|trail|creek|river|beach|watershed|litter|community|neighborhood) clean.?ups?|tree planting|pumpkin patch|corn maze|hayrides?|ghost (?:tours?|walks?)|walking tours?|nature walks?|garden (?:walks?|tours?|strolls?)|trick.or.treat(?:ing)?\s+(?:on|along|through|down|around)\s+(?:the\s+)?(?:trails?|main street|streets?|boardwalk|neighborhood|[A-Z][\w.]*\s+(?:street|avenue))|farmers?(?:['’]s|s['’])?(?:\s*(?:&|and)\s*\w+)?\s+markets?|(?:sunset|harbor|river|signature|halloween|sightseeing|boat|schooner|sailing)\s+cruises?|cruise.in|pickleball|disc golf)\b/i;
-const TITLE_OUTDOOR=/\b(?:outdoors?|open.air|rooftop|under the stars|in the (?:park|vineyards?|woods|meadow|orchard)|on the (?:lawn|green|plaza|pier|trails?|waterfront|boardwalk)|in nature)\b/i;
+const ACTIVITY_OUTDOOR=/\b(?:hikes?|hiking|bird(?:ing)?\s*walks?|birding|bird.?watching|foraging|campfires?|bonfires?|s['’]?mores|forest bathing|shinrin.yoku|trail (?:walks?|buddies|explorers?)|zip.?(?:lines?|tours?)|fishing|crabbing|stargazing|star party|pump track|bike park|mountain bik\w*|trail (?:runs?|rides?)|fun runs?|5k|10k|(?:shoreline|park|stream|trail|creek|river|beach|watershed|litter|community|neighborhood) clean.?ups?|tree planting|pumpkin patch|corn maze|hayrides?|ghost (?:tours?|walks?)|walking tours?|nature walks?|garden (?:walks?|tours?|strolls?)|trick.or.treat(?:ing)?\s+(?:on|along|through|down|around)\s+(?:the\s+)?(?:trails?|main street|streets?|boardwalk|neighborhood|[A-Z][\w.]*\s+(?:street|avenue))|farmers?(?:['’]s|s['’])?(?:\s*(?:&|and)\s*\w+)?\s+markets?|(?:sunset|harbor|river|signature|halloween|sightseeing|boat|schooner|sailing)\s+cruises?|cruise.in|pickleball|disc golf)\b/i;
+const TITLE_OUTDOOR=/\b(?:outdoors?|outside(?! the box)|open.air|rooftop|under the stars|in the (?:park|vineyards?|woods|meadow|orchard)|on the (?:lawn|green|plaza|pier|trails?|waterfront|boardwalk)|in nature)\b/i;
 function activityEvidence(e){
  if(outdoorDenial(e))return '';
  const title=decodeEventText(clean(e.title||'')),venue=clean(e.venue||'');
@@ -3463,10 +3463,11 @@ async function loadCoverageSource(source){
  const fields=source.coverage==='geodir'?'id,title.rendered,link,content.rendered,start_datetime.raw,end_datetime.raw,schedule_id,place,street,city,region,latitude,longitude':
  'id,title.rendered,link,acf.market.individual_banner,acf.market.banner,acf.market.address,acf.market.location_notes,acf.market.open_date,acf.market.close_date,acf.market.day,acf.market.open_time,acf.market.close_time,acf.market.day_2,acf.market.open_time_2,acf.market.close_time_2,acf.market.about_content.text,acf.market.optional_date_range_text';
  const periods=source.coverage==='geodir'?['today','next_7_days']:[''];
- const pageSize=source.coverage==='markets'?100:50,maxPages=3;
+ // v28: the daily collector has time to read every GeoDirectory page.
+ const pageSize=source.coverage==='markets'?100:50,maxPages=source.coverage==='geodir'&&COLLECT_MODE?10:3;
  for(const period of periods){
   for(let page=1;page<=maxPages;page++){
-   if(report.requests>=(source.coverage==='geodir'?5:4)){report.limited=true;break}
+   if(report.requests>=(source.coverage==='geodir'?(COLLECT_MODE?24:5):4)){report.limited=true;break}
    const params=source.coverage==='georgetown'?new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days.at(-1)+' 23:59:59'}):
     new URLSearchParams({per_page:String(pageSize),page:String(page),_fields:fields});
    if(period){params.set('event_type',period);params.set('single_event','false')}

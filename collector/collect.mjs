@@ -331,6 +331,13 @@ async function collectSimpleview(src, cache, today, windowEnd) {
 // robots.txt, so the collector uses its public events sitemaps and event pages
 // instead. Each page states "Time:" (date or date range, clock range) and
 // "Location:" (venue, street, town).
+// "5100 Meadowside Lane, Rockville, Maryland 20855": Montgomery Parks spells
+// the state out, which the older two-letter pattern missed (no city was set).
+const STATE_ABBR = {maryland: 'MD', virginia: 'VA', 'district of columbia': 'DC', md: 'MD', va: 'VA', dc: 'DC'};
+export function cityStateOf(addr) {
+  const m = String(addr || '').match(/,\s*([^,]+?),\s*(MD|DC|VA|Maryland|Virginia|District of Columbia)\b/i);
+  return m ? [m[0], m[1], STATE_ABBR[m[2].toLowerCase()]] : null;
+}
 export function parseMontgomeryParksPage(html, url, src) {
   const block = (cls) => (html.match(new RegExp('<div class="' + cls + '">([\\s\\S]*?)<\\/div>')) || [])[1] || '';
   const dateText = textOf(block('date')), timeText = textOf(block('time'));
@@ -348,7 +355,7 @@ export function parseMontgomeryParksPage(html, url, src) {
   // Some pages give only the park name, with no address paragraph after it.
   const venue = textOf((locHTML.match(/<div>([\s\S]*?)(?:<\/div>|<p>|$)/) || [])[1] || '');
   const addr = textOf(((locHTML.match(/<p>([\s\S]*?)<\/p>/) || [])[1] || '').replace(/<br\s*\/?>/gi, ', '));
-  const csz = addr.match(/,\s*([^,]+),\s*(MD|DC|VA)\b/);
+  const csz = cityStateOf(addr);
   const og = (html.match(/property="og:description" content="([^"]*)"/) || [])[1] || '';
   return {
     source: src.name, siteCounty: src.county, title, url, dates, dateKind: kind,
@@ -397,7 +404,11 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
   report.refused = site.refused;
   report.cached = Object.values(store).filter(x => x.record).length;
   const records = Object.values(store).filter(x => x.record)
-    .map(({record}) => ({...record, dates: record.dates.filter(d => d >= today && d <= windowEnd)})).filter(r => r.dates.length);
+    .map(({record}) => {
+      // Pages cached before the city fix are corrected here without re-opening them.
+      const csz = !record.city && cityStateOf(record.address);
+      return {...record, ...(csz ? {city: csz[1].trim(), state: csz[2]} : {}), dates: record.dates.filter(d => d >= today && d <= windowEnd)};
+    }).filter(r => r.dates.length);
   report.inWindow = records.length;
   if (report.status === 'ok' && report.pending) { report.status = 'partial'; report.note = `${report.pending} event pages still to open; later runs continue from the cache.`; }
   return {report, records};
