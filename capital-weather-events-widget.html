@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v28: Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v29: Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -28,13 +28,13 @@
   <div class="cwe-controls">
     <div class="cwe-days" role="group" aria-label="Event day">
       <button type="button" class="active" data-day="0">Today</button>
-      <button type="button" data-day="weekend">Weekend</button>
       <button type="button" data-day="1">Tomorrow</button>
       <button type="button" data-day="2" id="cwe-day-2"></button>
       <button type="button" data-day="3" id="cwe-day-3"></button>
       <button type="button" data-day="4" id="cwe-day-4"></button>
       <button type="button" data-day="5" id="cwe-day-5"></button>
       <button type="button" data-day="6" id="cwe-day-6"></button>
+      <button type="button" data-day="weekend">Weekend</button>
     </div>
     <select id="cwe-type" aria-label="Event type">
       <option value="">All event types</option>
@@ -958,7 +958,7 @@ const LEGACY_TOURISM_SOURCES=new Set([
  'Town of Purcellville','City of Annapolis','City of College Park','City of Frederick','City of Laurel',
  'NOVA Parks','Fairfax County Park Authority','Montgomery Parks','NPS DC-area parks',
  'National Landing BID','City of Fairfax','George Washington’s Mount Vernon','FindLocal',
- 'Mosaic District','Union Market District','The Boro Tysons','One Loudoun'
+ 'Mosaic District','Union Market District','The Boro Tysons','One Loudoun','Patch'
 ]);
 function legacyOutdoorEvidence(e){
  if(!LEGACY_TOURISM_SOURCES.has(e.source)||outdoorDenial(e))return '';
@@ -2708,9 +2708,11 @@ function render(){
   const source=el('div','cwe-source','Source: ');
   if(e.viaFindLocal){
    // FindLocal's free plan requires a visible link back wherever its data appears.
-   source.append(e.url?link((e.venue||'Event page')+' ↗',e.url):el('span','',e.venue||''));
-   source.append(document.createTextNode(' · '));
-   source.append(link('Event data by FindLocal','https://findlocal.community'));
+   // "Source: Widewater State Park ↗ (via FindLocal)"
+   source.append(e.url?link((e.venue||'Event page')+' ↗',e.url):el('span','',e.venue||'Event page'));
+   source.append(document.createTextNode(' (via '));
+   source.append(link('FindLocal','https://findlocal.community/'));
+   source.append(document.createTextNode(')'));
   }else if(e.url)source.append(link(e.source+' ↗',e.url));
   else source.append(el('span','',e.source));
   const footer=el('div','cwe-footer');

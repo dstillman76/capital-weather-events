@@ -414,6 +414,174 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
   return {report, records};
 }
 
+/* ---------- Fairfax County Park Authority: Parktakes ---------- */
+
+// The Park Authority's public events page shows only ~20 featured events a
+// week; its nature, farm, garden and history programs (bird walks, campfires,
+// hayrides at Frying Pan Farm Park in Herndon…) are listed in Parktakes, the
+// registration catalog. The collector reads the catalog's categories that hold
+// outdoor-leaning programs and keeps one-day sessions in the window. Multi-week
+// series are classes and are skipped. Every session still goes through the
+// widget's outdoor checks.
+const PARKTAKES = {
+  name: 'Fairfax County Park Authority', county: 'Fairfax County', state: 'VA',
+  base: 'https://fairfax.usedirect.com/FairfaxFCPAWeb/ACTIVITIES/',
+  categories: ['NATURE', 'FARM', 'GARDEN', 'OUTDOOR RECREATION', 'HISTORY', 'EVENTS', 'TICKETED EVENTS', 'TRIPS AND TOURS', 'FARMERS MARKETS', 'SPECIAL PROGRAMS'],
+  maxPagesPerCategory: 12,
+};
+// Park → town, for the widget's city list (the catalog gives only the park).
+const FCPA_TOWNS = [
+  [/frying pan/i, 'Herndon'], [/lake fairfax|stratton woods|lake anne/i, 'Reston'], [/burke lake/i, 'Fairfax Station'],
+  [/lake accotink|hidden pond|south run|franconia|nottoway|lee district|kings park/i, 'Springfield'],
+  [/hidden oaks|wakefield|mason district|annandale/i, 'Annandale'], [/huntley meadows|green spring|historic huntley|mount vernon recenter|grist|hollin/i, 'Alexandria'],
+  [/riverbend|colvin run|turner farm|great falls/i, 'Great Falls'], [/ellanor c\.? lawrence|e\.?c\.? lawrence|sully|cub run|walney/i, 'Chantilly'],
+  [/clemyjontri|scott.?s run|spring hill|lewinsville|mclean/i, 'McLean'], [/oak marr|oakton/i, 'Oakton'], [/laurel hill|lorton|pohick/i, 'Lorton'],
+  [/lake mercer|fountainhead|hemlock overlook/i, 'Clifton'], [/elklick|centreville/i, 'Centreville'], [/kidwell|frying/i, 'Herndon'],
+  [/providence|nottoway/i, 'Vienna'], [/mclean central/i, 'McLean'],
+];
+function fcpaTown(place) { for (const [re, town] of FCPA_TOWNS) if (re.test(place)) return town; return ''; }
+export function parseParktakesPage(html) {
+  const activities = [];
+  for (const chunk of html.split(/<h2 class="FindTour page_title" title="/).slice(1)) {
+    const title = decode(chunk.slice(0, chunk.indexOf('"')));
+    const description = textOf((chunk.match(/<div class="description">([\s\S]*?)<\/div>/) || [])[1] || '');
+    const sessions = [];
+    for (const row of chunk.matchAll(/<tr class="[^"]*">([\s\S]*?)<\/tr>/g)) {
+      const cell = label => textOf((row[1].match(new RegExp('data-label="' + label + '"[^>]*>([\\s\\S]*?)<\\/td>')) || [])[1] || '');
+      const schedule = cell('Schedule'), id = (row[1].match(/Details\.aspx\?session_id=(\d+)/) || [])[1];
+      const m = schedule.match(/(\d\d\/\d\d\/20\d\d)\s*-\s*(\d\d\/\d\d\/20\d\d)\s+([A-Za-z, ]+?)\s*:\s*(.+)$/);
+      if (!m || !id) continue;
+      const a = parseUSDate(m[1]), b = parseUSDate(m[2]);
+      const t = parseTimeRange(m[4]);
+      sessions.push({id, place: cell('Place'), start: a, end: b, time: t.start, endTime: t.end});
+    }
+    activities.push({title, description, sessions});
+  }
+  const pages = +((html.match(/page\s+\d+\s+Of\s+(\d+)/i) || [])[1] || 1);
+  return {activities, pages, hasNext: /__doPostBack\(&#39;ctl01\$mainContent\$bNext&#39;|__doPostBack\('ctl01\$mainContent\$bNext'/.test(html)};
+}
+function aspFormFields(html) {
+  const form = (html.match(/<form[^>]*id="form1"[\s\S]*?<\/form>/) || html.match(/<form[\s\S]*?<\/form>/) || [html])[0];
+  const fields = new URLSearchParams();
+  for (const m of form.matchAll(/<input\b([^>]*)>/gi)) {
+    const attr = n => (m[1].match(new RegExp('\\b' + n + '="([^"]*)"', 'i')) || [])[1];
+    const name = attr('name'), type = (attr('type') || 'text').toLowerCase();
+    if (!name || ['submit', 'button', 'image', 'file'].includes(type) || (['checkbox', 'radio'].includes(type) && !/\bchecked\b/i.test(m[1]))) continue;
+    fields.set(decode(name), decode(attr('value') || ''));
+  }
+  for (const m of form.matchAll(/<select\b[^>]*name="([^"]+)"[^>]*>([\s\S]*?)<\/select>/gi)) {
+    const sel = (m[2].match(/<option[^>]*selected[^>]*value="([^"]*)"/i) || m[2].match(/<option[^>]*value="([^"]*)"/i) || [])[1];
+    if (sel != null) fields.set(decode(m[1]), decode(sel));
+  }
+  return fields;
+}
+async function collectParktakes(today, windowEnd) {
+  const src = PARKTAKES;
+  const report = {source: src.name + ' (Parktakes)', recordSource: src.name, kind: 'catalog', status: 'ok', pages: 0, activities: 0, sessions: 0, inWindow: 0, errors: 0, note: ''};
+  let cookie = '', last = 0;
+  const req = async (url, body) => {
+    const wait = last + 2500 - Date.now(); if (wait > 0) await sleep(wait); last = Date.now();
+    const res = await fetch(url, {method: body ? 'POST' : 'GET', body, redirect: 'follow', signal: AbortSignal.timeout(60000),
+      headers: {'user-agent': UA, 'accept-language': 'en-US', ...(cookie ? {cookie} : {}), ...(body ? {'content-type': 'application/x-www-form-urlencoded', referer: url} : {})}});
+    const set = res.headers.getSetCookie?.() || [];
+    if (set.length) { const jar = new Map(cookie.split('; ').filter(Boolean).map(c => c.split(/=(.*)/s).slice(0, 2))); for (const c of set) { const [kv] = c.split(';'); const [k, v] = kv.split(/=(.*)/s); jar.set(k.trim(), v); } cookie = [...jar].map(([k, v]) => k + '=' + v).join('; '); }
+    if (res.status === 401 || res.status === 403) throw Object.assign(Error('HTTP ' + res.status + ' (publisher refused)'), {refused: true});
+    if (!res.ok) throw Error('HTTP ' + res.status);
+    return res.text();
+  };
+  const records = new Map();
+  for (const cat of src.categories) {
+    const url = src.base + 'Search.aspx?category_name=' + encodeURIComponent(cat);
+    let html;
+    try { html = await req(url); } catch (e) { report.errors++; if (e.refused) { report.status = 'blocked'; report.note = e.message + '; stopped. Not bypassed.'; break; } continue; }
+    for (let page = 1; page <= src.maxPagesPerCategory; page++) {
+      const parsed = parseParktakesPage(html);
+      report.pages++; report.activities += parsed.activities.length;
+      for (const a of parsed.activities) for (const s of a.sessions) {
+        report.sessions++;
+        if (!s.start || s.start !== s.end || s.start < today || s.start > windowEnd) continue;
+        const key = s.id;
+        if (records.has(key)) continue;
+        records.set(key, {
+          source: src.name, siteCounty: src.county, title: a.title.replace(/\s*\((?:\d+|all ages)[^)]*\)\s*$/i, ''), url: src.base + 'Details.aspx?session_id=' + s.id,
+          dates: [s.start], dateKind: 'single', time: s.time, endTime: s.endTime, venue: s.place, address: '', city: fcpaTown(s.place), state: 'VA',
+          lat: null, lng: null, description: a.description.slice(0, 1500), categories: 'Parktakes: ' + cat.toLowerCase(), recurrence: '', admission: '',
+        });
+      }
+      if (page >= parsed.pages || !parsed.hasNext) break;
+      try { html = await req(url, (() => { const f = aspFormFields(html); f.set('__EVENTTARGET', 'ctl01$mainContent$bNext'); f.set('__EVENTARGUMENT', ''); return f.toString(); })()); }
+      catch (e) { report.errors++; report.note = `${cat}: page ${page + 1} failed (${e.message}). `; break; }
+    }
+  }
+  const out = [...records.values()];
+  report.inWindow = out.length;
+  if (report.status === 'ok' && !report.pages) report.status = 'failed';
+  else if (report.status === 'ok' && report.errors) report.status = 'partial';
+  return {report, records: out};
+}
+
+/* ---------- Patch town calendars ---------- */
+
+// Patch's community calendars carry events in towns no other source covers
+// (Gaithersburg, Herndon, Germantown…). Each town page embeds its upcoming
+// events as JSON. robots.txt allows these pages for general crawlers.
+const PATCH_TOWNS = [
+  'maryland/silverspring', 'maryland/gaithersburg', 'maryland/germantown', 'maryland/rockville', 'maryland/kensington', 'maryland/takomapark',
+  'maryland/bethesda-chevychase', 'maryland/olney', 'maryland/columbia', 'maryland/ellicottcity', 'maryland/laurel', 'maryland/bowie',
+  'maryland/annapolis', 'maryland/frederick', 'maryland/waldorf',
+  'virginia/herndon', 'virginia/reston', 'virginia/leesburg', 'virginia/ashburn', 'virginia/mclean', 'virginia/vienna', 'virginia/fairfaxcity',
+  'virginia/burke', 'virginia/springfield', 'virginia/oldtownalexandria', 'virginia/arlington', 'virginia/fallschurch', 'virginia/manassas',
+  'virginia/woodbridge', 'virginia/centreville', 'virginia/greatfalls', 'district-columbia/washingtondc',
+];
+function etDateTime(iso) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23'})
+    .formatToParts(new Date(iso)).map(x => [x.type, x.value]));
+  return {date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}`};
+}
+export function parsePatchCalendar(html, today, windowEnd) {
+  const nd = (html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/) || [])[1];
+  if (!nd) return null;
+  const all = JSON.parse(nd)?.props?.pageProps?.mainContent?.allEvents || {};
+  const out = [];
+  for (const e of Object.values(all).flat()) {
+    if (!e || e.type !== 'event' || e.status !== 1 || e.isSharedNationally || (e.flags && (e.flags.spamCount || e.flags.offensiveCount || e.flags.notLocalCount))) continue;
+    if (!e.displayDate || !e.canonicalUrl) continue;
+    const {date, time} = etDateTime(e.displayDate);
+    if (date < today || date > windowEnd) continue;
+    const a = e.address || {};
+    out.push({
+      id: e.id, source: 'Patch', siteCounty: e.patch?.county?.name || '', title: decode(e.title || ''), url: 'https://patch.com' + e.canonicalUrl,
+      dates: [date], dateKind: 'single', time: time === '00:00' ? '' : time, endTime: '',
+      venue: decode(a.name || ''), address: decode(a.streetAddress || ''), city: decode(a.city || ''), state: ['MD', 'VA', 'DC'].includes(a.region) ? a.region : (e.patch?.region?.abbreviation || ''),
+      lat: Number(a.latitude) || null, lng: Number(a.longitude) || null,
+      description: textOf(e.body || e.summary || '').slice(0, 1500), categories: e.eventType || '', recurrence: '', admission: '',
+    });
+  }
+  return out;
+}
+async function collectPatch(today, windowEnd) {
+  const report = {source: 'Patch', kind: 'town calendars', status: 'ok', towns: 0, missing: [], listings: 0, inWindow: 0, errors: 0, note: ''};
+  const site = new Site('patch.com'); await site.init();
+  const byId = new Map();
+  for (const town of PATCH_TOWNS) {
+    try {
+      const events = parsePatchCalendar(await site.get(`https://patch.com/${town}/calendar`), today, windowEnd);
+      if (!events) { report.missing.push(town); continue; }
+      report.towns++; report.listings += events.length;
+      for (const e of events) if (!byId.has(e.id)) byId.set(e.id, e);
+    } catch (e) {
+      if (e.status === 404) { report.missing.push(town); continue; }
+      report.errors++;
+      if (e.refused) { report.status = 'blocked'; report.note = 'Patch refused requests (HTTP 403); stopped. Not bypassed. '; break; }
+    }
+  }
+  const records = [...byId.values()].map(({id, ...r}) => r);
+  report.inWindow = records.length;
+  if (report.missing.length) report.note += 'No calendar at: ' + report.missing.join(', ') + '. ';
+  if (report.status === 'ok' && !report.towns) report.status = 'failed';
+  return {report, records};
+}
+
 /* ---------- Visit Montgomery ---------- */
 
 // Visit Montgomery's GeoDirectory API often takes 10–60 s a page, longer than
@@ -560,13 +728,15 @@ async function main() {
     ...SIMPLEVIEW.map(src => collectSimpleview(src, cache, today, windowEnd).catch(e => ({report: {source: src.name, status: 'failed', note: e.message}, records: []}))),
     collectMontgomeryParks(cache, today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
     collectVisitMontgomery(today, windowEnd).catch(e => ({report: {source: VISIT_MONTGOMERY.name, status: 'failed', note: e.message}, records: []})),
+    collectParktakes(today, windowEnd).catch(e => ({report: {source: PARKTAKES.name + ' (Parktakes)', status: 'failed', note: e.message}, records: []})),
+    collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
   // in the window), so one bad run does not empty the widget's extra coverage.
   for (const r of results) {
     if (r.records.length || !['failed', 'blocked', 'reused', 'skipped'].includes(r.report.status)) continue;
-    const kept = (previous.events || []).filter(e => e.source === r.report.source)
+    const kept = (previous.events || []).filter(e => e.source === (r.report.recordSource || r.report.source))
       .map(e => ({...e, dates: (e.dates || []).filter(d => d >= today)})).filter(e => e.dates.length);
     if (kept.length) { r.records = kept; r.report.keptPrevious = kept.length; r.report.inWindow = kept.length; }
   }
