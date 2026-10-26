@@ -926,6 +926,8 @@ function outdoorEvidence(e){
  if(/\b(?:live music|performances?|concert)\b[^.!?]{0,100}\bon (?:our|the) patio\b/i.test(d))return 'Live performance takes place on the patio';
  if(/\b(?:collect candy|explore the gardens while gathering treats)\b/i.test(d)&&/\b(?:historic grounds|gardens)\b/i.test(d))return 'The scheduled activity takes place around the grounds or gardens';
  if(/\bexplore a Revolutionary War encampment\b/i.test(d)&&/\blaundry yard\b/i.test(d))return 'Hands-on outdoor encampment activities in tents and the laundry yard';
+ // v23: "a community light procession along the waterfront" (The Wharf).
+ if(/\b(?:procession|parade|march|lantern walk)\b[^.!?]{0,60}\b(?:along|through|down|around)\s+(?:the\s+)?(?:waterfront|riverfront|pier|promenade|boardwalk|wharf|streets?|avenue|neighborhood)\b/i.test(d))return 'Procession or parade along a stated outdoor route';
  // v23: "a leisurely cruise on our pontoon boat on Little Seneca Lake".
  if(/\b(?:pontoon|boat|kayak|canoe)\b[^.!?]{0,80}\b(?:on|along|across)\s+(?:the\s+)?(?:[A-Z][\w'’.-]*\s+){0,3}(?:lake|river|creek|bay|harbor|reservoir|lake)\b/i.test(d))return 'Boat activity on open water';
  if(/\b(?:pontoon|boat) (?:boat )?tour\b[^.!?]{0,120}\b(?:along|on) (?:the )?[^.!?]{0,60}river\b/i.test(d))return 'Boat tour travels along the river';
