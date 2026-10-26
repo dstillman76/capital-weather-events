@@ -42,6 +42,19 @@ const SIMPLEVIEW = [
 ];
 const MONTGOMERY_PARKS = {name: 'Montgomery Parks', host: 'montgomeryparks.org', county: 'Montgomery County', state: 'MD'};
 
+// FindLocal (findlocal.community): an events API built from venues' own
+// calendars. The free plan allows 100 calls a month (hard stop) and requires a
+// visible "Event data by FindLocal" link wherever its events are shown; the
+// widget adds it to each FindLocal card. The key below can be replaced by a
+// GitHub Actions secret named FINDLOCAL_API_KEY, which takes precedence.
+const FINDLOCAL = {
+  key: process.env.FINDLOCAL_API_KEY || 'HsjezkLiGFAcVj8NCMDb7h',
+  // Outdoor-leaning categories only; the widget still screens every event.
+  categories: 'parks,market,festival',
+  maxCallsPerRun: 2,      // 2 a day at most = 62 a month, under the 100 quota
+  keepInReserve: 10,      // never spend the last 10 calls of the month
+};
+
 const started = Date.now();
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const overBudget = () => Date.now() - started > RUN_BUDGET_MS;
@@ -322,7 +335,8 @@ export function parseMontgomeryParksPage(html, url, src) {
   }
   const tr = parseTimeRange(timeText);
   const locHTML = (html.match(/<strong>Location:<\/strong>[\s\S]*?<\/div>\s*([\s\S]*?)<\/div>\s*<\/div>/) || [])[1] || '';
-  const venue = textOf((locHTML.match(/<div>([\s\S]*?)<\/div>/) || [])[1] || '');
+  // Some pages give only the park name, with no address paragraph after it.
+  const venue = textOf((locHTML.match(/<div>([\s\S]*?)(?:<\/div>|<p>|$)/) || [])[1] || '');
   const addr = textOf(((locHTML.match(/<p>([\s\S]*?)<\/p>/) || [])[1] || '').replace(/<br\s*\/?>/gi, ', '));
   const csz = addr.match(/,\s*([^,]+),\s*(MD|DC|VA)\b/);
   const og = (html.match(/property="og:description" content="([^"]*)"/) || [])[1] || '';
@@ -352,7 +366,8 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
   for (const key of Object.keys(store)) if (!urls.has(key)) delete store[key];
   // An event page's own dates never move, so unchanged pages are not re-opened
   // until the weekly refresh.
-  const todo = [...urls].filter(([u, lm]) => !store[u] || (lm && store[u].lastmod !== lm) || Date.now() - store[u].fetched > REFRESH_DAYS * 864e5)
+  const todo = [...urls].filter(([u, lm]) => !store[u] || (lm && store[u].lastmod !== lm) || Date.now() - store[u].fetched > REFRESH_DAYS * 864e5 ||
+      (store[u].record && !store[u].record.venue))   // re-read pages an older parser left without a venue
     .sort((x, y) => (store[x[0]]?.fetched || 0) - (store[y[0]]?.fetched || 0));
   let consecutiveRefusals = 0;
   for (const [url, lastmod] of todo) {
@@ -380,6 +395,67 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
 
 /* ---------- main ---------- */
 
+/* ---------- FindLocal ---------- */
+
+export async function collectFindLocal(cache, today, windowEnd) {
+  const report = {source: 'FindLocal', kind: 'api', status: 'ok', calls: 0, remaining: null, listings: 0, inWindow: 0, skipped: 0, note: ''};
+  const month = today.slice(0, 7);
+  const budget = cache.__findlocal && cache.__findlocal.month === month ? cache.__findlocal : (cache.__findlocal = {month, calls: 0, remaining: null});
+  if (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve) {
+    report.status = 'skipped'; report.note = `Monthly quota nearly spent (${budget.remaining} calls left); waiting for the 1st.`;
+    return {report, records: []};
+  }
+  const rows = [];
+  for (let page = 1; page <= FINDLOCAL.maxCallsPerRun; page++) {
+    const params = new URLSearchParams({city: 'washington', date_from: today, date_to: windowEnd, cat: FINDLOCAL.categories, limit: '500', sort: 'date', page: String(page)});
+    const res = await fetch('https://findlocal.community/api/events?' + params, {
+      headers: {Authorization: 'Bearer ' + FINDLOCAL.key, 'user-agent': UA, accept: 'application/json'},
+      signal: AbortSignal.timeout(30000),
+    });
+    report.calls++; budget.calls++;
+    const left = parseInt(res.headers.get('x-ratelimit-remaining'), 10);
+    if (Number.isFinite(left)) budget.remaining = report.remaining = left;
+    let body = null; try { body = await res.json(); } catch { /* not JSON */ }
+    if (!res.ok) {
+      report.status = 'failed';
+      report.note = `HTTP ${res.status}` + (body && body.error ? `: ${body.error}` : '');
+      if (res.status === 429) budget.remaining = 0;
+      break;
+    }
+    const data = Array.isArray(body && body.data) ? body.data : [];
+    rows.push(...data);
+    const total = Number(body && body.meta && body.meta.total) || 0;
+    if (!data.length || rows.length >= total || (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve)) break;
+  }
+  report.listings = rows.length;
+  const records = [];
+  for (const e of rows) {
+    if (e.is_deleted || /cancel|postpon/i.test(e.status || '')) { report.skipped++; continue; }
+    const start = e.event_date, end = e.end_date || e.event_date;
+    if (!/^\d{4}-\d\d-\d\d$/.test(start || '')) { report.skipped++; continue; }
+    if (daysBetween(start, end) > 3) { report.skipped++; continue; }   // a long run with no daily schedule
+    const dates = rangeDates(start, end).filter(d => d >= today && d <= windowEnd);
+    const url = e.detail_page_url || e.ticket_page_url || e.venue_url;
+    const where = String(e.venue_address || '').match(/,\s*([^,]+?),\s*(DC|MD|VA)\b/);
+    if (!dates.length || !url || !where) { report.skipped++; continue; }
+    const types = Array.isArray(e.event_types) ? e.event_types : [];
+    records.push({
+      source: 'FindLocal', siteCounty: '', title: decode(e.title || '').trim(), url,
+      dates, dateKind: start === end ? 'single' : 'range',
+      time: e.start_time && e.start_time !== '00:00' ? e.start_time : '', endTime: e.end_time || '',
+      venue: decode(e.venue_name || '').trim(), address: decode(e.venue_address || '').trim(),
+      city: where[1].trim(), state: where[2], lat: e.venue_lat ?? null, lng: e.venue_lng ?? null,
+      description: textOf(e.description).slice(0, 2000),
+      categories: [e.category, ...types].filter(Boolean).join(', '),
+      recurrence: '', admission: e.price || '',
+      outdoorHint: e.venue_type === 'Park & Outdoors' ? 'a Park & Outdoors venue' : types.includes('outdoor_activity') ? 'an outdoor activity' : '',
+    });
+  }
+  report.inWindow = records.length;
+  if (report.status === 'ok' && report.remaining !== null) report.note = `${report.calls} call(s) used; ${report.remaining} left this month.`;
+  return {report, records};
+}
+
 async function main() {
   await mkdir(DATA_DIR, {recursive: true});
   let cache = {};
@@ -390,6 +466,7 @@ async function main() {
   const results = await Promise.all([
     ...SIMPLEVIEW.map(src => collectSimpleview(src, cache, today, windowEnd).catch(e => ({report: {source: src.name, status: 'failed', note: e.message}, records: []}))),
     collectMontgomeryParks(cache, today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
+    collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
   // in the window), so one bad run does not empty the widget's extra coverage.

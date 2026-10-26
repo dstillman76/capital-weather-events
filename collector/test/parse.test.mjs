@@ -35,3 +35,5 @@ const m=parseMontgomeryParksPage(mp,'u',{name:'Montgomery Parks',county:'Montgom
 assert.deepEqual(m.dates,['2026-11-03']);assert.equal(m.time,'09:00');assert.equal(m.endTime,'17:00');assert.equal(m.venue,'Wheaton Sports Pavilion');assert.equal(m.city,'Wheaton');assert.equal(m.address,'11751 Orebaugh Avenue, Wheaton, MD 20902');
 const lr=parseMontgomeryParksPage(mp.replace('Tuesday, November 3, 2026','Saturday, September 26, 2026 - Saturday, October 31, 2026'),'u',{name:'x'});assert.deepEqual(lr.dates,[]);assert.equal(lr.dateKind,'long-range');
 console.log('mp ok');
+const mc=parseMontgomeryParksPage(`<h1>McCrillis Gardens Fall Tour</h1><div class="content"> <strong>Time:</strong> <div class="date">Wednesday, October 28, 2026</div> <div class="time">1:00PM - 2:00PM</div> </div> </div> <div class="location event-meta-item"> <div class="icon"></div> <div class="content"> <div><strong>Location:</strong></div> <div>McCrillis Gardens</div> </div> </div>`,'u',{name:'Montgomery Parks',county:'Montgomery County'});
+assert.equal(mc.venue,'McCrillis Gardens');assert.equal(mc.address,'');console.log('mp2 ok');

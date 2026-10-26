@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v23: Ghost HTML card, self-contained. Uses the daily GitHub collector file for the large tourism sites, Montgomery Parks, and six slow or unreliable sources; loads everything live if the file is missing or stale. -->
+<!-- Capital Weather outdoor events v24: Ghost HTML card, self-contained. Adds National Landing BID, City of Fairfax, Mount Vernon, more NPS parks and FindLocal (via the daily GitHub collector); loads everything live if the collector file is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -956,7 +956,8 @@ const LEGACY_TOURISM_SOURCES=new Set([
  // v23: the same title rules for the newer municipal, park and collector sources
  // ("Monthly Nature Walk" was rejected only because its source was missing here).
  'Town of Purcellville','City of Annapolis','City of College Park','City of Frederick','City of Laurel',
- 'NOVA Parks','Fairfax County Park Authority','Montgomery Parks','NPS DC-area parks'
+ 'NOVA Parks','Fairfax County Park Authority','Montgomery Parks','NPS DC-area parks',
+ 'National Landing BID','City of Fairfax','George Washington’s Mount Vernon','FindLocal'
 ]);
 function legacyOutdoorEvidence(e){
  if(!LEGACY_TOURISM_SOURCES.has(e.source)||outdoorDenial(e))return '';
@@ -2570,7 +2571,12 @@ function render(){
   card.append(el('div','cwe-time',displayRange(e)));
 
   const source=el('div','cwe-source','Source: ');
-  if(e.url)source.append(link(e.source+' ↗',e.url));
+  if(e.viaFindLocal){
+   // FindLocal's free plan requires a visible link back wherever its data appears.
+   source.append(e.url?link((e.venue||'Event page')+' ↗',e.url):el('span','',e.venue||''));
+   source.append(document.createTextNode(' · '));
+   source.append(link('Event data by FindLocal','https://findlocal.community'));
+  }else if(e.url)source.append(link(e.source+' ↗',e.url));
   else source.append(el('span','',e.source));
   const footer=el('div','cwe-footer');
   footer.append(source);
@@ -2855,7 +2861,7 @@ const ROUND2_SOURCES=[
  {name:'Bethesda Urban Partnership',round2:'tribe',endpoint:'https://www.bethesda.org/wp-json/tribe/events/v1/events',city:'Bethesda',county:'Montgomery County',state:'MD'},
  // v21: one request for nine more in-region NPS units; each event's park code
  // and coordinates decide its county (see npsSitePlace).
- {name:'NPS DC-area parks',round2:'nps',multiPark:true,parkCode:'gree,oxhi,fowa,prwi,wotr,grfa,gwmp,cato,choh,whho',city:'',county:'',state:''}
+ {name:'NPS DC-area parks',round2:'nps',multiPark:true,parkCode:'gree,oxhi,fowa,prwi,wotr,grfa,gwmp,cato,choh,whho,keaq,anac,pisc,mana,frde,mono,prpa',city:'',county:'',state:''}
 ];
 function round2Text(html){
  const doc=docFrom(String(html||'').replace(/</g,' <'));doc.querySelectorAll('script,style').forEach(n=>n.remove());
@@ -2899,7 +2905,11 @@ const NPS_INDOOR_POINT=/\b(?:bookstore|park store|exhibit|museum|visitor center|
 const NPS_SITES={gree:['Greenbelt','Prince George’s County','MD'],oxhi:['Oxon Hill','Prince George’s County','MD'],
  fowa:['Fort Washington','Prince George’s County','MD'],prwi:['Triangle','Prince William County','VA'],
  wotr:['Vienna','Fairfax County','VA'],grfa:['Great Falls','Fairfax County','VA'],
- cato:['Thurmont','Frederick County','MD'],whho:['Washington','District of Columbia','DC']};
+ cato:['Thurmont','Frederick County','MD'],whho:['Washington','District of Columbia','DC'],
+ // v24: Kenilworth Aquatic Gardens, Anacostia Park, Piscataway, Manassas, Frederick Douglass, Monocacy, President's Park.
+ keaq:['Washington','District of Columbia','DC'],anac:['Washington','District of Columbia','DC'],frde:['Washington','District of Columbia','DC'],
+ prpa:['Washington','District of Columbia','DC'],pisc:['Accokeek','Prince George’s County','MD'],mana:['Manassas','Prince William County','VA'],
+ mono:['Frederick','Frederick County','MD']};
 function npsSitePlace(item){
  const code=String(item.siteCode||'').toLowerCase(),lat=Number(item.latitude),lng=Number(item.longitude);
  const text=clean(item.location)+' '+clean(item.title);
@@ -3771,6 +3781,10 @@ const CW_EXPANSION_SOURCES=[
  {name:'City of Frederick',adapter:'civicRSS',feed:'https://www.cityoffrederickmd.gov'+CIVIC_RSS,url:'https://www.cityoffrederickmd.gov/calendar.aspx',city:'Frederick',county:'Frederick County',state:'MD'},
  {name:'City of Laurel',adapter:'civicRSS',feed:'https://www.cityoflaurel.org'+CIVIC_RSS,url:'https://www.cityoflaurel.org/calendar.aspx',city:'Laurel',county:'Prince George’s County',state:'MD'},
  {name:'Town of Purcellville',adapter:'civicRSS',feed:'https://www.purcellvilleva.gov'+CIVIC_RSS,url:'https://www.purcellvilleva.gov/calendar.aspx',city:'Purcellville',county:'Loudoun County',state:'VA'},
+ // v24 additions (Arlington had no dedicated source; Fairfax City; Mount Vernon estate).
+ {name:'National Landing BID',adapter:'nationalLanding',url:'https://www.nationallanding.org/events',city:'Arlington',county:'Arlington County',state:'VA'},
+ {name:'City of Fairfax',adapter:'vienna',base:'https://www.fairfaxva.gov',listing:'/Fun-Facilities/Events',url:'https://www.fairfaxva.gov/Fun-Facilities/Events',city:'Fairfax',county:'Fairfax City',state:'VA'},
+ {name:'George Washington’s Mount Vernon',adapter:'mountVernon',url:'https://www.mountvernon.org/plan-your-visit/calendar/events',city:'Mount Vernon',county:'Fairfax County',state:'VA'},
  // v22: the daily GitHub collector (see COLLECTOR_URL). Adds the tourism-site
  // events beyond their 30-item feeds, and Montgomery Parks.
  ...(COLLECTOR_URL?[{name:'Daily collector (GitHub)',adapter:'collector',url:COLLECTOR_URL,city:'',county:'',state:''}]:[])
@@ -4354,9 +4368,10 @@ async function adaptWharf(source,r){
 
 /* Town of Vienna: the official Events listing prints each occurrence's
  * day/month/year; the detail page has labeled When and Location fields. */
+/* Granicus "Events-directory" listings: Town of Vienna and (v24) City of Fairfax. */
 async function adaptVienna(source,r){
- const base='https://www.viennava.gov';
- const doc=docFrom(await adapterFetch(r,base+'/Events-directory',12000));
+ const base=source.base||'https://www.viennava.gov';
+ const doc=docFrom(await adapterFetch(r,base+(source.listing||'/Events-directory'),12000));
  const items=[...doc.querySelectorAll('.list-item-container article')];
  if(!items.length)throw Error('Event listing structure not recognized');
  const todo=[];
@@ -4378,11 +4393,21 @@ async function adaptVienna(source,r){
   // The detail page shows the next occurrence; use its hours only when it is this listing's date.
   let tr={start:'',end:''};
   if(when&&fullDate(when[1])===t.date)tr=clockRange(when[2]);
+  // City of Fairfax pages say "Next date: Monday, October 26, 2026 | 12:00 AM to
+  // Monday, November 30, 2026 | 11:59 PM". A run longer than three days, or
+  // midnight-to-23:59, is a program window rather than a scheduled event.
+  const next=text.match(/\bNext date:\s+(?:[A-Z][a-z]+day,\s+)?([A-Z][a-z]+ \d{1,2}, 20\d\d)\s*\|\s*(\d{1,2}:\d\d\s*[AP]M)\s+to\s+(?:[A-Z][a-z]+day,\s+)?([A-Z][a-z]+ \d{1,2}, 20\d\d)\s*\|\s*(\d{1,2}:\d\d\s*[AP]M)/i);
+  if(next&&fullDate(next[1])===t.date){
+   const endDay=fullDate(next[3]);
+   if(endDay&&spanDays(t.date,endDay)>3){bumpExtra(r,'multi-day program window without a daily schedule');sampleLegacyReject({source:source.name,title:t.title,url:t.url,dates:[t.date]},'multi-day program window without a daily schedule');return}
+   const a=parseTime(next[2]),b=parseTime(next[4]);
+   if(!(a==='00:00'&&/^23:5\d$/.test(b))){tr={start:a,end:endDay===t.date&&b>a?b:''}}
+  }
   if(!tr.start)tr=clockRange(t.desc);
   const where=clean(loc.replace(/^View the \w+ on\s+/i,'')).replace(/,\s*$/,'');
   out.push(admitPublisher(source,r,{title:t.title,url:t.url,venue:t.place||where,address:t.place,activityLocation:where,
    description:[t.desc,loc].filter(Boolean).join(' '),dates:[t.date],time:tr.start,endTime:tr.end,
-   dateEvidence:'Town of Vienna event listing date'+(when?' and event page schedule':'')}));
+   dateEvidence:source.name+' event listing date'+(when||next?' and event page schedule':'')}));
  });
  return adapterEvents(out);
 }
@@ -4776,7 +4801,7 @@ function collectorFile(){
  * those already-screened events instead of loading the source itself; when
  * the file is missing, stale or the source failed there, the source loads live
  * as before. */
-const COLLECTED_SOURCES=new Set(['NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
+const COLLECTED_SOURCES=new Set(['National Landing BID','City of Fairfax','George Washington’s Mount Vernon','NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
 async function fromCollector(name){
  if(!COLLECTED_SOURCES.has(name))return false;
  const {file}=await collectorFile();
@@ -4811,10 +4836,15 @@ async function adaptCollector(source,r){
   const county=city&&st?countyFor(city,st):'';
   if(city&&st&&!county){bumpExtra(r,'outside the coverage area',dates.length);continue}
   const site={name:clean(rec.source)||'Daily collector',city:'',county:county||rec.siteCounty||'',state:st};
+  // v24: FindLocal classifies venues ("Park & Outdoors") and events
+  // ("outdoor_activity"); either counts as outdoor evidence, after the usual
+  // indoor and building checks in admitPublisher.
+  const hint=rec.outdoorHint?'FindLocal lists this as '+rec.outdoorHint:'';
   out.push(admitPublisher(site,r,{title:rec.title,url:rec.url,venue:rec.venue||'',address:rec.address||'',
    activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
-   categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')?rec.time:'',
-   endTime:/^\d\d:\d\d$/.test(rec.endTime||'')?rec.endTime:'',dateEvidence:'Publisher event page (read by the daily collector)'}));
+   categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
+   endTime:/^\d\d:\d\d$/.test(rec.endTime||'')?rec.endTime:'',viaFindLocal:rec.source==='FindLocal',
+   dateEvidence:rec.source==='FindLocal'?'FindLocal event listing (from the venue’s own calendar)':'Publisher event page (read by the daily collector)'},hint));
  }
  const kept=out.filter(Boolean).length;
  r.collector=true;
@@ -4823,7 +4853,85 @@ async function adaptCollector(source,r){
  return adapterEvents(out);
 }
 
-const ADAPTERS={collector:adaptCollector,novaParks:adaptNOVAParks,fairfaxParks:adaptFairfaxParks,downtownDC:adaptDowntownDC,navyYard:adaptNavyYard,wharf:adaptWharf,vienna:adaptVienna,
+
+/* v24: National Landing BID (Crystal City, Pentagon City). The "next 7 days"
+ * list shows each event, or the next date of a weekly one, with its start in
+ * <time datetime>; the event page adds the time range and description. */
+async function adaptNationalLanding(source,r){
+ const base='https://www.nationallanding.org';
+ const todo=new Map();
+ for(let page=1;page<=4;page++){
+  const doc=docFrom(await adapterFetch(r,base+'/events?date=next7days&page='+page,12000));
+  const cards=[...doc.querySelectorAll('.event-card')];
+  if(!cards.length){if(page===1)throw Error('Event cards not found');break}
+  let fresh=0;
+  for(const c of cards){
+   r.discovered++;
+   const a=c.querySelector('.event-card__link[href]');
+   const url=a&&safeURL(absURL(a.getAttribute('href'),base));
+   const dt=c.querySelector('time[datetime]')?.getAttribute('datetime')||'';
+   const date=dt.slice(0,10);
+   if(!url||!validISO(date)||!days.includes(date)||todo.has(url+'|'+date))continue;
+   fresh++;r.inRange++;
+   // The listed clock time is local even though the attribute says +00:00.
+   todo.set(url+'|'+date,{url,date,title:textOf(a).replace(/\s*→\s*$/,''),clock:dt.slice(11,16)});
+  }
+  if(!fresh)break;
+ }
+ const out=[];
+ await eachLimit([...todo.values()].slice(0,30),3,async t=>{
+  let description='',timeText='';
+  try{
+   const d=docFrom(await adapterFetch(r,t.url,10000));
+   description=textOf(d.querySelector('.event-details__description'));
+   timeText=[...d.querySelectorAll('.event-details__pill')].map(textOf).find(x=>/^Time:/i.test(x))||'';
+  }catch(e){r.detailAccessFailures++}
+  const tr=clockRange(timeText.replace(/^Time:\s*/i,''));
+  const at=t.title.match(/\s(?:@|at)\s+(.{3,60})$/);
+  const named=(t.title+' '+description).match(/\b(Met Park|Water Park|Long Bridge Park|Gravelly Point|Crystal City Water Park|Virginia Highlands Park|Pentagon Row|Pentagon City|Crystal Drive|Potomac Yard)\b/);
+  const venue=at?clean(at[1]):named?named[1]:'National Landing';
+  out.push(admitPublisher(source,r,{title:t.title,url:t.url,venue,address:venue+', National Landing, Arlington, VA',
+   activityLocation:venue,city:'Arlington',county:'Arlington County',state:'VA',description,dates:[t.date],
+   time:tr.start||(t.clock&&t.clock!=='00:00'?t.clock:''),endTime:tr.end,dateEvidence:'National Landing BID calendar date'}));
+ });
+ return adapterEvents(out);
+}
+
+/* v24: George Washington's Mount Vernon. Each event page carries a schema.org
+ * Event with start and end times. */
+async function adaptMountVernon(source,r){
+ const base='https://www.mountvernon.org';
+ const doc=docFrom(await adapterFetch(r,base+'/plan-your-visit/calendar/events',12000));
+ const links=[...new Set([...doc.querySelectorAll('a[href*="/calendar/events/"]')].map(a=>safeURL(absURL(a.getAttribute('href'),base))).filter(Boolean))];
+ if(!links.length)throw Error('Event list not recognized');
+ r.discovered=links.length;
+ const out=[];
+ await eachLimit(links.slice(0,25),3,async url=>{
+  let html='';
+  try{html=await adapterFetch(r,url,10000)}catch(e){r.detailAccessFailures++;return}
+  const d=docFrom(html);let ev=null;
+  for(const s of d.querySelectorAll('script[type="application/ld+json"]')){
+   try{const j=JSON.parse(s.textContent);ev=(j['@graph']||[j]).find(x=>x&&x['@type']==='Event');if(ev)break}catch{}
+  }
+  if(!ev)return;
+  const a=schemaDateTime(ev.startDate),b=schemaDateTime(ev.endDate);
+  if(!a.date)return;
+  const end=b.date||a.date;
+  if(spanDays(a.date,end)>3){r.inRange+=windowDates(a.date,end).length;bumpExtra(r,'multi-day range without daily schedule');return}
+  const occ=windowDates(a.date,end);if(!occ.length)return;
+  r.inRange+=occ.length;
+  const loc=ev.location||{},addr=loc.address||{};
+  out.push(admitPublisher(source,r,{title:decodeEventText(clean(ev.name)),url,venue:clean(loc.name)||'George Washington’s Mount Vernon',
+   address:[addr.streetAddress,addr.addressLocality,addr.addressRegion].filter(Boolean).join(', '),
+   activityLocation:clean(loc.name),city:'Mount Vernon',county:'Fairfax County',state:'VA',
+   description:textOf(d.querySelector('main'))?.slice(0,1500)||clean(ev.description),
+   lat:Number(loc.geo?.latitude)||null,lng:Number(loc.geo?.longitude)||null,dates:occ,
+   time:a.time,endTime:b.date===a.date&&b.time>a.time?b.time:'',dateEvidence:'Mount Vernon event page schema.org dates'}));
+ });
+ return adapterEvents(out);
+}
+
+const ADAPTERS={nationalLanding:adaptNationalLanding,mountVernon:adaptMountVernon,collector:adaptCollector,novaParks:adaptNOVAParks,fairfaxParks:adaptFairfaxParks,downtownDC:adaptDowntownDC,navyYard:adaptNavyYard,wharf:adaptWharf,vienna:adaptVienna,
  civicRSS:adaptCivicRSS,merriweather:adaptMerriweather,fredericksburg:adaptFredericksburg,tribe:adaptTribe,
  goldenTriangle:adaptGoldenTriangle,ctyCards:adaptCTYCards,occoquan:adaptOccoquan,probe:adaptProbe};
 
