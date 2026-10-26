@@ -4740,7 +4740,10 @@ function collectorFile(){
  if(COLLECT_MODE||!COLLECTOR_URL)return Promise.resolve({file:null,error:'off'});
  return collectorFilePromise||=(async()=>{
   try{
-   const file=JSON.parse(await fetchDirectText(COLLECTOR_URL,10000));
+   // Revalidate (a cheap 304 when unchanged) so a new daily file is seen at once.
+   const r=await netText(COLLECTOR_URL,10000,{cache:'no-cache'});
+   if(!r.ok)throw Error('HTTP '+r.status);
+   const file=JSON.parse(r.text);
    if(file?.schemaVersion!==1||!Array.isArray(file.events))return {file:null,error:'Collector file format not recognized'};
    return {file};
   }catch(err){return {file:null,error:String(err?.message||err)}}
