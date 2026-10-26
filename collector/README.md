@@ -17,12 +17,15 @@ Some sources can't be read in full from a reader's browser:
 | Patch (town calendars) | Community calendars for about 30 towns, including ones no other source covers (Gaithersburg, Herndon, Germantown). | Reads each town's calendar page once a day (robots.txt allows it) and takes the embedded event list; each event still goes through the widget's outdoor checks. |
 | Fairfax County Park Authority programs (Parktakes) | Most park programs are only in the Parktakes registration catalog. | **Not read:** the catalog refuses GitHub's servers (HTTP 403). The code is kept in collect.mjs but not called. |
 
-A second step (`screen.mjs`) runs the widget itself in headless Chromium, for sources that are slow or
-unreliable in readers' browsers: National Landing BID, City of Fairfax, George Washington's Mount Vernon, the extra NPS parks, Visit Alexandria (its calendar file is too large for the browser), Prince
-George's Parks, Visit Fredericksburg, Reston Town Center and Downtown Silver Spring. In
-this mode (`window.CW_COLLECT_MODE`), the widget loads only those sources, goes direct to each
-publisher and collects an eighth day. It applies its own checks as usual. The results go in `screened` in
-the events file.
+A second step (`screen.mjs`) runs the widget itself in headless Chromium (on Eastern time) for
+**every other source** (business districts, towns, parks, NPS, HSEMA, Ticketmaster, Prince William and the
+rest). In this mode (`window.CW_COLLECT_MODE`) the widget goes direct to each publisher, applies its own
+checks as usual and skips only what collect.mjs reads itself (the tourism sites and Visit Montgomery,
+whose feeds refuse headless Chrome). The results go in `screened` in the events file.
+
+Readers' browsers then load just this one file (about 1.5 seconds, two requests). A source loads live in
+the browser only if the file is missing or more than 36 hours old, or that source failed in the
+headless run (for example The Boro Tysons, which refuses GitHub's servers).
 
 In the browser, when `screened` is fresh and a source completed there, the widget uses those events and
 skips loading that source. Otherwise, for example when the file is stale or the source failed in the
