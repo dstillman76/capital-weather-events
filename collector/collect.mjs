@@ -156,7 +156,11 @@ export async function robotsFor(host) {
   return rules;
 }
 export function allowedBy(rules, path) {
-  const match = list => Math.max(-1, ...list.filter(p => path.startsWith(p.replace(/\*.*$/, ''))).map(p => p.length));
+  // Google-style matching: '*' matches any run of characters, a trailing '$'
+  // anchors the end. (The older prefix test treated "*/event/*/edit" as ""
+  // and so disallowed every page on sites such as Patch.)
+  const re = p => new RegExp('^' + p.replace(/\$$/, '\u0000').replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace('\u0000', '$'));
+  const match = list => Math.max(-1, ...list.filter(p => re(p).test(path)).map(p => p.length));
   return match(rules.allow) >= match(rules.disallow);
 }
 class Site {
@@ -728,7 +732,8 @@ async function main() {
     ...SIMPLEVIEW.map(src => collectSimpleview(src, cache, today, windowEnd).catch(e => ({report: {source: src.name, status: 'failed', note: e.message}, records: []}))),
     collectMontgomeryParks(cache, today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
     collectVisitMontgomery(today, windowEnd).catch(e => ({report: {source: VISIT_MONTGOMERY.name, status: 'failed', note: e.message}, records: []})),
-    collectParktakes(today, windowEnd).catch(e => ({report: {source: PARKTAKES.name + ' (Parktakes)', status: 'failed', note: e.message}, records: []})),
+    // Parktakes refuses GitHub's servers (HTTP 403, Oct 26, 2026); not bypassed, so not called.
+    // collectParktakes(today, windowEnd),
     collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
