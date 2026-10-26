@@ -1,5 +1,7 @@
-<!-- Capital Weather outdoor events v38: date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v39: centered intro line inside the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
+  <!-- v39: the intro line is part of the widget (centered); delete the separate Ghost paragraph. -->
+  <p class="cwe-intro">Explore outdoor events in DC, Maryland, and Virginia</p>
   <!-- The date range is hidden for now; remove "hidden" to show it again. -->
   <div class="cwe-header" hidden>
     <div>
@@ -116,6 +118,14 @@
   font-size: 13px;
   white-space: nowrap;
   color: #697584;
+}
+#cw-weekend-events .cwe-intro {
+  margin: 0 0 14px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.35;
+  color: #111;
 }
 #cw-weekend-events .cwe-geography {
   display: grid;
