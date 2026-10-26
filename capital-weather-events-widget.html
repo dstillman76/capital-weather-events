@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v24: Ghost HTML card, self-contained. Adds National Landing BID, City of Fairfax, Mount Vernon, more NPS parks and FindLocal (via the daily GitHub collector); loads everything live if the collector file is missing or stale. -->
+<!-- Capital Weather outdoor events v25: Ghost HTML card, self-contained. Adds Mosaic District, Union Market District, The Boro and One Loudoun; open-air stadium events; one listing per stadium game. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -957,7 +957,8 @@ const LEGACY_TOURISM_SOURCES=new Set([
  // ("Monthly Nature Walk" was rejected only because its source was missing here).
  'Town of Purcellville','City of Annapolis','City of College Park','City of Frederick','City of Laurel',
  'NOVA Parks','Fairfax County Park Authority','Montgomery Parks','NPS DC-area parks',
- 'National Landing BID','City of Fairfax','George Washington’s Mount Vernon','FindLocal'
+ 'National Landing BID','City of Fairfax','George Washington’s Mount Vernon','FindLocal',
+ 'Mosaic District','Union Market District','The Boro Tysons','One Loudoun'
 ]);
 function legacyOutdoorEvidence(e){
  if(!LEGACY_TOURISM_SOURCES.has(e.source)||outdoorDenial(e))return '';
@@ -976,7 +977,7 @@ function legacyOutdoorEvidence(e){
   return 'Outdoor festival or community activity at a matching venue';
  // Recognize intrinsically outdoor activities without requiring the description
  // to repeat the word "outdoor". Denial rules above still take precedence.
- if(/\b(?:farmers?[’\']? market|open.air market|street market|city market|flea market|pumpkin patch|corn maze|hayride|orchard picking|guided hikes?|nature walks?|trail walks?|birdwatching walks?|walking tours?|ghost walks?|5k|10k|half.marathon|marathon|parades?|bike rides?|cycling tours?|kayak(?:ing)?|canoe(?:ing)?|paddleboard(?:ing)?|boat tours?|harbor cruises?|river cruises?|trail cleanups?|park cleanups?)\b/i.test(title))
+ if(/\b(?:farmers?[’\']? market|open.air market|street market|city market|flea market|pumpkin patch|corn maze|hayride|orchard picking|guided hikes?|nature walks?|trail walks?|birdwatching walks?|walking tours?|mural tours?|street art tours?|ghost walks?|5k|10k|half.marathon|marathon|parades?|bike rides?|cycling tours?|kayak(?:ing)?|canoe(?:ing)?|paddleboard(?:ing)?|boat tours?|harbor cruises?|river cruises?|trail cleanups?|park cleanups?)\b/i.test(title))
   return 'The scheduled activity is inherently outdoors';
  if(/\b(?:scavenger hunt|nature exploration|nature.s secrets|nature discovery|garden walk|garden tour|trail adventure|halloween hunt)\b/i.test(title)&&
     /\b(?:botanical gardens?|arboretum|nature preserve|nature center|trail|park|farm|outdoor gardens?)\b/i.test(venue+' '+clean(e.activityLocation)))
@@ -2403,6 +2404,17 @@ function dedupe(events){
  for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(!e.url)continue;
   const k=String(e.url).replace(/^https?:\/\/(www\.)?/,'').replace(/\/$/,'').toLowerCase()+'|'+e.date+'|'+(e.time||'');
   if(byLink.get(k)!==e)prepared.splice(i,1)}
+ // v25: one game or concert at an open-air stadium is one event, however many
+ // ticket products ("Premium Spaces: …", "Fan Appreciation: …") or calendars list it.
+ const byStage=new Map();
+ for(const e of prepared){
+  if(!e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
+  const k=norm(e.venue)+'|'+e.date+'|'+e.time,p=byStage.get(k);
+  const score=x=>(/^(?:premium|vip|parking|suite|club|fan appreciation)/i.test(x.title)?1000:0)+String(x.title).length;
+  if(!p||score(e)<score(p))byStage.set(k,e);
+ }
+ for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(!e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
+  if(byStage.get(norm(e.venue)+'|'+e.date+'|'+e.time)!==e)prepared.splice(i,1)}
  const conflicts=typeof state==='object'?(state.conflictedEntities||(state.conflictedEntities=new Set())):new Set();
  const aliases=new Map();
  for(const e of prepared){
@@ -3785,6 +3797,11 @@ const CW_EXPANSION_SOURCES=[
  // v24 additions (Arlington had no dedicated source; Fairfax City; Mount Vernon estate).
  {name:'National Landing BID',adapter:'nationalLanding',url:'https://www.nationallanding.org/events',city:'Arlington',county:'Arlington County',state:'VA'},
  {name:'City of Fairfax',adapter:'vienna',base:'https://www.fairfaxva.gov',listing:'/Fun-Facilities/Events',url:'https://www.fairfaxva.gov/Fun-Facilities/Events',city:'Fairfax',county:'Fairfax City',state:'VA'},
+ // v25: shopping and business districts on The Events Calendar (one API request each).
+ {name:'Mosaic District',adapter:'tribe',defaultVenue:'Mosaic District',defaultAddress:'2910 District Ave, Fairfax, VA 22031',api:'https://mosaicdistrict.com/wp-json/tribe/events/v1/events',url:'https://mosaicdistrict.com/events/',city:'Merrifield',county:'Fairfax County',state:'VA'},
+ {name:'Union Market District',adapter:'tribe',api:'https://www.unionmarketdc.com/wp-json/tribe/events/v1/events',url:'https://www.unionmarketdc.com/events',city:'Washington',county:'District of Columbia',state:'DC'},
+ {name:'The Boro Tysons',adapter:'tribe',defaultVenue:'The Boro',api:'https://www.theborotysons.com/wp-json/tribe/events/v1/events',url:'https://www.theborotysons.com/events/',city:'Tysons',county:'Fairfax County',state:'VA'},
+ {name:'One Loudoun',adapter:'tribe',defaultVenue:'One Loudoun',api:'https://oneloudoun.com/wp-json/tribe/events/v1/events',url:'https://oneloudoun.com/events/',city:'Ashburn',county:'Loudoun County',state:'VA'},
  {name:'George Washington’s Mount Vernon',adapter:'mountVernon',url:'https://www.mountvernon.org/plan-your-visit/calendar/events',city:'Mount Vernon',county:'Fairfax County',state:'VA'},
  // v22: the daily GitHub collector (see COLLECTOR_URL). Adds the tourism-site
  // events beyond their 30-item feeds, and Montgomery Parks.
@@ -4230,7 +4247,9 @@ function admitPublisher(source,r,c,categoryEvidence=''){
  if(/\b(?:access to|tour of|inside|interior of)\b[^.!?]{0,70}\b(?:lodge|museum|house|mansion|church|hall|building|mill|tavern|conservatory|greenhouse)\b/i.test(c.title+' '+c.description.slice(0,600))||
     /\b(?:conservatory|greenhouse|house|mansion|museum)\s+tours?\b/i.test(c.title))
   return reject('indoorOrMixed','tour includes time inside a building');
- const evidence=categoryEvidence||outdoorEvidence(c)||legacyOutdoorEvidence(c)||publicSpaceEvidence(c);
+ // v25: events at a known open-air stadium or amphitheater (Audi Field, Merriweather, Jiffy Lube Live…).
+ const openAirVenue=TM_OUTDOOR_VENUE.test(c.venue)&&!/\b(?:club level|suite|indoor|lounge|press conference)\b/i.test(c.title)?'Held at an open-air stadium or amphitheater ('+c.venue+')':'';
+ const evidence=categoryEvidence||outdoorEvidence(c)||legacyOutdoorEvidence(c)||publicSpaceEvidence(c)||openAirVenue;
  if(!evidence)return reject('insufficientEvidence','no publisher evidence the activity is outdoors');
  if(c.time&&c.endTime&&c.endTime===c.time)c.endTime='';
  applyAddress(c);
@@ -4585,7 +4604,8 @@ async function adaptTribe(source,r){
   const title=decodeEventText(clean(ev.title));
   if(spanDays(s,e)>3){bumpExtra(r,'multi-day range without daily schedule',occ.length);sampleLegacyReject({source:source.name,title,url:ev.url,dates:occ},'multi-day range without a daily schedule',{start:s,end:e});continue}
   const v=Array.isArray(ev.venue)?ev.venue[0]:ev.venue;
-  out.push(admitPublisher(source,r,{title,url:ev.url,venue:decodeEventText(clean(v?.venue||'')),address:clean(v?.address||''),
+  // v25: district calendars often leave the venue blank for district-wide events.
+  out.push(admitPublisher(source,r,{title,url:ev.url,venue:decodeEventText(clean(v?.venue||''))||source.defaultVenue||'',address:clean(v?.address||'')||source.defaultAddress||'',
    activityLocation:clean(v?.venue||''),city:clean(v?.city||'')||source.city,description:round2Text(ev.description).slice(0,1500),
    dates:occ,time:ev.all_day?'':parseTime(String(ev.start_date).slice(11)),endTime:ev.all_day?'':parseTime(String(ev.end_date).slice(11)),
    dateEvidence:'Publisher Events Calendar API'}));
