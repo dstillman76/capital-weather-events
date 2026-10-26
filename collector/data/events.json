@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T14:46:48.560Z",
+ "generatedAt": "2026-10-26T15:10:01.045Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -111,6 +111,29 @@
    "listings": 108,
    "inWindow": 87,
    "errors": 0,
+   "note": ""
+  },
+  {
+   "source": "Fairfax County Park Authority (Parktakes)",
+   "recordSource": "Fairfax County Park Authority",
+   "kind": "catalog",
+   "status": "blocked",
+   "pages": 0,
+   "activities": 0,
+   "sessions": 0,
+   "inWindow": 0,
+   "errors": 1,
+   "note": "HTTP 403 (publisher refused); stopped. Not bypassed."
+  },
+  {
+   "source": "Patch",
+   "kind": "town calendars",
+   "status": "failed",
+   "towns": 0,
+   "missing": [],
+   "listings": 0,
+   "inWindow": 0,
+   "errors": 32,
    "note": ""
   },
   {
@@ -24791,7 +24814,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T14:47:11.921Z",
+  "generatedAt": "2026-10-26T15:10:37.321Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -24816,7 +24839,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 959
+    "ms": 533
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -24824,7 +24847,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2594
+    "ms": 25530
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -24832,7 +24855,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 3553
+    "ms": 2758
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -24840,7 +24863,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 805
+    "ms": 623
    },
    "National Landing BID": {
     "ok": true,
@@ -24848,7 +24871,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 8801
+    "ms": 9153
    },
    "City of Fairfax": {
     "ok": true,
@@ -24856,7 +24879,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2289
+    "ms": 3611
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -24864,7 +24887,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 12171
+    "ms": 7761
    }
   },
   "count": 56,
