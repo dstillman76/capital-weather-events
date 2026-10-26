@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T17:42:46.576Z",
+ "generatedAt": "2026-10-26T17:46:52.188Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -28176,7 +28176,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T17:43:44.620Z",
+  "generatedAt": "2026-10-26T17:47:15.389Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -28185,7 +28185,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1001
+    "ms": 981
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -28193,7 +28193,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 424
+    "ms": 334
    },
    "City of Rockville": {
     "ok": true,
@@ -28201,7 +28201,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1329
+    "ms": 2135
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -28209,7 +28209,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 547
+    "ms": 514
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -28217,7 +28217,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 677
+    "ms": 516
    },
    "Navy Yard BID": {
     "ok": true,
@@ -28225,7 +28225,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 700
+    "ms": 392
    },
    "DowntownDC BID": {
     "ok": true,
@@ -28233,7 +28233,23 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 630
+    "ms": 584
+   },
+   "Experience Prince George’s": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
+   },
+   "Visit Loudoun": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
    },
    "Falls Church": {
     "ok": true,
@@ -28241,6 +28257,14 @@
     "events": 1,
     "outcome": "",
     "error": "",
+    "ms": null
+   },
+   "Visit Fairfax": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
     "ms": null
    },
    "Downtown Silver Spring": {
@@ -28251,12 +28275,28 @@
     "error": "",
     "ms": null
    },
+   "Visit Howard County": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
+   },
    "Rosslyn BID": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 1,
     "outcome": "",
     "error": "",
+    "ms": null
+   },
+   "Visit Frederick": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
     "ms": null
    },
    "Reston Town Center": {
@@ -28269,11 +28309,19 @@
    },
    "NoMa BID": {
     "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
+    "status": "EVENTS FOUND",
+    "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 642
+    "ms": 808
+   },
+   "Visit Annapolis": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -28281,7 +28329,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3172
+    "ms": 293
+   },
+   "Experience Prince George’s calendar": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
    },
    "Southwest BID": {
     "ok": true,
@@ -28289,7 +28345,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 481
+    "ms": 273
    },
    "The Wharf": {
     "ok": true,
@@ -28297,7 +28353,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 558
+    "ms": 379
+   },
+   "Visit Annapolis calendar": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": null
    },
    "City of Takoma Park": {
     "ok": true,
@@ -28305,7 +28369,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 794
+    "ms": 935
    },
    "Ticketmaster": {
     "ok": true,
@@ -28315,29 +28379,13 @@
     "error": "",
     "ms": null
    },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 650
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 12,
-    "outcome": "",
-    "error": "",
-    "ms": 375
-   },
    "City of Greenbelt": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 557
+    "ms": 860
    },
    "City of Bowie": {
     "ok": true,
@@ -28345,247 +28393,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1264
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 20,
-    "outcome": "",
-    "error": "",
-    "ms": 209
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 53288
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 571
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 3134
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 627
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 203
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 11,
-    "outcome": "",
-    "error": "",
-    "ms": 590
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2062
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2368
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 406
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1556
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 129
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 451
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 15756
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 683
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 18627
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 18,
-    "outcome": "",
-    "error": "",
-    "ms": 926
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 4885
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 516
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 539
-   },
-   "City of Frederick": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 585
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 610
-   },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 411
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 8982
-   },
-   "City of Fairfax": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1998
-   },
-   "Mosaic District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1164
-   },
-   "Union Market District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2267
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
-    "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 183
-   },
-   "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 1456
-   },
-   "George Washington’s Mount Vernon": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 9601
+    "ms": 1425
    },
    "DC HSEMA": {
     "ok": true,
@@ -28594,6 +28402,262 @@
     "outcome": "",
     "error": "",
     "ms": null
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 539
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 228
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 12,
+    "outcome": "",
+    "error": "",
+    "ms": 283
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 20,
+    "outcome": "",
+    "error": "",
+    "ms": 315
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 2436
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2449
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 1035
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 440
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1809
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 347
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 690
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 1259
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 2332
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 6233
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 292
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 476
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 239
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 1424
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 18,
+    "outcome": "",
+    "error": "",
+    "ms": 137
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 2089
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 843
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 463
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 592
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 424
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 461
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 7508
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1362
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 206
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 520
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 123
+   },
+   "One Loudoun": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 70
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 689
    }
   },
   "count": 194,
@@ -28801,24 +28865,6 @@
     "date": "2026-10-26",
     "confidence": "Publisher explicit schedule",
     "category": "nature"
-   },
-   {
-    "id": "hsema|https://hsema.dc.gov/event/17th-street-high-heel-race2026|2026-10-26",
-    "title": "17th Street High Heel Race",
-    "source": "DC HSEMA",
-    "url": "https://hsema.dc.gov/event/17th-street-high-heel-race2026",
-    "date": "2026-10-26",
-    "time": "22:00",
-    "endTime": "",
-    "venue": "17th Street NW, between S and P Streets",
-    "address": "",
-    "city": "Washington",
-    "state": "DC",
-    "county": "District of Columbia",
-    "description": "",
-    "categories": "",
-    "confidence": "HSEMA event page",
-    "category": "fitness"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -29122,6 +29168,24 @@
     "date": "2026-10-27",
     "confidence": "Publisher explicit schedule",
     "category": "nature"
+   },
+   {
+    "id": "hsema|https://hsema.dc.gov/event/17th-street-high-heel-race2026|2026-10-27",
+    "title": "17th Street High Heel Race",
+    "source": "DC HSEMA",
+    "url": "https://hsema.dc.gov/event/17th-street-high-heel-race2026",
+    "date": "2026-10-27",
+    "time": "22:00",
+    "endTime": "",
+    "venue": "17th Street NW, between S and P Streets",
+    "address": "",
+    "city": "Washington",
+    "state": "DC",
+    "county": "District of Columbia",
+    "description": "",
+    "categories": "",
+    "confidence": "HSEMA event page",
+    "category": "fitness"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -30008,6 +30072,29 @@
     "category": "family"
    },
    {
+    "source": "NoMa BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "NoMa Farmers Market at Third Street Join friends and neighbors from April 30-October 29, 2026 to shop for fresh produce, farm-raised meats, cheeses, freshly baked goods, and dozens more unique, locally made foods and goods. NoMa Farmers Market at Third Street Join the NoMa BID at the NoMa Farmers Market from April 30 – October 29 on Thursdays from 4:00 – 8:00 p.m., located on Third Street NE, where you’ll find fresh produce, quality meats, and artisanal goods. Grab ready-to-eat meals and treats while enjoying live music and outdoor seating. Conveniently located near the NoMa-Gallaudet Metro and Union Market, it’s perfect for evening commuters and locals alike! Produced by Diverse Markets Management Diverse Markets Management, LLC (DMM) is a DC-based firm specializing in the development, programming, and management of outdoor public exhibitor markets and special events. The firm is experienced in specialty vending, managing relations with this unique group of small business entrepreneurs, and in recruiting quality local talent for entertainment. DMM is an active Certified Business Ent",
+    "categories": "",
+    "venue": "Third Street NE",
+    "address": "Third Street NE",
+    "time": "16:00",
+    "endTime": "20:00",
+    "lat": null,
+    "lng": null,
+    "title": "NoMa Farmers Market At Third Street",
+    "url": "https://nomabid.org/farmersmarket/",
+    "dateEvidence": "Organizer explicit season year and Thursday schedule",
+    "outdoorEvidence": "The market operates on Third Street NE; its producer describes its outdoor public exhibitor markets.",
+    "outdoorEvidenceURL": "https://nomabid.org/farmersmarket/",
+    "id": "NoMa BID|https://nomabid.org/farmersmarket/|2026-10-29",
+    "date": "2026-10-29",
+    "confidence": "Organizer explicit season year and Thursday schedule",
+    "category": "market"
+   },
+   {
     "title": "The Haunted Grō Trail | Ages 2-8",
     "source": "Visit Prince William",
     "url": "https://www.facebook.com/events/961464966998933/",
@@ -30208,24 +30295,6 @@
     "category": "fitness"
    },
    {
-    "id": "hsema|https://hsema.dc.gov/event/hilloween-1|2026-10-29",
-    "title": "Hilloween",
-    "source": "DC HSEMA",
-    "url": "https://hsema.dc.gov/event/hilloween-1",
-    "date": "2026-10-29",
-    "time": "18:00",
-    "endTime": "",
-    "venue": "7th Street SE, between North Carolina Avenue and C Street",
-    "address": "",
-    "city": "Washington",
-    "state": "DC",
-    "county": "District of Columbia",
-    "description": "",
-    "categories": "",
-    "confidence": "HSEMA event page",
-    "category": "festival"
-   },
-   {
     "source": "Navy Yard BID",
     "city": "Washington",
     "county": "District of Columbia",
@@ -30368,28 +30437,6 @@
     "date": "2026-10-30",
     "confidence": "CTY dated calendar occurrence",
     "category": "fitness"
-   },
-   {
-    "title": "Falls Church Farmers Market",
-    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14143&month=10&year=2026&day=26&calType=0",
-    "source": "Falls Church",
-    "description": "Falls Church Farmers Market October 31, 2026, 8:00 AM - 12:00 PM@ City Hall Parking Lot Falls Church Farmers Market2026-10-31T08:00:00Shop the award-winning market every Saturday, year-round! City Hall Parking Lot300 Park Ave.Falls ChurchVA22046Shop the award-winning market every Saturday, year-round! More Details Visit the official website for the latest information on vendors, entertainment, and other special programs.You can also find weekly details on Facebook and Instagram.",
-    "categories": "",
-    "venue": "View Facility City Hall Parking Lot Address: 300 Park Ave.Falls Church, VA 22046",
-    "address": "300 Park Ave.",
-    "city": "Falls Church",
-    "county": "Falls Church City",
-    "state": "VA",
-    "time": "08:00",
-    "endTime": "12:00",
-    "lat": null,
-    "lng": null,
-    "dateEvidence": "calendar card date",
-    "scheduleAmbiguous": false,
-    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14143&month=10&year=2026&day=26&calType=0|2026-10-30",
-    "date": "2026-10-30",
-    "confidence": "event page schedule",
-    "category": "market"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -30891,6 +30938,24 @@
     "category": "fitness"
    },
    {
+    "id": "hsema|https://hsema.dc.gov/event/hilloween-1|2026-10-30",
+    "title": "Hilloween",
+    "source": "DC HSEMA",
+    "url": "https://hsema.dc.gov/event/hilloween-1",
+    "date": "2026-10-30",
+    "time": "18:00",
+    "endTime": "",
+    "venue": "7th Street SE, between North Carolina Avenue and C Street",
+    "address": "",
+    "city": "Washington",
+    "state": "DC",
+    "county": "District of Columbia",
+    "description": "",
+    "categories": "",
+    "confidence": "HSEMA event page",
+    "category": "festival"
+   },
+   {
     "source": "Georgetown BID",
     "city": "Washington",
     "county": "District of Columbia",
@@ -31158,6 +31223,31 @@
     "category": "nature"
    },
    {
+    "title": "Falls Church Farmers Market",
+    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14143&month=10&year=2026&day=26&calType=0",
+    "source": "Falls Church",
+    "description": "Falls Church Farmers Market October 31, 2026, 8:00 AM - 12:00 PM@ City Hall Parking Lot Falls Church Farmers Market2026-10-31T08:00:00Shop the award-winning market every Saturday, year-round! City Hall Parking Lot300 Park Ave.Falls ChurchVA22046Shop the award-winning market every Saturday, year-round! More Details Visit the official website for the latest information on vendors, entertainment, and other special programs.You can also find weekly details on Facebook and Instagram.",
+    "categories": "",
+    "venue": "View Facility City Hall Parking Lot Address: 300 Park Ave.Falls Church, VA 22046",
+    "address": "300 Park Ave.",
+    "city": "Falls Church",
+    "county": "Falls Church City",
+    "state": "VA",
+    "time": "08:00",
+    "endTime": "12:00",
+    "lat": null,
+    "lng": null,
+    "dateEvidence": "calendar card date",
+    "scheduleAmbiguous": false,
+    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14143&month=10&year=2026&day=26&calType=0|2026-10-31",
+    "date": "2026-10-31",
+    "confidence": "event page schedule",
+    "category": "market",
+    "alsoListedBy": [
+     "Visit Calvert"
+    ]
+   },
+   {
     "source": "M-NCPPC Prince George’s Parks",
     "city": "Lanham",
     "county": "Prince George’s County",
@@ -31182,30 +31272,6 @@
     "date": "2026-10-31",
     "confidence": "Publisher Events Calendar explicit local schedule",
     "category": "fitness"
-   },
-   {
-    "source": "Visit Calvert",
-    "city": "North Beach",
-    "county": "Calvert County",
-    "state": "MD",
-    "categories": "",
-    "venue": "9010 Chesapeake Ave., North Beach, MD 20714",
-    "address": "9010 Chesapeake Ave., North Beach, MD 20714",
-    "description": "",
-    "time": "08:00",
-    "endTime": "11:30",
-    "lat": null,
-    "lng": null,
-    "title": "North Beach Farmer's Market",
-    "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=22148",
-    "activityLocation": "9010 Chesapeake Ave., North Beach, MD 20714",
-    "dateEvidence": "Official CivicPlus calendar feed",
-    "outdoorEvidence": "The scheduled activity is itself outdoors (farmer's market)",
-    "outdoorEvidenceURL": "https://www.calvertcountymd.gov/Calendar.aspx?EID=22148",
-    "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=22148|2026-10-31",
-    "date": "2026-10-31",
-    "confidence": "Official CivicPlus calendar feed",
-    "category": "market"
    },
    {
     "source": "National Arboretum (FONA)",
