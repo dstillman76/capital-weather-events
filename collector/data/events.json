@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T14:37:06.607Z",
+ "generatedAt": "2026-10-26T14:40:37.005Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -22867,15 +22867,15 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T14:39:35.848Z",
+  "generatedAt": "2026-10-26T14:41:15.248Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
     "ok": false,
-    "status": "ZERO — coverage not measured",
+    "status": "ACCESS FAILED",
     "events": 0,
     "outcome": "",
-    "error": "",
+    "error": "HTTP 403 (publisher refused)",
     "ms": null
    },
    "Reston Town Center": {
@@ -22892,7 +22892,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 813
+    "ms": 386
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -22900,7 +22900,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2578
+    "ms": 28387
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -22908,7 +22908,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2902
+    "ms": 1967
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -22916,7 +22916,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 1002
+    "ms": 867
    },
    "National Landing BID": {
     "ok": true,
@@ -22924,7 +22924,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 8535
+    "ms": 6466
    },
    "City of Fairfax": {
     "ok": true,
@@ -22932,7 +22932,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2338
+    "ms": 1699
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -22940,18 +22940,18 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 3021
+    "ms": 1233
    },
    "Visit Montgomery": {
     "ok": true,
     "status": "EVENTS FOUND — coverage incomplete",
-    "events": 16,
+    "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 138212
+    "ms": 8067
    }
   },
-  "count": 72,
+  "count": 65,
   "events": [
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -23102,31 +23102,6 @@
     "date": "2026-10-26",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Damascus",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "Welcome to L eech Woods According to Montgomery County historical land records, the present site of Leech Woods was originally settled by Warwick and Jeanne Leech and their six children sometime in early 1790. Having immigrated from Hungary, the family chose Damascus, Maryland, based on its temperate climate and heavily wooded region, which reminded them of their homeland. The Leech family store thrived as the leading local merchant of hides, furs, and hunting supplies. During the disastrous Winter of 1804, the Leech family store was robbed and vandalized by unknown attackers and the body of John Leech, the youngest son, was found nailed to the back wall of the store. The remaining bodies of the family members were later found bludgeoned and bound inside of the root cellar of their homestead. No further information about the attackers or motives for the killings is known. ​ Remnants of the Leech family homestead still stand deep in the woods where the present Leech Woods experience is built. The Leech Woods immersive experience follows the original walking path from the site of the Leech family hunting supply store to the remnants of the original family homestead. As the property was classified as a historical site in 1972, no artifacts may be removed, and we ask that you respect the privacy of the grave sites. What’s new? More Scares. More scenes. More Screams. We added 6 new scenes to the original trail to bring you even more terror. The Horror Hayride also has new scenes added to the 20-minute ride/walk-through. What to expect Leech Woods is a thirty-minute immersive haunted trail experience of dark terror. We promise a night of chainsaws, clowns, and dark corners. When you are done screaming, we offer amazing food and drinks, alcoholic beverages, bonfires, glow-in-the-dark axe-throwing, fire dancers, a DJ booth, fortune telling, and other forms of entertainment every night in the Leech Woods Midway, where Admission Is Free. Trail What is our Trail? Leech Woods is one of the scariest haunted trails in all of Maryland. It’s about a 30-minute walk with now over 15 highly detailed immersive walkthrough scenes, all enhanced this year with even more scares. Plus, our trail has over 50 professionally trained scarers. You can check out our gallery to see photos of our trail and actors. Recommend age: 12+ HORROR HAYRIDE What is the Horror Hayride? The Horror Hayride is a 20-minute ride and walk-through full of brand new, highly detailed, immersive scenes. On this trail, you discover what is believed to be the Leech Woods family cemetery. Limited to 25 victims per trip. Please respect the graves and reserve your seats now. ​ Recommended Age: 12+ Tickets 15% OFF Groups of 5 Or More Use Code “GROUP”",
-    "categories": "",
-    "venue": "Leech Woods",
-    "address": "11201 Bethesda Church Road, Damascus View, Diamond View",
-    "time": "19:00",
-    "endTime": "21:30",
-    "lat": 39.3006965,
-    "lng": -77.2341112,
-    "title": "Leech Woods",
-    "url": "https://visitmontgomery.com/events/leech-woods/",
-    "coverage": true,
-    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/leech-woods/",
-    "occurrenceTime": "19:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/leech-woods/|2026-10-26|19:00|leech woods",
-    "date": "2026-10-26",
-    "confidence": "Publisher explicit schedule",
-    "category": "other"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -23308,31 +23283,6 @@
     "category": "nature"
    },
    {
-    "source": "Visit Montgomery",
-    "city": "Damascus",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "Welcome to L eech Woods According to Montgomery County historical land records, the present site of Leech Woods was originally settled by Warwick and Jeanne Leech and their six children sometime in early 1790. Having immigrated from Hungary, the family chose Damascus, Maryland, based on its temperate climate and heavily wooded region, which reminded them of their homeland. The Leech family store thrived as the leading local merchant of hides, furs, and hunting supplies. During the disastrous Winter of 1804, the Leech family store was robbed and vandalized by unknown attackers and the body of John Leech, the youngest son, was found nailed to the back wall of the store. The remaining bodies of the family members were later found bludgeoned and bound inside of the root cellar of their homestead. No further information about the attackers or motives for the killings is known. ​ Remnants of the Leech family homestead still stand deep in the woods where the present Leech Woods experience is built. The Leech Woods immersive experience follows the original walking path from the site of the Leech family hunting supply store to the remnants of the original family homestead. As the property was classified as a historical site in 1972, no artifacts may be removed, and we ask that you respect the privacy of the grave sites. What’s new? More Scares. More scenes. More Screams. We added 6 new scenes to the original trail to bring you even more terror. The Horror Hayride also has new scenes added to the 20-minute ride/walk-through. What to expect Leech Woods is a thirty-minute immersive haunted trail experience of dark terror. We promise a night of chainsaws, clowns, and dark corners. When you are done screaming, we offer amazing food and drinks, alcoholic beverages, bonfires, glow-in-the-dark axe-throwing, fire dancers, a DJ booth, fortune telling, and other forms of entertainment every night in the Leech Woods Midway, where Admission Is Free. Trail What is our Trail? Leech Woods is one of the scariest haunted trails in all of Maryland. It’s about a 30-minute walk with now over 15 highly detailed immersive walkthrough scenes, all enhanced this year with even more scares. Plus, our trail has over 50 professionally trained scarers. You can check out our gallery to see photos of our trail and actors. Recommend age: 12+ HORROR HAYRIDE What is the Horror Hayride? The Horror Hayride is a 20-minute ride and walk-through full of brand new, highly detailed, immersive scenes. On this trail, you discover what is believed to be the Leech Woods family cemetery. Limited to 25 victims per trip. Please respect the graves and reserve your seats now. ​ Recommended Age: 12+ Tickets 15% OFF Groups of 5 Or More Use Code “GROUP”",
-    "categories": "",
-    "venue": "Leech Woods",
-    "address": "11201 Bethesda Church Road, Damascus View, Diamond View",
-    "time": "19:00",
-    "endTime": "21:30",
-    "lat": 39.3006965,
-    "lng": -77.2341112,
-    "title": "Leech Woods",
-    "url": "https://visitmontgomery.com/events/leech-woods/",
-    "coverage": true,
-    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/leech-woods/",
-    "occurrenceTime": "19:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/leech-woods/|2026-10-27|19:00|leech woods",
-    "date": "2026-10-27",
-    "confidence": "Publisher explicit schedule",
-    "category": "other"
-   },
-   {
     "source": "M-NCPPC Prince George’s Parks",
     "city": "",
     "county": "Prince George’s County",
@@ -23432,58 +23382,6 @@
     "date": "2026-10-28",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Rockville",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "WEDNESDAYS, 11AM – 2PM​ May 13 – OCTOBER 28, 2026 9605 Medical Center Drive, Rockville, MD 20850 ​You’ll find us at 9605 Medical Center Drive, Rockville, MD 20850. At the NCI campus rear parking lot -at the corner of Key West Ave & Broschart Road. Click for Driving Directions. We are a rain or shine market! We do close for lightning, high winds, and other danger, so stay tuned.​ Enjoy fresh local farm fruits, veggies, baked goodies, food trucks, arts & more. For the comfort and safety of all guests and vendors, dogs are not permitted. Service animals are always welcome.",
-    "categories": "",
-    "venue": "NCI campus rear parking lot",
-    "address": "9605 Medical center drive",
-    "time": "11:00",
-    "endTime": "14:00",
-    "lat": null,
-    "lng": null,
-    "title": "SHADY GROVE FARMERS MARKET",
-    "url": "https://visitmontgomery.com/events/shady-grove-farmers-market/",
-    "coverage": true,
-    "outdoorEvidence": "Publisher places the actual market in the parking lot",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/shady-grove-farmers-market/",
-    "occurrenceTime": "11:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "outdoorNote": "We are a rain or shine market!",
-    "outdoorCardNote": "Weather contingency; see details",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/shady-grove-farmers-market/|2026-10-28|11:00|nci campus rear parking lot",
-    "date": "2026-10-28",
-    "confidence": "Publisher explicit schedule",
-    "category": "market"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Clarksburg",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-    "categories": "",
-    "venue": "Butler's Orchard",
-    "address": "22222 Davis Mill Road",
-    "time": "13:00",
-    "endTime": "18:00",
-    "lat": 39.22355988943543,
-    "lng": -77.23019599914552,
-    "title": "Pumpkin Festival at Butler’s Orchard",
-    "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-    "coverage": true,
-    "outdoorEvidence": "The festival explicitly includes pumpkin-field picking and hayrides",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-    "occurrenceTime": "13:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/|2026-10-28|13:00|butler's orchard",
-    "date": "2026-10-28",
-    "confidence": "Publisher explicit schedule",
-    "category": "festival"
    },
    {
     "source": "NPS DC-area parks",
@@ -23638,31 +23536,6 @@
     "date": "2026-10-29",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Clarksburg",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-    "categories": "",
-    "venue": "Butler's Orchard",
-    "address": "22222 Davis Mill Road",
-    "time": "13:00",
-    "endTime": "18:00",
-    "lat": 39.22355988943543,
-    "lng": -77.23019599914552,
-    "title": "Pumpkin Festival at Butler’s Orchard",
-    "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-    "coverage": true,
-    "outdoorEvidence": "The festival explicitly includes pumpkin-field picking and hayrides",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-    "occurrenceTime": "13:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/|2026-10-29|13:00|butler's orchard",
-    "date": "2026-10-29",
-    "confidence": "Publisher explicit schedule",
-    "category": "festival"
    },
    {
     "source": "NPS DC-area parks",
@@ -23975,31 +23848,6 @@
     "category": "nature"
    },
    {
-    "source": "Visit Montgomery",
-    "city": "Germantown",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-    "categories": "",
-    "venue": "Butler's Orchard",
-    "address": "22222 Davis Mill Road",
-    "time": "13:00",
-    "endTime": "18:00",
-    "lat": 39.2215035,
-    "lng": -77.2232477,
-    "title": "Butler’s Orchard Pumpkin Festival",
-    "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-    "coverage": true,
-    "outdoorEvidence": "The festival explicitly includes pumpkin-field picking and hayrides",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-    "occurrenceTime": "13:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/|2026-10-30|13:00|butler's orchard",
-    "date": "2026-10-30",
-    "confidence": "Publisher explicit schedule",
-    "category": "festival"
-   },
-   {
     "source": "NPS DC-area parks",
     "city": "Washington",
     "county": "District of Columbia",
@@ -24051,31 +23899,6 @@
     "date": "2026-10-30",
     "confidence": "Publisher Events Calendar explicit local schedule",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "North Bethesda",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "Friday Night Salsa Return to the Pike District! Grab your friends and head back to the Pike District Pop-Up Park every Friday from September through October from 6-8 p.m. for Friday Night Salsa! Beginners and seasoned dancers are all welcome, no partner needed. Each evening kicks off with a free beginner-friendly lesson led by All Out Danza, then the dance floor opens up for community dancing under the stars. It’s the perfect way to kick off your weekend. See you on the dance floor! FREE to attend!",
-    "categories": "",
-    "venue": "Pike District Pop Up Park",
-    "address": "Grand Park Avenue and Banneker Avenue",
-    "time": "18:00",
-    "endTime": "20:00",
-    "lat": null,
-    "lng": null,
-    "title": "Friday Night Salsa in the Pike District",
-    "url": "https://visitmontgomery.com/events/friday-night-salsa-in-the-pike-district-2/",
-    "coverage": true,
-    "outdoorEvidence": "Community dancing takes place under the stars",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/friday-night-salsa-in-the-pike-district-2/",
-    "occurrenceTime": "18:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/friday-night-salsa-in-the-pike-district-2/|2026-10-30|18:00|pike district pop up park",
-    "date": "2026-10-30",
-    "confidence": "Publisher explicit schedule",
-    "category": "other"
    },
    {
     "source": "Visit Alexandria",
