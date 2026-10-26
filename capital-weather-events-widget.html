@@ -2795,6 +2795,7 @@ function diagnosticStatus(r){
  const incomplete=r.partial||r.limited||r.discoveryComplete===false||!!st.detailAccessFailures||!!r.error;
  if((r.count||0)>0)return incomplete?'EVENTS FOUND — coverage incomplete':'EVENTS FOUND';
  if(r.collector&&r.candidates)return 'EVENTS FOUND — listed under each publisher';
+ if(r.collector&&!r.candidates)return 'COMPLETED — none qualified this week';
  if(incomplete)return 'ZERO — coverage incomplete';
  if(r.adapter)return r.inRange?'COMPLETED — none qualified this week':'COMPLETED — no listings this week';
  if(r.inRange===0&&r.discovered!==undefined)return 'COMPLETED — no listings this week';
