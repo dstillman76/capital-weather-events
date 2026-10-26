@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v36: darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v37: selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -63,7 +63,7 @@
 
   <div id="cwe-cards" tabindex="0" aria-label="Upcoming outdoor events"></div>
   <div id="cwe-detail" hidden></div>
-  <p class="cwe-selection-tip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 3 14 9-7 1-3 7-4-17Z"/><path d="m12 13 5 7"/></svg><span>Select an event above to see its hourly weather forecast below.</span></p>
+  <p class="cwe-selection-tip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 3 14 9-7 1-3 7-4-17Z"/><path d="m12 13 5 7"/></svg><span>Select an event above to see hourly forecast below</span></p>
   <!-- Source diagnostics are hidden for now; remove "hidden" to show the button again. -->
   <div class="cwe-diagnostics-controls" hidden>
     <button type="button" id="cwe-diagnostics-button" aria-expanded="false" aria-controls="cwe-diagnostics">Show source diagnostics</button>
@@ -275,7 +275,7 @@
 #cw-weekend-events .cwe-card.selected .cwe-location,
 #cw-weekend-events .cwe-card.selected .cwe-time { font-weight: 700 !important; }
 /* v35: the tip sits between two thin rules, like the old diagnostics line. */
-#cw-weekend-events .cwe-selection-tip { display:flex; align-items:center; gap:7px; margin:12px 0 6px; padding:5px 0; border-top:1px solid #a9b6c3; border-bottom:1px solid #a9b6c3; font-size:13px; line-height:1.4; color:#536579; }
+#cw-weekend-events .cwe-selection-tip { display:flex; align-items:center; justify-content:center; text-align:center; gap:7px; margin:12px 0 14px; padding:5px 0; border-top:1px solid #a9b6c3; border-bottom:1px solid #a9b6c3; font-size:13px; line-height:1.4; color:#536579; }
 #cw-weekend-events .cwe-selection-tip svg { flex:0 0 16px; }
 #cw-weekend-events .cwe-date {
   flex: 0 0 auto;
