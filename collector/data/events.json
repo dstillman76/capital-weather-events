@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T17:50:32.454Z",
+ "generatedAt": "2026-10-26T18:27:16.923Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -10,9 +10,9 @@
    "source": "Visit Fairfax",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 386,
-   "opened": 51,
-   "cached": 372,
+   "sitemapEvents": 374,
+   "opened": 42,
+   "cached": 362,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -25,7 +25,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 368,
-   "opened": 28,
+   "opened": 0,
    "cached": 356,
    "refused": 0,
    "errors": 0,
@@ -39,7 +39,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 220,
-   "opened": 33,
+   "opened": 0,
    "cached": 208,
    "refused": 0,
    "errors": 0,
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 82,
-   "opened": 4,
+   "opened": 0,
    "cached": 82,
    "refused": 0,
    "errors": 0,
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 60,
-   "opened": 2,
+   "opened": 0,
    "cached": 38,
    "refused": 0,
    "errors": 0,
@@ -81,7 +81,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 264,
-   "opened": 30,
+   "opened": 0,
    "cached": 260,
    "refused": 0,
    "errors": 0,
@@ -6837,7 +6837,7 @@
    "state": "VA",
    "lat": 38.9059383948,
    "lng": -77.2596102424,
-   "description": "Since 1946, the Town of Vienna has hosted a Halloween parade for the community. Now held rain or shine on the Wednesday before Halloween, the parade includes floats and other forms of entertainment marching down Maple Avenue, from Branch Road to Center Street. Some ideas to get entries started on this years theme: Historical Figures & American History Haunted Landmarks & Monuments Zombies, Ghosts & Classic Halloween Creatures Americana Through the Decades American Legends, Folklore & Tall Tales",
+   "description": "Since 1946, the Town of Vienna has hosted a Halloween parade for the community. Now held rain or shine on the Wednesday before Halloween, the parade includes floats and other forms of entertainment marching down Maple Avenue, from Branch Road to Center Street. -- The Town of Vienna’s annual Halloween Parade is set to make history in 2026 as it marks its 80th anniversary and commemorates the nation’s semiquincentennial. The beloved tradition begins at 7 p.m. on Wednesday, Oct. 28, along Maple Avenue from Branch Road to Center Street, as former Virginia state delegate Mark Keam leads the parade as Grand Marshal. The theme of this year’s parade is “Haunted History: 250 Years of America,” celebrating our nation’s 250th anniversary. To mark this historic milestone, parade-goers can enjoy floats featuring American folklore, historical figures, haunted landmarks and classic Halloween characters like zombies and ghosts. Those who wish to march in the parade can meet at 6 p.m. at United Bank, 374 Maple Ave., E. Costumes are encouraged but not required.",
    "categories": "Family Friendly, Seasonal & Holidays, Halloween, Free, Spotlight Events, America250 in Virginia, Hunter Mill District",
    "recurrence": "",
    "admission": "Free"
@@ -31164,7 +31164,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T17:51:40.053Z",
+  "generatedAt": "2026-10-26T18:27:46.246Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -31173,7 +31173,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 849
+    "ms": 1441
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -31181,7 +31181,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 411
+    "ms": 670
    },
    "City of Rockville": {
     "ok": true,
@@ -31189,7 +31189,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1794
+    "ms": 1590
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -31197,7 +31197,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 482
+    "ms": 919
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -31205,15 +31205,15 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 382
+    "ms": 862
    },
    "Navy Yard BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 340
+    "ms": 375
    },
    "DowntownDC BID": {
     "ok": true,
@@ -31221,7 +31221,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 605
+    "ms": 708
    },
    "Falls Church": {
     "ok": true,
@@ -31261,15 +31261,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 111
+    "ms": 493
    },
-   "Southwest BID": {
+   "Ticketmaster": {
     "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
+    "status": "EVENTS FOUND",
+    "events": 4,
+    "outcome": "",
     "error": "",
-    "ms": 456
+    "ms": null
    },
    "NoMa BID": {
     "ok": true,
@@ -31277,7 +31277,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 409
+    "ms": 854
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 400
    },
    "The Wharf": {
     "ok": true,
@@ -31285,7 +31293,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 455
+    "ms": 1823
    },
    "City of Takoma Park": {
     "ok": true,
@@ -31293,15 +31301,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1177
-   },
-   "Ticketmaster": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": null
+    "ms": 567
    },
    "City of Greenbelt": {
     "ok": true,
@@ -31309,15 +31309,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 549
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 246
+    "ms": 487
    },
    "City of Bowie": {
     "ok": true,
@@ -31325,15 +31317,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 938
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 12,
-    "outcome": "",
-    "error": "",
-    "ms": 248
+    "ms": 1469
    },
    "City of Hyattsville": {
     "ok": true,
@@ -31341,23 +31325,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 814
+    "ms": 1182
    },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 20,
-    "outcome": "",
-    "error": "",
-    "ms": 358
-   },
-   "M-NCPPC Prince George’s Parks": {
+   "Visit Alexandria": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 10401
+    "ms": 523
    },
    "Downtown Columbia": {
     "ok": true,
@@ -31365,7 +31341,31 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 599
+    "ms": 3402
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 12,
+    "outcome": "",
+    "error": "",
+    "ms": 553
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 20,
+    "outcome": "",
+    "error": "",
+    "ms": 428
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 23291
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -31373,15 +31373,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 289
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 718
+    "ms": 339
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -31389,31 +31381,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 255
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 681
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 926
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 28
+    "ms": 718
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -31421,63 +31389,31 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 218
+    "ms": 493
    },
-   "Town of Warrenton": {
+   "Visit Calvert": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 584
+    "ms": 647
    },
-   "Georgetown BID": {
+   "Visit St. Mary’s": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 15,
+    "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 230
+    "ms": 7345
    },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 108
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 932
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 18,
-    "outcome": "",
-    "error": "",
-    "ms": 62
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 899
-   },
-   "City of Annapolis": {
+   "Town of Vienna": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 533
+    "ms": 1875
    },
    "Visit Prince William": {
     "ok": true,
@@ -31485,7 +31421,71 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2571
+    "ms": 2783
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 7098
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 1550
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 537
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 299
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 17005
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 18,
+    "outcome": "",
+    "error": "",
+    "ms": 126
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 4228
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 602
    },
    "City of College Park": {
     "ok": true,
@@ -31493,7 +31493,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 474
+    "ms": 1264
    },
    "City of Frederick": {
     "ok": true,
@@ -31501,79 +31501,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 483
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 456
-   },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 556
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 6103
-   },
-   "City of Fairfax": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1515
-   },
-   "Mosaic District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 307
-   },
-   "Union Market District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 573
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
-    "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 134
-   },
-   "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 49
-   },
-   "George Washington’s Mount Vernon": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1735
+    "ms": 1584
    },
    "DC HSEMA": {
     "ok": true,
@@ -31582,6 +31510,78 @@
     "outcome": "",
     "error": "",
     "ms": null
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 989
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 587
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 8456
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 2127
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1106
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 1675
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 215
+   },
+   "One Loudoun": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 312
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 4639
    }
   },
   "count": 194,
@@ -36295,28 +36295,29 @@
     "category": "nature"
    },
    {
-    "source": "Navy Yard BID",
-    "city": "Washington",
-    "county": "District of Columbia",
-    "state": "DC",
-    "categories": "",
-    "venue": "Audi Field",
-    "address": "100 Potomac Avenue SW Washington, DC 20024",
-    "description": "NWSL match featuring the Washington Spirit taking on Chicago Stars FC at Audi Field.",
-    "time": "17:00",
-    "endTime": "04:00",
-    "lat": null,
-    "lng": null,
-    "title": "Washington Spirit vs Chicago Stars - Nov 01 2026",
-    "url": "https://navyyarddc.org/event/washington-spirit-vs-chicago-stars-nov-01-2026",
-    "activityLocation": "Audi Field",
-    "dateEvidence": "Navy Yard BID event page date and time",
-    "outdoorEvidence": "Held at an open-air stadium or amphitheater (Audi Field)",
-    "outdoorEvidenceURL": "https://navyyarddc.org/event/washington-spirit-vs-chicago-stars-nov-01-2026",
-    "id": "Navy Yard BID|https://navyyarddc.org/event/washington-spirit-vs-chicago-stars-nov-01-2026|2026-11-01",
+    "id": "ticketmaster|1A4Zk8IGkdpazK1|2026-11-01",
+    "title": "Washington Spirit vs. Chicago Stars FC",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.com/fan-appreciation-washington-spirit-vs-chicago-washington-district-of-columbia-11-01-2026/event/15006428D62784CA",
     "date": "2026-11-01",
-    "confidence": "Navy Yard BID event page date and time",
-    "category": "sports"
+    "time": "17:00",
+    "endTime": "",
+    "venue": "Audi Field",
+    "address": "100 Potomac Ave. SW, Washington, DC",
+    "city": "Washington",
+    "state": "DC",
+    "county": "District of Columbia",
+    "lat": 38.867998,
+    "lng": -77.013642,
+    "description": "Audi Field is a mobile-only venue. Children 3 and under do not need a ticket if they are sitting on a parent/guardian's lap.",
+    "categories": "Sports",
+    "outdoorEvidence": "Scheduled activity at a verified outdoor sports/performance venue",
+    "outdoorEvidenceURL": "https://www.ticketmaster.com/fan-appreciation-washington-spirit-vs-chicago-washington-district-of-columbia-11-01-2026/event/15006428D62784CA",
+    "confidence": "Ticketmaster schedule",
+    "category": "sports",
+    "alsoListedBy": [
+     "Navy Yard BID"
+    ]
    },
    {
     "id": "ticketmaster|1avfZ_6J47PZdGFd|2026-11-01",
