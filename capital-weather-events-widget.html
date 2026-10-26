@@ -3687,11 +3687,11 @@ async function loadVerifiedSources(sources=VERIFIED_SOURCES){
  * generic calendar-card crawler, which already worked for it. */
 const CIVIC_RSS='/RSSFeed.aspx?ModID=58&CID=All-calendar.xml';
 /* v22: events file written a few times a day by the GitHub collector
- * (repository README explains it). Empty string turns the source off. If the
+ * once a day (repository README explains it). Empty string turns the source off. If the
  * file is missing, unreadable or older than COLLECTOR_MAX_AGE_HOURS, the widget
  * carries on with its own sources only. */
 const COLLECTOR_URL='https://raw.githubusercontent.com/dstillman76/capital-weather-events/main/collector/data/events.json';
-const COLLECTOR_MAX_AGE_HOURS=18;
+const COLLECTOR_MAX_AGE_HOURS=36;   // the collector runs once a day (about 3 a.m. Eastern)
 const CW_EXPANSION_SOURCES=[
  {name:'Adams Morgan BID',adapter:'ctyCards',calendar:'https://adamsmorgan.com/events/calendar/?d=7days',url:'https://adamsmorgan.com/',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'Golden Triangle BID',adapter:'goldenTriangle',url:'https://goldentriangledc.com/events/',city:'Washington',county:'District of Columbia',state:'DC'},
@@ -3702,9 +3702,6 @@ const CW_EXPANSION_SOURCES=[
  {name:'Mount Vernon Triangle CID',adapter:'tribe',api:'https://www.mountvernontriangle.org/wp-json/tribe/events/v1/events',url:'https://www.mountvernontriangle.org/events/',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'Southwest BID',adapter:'tribe',api:'https://swbid.org/wp-json/tribe/events/v1/events',url:'https://swbid.org/events/',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'The Wharf',adapter:'wharf',url:'https://www.wharfdc.com/upcoming-events/',city:'Washington',county:'District of Columbia',state:'DC'},
- // Granicus Vision site with Akamai Bot Manager (403 to the proxy, bot challenge
- // to scripted requests); no third-party calendar or feed exists. Probe once.
- {name:'City of Gaithersburg',adapter:'probe',url:'https://www.gaithersburgmd.gov/recreation/special-events',city:'Gaithersburg',county:'Montgomery County',state:'MD'},
  {name:'City of Takoma Park',adapter:'civicRSS',feed:'https://takomaparkmd.gov'+CIVIC_RSS,url:'https://takomaparkmd.gov/m/Calendar',city:'Takoma Park',county:'Montgomery County',state:'MD'},
  {name:'City of Greenbelt',adapter:'civicRSS',feed:'https://www.greenbeltmd.gov'+CIVIC_RSS,url:'https://www.greenbeltmd.gov/calendar.aspx',city:'Greenbelt',county:'Prince George’s County',state:'MD'},
  {name:'City of Bowie',adapter:'civicRSS',feed:'https://www.cityofbowie.org'+CIVIC_RSS,url:'https://www.cityofbowie.org/calendar.aspx',city:'Bowie',county:'Prince George’s County',state:'MD'},
@@ -3714,11 +3711,10 @@ const CW_EXPANSION_SOURCES=[
  {name:'Visit Calvert',adapter:'civicRSS',feed:'https://visitcalvert.com'+CIVIC_RSS,url:'https://visitcalvert.com/calendar.aspx',city:'',county:'Calvert County',state:'MD'},
  {name:'Visit St. Mary’s',url:'https://www.visitstmarysmd.com/events/',city:'',county:'St. Mary’s County',state:'MD'},
  {name:'Town of Vienna',adapter:'vienna',url:'https://www.viennava.gov/Events-directory',city:'Vienna',county:'Fairfax County',state:'VA'},
- // Granicus Vision sites with Akamai Bot Manager: the proxy gets 403 and even
- // scripted same-site requests get a bot challenge. No third-party calendar
- // host or feed exists (checked 2026-10-25). Probe once so diagnostics stay truthful.
- {name:'Town of Herndon',adapter:'probe',url:'https://www.herndon-va.gov/departments/communications-economic-development/sm/town-calendar',city:'Herndon',county:'Fairfax County',state:'VA'},
- {name:'Town of Leesburg',adapter:'probe',url:'https://www.leesburgva.gov/residents/calendar',city:'Leesburg',county:'Loudoun County',state:'VA'},
+ // v22: City of Gaithersburg, Town of Herndon and Town of Leesburg were removed.
+ // Their Granicus sites block all automated access (Akamai Bot Manager) and
+ // publish no feed. Leesburg and Herndon events still reach the widget through
+ // Visit Loudoun and Visit Fairfax via the daily collector.
  {name:'Town of Occoquan',adapter:'occoquan',url:'https://occoquanva.gov/events/',city:'Occoquan',county:'Prince William County',state:'VA'},
  {name:'Town of Warrenton',adapter:'civicRSS',feed:'https://www.warrentonva.gov'+CIVIC_RSS,url:'https://www.warrentonva.gov/calendar.aspx',city:'Warrenton',county:'Fauquier County',state:'VA'},
  {name:'Visit Stafford',adapter:'tribe',api:'https://www.tourstaffordva.com/wp-json/tribe/events/v1/events',url:'https://www.tourstaffordva.com/events/',city:'',county:'Stafford County',state:'VA'},
@@ -3806,7 +3802,6 @@ function cwExpansionCalendarPaths(source){
   'Mount Vernon Triangle CID':['https://www.mountvernontriangle.org/events/list/'],
   'Southwest BID':['https://swbid.org/events/'],
   'The Wharf':['https://www.wharfdc.com/upcoming-events/'],
-  'City of Gaithersburg':['https://www.gaithersburgmd.gov/recreation/special-events'],
   'City of Takoma Park':['https://takomaparkmd.gov/m/Calendar'],
   'City of Greenbelt':['https://www.greenbeltmd.gov/calendar.aspx?CID=0&view=list'],
   'City of Bowie':['https://www.cityofbowie.org/calendar.aspx'],
@@ -3815,8 +3810,6 @@ function cwExpansionCalendarPaths(source){
   'Visit Calvert':['https://visitcalvert.com/calendar.aspx'],
   'Visit St. Mary’s':['https://www.visitstmarysmd.com/events/'],
   'Town of Vienna':['https://www.viennava.gov/Events-directory','https://www.viennava.gov/Events-directory/Halloween-Parade'],
-  'Town of Herndon':['https://www.herndon-va.gov/recreation/special-events'],
-  'Town of Leesburg':['https://www.leesburgva.gov/departments/parks-recreation/events'],
   'Town of Occoquan':['https://occoquanva.gov/events/'],
   'Town of Warrenton':['https://www.warrentonva.gov/m/calendar'],
   'Visit Stafford':['https://www.tourstaffordva.com/events/'],

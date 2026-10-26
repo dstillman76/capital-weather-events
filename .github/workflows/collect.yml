@@ -2,8 +2,9 @@ name: Collect events
 
 on:
   schedule:
-    # Every 6 hours, at minute 23 (scheduled runs can start late; that's fine).
-    - cron: '23 */6 * * *'
+    # Once a day at 07:41 UTC: 3:41 a.m. Eastern in summer, 2:41 a.m. in winter.
+    # (GitHub schedules run in UTC and can start late; that's fine.)
+    - cron: '41 7 * * *'
   workflow_dispatch: {}
 
 permissions:

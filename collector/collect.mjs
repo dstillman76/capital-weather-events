@@ -1,6 +1,6 @@
 // Capital Weather events collector.
 //
-// Runs on GitHub Actions a few times a day and writes data/events.json, which
+// Runs on GitHub Actions once a day and writes data/events.json, which
 // the Capital Weather outdoor-events widget reads. It covers only the sources
 // a reader's browser cannot read in full:
 //

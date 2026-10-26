@@ -1,8 +1,8 @@
 # Daily events collector
 
-`collect.mjs` runs on GitHub Actions every 6 hours (`.github/workflows/collect.yml`) and writes
+`collect.mjs` runs on GitHub Actions once a day, at about 3 a.m. Eastern (`.github/workflows/collect.yml`) and writes
 `collector/data/events.json`. From v22, the widget reads that file. If the file is missing, unreadable
-or more than 18 hours old, the widget ignores it and uses its own sources.
+or more than 36 hours old, the widget ignores it and uses its own sources.
 
 ## Why it exists
 
