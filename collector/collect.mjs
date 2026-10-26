@@ -264,6 +264,7 @@ async function collectSimpleview(src, cache, today, windowEnd) {
       const rec = parseSimpleviewPage(html, url, src);
       store[url] = {lastmod, fetched: Date.now(), record: rec.skip ? null : rec};
       report.opened++; consecutiveRefusals = 0;
+      if (report.opened % 50 === 0) console.log(`${src.name}: opened ${report.opened} of ${todo.length}`);
     } catch (e) {
       if (e.robots) { report.robotsSkipped++; store[url] = {lastmod, fetched: Date.now(), record: null}; continue; }
       if (e.status === 404 || e.status === 410) { delete store[url]; continue; }
@@ -368,4 +369,29 @@ async function main() {
   console.log(`${events.length} events written in ${Math.round((Date.now() - started) / 1000)} s`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) main().catch(e => { console.error(e); process.exit(1); });
+
+/* ---------- quick probe: node collect.mjs --probe ---------- */
+
+async function probe() {
+  const today = todayISO();
+  const line = (name, msg) => console.log(`${name}: ${msg}`);
+  await Promise.all([...SIMPLEVIEW.map(async src => {
+    try {
+      const site = new Site(src.host); await site.init();
+      const urls = [...(await simpleviewEventURLs(site)).keys()];
+      if (!urls.length) return line(src.name, 'sitemap read, but no event pages listed');
+      const html = await site.get(urls[Math.floor(urls.length / 2)]);
+      const rec = parseSimpleviewPage(html, urls[0], src);
+      line(src.name, `OK: sitemap lists ${urls.length} event pages; sample page parsed: ${rec.skip ? 'expired listing' : JSON.stringify({title: rec.title, dates: rec.dates.slice(0, 3), time: rec.time, venue: rec.venue})}; crawl delay ${site.delay / 1000}s`);
+    } catch (e) { line(src.name, 'FAILED: ' + e.message); }
+  }), (async () => {
+    try {
+      const site = new Site(MONTGOMERY_PARKS.host); await site.init();
+      const body = new URLSearchParams({action: 'load_events', date: today, s: '', park: '', paged: '1', event_category: ''});
+      const list = JSON.parse(await site.get(`https://${MONTGOMERY_PARKS.host}/wp-admin/admin-ajax.php`, {method: 'POST', body, headers: {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}}));
+      line(MONTGOMERY_PARKS.name, `OK: ${list.length} listings for ${today}; first: ${list[0]?.post_title || '-'}`);
+    } catch (e) { line(MONTGOMERY_PARKS.name, 'FAILED: ' + e.message); }
+  })()]);
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) (process.argv.includes('--probe') ? probe() : main()).catch(e => { console.error(e); process.exit(1); });
