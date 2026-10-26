@@ -2501,6 +2501,13 @@ function dedupe(events){
  }
  for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(!e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
   if(byStage.get(norm(e.venue)+'|'+e.date+'|'+e.time)!==e)prepared.splice(i,1)}
+ // An untimed listing at a stadium on a day it hosts a timed event is that
+ // event ("Movies On The Pitch" = "Hocus Pocus at Audi Field", 6 p.m.).
+ const timedStage=new Map();
+ for(const e of prepared)if(e.time&&e.venue&&TM_OUTDOOR_VENUE.test(e.venue))timedStage.set(norm(e.venue)+'|'+e.date,e);
+ for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
+  const keep=timedStage.get(norm(e.venue)+'|'+e.date);
+  if(keep){keep.alsoListedBy=[...new Set([...(keep.alsoListedBy||[]),e.source])].filter(x=>x!==keep.source);prepared.splice(i,1)}}
  const conflicts=typeof state==='object'?(state.conflictedEntities||(state.conflictedEntities=new Set())):new Set();
  const aliases=new Map();
  for(const e of prepared){
