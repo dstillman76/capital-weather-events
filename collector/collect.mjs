@@ -48,7 +48,7 @@ const MONTGOMERY_PARKS = {name: 'Montgomery Parks', host: 'montgomeryparks.org',
 // widget adds it to each FindLocal card. The key below can be replaced by a
 // GitHub Actions secret named FINDLOCAL_API_KEY, which takes precedence.
 const FINDLOCAL = {
-  key: process.env.FINDLOCAL_API_KEY || 'HsjezkLiGFAcVj8NCMDb7h',
+  key: process.env.FINDLOCAL_API_KEY || '3k8TJ8RBxCC81EpnJKUKha',
   // Outdoor-leaning categories only; the widget still screens every event.
   categories: 'parks,market,festival',
   maxCallsPerRun: 2,      // 2 a day at most = 62 a month, under the 100 quota
@@ -400,7 +400,9 @@ async function collectMontgomeryParks(cache, today, windowEnd) {
 export async function collectFindLocal(cache, today, windowEnd) {
   const report = {source: 'FindLocal', kind: 'api', status: 'ok', calls: 0, remaining: null, listings: 0, inWindow: 0, skipped: 0, note: ''};
   const month = today.slice(0, 7);
-  const budget = cache.__findlocal && cache.__findlocal.month === month ? cache.__findlocal : (cache.__findlocal = {month, calls: 0, remaining: null});
+  // The budget record is per month and per key, so a new key starts fresh.
+  const keyId = FINDLOCAL.key.slice(-4);
+  const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   if (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve) {
     report.status = 'skipped'; report.note = `Monthly quota nearly spent (${budget.remaining} calls left); waiting for the 1st.`;
     return {report, records: []};
