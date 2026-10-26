@@ -2458,7 +2458,7 @@ function keyWords(t,drop){
  }
  return out;
 }
-function venueWords(v){return keyWords(v).size?new Set([...keyWords(v)].filter(w=>!/^(?:park|center|centre|regional|national|state|garden|square|plaza|street|avenue|road|hall|farm|orchard|winery|vineyard|brewery|brewing|company|market|library|church|school|museum|house|lake|river|creek|trail|field|green|common|community|recreation|recreational|nature|preserve|island|beach|harbor|harbour|historic|site|club|theater|theatre|stadium|arena|county|city|town|village|district|memorial|estate|manor|mansion|mill|tree|pumpkin|patch)$/.test(w))):new Set()}
+function venueWords(v){return keyWords(v).size?new Set([...keyWords(v)].filter(w=>!/^(?:park|center|centre|regional|national|state|garden|square|plaza|street|avenue|road|hall|farm|orchard|winery|vineyard|brewery|brewing|company|market|library|church|school|museum|house|lake|river|creek|trail|field|green|common|community|recreation|recreational|nature|preserve|island|beach|harbor|harbour|historic|site|club|theater|theatre|stadium|arena|county|city|town|village|district|memorial|estate|manor|mansion|mill|tree|pumpkin|patch|parking|lot|garage|pavilion|lawn|ground|fairground|campus|station|metro|vre|courtyard|building|office|lodge|farmer|artist)$/.test(w))):new Set()}
 function samePlace(a,b){
  if(Number.isFinite(a.lat)&&Number.isFinite(b.lat)&&Number.isFinite(a.lng)&&Number.isFinite(b.lng)&&a.lat&&b.lat&&
     Math.hypot((a.lat-b.lat)*111,(a.lng-b.lng)*86)<0.4)return 'confirmed';
