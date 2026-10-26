@@ -446,7 +446,7 @@ async function collectVisitMontgomery(today, windowEnd) {
         byKey.set(key, {
           source: src.name, siteCounty: src.county, title: textOf(e.title?.rendered), url: e.link, dates: [date], dateKind: 'single',
           time: start.slice(11, 16) === '00:00' ? '' : start.slice(11, 16), endTime: sameDay ? end.slice(11, 16) : '',
-          venue: textOf(e.place || ''), address: textOf(e.street || ''), city: textOf(e.city || ''), state: csz ? csz[2] : 'MD',
+          venue: textOf(e.place || ''), address: textOf(e.street || ''), city: textOf(e.city || '').replace(/,\s*(?:MD|VA|DC|Maryland|Virginia)\.?$/i, ''), state: csz ? csz[2] : 'MD',
           lat: Number(e.latitude) || null, lng: Number(e.longitude) || null,
           description: textOf(e.content?.rendered).slice(0, 1500), categories: '', recurrence: '', admission: '',
         });
