@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v45: clearer note for FindLocal home-page links; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro">Explore outdoor events in DC, Maryland, and Virginia</p>
@@ -2810,7 +2810,7 @@ function publishSelection(e,force=false){
  * "Source: Widewater State Park ↗ (via FindLocal)". */
 function appendSource(node,e){
  if(e.viaFindLocal){
-  const label=(e.venue||'Event page')+(e.flLinkKind==='venue'?' website':'')+' ↗';
+  const label=(e.venue||'Event page')+' ↗';
   node.append(e.url?link(label,e.url):el('span','',e.venue||'Event page'));
   node.append(document.createTextNode(' (via '));
   node.append(link('FindLocal','https://findlocal.community/'));
@@ -2860,7 +2860,6 @@ function selectEvent(e,showDetails=false){
  const source=el('p','','Source: ');
  appendSource(source,e);
  detail.append(source);
- if(e.viaFindLocal&&e.flLinkKind==='venue')detail.append(el('p','cwe-outdoor-note','FindLocal links this event to the organizer’s home page, not a page of its own.'));
 
  const scheduleNote=el('p','', 'Verify the schedule with organizer');
  scheduleNote.style.fontStyle='italic';
@@ -3119,10 +3118,15 @@ function npsSitePlace(item){
  }
  return null;
 }
+// v45: every NPS program seen (kept or not), so FindLocal listings that carry
+// NPS's old numeric event links (which open a blank page) can point to the
+// program's current page instead.
+const NPS_INDEX=new Map();
 function parseNPSRound2(payload,source,report){
  if(!Array.isArray(payload.data)||payload.errors?.length)throw Error('Invalid NPS calendar response');
  const result=[],slots=new Set();
  for(const item of payload.data){
+  if(item.id&&item.title&&!NPS_INDEX.has(item.id))NPS_INDEX.set(item.id,{t:norm(item.title),id:item.id,lat:Number(item.latitude)||null,lng:Number(item.longitude)||null});
   report.discovered++;
   const date=String(item.date||'');
   // expandRecurring supplies explicit dates. Do not expand recurrence rules,
@@ -5102,7 +5106,14 @@ async function adaptCollector(source,r){
   // Classes, talks, performances and club nights in a park are usually indoors.
   const classCategory=/^(?:workshop|talks|literary|art|theater|comedy|dance|music|nightlife)$/.test(rec.flCategory||'');
   const hint=rec.outdoorHint&&!insideCue&&!orgVenue&&!classCategory&&!BUILDING_WORDS.test(clean(rec.title||''))&&/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?'FindLocal lists this as '+rec.outdoorHint:'';
-  out.push(admitPublisher(site,r,{title:rec.title,url:rec.url,venue:rec.venue||'',address:rec.address||'',
+  // v45: NPS's old numeric event links open a blank page; use the program's
+  // current page when the same program at the same park was read.
+  let recURL=rec.url;
+  if(rec.source==='FindLocal'&&/nps\.gov\/planyourvisit\/event-details\.htm\?id=\d+$/i.test(recURL||'')){
+   const t=norm(rec.title),hit=(file.screened?.npsIndex||[]).find(x=>x.t===t&&(!x.lat||!rec.lat||Math.hypot((x.lat-rec.lat)*111,(x.lng-rec.lng)*86)<5));
+   if(hit)recURL='https://www.nps.gov/planyourvisit/event-details.htm?id='+encodeURIComponent(hit.id);
+  }
+  out.push(admitPublisher(site,r,{title:rec.title,url:recURL,venue:rec.venue||'',address:rec.address||'',
    activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
    categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
    endTime:/^\d\d:\d\d$/.test(rec.endTime||'')?rec.endTime:'',viaFindLocal:rec.source==='FindLocal',
@@ -5259,6 +5270,7 @@ window.cwExportEvents=function({download=false,full=false}={}){
   })),
   sources:state.reports.map(r=>({source:r.source,status:diagnosticStatus(r),ok:!!r.ok,blocked:!!r.blocked,count:r.count||0,
    candidates:r.candidates||0,outcome:r.outcome||'',ms:r.ms??null,error:r.error||''})),
+  ...(full?{npsIndex:[...NPS_INDEX.values()]}:{}),
   network:{requests:net.requests,proxy:net.proxy,direct:net.direct,backup:net.backup,timeouts:net.timeouts,errors:net.errors,peak:net.peak},
   finishedMs:state.finishedMs};
  if(download){

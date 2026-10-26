@@ -81,6 +81,8 @@ async function main() {
     generatedAt: snapshot ? new Date().toISOString() : previous?.generatedAt || new Date(0).toISOString(),
     note: failure ? 'Headless run failed: ' + failure + (previous ? ' (previous results kept)' : '') : '',
     sources, count: events.length, events,
+    // NPS programs seen, so the widget can repair FindLocal's old NPS links.
+    npsIndex: snapshot?.npsIndex || previous?.npsIndex || [],
   };
   await writeFile(OUT_FILE, JSON.stringify(out, null, 1) + '\n');
   for (const [name, s] of Object.entries(sources)) console.log(`${name}: ${s.ok ? 'ok' : 'NOT USED'} · ${s.status} · ${s.events} events` + (s.error ? ` · ${s.error}` : ''));
