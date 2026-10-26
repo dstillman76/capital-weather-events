@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro">Explore outdoor events in DC, Maryland, and Virginia</p>
@@ -2751,15 +2751,7 @@ function render(){
   card.append(el('div','cwe-time',displayRange(e)));
 
   const source=el('div','cwe-source','Source: ');
-  if(e.viaFindLocal){
-   // FindLocal's free plan requires a visible link back wherever its data appears.
-   // "Source: Widewater State Park ↗ (via FindLocal)"
-   source.append(e.url?link((e.venue||'Event page')+' ↗',e.url):el('span','',e.venue||'Event page'));
-   source.append(document.createTextNode(' (via '));
-   source.append(link('FindLocal','https://findlocal.community/'));
-   source.append(document.createTextNode(')'));
-  }else if(e.url)source.append(link(e.source+' ↗',e.url));
-  else source.append(el('span','',e.source));
+  appendSource(source,e);
   const footer=el('div','cwe-footer');
   footer.append(source);
   const showDetails=el('button','cwe-show-details',state.detailOpenId===e.id?'Hide details':'Show details');
@@ -2813,6 +2805,19 @@ function publishSelection(e,force=false){
  lastPublished=signature;
  window.dispatchEvent(new CustomEvent('cw:event-selected',{detail}));
 }
+/* One source line for cards and details. FindLocal's free plan requires a
+ * visible link back wherever its data appears:
+ * "Source: Widewater State Park ↗ (via FindLocal)". */
+function appendSource(node,e){
+ if(e.viaFindLocal){
+  const label=(e.venue||'Event page')+(e.flLinkKind==='venue'?' website':'')+' ↗';
+  node.append(e.url?link(label,e.url):el('span','',e.venue||'Event page'));
+  node.append(document.createTextNode(' (via '));
+  node.append(link('FindLocal','https://findlocal.community/'));
+  node.append(document.createTextNode(')'));
+ }else if(e.url)node.append(link(e.source+' ↗',e.url));
+ else node.append(el('span','',e.source));
+}
 function selectEvent(e,showDetails=false){
  // Remember the clicked event's column, including bottom-row clicks.
  // Scrolling within that same column must not override the click.
@@ -2848,15 +2853,14 @@ function selectEvent(e,showDetails=false){
 
  if(e.description){
   const excerpt=descriptionExcerpt(e.description,30);
-  detail.append(el('p','',excerpt.text));
+  // v44: skip it when the weather note above already quotes the same text.
+  if(!(e.outdoorNote&&clean(e.outdoorNote).includes(clean(excerpt.text).slice(0,60))))detail.append(el('p','',excerpt.text));
  }
 
  const source=el('p','','Source: ');
- if(e.url)source.append(
-  link(e.source+' — original listing ↗',e.url)
- );
- else source.append(el('span','',e.source));
+ appendSource(source,e);
  detail.append(source);
+ if(e.viaFindLocal&&e.flLinkKind==='venue')detail.append(el('p','cwe-outdoor-note','The organizer’s website has no page for this event; these details come from FindLocal.'));
 
  const scheduleNote=el('p','', 'Verify the schedule with organizer');
  scheduleNote.style.fontStyle='italic';
@@ -5035,6 +5039,17 @@ async function collectorReadSource(name){
   outcome:'Read by the daily collector ('+rep.inWindow+' listings this week); qualifying events are counted under “Daily collector (GitHub)”'});
  return true;
 }
+/* v44: FindLocal's link is sometimes only the venue's home page or general
+ * events list (Tregaron's tai chi → tregaron.org), which says nothing about
+ * the event. Such cards say "website" so readers know what they will get. */
+function findLocalLinkKind(rec){
+ let u;try{u=new URL(rec.url)}catch{return 'venue'}
+ const path=u.pathname.replace(/\/+$/,'').toLowerCase();
+ const root=String(rec.links?.root_url||rec.links?.venue_url||'').replace(/\/+$/,'').toLowerCase();
+ if((!path&&!u.search)||String(rec.url).replace(/\/+$/,'').toLowerCase()===root||
+    (!u.search&&/^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path)))return 'venue';
+ return rec.linkKind==='tickets'?'tickets':'event';
+}
 async function adaptCollector(source,r){
  r.requests++;
  const {file,error}=await collectorFile();
@@ -5086,6 +5101,7 @@ async function adaptCollector(source,r){
    activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
    categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
    endTime:/^\d\d:\d\d$/.test(rec.endTime||'')?rec.endTime:'',viaFindLocal:rec.source==='FindLocal',
+   flLinkKind:rec.source==='FindLocal'?findLocalLinkKind(rec):'',
    dateEvidence:rec.source==='FindLocal'?'FindLocal event listing (from the venue’s own calendar)':'Publisher event page (read by the daily collector)'},hint));
  }
  const kept=out.filter(Boolean).length;

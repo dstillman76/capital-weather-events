@@ -657,6 +657,18 @@ async function collectVisitMontgomery(today, windowEnd) {
 
 /* ---------- FindLocal ---------- */
 
+// FindLocal's "detail page" is sometimes just the venue's home page or its
+// general events list (Tregaron's tai chi links to tregaron.org). Those say
+// nothing about this event, so the widget labels them as the venue's site.
+export function findLocalLinkKind(e, url) {
+  let u; try { u = new URL(url); } catch { return 'venue'; }
+  const path = u.pathname.replace(/\/+$/, '').toLowerCase();
+  const root = String(e.root_url || e.venue_url || '').replace(/\/+$/, '').toLowerCase();
+  const generic = (!path && !u.search) || String(url).replace(/\/+$/, '').toLowerCase() === root ||
+    (!u.search && /^\/(?:events?|calendar|events?-calendar|event-calendar|whats-on|upcoming-events|menu|happenings|things-to-do)$/.test(path));
+  if (generic) return 'venue';
+  return url === e.detail_page_url ? 'event' : url === e.ticket_page_url ? 'tickets' : 'venue';
+}
 export async function collectFindLocal(cache, today, windowEnd) {
   const report = {source: 'FindLocal', kind: 'api', status: 'ok', calls: 0, remaining: null, listings: 0, inWindow: 0, skipped: 0, note: ''};
   const month = today.slice(0, 7);
@@ -726,7 +738,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
     records.push({
       source: 'FindLocal', siteCounty: '', title: decode(e.title || '').trim(), url,
       // Which link this is: the event's own page, its ticket page, or only the venue's site.
-      linkKind: e.detail_page_url ? 'event' : e.ticket_page_url ? 'tickets' : 'venue',
+      linkKind: findLocalLinkKind(e, url),
       flId: e.id ?? e.event_id ?? null,
       links: Object.fromEntries(Object.entries(e).filter(([k, v]) => /url|link|slug/i.test(k) && typeof v === 'string' && v)),
       dates, dateKind: start === end ? 'single' : 'range',
