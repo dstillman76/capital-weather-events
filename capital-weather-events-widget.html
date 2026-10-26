@@ -4840,7 +4840,12 @@ async function adaptCollector(source,r){
   // v24: FindLocal classifies venues ("Park & Outdoors") and events
   // ("outdoor_activity"); either counts as outdoor evidence, after the usual
   // indoor and building checks in admitPublisher.
-  const hint=rec.outdoorHint?'FindLocal lists this as '+rec.outdoorHint:'';
+  // A park's venue type does not make a nature-center talk or exhibit outdoors.
+  // (Live-animal programs such as snake feedings are nature-center programs.)
+  const insideCue=/\b(?:nature center|visitor center|museum|exhibit(?:ion)?|indoors?|auditorium|classroom|library|serpents?|snakes?|reptiles?|live animals?)\b/i.test(rec.title+' '+(rec.description||''))||/\b(?:mill)\b/i.test(rec.venue||'')||BUILDING_WORDS.test(clean(rec.venue||''));
+  // Ranger talks with no stated time, and titles naming a building ("the Old
+  // Stone House"), need the description itself to place them outdoors.
+  const hint=rec.outdoorHint&&!insideCue&&!BUILDING_WORDS.test(clean(rec.title||''))&&/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?'FindLocal lists this as '+rec.outdoorHint:'';
   out.push(admitPublisher(site,r,{title:rec.title,url:rec.url,venue:rec.venue||'',address:rec.address||'',
    activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
    categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
