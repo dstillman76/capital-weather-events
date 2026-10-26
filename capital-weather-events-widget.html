@@ -4951,7 +4951,10 @@ async function adaptCollector(source,r){
   const insideCue=/\b(?:nature center|visitor center|museum|exhibit(?:ion)?|indoors?|auditorium|classroom|library|serpents?|snakes?|reptiles?|live animals?)\b/i.test(rec.title+' '+(rec.description||''))||/\b(?:mill)\b/i.test(rec.venue||'')||BUILDING_WORDS.test(clean(rec.venue||''));
   // Ranger talks with no stated time, and titles naming a building ("the Old
   // Stone House"), need the description itself to place them outdoors.
-  const hint=rec.outdoorHint&&!insideCue&&!BUILDING_WORDS.test(clean(rec.title||''))&&/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?'FindLocal lists this as '+rec.outdoorHint:'';
+  // A parks department named as the venue ("Montgomery Parks") says nothing
+  // about where the activity is; its pick-up soccer was in an indoor pavilion.
+  const orgVenue=GENERIC_VENUE.test(clean(rec.venue||''))||/^(?:montgomery parks|nova parks|fairfax county park authority|m-ncppc.*)$|\bparks?\s*(?:&|and)\s*rec/i.test(clean(rec.venue||''));
+  const hint=rec.outdoorHint&&!insideCue&&!orgVenue&&!BUILDING_WORDS.test(clean(rec.title||''))&&/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?'FindLocal lists this as '+rec.outdoorHint:'';
   out.push(admitPublisher(site,r,{title:rec.title,url:rec.url,venue:rec.venue||'',address:rec.address||'',
    activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
    categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
