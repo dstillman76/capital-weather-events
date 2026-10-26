@@ -3,7 +3,7 @@
 // already-screened events to data/events.json under "screened".
 //
 // The widget runs with window.CW_COLLECT_MODE = true. In that mode it loads
-// only the sources in its COLLECTED_SOURCES list, goes direct to each
+// every source except those collect.mjs reads itself, goes direct to each
 // publisher (no CORS relay) and collects one extra day. Every date, location
 // and outdoor check is the widget's own, so nothing here re-implements them.
 //
@@ -61,7 +61,9 @@ async function main() {
     for (const r of snapshot.sources) {
       // A source counts as read only if it actually finished; failures and
       // blocks leave it to the reader's browser.
-      const ok = r.ok && !r.blocked && /^(EVENTS FOUND|COMPLETED)/.test(r.status);
+      // ZERO results from a source that answered are real results too, so
+      // readers' browsers don't re-load it; failures and blocks are left to them.
+      const ok = r.ok && !r.blocked && !r.error && /^(EVENTS FOUND|COMPLETED|ZERO)/.test(r.status);
       sources[r.source] = {ok, status: r.status, events: 0, outcome: r.outcome || '', error: r.error || '', ms: r.ms};
     }
     events = snapshot.events.filter(e => sources[e.source]?.ok);

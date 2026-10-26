@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v37: selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v38: every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -1549,7 +1549,9 @@ function calendarEntries(html,source){
  return entries;
 }
 async function loadCalendar(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(COLLECT_MJS_SOURCES.has(source.name)&&(COLLECT_MODE||await collectorReadSource(source.name)))return [];
+ if(await fromCollector(source.name+' calendar'))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const candidates=[];
  const seen=new Set();
  let pages=0;
@@ -1685,7 +1687,7 @@ async function fetchPrinceWilliamJSON(url){
  * contains 1,217 records, including 13 dated October 23–29, 2026.
  * Do not scrape the empty client-rendered calendar HTML. */
 async function loadPrinceWilliamImGoing(){
- if(COLLECT_MODE)return [];
+ if(await fromCollector('Visit Prince William'))return [];
  const source='Visit Prince William';
  const base='https://api.imgoingcalendar.com/api/visitors/PrinceWilliamCo/events';
  const candidates=[];let scanned=0,pages=0,transport='',requests=0;const errorsAfterPage=[];const began=performance.now();
@@ -1758,7 +1760,7 @@ async function loadPrinceWilliamImGoing(){
  }catch(err){state.reports.push({source,ok:false,error:err.message});return []}
 }
 async function loadPrinceWilliamYodel(){
- if(COLLECT_MODE)return [];
+ if(await fromCollector('Prince William Parks (Yodel)'))return [];
  const source='Prince William Parks (Yodel)';
  const url='https://events.yodel.today/bristow-va/profile/Prince-William-County-Parks---Recreation/133120';
  try{
@@ -1898,7 +1900,9 @@ async function processCandidate(candidate){
 }
 
 async function loadFeed(feed){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(feed.name))return [];
+ if(COLLECT_MJS_SOURCES.has(feed.name)&&(COLLECT_MODE||await collectorReadSource(feed.name)))return [];
+ if(await fromCollector(feed.name))return [];
+ if(COLLECT_MODE&&!collectedHere(feed.name))return [];
  try{
   const xml=await fetchText(feed.url,12000);
   const parsed=parseRSS(xml,feed);
@@ -1925,7 +1929,8 @@ async function loadFeed(feed){
 /* Neighborhood calendar pilot. Never assign the current date to an undated
  * listing: require an explicit date on its card or on the event page. */
 async function loadNeighborhood(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -1991,7 +1996,8 @@ function bidDate(text){
 }
 /* Rosslyn CTY CMS: event details are embedded in artcrd swiper slides. */
 async function loadRosslyn(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -2029,7 +2035,7 @@ async function loadRosslyn(source){
    time, and date in separate named elements. No detail-page requests. */
 async function loadSilverSpring(source){
  if(await fromCollector(source.name))return [];
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -2067,7 +2073,7 @@ async function loadSilverSpring(source){
    Calendar cards are not required to contain their own date. */
 async function loadReston(source){
  if(await fromCollector(source.name))return [];
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  const urls=new Set();let attempted=0;let failures=0,excluded=0;let noDate=0,outOfRange=0,noTitle=0;const examples=[];
@@ -2127,7 +2133,8 @@ async function loadReston(source){
 
 /* Georgetown BID: The Events Calendar public REST API, bounded to seven days. */
 async function loadGeorgetown(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  const results=[],seen=new Set(),review=[];let screened=0,notOutdoor=0,invalid=0,pages=0,detailChecked=0,detailRecovered=0;
@@ -2194,7 +2201,8 @@ async function loadGeorgetown(source){
 }
 
 async function loadBid(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};state.reports.push(report);
  try{
   const doc=docFrom(await fetchText(source.url,7000));const seen=new Set(),result=[];
@@ -2221,7 +2229,7 @@ async function loadBid(source){
 }
 
 async function loadHSEMA(){
- if(COLLECT_MODE)return [];
+ if(await fromCollector('DC HSEMA'))return [];
  const source='DC HSEMA';
  const collected=new Map();let scanned=0,missingDate=0,outsideRange=0,notOutdoor=0,duplicate=0,detailFetched=0,detailFailed=0;
  const samples=[];
@@ -2328,7 +2336,7 @@ const TICKETMASTER_KEY='QQu8BPg6u7k1ixc3IkAM1dxE7aHLIEY4';
 const TM_OUTDOOR_VENUE=/\b(?:nationals park|audi field|northwest stadium|commanders field|fedexfield|segra field|jiffy lube live|merriweather post pavilion|filene center|secu stadium|towson university,? unitas stadium|minnegan field at johnny unitas stadium|pier six pavilion|frederick fairgrounds|maryland state fairgrounds|loudoun county fairgrounds|bull run regional park|the anthem outdoors|the wharf amphitheater)\b/i;
 const TM_INDOOR_VENUE=/\b(?:capital one arena|eaglebank arena|entertainment and sports arena|xfinity center|the anthem|the fillmore|9:30 club|the birchmere|the lincoln theatre|the warner theatre|the kennedy center|the lyric|the hamilton|strathmore|theatre|theater|hall|arena|casino|music center|the soundry|union stage|the barns at wolf trap)\b/i;
 async function loadTicketmaster(){
- if(COLLECT_MODE)return [];
+ if(await fromCollector('Ticketmaster'))return [];
  const source='Ticketmaster';let scanned=0,accepted=0;
  try{
   const start=new Date(days[0]+'T00:00:00-04:00');
@@ -3817,7 +3825,7 @@ function parseAlexandriaICAL(raw,source,report){
 }
 async function loadVerifiedSource(source){
  if(await fromCollector(source.name))return [];
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  if(source.coverage)return loadCoverageSource(source);
  if(source.round2)return loadRound2Source(source);
  const report={source:source.name,ok:true,count:0,candidates:0,discovered:0,parsed:0,inRange:0,outdoor:0,unique:0,requests:0};
@@ -4219,7 +4227,8 @@ function cwExpansionImproveCandidates(html,source,baseURL=source.url){
  return [...unique.values()].slice(0,100);
 }
 async function cwExpansionLoad(source){
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const report={source:source.name,ok:false,count:0,candidates:0,discovered:0,parsed:0,detail:'Expansion: starting'};
  state.reports.push(report);const began=performance.now();
  let candidates=[];
@@ -4959,16 +4968,25 @@ function collectorFile(){
  * those already-screened events instead of loading the source itself; when
  * the file is missing, stale or the source failed there, the source loads live
  * as before. */
-const COLLECTED_SOURCES=new Set(['National Landing BID','City of Fairfax','George Washington’s Mount Vernon','NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
+// v38: the daily GitHub run (collector/screen.mjs) now reads EVERY source,
+// so readers' browsers normally load one file. A source loads live in the
+// browser only when the file is missing or stale, or that source failed there.
+// collect.mjs itself reads the Simpleview tourism sites and Visit Montgomery,
+// so the headless run skips their feeds and calendars.
+const LIVE_ONLY=new Set(['Daily collector (GitHub)']);
+const COLLECT_MJS_SOURCES=new Set(['Visit Fairfax','Visit Loudoun','Visit Frederick','Experience Prince George’s','Visit Howard County','Visit Annapolis','Visit Montgomery']);
+function collectedHere(name){name=String(name||'');return !LIVE_ONLY.has(name)&&!COLLECT_MJS_SOURCES.has(name.replace(/ calendar$/,''))}
+const COLLECTED_SOURCES={has:collectedHere};
 async function fromCollector(name){
- if(!COLLECTED_SOURCES.has(name))return false;
+ if(COLLECT_MODE||!collectedHere(name))return false;
  const {file}=await collectorFile();
  const group=file?.screened;
  const ageH=group?(Date.now()-Date.parse(group.generatedAt))/36e5:Infinity;
  const status=group?.sources?.[name];
  if(!(ageH<COLLECTOR_MAX_AGE_HOURS)||!status?.ok)return false;
  // Types are re-derived here, so a file written by an older version still sorts the same way.
- const events=(group.events||[]).filter(e=>e.source===name&&validISO(e.date)&&days.includes(e.date)).map(e=>({...e,category:category(e)}));
+ const base=name.replace(/ calendar$/,'');
+ const events=(group.events||[]).filter(e=>(e.source===name||e.source===base)&&validISO(e.date)&&days.includes(e.date)).map(e=>({...e,category:category(e)}));
  if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
  state.reports.push({source:name,ok:true,collector:true,candidates:events.length,count:0,requests:0,
   discoveryComplete:true,outcome:'Read by the daily collector ('+new Date(group.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET): '+status.status});
@@ -5126,7 +5144,7 @@ const ADAPTERS={nationalLanding:adaptNationalLanding,mountVernon:adaptMountVerno
 
 async function runAdapter(source){
  if(await fromCollector(source.name))return [];
- if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
+ if(COLLECT_MODE&&!collectedHere(source.name))return [];
  const r=adapterReport(source),began=performance.now();
  let events=[],timer;
  try{
