@@ -498,6 +498,11 @@
  #cw-weekend-events #cwe-prev::after {content:'↑';font-size:20px;}
  #cw-weekend-events #cwe-next::after {content:'↓';font-size:20px;}
 }
+
+/* v23: hold the widget's height steady while events load, so content below it
+   (the hourly forecast) doesn't jump as the first cards and status text appear. */
+#cw-weekend-events #cwe-cards { min-height:217px; }
+#cw-weekend-events .cwe-toolbar { min-height:36px; }
 </style>
 
 <script>
@@ -2585,8 +2590,11 @@ function render(){
  }
  if(desktopScroll)cards.scrollTop=previousScroll;
  else cards.scrollLeft=previousScroll;
- // Select the first available event when the current selection is absent.
- if(!state.userSelected || !list.some(e=>e.id===state.selected)){
+ // Select the first available event only when nothing valid is selected.
+ // v23: an automatic selection stays put while later sources load (it used to
+ // jump to whichever event sorted first after each source, re-sending the
+ // forecast request each time).
+ if(!list.some(e=>e.id===state.selected)){
   const first=list[0];
   state.selected=first.id;
   state.scrollColumn=0;
@@ -2597,9 +2605,9 @@ function render(){
  }
 }
 
-function publishSelection(e){
- window.dispatchEvent(new CustomEvent('cw:event-selected',{
-  detail:{
+let lastPublished='';
+function publishSelection(e,force=false){
+ const detail={
    id:e.id,title:e.title,date:e.date,
    startTime:e.time||null,endTime:e.endTime||null,
    venue:e.venue||null,address:e.address||null,
@@ -2607,8 +2615,13 @@ function publishSelection(e){
    state:e.state||null,latitude:e.lat,
    longitude:e.lng,source:e.source,url:e.url,
    dateConfidence:e.confidence
-  }
- }));
+  };
+ // v23: re-renders during loading re-sent the same selection dozens of times,
+ // and the forecast module redrew on each one. Send only real changes.
+ const signature=JSON.stringify(detail);
+ if(signature===lastPublished&&!force)return;  // a reader's click always sends
+ lastPublished=signature;
+ window.dispatchEvent(new CustomEvent('cw:event-selected',{detail}));
 }
 function selectEvent(e,showDetails=false){
  // Remember the clicked event's column, including bottom-row clicks.
@@ -2624,7 +2637,7 @@ function selectEvent(e,showDetails=false){
  if(!showDetails){
   detail.hidden=true;
   detail.replaceChildren();
-  publishSelection(e);
+  publishSelection(e,true);
   return;
  }
  detail.hidden=false;
@@ -2659,7 +2672,7 @@ function selectEvent(e,showDetails=false){
  scheduleNote.style.fontStyle='italic';
  detail.append(scheduleNote);
 
- publishSelection(e);
+ publishSelection(e,true);
 }
 
 $('#cwe-state').addEventListener('change',e=>{
