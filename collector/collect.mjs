@@ -665,7 +665,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
   // A changed request (radius, categories) is fetched at once, not on schedule.
-  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v2';   // v2 adds venueType/flCategory
+  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v3';   // v2 adds venueType/flCategory; v3 records which link each listing has
   if (state.query !== query) { state.lastFetch = ''; state.query = query; }
   // Refresh as often as the quota allows: with 3 calls per refresh (100-row
   // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
@@ -725,6 +725,10 @@ export async function collectFindLocal(cache, today, windowEnd) {
     const types = Array.isArray(e.event_types) ? e.event_types : [];
     records.push({
       source: 'FindLocal', siteCounty: '', title: decode(e.title || '').trim(), url,
+      // Which link this is: the event's own page, its ticket page, or only the venue's site.
+      linkKind: e.detail_page_url ? 'event' : e.ticket_page_url ? 'tickets' : 'venue',
+      flId: e.id ?? e.event_id ?? null,
+      links: Object.fromEntries(Object.entries(e).filter(([k, v]) => /url|link|slug/i.test(k) && typeof v === 'string' && v)),
       dates, dateKind: start === end ? 'single' : 'range',
       time: e.start_time && e.start_time !== '00:00' ? e.start_time : '', endTime: e.end_time || '',
       venue: decode(e.venue_name || '').trim(), address: decode(e.venue_address || '').trim(),
