@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T14:31:31.026Z",
+ "generatedAt": "2026-10-26T14:34:33.091Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -22867,7 +22867,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T14:32:07.563Z",
+  "generatedAt": "2026-10-26T14:35:01.366Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -22892,7 +22892,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 567
+    "ms": 575
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -22900,7 +22900,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2064
+    "ms": 3363
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -22908,7 +22908,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2569
+    "ms": 2088
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -22916,7 +22916,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 831
+    "ms": 656
    },
    "National Landing BID": {
     "ok": true,
@@ -22924,7 +22924,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 6405
+    "ms": 6826
    },
    "City of Fairfax": {
     "ok": true,
@@ -22932,7 +22932,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1648
+    "ms": 2096
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -22940,7 +22940,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2088
+    "ms": 1972
    },
    "Visit Montgomery": {
     "ok": true,
@@ -22948,7 +22948,7 @@
     "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 24539
+    "ms": 24298
    }
   },
   "count": 65,
