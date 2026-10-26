@@ -34,6 +34,17 @@ jobs:
           restore-keys: collector-cache-
       - name: Run collector
         run: node collector/collect.mjs
+      # Second step: run the widget itself headless for the sources that are
+      # slow or unreliable in readers' browsers (see collector/README.md).
+      - name: Install headless Chromium
+        continue-on-error: true
+        working-directory: collector
+        run: |
+          npm install --no-save --no-package-lock playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: Run widget sources headless
+        continue-on-error: true
+        run: node collector/screen.mjs
       - name: Save page cache
         if: always()
         uses: actions/cache/save@v4

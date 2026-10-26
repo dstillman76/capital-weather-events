@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v22: Ghost HTML card, self-contained. Adds the daily GitHub collector file (tourism sites beyond their 30-item feeds, Montgomery Parks) on top of v21; works without it. -->
+<!-- Capital Weather outdoor events v23: Ghost HTML card, self-contained. Uses the daily GitHub collector file for the large tourism sites, Montgomery Parks, and six slow or unreliable sources; loads everything live if the file is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -656,8 +656,13 @@ const [y,m,d]=today.split('-').map(Number);
 function addDays(n){
  return new Date(Date.UTC(y,m-1,d+n)).toISOString().slice(0,10);
 }
-const days=Array.from({length:7},(_,i)=>addDays(i));
-const firstDay=days[0],lastDay=days[6];
+/* v23: the daily GitHub collector runs this same widget headless with
+ * window.CW_COLLECT_MODE set: requests go direct (no CORS relay), size limits
+ * are lifted and one extra day is collected, so the file still covers the full
+ * seven-day window the evening after it was made. */
+const COLLECT_MODE=typeof window!=='undefined'&&window.CW_COLLECT_MODE===true;
+const days=Array.from({length:COLLECT_MODE?8:7},(_,i)=>addDays(i));
+const firstDay=days[0],lastDay=days[days.length-1];
 const weekendDays=new Set(days.filter(iso=>{
  const wd=new Date(iso+'T12:00:00Z').getUTCDay();
  return wd===5||wd===6||wd===0;
@@ -1099,6 +1104,7 @@ async function netText(url,timeout=10000,opts={}){
  }finally{clearTimeout(timer);netRelease(host)}
 }
 async function fetchText(url,timeout=10000){
+ if(COLLECT_MODE){const d=await netText(url,timeout);if(!d.ok)throw Error('HTTP '+d.status+(d.status===401||d.status===403?' (publisher refused)':''));if(!d.text.trim())throw Error('Empty response');return d.text}
  let r;
  try{r=await netText(PROXY+url,timeout)}catch(err){r={error:err}}
  // v21: the proxy answers 429 in short bursts when many sources start at once
@@ -1484,6 +1490,7 @@ function calendarEntries(html,source){
  return entries;
 }
 async function loadCalendar(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const candidates=[];
  const seen=new Set();
  let pages=0;
@@ -1619,6 +1626,7 @@ async function fetchPrinceWilliamJSON(url){
  * contains 1,217 records, including 13 dated October 23–29, 2026.
  * Do not scrape the empty client-rendered calendar HTML. */
 async function loadPrinceWilliamImGoing(){
+ if(COLLECT_MODE)return [];
  const source='Visit Prince William';
  const base='https://api.imgoingcalendar.com/api/visitors/PrinceWilliamCo/events';
  const candidates=[];let scanned=0,pages=0,transport='',requests=0;const errorsAfterPage=[];const began=performance.now();
@@ -1691,6 +1699,7 @@ async function loadPrinceWilliamImGoing(){
  }catch(err){state.reports.push({source,ok:false,error:err.message});return []}
 }
 async function loadPrinceWilliamYodel(){
+ if(COLLECT_MODE)return [];
  const source='Prince William Parks (Yodel)';
  const url='https://events.yodel.today/bristow-va/profile/Prince-William-County-Parks---Recreation/133120';
  try{
@@ -1830,6 +1839,7 @@ async function processCandidate(candidate){
 }
 
 async function loadFeed(feed){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(feed.name))return [];
  try{
   const xml=await fetchText(feed.url,12000);
   const parsed=parseRSS(xml,feed);
@@ -1856,6 +1866,7 @@ async function loadFeed(feed){
 /* Neighborhood calendar pilot. Never assign the current date to an undated
  * listing: require an explicit date on its card or on the event page. */
 async function loadNeighborhood(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -1921,6 +1932,7 @@ function bidDate(text){
 }
 /* Rosslyn CTY CMS: event details are embedded in artcrd swiper slides. */
 async function loadRosslyn(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -1957,6 +1969,8 @@ async function loadRosslyn(source){
 /* Downtown Silver Spring CTY CMS: listing anchors contain title, venue,
    time, and date in separate named elements. No detail-page requests. */
 async function loadSilverSpring(source){
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  try{
@@ -1993,6 +2007,8 @@ async function loadSilverSpring(source){
 /* Reston Town Center: event detail pages have reliable Event Date fields.
    Calendar cards are not required to contain their own date. */
 async function loadReston(source){
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  const urls=new Set();let attempted=0;let failures=0,excluded=0;let noDate=0,outOfRange=0,noTitle=0;const examples=[];
@@ -2052,6 +2068,7 @@ async function loadReston(source){
 
 /* Georgetown BID: The Events Calendar public REST API, bounded to seven days. */
 async function loadGeorgetown(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};
  state.reports.push(report);
  const results=[],seen=new Set(),review=[];let screened=0,notOutdoor=0,invalid=0,pages=0,detailChecked=0,detailRecovered=0;
@@ -2118,6 +2135,7 @@ async function loadGeorgetown(source){
 }
 
 async function loadBid(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:true,count:0,candidates:0,detail:''};state.reports.push(report);
  try{
   const doc=docFrom(await fetchText(source.url,7000));const seen=new Set(),result=[];
@@ -2144,6 +2162,7 @@ async function loadBid(source){
 }
 
 async function loadHSEMA(){
+ if(COLLECT_MODE)return [];
  const source='DC HSEMA';
  const collected=new Map();let scanned=0,missingDate=0,outsideRange=0,notOutdoor=0,duplicate=0,detailFetched=0,detailFailed=0;
  const samples=[];
@@ -2246,6 +2265,7 @@ const TICKETMASTER_KEY='QQu8BPg6u7k1ixc3IkAM1dxE7aHLIEY4';
 const TM_OUTDOOR_VENUE=/\b(?:nationals park|audi field|northwest stadium|commanders field|fedexfield|segra field|jiffy lube live|merriweather post pavilion|filene center|secu stadium|towson university,? unitas stadium|minnegan field at johnny unitas stadium|pier six pavilion|frederick fairgrounds|maryland state fairgrounds|loudoun county fairgrounds|bull run regional park|the anthem outdoors|the wharf amphitheater)\b/i;
 const TM_INDOOR_VENUE=/\b(?:capital one arena|eaglebank arena|entertainment and sports arena|xfinity center|the anthem|the fillmore|9:30 club|the birchmere|the lincoln theatre|the warner theatre|the kennedy center|the lyric|the hamilton|strathmore|theatre|theater|hall|arena|casino|music center|the soundry|union stage|the barns at wolf trap)\b/i;
 async function loadTicketmaster(){
+ if(COLLECT_MODE)return [];
  const source='Ticketmaster';let scanned=0,accepted=0;
  try{
   const start=new Date(days[0]+'T00:00:00-04:00');
@@ -3345,7 +3365,7 @@ async function fetchDirectText(url,timeout=8000){
  const r=await netText(url,timeout);
  if(!r.ok)throw Error('HTTP '+r.status);
  if(!r.text.trim())throw Error('Empty response');
- if(r.text.length>1800000)throw Error('Response too large');
+ if(r.text.length>1800000&&!COLLECT_MODE)throw Error('Response too large');
  return r.text;
 }
 function verifiedBase(source,fields){
@@ -3614,6 +3634,8 @@ function parseAlexandriaICAL(raw,source,report){
  return result;
 }
 async function loadVerifiedSource(source){
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  if(source.coverage)return loadCoverageSource(source);
  if(source.round2)return loadRound2Source(source);
  const report={source:source.name,ok:true,count:0,candidates:0,discovered:0,parsed:0,inRange:0,outdoor:0,unique:0,requests:0};
@@ -4006,6 +4028,7 @@ function cwExpansionImproveCandidates(html,source,baseURL=source.url){
  return [...unique.values()].slice(0,100);
 }
 async function cwExpansionLoad(source){
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const report={source:source.name,ok:false,count:0,candidates:0,discovered:0,parsed:0,detail:'Expansion: starting'};
  state.reports.push(report);const began=performance.now();
  let candidates=[];
@@ -4711,11 +4734,41 @@ async function adaptFairfaxParks(source,r){
 
 /* v22: daily collector file. Each record is what the publisher's own event
  * page states; the usual date, location and outdoor checks still apply here. */
+/* v23: one shared request for the collector file. */
+let collectorFilePromise=null;
+function collectorFile(){
+ if(COLLECT_MODE||!COLLECTOR_URL)return Promise.resolve({file:null,error:'off'});
+ return collectorFilePromise||=(async()=>{
+  try{
+   const file=JSON.parse(await fetchDirectText(COLLECTOR_URL,10000));
+   if(file?.schemaVersion!==1||!Array.isArray(file.events))return {file:null,error:'Collector file format not recognized'};
+   return {file};
+  }catch(err){return {file:null,error:String(err?.message||err)}}
+ })();
+}
+/* v23: sources the daily collector reads by running this widget headless.
+ * When its file is fresh and the source completed there, the browser uses
+ * those already-screened events instead of loading the source itself; when
+ * the file is missing, stale or the source failed there, the source loads live
+ * as before. */
+const COLLECTED_SOURCES=new Set(['Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
+async function fromCollector(name){
+ if(!COLLECTED_SOURCES.has(name))return false;
+ const {file}=await collectorFile();
+ const group=file?.screened;
+ const ageH=group?(Date.now()-Date.parse(group.generatedAt))/36e5:Infinity;
+ const status=group?.sources?.[name];
+ if(!(ageH<COLLECTOR_MAX_AGE_HOURS)||!status?.ok)return false;
+ const events=(group.events||[]).filter(e=>e.source===name&&validISO(e.date)&&days.includes(e.date)).map(e=>({...e}));
+ if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
+ state.reports.push({source:name,ok:true,collector:true,candidates:events.length,count:0,requests:0,
+  discoveryComplete:true,outcome:'Read by the daily collector ('+new Date(group.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET): '+status.status});
+ return true;
+}
 async function adaptCollector(source,r){
  r.requests++;
- const text=await fetchDirectText(source.url,10000);
- let file;try{file=JSON.parse(text)}catch{throw Error('Collector file is not valid JSON')}
- if(file?.schemaVersion!==1||!Array.isArray(file.events))throw Error('Collector file format not recognized');
+ const {file,error}=await collectorFile();
+ if(!file)throw Error(error||'Collector file unavailable');
  const ageH=(Date.now()-Date.parse(file.generatedAt))/36e5;
  if(!(ageH<COLLECTOR_MAX_AGE_HOURS)){r.outcome='Collector file is '+(isFinite(ageH)?Math.round(ageH)+' hours':'of unknown age')+' old; not used';return []}
  const sites=(file.sources||[]).map(x=>x.source+': '+x.status+(x.inWindow!=null?' ('+x.inWindow+')':'')).join(' · ');
@@ -4750,6 +4803,8 @@ const ADAPTERS={collector:adaptCollector,novaParks:adaptNOVAParks,fairfaxParks:a
  goldenTriangle:adaptGoldenTriangle,ctyCards:adaptCTYCards,occoquan:adaptOccoquan,probe:adaptProbe};
 
 async function runAdapter(source){
+ if(await fromCollector(source.name))return [];
+ if(COLLECT_MODE&&!COLLECTED_SOURCES.has(source.name))return [];
  const r=adapterReport(source),began=performance.now();
  let events=[],timer;
  try{
@@ -4793,12 +4848,12 @@ async function cwExpansionRun(){
  * window.cwExportEvents() to receive a validated JSON-compatible snapshot.
  * Calling with {download:true} explicitly downloads the snapshot manually.
  */
-window.cwExportEvents=function({download=false}={}){
+window.cwExportEvents=function({download=false,full=false}={}){
  const snapshot={schemaVersion:1,generatedAt:new Date().toISOString(),
   collectionComplete:!state.enriching,
   window:{first:days[0],last:days[days.length-1]},
   count:state.events.length,
-  events:state.events.map(e=>({
+  events:full?JSON.parse(JSON.stringify(state.events)):state.events.map(e=>({
    id:e.id,title:e.title,date:e.date,time:e.time||'',endTime:e.endTime||'',
    venue:e.venue||'',address:e.address||'',city:e.city||'',county:e.county||'',
    state:e.state||'',description:e.description||'',source:e.source||'',

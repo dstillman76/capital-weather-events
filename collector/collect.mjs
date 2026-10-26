@@ -407,6 +407,8 @@ async function main() {
     sources: results.map(r => r.report),
     count: events.length,
     events,
+    // collector/screen.mjs replaces this after it runs; carried over meanwhile.
+    ...(previous.screened ? {screened: previous.screened} : {}),
   };
   await writeFile(OUT_FILE, JSON.stringify(out, null, 1) + '\n');
   await writeFile(CACHE_FILE, JSON.stringify(cache) + '\n');
