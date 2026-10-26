@@ -24,7 +24,8 @@ jobs:
           for u in https://www.gaithersburgmd.gov/robots.txt https://www.gaithersburgmd.gov/recreation/events \
                    https://www.herndon-va.gov/robots.txt https://www.leesburgva.gov/robots.txt \
                    https://www.montgomerycountymd.gov/robots.txt https://www.howardcountymd.gov/robots.txt \
-                   https://www.pikeandrose.com/events https://www.kentlandsusa.com/robots.txt; do
+                   https://patch.com/maryland/gaithersburg/calendar https://patch.com/robots.txt \
+                   https://fairfax.usedirect.com/FairfaxFCPAWeb/ACTIVITIES/Search.aspx?category_name=NATURE; do
             code=$(curl -s -o /tmp/b -w '%{http_code}' -A 'CapitalWeatherEventsCollector/1.0 (+https://github.com/dstillman76/capital-weather-events)' --max-time 20 "$u" || true)
             echo "::notice::$code $u $(head -c 120 /tmp/b 2>/dev/null | tr '\n\r' '  ')"
           done
