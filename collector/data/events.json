@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T13:49:27.832Z",
+ "generatedAt": "2026-10-26T14:30:20.569Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -106,14 +106,14 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 92,
-   "listings": 1115,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 623,
-   "skipped": 201,
-   "note": "3 call(s) used; 92 left this month; next refresh in 2 day(s).",
-   "indoorVenue": 291
+   "skipped": 0,
+   "note": "Refreshed 2026-10-26; next refresh in 2 day(s) to stay within the monthly quota.",
+   "keptPrevious": 623
   }
  ],
  "count": 945,
@@ -4154,7 +4154,7 @@
    "endTime": "14:30",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -4416,7 +4416,7 @@
    "endTime": "19:30",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -4563,7 +4563,7 @@
    "endTime": "14:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -5202,7 +5202,7 @@
    "endTime": "11:30",
    "venue": "Brookside Nature Center",
    "address": "1400 Glenallan Ave., Wheaton, Maryland 20902",
-   "city": "",
+   "city": "Wheaton",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -6621,7 +6621,7 @@
    "endTime": "12:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -6690,7 +6690,7 @@
    "endTime": "18:00",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -8200,7 +8200,7 @@
    "endTime": "18:00",
    "venue": "Black Hill Regional Park",
    "address": "20930 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -8269,7 +8269,7 @@
    "endTime": "19:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -9703,7 +9703,7 @@
    "endTime": "18:30",
    "venue": "Locust Grove Nature Center",
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
-   "city": "",
+   "city": "Bethesda",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -11383,7 +11383,7 @@
    "endTime": "12:00",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -11649,7 +11649,7 @@
    "endTime": "20:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -12074,7 +12074,7 @@
    "endTime": "17:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -13133,7 +13133,7 @@
    "endTime": "14:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -15049,7 +15049,7 @@
    "endTime": "14:00",
    "venue": "Locust Grove Nature Center",
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
-   "city": "",
+   "city": "Bethesda",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -15738,7 +15738,7 @@
    "endTime": "16:00",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -18721,7 +18721,7 @@
    "endTime": "12:00",
    "venue": "South Germantown Recreational Park",
    "address": "18041 Central Park Circle, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -18743,7 +18743,7 @@
    "endTime": "15:00",
    "venue": "South Germantown Recreational Park",
    "address": "18041 Central Park Circle, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -20286,7 +20286,7 @@
    "endTime": "12:00",
    "venue": "Meadowside Nature Center",
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
-   "city": "",
+   "city": "Rockville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -20530,7 +20530,7 @@
    "endTime": "17:00",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -20577,7 +20577,7 @@
    "endTime": "16:00",
    "venue": "Black Hill Discovery Center",
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
-   "city": "",
+   "city": "Boyds",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -22867,7 +22867,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T13:50:05.129Z",
+  "generatedAt": "2026-10-26T14:30:49.306Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -22892,7 +22892,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 512
+    "ms": 748
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -22900,7 +22900,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 4939
+    "ms": 4401
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -22908,7 +22908,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2571
+    "ms": 3235
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -22916,7 +22916,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 705
+    "ms": 859
    },
    "National Landing BID": {
     "ok": true,
@@ -22924,7 +22924,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 6414
+    "ms": 7191
    },
    "City of Fairfax": {
     "ok": true,
@@ -22932,7 +22932,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1731
+    "ms": 2647
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -22940,7 +22940,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 5883
+    "ms": 3482
    },
    "Visit Montgomery": {
     "ok": true,
@@ -22948,7 +22948,7 @@
     "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 33046
+    "ms": 24354
    }
   },
   "count": 65,
