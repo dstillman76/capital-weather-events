@@ -177,16 +177,29 @@ function extractVar(html, name) {
   const m = html.match(new RegExp('\\bvar\\s+' + name + '\\s*=\\s*"((?:[^"\\\\]|\\\\.)*)"'));
   return m ? decode(m[1].replace(/\\(.)/g, '$1')) : '';
 }
-function extractDataObject(html) {
-  const i = html.search(/\bvar\s+data\s*=\s*\{/); if (i < 0) return null;
-  const s = html.indexOf('{', i); let depth = 0, inStr = false, esc = false;
-  for (let k = s; k < html.length; k++) {
-    const c = html[k];
-    if (inStr) { if (esc) esc = false; else if (c === '\\') esc = true; else if (c === '"') inStr = false; continue; }
-    if (c === '"') inStr = true; else if (c === '{') depth++;
-    else if (c === '}' && !--depth) { try { return JSON.parse(html.slice(s, k + 1)); } catch { return null; } }
+// The event's own JSON object. Pages carry several "var data = {...}" blocks
+// (navigation widgets too), so take the first one that describes an event.
+// Older templates call it "data", the newer one (Visit Howard County) "eventData".
+function extractEventObject(html) {
+  const re = /\bvar\s+(eventData|data)\s*=\s*\{/g; let m;
+  while ((m = re.exec(html))) {
+    const s = html.indexOf('{', m.index); let depth = 0, inStr = false, esc = false, obj = null;
+    for (let k = s; k < html.length; k++) {
+      const c = html[k];
+      if (inStr) { if (esc) esc = false; else if (c === '\\') esc = true; else if (c === '"') inStr = false; continue; }
+      if (c === '"') inStr = true; else if (c === '{') depth++;
+      else if (c === '}' && !--depth) { try { obj = JSON.parse(html.slice(s, k + 1)); } catch { /* not JSON */ } break; }
+    }
+    if (obj && (obj.recid || obj.recId) && obj.title) return obj;
   }
   return null;
+}
+// Newer template: <li data-name="dates"><span>Dates:</span><span>November 11, 2026</span></li>
+function infoList(html) {
+  const out = {};
+  for (const m of html.matchAll(/<li[^>]*\bdata-name="([\w-]+)"[^>]*>([\s\S]*?)<\/li>/g))
+    out[m[1]] ??= textOf(m[2]).replace(/^[A-Z][\w ]{0,20}:\s*/, '');
+  return out;
 }
 // Occurrence dates the page states. Returns {dates, kind} where kind explains
 // how they were read; an empty list means the page gave no usable date.
@@ -210,20 +223,22 @@ export function simpleviewDates(datesVar, startVar, endVar) {
   return {dates: [a], kind: b > a ? 'next-of-range' : 'next'};
 }
 export function parseSimpleviewPage(html, url, src) {
-  const data = extractDataObject(html) || {};
+  const data = extractEventObject(html) || {};
   if (data.expired === true || data.past === true) return {skip: 'expired'};
+  const li = infoList(html);
   const title = decode(data.title || (html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '').replace(/<[^>]+>/g, '').trim();
   const startVar = extractVar(html, 'startDate'), endVar = extractVar(html, 'endDate');
-  const {dates, kind} = simpleviewDates(extractVar(html, 'dates'), startVar, endVar);
-  const tr = parseTimeRange(extractVar(html, 'time'));
+  const {dates, kind} = simpleviewDates(extractVar(html, 'dates') || li.dates || '', startVar, endVar);
+  const tr = parseTimeRange(extractVar(html, 'time') || li.time || '');
   const time = tr.start || parseClock(startVar), endTime = tr.end || parseClock(endVar);
-  const cityStateZip = extractVar(html, 'cityStateZip');
-  const street = extractVar(html, 'streetAddress');
+  const liAddress = (li.address || '').match(/^(.*?),\s*([^,]+,\s*[A-Z]{2}\b.*)$/);
+  const cityStateZip = extractVar(html, 'cityStateZip') || (liAddress ? liAddress[2] : '');
+  const street = extractVar(html, 'streetAddress') || (liAddress ? liAddress[1] : '');
   const csz = cityStateZip.match(/^(.*?),\s*([A-Z]{2})\b/);
   return {
     source: src.name, siteCounty: src.county, title, url,
     dates, dateKind: kind, time, endTime: endTime && endTime > time ? endTime : '',
-    venue: decode(data.location || '').trim(),
+    venue: decode(data.location || li.location || '').trim(),
     address: [street, cityStateZip].filter(Boolean).join(', '),
     city: decode(data.city || (csz ? csz[1] : '')).trim(),
     state: csz ? csz[2] : src.state,
@@ -289,47 +304,77 @@ async function collectSimpleview(src, cache, today, windowEnd) {
 
 /* ---------- Montgomery Parks ---------- */
 
-async function collectMontgomeryParks(today, windowEnd) {
+// Montgomery Parks' calendar feed (admin-ajax.php) is disallowed by its
+// robots.txt, so the collector uses its public events sitemaps and event pages
+// instead. Each page states "Time:" (date or date range, clock range) and
+// "Location:" (venue, street, town).
+export function parseMontgomeryParksPage(html, url, src) {
+  const block = (cls) => (html.match(new RegExp('<div class="' + cls + '">([\\s\\S]*?)<\\/div>')) || [])[1] || '';
+  const dateText = textOf(block('date')), timeText = textOf(block('time'));
+  const title = textOf((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '');
+  if (!title || !dateText) return {skip: 'no schedule'};
+  const parts = dateText.split(/\s+-\s+/);
+  const a = parseUSDate(parts[0]), b = parts[1] ? parseUSDate(parts[1]) : a;
+  let dates = [], kind = 'none';
+  if (a && b && b >= a) {
+    if (daysBetween(a, b) > 3) kind = 'long-range';
+    else { dates = rangeDates(a, b); kind = a === b ? 'single' : 'range'; }
+  }
+  const tr = parseTimeRange(timeText);
+  const locHTML = (html.match(/<strong>Location:<\/strong>[\s\S]*?<\/div>\s*([\s\S]*?)<\/div>\s*<\/div>/) || [])[1] || '';
+  const venue = textOf((locHTML.match(/<div>([\s\S]*?)<\/div>/) || [])[1] || '');
+  const addr = textOf(((locHTML.match(/<p>([\s\S]*?)<\/p>/) || [])[1] || '').replace(/<br\s*\/?>/gi, ', '));
+  const csz = addr.match(/,\s*([^,]+),\s*(MD|DC|VA)\b/);
+  const og = (html.match(/property="og:description" content="([^"]*)"/) || [])[1] || '';
+  return {
+    source: src.name, siteCounty: src.county, title, url, dates, dateKind: kind,
+    time: tr.start, endTime: tr.end, venue, address: addr.replace(/\s*,\s*,/g, ','),
+    city: csz ? csz[1].trim() : '', state: csz ? csz[2] : 'MD', lat: null, lng: null,
+    description: decode(og).slice(0, 2000), categories: '', recurrence: '', admission: '',
+  };
+}
+async function collectMontgomeryParks(cache, today, windowEnd) {
   const src = MONTGOMERY_PARKS;
-  const report = {source: src.name, kind: 'wordpress-ajax', status: 'ok', requests: 0, listings: 0, inWindow: 0, skippedLongRange: 0, errors: 0, note: ''};
+  const report = {source: src.name, kind: 'sitemap+pages', status: 'ok', sitemapEvents: 0, opened: 0, cached: 0, refused: 0, errors: 0, inWindow: 0, pending: 0, note: ''};
   const site = new Site(src.host); await site.init();
-  const byURL = new Map();
+  const store = cache[src.host] ||= {};
+  const urls = new Map();
   try {
-    for (let day = today; day <= windowEnd && !overBudget(); day = addDays(day, 1)) {
-      for (let page = 1; page <= 20; page++) {
-        const body = new URLSearchParams({action: 'load_events', date: day, s: '', park: '', paged: String(page), event_category: ''});
-        const text = await site.get(`https://${src.host}/wp-admin/admin-ajax.php`, {method: 'POST', body, headers: {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}});
-        let list; try { list = JSON.parse(text); } catch { throw Error('Calendar response was not JSON'); }
-        if (!Array.isArray(list) || !list.length) break;
-        report.listings += list.length;
-        for (const e of list) {
-          const url = e.permalink || e.guid; if (!url) continue;
-          const dateText = decode(e.final_date || '');
-          const parts = dateText.split(/\s+-\s+/);
-          const a = parseUSDate(parts[0]) || parseUSDate(e.start_date), b = parts[1] ? parseUSDate(parts[1]) : a;
-          // A listing whose stated span covers more than three days, with no
-          // daily schedule, does not say which of those days it actually runs.
-          if (a && b && daysBetween(a, b) > 3) { report.skippedLongRange++; continue; }
-          if (a && (day < a || day > b)) continue;
-          const tr = parseTimeRange(decode(e.final_time || ''));
-          const rec = byURL.get(url) || {
-            source: src.name, siteCounty: src.county, title: decode(e.post_title || '').trim(), url,
-            dates: [], dateKind: a === b ? 'single' : 'range', time: tr.start, endTime: tr.end,
-            venue: decode(e.final_location || '').trim(), address: '', city: '', state: 'MD', lat: null, lng: null,
-            description: textOf(e.post_content).slice(0, 2000), categories: '', recurrence: '', admission: '',
-          };
-          if (!rec.dates.includes(day)) rec.dates.push(day);
-          byURL.set(url, rec);
-        }
-        if (list.length < 12) break;
-      }
+    const index = await site.get(`https://${src.host}/sitemap_index.xml`);
+    for (const sm of sitemapEntries(index).filter(e => /\/events-sitemap\d*\.xml$/.test(e.loc))) {
+      for (const e of sitemapEntries(await site.get(sm.loc)))
+        if (/\/events\/[^/]+\/?$/.test(new URL(e.loc).pathname)) urls.set(e.loc, e.lastmod);
     }
   } catch (e) {
-    report.status = e.refused ? 'blocked' : 'failed'; report.note = e.message + (e.refused ? '. Not bypassed.' : '');
+    report.status = e.refused ? 'blocked' : 'failed'; report.note = 'Sitemap: ' + e.message; return {report, records: []};
   }
-  report.requests = site.requests;
-  const records = [...byURL.values()].map(r => ({...r, dates: r.dates.sort()}));
+  report.sitemapEvents = urls.size;
+  for (const key of Object.keys(store)) if (!urls.has(key)) delete store[key];
+  // An event page's own dates never move, so unchanged pages are not re-opened
+  // until the weekly refresh.
+  const todo = [...urls].filter(([u, lm]) => !store[u] || (lm && store[u].lastmod !== lm) || Date.now() - store[u].fetched > REFRESH_DAYS * 864e5)
+    .sort((x, y) => (store[x[0]]?.fetched || 0) - (store[y[0]]?.fetched || 0));
+  let consecutiveRefusals = 0;
+  for (const [url, lastmod] of todo) {
+    if (report.opened >= MAX_PAGES_PER_SITE || overBudget()) { report.pending = todo.length - report.opened; break; }
+    try {
+      const rec = parseMontgomeryParksPage(await site.get(url), url, src);
+      store[url] = {lastmod, fetched: Date.now(), record: rec.skip ? null : rec};
+      report.opened++; consecutiveRefusals = 0;
+      if (report.opened % 50 === 0) console.log(`${src.name}: opened ${report.opened} of ${todo.length}`);
+    } catch (e) {
+      if (e.robots) { store[url] = {lastmod, fetched: Date.now(), record: null}; continue; }
+      if (e.status === 404 || e.status === 410) { delete store[url]; continue; }
+      report.errors++;
+      if (e.refused && ++consecutiveRefusals >= 5) { report.status = 'blocked'; report.note = 'Publisher refused event pages (HTTP 403); stopped. Not bypassed.'; break; }
+    }
+  }
+  report.refused = site.refused;
+  report.cached = Object.values(store).filter(x => x.record).length;
+  const records = Object.values(store).filter(x => x.record)
+    .map(({record}) => ({...record, dates: record.dates.filter(d => d >= today && d <= windowEnd)})).filter(r => r.dates.length);
   report.inWindow = records.length;
+  if (report.status === 'ok' && report.pending) { report.status = 'partial'; report.note = `${report.pending} event pages still to open; later runs continue from the cache.`; }
   return {report, records};
 }
 
@@ -344,7 +389,7 @@ async function main() {
   const today = todayISO(), windowEnd = addDays(today, WINDOW_DAYS - 1);
   const results = await Promise.all([
     ...SIMPLEVIEW.map(src => collectSimpleview(src, cache, today, windowEnd).catch(e => ({report: {source: src.name, status: 'failed', note: e.message}, records: []}))),
-    collectMontgomeryParks(today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
+    collectMontgomeryParks(cache, today, windowEnd).catch(e => ({report: {source: MONTGOMERY_PARKS.name, status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
   // in the window), so one bad run does not empty the widget's extra coverage.
@@ -387,9 +432,11 @@ async function probe() {
   }), (async () => {
     try {
       const site = new Site(MONTGOMERY_PARKS.host); await site.init();
-      const body = new URLSearchParams({action: 'load_events', date: today, s: '', park: '', paged: '1', event_category: ''});
-      const list = JSON.parse(await site.get(`https://${MONTGOMERY_PARKS.host}/wp-admin/admin-ajax.php`, {method: 'POST', body, headers: {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}}));
-      line(MONTGOMERY_PARKS.name, `OK: ${list.length} listings for ${today}; first: ${list[0]?.post_title || '-'}`);
+      const index = await site.get(`https://${MONTGOMERY_PARKS.host}/sitemap_index.xml`);
+      const sm = sitemapEntries(index).find(e => /\/events-sitemap\d*\.xml$/.test(e.loc));
+      const pages = sitemapEntries(await site.get(sm.loc)).filter(e => /\/events\/[^/]+\/?$/.test(new URL(e.loc).pathname));
+      const rec = parseMontgomeryParksPage(await site.get(pages[pages.length - 1].loc), pages[0].loc, MONTGOMERY_PARKS);
+      line(MONTGOMERY_PARKS.name, `OK: first events sitemap lists ${pages.length} pages; sample: ${JSON.stringify({title: rec.title, dates: rec.dates, time: rec.time, venue: rec.venue, city: rec.city, skip: rec.skip})}`);
     } catch (e) { line(MONTGOMERY_PARKS.name, 'FAILED: ' + e.message); }
   })()]);
 }

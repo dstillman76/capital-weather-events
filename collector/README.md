@@ -11,7 +11,7 @@ Some sources can't be read in full from a reader's browser:
 | Source | Browser limitation | What the collector does |
 |---|---|---|
 | Visit Fairfax, Visit Loudoun, Visit Frederick, Experience Prince George’s, Visit Howard County, Visit Annapolis | The RSS feed stops at 30 items, sorted alphabetically. The date search answers only the site's own page; scripted requests get HTTP 403. | Reads the public sitemap and opens each event page, which states its own dates, times, venue and address. |
-| Montgomery Parks | The calendar answers only POST requests. The free CORS relay forwards GET only. | Makes the same POST requests the calendar page makes, one for each date and page. |
+| Montgomery Parks | The calendar feed answers only POST requests, which the free CORS relay doesn't forward. robots.txt also disallows that feed. | Reads the public events sitemaps and the event pages they list (each page states "Time:" and "Location:"). |
 
 For example, on 2026-10-25 Visit Fairfax's sitemap listed 386 events. Fifty-eight fell in the coming
 week, and only 2 of those were in its 30-item feed.
