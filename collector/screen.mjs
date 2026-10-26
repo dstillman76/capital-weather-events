@@ -19,7 +19,7 @@ const ROOT = new URL('../', import.meta.url);
 const OUT_FILE = new URL('collector/data/events.json', ROOT);
 const WIDGET = new URL('capital-weather-events-widget.html', ROOT);
 const TZ = 'America/New_York';
-const LIMIT_MS = 5 * 60e3;
+const LIMIT_MS = 15 * 60e3;   // slow publishers get up to 60 s a request in collect mode
 
 function todayISO() {
   const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit'})

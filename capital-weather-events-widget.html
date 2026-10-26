@@ -1129,6 +1129,9 @@ function netPump(){
 function netAcquire(host){return new Promise(resolve=>{net.waiting.push({host,resolve});netPump()})}
 function netRelease(host){net.active--;net.hosts.set(host,Math.max(0,(net.hosts.get(host)||1)-1));netPump()}
 async function netText(url,timeout=10000,opts={}){
+ // v28: the daily collector can wait for slow publishers (Visit Montgomery's
+ // API often takes over 10 s a page, which cut its coverage short).
+ if(COLLECT_MODE)timeout=Math.max(timeout,60000);
  const host=targetHost(url);
  await netAcquire(host);
  const controller=new AbortController();
@@ -3467,7 +3470,7 @@ async function loadCoverageSource(source){
  const pageSize=source.coverage==='markets'?100:50,maxPages=source.coverage==='geodir'&&COLLECT_MODE?10:3;
  for(const period of periods){
   for(let page=1;page<=maxPages;page++){
-   if(report.requests>=(source.coverage==='geodir'?(COLLECT_MODE?24:5):4)){report.limited=true;break}
+   if(report.requests>=(source.coverage==='geodir'?(COLLECT_MODE?16:5):4)){report.limited=true;break}
    const params=source.coverage==='georgetown'?new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days.at(-1)+' 23:59:59'}):
     new URLSearchParams({per_page:String(pageSize),page:String(page),_fields:fields});
    if(period){params.set('event_type',period);params.set('single_event','false')}
