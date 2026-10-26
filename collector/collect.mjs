@@ -49,10 +49,15 @@ const MONTGOMERY_PARKS = {name: 'Montgomery Parks', host: 'montgomeryparks.org',
 // GitHub Actions secret named FINDLOCAL_API_KEY, which takes precedence.
 const FINDLOCAL = {
   key: process.env.FINDLOCAL_API_KEY || '3k8TJ8RBxCC81EpnJKUKha',
-  // One request covers everything within 90 km of DC (FindLocal's suggestion,
-  // 2026-10-26). Outdoor-leaning categories; the widget still screens each event.
-  near: '38.9072,-77.0369', radiusKm: 90,
-  categories: 'parks,market,festival,fitness',
+  // One request covers everything within 60 km of DC (Leesburg, Manassas,
+  // Columbia and Annapolis are inside; Frederick and Fredericksburg are not).
+  // Every category: outdoor concerts, community festivals, stadium games and
+  // food-truck events are filed under music, community, sports, food_drink…
+  // The widget screens each event; venues that are always indoors are dropped
+  // here to keep the file small.
+  near: '38.9072,-77.0369', radiusKm: 60,
+  categories: '',
+  indoorVenueTypes: /^(?:Theater|Comedy Club|Nightclub|Library|Bookstore|Museum|Art Gallery|Cafe)$/,
   monthlyTarget: 80,      // plan for at most 80 of the 100 monthly calls
   maxCallsPerRun: 6,
   keepInReserve: 10,      // never spend the last 10 calls of the month
@@ -409,6 +414,9 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const keyId = FINDLOCAL.key.slice(-4);
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
+  // A changed request (radius, categories) is fetched at once, not on schedule.
+  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories;
+  if (state.query !== query) { state.lastFetch = ''; state.query = query; }
   // Refresh as often as the quota allows: with 3 calls per refresh (100-row
   // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
   // covers the widget's 7 days plus the days until the next refresh.
@@ -426,7 +434,8 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const rows = [];
   for (let page = 1; page <= FINDLOCAL.maxCallsPerRun; page++) {
     const params = new URLSearchParams({near: FINDLOCAL.near, radius_km: String(FINDLOCAL.radiusKm), date_from: today, date_to: windowEnd,
-      cat: FINDLOCAL.categories, limit: String(limit), page: String(page)});
+      limit: String(limit), page: String(page)});
+    if (FINDLOCAL.categories) params.set('cat', FINDLOCAL.categories);
     const res = await fetch('https://findlocal.community/api/events?' + params, {
       headers: {Authorization: 'Bearer ' + FINDLOCAL.key, 'user-agent': UA, accept: 'application/json'},
       signal: AbortSignal.timeout(30000),
@@ -453,6 +462,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const records = [];
   for (const e of rows) {
     if (e.is_deleted || /cancel|postpon/i.test(e.status || '')) { report.skipped++; continue; }
+    if (FINDLOCAL.indoorVenueTypes.test(e.venue_type || '')) { report.indoorVenue = (report.indoorVenue || 0) + 1; continue; }
     const start = e.event_date, end = e.end_date || e.event_date;
     if (!/^\d{4}-\d\d-\d\d$/.test(start || '')) { report.skipped++; continue; }
     if (daysBetween(start, end) > 3) { report.skipped++; continue; }   // a long run with no daily schedule
@@ -469,7 +479,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
       time: e.start_time && e.start_time !== '00:00' ? e.start_time : '', endTime: e.end_time || '',
       venue: decode(e.venue_name || '').trim(), address: decode(e.venue_address || '').trim(),
       city: where[1].trim(), state: where[2], lat: e.venue_lat ?? null, lng: e.venue_lng ?? null,
-      description: textOf(e.description).slice(0, 2000),
+      description: textOf(e.description).slice(0, 1200),
       categories: [e.category, ...types].filter(Boolean).join(', '),
       recurrence: '', admission: e.price || '',
       outdoorHint: e.venue_type === 'Park & Outdoors' ? 'a Park & Outdoors venue' : types.includes('outdoor_activity') ? 'an outdoor activity' : '',

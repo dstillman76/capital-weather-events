@@ -2,12 +2,12 @@ import assert from 'node:assert/strict';
 const rows=[
  {title:"Self-Guided Trek n' Treat Trail",event_date:'2026-10-12',end_date:'2026-10-31',start_time:'00:00',end_time:null,category:'parks',event_types:[],venue_name:'Widewater State Park',venue_address:'101 Widewater Park Dr, Stafford, VA 22554',venue_type:'Park & Outdoors',detail_page_url:'https://x/1'},
  {title:'A BOOtanical Halloween Scavenger Hunt!',event_date:'2026-10-26',end_date:null,start_time:'10:00',end_time:null,category:'parks',event_types:['outdoor_activity'],venue_name:'Meadowlark Botanical Gardens',venue_address:'9750 Meadowlark Gardens Ct, Vienna, VA 22182',venue_type:'Park & Outdoors',venue_lat:38.9,venue_lng:-77.2,detail_page_url:'https://x/2',description:'10:00am - 6:00pm'},
- {title:'Bird Walk',event_date:'2026-10-27',start_time:'08:30',category:'parks',event_types:['nature_program'],venue_name:'Kenilworth',venue_address:'1550 Anacostia Avenue Northeast, Washington, DC 20019',venue_type:'Museum',detail_page_url:'https://x/3'},
+ {title:'Bird Walk',event_date:'2026-10-27',start_time:'08:30',category:'parks',event_types:['nature_program'],venue_name:'Kenilworth',venue_address:'1550 Anacostia Avenue Northeast, Washington, DC 20019',venue_type:'Other',detail_page_url:'https://x/3'},
  {title:'Cancelled thing',event_date:'2026-10-27',status:'cancelled',venue_address:'1 A St, Washington, DC 20001',detail_page_url:'https://x/4'},
  {title:'No address',event_date:'2026-10-27',venue_address:null,detail_page_url:'https://x/5'},
 ];
 let calls=0;
-globalThis.fetch=async(u,o)=>{calls++;assert.ok(o.headers.Authorization.startsWith('Bearer '));assert.match(String(u),/near=38\.9072%2C-77\.0369/);assert.match(String(u),/radius_km=90/);assert.match(String(u),/limit=500/);
+globalThis.fetch=async(u,o)=>{calls++;assert.ok(o.headers.Authorization.startsWith('Bearer '));assert.match(String(u),/near=38\.9072%2C-77\.0369/);assert.match(String(u),/radius_km=60/);assert.doesNotMatch(String(u),/cat=/);assert.match(String(u),/limit=500/);
  return {ok:true,status:200,headers:new Map([['x-ratelimit-remaining','57']]),json:async()=>({data:rows,meta:{total:rows.length}})}};
 const {collectFindLocal}=await import('../collect.mjs');
 const cache={};
