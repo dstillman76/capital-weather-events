@@ -2366,7 +2366,9 @@ async function loadTicketmaster(){
    scanned++;
    const v=item._embedded?.venues?.[0]||{};
    const venue=clean(v.name||'');
-   const title=clean(item.name||'');
+   // v41: some games are sold only as ticket products ("Fan Appreciation: Washington
+   // Spirit vs. Chicago Stars FC", "Premium Spaces: …"); the event is the game itself.
+   const title=clean(item.name||'').replace(/^(?:premium spaces|fan appreciation|vip(?: [a-z]+)*|suites?|club(?: [a-z]+)*|parking)\s*:\s*/i,'');
    const st=(v.state?.stateCode||'').toUpperCase();
    const city=clean(v.city?.name||'');
    const county=countyFor(city,st);
