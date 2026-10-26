@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T18:58:10.182Z",
+ "generatedAt": "2026-10-26T19:13:35.429Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 59,
-   "opened": 10,
+   "opened": 0,
    "cached": 37,
    "refused": 0,
    "errors": 0,
@@ -80,9 +80,9 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 264,
-   "opened": 0,
-   "cached": 260,
+   "sitemapEvents": 261,
+   "opened": 26,
+   "cached": 257,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -135,14 +135,14 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 89,
-   "listings": 1115,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 623,
-   "skipped": 201,
-   "note": "3 call(s) used; 89 left this month; next refresh in 2 day(s).",
-   "indoorVenue": 291
+   "skipped": 0,
+   "note": "Refreshed 2026-10-26; next refresh in 2 day(s) to stay within the monthly quota.",
+   "keptPrevious": 623
   }
  ],
  "count": 1289,
@@ -36028,7 +36028,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T18:58:51.998Z",
+  "generatedAt": "2026-10-26T19:14:08.917Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -36037,7 +36037,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1521
+    "ms": 883
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -36045,7 +36045,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 772
+    "ms": 328
    },
    "City of Rockville": {
     "ok": true,
@@ -36053,7 +36053,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1753
+    "ms": 1323
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -36061,7 +36061,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 944
+    "ms": 564
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -36069,7 +36069,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 937
+    "ms": 639
    },
    "Navy Yard BID": {
     "ok": true,
@@ -36077,7 +36077,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 242
+    "ms": 539
    },
    "DowntownDC BID": {
     "ok": true,
@@ -36085,7 +36085,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 840
+    "ms": 613
    },
    "Falls Church": {
     "ok": true,
@@ -36119,13 +36119,29 @@
     "error": "",
     "ms": null
    },
+   "NoMa BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1117
+   },
    "Mount Vernon Triangle CID": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 617
+    "ms": 207
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 265
    },
    "Ticketmaster": {
     "ok": true,
@@ -36135,29 +36151,13 @@
     "error": "",
     "ms": null
    },
-   "NoMa BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 912
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 454
-   },
    "The Wharf": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 969
+    "ms": 1417
    },
    "City of Takoma Park": {
     "ok": true,
@@ -36165,7 +36165,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 486
+    "ms": 548
    },
    "City of Greenbelt": {
     "ok": true,
@@ -36173,7 +36173,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 637
+    "ms": 584
    },
    "City of Bowie": {
     "ok": true,
@@ -36181,15 +36181,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1407
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 900
+    "ms": 1175
    },
    "Visit Alexandria": {
     "ok": true,
@@ -36197,161 +36189,9 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 498
+    "ms": 414
    },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1616
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 12,
-    "outcome": "",
-    "error": "",
-    "ms": 399
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 20,
-    "outcome": "",
-    "error": "",
-    "ms": 286
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 1800
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 692
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 36402
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 413
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 2056
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1094
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 670
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 3002
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 65
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 439
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 7103
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 374
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 19268
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 18,
-    "outcome": "",
-    "error": "",
-    "ms": 143
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 1394
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2976
-   },
-   "City of College Park": {
+   "City of Hyattsville": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
@@ -36359,85 +36199,149 @@
     "error": "",
     "ms": 697
    },
-   "City of Frederick": {
+   "NPS Rock Creek Park": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 803
+    "ms": 948
    },
-   "City of Laurel": {
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 20,
+    "outcome": "",
+    "error": "",
+    "ms": 403
+   },
+   "Downtown Columbia": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 757
+    "ms": 3873
    },
-   "Town of Purcellville": {
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 27952
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 1598
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 364
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 718
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 4167
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 1074
+   },
+   "Bethesda Urban Partnership": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 595
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 7405
+    "ms": 263
    },
-   "City of Fairfax": {
+   "NPS DC-area parks": {
     "ok": true,
-    "status": "COMPLETED — none qualified this week",
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 805
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 337
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
     "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 2162
+    "ms": 77
    },
-   "Mosaic District": {
+   "Town of Warrenton": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 746
+    "ms": 504
    },
-   "Union Market District": {
+   "Visit Stafford": {
     "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1850
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
+    "status": "COMPLETED — no listings this week",
     "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 144
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 225
    },
-   "One Loudoun": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "Calendar could not be read: Unexpected token '<', \"<html><hea\"... is not valid JSON",
-    "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-    "ms": 743
-   },
-   "George Washington’s Mount Vernon": {
+   "Visit Fredericksburg": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 9892
+    "ms": 2754
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 18,
+    "outcome": "",
+    "error": "",
+    "ms": 90
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 9607
    },
    "DC HSEMA": {
     "ok": true,
@@ -36446,6 +36350,102 @@
     "outcome": "",
     "error": "",
     "ms": null
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 630
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 641
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 497
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 604
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1606
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 6738
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1423
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1196
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 1132
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 98
+   },
+   "One Loudoun": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "Calendar could not be read: Unexpected token '<', \"<html><hea\"... is not valid JSON",
+    "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+    "ms": 88
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 7310
    }
   },
   "count": 194,
@@ -41308,6 +41308,362 @@
     "date": "2026-11-02",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
+   }
+  ],
+  "npsIndex": [
+   {
+    "t": "july fourth, 1862—at sea",
+    "id": "532AF7A5-F8A9-0909-6270E5C8EBFA8464",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "july fourth, 1862—at sea",
+    "id": "532D259A-0C06-E60D-923ECE6791FDA63D",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "korean war memorial tour",
+    "id": "8E2F45B9-AC5F-ED8A-454C8ADD2C027CFE",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "the unfinished america: a 250-year journey of liberty and economic freedom",
+    "id": "C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "july fourth, 1862—at sea",
+    "id": "53335DF5-D56C-BA9A-55CB14A6C094CBAF",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "world war ii memorial",
+    "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
+    "lat": 38.888553,
+    "lng": -77.040542
+   },
+   {
+    "t": "korean war veterans memorial",
+    "id": "20C8A006-9D75-B08D-B9660EEE010654DD",
+    "lat": 38.888361,
+    "lng": -77.049099
+   },
+   {
+    "t": "picnic in the park: history through music - halloween edition",
+    "id": "F287D42C-B131-0332-20CFD5183032FA44",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "vietnam veterans memorial",
+    "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+    "lat": 38.888361,
+    "lng": -77.049099
+   },
+   {
+    "t": "lincoln memorial",
+    "id": "20E95621-C801-29EC-8D514DA27A4B20BD",
+    "lat": 38.889271,
+    "lng": -77.049732
+   },
+   {
+    "t": "martin luther king, jr memorial",
+    "id": "20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+    "lat": 38.886465,
+    "lng": -77.044619
+   },
+   {
+    "t": "franklin delano roosevelt memorial",
+    "id": "20FF2C70-D41B-B05C-B574977383870A1E",
+    "lat": 38.883884,
+    "lng": -77.044233
+   },
+   {
+    "t": "tales of the odd and unusual",
+    "id": "8E1CD759-A313-6D53-F8B0ECD4164BA87F",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "thomas jefferson memorial",
+    "id": "210B48F0-9F51-FC75-4436E2F198520714",
+    "lat": 38.881855,
+    "lng": -77.036562
+   },
+   {
+    "t": "fdr and his love of the sea",
+    "id": "5621CCD1-AA46-9B3D-2321BCE6710C00E4",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "heroes remembered: stories from battleground national cemetery",
+    "id": "A6E146DE-B965-23A4-793385D42D061348",
+    "lat": 38.970712,
+    "lng": -77.026777
+   },
+   {
+    "t": "junior ranger discovery club: explore, learn, protect",
+    "id": "A736D2E5-9089-8284-5E46F94050628669",
+    "lat": 38.970787,
+    "lng": -77.026745
+   },
+   {
+    "t": "little picnic in the park",
+    "id": "AE68BBBE-C6B4-E38A-9FA67EE1FE6324EA",
+    "lat": 38.940265,
+    "lng": -77.0519
+   },
+   {
+    "t": "building camelot: jfk in georgetown",
+    "id": "B0B870B3-C12D-27B6-9CB8274AC7B238ED",
+    "lat": 38.900869,
+    "lng": -77.05906
+   },
+   {
+    "t": "introduction to hiking: woodland loop with a ranger",
+    "id": "AFA1AD83-AE95-2E90-C585A328D81171F0",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "fun with flora and fauna",
+    "id": "AE84D9F9-B4E4-0AA5-5A836791E9A9782D",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "stories in stone: monuments at battleground national cemetery",
+    "id": "A7115921-B645-232C-5FDF613CC8CA5248",
+    "lat": 38.970754,
+    "lng": -77.026697
+   },
+   {
+    "t": "echoes of time in rock creek park guided hike",
+    "id": "AEB6C0D6-DAD1-3FE1-B118396B2142183F",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "ranger tours at peirce mill",
+    "id": "B0F5849E-CD02-5055-C705867CA35BC3F6",
+    "lat": 38.940265,
+    "lng": -77.0519
+   },
+   {
+    "t": "b.a.r.k. ranger at rock creek park",
+    "id": "B3D95A1B-ADC0-1F04-A5C5459C18E5432F",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "ranger tours at the old stone house",
+    "id": "B063CDBF-0DD0-E20C-E9A5C856506EFF91",
+    "lat": 38.905367,
+    "lng": -77.060363
+   },
+   {
+    "t": "bike with a ranger: fall leaves and halloween edition",
+    "id": "AFDDFC33-D948-D0FB-9A15ACF2E6481A44",
+    "lat": 38.94055,
+    "lng": -77.052198
+   },
+   {
+    "t": "heroes remembered: stories from battleground national cemetery",
+    "id": "A7286A74-FAE3-A88E-739FE5F812F8CF52",
+    "lat": 38.970712,
+    "lng": -77.026777
+   },
+   {
+    "t": "roosevelt at rock creek park",
+    "id": "AF7DFB21-BC2F-8C97-11788FB86057B087",
+    "lat": 38.94055,
+    "lng": -77.052198
+   },
+   {
+    "t": "ramble with a ranger",
+    "id": "B4CF163C-BC87-C33C-858AF8BF773E9D5F",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "fun with flora and fauna",
+    "id": "AE9BF4DA-C9A2-64C5-3A422F5C7338B988",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "after emancipation history hike",
+    "id": "2398CB61-CAE5-C770-26BFF6F177C126B0",
+    "lat": 38.94055,
+    "lng": -77.052198
+   },
+   {
+    "t": "spilling the tea at the old stone house",
+    "id": "27C00D10-ACB6-48BA-C2A002F849405065",
+    "lat": 38.905367,
+    "lng": -77.060363
+   },
+   {
+    "t": "the civil war in georgetown: a guided walk in a city divided",
+    "id": "23E9FFE4-CF1B-58E3-91DD11A1E52CA089",
+    "lat": 38.905367,
+    "lng": -77.060363
+   },
+   {
+    "t": "mobilizing memories at meridian hill",
+    "id": "249041E4-081F-5330-AE90DBECA4760F3F",
+    "lat": 38.922366,
+    "lng": -77.035418
+   },
+   {
+    "t": "ranger led garden tour",
+    "id": "F881D52D-D67F-AA74-A75CE8479A5B38D5",
+    "lat": 38.912716,
+    "lng": -76.941934
+   },
+   {
+    "t": "chicken feeding",
+    "id": "422BACA7-DE5E-B667-3CCF56A95F2A5DD0",
+    "lat": 38.801791,
+    "lng": -77.007987
+   },
+   {
+    "t": "bird walk",
+    "id": "7E35CFE1-C35E-E57E-3FAFAC90050967F9",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "ranger talk: first ladies",
+    "id": "67F6CDB3-C65D-4920-BF17E2D3EEC9FB39",
+    "lat": 38.89525,
+    "lng": -77.032764
+   },
+   {
+    "t": "fort tour",
+    "id": "CB1E8056-E33F-5F52-D1A7F4FB00C46727",
+    "lat": 38.71259,
+    "lng": -77.03312
+   },
+   {
+    "t": "campfire program: welcome to washington!",
+    "id": "CF258E17-B3C2-35A0-2C5DDFF10E6B6F4D",
+    "lat": 38.978747,
+    "lng": -76.899513
+   },
+   {
+    "t": "catoctin mountain halloween photo walk",
+    "id": "E4FFA870-E6D7-C06C-1DE45D6E4C5C5C57",
+    "lat": 39.653436,
+    "lng": -77.486794
+   },
+   {
+    "t": "potomac conservancy cleanup at anacostia park",
+    "id": "C1EAC4E1-AC77-C6D3-F74D98FA8C8EA482",
+    "lat": 38.867747,
+    "lng": -76.99502
+   },
+   {
+    "t": "lockhouse 44 - williamsport",
+    "id": "1E8804BB-91CE-47F1-68AFD5264261C604",
+    "lat": 39.594163,
+    "lng": -77.825252
+   },
+   {
+    "t": "bat week @ cushwa basin",
+    "id": "2626A1FC-D255-C798-F9CFCBE5FB66686B",
+    "lat": 39.600562,
+    "lng": -77.826263
+   },
+   {
+    "t": "graveyards and ghosts hike",
+    "id": "E9EE8C73-E402-7C28-70BC041A356D2C6B",
+    "lat": 38.559915,
+    "lng": -77.347142
+   },
+   {
+    "t": "park history walk: from farm to theater",
+    "id": "B19F3852-99C8-2C92-B4D75909F774BD00",
+    "lat": 38.937071,
+    "lng": -77.265634
+   },
+   {
+    "t": "farm tour",
+    "id": "F48EDE4F-ABB1-FD67-BE3CB5AD5C8DFADF",
+    "lat": 38.801791,
+    "lng": -77.007987
+   },
+   {
+    "t": "halloween carillon concert",
+    "id": "5D36A804-9227-41A6-C40EF9663D623C34",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "guided tours of riley's lockhouse",
+    "id": "A8F822A3-F711-FBEE-0E39E595AF2C1F5C",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "filene center backstage tour",
+    "id": "B16B36C7-98A8-00D2-6DF44EEF5F11EF83",
+    "lat": 38.936429,
+    "lng": -77.264445
+   },
+   {
+    "t": "fort washington by candlelight",
+    "id": "23BEC26D-DC49-A74C-A8A716885F72C2B8",
+    "lat": 38.711111,
+    "lng": -77.034701
+   },
+   {
+    "t": "movie night! - hocus pocus",
+    "id": "E91AD522-EFC3-4EB1-3307CE87DEE9A344",
+    "lat": 38.978747,
+    "lng": -76.899513
+   },
+   {
+    "t": "bird walk at great falls park",
+    "id": "25675C61-09EB-8A68-D0D7DE78C187294F",
+    "lat": 38.996876,
+    "lng": -77.254821
+   },
+   {
+    "t": "bird walk - guided program",
+    "id": "E220499E-051A-957C-2D9A76239A385323",
+    "lat": 38.996876,
+    "lng": -77.254821
+   },
+   {
+    "t": "abner cloud house tour",
+    "id": "A9337278-FA04-3752-87B4246F55FBFF42",
+    "lat": 38.919445,
+    "lng": -77.101144
+   },
+   {
+    "t": "artillery demonstration",
+    "id": "84DD469A-A6CA-728B-E4BC6402AA91F231",
+    "lat": 38.711111,
+    "lng": -77.034701
+   },
+   {
+    "t": "hike with a ranger",
+    "id": "DB6F0D72-E5D9-C8D1-01DAC324A26AF0F6",
+    "lat": 38.988607,
+    "lng": -76.897134
+   },
+   {
+    "t": "park explorers - fall adventure!",
+    "id": "20022F52-C0F5-C8A7-D805403818D588A8",
+    "lat": 38.936875,
+    "lng": -77.26379
    }
   ]
  }
