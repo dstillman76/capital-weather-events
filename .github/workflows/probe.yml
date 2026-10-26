@@ -17,3 +17,14 @@ jobs:
         with:
           node-version: '20'
       - run: node collector/collect.mjs --probe
+      # Do sites that refuse the browser proxy answer GitHub's servers? A
+      # refusal (403) here is respected: such a site is not added.
+      - name: Reachability of proxy-blocked calendars
+        run: |
+          for u in https://www.gaithersburgmd.gov/robots.txt https://www.gaithersburgmd.gov/recreation/events \
+                   https://www.herndon-va.gov/robots.txt https://www.leesburgva.gov/robots.txt \
+                   https://www.montgomerycountymd.gov/robots.txt https://www.howardcountymd.gov/robots.txt \
+                   https://www.pikeandrose.com/events https://www.kentlandsusa.com/robots.txt; do
+            code=$(curl -s -o /tmp/b -w '%{http_code}' -A 'CapitalWeatherEventsCollector/1.0 (+https://github.com/dstillman76/capital-weather-events)' --max-time 20 "$u")
+            echo "$code $u $(head -c 160 /tmp/b | tr '\n' ' ')"
+          done
