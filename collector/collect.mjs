@@ -49,10 +49,15 @@ const MONTGOMERY_PARKS = {name: 'Montgomery Parks', host: 'montgomeryparks.org',
 // GitHub Actions secret named FINDLOCAL_API_KEY, which takes precedence.
 const FINDLOCAL = {
   key: process.env.FINDLOCAL_API_KEY || '3k8TJ8RBxCC81EpnJKUKha',
-  // Outdoor-leaning categories only; the widget still screens every event.
-  categories: 'parks,market,festival',
-  maxCallsPerRun: 2,      // 2 a day at most = 62 a month, under the 100 quota
+  // One request covers everything within 90 km of DC (FindLocal's suggestion,
+  // 2026-10-26). Outdoor-leaning categories; the widget still screens each event.
+  near: '38.9072,-77.0369', radiusKm: 90,
+  categories: 'parks,market,festival,fitness',
+  monthlyTarget: 80,      // plan for at most 80 of the 100 monthly calls
+  maxCallsPerRun: 6,
   keepInReserve: 10,      // never spend the last 10 calls of the month
+  // Rows per call: 500 until 2026-11-15, 100 after (FindLocal's announced change).
+  pageSize: today => today < '2026-11-15' ? 500 : 100,
 };
 
 const started = Date.now();
@@ -403,13 +408,25 @@ export async function collectFindLocal(cache, today, windowEnd) {
   // The budget record is per month and per key, so a new key starts fresh.
   const keyId = FINDLOCAL.key.slice(-4);
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
+  const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
+  // Refresh as often as the quota allows: with 3 calls per refresh (100-row
+  // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
+  // covers the widget's 7 days plus the days until the next refresh.
+  const everyDays = Math.max(1, Math.ceil(state.callsPerRefresh * 31 / FINDLOCAL.monthlyTarget));
+  if (state.lastFetch && daysBetween(state.lastFetch, today) < everyDays && keyId === state.keyId) {
+    report.status = 'reused'; report.note = `Refreshed ${state.lastFetch}; next refresh in ${everyDays - daysBetween(state.lastFetch, today)} day(s) to stay within the monthly quota.`;
+    return {report, records: []};
+  }
   if (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve) {
     report.status = 'skipped'; report.note = `Monthly quota nearly spent (${budget.remaining} calls left); waiting for the 1st.`;
     return {report, records: []};
   }
+  windowEnd = addDays(today, 7 + everyDays);
+  const limit = FINDLOCAL.pageSize(today);
   const rows = [];
   for (let page = 1; page <= FINDLOCAL.maxCallsPerRun; page++) {
-    const params = new URLSearchParams({city: 'washington', date_from: today, date_to: windowEnd, cat: FINDLOCAL.categories, limit: '500', sort: 'date', page: String(page)});
+    const params = new URLSearchParams({near: FINDLOCAL.near, radius_km: String(FINDLOCAL.radiusKm), date_from: today, date_to: windowEnd,
+      cat: FINDLOCAL.categories, limit: String(limit), page: String(page)});
     const res = await fetch('https://findlocal.community/api/events?' + params, {
       headers: {Authorization: 'Bearer ' + FINDLOCAL.key, 'user-agent': UA, accept: 'application/json'},
       signal: AbortSignal.timeout(30000),
@@ -427,8 +444,11 @@ export async function collectFindLocal(cache, today, windowEnd) {
     const data = Array.isArray(body && body.data) ? body.data : [];
     rows.push(...data);
     const total = Number(body && body.meta && body.meta.total) || 0;
-    if (!data.length || rows.length >= total || (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve)) break;
+    if (page === 1 && total) state.callsPerRefresh = Math.min(FINDLOCAL.maxCallsPerRun, Math.ceil(total / limit));
+    if (!data.length || rows.length >= total) break;
+    if (budget.remaining !== null && budget.remaining <= FINDLOCAL.keepInReserve) { report.note = 'Stopped early to keep the monthly reserve. '; break; }
   }
+  if (report.status === 'ok') { state.lastFetch = today; state.keyId = keyId; }
   report.listings = rows.length;
   const records = [];
   for (const e of rows) {
@@ -440,6 +460,8 @@ export async function collectFindLocal(cache, today, windowEnd) {
     const url = e.detail_page_url || e.ticket_page_url || e.venue_url;
     const where = String(e.venue_address || '').match(/,\s*([^,]+?),\s*(DC|MD|VA)\b/);
     if (!dates.length || !url || !where) { report.skipped++; continue; }
+    // A 90 km circle reaches Baltimore city, which is outside the coverage area.
+    if (/^baltimore$/i.test(where[1].trim())) { report.skipped++; continue; }
     const types = Array.isArray(e.event_types) ? e.event_types : [];
     records.push({
       source: 'FindLocal', siteCounty: '', title: decode(e.title || '').trim(), url,
@@ -454,7 +476,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
     });
   }
   report.inWindow = records.length;
-  if (report.status === 'ok' && report.remaining !== null) report.note = `${report.calls} call(s) used; ${report.remaining} left this month.`;
+  if (report.status === 'ok' && report.remaining !== null) report.note += `${report.calls} call(s) used; ${report.remaining} left this month; next refresh in ${Math.max(1, Math.ceil(state.callsPerRefresh * 31 / FINDLOCAL.monthlyTarget))} day(s).`;
   return {report, records};
 }
 
@@ -473,9 +495,9 @@ async function main() {
   // A source that could not be read this run keeps its previous records (still
   // in the window), so one bad run does not empty the widget's extra coverage.
   for (const r of results) {
-    if (r.records.length || !['failed', 'blocked'].includes(r.report.status)) continue;
+    if (r.records.length || !['failed', 'blocked', 'reused', 'skipped'].includes(r.report.status)) continue;
     const kept = (previous.events || []).filter(e => e.source === r.report.source)
-      .map(e => ({...e, dates: (e.dates || []).filter(d => d >= today && d <= windowEnd)})).filter(e => e.dates.length);
+      .map(e => ({...e, dates: (e.dates || []).filter(d => d >= today)})).filter(e => e.dates.length);
     if (kept.length) { r.records = kept; r.report.keptPrevious = kept.length; r.report.inWindow = kept.length; }
   }
   const events = results.flatMap(r => r.records).sort((a, b) => a.dates[0].localeCompare(b.dates[0]) || a.title.localeCompare(b.title));

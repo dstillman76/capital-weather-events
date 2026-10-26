@@ -11,7 +11,7 @@ Some sources can't be read in full from a reader's browser:
 | Source | Browser limitation | What the collector does |
 |---|---|---|
 | Visit Fairfax, Visit Loudoun, Visit Frederick, Experience Prince George’s, Visit Howard County, Visit Annapolis | The RSS feed stops at 30 items, sorted alphabetically. The date search answers only the site's own page; scripted requests get HTTP 403. | Reads the public sitemap and opens each event page, which states its own dates, times, venue and address. |
-| FindLocal (findlocal.community) | An API with a free quota of 100 calls a month, so the reader's browser must not call it. | One or two calls a day (categories parks, market, festival) and never the last 10 calls of the month. The free plan requires an "Event data by FindLocal" link, which the widget shows on each FindLocal card. |
+| FindLocal (findlocal.community) | An API with a free quota of 100 calls a month, so the reader's browser must not call it. | One request for everything within 90 km of DC (parks, market, festival, fitness), paged; it refreshes as often as about 80 calls a month allow (daily while pages hold 500 rows, every 2 days after Nov 15, 2026 when they hold 100) and never spends the last 10 calls of the month. Baltimore city is dropped. The free plan requires an "Event data by FindLocal" link, which the widget shows on each FindLocal card. |
 | Montgomery Parks | The calendar feed answers only POST requests, which the free CORS relay doesn't forward. robots.txt also disallows that feed. | Reads the public events sitemaps and the event pages they list (each page states "Time:" and "Location:"). |
 
 A second step (`screen.mjs`) runs the widget itself in headless Chromium, for sources that are slow or
