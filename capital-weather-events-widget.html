@@ -4327,7 +4327,7 @@ async function adapterFetch(r,url,timeout=10000){r.requests++;return fetchSmart(
  * (a park, plaza, square, pier, field, street) and not a building. */
 const PUBLIC_SPACE=/\b(?:park|plaza|square|green|commons|lawn|pier|boardwalk|promenade|waterfront|gardens?|trail|farm|orchard|meadow|field|fairgrounds?|amphitheat(?:er|re)|alley)\b/i;
 const NAMED_STREET=/^(?:on\s+)?[A-Z][\w.'’-]*(?:\s+[A-Z][\w.'’-]*)*\s+(?:Street|Avenue|Boulevard|Row|Way)\b/;
-const BUILDING_WORDS=/\b(?:center|centre|hall|building|church|school|library|museum|theat(?:er|re)|arena|gym|gymnasium|store|shop|restaurant|bar|brewery|brewing|winery|cidery|hotel|mall|office|suite|room|lobby|lodge|club|studio|gallery|cafe|café|tavern|pub|kitchen|bowl|lanes|house|manor|mansion|brewhouse|taproom|conservatory|greenhouse)\b/i;
+const BUILDING_WORDS=/\b(?:center|centre|hall|building|church|school|library|museum|theat(?:er|re)|arena|gym|gymnasium|store|shop|restaurant|bar|brewery|brewing|winery|cidery|hotel|mall|office|suite|room|lobby|lodge|club|studio|gallery|cafe|café|tavern|pub|kitchen|bowl|lanes|house|manor|mansion|brewhouse|taproom|conservatory|greenhouse|inn|wyndham|marriott|hilton|hyatt|sheraton|westin)\b/i;
 const OUTDOOR_ACTIVITY=/\b(?:festival|fest|fair|market|parade|concert|music|jazz|band|dj|movies?|film|cinema|food trucks?|trick.or.treat|trunk.or.treat|candy hunt|egg hunt|scavenger hunt|costume|carnival|celebration|bash|stroll|walk|hike|run|race|5k|yoga|fitness|games|mahjong|picnic|habitat restoration|invasive|clean.?up|tree planting|hayrides?|pumpkins?|corn maze|skating|tour|night market|mini golf|haunted trail|campfire|naturalist|bird(?:ing)? walk)\b/i;
 function publicSpaceEvidence(c){
  const places=[c.venue,c.activityLocation].map(clean).filter(Boolean);
