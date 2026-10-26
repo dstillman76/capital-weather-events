@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T04:08:28.050Z",
+ "generatedAt": "2026-10-26T04:22:13.174Z",
  "window": {
   "start": "2026-10-26",
   "end": "2026-11-03"
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 199,
-   "opened": 15,
+   "opened": 10,
    "cached": 197,
    "refused": 0,
    "errors": 0,
@@ -106,17 +106,40 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "failed",
+   "status": "ok",
    "calls": 1,
-   "remaining": 0,
-   "listings": 0,
-   "inWindow": 0,
-   "skipped": 0,
-   "note": "HTTP 429: Monthly quota exceeded. Upgrade at https://findlocal.community/dashboard/billing"
+   "remaining": 99,
+   "listings": 179,
+   "inWindow": 158,
+   "skipped": 21,
+   "note": "1 call(s) used; 99 left this month."
   }
  ],
- "count": 307,
+ "count": 465,
  "events": [
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
   {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
@@ -218,6 +241,29 @@
    "categories": "Family-Friendly, Farm & Nature",
    "recurrence": "",
    "admission": "$495 per couple on weeknights/ $550 on Friday & Saturday Nights"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Experience Prince George’s",
@@ -569,6 +615,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-26"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Release & Renewal: Hunter's Moon a Night of Fire, Magic, & Intention",
@@ -717,6 +786,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Acupuncture and Bodywork with Acupuncturists Without Borders",
@@ -761,6 +853,52 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bird Walk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=65568",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "08:30",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "We invite you to join National Park Service volunteer and expert birder Molly Hermann for an engaging bird walk at Kenilworth Aquatic Gardens. This event is open to all, including those new to birding. We encourage participants to bring water, sunscreen, and binoculars if available. A limited number of binoculars are available for loan with a photo ID. The walk will be conducted at a leisurely pace, covering approximately one mile. We will gather in front of the visitor center, and the duration of the walk will typically range from 1.5 to 2 hours, depending on our observations. We look forward to sharing this delightful experience with you!",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Fleming's Tomahawk Tuesday | 3-Course Steak Dinner for 2",
@@ -803,6 +941,52 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Glory of Fall Garden Tour",
+   "url": "https://montgomeryparks.org/events/glory-of-fall-garden-tour/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Montgomery Parks",
+   "address": "2425 Reedie Dr, Wheaton, MD 20902",
+   "city": "Wheaton",
+   "state": "MD",
+   "lat": 39.0391001,
+   "lng": -77.052059,
+   "description": "",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Just a Walk - A Free Peek at Meadowlark",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/just-a-walk-a-free-peek-at-meadowlark-11",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "10:15",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:15am - 11:30am Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -893,6 +1077,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Ruff Tuesdays at Caboose Commons",
@@ -979,6 +1186,29 @@
    "categories": "Family Friendly, Food and Drink",
    "recurrence": "Recurring weekly on Tuesday",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -1181,6 +1411,52 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "70th Annual Leesburg Kiwanis Halloween Parade",
+   "url": "https://www.visitloudoun.org/event/70th-annual-leesburg-kiwanis-halloween-parade/52003/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Visit Loudoun Events",
+   "address": "Market Station, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.1126244,
+   "lng": -77.5631067,
+   "description": "An annual tradition since 1957, the Leesburg Kiwanis Halloween Parade celebrates its 70th year with spooky-themed floats, marching bands, costumes and... Location: Leesburg Kiwanis Club",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Afternoon on the Pontoon",
@@ -1271,6 +1547,52 @@
    "admission": "$59"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Autumn Sunset Boat Tour",
+   "url": "https://www.pgparks.com/event_list/autumn-sunset-boat-tour",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Bladensburg Waterfront Park",
+   "address": "4601 Annapolis Rd, Bladensburg, MD 20710",
+   "city": "Bladensburg",
+   "state": "MD",
+   "lat": 38.9357567,
+   "lng": -76.9391004,
+   "description": "Celebrate the beauty of fall on a relaxing pontoon boat tour along the Anacostia River. Enjoy scenic river views as the sun sets and autumn colors begin to transform the landscape around Bladensburg Waterfront Park.",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "$$4 Resident, $6 Non-resident",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Barks, Brews, and BOOs!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/barks-brews-and-boos",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "5:00pm - 7:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Bingo & Brews at Bear Chase Brewing Co!",
@@ -1313,6 +1635,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -1408,6 +1753,76 @@
    "admission": "20.00 per guest. | Reservations required."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Foggy Bottom FRESHFARM Market",
+   "url": "https://www.freshfarm.org/markets/foggy-bottom",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "FRESHFARM Foggy Bottom Market",
+   "address": "901 23rd St NW, Washington, DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9053108,
+   "lng": -77.0502663,
+   "description": "Wednesday FRESHFARM market, 3-7pm (winter hours begin December 2026).",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Halloween at Upton Hill",
+   "url": "https://www.novaparks.com/parks/upton-hill-regional-park/events/halloween-at-upton-hill",
+   "dates": [
+    "2026-10-28",
+    "2026-10-29"
+   ],
+   "dateKind": "range",
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Upton Hill Regional Park",
+   "address": "6060 Wilson Blvd, Arlington, VA 22205",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8717278,
+   "lng": -77.1422312,
+   "description": "4:00pm - 8:00pm Upton Hill Regional Park, Arlington, VA",
+   "categories": "parks, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Halloween with the Animals",
@@ -1428,6 +1843,29 @@
    "categories": "Holiday Events, Family Friendly",
    "recurrence": "",
    "admission": "$10/child"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Heroes Remembered: Stories from Battleground National Cemetery",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A6E146DE-B965-23A4-793385D42D061348",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Join a ranger for a 30-minute, family-friendly walk through Battleground National Cemetery and discover the stories of the soldiers buried here. Learn who these men were and how their service helped shape our nation's history.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Every week on Wednesday at 11:00 AM from October 07, 2026 to March 31, 2027",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -1451,6 +1889,29 @@
    "categories": "Seasonal & Holidays, Halloween, Art Galleries & Exhibits",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Korean War Memorial Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=8E2F45B9-AC5F-ED8A-454C8ADD2C027CFE",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Join a ranger to explore the memorial and learn about the significance of its various elements.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -1541,6 +2002,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Midweek Meander Along the Canal D: Violettes Lock, MD",
+   "url": "https://natureforward.org/events/midweek-meander-along-the-canal-d-violettes-lock-md/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Nature Forward (Woodend Nature Sanctuary)",
+   "address": "8940 Jones Mill Road, Chevy Chase, MD 20815",
+   "city": "Chevy Chase",
+   "state": "MD",
+   "lat": 39.0026,
+   "lng": -77.0654907,
+   "description": "Leader: Stephanie Mason Members $33; nonmembers $46 Enjoy one or more of these leisurely late-summer through late-fall strolls on relatively close-in portions of the C&O Canal’s historic Towpath which see less foot and bicycle traffic on weekdays than weekends. The focus of these naturalist-led walks will be the rich natural history of the varied habitats long the Potomac River and the Canal. We’ll proceed at a “naturalist’s shuffle” pace, stopping often to observe and enjoy seasonal plant and a",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Movie Under the Stars!",
@@ -1563,6 +2047,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Night at the Nature Center",
+   "url": "https://www.fairfaxcounty.gov/parks/hidden-pond/night-nature-center/102826",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Hidden Pond Nature Center",
+   "address": "8511 Greeley Boulevard, Springfield, VA 22152",
+   "city": "Springfield",
+   "state": "VA",
+   "lat": 38.7722857,
+   "lng": -77.2387404,
+   "description": "(3-Adult) Step into the park after dark and discover what comes alive when the…",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "On the Move with Mad - Matchbook Shadowbox Workshop",
@@ -1583,6 +2090,52 @@
    "categories": "Arts & Culture, Family Friendly, Shopping",
    "recurrence": "",
    "admission": "$55"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Pup Stroll Wednesdays",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/pup-stroll-wednesdays-6",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 7:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Frederick",
@@ -1675,6 +2228,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -1853,6 +2429,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "A Grave Misunderstanding Murder Mystery Dinner Theatre",
@@ -1941,6 +2540,29 @@
    "admission": "$27.00+"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ballston Farmers Market",
+   "url": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Parks-Events/Arlington-Market",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "Ballston Farmers Market",
+   "address": "901 N Taylor St, Arlington, VA 22203",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8813205,
+   "lng": -77.1119681,
+   "description": "Thursdays 3-7pm at Welburn Square (3-6pm in winter).",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Bats & Beavers Pontoon Boat Cruise",
@@ -1961,6 +2583,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Belvedere Plantation Harvest Festival",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4007&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 1410 Belvedere Drive, Fredericksburg VA 22408",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -2027,6 +2672,29 @@
    "categories": "Wineries, Breweries, Distilleries, Foodie, Downtown Frederick",
    "recurrence": "",
    "admission": "$85/person"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -2140,6 +2808,29 @@
    "categories": "Holiday Celebrations, Arts & Culture",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -2298,6 +2989,29 @@
    "categories": "Nightlife, History, Outdoors",
    "recurrence": "",
    "admission": "$22/Adult $12/Child"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Historic Manassas Farmers Market (Thursdays)",
+   "url": "https://historicmanassas.org/event/historic-manassas-farmers-market-thursdays/2026-10-29/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Historic Manassas, Inc.",
+   "address": "9025 Center Street, Manassas, VA 20110",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.7511055,
+   "lng": -77.4705349,
+   "description": "The Historic Manassas Farmers Market Has Returned! Join us rain or shine every Thursday and Saturday and stock up on farm-fresh produce, local meats & cheeses, baked goods, artisan crafts, and more! And even more good news! Use SNAP/EBT at the market and get FREE fruits & vegetables through our SNAP & Virginia Fresh Match program. Visit https://historicmanassas.org/farmers-market/ for vendor lineups, \\n",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Annapolis",
@@ -2479,6 +3193,52 @@
    "admission": "$27 for students/65+/military and $30 general admission"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Riverside Tree Planting at the Bladensburg Waterfront Park",
+   "url": "https://www.anacostiaws.org/event/riverside-tree-planting-at-the-bladensburg-waterfront-park-4/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Anacostia Watershed Society",
+   "address": "4302 Baltimore Ave, Bladensburg, MD 20710",
+   "city": "Bladensburg",
+   "state": "MD",
+   "lat": 38.9412641,
+   "lng": -76.9410942,
+   "description": "Note: This event is weather dependent. If you are sick or exhibiting symptoms associated with COVID-19 (such as fever, chills, cough, sore throat, difficulty breathing, loss of taste or smell, etc.), please do not come to the event and consider joining us another time. Date: Thursday, October 29, 2026 Time: 10:00 am - 1:00 pm... Read more \\n",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Roots to Rocks - Group Mountain Bike Ride",
@@ -2567,6 +3327,29 @@
    "admission": "FREE"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "The Art of Nature: Botanical Art Classes at River Farm",
@@ -2589,6 +3372,29 @@
    "admission": "$65 per class for AHS members/$75 per class for non-members."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Haunted Gro Trail",
+   "url": "https://www.pwcva.gov/events/haunted-gro-trail-1",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Prince William County Parks & Recreation",
+   "address": "14715 Bristow Rd, Manassas, VA 20112",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.6365079,
+   "lng": -77.4348195,
+   "description": "Location: 4603 James Madison Hwy, Haymarket, VA 20169",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "The Reader: A Witchy Book Fair for Adults",
@@ -2609,6 +3415,29 @@
    "categories": "Holiday Events, Wineries, Breweries, Distilleries, Downtown Frederick, Free, Shopping",
    "recurrence": "",
    "admission": "Free"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Unfinished America: A 250-Year Journey of Liberty and Economic Freedom",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2B14BE6-0693-B9ED-495CF224F4F0DF6B",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Meet at the World War II Kiosk and join a National Park Service volunteer for an immersive 90-minute walking tour exploring the evolution of individual liberty and economic freedom while visiting several National Mall monuments and memorials. From the towering legacy of George Washington to the revolutionary courage of the 56 Signers of the Declaration of Independence, we will trace America’s fitful yet persistent progress toward a \"more perfect union.\" This journey weaves together iconic sites with personal stories of stowaways, soldiers, and the \"Greatest Generation\" to honor the sacrifices that built our modern world. As we celebrate this year's historic semiquincentennial, you are invited to connect your own family’s legacy to our shared pursuit of freedom and learn about nationwide celebrations ahead. Discover why the torch lit 250 years ago remains an exceptional beacon of democratic leadership in the world today. Memorials visited include: WWII and Washington Monument, Japanese Lantern, Martin Luther King Jr. Memorial, Korean and Vietnam War Memorials, the Lincoln Memorial, and Signers' Island.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -2677,6 +3506,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Trunk or Treat - FREE!",
+   "url": "https://www.pwcva.gov/events/trunk-or-treat-free",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Prince William County Parks & Recreation",
+   "address": "14715 Bristow Rd, Manassas, VA 20112",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.6365079,
+   "lng": -77.4348195,
+   "description": "Location: 13025 Chinn Park Dr., Woodbridge, VA",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Weekly trivia every Thursday at Loudoun Brewing Company - 630-830pm - hosted by Owen Palmiotti",
@@ -2719,6 +3571,52 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "4th Annual Haunted Mini Golf and Haunted Trail",
+   "url": "https://www.novaparks.com/parks/pohick-bay-regional-park/events/4th-annual-haunted-mini-golf-and-haunted-trail",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Pohick Bay Regional Park",
+   "address": "6501 Pohick Bay Dr, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6788593,
+   "lng": -77.1904957,
+   "description": "6:00pm - 9:00pm Pohick Bay Regional Park, Lorton, VA",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -2809,6 +3707,75 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bat Walk at the Bend",
+   "url": "https://www.fairfaxcounty.gov/parks/riverbend/bat-walk-bend/103026",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Riverbend Park",
+   "address": "8700 Potomac Hills Street, Great Falls, VA 22066",
+   "city": "Great Falls",
+   "state": "VA",
+   "lat": 39.0192612,
+   "lng": -77.250371,
+   "description": "(5-Adult) Celebrate international bat week at Riverbend Park. Learn about the…",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Belvedere Plantation Harvest Festival",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4008&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 1410 Belvedere Drive, Fredericksburg VA 22408",
+   "categories": "festival, festival",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ben Lomond Campfire Ghost Stories",
+   "url": "https://www.pwcva.gov/events/ben-lomond-campfire-ghost-stories-0",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Prince William County Parks & Recreation",
+   "address": "14715 Bristow Rd, Manassas, VA 20112",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.6365079,
+   "lng": -77.4348195,
+   "description": "Location: 10321 Sudley Manor Dr, Manassas, VA 20109",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Bill & Chris",
@@ -2829,6 +3796,29 @@
    "categories": "History",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Black Light Night Hike",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-06-05-09-41-43-037030-lg4",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "Did you know that many species of fungi, plants, and even wildlife glow under a black light? Location: Visitor Center",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -2875,6 +3865,29 @@
    "admission": "27"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Building Camelot: JFK in Georgetown",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B0B870B3-C12D-27B6-9CB8274AC7B238ED",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Come join a ranger as we walk in the same path of John F. Kennedy as he first arrived in Geor get own in 1946 as a 2 9-yea r-old congressman to his meteoric rise to our 35 th Presi dent. The t our is appropriate for all ages. Wear comfortable walking shoes and bring water. This hike will utilize sidewalks that can be narrow and uneven at times. It will traverse nearly two miles of neighborhood streets in the Georgetown area of DC.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Oct 30, 2026 at 2:00 PM",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Bunnyman Live!",
@@ -2919,6 +3932,75 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "By The White House Thursday Market",
+   "url": "https://www.freshfarm.org/markets/by-the-white-house",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "FRESHFARM By The White House Market",
+   "address": "810 Vermont Ave NW, Washington, DC 20420",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9007688,
+   "lng": -77.03521,
+   "description": "Thursday market 11am-2pm, Vermont Ave NW.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Campfire Program: Welcome to Washington!",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=139016",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Greenbelt Park",
+   "address": "6565 Greenbelt Road, Greenbelt, MD 20770",
+   "city": "Greenbelt",
+   "state": "MD",
+   "lat": 38.9845522,
+   "lng": -76.9009514,
+   "description": "Join us for a Campfire Program on the history and layout of Washington, DC! Come and learn about the special events happening in the city and the region around our countries 250th birthday! This is the perfec program for individuals visiting the city for the first time. Open to all visitors and campers, program begins at 6:30 PM at the Campfire Circle in Loop B.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Chrysanthemum & Conservatory Tour",
@@ -2961,6 +4043,29 @@
    "categories": "Beer, Arts & Culture",
    "recurrence": "",
    "admission": "$10 - $20 Per Ticket"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Community Tree Planting: Mount Olivet Cemetery",
+   "url": "https://caseytrees.org/event/community-tree-planting-mount-olivet-cemetery-4/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Casey Trees",
+   "address": "3030 12th St NE, Washington, DC 20017",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9321988,
+   "lng": -76.9909023,
+   "description": "Join Casey Trees and CareFirst BlueCross BlueShield as we plant trees at historic Mount Olivet Cemetery! You provide the volunteers, […] \\n",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -3117,6 +4222,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Friday Night Flights",
@@ -3159,6 +4287,29 @@
    "categories": "Food and Drink, Free",
    "recurrence": "Recurring weekly on Friday",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fun with Flora and Fauna",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AE84D9F9-B4E4-0AA5-5A836791E9A9782D",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Spend Friday afternoons and Sunday mornings at Rock Creek Park learning about our wild and wonderful urban oasis! Par k Rangers will teach kids (and people of all ages) about the fantastic flora and fauna in the park.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Every week on Friday at 4:00 PM from October 02, 2026 to March 26, 2027",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -3205,6 +4356,54 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Guided Trek n' Treat Hike",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-13-21-16-26-152701-0ph",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "Come one, come all, for a spooky hike this Fall! Location: Throughout the Park",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Halloween at Upton Hill",
+   "url": "https://www.novaparks.com/parks/upton-hill-regional-park/events/halloween-at-upton-hill",
+   "dates": [
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "dateKind": "range",
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Upton Hill Regional Park",
+   "address": "6060 Wilson Blvd, Arlington, VA 22205",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8717278,
+   "lng": -77.1422312,
+   "description": "4:00pm - 9:00pm Upton Hill Regional Park, Arlington, VA",
+   "categories": "parks, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Halloween Scream Skate!",
@@ -3225,6 +4424,29 @@
    "categories": "Family Friendly",
    "recurrence": "",
    "admission": "$11"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Halloweenie Roast Campfire",
+   "url": "https://www.pgparks.com/event_list/halloweenie-roast-campfire",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Clearwater Nature Center",
+   "address": "11000 Thrift Rd, Clinton, MD 20735",
+   "city": "Clinton",
+   "state": "MD",
+   "lat": 38.7333049,
+   "lng": -76.9188068,
+   "description": "Enjoy Halloween tales and roasted marshmallows around a community campfire while making family memories and new friendships in the beautiful outdoors.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "$6 Resident, $8 Non-resident",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -3269,6 +4491,29 @@
    "categories": "Arts - Visual, Holiday Events, Events, Family Friendly, Free",
    "recurrence": "",
    "admission": "FREE"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Introduction to Hiking: Woodland Loop with a Ranger",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AFA1AD83-AE95-2E90-C585A328D81171F0",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "During this ½ mile excursion, beginner explorers learn the hiking essentials, such as trail safety, what to wear or bring to a hike, and how to Recreate Responsibly all while looking at and respecting nature found in our woodlands. This ranger-led hike is intended to create treasured trail experiences for families interested in planning more advance hikes as their children become more experienced.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Oct 30, 2026 at 3:30 PM",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -3603,6 +4848,29 @@
    "admission": "$5. Preregistration for event attendees is recommended. Limited registrations accepted at the door."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Night of the Flick Finale! Halloween Mall Market & Dawn of the Dead",
+   "url": "https://calendar.rediscoverfirebooking.com/shows/night-of-the-flick-finale-halloween-mall-market-dawn-of-the-dead-30-oct",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "",
+   "venue": "Comet Ping Pong",
+   "address": "5037 Connecticut Avenue Northwest, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9559493,
+   "lng": -77.0699729,
+   "description": "",
+   "categories": "market, craft_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Off the Record LIVE",
@@ -3736,6 +5004,29 @@
    "admission": "$23.95 Per Person – kids under age 2 are free to enter"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Salamander Uncorked: Masterclass with Walsh Family Wine",
@@ -3802,6 +5093,29 @@
    "admission": "0"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Spooky Serpents",
+   "url": "https://www.novaparks.com/parks/potomac-overlook-regional-park/events/spooky-serpents-2",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "NOVA Parks",
+   "address": "5400 Ox Road, Fairfax Station, VA 22039",
+   "city": "Fairfax Station",
+   "state": "VA",
+   "lat": 38.8125425,
+   "lng": -77.325417,
+   "description": "7:00pm - 8:00pm Potomac Overlook Regional Park, Arlington, VA",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Sterling Fear Fest Haunted House",
@@ -3822,6 +5136,29 @@
    "categories": "Family-Friendly, Holiday Celebrations",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -3866,6 +5203,29 @@
    "categories": "Arts & Culture, Concerts & Live Music",
    "recurrence": "",
    "admission": "$25 General Admission $50 VIP"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Haunted Hill",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4134&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 10400 Fox Creek Lane, Partlow VA 22534",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -4002,6 +5362,121 @@
    "admission": "$101.20+"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "¡Día de los Muertos con Arte Para Todos!",
+   "url": "https://www.joesmovement.org/listofevents/2025/dia-de-los-muertos-pncx4",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "Joe's Movement Emporium",
+   "address": "3309 Bunker Hill Road, Mount Rainier, MD 20712",
+   "city": "Mount Rainier",
+   "state": "MD",
+   "lat": 38.9378825,
+   "lng": -76.96128639999999,
+   "description": "",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "10/31 – Half Street Farmer’s Market",
+   "url": "https://turningthepage.org/events/?post_type=tribe_events&p=249340",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Carpe Librum",
+   "address": "1350 I St NW, Washington, DC",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9012413,
+   "lng": -77.0312958,
+   "description": "",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "12th Annual Harvest Festival Fly-In at Shannon Air Museum",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=3957&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: Shannon Air Museum, Fredericksburg VA 22408",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "4th Annual Haunted Mini Golf and Haunted Trail",
+   "url": "https://www.novaparks.com/parks/pohick-bay-regional-park/events/4th-annual-haunted-mini-golf-and-haunted-trail",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Pohick Bay Regional Park",
+   "address": "6501 Pohick Bay Dr, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6788593,
+   "lng": -77.1904957,
+   "description": "6:00pm - 9:00pm Pohick Bay Regional Park, Lorton, VA",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "A Haunted Honky Tonky with Whiskey Glasses (Morgan Wallen Tribute)",
@@ -4112,6 +5587,29 @@
    "admission": "Under 3-Free, 16 & Under-$25, Over 16-$30"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Arlington Courthouse Farmers Market",
+   "url": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Parks-Events/Arlington-Market",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Arlington Farmers Market at Courthouse",
+   "address": "1400 N Courthouse Rd, Arlington, VA 22201",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8898326,
+   "lng": -77.0845728,
+   "description": "Saturdays 8am-noon, year-round (9am-noon Jan-Mar).",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Asia in a Bite",
@@ -4135,6 +5633,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Autumn Leaves Hike and Craft",
+   "url": "https://www.fairfaxcounty.gov/parks/riverbend/autumn-leaves-hike-craft/103126",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Riverbend Park",
+   "address": "8700 Potomac Hills Street, Great Falls, VA 22066",
+   "city": "Great Falls",
+   "state": "VA",
+   "lat": 39.0192612,
+   "lng": -77.250371,
+   "description": "(5-Adult) Hike through the fall foliage and identify trees. Find that perfect…",
+   "categories": "parks, nature_program, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Autumn Social: The Magical Experience",
@@ -4155,6 +5676,75 @@
    "categories": "Fairs & Festivals",
    "recurrence": "",
    "admission": "All ages welcome\r\nFree admission\r\nVendor fees vary"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "B.A.R.K. Ranger at Rock Creek Park",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B3D95A1B-ADC0-1F04-A5C5459C18E5432F",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Calling all dog owners! If you enjoy adventuring in Rock Creek Park with your furry friend, consider coming to one of our B.A.R.K. Ranger events! This is a national initiative to encourage responsible recreation and a positive experience for you, your dog, and all visitors to the park.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Oct 31, 2026 at 10:00 AM",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Belvedere Plantation Harvest Festival",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4018&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 1410 Belvedere Drive, Fredericksburg VA 22408",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bike with a Ranger: Fall Leaves and Halloween Edition",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AFDDFC33-D948-D0FB-9A15ACF2E6481A44",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Join a ranger for an all-levels leisurely bike ride through Rock Creek Park to take in the fall colors and learn the science behind why the leaves change. Bring your own bike or get a Capital Bikeshare at Tilden St. and Connecticut Ave. NW (or other locations). Meet at Peirce Barn and b ring water and your curiosity for this 3.6-mile round trip ride. Come wearing your Halloween costume for this special edition of Bike with a Ranger! Don't forget your helmet!",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "Oct 31, 2026 at 12:00 PM",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -4201,6 +5791,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Burke Farmers Market",
+   "url": "https://www.fairfaxcounty.gov/parks/farmersmarkets",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Burke Farmers Market",
+   "address": "5671 Roberts Parkway, Burke, VA 22015",
+   "city": "Burke",
+   "state": "VA",
+   "lat": 38.7971003,
+   "lng": -77.2982721,
+   "description": "Saturdays 8am-noon at the VRE lot, through Nov 21.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Catoctin Mountain Halloween Photo Walk",
@@ -4221,6 +5834,29 @@
    "categories": "Arts - Visual, Outdoor, Free",
    "recurrence": "",
    "admission": "Free"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Catoctin Mountain Halloween Photo Walk",
+   "url": "https://www.nps.gov/places/000/owens-creek-picnic-area.htm",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Catoctin Mountain Park",
+   "address": "14707 Park Central Road, Thurmont, MD 21788",
+   "city": "Thurmont",
+   "state": "MD",
+   "lat": 39.6487471,
+   "lng": -77.4650948,
+   "description": "Join a ranger for a leisurely, early morning photo walk on Brown's Farm trail! The Brown's Farm trail is a short, relatively flat 0.4 mile trail that includes extant structures of an Appalachian farmstead. Its quiet solitude and mix of natural and manmade features means there's something for everyone to capture. Bring something that can take photos, good walking shoes, and an urge to photograph the natural and historical world. The program will meet at 8am on October 31 at the Owens Creek Picnic Area.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Frederick",
@@ -4245,6 +5881,29 @@
    "admission": "FREE"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Cider Making (Class) at Colvin Run Mill",
@@ -4265,6 +5924,29 @@
    "categories": "Family Friendly, Nature & Outdoors, Food and Drink, History & Heritage, America250 in Virginia, Dranesville District",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Cleveland Park Saturday Market",
+   "url": "https://www.freshfarm.org/markets/cleveland-park",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "FRESHFARM Cleveland Park Market",
+   "address": "3400 Connecticut Ave NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9256921,
+   "lng": -77.0529008,
+   "description": "Saturday market 9am-1pm on Connecticut Ave NW.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Montgomery Parks",
@@ -4355,6 +6037,29 @@
    "admission": "50.00 per guest. | Reservations required."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Costume Parade & Contest",
+   "url": "https://www.visitoccoquanva.com/costumeparade",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Historic Occoquan",
+   "address": "314 Mill St, Occoquan, VA 22125",
+   "city": "Occoquan",
+   "state": "VA",
+   "lat": 38.68356,
+   "lng": -77.2599877,
+   "description": "Put on your favorite costume and join us for our annual Costume Parade & Contest! Bring the whole family and compete for prizes in categories including Cutest, Scariest, Funniest, Most Original, and Best Family/Group Costume. Before and after the parade, enjoy free fall-themed activities in the park for all ages. No registration is required - come in costume and join the fun! Location: Town of Occoquan, throughout town",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Crack The Sky",
@@ -4421,6 +6126,29 @@
    "admission": "Yes"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Echoes of Time in Rock Creek Park Guided Hike",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AEB6C0D6-DAD1-3FE1-B118396B2142183F",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "The Milkhouse Ford trail offers both beautifully forested nature and a glimpse into Washington DC’s history. Ramble with a r anger for a guided hike on this 1.7-mile loop, where you will encounter 5000 years of history, from traces of Indigenous land usage, to Fort DeRussy (which saw action during the Civil War), to the two-room log cabin used by poet Joaquin Miller, and to the historic Milkhouse Ford river crossing (one of Rock Creek Park’s oldest and most well-preserved fords). Meet at the Rock Creek Park Nature Center, bring plenty of water, dress for the weather, and be prepared for a fun and enjoyable outing.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Oct 31, 2026 at 10:00 AM",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Fall Festival at Magnolia Meadow Farms",
@@ -4466,6 +6194,75 @@
    "admission": "FREE"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Farm Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=107778",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:30",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Join a Park Ranger on a tour of Oxon Hill Farm! Learn about the history of the land on which Oxon Cove Park now stands while also meeting our resident farm animals. From goats to mules and horses to pigs, our animals are excited to meet you! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Field Fresh Farmers Market",
+   "url": "https://agriculture.frederickcountymd.gov/180/Farmers-Markets",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Field Fresh Farmers Market",
+   "address": "797 E Patrick St, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4010802,
+   "lng": -77.3723473,
+   "description": "Saturday farmers market at the Great Frederick Fairgrounds, Lot A, April 25 to Nov 21, 9am-1pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fireside Folklore: S'mores, Spirits, & Sweets",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2025-01-25-14-17-59-825666-kx5",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "Join our rangers around the campfire to roast some s'mores, eat some sweets, and listen for spirits while learning about the native wildlife and the seasonal lore that has sprung up around them. Location: Aquia Picnic Area",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Foraging Hike",
@@ -4486,6 +6283,98 @@
    "categories": "Culinary, Family-Friendly, Farm & Nature",
    "recurrence": "",
    "admission": "75.00 per guest. | Ages 8+ | Reservations required."
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Washington by Candlelight",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=145138",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Join the Fort Washington Guard for an evening at Fort Washington. In our Fort Washington by Candlelight program, walk in the footsteps of the soldiers and civilians of the Civil War as they fortified a bastion of union in 1861. The ranger-led candlelight tour will last 90 minutes from 6:00 pm to 7:30 pm. We ar comfortable shoes and bring a flashlight.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Franklin Delano Roosevelt Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20FF2C70-D41B-B05C-B574977383870A1E",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Franklin Delano Roosevelt Memorial with a ranger.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Frederick Farmers Market",
+   "url": "https://www.frederickfarmersmarket.com",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Frederick Farmers Market",
+   "address": "632 Contender Way, Frederick, MD 21703",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4058913,
+   "lng": -77.449582,
+   "description": "Saturday cooperative farmers market at Westside Regional Park, April 25 to Nov 21, 2026, 10am-1pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Frederick",
@@ -4510,6 +6399,29 @@
    "admission": "Adult $12.00* (required)\r\nSenior (60+) $10.00* (required)\r\nChild (6-12 years) $8.00* (required)\r\nMember $5.00"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fredericksburg Farmers Market (Saturday)",
+   "url": "https://www.fredericksburgva.gov/199",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "07:00",
+   "endTime": "13:00",
+   "venue": "Fredericksburg Farmers Market at Hurkamp Park",
+   "address": "500 William St, Fredericksburg, VA 22401",
+   "city": "Fredericksburg",
+   "state": "VA",
+   "lat": 38.3042351,
+   "lng": -77.4605946,
+   "description": "City of Fredericksburg main-season Saturday farmers market at Hurkamp Park, April 11 through December 5, 2026.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Gentle Yoga Flow: A Beginner Yoga Class",
@@ -4532,6 +6444,29 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Going Batty!",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-01-15-42-59-500646-jah",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:30",
+   "endTime": "",
+   "venue": "Mason Neck State Park",
+   "address": "7301 High Point Rd, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6485204,
+   "lng": -77.1813786,
+   "description": "Does seeing a bat make you shiver or smile? Location: Playground Area",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Gospel Glow Skate!",
@@ -4552,6 +6487,29 @@
    "categories": "Family Friendly",
    "recurrence": "",
    "admission": "$12"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Graveyards and Ghosts Hike",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=143084",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Prince William Forest Park",
+   "address": "18170 Park Entrance Road, Triangle, VA 22172",
+   "city": "Triangle",
+   "state": "VA",
+   "lat": 38.585117,
+   "lng": -77.3883875,
+   "description": "Explore stories of life, death, and ghosts on a two hike hike to two of the park's historic cemeteries. Hikes to the cemeteries involve off-trail hiking and small sections of bushwhacking. We recommend that you wear closed-toe hiking shoes and pants and bring water and bug spray on the hike.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -4596,6 +6554,52 @@
    "categories": "Family Friendly, Seasonal & Holidays, Fairs & Festivals, Halloween, Free, Spotlight Events",
    "recurrence": "",
    "admission": "Free"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Guided Trek n' Treat Hike",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-13-21-16-26-173482-odm",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "Come one, come all, for a spooky hike this Fall! Location: Throughout the Park",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "H Street NE Saturday Market",
+   "url": "https://www.freshfarm.org/markets/h-street-ne",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "FRESHFARM H Street NE Market",
+   "address": "800 13th St NE, Washington, DC 20002",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9019367,
+   "lng": -76.9884576,
+   "description": "Year-round Saturday market 9am-12:30pm, 13th St NE.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Annapolis",
@@ -4728,6 +6732,29 @@
    "categories": "Family Friendly, Seasonal & Holidays, Nature & Outdoors, Halloween",
    "recurrence": "",
    "admission": "$12/person"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Halloween in the Hollows",
+   "url": "https://www.fairfaxcounty.gov/parks/riverbend/halloween-in-hollows/103126",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Riverbend Park",
+   "address": "8700 Potomac Hills Street, Great Falls, VA 22066",
+   "city": "Great Falls",
+   "state": "VA",
+   "lat": 39.0192612,
+   "lng": -77.250371,
+   "description": "(4-Adult) Join us for a spooktacular evening to celebrate the wildlife most…",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -4906,6 +6933,52 @@
    "admission": "Free: $5 Suggested Donation"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Historic Manassas Farmers Market (Saturdays)",
+   "url": "https://historicmanassas.org/event/historic-manassas-farmers-market-saturdays/2026-10-31/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Historic Manassas, Inc.",
+   "address": "9025 Center Street, Manassas, VA 20110",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.7511055,
+   "lng": -77.4705349,
+   "description": "The Historic Manassas Farmers Market Has Returned! Join us rain or shine every Thursday and Saturday and stock up on farm-fresh produce, local meats & cheeses, baked goods, artisan crafts, and more! And even more good news! Use SNAP/EBT at the market and get FREE fruits & vegetables through our SNAP & Virginia Fresh Match program. Visit https://historicmanassas.org/farmers-market/ for vendor lineups, \\n",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Historic Manassas Saturday Farmers Market",
+   "url": "https://historicmanassas.org/farmers-market/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Historic Manassas Farmers Market",
+   "address": "9024 Prince William St, Manassas, VA 20110",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.752621,
+   "lng": -77.4836073,
+   "description": "Saturdays 8am-1pm, Prince William Street lot, through Nov 21.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Hot Dog: It’s Halloween!",
@@ -4994,6 +7067,29 @@
    "admission": "$12 for adults, $10 for kids, (Rental Skates: $4 for kids, $5 for adults)"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Invasive Vine Removal at Browning’s Grove Park",
+   "url": "https://caseytrees.org/event/invasive-vine-removal-at-brownings-grove-park-4/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Casey Trees",
+   "address": "3030 12th St NE, Washington, DC 20017",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9321988,
+   "lng": -76.9909023,
+   "description": "Join Meredith from CCAN and Kerry from M-NCPPC to remove Invasive Vines at Browning\\'s Grove Park in Riverdale, MD. We […] \\n",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Join Historic Annapolis: Very Superstitious! Paca House and Garden Tour: A History of Luck, Lore, and Beliefs",
@@ -5038,6 +7134,29 @@
    "admission": "$15 General Admission. $12 for Historic Annapolis members and Military."
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Korean War Veterans Memorial:: Meet at Korean War Veterans Memorial Kiosk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Korean War Veterans Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Lake Anne Brew House Beer Run Club",
@@ -5080,6 +7199,29 @@
    "categories": "Nightlife, Food and Drink",
    "recurrence": "",
    "admission": "$140 (Ages 21+)"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Lincoln Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20E95621-C801-29EC-8D514DA27A4B20BD",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Lincoln Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -5258,6 +7400,121 @@
    "admission": "$5 entry ticket, Projects between $8-10"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Martin Luther King, Jr Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Martin Luther King, Jr Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Maverick Meet and Greet",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-10-11-11-06-28-505936-6o3",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "Meet Maverick, our corn snake animal ambassador, as he helps teach us all about our scaly friends and the good that they do for our environment. Location: Visitor Center",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Meet the Underdogs",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-17-11-56-44-488866-urj",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "11:30",
+   "endTime": "",
+   "venue": "Mason Neck State Park",
+   "address": "7301 High Point Rd, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6485204,
+   "lng": -77.1813786,
+   "description": "Do you find some animals to be creepy, crawly, or downright gross? Location: Visitor Center Lawn",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Miller Farms Market Fall Festival",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4120&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 12101 Orange Plank Road, Locust Grove VA 22508",
+   "categories": "festival, festival",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Monroe Street Saturday Market",
+   "url": "https://www.freshfarm.org/markets/monroe-st",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "FRESHFARM Monroe Street Market",
+   "address": "716 Monroe St NE, Washington, DC 20017",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9332572,
+   "lng": -76.9952093,
+   "description": "Year-round Saturday market 9am-1pm, Brookland.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Mosaic Halloween Spooktacular",
@@ -5278,6 +7535,52 @@
    "categories": "Family Friendly, Seasonal & Holidays, Halloween, Free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Mount Vernon Triangle FRESHFARM Market",
+   "url": "https://www.freshfarm.org/markets/mount-vernon-triangle",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "FRESHFARM Mount Vernon Triangle Market",
+   "address": "499 I St NW, Washington, DC 20001",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9010598,
+   "lng": -77.0220186,
+   "description": "Saturday FRESHFARM market, 9am-1pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Movie Night! - Hocus Pocus",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=144801",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Greenbelt Park",
+   "address": "6565 Greenbelt Road, Greenbelt, MD 20770",
+   "city": "Greenbelt",
+   "state": "MD",
+   "lat": 38.9845522,
+   "lng": -76.9009514,
+   "description": "Are you ready for a spooky night at Greenbelt Park? Join us for a movie night and campfire under the forest with the movie Hocus Pocus! Fire starts at 6:00 PM and the movie begins at 6:30 PM.",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Frederick",
@@ -5346,6 +7649,29 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Picnic in the Park: History and Music Series",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=F287D42C-B131-0332-20CFD5183032FA44",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Join us at the historic Sylvan Theater for a unique blend of music and history. Bring a blanket or lawn chair, pack your favorite snacks, and settle in as rangers use music to tell stories from America's past. Each program explores a different historical theme, with topics and playlists varying throughout the series.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Pics in the Park: Halloween Edition",
@@ -5366,6 +7692,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Pokémon and Sports Card Show at Fredericksburg Field House",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4149&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 3411 Shannon Park Drive, Fredericksburg VA 22408",
+   "categories": "market, craft_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -5413,6 +7762,213 @@
    "admission": "$23.95 Per Person – kids under age 2 are free to enter"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ramble with a Ranger",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B4CF163C-BC87-C33C-858AF8BF773E9D5F",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Join a ranger for a pleasant hike through the woods and along the creek. Ranger's choice of route - the hike may be between 1.5-3.5 miles. Come prepared with proper footwear and clothing, water, and curiosity to connect with nature. Meet on the front porch of the Nature Center and Planetarium.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Every week on Saturday at 2:00 PM from October 03, 2026 to March 27, 2027",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Tours at Peirce Mill",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B0F5849E-CD02-5055-C705867CA35BC3F6",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Step inside Peirce Mill, a rare surviving 19th-century gristmill in Rock Creek Park, and discover how waterpower once supported daily life in Washington, DC. Built in the 1820s, the mill served local farmers by grinding grain into flour and cornmeal. On this guided tour, you’ll explore the mill’s machinery, including the waterwheel, gears, and millstones that brought the process to life. Learn how the force of Rock Creek was harnessed to power the mill and the skill required to operate it. Rangers will share stories of the Peirce family and the workers who kept the mill running.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Every week on Sunday and Saturday at 10:00 AM, 12:00 PM, and 1:00 PM from October 03, 2026 to Oct...",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Tours at the Old Stone House",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B063CDBF-0DD0-E20C-E9A5C856506EFF91",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Step back in time with a ranger-led tour of the Old Stone House, the oldest building in the nation’s capital. Discover what life was like in the 18th century as you explore its simple rooms, learn about early residents, and uncover the stories hidden within its stone walls. Perfect for visitors of all ages, this short tour offers a glimpse into everyday colonial life right in the heart of the city.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Every week on Sunday and Saturday at 11:30 AM, 12:30 PM, 1:30 PM, 2:30 PM, and 3:30 PM from Octob...",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Reptiles Alive!",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-24-18-09-09-666601-9la",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Lake Anna State Park",
+   "address": "6800 Lawyers Rd, Spotsylvania, VA 22551",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.143605,
+   "lng": -77.814565,
+   "description": "Meet Lake Anna State Park's animal ambassadors Flick, General Raphael, and Julia at the Visitor Center. Learn about the important roles Virginia reptiles play in the environment, snake safety tips, and what you can do to help protect wild reptiles. Location: Visitor Center",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Reptiles Alive! at Lake Anna State Park",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4142&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: Lake Anna State Park Visitors Center, Spotsylvania VA 22551",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Reston Farmers Market",
+   "url": "https://www.fairfaxcounty.gov/parks/farmersmarkets",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Reston Farmers Market",
+   "address": "1609 Washington Plaza N, Reston, VA 20190",
+   "city": "Reston",
+   "state": "VA",
+   "lat": 38.9697621,
+   "lng": -77.3410881,
+   "description": "Saturdays 8am-noon, Apr 25-Nov 21.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Rockville Farmers Market",
+   "url": "https://www.rockvillemd.gov/?p=45499",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Rockville Farmers Market",
+   "address": "Monroe St & W Montgomery Ave, Rockville, MD 20850",
+   "city": "Rockville",
+   "state": "MD",
+   "lat": 39.0956688,
+   "lng": -77.1590503,
+   "description": "Saturdays 9am-1pm, May 16-Nov 21, Jury Parking Lot.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Roosevelt at Rock Creek Park",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AF7DFB21-BC2F-8C97-11788FB86057B087",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Lace up your hiking boots and follow in the footsteps of Theodore Roosevelt, the adventurous president who believed that time spent in nature built character, courage, and a stronger nation. Beginning at Peirce Mill, this 1.5-mile (round-trip) guided hike winds through scenic trails and rugged landscapes that Roosevelt explored while escaping the pressures of the presidency.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Oct 31, 2026 at 2:00 PM",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Salute the Sunset: United States Air Force Band Airmen of Note Septet",
@@ -5433,6 +7989,29 @@
    "categories": "National Harbor",
    "recurrence": "Recurring weekly on Saturday",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Samhain Sunrise Hike",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2025-09-02-18-04-13-476356-0gh",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "07:00",
+   "endTime": "",
+   "venue": "Widewater State Park",
+   "address": "101 Widewater Park Dr, Stafford, VA 22554",
+   "city": "Stafford",
+   "state": "VA",
+   "lat": 38.4211547,
+   "lng": -77.3319079,
+   "description": "This Samhain, join our rangers on a morning hike through the Holly Marsh Trail to see the sunrise over the Potomac River! Location: Visitor Center",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -5545,6 +8124,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Spotsylvania Farmers Market Saturday Market",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=3773&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 12150 Gordon Road, Fredericksburg VA 22407",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Stilettos Dinner Theater",
@@ -5611,6 +8213,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Haunted Hill",
+   "url": "https://www.spotsylvania.va.us/Calendar.aspx?EID=4135&month=10&year=2026&day=25&calType=0",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Spotsylvania County Tourism",
+   "address": "9104 Courthouse Rd, Spotsylvania, VA 22553",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.2022346,
+   "lng": -77.5892611,
+   "description": "Location: 10400 Fox Creek Lane, Partlow VA 22534",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "The Houdini Séance",
@@ -5653,6 +8278,29 @@
    "categories": "Live Music/Concerts",
    "recurrence": "",
    "admission": "$27.00+"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Thomas Jefferson Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=210B48F0-9F51-FC75-4436E2F198520714",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Thomas Jefferson Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Fairfax",
@@ -5766,6 +8414,29 @@
    "admission": "Softball Field 1-4"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Vietnam Veterans Memorial: Meet at Vietnam Veterans Memorial Kiosk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Vietnam Veteran's Memorial with a ranger.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Visionaries 2026 : A Halloween Night at the Art Gala",
@@ -5788,6 +8459,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "World War II Memorial- Look for the Ranger",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20BC795E-F31D-23BE-8ECD667441CCC6A3",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the World War II Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Yoga at Brookside Gardens",
@@ -5808,6 +8502,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "A BOOtanical Halloween Scavenger Hunt!",
+   "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/a-bootanical-halloween-scavenger-hunt",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Meadowlark Botanical Gardens",
+   "address": "9750 Meadowlark Gardens Ct, Vienna, VA 22182",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.937539,
+   "lng": -77.2825612,
+   "description": "10:00am - 6:00pm Meadowlark Botanical Gardens, Vienna, VA",
+   "categories": "parks, outdoor_activity",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -5876,6 +8593,52 @@
    "admission": "FREE"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "After Emancipation History Hike",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=2398CB61-CAE5-C770-26BFF6F177C126B0",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Rock Creek Park",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Artillery Demonstration",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=129959",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Step back in time and watch Union soldiers fire a cannon! Learn about the process of loading and firing a Civil War era cannon with Fort Washington staff and volunteers. A Ranger will explain each step as its happening. Rangers and volunteers will be available after the demonstration to answer questions. Rangers will be available to interpret a section of the Officers' Quarters and barracks after the demonstration. There will be civil war uniforms worn by living historians, interpreting the story of Fort Washington in costume via the third-person. After the demonstration, when it is safe to do so, visitors can come and have a hands on experience with the cannon. --------- This demonstration will involve loud noises, similar to that of a firework. Rangers will give a warning to cover your ears, but this program may not be right for people or dogs that are frightened by loud noises.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Ayreheart at the Old Brogue",
@@ -5920,6 +8683,52 @@
    "admission": "$12/person"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bethesda Central Farm Market",
+   "url": "https://www.loewvineyards.com/upcoming-events/bethesda-central-farmers-market-november-2026",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Loew Vineyards",
+   "address": "14001 Liberty Rd, Mount Airy, MD 21771",
+   "city": "Mount Airy",
+   "state": "MD",
+   "lat": 39.4765007,
+   "lng": -77.1757084,
+   "description": "Join us at the Bethesda Central Farm Market from 9:30am-1:30pm!",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bird Walk - Guided Program",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=143371",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Great Falls Park",
+   "address": "9200 Old Dominion Drive, McLean, VA 22102",
+   "city": "McLean",
+   "state": "VA",
+   "lat": 38.9969095,
+   "lng": -77.2547488,
+   "description": "Bird Walk - Volunteer Guided - Every Sunday 8:00 am. Meet in the Main Parking Lot. All those with an interest in the natural world - beginning and experienced birders alike - are welcome including youth, minors need to be accompanied by a responsible adult. No pets, please. The walk will be canceled if Great Falls Park is closed or if there is a delayed opening of the park entrance. Also during extreme weather conditions. Updates for weather closures are posted on the Great Falls Park Facebook page.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Birding Banshee",
@@ -5940,6 +8749,29 @@
    "categories": "Farm & Nature",
    "recurrence": "Recurring monthly on the 1st",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Cain's Branch Archaeology Tour",
+   "url": "https://www.fairfaxcounty.gov/parks/sully-historic-site/cains-branch-archaelogy-tour/110126",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Sully Historic Site",
+   "address": "3650 Historic Sully Way, Chantilly, VA 20151",
+   "city": "Chantilly",
+   "state": "VA",
+   "lat": 38.9080942,
+   "lng": -77.4293749,
+   "description": "(6-Adult) Hike the trail and learn about the history of abandoned sites hidden…",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Fairfax",
@@ -5964,6 +8796,29 @@
    "admission": "$30"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Celebración Día de los Muertos at The Wharf",
+   "url": "https://maps.app.goo.gl/2pKve3aE8xUEvxiv8",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "The Wharf",
+   "address": "760 Maine Ave SW, Washington, DC 20024",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8766995,
+   "lng": -77.0209255,
+   "description": "Honor the holiday with a celebratory afternoon of family fun at The Wharf in partnership with Fiesta DC and Modelo.",
+   "categories": "festival, fair_parade",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Charm Bar HERE. in the pop-up shop!",
@@ -5986,6 +8841,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Crack The Sky",
@@ -6006,6 +8884,75 @@
    "categories": "Nightlife, Arts & Culture, Concerts & Live Music",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Dale City Farmers Market",
+   "url": "https://www.pwcva.gov/events/dale-city-farmers-market-168",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Prince William County Parks & Recreation",
+   "address": "14715 Bristow Rd, Manassas, VA 20112",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.6365079,
+   "lng": -77.4348195,
+   "description": "Location: 14090 Gemini Way, Dale City, VA",
+   "categories": "market, farmers_market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Dupont Circle FRESHFARM Market",
+   "url": "https://www.freshfarm.org/markets/dupont-circle",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "08:30",
+   "endTime": "",
+   "venue": "FRESHFARM Dupont Circle Market",
+   "address": "1600 20th St NW, Washington, DC 20009",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9059228,
+   "lng": -77.0447853,
+   "description": "Year-round Sunday FRESHFARM market, 8:30am-1:30pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Farm Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=107778",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "10:30",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Join a Park Ranger on a tour of Oxon Hill Farm! Learn about the history of the land on which Oxon Cove Park now stands while also meeting our resident farm animals. From goats to mules and horses to pigs, our animals are excited to meet you! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -6052,6 +8999,52 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fort Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=125891",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Fort Washington Park",
+   "address": "13551 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7126138,
+   "lng": -77.0331588,
+   "description": "Are you curious about the fascinating history behind Fort Washington? Join us for an enlightening guided tour that delves into the who, what, where, when, and why of this historic fortification! Discover the strategic significance of Digges Point and uncover the reasons it was selected as the ideal site for building the fort. Whether you are a history buff or just looking to enjoy a scenic walk through the fort, this tour is perfect for all ages. Our knowledgeable guides will provide insights into the fort’s construction, its role in defense, and the stories of those who lived and served here. In the event of incliment weather (dangerous heat, thunderstorms, poor air quality, or freezing cold) this program will be moved inside the visitor center and abridge to 30 minutes. If you’re interested in participating but the scheduled times don’t work for you, please don’t hesitate to reach out! Call the Visitor Center at 771-208-1555 or email us prior to your arrival, and we’ll do our best to",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Franklin Delano Roosevelt Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20FF2C70-D41B-B05C-B574977383870A1E",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Franklin Delano Roosevelt Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Friday Night Flights: Rosé",
@@ -6072,6 +9065,29 @@
    "categories": "Live Music/Concerts, Sully District",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Fun with Flora and Fauna",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=AE9BF4DA-C9A2-64C5-3A422F5C7338B988",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Spend Friday afternoons and Sunday mornings at Rock Creek Park learning about our wild and wonderful urban oasis! Par k Rangers will teach kids (and people of all ages) about the fantastic flora and fauna in the park.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Every week on Sunday at 10:00 AM from October 04, 2026 to March 28, 2027",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Annapolis",
@@ -6118,6 +9134,52 @@
    "admission": "$10.00+"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "High Seas and Hardtack",
+   "url": "https://www.fairfaxcounty.gov/parks/colvin-run-mill/high-seas-hardtack/110126",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Colvin Run Mill",
+   "address": "10017 Colvin Run Road, Great Falls, VA 22066",
+   "city": "Great Falls",
+   "state": "VA",
+   "lat": 38.9690645,
+   "lng": -77.2933176,
+   "description": "(4-Adult) Discover how sailors were fed during the War of 1812. Explore the…",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Hike with A Ranger",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=127448",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Greenbelt Park",
+   "address": "6565 Greenbelt Road, Greenbelt, MD 20770",
+   "city": "Greenbelt",
+   "state": "MD",
+   "lat": 38.9845522,
+   "lng": -76.9009514,
+   "description": "Join a ranger for a nature hike along the Dogwood Trail! The hike will last about an hour and will go for just about a mile. Talking about the history of Greenbelt, the flora and fauna offered by the park, and how important our National Parks are to both our national and local ecological resources. The hike is weather permitting, and make sure to bring appropriate footwear and clothing for the climate.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Join Historic Annapolis in: Honoring Maryland’s Emancipation Day at the Museum of Historic Annapolis",
@@ -6160,6 +9222,52 @@
    "categories": "History, Black Culture",
    "recurrence": "",
    "admission": "Tour is included with admission to the Museum. Admission Cost: General Admission: $7. Free for HA Members and Children age 7 and under."
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Korean War Veterans Memorial:: Meet at Korean War Veterans Memorial Kiosk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Korean War Veterans Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Lincoln Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20E95621-C801-29EC-8D514DA27A4B20BD",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Lincoln Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -6228,6 +9336,52 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Lorton Farmers Market",
+   "url": "https://www.fairfaxcounty.gov/parks/farmersmarkets",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Lorton Farmers Market",
+   "address": "8990 Lorton Station Blvd, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.7151747,
+   "lng": -77.213651,
+   "description": "Sundays 8am-noon at the Lorton VRE lot, through Nov 22.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Martin Luther King, Jr Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Martin Luther King, Jr Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Maryland Emancipation Day at Josiah Henson Musem and Park",
@@ -6248,6 +9402,52 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Mobilizing Memories at Meridian Hill",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=249041E4-081F-5330-AE90DBECA4760F3F",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Rock Creek Park",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Mosaic FRESHFARM Market",
+   "url": "https://www.freshfarm.org/markets/mosaic",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "FRESHFARM Mosaic Market",
+   "address": "2920 District Ave, Fairfax, VA 22031",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.8713671,
+   "lng": -77.2304256,
+   "description": "Sunday FRESHFARM market in the Mosaic District, 9am-2pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Loudoun",
@@ -6272,6 +9472,29 @@
    "admission": "Free"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Olney Farmers & Artists Market",
+   "url": "https://olneyfarmersmarket.com",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Olney Farmers and Artists Market",
+   "address": "2801 Olney-Sandy Spring Rd, Olney, MD 20832",
+   "city": "Olney",
+   "state": "MD",
+   "lat": 39.1504826,
+   "lng": -77.0579148,
+   "description": "Sunday farmers and artists market, 9am-1pm year round, at Olney-Sandy Spring Rd (Rt 108) and Prince Philip Dr.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Paint From Your Soul Class",
@@ -6294,6 +9517,52 @@
    "admission": "$85"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Park Tales: Decomposers",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-09-21-14-41-19-570767-nmr",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "14:30",
+   "endTime": "",
+   "venue": "Mason Neck State Park",
+   "address": "7301 High Point Rd, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6485204,
+   "lng": -77.1813786,
+   "description": "Stop by our parks' pop-up ranger program to learn about a variety of topics, from historical facts to life cycles of our park animals. Location: Bay View Trailhead",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Pelts and Skulls Discovery Wall",
+   "url": "https://www.dcr.virginia.gov/state-parks/event?id=2026-10-15-13-52-16-580319-mbh",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Lake Anna State Park",
+   "address": "6800 Lawyers Rd, Spotsylvania, VA 22551",
+   "city": "Spotsylvania",
+   "state": "VA",
+   "lat": 38.143605,
+   "lng": -77.814565,
+   "description": "Touch, smell, and explore the interactive Pelts and Skulls Discovery Wall at the Visitor Center and see if you can guess which animals they belong to from 10:00am-4:00pm during this self-guided exhibit experience. Location: Visitor Center",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Pumpkin Village",
@@ -6314,6 +9583,52 @@
    "categories": "Annual Event, Family-Friendly, Fairs, Festivals & Parades, Farm & Nature",
    "recurrence": "",
    "admission": "$23.95 Per Person – kids under age 2 are free to enter"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Tours at the Old Stone House",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B063CDBF-0DD0-E20C-E9A5C856506EFF91",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Step back in time with a ranger-led tour of the Old Stone House, the oldest building in the nation’s capital. Discover what life was like in the 18th century as you explore its simple rooms, learn about early residents, and uncover the stories hidden within its stone walls. Perfect for visitors of all ages, this short tour offers a glimpse into everyday colonial life right in the heart of the city.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Every week on Sunday and Saturday at 11:30 AM, 12:30 PM, 1:30 PM, 2:30 PM, and 3:30 PM from Octob...",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Frederick",
@@ -6404,6 +9719,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Spilling the Tea at the Old Stone House",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=27C00D10-ACB6-48BA-C2A002F849405065",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:30",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Rock Creek Park",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Sunset Cruise",
@@ -6424,6 +9762,75 @@
    "categories": "On the Water",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Takoma Park Farmers Market",
+   "url": "https://www.takomaparkmarket.com",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Takoma Park Farmers Market",
+   "address": "6931 Laurel Ave, Takoma Park, MD 20912",
+   "city": "Takoma Park",
+   "state": "MD",
+   "lat": 38.9741196,
+   "lng": -77.011908,
+   "description": "Open Sundays year round, 9am-1pm, Laurel Avenue.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Civil War in Georgetown: A Guided Walk in a City Divided",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=23E9FFE4-CF1B-58E3-91DD11A1E52CA089",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Rock Creek Park",
+   "address": "3545 Williamsburg Lane NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9359725,
+   "lng": -77.0500267,
+   "description": "Rock Creek Park",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "The Frederick City Market",
+   "url": "https://agriculture.frederickcountymd.gov/180/Farmers-Markets",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "The Frederick City Market",
+   "address": "622 N Market St, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4229055,
+   "lng": -77.4121967,
+   "description": "Sunday farmers market at 622 N Market St, May 3 to Nov 22, 9am-1pm.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
   },
   {
    "source": "Visit Fairfax",
@@ -6492,6 +9899,29 @@
    "admission": "$28-$120"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Thomas Jefferson Memorial",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=210B48F0-9F51-FC75-4436E2F198520714",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Thomas Jefferson Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Valley Vistas Expedition - Winery Tour with Vineyard Voyages",
@@ -6514,6 +9944,29 @@
    "admission": "Explorer $99 / Connoisseur $179 per person"
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Vietnam Veterans Memorial: Meet at Vietnam Veterans Memorial Kiosk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the Vietnam Veteran's Memorial with a ranger.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Welcome to Quarantino's",
@@ -6534,6 +9987,52 @@
    "categories": "Arts - Performance, Downtown Frederick, Events, Performances, Free",
    "recurrence": "",
    "admission": "Pay What You Will"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Westover Farmers Market",
+   "url": "https://www.arlingtonva.us/Government/Departments/Parks-Recreation/Parks-Events/Arlington-Market",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "08:00",
+   "endTime": "",
+   "venue": "Westover Farmers Market",
+   "address": "1644 N McKinley Rd, Arlington, VA 22205",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8859258,
+   "lng": -77.1418875,
+   "description": "Sundays 8am-noon April-November.",
+   "categories": "market",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "World War II Memorial- Look for the Ranger",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20BC795E-F31D-23BE-8ECD667441CCC6A3",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "National Mall and Memorial Parks",
+   "address": "1100 Ohio Drive SW, Washington, DC 20242",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8764228,
+   "lng": -77.0335432,
+   "description": "Explore the history and art of the World War II Memorial with a ranger.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Visit Loudoun",
@@ -6646,6 +10145,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Forbidden",
@@ -6732,6 +10254,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
   },
   {
    "source": "Montgomery Parks",
@@ -6822,6 +10367,52 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Bird Walk",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=65568",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "08:30",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "We invite you to join National Park Service volunteer and expert birder Molly Hermann for an engaging bird walk at Kenilworth Aquatic Gardens. This event is open to all, including those new to birding. We encourage participants to bring water, sunscreen, and binoculars if available. A limited number of binoculars are available for loan with a photo ID. The walk will be conducted at a leisurely pace, covering approximately one mile. We will gather in front of the visitor center, and the duration of the walk will typically range from 1.5 to 2 hours, depending on our observations. We look forward to sharing this delightful experience with you!",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Chicken Feeding",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77036",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Oxon Hill Farm",
+   "address": "6411 Oxon Hill Road, Oxon Hill, MD 20745",
+   "city": "Oxon Hill",
+   "state": "MD",
+   "lat": 38.802444,
+   "lng": -77.009167,
+   "description": "Learn all about chickens and their role on an American farm. Guided by a Park Ranger, you will visit the feed barn, see the chicken coop, and even try feeding the chickens! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+   "categories": "parks, nature_program",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Glory of Fall Garden Tour",
@@ -6910,6 +10501,29 @@
    "admission": ""
   },
   {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Ranger Led Garden Tour",
+   "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=134563",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Kenilworth Park & Aquatic Gardens",
+   "address": "1550 Anacostia Avenue Northeast, Washington, DC 20019",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9071377,
+   "lng": -76.9461008,
+   "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+   "categories": "parks, tour",
+   "recurrence": "",
+   "admission": "Free",
+   "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Rock the Boat",
@@ -6952,10 +10566,33 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "FindLocal",
+   "siteCounty": "",
+   "title": "Tai Chi at the Lily Pond",
+   "url": "https://tregaron.org/",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tregaron Conservancy",
+   "address": "3100 Macomb St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9319249,
+   "lng": -77.0607553,
+   "description": "Free outdoor Tai Chi with David Harold by the Lily Pond, 9-10 am; no registration; canceled in inclement weather.",
+   "categories": "parks",
+   "recurrence": "",
+   "admission": "",
+   "outdoorHint": "a Park & Outdoors venue"
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-26T04:09:16.224Z",
+  "generatedAt": "2026-10-26T04:23:09.742Z",
   "note": "",
   "sources": {
    "Downtown Silver Spring": {
@@ -6980,7 +10617,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 465
+    "ms": 643
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -6988,7 +10625,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 5229
+    "ms": 27682
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -6996,7 +10633,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2189
+    "ms": 2003
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -7004,7 +10641,7 @@
     "events": 23,
     "outcome": "",
     "error": "",
-    "ms": 786
+    "ms": 793
    },
    "National Landing BID": {
     "ok": true,
@@ -7012,7 +10649,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 6069
+    "ms": 5031
    },
    "City of Fairfax": {
     "ok": true,
@@ -7020,7 +10657,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1753
+    "ms": 1880
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -7028,18 +10665,18 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1377
+    "ms": 11161
    },
    "Visit Montgomery": {
     "ok": true,
     "status": "EVENTS FOUND — coverage incomplete",
-    "events": 10,
+    "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 22071
+    "ms": 24106
    }
   },
-  "count": 65,
+  "count": 64,
   "events": [
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -7190,31 +10827,6 @@
     "date": "2026-10-26",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Montgomery",
-    "city": "Damascus",
-    "county": "Montgomery County",
-    "state": "MD",
-    "description": "Welcome to L eech Woods According to Montgomery County historical land records, the present site of Leech Woods was originally settled by Warwick and Jeanne Leech and their six children sometime in early 1790. Having immigrated from Hungary, the family chose Damascus, Maryland, based on its temperate climate and heavily wooded region, which reminded them of their homeland. The Leech family store thrived as the leading local merchant of hides, furs, and hunting supplies. During the disastrous Winter of 1804, the Leech family store was robbed and vandalized by unknown attackers and the body of John Leech, the youngest son, was found nailed to the back wall of the store. The remaining bodies of the family members were later found bludgeoned and bound inside of the root cellar of their homestead. No further information about the attackers or motives for the killings is known. ​ Remnants of the Leech family homestead still stand deep in the woods where the present Leech Woods experience is built. The Leech Woods immersive experience follows the original walking path from the site of the Leech family hunting supply store to the remnants of the original family homestead. As the property was classified as a historical site in 1972, no artifacts may be removed, and we ask that you respect the privacy of the grave sites. What’s new? More Scares. More scenes. More Screams. We added 6 new scenes to the original trail to bring you even more terror. The Horror Hayride also has new scenes added to the 20-minute ride/walk-through. What to expect Leech Woods is a thirty-minute immersive haunted trail experience of dark terror. We promise a night of chainsaws, clowns, and dark corners. When you are done screaming, we offer amazing food and drinks, alcoholic beverages, bonfires, glow-in-the-dark axe-throwing, fire dancers, a DJ booth, fortune telling, and other forms of entertainment every night in the Leech Woods Midway, where Admission Is Free. Trail What is our Trail? Leech Woods is one of the scariest haunted trails in all of Maryland. It’s about a 30-minute walk with now over 15 highly detailed immersive walkthrough scenes, all enhanced this year with even more scares. Plus, our trail has over 50 professionally trained scarers. You can check out our gallery to see photos of our trail and actors. Recommend age: 12+ HORROR HAYRIDE What is the Horror Hayride? The Horror Hayride is a 20-minute ride and walk-through full of brand new, highly detailed, immersive scenes. On this trail, you discover what is believed to be the Leech Woods family cemetery. Limited to 25 victims per trip. Please respect the graves and reserve your seats now. ​ Recommended Age: 12+ Tickets 15% OFF Groups of 5 Or More Use Code “GROUP”",
-    "categories": "",
-    "venue": "Leech Woods",
-    "address": "11201 Bethesda Church Road, Damascus View, Diamond View",
-    "time": "19:00",
-    "endTime": "21:30",
-    "lat": 39.3006965,
-    "lng": -77.2341112,
-    "title": "Leech Woods",
-    "url": "https://visitmontgomery.com/events/leech-woods/",
-    "coverage": true,
-    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
-    "outdoorEvidenceURL": "https://visitmontgomery.com/events/leech-woods/",
-    "occurrenceTime": "19:00",
-    "dateEvidence": "Publisher explicit schedule",
-    "id": "Visit Montgomery|https://visitmontgomery.com/events/leech-woods/|2026-10-26|19:00|leech woods",
-    "date": "2026-10-26",
-    "confidence": "Publisher explicit schedule",
-    "category": "other"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
