@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v26: Ghost HTML card, self-contained. General cross-source duplicate matching (date, time, place, title key words). Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v27: Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <div class="cwe-header">
     <div>
@@ -973,7 +973,7 @@ function legacyOutdoorEvidence(e){
  if(/\b(?:guided hike|nature hike|nature walk|walking tour|5k race|10k race|run\/walk|farmers? market|trunk.or.treat|costume parades?|harbor cruise|sunset cruise|sunrise photographic experience|boat cruise|trail cleanup|park cleanup|birdwatching walk|guided nature walk|community bike ride|outdoor yoga|outdoor concert|river paddle)\b/i.test(title))
   return 'Event title identifies an outdoor activity';
  if(/\b(?:fall fun festival|fall festival|fall fest|halloween costume parades|howl.o.ween on the mountain|trick.or.treat halloween party|carnival)\b/i.test(title)&&
-    /\b(?:farm|town center|commons|town square|meadow|park|square|shab row|brewing)\b/i.test(venue))
+    /\b(?:farms?|town center|commons|town square|meadow|parks?|square|shab row|brewing)\b/i.test(venue))
   return 'Outdoor festival or community activity at a matching venue';
  // Recognize intrinsically outdoor activities without requiring the description
  // to repeat the word "outdoor". Denial rules above still take precedence.
@@ -983,7 +983,7 @@ function legacyOutdoorEvidence(e){
     /\b(?:botanical gardens?|arboretum|nature preserve|nature center|trail|park|farm|outdoor gardens?)\b/i.test(venue+' '+clean(e.activityLocation)))
   return 'Outdoor nature activity at a matching outdoor venue';
  if(/\b(?:fall festival|fall fun festival|harvest festival|pumpkin festival|farm festival|fall fest|corn maze|hayrides?)\b/i.test(title)&&
-    /\b(?:farm|orchard|pumpkin patch|meadow|fairgrounds|park|town square|plaza)\b/i.test(venue+' '+title))
+    /\b(?:farms?|orchards?|pumpkin patch|meadows?|fairgrounds|parks?|town square|plaza)\b/i.test(venue+' '+title))
   return 'Outdoor seasonal activity at farm or public outdoor space';
  if(/\b(?:ice skating|outdoor skating|skating rink)\b/i.test(title)&&/\b(?:town square|outdoor rink|plaza|open.air|outside)\b/i.test(title+' '+venue+' '+context))
   return 'Outdoor public skating rink or town square';
@@ -1000,8 +1000,35 @@ function legacyOutdoorEvidence(e){
   return 'Event title and garden venue identify outdoor participation';
  return '';
 }
+/* v27: activities that happen outdoors wherever the publisher lists them.
+ * Applied to every source (not only LEGACY_TOURISM_SOURCES). The older title
+ * rules missed plurals ("Bird Walks"), "Farmer's Market", "Farmers & Artists
+ * Market", and programs a nature center runs on its trails or campfire ring.
+ * Classes, talks, exhibits and screenings never qualify here. */
+const ACTIVITY_NOT_OUTDOOR=/\b(?:class(?:es)?|workshops?|lectures?|talks?|exhibits?|exhibitions?|crafts?|indoors?|virtual|webinar|online|screenings?|films?|trivia|karaoke|private|dinner cruise|happy hour|seminar|book club|storytime|paint (?:and|&|n.?) sip|haunted house)\b/i;
+const ACTIVITY_OUTDOOR=/\b(?:hikes?|hiking|bird(?:ing)?\s*walks?|birding|bird.?watching|foraging|campfires?|bonfires?|zip.?(?:lines?|tours?)|fishing|crabbing|stargazing|star party|pump track|bike park|mountain bik\w*|trail (?:runs?|rides?)|fun runs?|5k|10k|(?:shoreline|park|stream|trail|creek|river|beach|watershed|litter|community|neighborhood) clean.?ups?|tree planting|pumpkin patch|corn maze|hayrides?|ghost (?:tours?|walks?)|walking tours?|nature walks?|garden (?:walks?|tours?|strolls?)|trick.or.treat(?:ing)?\s+(?:on|along|through|down|around)\s+(?:the\s+)?(?:trails?|main street|streets?|boardwalk|neighborhood|[A-Z][\w.]*\s+(?:street|avenue))|farmers?(?:['’]s|s['’])?(?:\s*(?:&|and)\s*\w+)?\s+markets?|(?:sunset|harbor|river|signature|halloween|sightseeing|boat|schooner|sailing)\s+cruises?|cruise.in|pickleball|disc golf)\b/i;
+const TITLE_OUTDOOR=/\b(?:outdoors?|open.air|rooftop|under the stars|in the (?:park|vineyards?|woods|meadow|orchard)|on the (?:lawn|green|plaza|pier|trails?|waterfront|boardwalk)|in nature)\b/i;
+function activityEvidence(e){
+ if(outdoorDenial(e))return '';
+ const title=decodeEventText(clean(e.title||'')),venue=clean(e.venue||'');
+ if(INDOOR_VENUE.test(venue))return '';
+ if(TITLE_OUTDOOR.test(title)&&!/\b(?:indoor|haunted house)\b/i.test(title))return 'The publisher’s title places the activity outdoors ('+title.match(TITLE_OUTDOOR)[0]+')';
+ if(ACTIVITY_NOT_OUTDOOR.test(title))return '';
+ const head=venue.split(/,|\s+\d{2,6}\s/)[0];
+ // A sport needs an outdoor place, not a gym or pavilion.
+ if(/\b(?:pickleball|disc golf)\b/i.test(title)&&!(PUBLIC_SPACE.test(head)&&!BUILDING_WORDS.test(head)))return '';
+ const m=title.match(ACTIVITY_OUTDOOR);
+ if(m)return 'The scheduled activity is itself outdoors ('+m[0].toLowerCase()+')';
+ // Ranger programs at the open-air memorials on the National Mall.
+ if(/\bmemorial\b/i.test(title)&&/national mall and memorial parks/i.test(venue)&&!/\bmuseum\b/i.test(title))return 'Ranger program at an open-air memorial';
+ // A street movie night ("Movie Night on N 21st Street") at a non-building venue.
+ if(/\b(?:movie|music|concert|festival|market)\b[^@]{0,30}\bon\s+(?:[NSEW]\.?\s+)?[\w.]+(?:\s+[\w.]+)?\s+(?:street|avenue)\b/i.test(title)&&!BUILDING_WORDS.test(head))return 'Activity on a stated street';
+ // Town-wide trick-or-treating, parades and street festivals listed only by town.
+ if(/\b(?:trick.or.treat(?:ing)?|parades?|block party|street (?:festival|fair)|arts festival)\b/i.test(title)&&/^[A-Za-z .'’-]+,\s*(?:MD|VA|DC)\b(?:\s*\d{5})?$/.test(venue))return 'Town-wide outdoor activity with no building venue';
+ return '';
+}
 function outdoor(e){
- return !!(outdoorEvidence(e)||legacyOutdoorEvidence(e));
+ return !!(outdoorEvidence(e)||legacyOutdoorEvidence(e)||activityEvidence(e));
 }
 function category(e){
  const s=(e.title+' '+e.categories).toLowerCase();
@@ -4342,7 +4369,7 @@ function admitPublisher(source,r,c,categoryEvidence=''){
   return reject('indoorOrMixed','tour includes time inside a building');
  // v25: events at a known open-air stadium or amphitheater (Audi Field, Merriweather, Jiffy Lube Live…).
  const openAirVenue=TM_OUTDOOR_VENUE.test(c.venue)&&!/\b(?:club level|suite|indoor|lounge|press conference)\b/i.test(c.title)?'Held at an open-air stadium or amphitheater ('+c.venue+')':'';
- const evidence=categoryEvidence||outdoorEvidence(c)||legacyOutdoorEvidence(c)||publicSpaceEvidence(c)||openAirVenue;
+ const evidence=categoryEvidence||outdoorEvidence(c)||legacyOutdoorEvidence(c)||activityEvidence(c)||publicSpaceEvidence(c)||openAirVenue;
  if(!evidence)return reject('insufficientEvidence','no publisher evidence the activity is outdoors');
  if(c.time&&c.endTime&&c.endTime===c.time)c.endTime='';
  applyAddress(c);
