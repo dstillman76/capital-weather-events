@@ -13,10 +13,10 @@ Some sources can't be read in full from a reader's browser:
 | Visit Fairfax, Visit Loudoun, Visit Frederick, Experience Prince George’s, Visit Howard County, Visit Annapolis | The RSS feed stops at 30 items, sorted alphabetically. The date search answers only the site's own page; scripted requests get HTTP 403. | Reads the public sitemap and opens each event page, which states its own dates, times, venue and address. |
 | Montgomery Parks | The calendar feed answers only POST requests, which the free CORS relay doesn't forward. robots.txt also disallows that feed. | Reads the public events sitemaps and the event pages they list (each page states "Time:" and "Location:"). |
 
-A second step (`screen.mjs`) runs the widget itself in headless Chromium, for six sources that are slow or
-unreliable in readers' browsers: Visit Alexandria (its calendar file is too large for the browser), Prince
+A second step (`screen.mjs`) runs the widget itself in headless Chromium, for sources that are slow or
+unreliable in readers' browsers: the nine extra NPS parks, Visit Alexandria (its calendar file is too large for the browser), Prince
 George's Parks, Visit Montgomery, Visit Fredericksburg, Reston Town Center and Downtown Silver Spring. In
-this mode (`window.CW_COLLECT_MODE`), the widget loads only those six sources, goes direct to each
+this mode (`window.CW_COLLECT_MODE`), the widget loads only those sources, goes direct to each
 publisher and collects an eighth day. It applies its own checks as usual. The results go in `screened` in
 the events file.
 

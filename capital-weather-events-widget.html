@@ -921,6 +921,8 @@ function outdoorEvidence(e){
  if(/\b(?:live music|performances?|concert)\b[^.!?]{0,100}\bon (?:our|the) patio\b/i.test(d))return 'Live performance takes place on the patio';
  if(/\b(?:collect candy|explore the gardens while gathering treats)\b/i.test(d)&&/\b(?:historic grounds|gardens)\b/i.test(d))return 'The scheduled activity takes place around the grounds or gardens';
  if(/\bexplore a Revolutionary War encampment\b/i.test(d)&&/\blaundry yard\b/i.test(d))return 'Hands-on outdoor encampment activities in tents and the laundry yard';
+ // v23: "a leisurely cruise on our pontoon boat on Little Seneca Lake".
+ if(/\b(?:pontoon|boat|kayak|canoe)\b[^.!?]{0,80}\b(?:on|along|across)\s+(?:the\s+)?(?:[A-Z][\w'’.-]*\s+){0,3}(?:lake|river|creek|bay|harbor|reservoir|lake)\b/i.test(d))return 'Boat activity on open water';
  if(/\b(?:pontoon|boat) (?:boat )?tour\b[^.!?]{0,120}\b(?:along|on) (?:the )?[^.!?]{0,60}river\b/i.test(d))return 'Boat tour travels along the river';
  if(/\b(?:community campfire|around (?:a |the )?campfire)\b/i.test(d)&&/\b(?:roast|marshmallow|bring a chair|benches|outdoors)\b/i.test(d))return 'Participants gather at an actual campfire';
  if(/\b(?:parade|march)\b/i.test(d)&&/\b(?:along|down) [^.!?]{0,90}(?:avenue|street)\b/i.test(d))return 'Parade follows the stated street route';
@@ -943,7 +945,11 @@ const LEGACY_TOURISM_SOURCES=new Set([
  'Rosslyn BID','Falls Church','Visit Montgomery',
  'Adams Morgan BID','Golden Triangle BID','Capitol Riverfront BID','DowntownDC BID','Mount Vernon Triangle CID','Southwest BID','The Wharf',
  'City of Gaithersburg','City of Takoma Park','City of Greenbelt','City of Bowie','City of Hyattsville','Downtown Columbia','Visit Calvert','Visit St. Mary’s','Town of Vienna','Town of Herndon','Town of Leesburg','Town of Occoquan','Town of Warrenton','Visit Stafford','Visit Fredericksburg',
- 'NPS Rock Creek Park','NPS National Mall','National Arboretum (FONA)','Navy Yard BID'
+ 'NPS Rock Creek Park','NPS National Mall','National Arboretum (FONA)','Navy Yard BID',
+ // v23: the same title rules for the newer municipal, park and collector sources
+ // ("Monthly Nature Walk" was rejected only because its source was missing here).
+ 'Town of Purcellville','City of Annapolis','City of College Park','City of Frederick','City of Laurel',
+ 'NOVA Parks','Fairfax County Park Authority','Montgomery Parks','NPS DC-area parks'
 ]);
 function legacyOutdoorEvidence(e){
  if(!LEGACY_TOURISM_SOURCES.has(e.source)||outdoorDenial(e))return '';
@@ -3116,7 +3122,8 @@ async function loadRound2Source(source){
     const params=source.round2==='nps'?new URLSearchParams({method:'getEvents',parkCode:source.parkCode,dateStart:days[0],dateEnd:days.at(-1),expandRecurring:'true',pageSize:'50',pageNumber:String(page)}):
      new URLSearchParams({per_page:'50',page:String(page),start_date:days[0]+' 00:00:00',end_date:days.at(-1)+' 23:59:59'});
     const endpoint=source.round2==='nps'?'https://home.nps.gov/common/components/nps/eventcalendar/EventCalendarService.cfc':source.endpoint;
-    report.requests++;const payload=JSON.parse(await fetchDirectText(endpoint+'?'+params));
+    // v23: the NPS service takes 5–15 s for the ten-park request; 8 s timed out.
+    report.requests++;const payload=JSON.parse(await fetchDirectText(endpoint+'?'+params,source.round2==='nps'?20000:8000));
     result.push(...(source.round2==='nps'?parseNPSRound2(payload,source,report):parseTribeRound2(await recoverPGMissingVenues(payload,source,report),source,report)));
     const pages=source.round2==='nps'?Math.ceil(Number(payload.total)/Number(payload.pageSize||50)):Number(payload.total_pages||1);
     if(page>=pages)break;
@@ -4144,7 +4151,7 @@ async function adapterFetch(r,url,timeout=10000){r.requests++;return fetchSmart(
 /* Outdoor public-space evidence, used only by v20 adapters: a scheduled
  * activity whose publisher-stated location is itself an outdoor public space
  * (a park, plaza, square, pier, field, street) and not a building. */
-const PUBLIC_SPACE=/\b(?:park|plaza|square|green|commons|lawn|pier|boardwalk|promenade|waterfront|gardens?|trail|farm|orchard|meadow|field|amphitheat(?:er|re)|alley)\b/i;
+const PUBLIC_SPACE=/\b(?:park|plaza|square|green|commons|lawn|pier|boardwalk|promenade|waterfront|gardens?|trail|farm|orchard|meadow|field|fairgrounds?|amphitheat(?:er|re)|alley)\b/i;
 const NAMED_STREET=/^(?:on\s+)?[A-Z][\w.'’-]*(?:\s+[A-Z][\w.'’-]*)*\s+(?:Street|Avenue|Boulevard|Row|Way)\b/;
 const BUILDING_WORDS=/\b(?:center|centre|hall|building|church|school|library|museum|theat(?:er|re)|arena|gym|gymnasium|store|shop|restaurant|bar|brewery|brewing|winery|cidery|hotel|mall|office|suite|room|lobby|lodge|club|studio|gallery|cafe|café|tavern|pub|kitchen|bowl|lanes|house|manor|mansion|brewhouse|taproom|conservatory|greenhouse)\b/i;
 const OUTDOOR_ACTIVITY=/\b(?:festival|fest|fair|market|parade|concert|music|jazz|band|dj|movies?|film|cinema|food trucks?|trick.or.treat|trunk.or.treat|candy hunt|egg hunt|scavenger hunt|costume|carnival|celebration|bash|stroll|walk|hike|run|race|5k|yoga|fitness|games|mahjong|picnic|habitat restoration|invasive|clean.?up|tree planting|hayrides?|pumpkins?|corn maze|skating|tour|night market|mini golf|haunted trail|campfire|naturalist|bird(?:ing)? walk)\b/i;
@@ -4754,7 +4761,7 @@ function collectorFile(){
  * those already-screened events instead of loading the source itself; when
  * the file is missing, stale or the source failed there, the source loads live
  * as before. */
-const COLLECTED_SOURCES=new Set(['Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
+const COLLECTED_SOURCES=new Set(['NPS DC-area parks','Visit Alexandria','M-NCPPC Prince George’s Parks','Visit Montgomery','Visit Fredericksburg','Reston Town Center','Downtown Silver Spring']);
 async function fromCollector(name){
  if(!COLLECTED_SOURCES.has(name))return false;
  const {file}=await collectorFile();
