@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v48: start-only events drop off 3 hours after they start; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
@@ -2659,11 +2659,23 @@ function easternClock(){
 }
 // An event that ended earlier today has expired. Overnight events
 // (end time before start time) are kept.
+// v48: a listing with only a start time ("10 a.m.") is treated as over three
+// hours after it starts; with no time at all it stays up for the whole day.
+const START_ONLY_HOURS=3;
 function endedToday(e){
- if(e.date!==localISO(new Date())||!e.endTime)return false;
+ if(e.date!==localISO(new Date()))return false;
+ const now=easternClock();
+ if(!e.endTime){
+  if(!/^\d\d:\d\d$/.test(e.time||''))return false;
+  const m=Number(e.time.slice(0,2))*60+Number(e.time.slice(3))+START_ONLY_HOURS*60;
+  if(m>=24*60)return false;
+  return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0')<=now;
+ }
  if(e.time&&e.endTime<=e.time)return false;
- return e.endTime<=easternClock();
+ return e.endTime<=now;
 }
+// Re-check every five minutes, so a page left open drops events as they end.
+setInterval(()=>{try{render()}catch{}},5*60e3);
 function matches(e){
  if(endedToday(e))return false;
  if(state.day==='weekend'){
