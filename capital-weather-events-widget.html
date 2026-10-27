@@ -2576,6 +2576,15 @@ function mergeSameEvents(list){
  }
  return list.filter(e=>!drop.has(e));
 }
+// v50: one stadium under the names different calendars use ("Towson University,
+// Unitas Stadium" on Ticketmaster, "Minnegan Field at Johnny Unitas Stadium" on
+// the team's own schedule).
+function stadiumKey(v){
+ const t=norm(v||'');
+ const alias=[[/unitas/,'unitas'],[/secu stadium|maryland stadium/,'secu'],[/audi field/,'audi'],[/nationals park/,'nationals'],[/northwest stadium|commanders field|fedex ?field/,'northwest'],[/navy.marine corps memorial stadium/,'navymc'],[/segra field/,'segra'],[/jiffy lube|merriweather/,t.includes('jiffy')?'jiffy':'merriweather']];
+ for(const [re,k] of alias)if(re.test(t))return k;
+ return t;
+}
 function dedupe(events){
  const prepared=[];
  for(const e of events){
@@ -2609,20 +2618,20 @@ function dedupe(events){
  const byStage=new Map();
  for(const e of prepared){
   if(!e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
-  const k=norm(e.venue)+'|'+e.date+'|'+e.time,p=byStage.get(k);
+  const k=stadiumKey(e.venue)+'|'+e.date+'|'+e.time,p=byStage.get(k);
   // v41: Ticketmaster's listing wins for games and concerts it sells (full
   // team names, exact start); then the shortest plain title.
   const score=x=>(x.source==='Ticketmaster'?-10000:0)+(/^(?:premium|vip|parking|suite|club|fan appreciation)/i.test(x.title)?1000:0)+String(x.title).length;
   if(!p||score(e)<score(p))byStage.set(k,e);
  }
  for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(!e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
-  const keep=byStage.get(norm(e.venue)+'|'+e.date+'|'+e.time);if(keep!==e){keep.alsoListedBy=[...new Set([...(keep.alsoListedBy||[]),e.source])].filter(x=>x!==keep.source);prepared.splice(i,1)}}
+  const keep=byStage.get(stadiumKey(e.venue)+'|'+e.date+'|'+e.time);if(keep!==e){keep.alsoListedBy=[...new Set([...(keep.alsoListedBy||[]),e.source])].filter(x=>x!==keep.source);prepared.splice(i,1)}}
  // An untimed listing at a stadium on a day it hosts a timed event is that
  // event ("Movies On The Pitch" = "Hocus Pocus at Audi Field", 6 p.m.).
  const timedStage=new Map();
- for(const e of prepared)if(e.time&&e.venue&&TM_OUTDOOR_VENUE.test(e.venue))timedStage.set(norm(e.venue)+'|'+e.date,e);
+ for(const e of prepared)if(e.time&&e.venue&&TM_OUTDOOR_VENUE.test(e.venue))timedStage.set(stadiumKey(e.venue)+'|'+e.date,e);
  for(let i=prepared.length-1;i>=0;i--){const e=prepared[i];if(e.time||!e.venue||!TM_OUTDOOR_VENUE.test(e.venue))continue;
-  const keep=timedStage.get(norm(e.venue)+'|'+e.date);
+  const keep=timedStage.get(stadiumKey(e.venue)+'|'+e.date);
   if(keep){keep.alsoListedBy=[...new Set([...(keep.alsoListedBy||[]),e.source])].filter(x=>x!==keep.source);prepared.splice(i,1)}}
  const conflicts=typeof state==='object'?(state.conflictedEntities||(state.conflictedEntities=new Set())):new Set();
  const aliases=new Map();
