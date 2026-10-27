@@ -693,68 +693,74 @@ async function collectAthletics(today, windowEnd) {
 
 /* ---------- University of Maryland campus calendar ---------- */
 
-// calendar.umd.edu draws its event list from the university's public GraphQL
-// feed, with a viewer token embedded in the page (the same feed UMD's own
-// web components use to show events on other sites). Only events whose
-// audience includes the public ("Friends") are kept; the widget's outdoor
-// checks then decide, so lectures and indoor talks drop out and big outdoor
-// days like Maryland Day stay.
+// calendar.umd.edu lists each day's events in its HTML (/events/YYYY/MM/DD)
+// and gives every event page a schema.org Event with times and place. Big
+// public days (Maryland Day, homecoming, garden and arboretum events) come
+// from here; the widget's outdoor checks drop lectures and indoor talks.
+// Exhibits and month-long programs, and anything limited to the campus
+// community, are skipped.
 const UMD = {name: 'University of Maryland', city: 'College Park', state: 'MD', county: 'Prince George’s County'};
-const UMD_QUERY = `query getEvents($startDate: String!, $limit: Int, $offset: Int) {
-  entries: solspace_calendar { events(loadOccurrences: true, startsAfterOrAt: $startDate, limit: $limit, offset: $offset) {
-    ... on communications_Event { ...F_communications }
-    ... on submission_Event { ...F_submission }
-  } }
+const UMD_INTERNAL = /\b(?:students? only|for (?:umd |current )?students|open to (?:the )?(?:umd|university of maryland|campus) (?:community|students|faculty)|umd community|faculty and staff only|staff only|employees only|terpmail|umd id required|valid umd id|current umd students)\b/i;
+export function parseUMDDay(html) {
+  const out = [];
+  for (const m of String(html).matchAll(/<umd-element-event\b[\s\S]*?<\/umd-element-event>/g)) {
+    const b = m[0];
+    const href = (b.match(/slot="headline"[\s\S]*?href="([^"]+)"/) || [])[1];
+    const title = textOf((b.match(/slot="headline"[\s\S]*?<span>([\s\S]*?)<\/span>/) || [])[1] || '');
+    const start = textOf((b.match(/slot="start-date-iso">([\s\S]*?)<\/div>/) || [])[1] || '').slice(0, 10);
+    const end = textOf((b.match(/slot="end-date-iso">([\s\S]*?)<\/div>/) || [])[1] || '').slice(0, 10);
+    if (href && title && start) out.push({url: decode(href), title, start, end: end || start});
+  }
+  return out;
 }
-${['communications', 'submission'].map(c => `fragment F_${c} on ${c}_Event {
-  id title url
-  startStamp: startDate @formatDateTime(format: "Y-m-d")
-  startClock: startDate @formatDateTime(format: "H:i")
-  endStamp: endDate @formatDateTime(format: "Y-m-d")
-  endClock: endDate @formatDateTime(format: "H:i")
-  allDay
-  summary: commonRichTextTwo
-  location: categoriesCampusBuildingSingle { title }
-  audience: categoriesEventAudienceMultiple { title }
-}`).join('\n')}`;
-async function collectUMD(today, windowEnd) {
-  const report = {source: UMD.name, kind: 'graphql', status: 'ok', listings: 0, publicListings: 0, inWindow: 0, note: ''};
+async function collectUMD(cache, today, windowEnd) {
+  const report = {source: UMD.name, kind: 'day pages', status: 'ok', listings: 0, opened: 0, skippedLong: 0, skippedInternal: 0, inWindow: 0, note: ''};
   const site = new Site('calendar.umd.edu'); await site.init();
-  const page = await site.get('https://calendar.umd.edu/');
-  const token = (page.match(/data-token=["']?([A-Za-z0-9_-]{16,})/) || [])[1];
-  if (!token) { report.status = 'failed'; report.note = 'Feed token not found on the calendar page.'; return {report, records: []}; }
-  const records = [], seen = new Set();
-  for (let offset = 0; offset < 1200; offset += 200) {
-    const res = await fetch('https://calendar.umd.edu/graphql', {method: 'POST', signal: AbortSignal.timeout(60000),
-      headers: {'content-type': 'application/json', authorization: 'Bearer ' + token, 'user-agent': UA},
-      body: JSON.stringify({query: UMD_QUERY, variables: {startDate: today, limit: 200, offset}})});
-    if (!res.ok) { report.status = offset ? 'partial' : 'failed'; report.note = 'GraphQL HTTP ' + res.status; break; }
-    const json = await res.json();
-    if (json.errors?.length) { report.status = offset ? 'partial' : 'failed'; report.note = 'GraphQL: ' + String(json.errors[0].message).slice(0, 160); break; }
-    const rows = json.data?.entries?.events || [];
-    report.listings += rows.length;
-    let beyond = 0;
-    for (const e of rows) {
-      const date = e.startStamp;
-      if (!date || date > windowEnd) { beyond++; continue; }
-      if (date < today) continue;
-      const aud = (e.audience || []).map(a => a.title);
-      if (!aud.some(a => /friends|community|public|alumni|families|prospective/i.test(a))) continue;
-      report.publicListings++;
-      const key = e.id + '|' + date + '|' + e.startClock;
-      if (seen.has(key)) continue; seen.add(key);
-      const multi = e.endStamp && e.endStamp !== date;
-      records.push({
-        source: UMD.name, siteCounty: UMD.county, title: textOf(e.title), url: e.url,
-        dates: multi && daysBetween(date, e.endStamp) <= 3 ? rangeDates(date, e.endStamp).filter(d => d <= windowEnd) : [date],
-        dateKind: 'single', time: e.allDay || e.startClock === '00:00' ? '' : e.startClock,
-        endTime: !e.allDay && !multi && e.endClock && e.endClock > e.startClock ? e.endClock : '',
-        venue: textOf(e.location?.[0]?.title || e.location?.title || '') || 'University of Maryland campus',
-        address: '', city: UMD.city, state: UMD.state, lat: null, lng: null,
-        description: textOf(e.summary).slice(0, 1500), categories: aud.join(', '), recurrence: '', admission: '',
-      });
+  const store = cache['calendar.umd.edu'] ||= {};
+  const byUrl = new Map();
+  for (const d of rangeDates(today, windowEnd)) {
+    for (let page = 1; page <= 5; page++) {
+      let html;
+      try { html = await site.get(`https://calendar.umd.edu/events/${d.slice(0, 4)}/${d.slice(5, 7)}/${d.slice(8, 10)}${page > 1 ? '?page=' + page : ''}`); }
+      catch (e) { if (page === 1) { report.note += `${d}: ${e.message}. `; } break; }
+      const rows = parseUMDDay(html);
+      report.listings += rows.length;
+      for (const r of rows) {
+        if (daysBetween(r.start, r.end) > 3) { report.skippedLong++; continue; }
+        const key = r.url.replace(/\?.*$/, '') + '|' + d;
+        if (!byUrl.has(key)) byUrl.set(key, {...r, date: d});
+      }
+      if (!new RegExp(`[?&]page=${page + 1}\\b`).test(html)) break;
     }
-    if (rows.length < 200 || beyond === rows.length) break;
+  }
+  const records = [];
+  for (const r of byUrl.values()) {
+    const pageURL = r.url.replace(/\?.*$/, '');
+    let ev = store[pageURL]?.ev;
+    if (!ev || Date.now() - store[pageURL].fetched > 3 * 864e5) {
+      try {
+        const html = await site.get(r.url); report.opened++;
+        let found = null;
+        for (const s of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+          try { const j = JSON.parse(s[1]); found = (j['@graph'] || [j]).find(x => x && x['@type'] === 'Event'); if (found) break; } catch { /* not JSON */ }
+        }
+        const body = textOf((html.match(/<main[\s\S]*?<\/main>/) || [''])[0]).replace(/^[\s\S]*?External Media \d+ : \d+ Events Show More Items More\s*/, '');
+        ev = found ? {name: found.name, start: found.startDate, end: found.endDate, place: found.location?.name || '', desc: (found.description || '') + ' ' + body.slice(0, 1200)} : null;
+        store[pageURL] = {fetched: Date.now(), ev};
+      } catch (e) { continue; }
+    }
+    if (!ev) continue;
+    if (UMD_INTERNAL.test(ev.desc)) { report.skippedInternal++; continue; }
+    const clock = x => (String(x || '').match(/T(\d\d:\d\d)/) || [])[1] || '';
+    const st = clock(ev.start), en = clock(ev.end);
+    const sameDay = String(ev.end || '').slice(0, 10) === String(ev.start || '').slice(0, 10);
+    records.push({
+      source: UMD.name, siteCounty: UMD.county, title: decode(ev.name || r.title), url: pageURL,
+      dates: [r.date], dateKind: 'single', time: st && st !== '00:00' ? st : '',
+      endTime: sameDay && en && en > st && en !== '23:59' ? en : '',
+      venue: decode(ev.place || '') || 'University of Maryland campus', address: '', city: UMD.city, state: UMD.state,
+      lat: null, lng: null, description: decode(ev.desc).slice(0, 1500), categories: '', recurrence: '', admission: '',
+    });
   }
   report.inWindow = records.length;
   return {report, records};
@@ -927,7 +933,7 @@ async function main() {
     // collectParktakes(today, windowEnd),
     collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
     collectAthletics(today, windowEnd).catch(e => ({report: {source: 'University athletics', status: 'failed', note: e.message}, records: []})),
-    collectUMD(today, windowEnd).catch(e => ({report: {source: UMD.name, status: 'failed', note: e.message}, records: []})),
+    collectUMD(cache, today, windowEnd).catch(e => ({report: {source: UMD.name, status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
