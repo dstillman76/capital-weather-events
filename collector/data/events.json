@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T16:56:22.289Z",
+ "generatedAt": "2026-10-27T17:00:32.779Z",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-04"
@@ -81,7 +81,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 261,
-   "opened": 26,
+   "opened": 0,
    "cached": 257,
    "refused": 0,
    "errors": 0,
@@ -25216,13 +25216,13 @@
    "dateKind": "single",
    "time": "13:00",
    "endTime": "",
-   "venue": "Minnegan Field at Johnny Unitas® Stadium",
+   "venue": "Minnegan Field at Johnny Unitas Stadium",
    "address": "",
    "city": "Towson",
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "Towson home football game at Minnegan Field at Johnny Unitas® Stadium. Outdoor venue; check the team's site for weather updates.",
+   "description": "Towson home football game at Minnegan Field at Johnny Unitas Stadium. Outdoor venue; check the team's site for weather updates.",
    "categories": "sports",
    "recurrence": "",
    "admission": "",
@@ -35597,7 +35597,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-27T16:58:01.866Z",
+  "generatedAt": "2026-10-27T17:01:11.038Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -35606,7 +35606,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1458
+    "ms": 1480
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -35614,7 +35614,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 508
+    "ms": 724
    },
    "City of Rockville": {
     "ok": true,
@@ -35622,7 +35622,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 358
+    "ms": 297
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -35630,7 +35630,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 848
+    "ms": 922
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -35638,7 +35638,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 851
+    "ms": 749
    },
    "Navy Yard BID": {
     "ok": true,
@@ -35646,7 +35646,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 720
+    "ms": 1038
    },
    "DowntownDC BID": {
     "ok": true,
@@ -35654,7 +35654,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 871
+    "ms": 1132
    },
    "Falls Church": {
     "ok": true,
@@ -35694,23 +35694,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 804
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 1298
-   },
-   "Mount Vernon Triangle CID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 251
+    "ms": 1025
    },
    "Ticketmaster": {
     "ok": true,
@@ -35720,13 +35704,29 @@
     "error": "",
     "ms": null
    },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 1046
+   },
+   "Mount Vernon Triangle CID": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 436
+   },
    "Southwest BID": {
     "ok": true,
     "status": "COMPLETED — no listings this week",
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 448
+    "ms": 520
    },
    "The Wharf": {
     "ok": true,
@@ -35734,7 +35734,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1098
+    "ms": 1244
    },
    "City of Takoma Park": {
     "ok": true,
@@ -35742,7 +35742,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1061
+    "ms": 811
    },
    "City of Greenbelt": {
     "ok": true,
@@ -35750,7 +35750,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 850
+    "ms": 1060
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -35758,7 +35758,7 @@
     "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 779
+    "ms": 638
    },
    "City of Bowie": {
     "ok": true,
@@ -35766,7 +35766,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 749
+    "ms": 826
    },
    "NPS National Mall": {
     "ok": true,
@@ -35774,7 +35774,7 @@
     "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 514
+    "ms": 853
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -35782,7 +35782,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 31928
+    "ms": 2602
    },
    "City of Hyattsville": {
     "ok": true,
@@ -35790,7 +35790,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 899
+    "ms": 947
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -35798,7 +35798,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 354
+    "ms": 403
    },
    "Downtown Columbia": {
     "ok": true,
@@ -35806,15 +35806,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 873
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 222
+    "ms": 647
    },
    "Visit Calvert": {
     "ok": true,
@@ -35822,7 +35814,7 @@
     "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 589
+    "ms": 676
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -35830,7 +35822,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 775
+    "ms": 1928
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 544
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -35838,79 +35838,7 @@
     "events": 24,
     "outcome": "",
     "error": "",
-    "ms": 341
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 13,
-    "outcome": "",
-    "error": "",
-    "ms": 5490
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1601
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 128
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 488
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 252
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 2361
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 17,
-    "outcome": "",
-    "error": "",
-    "ms": 120
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 4459
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2728
+    "ms": 609
    },
    "Visit Prince William": {
     "ok": true,
@@ -35918,7 +35846,79 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 3403
+    "ms": 2832
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 13,
+    "outcome": "",
+    "error": "",
+    "ms": 993
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2431
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 651
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 837
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 513
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND — coverage incomplete",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 5332
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 17,
+    "outcome": "",
+    "error": "",
+    "ms": 354
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 2066
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2320
    },
    "City of College Park": {
     "ok": true,
@@ -35926,7 +35926,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 787
+    "ms": 701
    },
    "City of Frederick": {
     "ok": true,
@@ -35934,7 +35934,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 902
+    "ms": 792
    },
    "City of Laurel": {
     "ok": true,
@@ -35942,7 +35942,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 641
+    "ms": 607
    },
    "Town of Purcellville": {
     "ok": true,
@@ -35950,7 +35950,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 394
+    "ms": 381
    },
    "National Landing BID": {
     "ok": true,
@@ -35958,7 +35958,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 7356
+    "ms": 9217
    },
    "City of Fairfax": {
     "ok": true,
@@ -35966,7 +35966,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2032
+    "ms": 2975
    },
    "Mosaic District": {
     "ok": true,
@@ -35974,7 +35974,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 211
+    "ms": 135
    },
    "Union Market District": {
     "ok": true,
@@ -35982,7 +35982,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 507
+    "ms": 549
    },
    "The Boro Tysons": {
     "ok": false,
@@ -35990,7 +35990,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 103
+    "ms": 147
    },
    "One Loudoun": {
     "ok": true,
@@ -35998,7 +35998,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 177
+    "ms": 143
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -36006,7 +36006,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1132
+    "ms": 1283
    },
    "DC HSEMA": {
     "ok": true,
@@ -36174,30 +36174,6 @@
     "category": "nature"
    },
    {
-    "source": "City of Bowie",
-    "city": "Bowie",
-    "county": "Prince George’s County",
-    "state": "MD",
-    "categories": "",
-    "venue": "15901 Fred Robinson Way, Bowie, MD 20716",
-    "address": "15901 Fred Robinson Way, Bowie, MD 20716",
-    "description": "T-shirts are available on a first come, first served basis. Participants must be registered to pick up a T-shirt. Registered participants are not guaranteed a T-shirt. Veterans are invited to pick up a special something as a small token of appreciation for their service.",
-    "time": "10:00",
-    "endTime": "13:00",
-    "lat": null,
-    "lng": null,
-    "title": "Veterans 5K T-Shirt Pickup",
-    "url": "https://www.cityofbowie.org/Calendar.aspx?EID=11781",
-    "activityLocation": "15901 Fred Robinson Way, Bowie, MD 20716",
-    "dateEvidence": "Official CivicPlus calendar feed",
-    "outdoorEvidence": "The scheduled activity is inherently outdoors",
-    "outdoorEvidenceURL": "https://www.cityofbowie.org/Calendar.aspx?EID=11781",
-    "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=11781|2026-10-27",
-    "date": "2026-10-27",
-    "confidence": "Official CivicPlus calendar feed",
-    "category": "fitness"
-   },
-   {
     "source": "Visit Calvert",
     "city": "Prince Frederick",
     "county": "Calvert County",
@@ -36247,6 +36223,30 @@
     "date": "2026-10-27",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
+   },
+   {
+    "source": "City of Bowie",
+    "city": "Bowie",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "categories": "",
+    "venue": "15901 Fred Robinson Way, Bowie, MD 20716",
+    "address": "15901 Fred Robinson Way, Bowie, MD 20716",
+    "description": "T-shirts are available on a first come, first served basis. Participants must be registered to pick up a T-shirt. Registered participants are not guaranteed a T-shirt. Veterans are invited to pick up a special something as a small token of appreciation for their service.",
+    "time": "17:00",
+    "endTime": "19:00",
+    "lat": null,
+    "lng": null,
+    "title": "Veterans 5K T-Shirt Pickup",
+    "url": "https://www.cityofbowie.org/Calendar.aspx?EID=11782",
+    "activityLocation": "15901 Fred Robinson Way, Bowie, MD 20716",
+    "dateEvidence": "Official CivicPlus calendar feed",
+    "outdoorEvidence": "The scheduled activity is inherently outdoors",
+    "outdoorEvidenceURL": "https://www.cityofbowie.org/Calendar.aspx?EID=11782",
+    "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=11782|2026-10-27",
+    "date": "2026-10-27",
+    "confidence": "Official CivicPlus calendar feed",
+    "category": "fitness"
    },
    {
     "source": "Georgetown BID",
