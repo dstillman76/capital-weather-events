@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
@@ -850,6 +850,38 @@ function displayRange(e){
 }
 
 const CLOCK='\\d{1,2}(?::[0-5]\\d)?\\s*[ap]\\.?m\\.?';
+/* v49: a listing with no time often states it in the text: "every Monday at
+ * 7 a.m. April-September and 8 a.m. October-March", "9-10 am", "10 a.m. to
+ * 2 p.m.". Use the publisher's own words when they give one clear answer for
+ * that date; otherwise leave the time unknown. */
+const MONTH_IX={jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+function timeFromDescription(text,iso){
+ const t=clean(text||'').slice(0,900);if(!t||!validISO(iso))return null;
+ const month=Number(iso.slice(5,7));
+ const M='(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\.?';
+ // Seasonal clock: "8 a.m. October-March".
+ const seasonal=[...t.matchAll(new RegExp('('+CLOCK+')\\s*(?:from\\s+)?'+M+'\\s*(?:-|–|to|through)\\s*'+M,'gi'))];
+ for(const m of seasonal){
+  const a=MONTH_IX[m[2].toLowerCase()],b=MONTH_IX[m[3].toLowerCase()];
+  if(a<=b?month>=a&&month<=b:month>=a||month<=b)return {time:parseTime(m[1]),endTime:''};
+ }
+ if(seasonal.length)return null;
+ // One stated range: "9-10 am", "10 a.m. to 2 p.m.".
+ const r=t.match(/\b(\d{1,2})(?::([0-5]\d))?\s*(?:-|–|to)\s*(\d{1,2})(?::([0-5]\d))?\s*([ap])\.?\s*m\b/i);
+ const full=timeRange(t);
+ if(full.start&&full.end)return {time:full.start,endTime:full.end};
+ if(r){
+  const ap=r[5].toLowerCase();let h1=Number(r[1]),h2=Number(r[3]);
+  const to24=(h,p)=>(h%12)+(p==='p'?12:0);
+  let e=to24(h2,ap),s1=to24(h1,ap);if(s1>e)s1=to24(h1,ap==='p'?'a':'p');
+  const f=(h,m)=>String(h).padStart(2,'0')+':'+(m||'00');
+  if(e>s1)return {time:f(s1,r[2]),endTime:f(e,r[4])};
+ }
+ // Exactly one clock time mentioned, attached to "at", "starts" or "begins".
+ const at=[...t.matchAll(new RegExp('\\b(?:at|starts?(?: at)?|begins?(?: at)?)\\s+('+CLOCK+')','gi'))].map(m=>parseTime(m[1]));
+ if(at.length&&new Set(at).size===1)return {time:at[0],endTime:''};
+ return null;
+}
 function timeRange(s){
  const t=clean(s);
  const re=new RegExp(
@@ -1821,6 +1853,7 @@ function createEvent(candidate,iso,confidence){
  // v41: an end before the start that isn't just past midnight is a typo in
  // the listing ("5 p.m.–4 a.m."), so it is dropped, not shown.
  if(candidate.time&&candidate.endTime&&candidate.endTime<=candidate.time&&candidate.endTime>'02:00')candidate={...candidate,endTime:''};
+ if(!candidate.time){const d=timeFromDescription(candidate.description,parseDate(iso));if(d&&d.time)candidate={...candidate,time:d.time,endTime:d.endTime||'',timeFromText:true}}
  const e={
   ...candidate,
   id:candidate.source+'|'+candidate.url+'|'+iso+(candidate.occurrenceTime?'|'+candidate.occurrenceTime+'|'+norm(candidate.venue):''),
@@ -5046,7 +5079,7 @@ async function fromCollector(name){
  if(!(ageH<COLLECTOR_MAX_AGE_HOURS)||!status?.ok)return false;
  // Types are re-derived here, so a file written by an older version still sorts the same way.
  const base=name.replace(/ calendar$/,'');
- const events=(group.events||[]).filter(e=>(e.source===name||e.source===base)&&validISO(e.date)&&days.includes(e.date)).map(e=>({...e,category:category(e),...(e.time&&e.endTime&&e.endTime<=e.time&&e.endTime>'02:00'?{endTime:''}:{})}));
+ const events=(group.events||[]).filter(e=>(e.source===name||e.source===base)&&validISO(e.date)&&days.includes(e.date)).map(e=>{const d=!e.time&&timeFromDescription(e.description,e.date);return {...e,category:category(e),...(e.time&&e.endTime&&e.endTime<=e.time&&e.endTime>'02:00'?{endTime:''}:{}),...(d&&d.time?{time:d.time,endTime:d.endTime||'',timeFromText:true}:{})}});
  if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
  state.reports.push({source:name,ok:true,collector:true,candidates:events.length,count:0,requests:0,
   discoveryComplete:true,outcome:'Read by the daily collector ('+new Date(group.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET): '+status.status});
