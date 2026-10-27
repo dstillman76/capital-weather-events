@@ -693,8 +693,8 @@ async function collectAthletics(today, windowEnd) {
 
 /* ---------- University of Maryland campus calendar ---------- */
 
-// calendar.umd.edu lists each day's events in its HTML (/events/YYYY/MM/DD)
-// and gives every event page a schema.org Event with times and place. Big
+// calendar.umd.edu lists upcoming events on its audience and topic pages and
+// gives every event page a schema.org Event with times and place. Big
 // public days (Maryland Day, homecoming, garden and arboretum events) come
 // from here; the widget's outdoor checks drop lectures and indoor talks.
 // Exhibits and month-long programs, and anything limited to the campus
@@ -717,20 +717,22 @@ async function collectUMD(cache, today, windowEnd) {
   const report = {source: UMD.name, kind: 'day pages', status: 'ok', listings: 0, opened: 0, skippedLong: 0, skippedInternal: 0, inWindow: 0, note: ''};
   const site = new Site('calendar.umd.edu'); await site.init();
   const store = cache['calendar.umd.edu'] ||= {};
+  // robots.txt disallows the day pages (/events/) and paging, so the collector
+  // reads the first page of the audience and topic lists that public events
+  // appear in; each shows the next events in date order.
   const byUrl = new Map();
-  for (const d of rangeDates(today, windowEnd)) {
-    for (let page = 1; page <= 5; page++) {
-      let html;
-      try { html = await site.get(`https://calendar.umd.edu/events/${d.slice(0, 4)}/${d.slice(5, 7)}/${d.slice(8, 10)}${page > 1 ? '?page=' + page : ''}`); }
-      catch (e) { if (page === 1) { report.note += `${d}: ${e.message}. `; } break; }
-      const rows = parseUMDDay(html);
-      report.listings += rows.length;
-      for (const r of rows) {
-        if (daysBetween(r.start, r.end) > 3) { report.skippedLong++; continue; }
+  for (const cat of ['friends', 'community-engagement', 'family-engagement', 'athletics-and-recreation', 'arts-entertainment-and-culture', 'alumni', 'prospective-students']) {
+    let html;
+    try { html = await site.get(`https://calendar.umd.edu/category/${cat}`); } catch (e) { report.note += `${cat}: ${e.message}. `; continue; }
+    const rows = parseUMDDay(html);
+    report.listings += rows.length;
+    for (const r of rows) {
+      if (daysBetween(r.start, r.end) > 3) { report.skippedLong++; continue; }
+      for (const d of rangeDates(r.start, r.end)) {
+        if (d < today || d > windowEnd) continue;
         const key = r.url.replace(/\?.*$/, '') + '|' + d;
         if (!byUrl.has(key)) byUrl.set(key, {...r, date: d});
       }
-      if (!new RegExp(`[?&]page=${page + 1}\\b`).test(html)) break;
     }
   }
   const records = [];
@@ -739,7 +741,7 @@ async function collectUMD(cache, today, windowEnd) {
     let ev = store[pageURL]?.ev;
     if (!ev || Date.now() - store[pageURL].fetched > 3 * 864e5) {
       try {
-        const html = await site.get(r.url); report.opened++;
+        const html = await site.get(pageURL); report.opened++;   // robots.txt disallows the ?start= form
         let found = null;
         for (const s of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
           try { const j = JSON.parse(s[1]); found = (j['@graph'] || [j]).find(x => x && x['@type'] === 'Event'); if (found) break; } catch { /* not JSON */ }
