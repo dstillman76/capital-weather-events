@@ -616,7 +616,7 @@ async function collectPatch(today, windowEnd) {
 const ATHLETICS = [
   {name: 'Maryland Athletics', host: 'umterps.com', home: ['College Park'], state: 'MD'},
   {name: 'Navy Athletics', host: 'navysports.com', home: ['Annapolis'], state: 'MD'},
-  {name: 'UMBC Athletics', host: 'umbcretrievers.com', home: ['Catonsville', 'Baltimore'], state: 'MD'},
+  {name: 'UMBC Athletics', host: 'umbcretrievers.com', home: ['Catonsville', 'Baltimore'], state: 'MD', city: 'Catonsville'},   // campus is in Catonsville (Baltimore County)
   {name: 'Towson Athletics', host: 'towsontigers.com', home: ['Towson'], state: 'MD'},
   {name: 'George Mason Athletics', host: 'gomason.com', home: ['Fairfax'], state: 'VA'},
   {name: 'Georgetown Athletics', host: 'guhoyas.com', home: ['Washington'], state: 'DC'},
@@ -627,6 +627,12 @@ const ATHLETICS = [
 ];
 const OUTDOOR_SPORT = /\b(?:soccer|field hockey|lacrosse|baseball|softball|football|cross country|rugby|beach volleyball|track|rowing|golf|tennis)\b/i;
 const INDOOR_SPORT = /\b(?:basketball|wrestling|swim|diving|gymnastics|ice hockey|bowling|squash|fencing|indoor|esports|broadcast)\b|\bvolleyball\b(?<!beach volleyball)/i;
+// "University of Maryland, Baltimore County Baseball vs. …" → "UMBC Baseball vs. …"
+function shortSchoolName(t) {
+  return t.replace(/^University of Maryland, Baltimore County\b/, 'UMBC').replace(/^Naval Academy\b/, 'Navy')
+    .replace(/^George Washington University\b/, 'GW').replace(/^George Mason University\b/, 'George Mason')
+    .replace(/^(American|Georgetown|Howard|Towson|Catholic) University\b/, '$1');
+}
 function icsEvents(text) {
   const lines = String(text).replace(/\r?\n[ \t]/g, '').split(/\r?\n/);
   const out = []; let cur = null;
@@ -656,10 +662,10 @@ export function parseSidearmICS(text, src, today, windowEnd) {
     const school = src.name.replace(/ Athletics$/, '');
     const sport = (summary.match(OUTDOOR_SPORT) || [''])[0];
     out.push({
-      source: src.name, siteCounty: '', title: summary.replace(/\s+vs\s+/i, ' vs. ').replace(/\s+/g, ' ').trim(),
+      source: src.name, siteCounty: '', title: shortSchoolName(summary.replace(/\s+vs\s+/i, ' vs. ').replace(/\s+/g, ' ').trim()),
       url: decode(ev.URL?.value || `https://${src.host}/calendar`).replace(/\/\/admin\./, '//'),
       dates: [date], dateKind: 'single', time: time === '00:00' ? '' : time, endTime: '',
-      venue: facility || school + ' campus', address: '', city: city.replace(/^Washington.*$/i, 'Washington'), state: src.state,
+      venue: facility || school + ' campus', address: '', city: src.city || city.replace(/^Washington.*$/i, 'Washington'), state: src.state,
       lat: null, lng: null,
       description: `${school} home ${sport.toLowerCase()} game${facility ? ' at ' + facility : ''}. Outdoor venue; check the team's site for weather updates.`,
       categories: 'sports', recurrence: '', admission: '',
