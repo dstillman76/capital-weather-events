@@ -646,7 +646,7 @@ function icsEvents(text) {
 export function parseSidearmICS(text, src, today, windowEnd) {
   const out = [];
   for (const ev of icsEvents(text)) {
-    const summary = decode(ev.SUMMARY?.value || ''), location = decode(ev.LOCATION?.value || '');
+    const summary = decode(ev.SUMMARY?.value || '').replace(/[®™]/g, ''), location = decode(ev.LOCATION?.value || '').replace(/[®™]/g, '');
     if (!OUTDOOR_SPORT.test(summary) || INDOOR_SPORT.test(summary)) continue;
     if (/\sat\s/i.test(summary.replace(/^[^ ]+ /, ' '))) continue;              // "Navy Soccer at Army"
     const parts = location.split(/\s*,\s*/);
