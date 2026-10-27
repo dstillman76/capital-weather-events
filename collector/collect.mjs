@@ -760,11 +760,71 @@ async function collectUMD(cache, today, windowEnd) {
       source: UMD.name, siteCounty: UMD.county, title: decode(ev.name || r.title), url: pageURL,
       dates: [r.date], dateKind: 'single', time: st && st !== '00:00' ? st : '',
       endTime: sameDay && en && en > st && en !== '23:59' ? en : '',
-      venue: decode(ev.place || '') || 'University of Maryland campus', address: '', city: UMD.city, state: UMD.state,
+      // The page's place is often just the event's own name; then only the campus is known.
+      venue: (ev.place && decode(ev.place) !== decode(ev.name || '') ? decode(ev.place) : '') || 'University of Maryland campus', address: '', city: UMD.city, state: UMD.state,
       lat: null, lng: null, description: decode(ev.desc).slice(0, 1500), categories: '', recurrence: '', admission: '',
     });
   }
   report.inWindow = records.length;
+  return {report, records};
+}
+
+/* ---------- University calendars on Localist (GW, Howard, Georgetown, American) ---------- */
+
+// These schools run their public calendars on Localist, which offers a public
+// JSON API. Only events whose audience includes the public (or that name no
+// audience) and that happen in person are kept; the widget's outdoor checks
+// then keep big outdoor days (homecoming, festivals, open houses) and drop
+// lectures and indoor events.
+const LOCALIST = [
+  {name: 'George Washington University', host: 'calendar.gwu.edu', city: 'Washington', state: 'DC'},
+  {name: 'Howard University', host: 'events.howard.edu', city: 'Washington', state: 'DC'},
+  {name: 'Georgetown University', host: 'calendar.georgetown.edu', city: 'Washington', state: 'DC'},
+  {name: 'American University', host: 'calendar.american.edu', city: 'Washington', state: 'DC'},
+];
+const PUBLIC_AUDIENCE = /\b(?:public|community|everyone|visitors?|families|family|neighbors?|alumni|guests?|all)\b/i;
+export function parseLocalist(payload, src, today, windowEnd) {
+  const out = [];
+  for (const {event: e} of payload?.events || []) {
+    if (!e || e.private || e.status !== 'live' || /virtual|online/i.test(e.experience || '')) continue;
+    const aud = (e.filters?.event_audiences || []).map(a => a.name);
+    if (aud.length && !aud.some(a => PUBLIC_AUDIENCE.test(a))) continue;
+    for (const {event_instance: inst} of e.event_instances || []) {
+      const s = inst?.start ? etDateTime(inst.start) : null;
+      if (!s || s.date < today || s.date > windowEnd) continue;
+      const en = inst.end ? etDateTime(inst.end) : null;
+      out.push({
+        source: src.name, siteCounty: '', title: decode(e.title || '').trim(), url: e.localist_url || e.url,
+        dates: [s.date], dateKind: 'single', time: inst.all_day ? '' : s.time, endTime: !inst.all_day && en && en.date === s.date && en.time > s.time ? en.time : '',
+        venue: decode(e.location_name || '').trim() || src.name + ' campus', address: decode(e.address || '').trim(),
+        city: (String(e.address || '').match(/,\s*([^,]+?),\s*(?:DC|MD|VA)\b/) || [])[1] || src.city, state: src.state,
+        lat: Number(e.geo?.latitude) || null, lng: Number(e.geo?.longitude) || null,
+        description: textOf(e.description_text || e.description || '').slice(0, 1500),
+        categories: (e.filters?.event_types || []).map(t => t.name).join(', '), recurrence: '', admission: e.ticket_cost || '',
+      });
+    }
+  }
+  return out;
+}
+async function collectLocalist(today, windowEnd) {
+  const report = {source: 'University calendars', kind: 'localist', status: 'ok', schools: 0, failed: [], inWindow: 0, note: ''};
+  const records = [];
+  const days = daysBetween(today, windowEnd) + 1;
+  await Promise.all(LOCALIST.map(async src => {
+    const site = new Site(src.host);
+    try {
+      await site.init();
+      for (let page = 1; page <= 5; page++) {
+        const json = JSON.parse(await site.get(`https://${src.host}/api/2/events?days=${days}&pp=100&page=${page}`, {timeout: 60000}));
+        records.push(...parseLocalist(json, src, today, windowEnd));
+        if (page >= (json.page?.total || 1)) break;
+      }
+      report.schools++;
+    } catch (e) { report.failed.push(src.name + ': ' + e.message); }
+  }));
+  report.inWindow = records.length;
+  if (report.failed.length) report.note = 'Not read: ' + report.failed.join('; ');
+  if (!report.schools) report.status = 'failed';
   return {report, records};
 }
 
@@ -936,6 +996,7 @@ async function main() {
     collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
     collectAthletics(today, windowEnd).catch(e => ({report: {source: 'University athletics', status: 'failed', note: e.message}, records: []})),
     collectUMD(cache, today, windowEnd).catch(e => ({report: {source: UMD.name, status: 'failed', note: e.message}, records: []})),
+    collectLocalist(today, windowEnd).catch(e => ({report: {source: 'University calendars', status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
