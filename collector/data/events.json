@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T16:53:29.841Z",
+ "generatedAt": "2026-10-27T16:56:22.289Z",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-04"
@@ -80,7 +80,7 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 264,
+   "sitemapEvents": 261,
    "opened": 26,
    "cached": 257,
    "refused": 0,
@@ -6496,7 +6496,7 @@
   {
    "source": "Georgetown Athletics",
    "siteCounty": "",
-   "title": "Georgetown University Women's Soccer vs. Creighton",
+   "title": "Georgetown Women's Soccer vs. Creighton",
    "url": "https://guhoyas.com/calendar.aspx?game_id=22068&sport_id=22",
    "dates": [
     "2026-10-28"
@@ -12596,7 +12596,7 @@
   {
    "source": "UMBC Athletics",
    "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Baseball vs. Fall World Series (Game 1)",
+   "title": "UMBC Baseball vs. Fall World Series (Game 1)",
    "url": "https://umbcretrievers.com/calendar.aspx?game_id=9762&sport_id=1",
    "dates": [
     "2026-10-29"
@@ -12606,7 +12606,7 @@
    "endTime": "",
    "venue": "Alumni Field",
    "address": "",
-   "city": "Baltimore",
+   "city": "Catonsville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -13170,7 +13170,7 @@
   {
    "source": "American University Athletics",
    "siteCounty": "",
-   "title": "American University Men's Soccer vs. Holy Cross",
+   "title": "American Men's Soccer vs. Holy Cross",
    "url": "https://aueagles.com/calendar.aspx?game_id=6022&sport_id=5",
    "dates": [
     "2026-10-30"
@@ -14974,7 +14974,7 @@
   {
    "source": "Georgetown Athletics",
    "siteCounty": "",
-   "title": "Georgetown University Field Hockey vs. Old Dominion - Pride Game",
+   "title": "Georgetown Field Hockey vs. Old Dominion - Pride Game",
    "url": "https://guhoyas.com/calendar.aspx?game_id=22116&sport_id=2",
    "dates": [
     "2026-10-30"
@@ -17910,7 +17910,7 @@
   {
    "source": "UMBC Athletics",
    "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Baseball vs. Fall World Series (Game 2)",
+   "title": "UMBC Baseball vs. Fall World Series (Game 2)",
    "url": "https://umbcretrievers.com/calendar.aspx?game_id=9763&sport_id=1",
    "dates": [
     "2026-10-30"
@@ -17920,7 +17920,7 @@
    "endTime": "",
    "venue": "Alumni Field",
    "address": "",
-   "city": "Baltimore",
+   "city": "Catonsville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -17934,7 +17934,7 @@
   {
    "source": "UMBC Athletics",
    "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Men's Soccer vs. UAlbany - Homecoming Halloweekend Game - (Dawgtoberfest Mug Giveaway)",
+   "title": "UMBC Men's Soccer vs. UAlbany - Homecoming Halloweekend Game - (Dawgtoberfest Mug Giveaway)",
    "url": "https://umbcretrievers.com/calendar.aspx?game_id=9609&sport_id=6",
    "dates": [
     "2026-10-30"
@@ -17944,7 +17944,7 @@
    "endTime": "",
    "venue": "Retriever Soccer Park",
    "address": "",
-   "city": "Baltimore",
+   "city": "Catonsville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -18631,7 +18631,7 @@
   {
    "source": "American University Athletics",
    "siteCounty": "",
-   "title": "American University Field Hockey vs. Lehigh - Senior Day/Alumni Celebration",
+   "title": "American Field Hockey vs. Lehigh - Senior Day/Alumni Celebration",
    "url": "https://aueagles.com/calendar.aspx?game_id=5966&sport_id=2",
    "dates": [
     "2026-10-31"
@@ -20728,7 +20728,7 @@
   {
    "source": "George Mason Athletics",
    "siteCounty": "",
-   "title": "George Mason University Women's Rowing vs. Head of the Occoquan",
+   "title": "George Mason Women's Rowing vs. Head of the Occoquan",
    "url": "https://gomason.com/calendar.aspx?game_id=14291&sport_id=14",
    "dates": [
     "2026-10-31"
@@ -20748,30 +20748,6 @@
    "admission": "",
    "athletics": true,
    "outdoorHint": "a home rowing game, an outdoor sport"
-  },
-  {
-   "source": "GW Athletics",
-   "siteCounty": "",
-   "title": "George Washington University Men's Soccer vs. St. Bonaventure",
-   "url": "https://gwsports.com/calendar.aspx?game_id=15644&sport_id=7",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "14:00",
-   "endTime": "",
-   "venue": "GW Soccer Field",
-   "address": "",
-   "city": "Washington",
-   "state": "DC",
-   "lat": null,
-   "lng": null,
-   "description": "GW home soccer game at GW Soccer Field. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "Patch",
@@ -21025,6 +21001,30 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "GW Athletics",
+   "siteCounty": "",
+   "title": "GW Men's Soccer vs. St. Bonaventure",
+   "url": "https://gwsports.com/calendar.aspx?game_id=15644&sport_id=7",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "GW Soccer Field",
+   "address": "",
+   "city": "Washington",
+   "state": "DC",
+   "lat": null,
+   "lng": null,
+   "description": "GW home soccer game at GW Soccer Field. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "FindLocal",
@@ -23342,7 +23342,7 @@
   {
    "source": "Navy Athletics",
    "siteCounty": "",
-   "title": "Naval Academy Men's Rugby vs. Penn State",
+   "title": "Navy Men's Rugby vs. Penn State",
    "url": "https://navysports.com/calendar.aspx?game_id=27849&sport_id=35",
    "dates": [
     "2026-10-31"
@@ -23366,7 +23366,7 @@
   {
    "source": "Navy Athletics",
    "siteCounty": "",
-   "title": "Naval Academy Women's Rugby vs. Army - Star Game",
+   "title": "Navy Women's Rugby vs. Army - Star Game",
    "url": "https://navysports.com/calendar.aspx?game_id=27878&sport_id=47",
    "dates": [
     "2026-10-31"
@@ -23390,7 +23390,7 @@
   {
    "source": "Navy Athletics",
    "siteCounty": "",
-   "title": "Naval Academy Women's Tennis vs. Navy Blinds",
+   "title": "Navy Women's Tennis vs. Navy Blinds",
    "url": "https://navysports.com/calendar.aspx?game_id=27939&sport_id=26",
    "dates": [
     "2026-10-31"
@@ -27534,30 +27534,6 @@
    "admission": ""
   },
   {
-   "source": "GW Athletics",
-   "siteCounty": "",
-   "title": "George Washington University Women's Soccer vs. St. Bonaventure",
-   "url": "https://gwsports.com/calendar.aspx?game_id=15624&sport_id=19",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "",
-   "venue": "GW Soccer Field",
-   "address": "",
-   "city": "Washington",
-   "state": "DC",
-   "lat": null,
-   "lng": null,
-   "description": "GW home soccer game at GW Soccer Field. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "GET OUT THE VOTE - Youth in Government Furniture Music We All Witness",
@@ -27618,6 +27594,30 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "GW Athletics",
+   "siteCounty": "",
+   "title": "GW Women's Soccer vs. St. Bonaventure",
+   "url": "https://gwsports.com/calendar.aspx?game_id=15624&sport_id=19",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "GW Soccer Field",
+   "address": "",
+   "city": "Washington",
+   "state": "DC",
+   "lat": null,
+   "lng": null,
+   "description": "GW home soccer game at GW Soccer Field. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "Patch",
@@ -27797,7 +27797,7 @@
   {
    "source": "Howard Athletics",
    "siteCounty": "",
-   "title": "Howard University Women's Soccer vs. Chicago State",
+   "title": "Howard Women's Soccer vs. Chicago State",
    "url": "https://hubison.com/calendar.aspx?game_id=12454&sport_id=14",
    "dates": [
     "2026-11-01"
@@ -28436,30 +28436,6 @@
    "admission": ""
   },
   {
-   "source": "Navy Athletics",
-   "siteCounty": "",
-   "title": "Naval Academy Women's Tennis vs. Navy Blinds",
-   "url": "https://navysports.com/calendar.aspx?game_id=27940&sport_id=26",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "",
-   "venue": "Tose Family Tennis Center",
-   "address": "",
-   "city": "Annapolis",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Navy home tennis game at Tose Family Tennis Center. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home tennis game, an outdoor sport"
-  },
-  {
    "source": "Patch",
    "siteCounty": "Anne Arundel County",
    "title": "Navy Classic - Wrestling",
@@ -28480,6 +28456,30 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Navy Athletics",
+   "siteCounty": "",
+   "title": "Navy Women's Tennis vs. Navy Blinds",
+   "url": "https://navysports.com/calendar.aspx?game_id=27940&sport_id=26",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Tose Family Tennis Center",
+   "address": "",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Navy home tennis game at Tose Family Tennis Center. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home tennis game, an outdoor sport"
   },
   {
    "source": "FindLocal",
@@ -29895,6 +29895,30 @@
    "admission": ""
   },
   {
+   "source": "UMBC Athletics",
+   "siteCounty": "",
+   "title": "UMBC Women's Soccer vs. Maine - Senior Day - Dawgtoberfest Coffee Mug Giveaway",
+   "url": "https://umbcretrievers.com/calendar.aspx?game_id=9591&sport_id=13",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Retriever Soccer Park",
+   "address": "",
+   "city": "Catonsville",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "UMBC home soccer game at Retriever Soccer Park. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Undertale – The Determination Symphony World Tour",
@@ -29927,30 +29951,6 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
-  },
-  {
-   "source": "UMBC Athletics",
-   "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Women's Soccer vs. Maine - Senior Day - Dawgtoberfest Coffee Mug Giveaway",
-   "url": "https://umbcretrievers.com/calendar.aspx?game_id=9591&sport_id=13",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Retriever Soccer Park",
-   "address": "",
-   "city": "Baltimore",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "UMBC home soccer game at Retriever Soccer Park. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "Visit Loudoun",
@@ -32724,30 +32724,6 @@
    "admission": ""
   },
   {
-   "source": "Navy Athletics",
-   "siteCounty": "",
-   "title": "Naval Academy Men's Soccer vs. American",
-   "url": "https://navysports.com/calendar.aspx?game_id=27869&sport_id=10",
-   "dates": [
-    "2026-11-03"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "",
-   "venue": "Glenn Warner Soccer Facility",
-   "address": "",
-   "city": "Annapolis",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Navy home soccer game at Glenn Warner Soccer Facility. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
-  },
-  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Navy Men’s Soccer vs American",
@@ -32790,6 +32766,30 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Navy Athletics",
+   "siteCounty": "",
+   "title": "Navy Men's Soccer vs. American",
+   "url": "https://navysports.com/calendar.aspx?game_id=27869&sport_id=10",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Glenn Warner Soccer Facility",
+   "address": "",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Navy home soccer game at Glenn Warner Soccer Facility. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "FindLocal",
@@ -33277,7 +33277,7 @@
   {
    "source": "UMBC Athletics",
    "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Men's Soccer vs. NJIT - Senior Night",
+   "title": "UMBC Men's Soccer vs. NJIT - Senior Night",
    "url": "https://umbcretrievers.com/calendar.aspx?game_id=9610&sport_id=6",
    "dates": [
     "2026-11-03"
@@ -33287,7 +33287,7 @@
    "endTime": "",
    "venue": "Retriever Soccer Park",
    "address": "",
-   "city": "Baltimore",
+   "city": "Catonsville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -33387,7 +33387,7 @@
   {
    "source": "American University Athletics",
    "siteCounty": "",
-   "title": "American University Women's Soccer vs. Bucknell - FACULTY/STAFF APPRECIATION DAY",
+   "title": "American Women's Soccer vs. Bucknell - FACULTY/STAFF APPRECIATION DAY",
    "url": "https://aueagles.com/calendar.aspx?game_id=5944&sport_id=10",
    "dates": [
     "2026-11-04"
@@ -34576,30 +34576,6 @@
    "admission": ""
   },
   {
-   "source": "Navy Athletics",
-   "siteCounty": "",
-   "title": "Naval Academy Women's Soccer vs. Loyola",
-   "url": "https://navysports.com/calendar.aspx?game_id=27901&sport_id=24",
-   "dates": [
-    "2026-11-04"
-   ],
-   "dateKind": "single",
-   "time": "20:00",
-   "endTime": "",
-   "venue": "Navy campus",
-   "address": "",
-   "city": "Annapolis",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Navy home soccer game. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
-  },
-  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Navy Women’s Soccer vs Loyola",
@@ -34642,6 +34618,30 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Navy Athletics",
+   "siteCounty": "",
+   "title": "Navy Women's Soccer vs. Loyola",
+   "url": "https://navysports.com/calendar.aspx?game_id=27901&sport_id=24",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "",
+   "venue": "Navy campus",
+   "address": "",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Navy home soccer game. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "FindLocal",
@@ -35365,7 +35365,7 @@
   {
    "source": "UMBC Athletics",
    "siteCounty": "",
-   "title": "University of Maryland, Baltimore County Baseball vs. Fall World Series (Game 3)",
+   "title": "UMBC Baseball vs. Fall World Series (Game 3)",
    "url": "https://umbcretrievers.com/calendar.aspx?game_id=9764&sport_id=1",
    "dates": [
     "2026-11-04"
@@ -35375,7 +35375,7 @@
    "endTime": "",
    "venue": "Alumni Field",
    "address": "",
-   "city": "Baltimore",
+   "city": "Catonsville",
    "state": "MD",
    "lat": null,
    "lng": null,
@@ -35597,7 +35597,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-27T16:54:33.181Z",
+  "generatedAt": "2026-10-27T16:58:01.866Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -35606,7 +35606,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1722
+    "ms": 1458
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -35614,7 +35614,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 627
+    "ms": 508
    },
    "City of Rockville": {
     "ok": true,
@@ -35622,7 +35622,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 131
+    "ms": 358
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -35630,7 +35630,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 743
+    "ms": 848
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -35638,7 +35638,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 760
+    "ms": 851
    },
    "Navy Yard BID": {
     "ok": true,
@@ -35646,7 +35646,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 468
+    "ms": 720
    },
    "DowntownDC BID": {
     "ok": true,
@@ -35654,7 +35654,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 857
+    "ms": 871
    },
    "Falls Church": {
     "ok": true,
@@ -35694,7 +35694,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 811
+    "ms": 804
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 1298
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -35702,7 +35710,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 445
+    "ms": 251
    },
    "Ticketmaster": {
     "ok": true,
@@ -35712,21 +35720,13 @@
     "error": "",
     "ms": null
    },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 1049
-   },
    "Southwest BID": {
     "ok": true,
     "status": "COMPLETED — no listings this week",
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 488
+    "ms": 448
    },
    "The Wharf": {
     "ok": true,
@@ -35734,7 +35734,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 693
+    "ms": 1098
    },
    "City of Takoma Park": {
     "ok": true,
@@ -35742,15 +35742,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 482
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 12,
-    "outcome": "",
-    "error": "",
-    "ms": 458
+    "ms": 1061
    },
    "City of Greenbelt": {
     "ok": true,
@@ -35758,7 +35750,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 817
+    "ms": 850
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 12,
+    "outcome": "",
+    "error": "",
+    "ms": 779
    },
    "City of Bowie": {
     "ok": true,
@@ -35766,15 +35766,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 912
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 620
+    "ms": 749
    },
    "NPS National Mall": {
     "ok": true,
@@ -35782,15 +35774,7 @@
     "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 382
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1821
+    "ms": 514
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -35798,7 +35782,15 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 31900
+    "ms": 31928
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 899
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -35806,15 +35798,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 174
+    "ms": 354
    },
-   "Visit Calvert": {
+   "Downtown Columbia": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 10,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 678
+    "ms": 873
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -35822,15 +35814,15 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 228
+    "ms": 222
    },
-   "NPS DC-area parks": {
+   "Visit Calvert": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 24,
+    "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 289
+    "ms": 589
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -35838,7 +35830,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1232
+    "ms": 775
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 24,
+    "outcome": "",
+    "error": "",
+    "ms": 341
    },
    "Georgetown BID": {
     "ok": true,
@@ -35846,7 +35846,7 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 8505
+    "ms": 5490
    },
    "Town of Vienna": {
     "ok": true,
@@ -35854,15 +35854,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 3782
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2402
+    "ms": 1601
    },
    "Town of Occoquan": {
     "ok": true,
@@ -35870,7 +35862,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 79
+    "ms": 128
    },
    "Town of Warrenton": {
     "ok": true,
@@ -35878,7 +35870,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 513
+    "ms": 488
    },
    "Visit Stafford": {
     "ok": true,
@@ -35886,7 +35878,7 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 251
+    "ms": 252
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -35894,7 +35886,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 2483
+    "ms": 2361
    },
    "NOVA Parks": {
     "ok": true,
@@ -35902,7 +35894,7 @@
     "events": 17,
     "outcome": "",
     "error": "",
-    "ms": 220
+    "ms": 120
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -35910,7 +35902,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 3896
+    "ms": 4459
    },
    "City of Annapolis": {
     "ok": true,
@@ -35918,7 +35910,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2486
+    "ms": 2728
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 3403
    },
    "City of College Park": {
     "ok": true,
@@ -35926,7 +35926,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 627
+    "ms": 787
    },
    "City of Frederick": {
     "ok": true,
@@ -35934,7 +35934,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1009
+    "ms": 902
    },
    "City of Laurel": {
     "ok": true,
@@ -35942,7 +35942,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 1167
+    "ms": 641
    },
    "Town of Purcellville": {
     "ok": true,
@@ -35950,7 +35950,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 512
+    "ms": 394
    },
    "National Landing BID": {
     "ok": true,
@@ -35958,7 +35958,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 7491
+    "ms": 7356
    },
    "City of Fairfax": {
     "ok": true,
@@ -35966,7 +35966,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3582
+    "ms": 2032
    },
    "Mosaic District": {
     "ok": true,
@@ -35974,7 +35974,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 281
+    "ms": 211
    },
    "Union Market District": {
     "ok": true,
@@ -35982,7 +35982,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 827
+    "ms": 507
    },
    "The Boro Tysons": {
     "ok": false,
@@ -35990,7 +35990,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 126
+    "ms": 103
    },
    "One Loudoun": {
     "ok": true,
@@ -35998,7 +35998,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 287
+    "ms": 177
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -36006,14 +36006,14 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2117
+    "ms": 1132
    },
    "DC HSEMA": {
-    "ok": false,
-    "status": "ACCESS FAILED",
+    "ok": true,
+    "status": "ZERO — coverage not measured",
     "events": 0,
     "outcome": "",
-    "error": "Timed out after 60 s",
+    "error": "",
     "ms": null
    }
   },
