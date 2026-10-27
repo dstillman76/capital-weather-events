@@ -769,7 +769,7 @@ async function collectUMD(cache, today, windowEnd) {
   return {report, records};
 }
 
-/* ---------- University calendars on Localist (GW, Howard, Georgetown, American) ---------- */
+/* ---------- University calendars on Localist (GW, Howard) ---------- */
 
 // These schools run their public calendars on Localist, which offers a public
 // JSON API. Only events whose audience includes the public (or that name no
@@ -779,8 +779,6 @@ async function collectUMD(cache, today, windowEnd) {
 const LOCALIST = [
   {name: 'George Washington University', host: 'calendar.gwu.edu', city: 'Washington', state: 'DC'},
   {name: 'Howard University', host: 'events.howard.edu', city: 'Washington', state: 'DC'},
-  {name: 'Georgetown University', host: 'calendar.georgetown.edu', city: 'Washington', state: 'DC'},
-  {name: 'American University', host: 'calendar.american.edu', city: 'Washington', state: 'DC'},
 ];
 const PUBLIC_AUDIENCE = /\b(?:public|community|everyone|visitors?|families|family|neighbors?|alumni|guests?|all)\b/i;
 export function parseLocalist(payload, src, today, windowEnd) {
