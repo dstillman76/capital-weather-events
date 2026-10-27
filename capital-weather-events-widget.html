@@ -877,8 +877,9 @@ function timeFromDescription(text,iso){
   const f=(h,m)=>String(h).padStart(2,'0')+':'+(m||'00');
   if(e>s1)return {time:f(s1,r[2]),endTime:f(e,r[4])};
  }
- // Exactly one clock time mentioned, attached to "at", "starts" or "begins".
- const at=[...t.matchAll(new RegExp('\\b(?:at|starts?(?: at)?|begins?(?: at)?)\\s+('+CLOCK+')','gi'))].map(m=>parseTime(m[1]));
+ // One clock time given as when it starts ("begins at 10 a.m."); a bare "at 9 a.m."
+ // is too loose ("clues will be emailed at 9:00 AM", "the street closes at 5:45").
+ const at=[...t.matchAll(new RegExp('\\b(?:starts?|begins?|kicks? off|takes place[^.]{0,40}?|meets?[^.]{0,40}?)\\s+at\\s+('+CLOCK+')','gi'))].map(m=>parseTime(m[1]));
  if(at.length&&new Set(at).size===1)return {time:at[0],endTime:''};
  return null;
 }
