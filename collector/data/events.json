@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T13:40:09.135Z",
+ "generatedAt": "2026-10-27T16:44:34.121Z",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-04"
@@ -11,7 +11,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 374,
-   "opened": 6,
+   "opened": 0,
    "cached": 362,
    "refused": 0,
    "errors": 0,
@@ -25,7 +25,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 359,
-   "opened": 63,
+   "opened": 0,
    "cached": 345,
    "refused": 0,
    "errors": 0,
@@ -39,7 +39,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 222,
-   "opened": 42,
+   "opened": 0,
    "cached": 212,
    "refused": 0,
    "errors": 0,
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 84,
-   "opened": 10,
+   "opened": 0,
    "cached": 84,
    "refused": 0,
    "errors": 0,
@@ -93,25 +93,25 @@
   {
    "source": "Montgomery Parks",
    "kind": "sitemap+pages",
-   "status": "ok",
-   "sitemapEvents": 196,
-   "opened": 163,
-   "cached": 194,
+   "status": "partial",
+   "sitemapEvents": 1107,
+   "opened": 500,
+   "cached": 688,
    "refused": 0,
    "errors": 0,
    "inWindow": 53,
-   "pending": 0,
-   "note": ""
+   "pending": 421,
+   "note": "421 event pages still to open; later runs continue from the cache."
   },
   {
    "source": "Visit Montgomery",
    "kind": "api",
-   "status": "ok",
-   "pages": 2,
-   "listings": 103,
-   "inWindow": 85,
-   "errors": 0,
-   "note": ""
+   "status": "partial",
+   "pages": 1,
+   "listings": 16,
+   "inWindow": 7,
+   "errors": 3,
+   "note": "Page 1 (next_7_days) did not load after 3 tries."
   },
   {
    "source": "Patch",
@@ -127,10 +127,30 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 195,
-   "inWindow": 157,
+   "listings": 207,
+   "inWindow": 164,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
+  },
+  {
+   "source": "University athletics",
+   "kind": "sidearm",
+   "status": "failed",
+   "schools": 0,
+   "failed": [
+    "Maryland Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "George Mason Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "UMBC Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "Towson Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "Navy Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "Georgetown Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "American University Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "Howard Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "GW Athletics: robots.txt disallows /services/responsive-calendar.ashx",
+    "Catholic University Athletics: fetch failed"
+   ],
+   "inWindow": 0,
+   "note": "Not read: Maryland Athletics: robots.txt disallows /services/responsive-calendar.ashx; George Mason Athletics: robots.txt disallows /services/responsive-calendar.ashx; UMBC Athletics: robots.txt disallows /services/responsive-calendar.ashx; Towson Athletics: robots.txt disallows /services/responsive-calendar.ashx; Navy Athletics: robots.txt disallows /services/responsive-calendar.ashx; Georgetown Athletics: robots.txt disallows /services/responsive-calendar.ashx; American University Athletics: robots.txt disallows /services/responsive-calendar.ashx; Howard Athletics: robots.txt disallows /services/responsive-calendar.ashx; GW Athletics: robots.txt disallows /services/responsive-calendar.ashx; Catholic University Athletics: fetch failed"
   },
   {
    "source": "FindLocal",
@@ -145,7 +165,7 @@
    "keptPrevious": 578
   }
  ],
- "count": 1248,
+ "count": 1177,
  "events": [
   {
    "source": "Visit Fairfax",
@@ -1384,6 +1404,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Baltimore city",
+   "title": "City of Baltimore: John Legend's Dec 28th Link to Colts vs Giants '58 NFL Championship, Jay-Z SB LXI",
+   "url": "https://patch.com/maryland/baltimore/calendar/event/20261027/34a4d76e-3212-418e-888b-edba782882d3/city-of-baltimore-john-legends-dec-28th-link-to-colts-vs-giants-58-nfl-championship-jay-z-sb-lxi",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "lat": 39.2905023,
+   "lng": -76.6104072,
+   "description": "City of Baltimore: John Legend's Dec 28th Link to Colts vs Giants '58 NFL Championship, Jay-Z SB LXI October 27, 2026 - The \"Charm'tastic Mile\" of Baltimore (CTMB-1.3) www.thecharmtasticmile.com . The chic & famed 1.3 mile corridor located in the heart of Charm City (Est.1975) that connects Dwtn-West, the Inner Harbor & Harbor East (S. Greene & W. Pratt Street to S. President & Fleet Street) that is now listed on Google search as one of the Top 10-15 Most Famous Streets in America is reporting its Sports'tastic Tuesday in B'more. 13-time Grammy Award Winning R&B artist John Legend will be performing tonight here in Fells Point at The Sound Garden showcasing his new album \"Muse\" . The past weekend (Friday) Legend was at SoFi Stadium where he appeared on stage with hip-hop music Icon Jay-Z. HOVA is celebrating his year-long 30th Anniversary of his debut album \"Reasonable Doubt\" . SoFi Stadium will be the site of Super Bowl LXI (61) . It was announced yesterday that Jay-Z will headline the SB LXI halftime show. The rumor that's been swirling around for weeks was certified like a Platinum album. His halftime performance on February 14th will have a little extra-meaning, 2-14 is Valentine's Day. The \"Reasonable Doubt\" album title was the inspiration for the Ravens fan-based motto/slogan \"No Purple Doubt\". \"No Purple Doubt\" remains the #1 Trending NFL www.nfl.com Team Slogan heading into Week 8 of the season. John Legend was born on December 28, 1978. Back in 1978 the Baltimore Col",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Frederick",
@@ -5712,28 +5754,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Butler’s Orchard Pumpkin Festival",
-   "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Germantown",
-   "state": "MD",
-   "lat": 39.2215035,
-   "lng": -77.2232477,
-   "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Capitol Hill Jazz Jam",
@@ -6043,28 +6063,6 @@
    "venueType": "Bar",
    "flCategory": "nightlife",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Fall Fest at Transfiguration Parish",
-   "url": "https://visitmontgomery.com/events/fall-fest-at-transfiguration-parish/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Transfiguration Parish",
-   "address": "13925 New Hampshire Avenue",
-   "city": "Silver Spring",
-   "state": "MD",
-   "lat": 39.0091494,
-   "lng": -76.9796949,
-   "description": "Fall Fest celebrates harvest, cool weather and fun. All outdoors, rain or shine. Come to get the best pumpkins anywhere, grown in New Mexico by the Navajo Nation, the biggest selection on New Hampshire Avenue. Pumpkins are non-GMO, pesticide free and delicious. in addition: food trucks, bonfire, crafts vendors on weekends, and music. October 17 – Bake sale, 2pm – scarecrow building 4pm-scarecrow judging (free sticks & straw, Thrift Store opens at 10am) October 24 – 4pm – carved pumpkin judging",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Patch",
@@ -6491,28 +6489,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Trick or Treat at Bethesda Row",
-   "url": "https://visitmontgomery.com/events/halloween-trick-or-treat-at-bethesda-row/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "16:30",
-   "endTime": "19:00",
-   "venue": "Bethesda Row",
-   "address": "7262 Woodmont Ave.",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.98164,
-   "lng": -77.0962586,
-   "description": "Get ready for a spooktacular evening of family-friendly fun at our Annual Halloween Trick-or-Treat Event on Bethesda Row! Reserve your ticket for Trick or Treating at Bethesda Row! Tickets for children must be purchased in advance. WHEN: Wednesday, October 28 TIME: 4:30-7:00 p.m. WHERE: Bethesda Row 7262 Woodmont Ave. Bethesda, Md. COST: Kids Ticket $5 Tickets are required per child (not adult) 🎃 You’re Invited: Halloween Trick-or-Treat at Bethesda Row! 👻 Get ready for a spooktacular evening of family-friendly fun at our Annual Halloween Trick-or-Treat Event on Bethesda Row ! Trick-or-Treat Fun: Stroll through Bethesda Row and collect tasty treats from participating shops and restaurants. Glow Stick Giveaway: Each registered child gets a special Bethesda Row glow stick to light up the night! ✨ First 50 to arrive receive a Bethesda Row branded tote Meet & Greet with Characters: Snap selfies with Buzz, Woody and Jessie located at Landmark Theatre",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Patch",
@@ -7231,28 +7207,6 @@
    "admission": "FREE"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "October in the Galleries with Lori Rounds and Open Studios",
-   "url": "https://visitmontgomery.com/events/october-in-the-galleries-with-lori-rounds-and-open-studios/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "16:00",
-   "venue": "Artists & Makers Studios",
-   "address": "11810 Parklawn Drive",
-   "city": "North Bethesda",
-   "state": "MD",
-   "lat": 39.049035517759634,
-   "lng": -77.10327385906567,
-   "description": "Artists & Makers Studios Welcomes Lori Rounds and “ Reimagined” Mini-Solo for Richard Svec ( Rockville, MD ) – Artists & Makers Studios is pleased to host Lori Rounds for the month of October. The exhibit will run from September 30th through October 28th, with a First Friday opening on October 2nd from 5-8pm. Reimagined marks a period of transition in Lori Niland Rounds’ artistic practice – one shaped by interruption, adaptation, and a changing way of seeing. Faced with an unexpected challenge that made familiar methods of working more difficult, Rounds began to reconsider both process and possibility. What initially felt like constraint gradually opened a different path forward, inviting experimentation with new gestures, materials, and ways of making. Richard Svec shares a mini-solo exhibit in the Lounge Gallery and Resident Artists exhibit new work in the Gallery Hall. Enjoy the sculptural work of Francis Maduka Uduh in studio 11, along with nineteen Gallery 209 Member Artists exhibiting their latest work. Collect a handmade piece of art and support local working artists, makers, and professionals. Light fare generously sponsored each month by The Chesapeake Framing Company. Lori Rounds “Reimagined” Mini-Solo for Richard Svec Resident Artist Exhibit The 19 Member Artists of Gallery 209 October Reception 5:00pm – 8:00pm, Friday, October 2nd, 2026 Artists & Makers Studios 11810 Parklawn Drive, Suite 210 Rockville, MD 20852 Meet the Artist: October 10th, 1:00 – 3:00 pm Meet t",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "On the Move with Mad - Matchbook Shadowbox Workshop",
@@ -7469,28 +7423,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pumpkin Festival at Butler’s Orchard",
-   "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Clarksburg",
-   "state": "MD",
-   "lat": 39.22355988943543,
-   "lng": -77.23019599914552,
-   "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -7749,28 +7681,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "film",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "SHADY GROVE FARMERS MARKET",
-   "url": "https://visitmontgomery.com/events/shady-grove-farmers-market/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "11:00",
-   "endTime": "14:00",
-   "venue": "NCI campus rear parking lot",
-   "address": "9605 Medical center drive",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "WEDNESDAYS, 11AM – 2PM​ May 13 – OCTOBER 28, 2026 9605 Medical Center Drive, Rockville, MD 20850 ​You’ll find us at 9605 Medical Center Drive, Rockville, MD 20850. At the NCI campus rear parking lot -at the corner of Key West Ave & Broschart Road. Click for Driving Directions. We are a rain or shine market! We do close for lightning, high winds, and other danger, so stay tuned.​ Enjoy fresh local farm fruits, veggies, baked goodies, food trucks, arts & more. For the comfort and safety of all guests and vendors, dogs are not permitted. Service animals are always welcome.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -8067,28 +7977,6 @@
    "admission": "N/A"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Legend of Sleepy Hollow-Olney Theatre",
-   "url": "https://visitmontgomery.com/events/the-legend-of-sleepy-hollow-olney-theatre/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "22:00",
-   "venue": "Olney Theatre",
-   "address": "2001 Olney Sandy Spring Road",
-   "city": "Olney",
-   "state": "MD",
-   "lat": 39.144959,
-   "lng": -77.0444099,
-   "description": "Olney audiences were blown away in 2025, when we invited Synetic Theater to perform their award-winning, wordless version of Shakespeare’s A Midsummer Night’s Dream . Now they’re back, but this time they’re tackling a story with classic American roots in the intimate confines of Olney Theatre Center’s 150-seat Theatre Lab. In the haunted village of Sleepy Hollow, the past refuses to stay buried. Years after a brutal Revolutionary War encounter leaves a Hessian soldier beheaded and his beloved horse slain, the fallen rider returns as the legendary Headless Horseman—an apparition stalking the shadowed forests in search of what was taken from him. Inspired by Washington Irving’s classic tale, Sleepy Hollow reimagines the familiar legend as a haunting story of love, guilt, revenge, and redemption. Blending supernatural horror with theatrical spectacle, it asks whether the true monsters are the spirits who haunt us—or the deeds we would rather forget. By Washington Irving Adapted by Nathan Weinberger Directed by Paata Tsikurishvili Choreographed by Irina Tsikurishvili Due to the layout of the Mulitz-Gudelsky Theatre Lab, late seating is at the discretion of the House Manager. Those exiting the theatre during the performance will not be re-admitted while the performance is in progress.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "The Rocky Horror Picture Show Viewing & Costume Party NIGHT ONE",
@@ -8121,28 +8009,6 @@
    "venueType": "Music Venue",
    "flCategory": "film",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Tour of Rockville’s Baptist Cemetery",
-   "url": "https://visitmontgomery.com/events/tour-of-rockvilles-baptist-cemetery/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "13:00",
-   "venue": "Old Baptist Cemetery",
-   "address": "115 West Jefferson St",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Come and visit the recently refreshed Historic Baptist Cemetery! The stones in the cemetery have been cleaned and repaired, work funded in part by a grant from the James L. Trader Foundation for Maryland Burial Sites. We will talk about the restoration work and share stories about those who are buried here and how they lived. The Old Baptist Cemetery operated from 1839 to 1896 and contains some very familiar names on the remaining 28 stones. Worried about the weather? If the day is nice, we will be at the cemetery in person, in case of rain, we will have a presentation at the Red Brick Courthouse (29 Courthouse Sq).",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Patch",
@@ -8407,28 +8273,6 @@
    "venueType": "Restaurant",
    "flCategory": "nightlife",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Trivia Night Bethesda",
-   "url": "https://visitmontgomery.com/events/trivia-night-bethesda/",
-   "dates": [
-    "2026-10-28"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "21:00",
-   "venue": "Fialova Bethesda",
-   "address": "8120 Wisconsin Avenue",
-   "city": "",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Trivia Nights at Fialova – Every Wednesday, 7–9 PM Put your knowledge to the test and bring your A-game to Trivia Night at Fialova. Gather your friends, grab a drink, and compete for bragging rights and prizes while enjoying great food and drinks. With a fresh set of questions each week, every round is a chance to prove you’re the sharpest in the room. Whether you’re a trivia pro or just in it for the fun, all are welcome. Join us every Wednesday from 7–9 PM and make it a midweek tradition.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -9001,28 +8845,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Afro-Cuban All Stars",
-   "url": "https://visitmontgomery.com/events/afro-cuban-all-stars-2/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "20:00",
-   "endTime": "22:00",
-   "venue": "The Music Center at Strathmore",
-   "address": "5301 Tuckerman Lane",
-   "city": "North Bethesda",
-   "state": "MD",
-   "lat": 39.0316783,
-   "lng": -77.1029459,
-   "description": "Afro-Cuban All Stars is a multigenerational orchestra devoted to promoting the full range of Cuban music, bringing together musicians across styles and eras. Led by bandleader Juan de Marcos González—also a central figure in the Buena Vista Social Club project—the ensemble reflects a long-standing approach rooted in tradition while embracing contemporary Cuban sounds. Their program moves across son, bolero, and rhythm-driven dance styles, drawing on the musical traditions of Cuba’s mid-20th-century golden age. Founded in the 1990s, the group continues to evolve through a flexible lineup that incorporates younger musicians alongside established artists. More than a fixed ensemble, Afro-Cuban All Stars operates as a shifting orchestra, adapting its sound to reflect different periods and styles, grounded in González’s concept of building on musical roots while creating space for the future.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Afro-Cuban All Stars",
@@ -9370,28 +9192,6 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Butler’s Orchard Pumpkin Festival",
-   "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Germantown",
-   "state": "MD",
-   "lat": 39.2215035,
-   "lng": -77.2232477,
-   "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -9953,50 +9753,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Fall Fest at Transfiguration Parish",
-   "url": "https://visitmontgomery.com/events/fall-fest-at-transfiguration-parish/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Transfiguration Parish",
-   "address": "13925 New Hampshire Avenue",
-   "city": "Silver Spring",
-   "state": "MD",
-   "lat": 39.0091494,
-   "lng": -76.9796949,
-   "description": "Fall Fest celebrates harvest, cool weather and fun. All outdoors, rain or shine. Come to get the best pumpkins anywhere, grown in New Mexico by the Navajo Nation, the biggest selection on New Hampshire Avenue. Pumpkins are non-GMO, pesticide free and delicious. in addition: food trucks, bonfire, crafts vendors on weekends, and music. October 17 – Bake sale, 2pm – scarecrow building 4pm-scarecrow judging (free sticks & straw, Thrift Store opens at 10am) October 24 – 4pm – carved pumpkin judging",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Flying Buddha presents Bad Behavior: Villains",
-   "url": "https://visitmontgomery.com/events/flying-buddha-presents-bad-behavior-villains/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "20:30",
-   "endTime": "22:00",
-   "venue": "On St. Elmo",
-   "address": "4915 Saint Elmo Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9887166,
-   "lng": -77.0976756,
-   "description": "Heroes follow the rules. Villains write them. Bad Behavior returns with its darkest production yet. Villains is a theatrical pole cabaret celebrating the unforgettable characters audiences secretly love most. Across six captivating acts, you’ll encounter criminal masterminds, queens of darkness, seductive manipulators, monsters, and agents of chaos brought to life through pole dance, movement, music, and immersive storytelling. Set inside the intimate Side Bar at ON St. Elmo , this 90-minute experience combines cinematic performances with handcrafted cocktails and an energetic nightlife atmosphere. Whether you’re drawn to comic book legends, gothic queens, classic movie villains, or the beautifully misunderstood antihero, Villains invites you to embrace your dark side for one unforgettable night. Ticket cost: $40 Important Information: Doors open at 6:30pm — guests are encouraged to arrive early to enjoy ON St. Elmo’s craft cocktails and seasonal American Coastal Mediterranean-inspired cuisine before the show begins promptly at 8:30pm. There is a $25 food and beverage minimum. Cocktails and bites are available à la carte. Tickets include the show only. Tipping performers is encouraged and always appreciated.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Fort Tour",
@@ -10495,28 +10251,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "10:30",
-   "endTime": "11:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Jeopardy! Bar League",
@@ -10737,28 +10471,6 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "K/NOW Dialogue with Joan Danziger and Floyd Shockley “Beetlemania!”",
-   "url": "https://visitmontgomery.com/events/k-now-dialogue-with-joan-danziger-and-floyd-shockley-beetlemania/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "19:30",
-   "venue": "Amy Kaslow Gallery",
-   "address": "7920 Norfolk Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.983331480955,
-   "lng": -77.096353769302,
-   "description": "Join American sculptor and Washington gem Joan Danziger, along with Smithsonian Museum of Natural History chief entomologist Floyd Shockley, as we examine human history’s fascination, indeed its reliance, on the beetle. Danziger’s sculptures radiate the strength and beauty of these creatures in her ongoing exhibition “Beetlemania!” Dr. Shockley’s deep knowledge of the vastness of beetle life will help us understand this wonder of Mother Earth.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "K/NOW Dialogue with Joan Danziger and Floyd Shockley “Beetlemania!”",
@@ -10855,28 +10567,6 @@
    "description": "Join us at this BEAUTIFUL new winery/brewery for free line dancing and line dance lessons EVERY Thursday from 7-10pm! This place has a great floor, delicious food, cool drink options (and ice cream sandwiches for non drinkers!), fun staff, football games on and - when the weather is right - the most beautiful indoor/outdoor space around! Lessons are geared toward first timers and beginners, but regulars and intermediates will get plenty of time on the dance floor as well with our new extended hours to 10pm! Come on out and enjoy great food, drink, a beautiful dance space and an open yard where you can chill between dances! #linedancing #thursday #thursdays #bluemont #linedance4you #linedancelessons #nothernva #loudouncounty",
    "categories": "Sports & Recreation",
    "recurrence": "Recurring weekly on Thursday",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Lisa Perrin for The Secrets of the Seance Society",
-   "url": "https://visitmontgomery.com/events/lisa-perrin-for-the-secrets-of-the-seance-society/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "19:00",
-   "venue": "People's Book",
-   "address": "7014 Westmoreland avenue",
-   "city": "Takoma Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "In the continuation of our witchy October offerings: Lisa Perrin, joined by tarot reader Jane Prompeng, unveils some spine-tingling true tales of spiritual encounters and mediums.",
-   "categories": "",
-   "recurrence": "",
    "admission": ""
   },
   {
@@ -11333,28 +11023,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Not so Spooky Skate at Wheaton Ice Arena",
-   "url": "https://visitmontgomery.com/events/not-so-spooky-skate-at-wheaton-ice-arena/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "20:00",
-   "venue": "Wheaton Ice Arena",
-   "address": "11717 Orebaugh Avenue",
-   "city": "Wheaton",
-   "state": "MD",
-   "lat": 39.0492351,
-   "lng": -77.0338942,
-   "description": "Wear your costumes and celebrate Halloween at Wheaton Ice Arena! Starting at 6:00pm, we will have skating time (including a costume parade) as well as Halloween crafts and treats set up in our party rooms. Skaters under the age of 6 should have a parent participate in the public skating and craft portion of the program. Please register the child only.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Fairfax County",
    "title": "Nourishing Sound Bath",
@@ -11480,28 +11148,6 @@
    "categories": "Wineries, Breweries, Distilleries",
    "recurrence": "Recurring weekly on Thursday",
    "admission": "Free"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pumpkin Festival at Butler’s Orchard",
-   "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Clarksburg",
-   "state": "MD",
-   "lat": 39.22355988943543,
-   "lng": -77.23019599914552,
-   "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -11871,50 +11517,6 @@
    "admission": "FREE"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Sugar Skulls for Dia de los Muertos",
-   "url": "https://visitmontgomery.com/events/sugar-skulls-for-dia-de-los-muertos/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "19:00",
-   "venue": "Kentlands Mansion",
-   "address": "320 Kent Square Road",
-   "city": "Gaithersburg",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Celebrate tradition through art! In this all-ages workshop, you’ll be supplied with everything you need to decorate your very own ceramic sugar skull to take home and display. Spend an evening painting your skull and adorning it with marigolds, all while learning about the rich history, traditions, and cultural impact of Dia de los Muertos.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Sugar Skulls for Dia de los Muertos",
-   "url": "https://visitmontgomery.com/events/sugar-skulls-for-dia-de-los-muertos-2/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "21:00",
-   "venue": "Kentlands Mansion",
-   "address": "320 Kent Square Road",
-   "city": "Gaithersburg",
-   "state": "MD",
-   "lat": 39.118343,
-   "lng": -77.2393499,
-   "description": "Celebrate tradition through art! In this all-ages workshop, you’ll be supplied with everything you need to decorate your very own ceramic sugar skull to take home and display. Spend an evening painting your skull and adorning it with marigolds, all while learning about the rich history, traditions, and cultural impact of Dia de los Muertos.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Sugar Skulls for Dia de los Muertos",
@@ -12023,28 +11625,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "festival",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Legend of Sleepy Hollow-Olney Theatre",
-   "url": "https://visitmontgomery.com/events/the-legend-of-sleepy-hollow-olney-theatre/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "22:00",
-   "venue": "Olney Theatre",
-   "address": "2001 Olney Sandy Spring Road",
-   "city": "Olney",
-   "state": "MD",
-   "lat": 39.144959,
-   "lng": -77.0444099,
-   "description": "Olney audiences were blown away in 2025, when we invited Synetic Theater to perform their award-winning, wordless version of Shakespeare’s A Midsummer Night’s Dream . Now they’re back, but this time they’re tackling a story with classic American roots in the intimate confines of Olney Theatre Center’s 150-seat Theatre Lab. In the haunted village of Sleepy Hollow, the past refuses to stay buried. Years after a brutal Revolutionary War encounter leaves a Hessian soldier beheaded and his beloved horse slain, the fallen rider returns as the legendary Headless Horseman—an apparition stalking the shadowed forests in search of what was taken from him. Inspired by Washington Irving’s classic tale, Sleepy Hollow reimagines the familiar legend as a haunting story of love, guilt, revenge, and redemption. Blending supernatural horror with theatrical spectacle, it asks whether the true monsters are the spirits who haunt us—or the deeds we would rather forget. By Washington Irving Adapted by Nathan Weinberger Directed by Paata Tsikurishvili Choreographed by Irina Tsikurishvili Due to the layout of the Mulitz-Gudelsky Theatre Lab, late seating is at the discretion of the House Manager. Those exiting the theatre during the performance will not be re-admitted while the performance is in progress.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Frederick",
@@ -13549,28 +13129,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Butler’s Orchard Pumpkin Festival",
-   "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Germantown",
-   "state": "MD",
-   "lat": 39.2215035,
-   "lng": -77.2232477,
-   "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "By The White House Thursday Market",
@@ -13969,28 +13527,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "DMV HOTTEST FRIDAYS",
-   "url": "https://visitmontgomery.com/events/dmv-hottest-fridays/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "",
-   "venue": "AC HOTEL BETHESDA",
-   "address": "4646 Montgomery ave",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9837009,
-   "lng": -77.0929648,
-   "description": "Join us Every Friday Night at the Beautiful AC Hotel Bethesda, MD For Unforgettable Friday Night Experiences Under the Stars!!!!️ INTRODUCING THE NEW HOME OF @thenewdmvhottest Join us every Friday Night at the Beautiful AC Hotel Bethesda for Unforgettable Friday Night Experiences!!!! ✨ Live Entertainment 🍽️ Amazing Cuisine 🍸 Hand Crafted Cocktails 🌟 Stunning Outdoor Patio Under the Stars 🛏️ Luxury Accommodations Get ready for the DMV’s Hottest Friday Night Destination! Happy Hour Food & Drink Specials 4-8pm ☑️Starting July 10th Every Friday! Bring your friends, your energy, and your Friday Night Vibes—WE CANT WAIT TO CELEBRATE WITH YOU!!!🍾 @sjenterprisesglobal @achotelbethesda #DMVHottest #BethesdaNightlife #ACHotelBethesda #FridayNight #amazing Join us Every Friday Night at the Beautiful AC Hotel Bethesda, MD For Unforgettable Friday Night Experiences Under the Stars!!!!️ INTRODUCING THE NEW HOME OF @thenewdmvhottest Join us every Friday Night at the Beautiful AC Hotel Bethesda for Unforgettable Friday Night Experiences!!!! ✨ Live Entertainment 🍽️ Amazing Cuisine 🍸 Hand Crafted Cocktails 🌟 Stunning Outdoor Patio Under the Stars 🛏️ Luxury Accommodations Get ready for the DMV’s Hottest Friday Night Destination! Happy Hour Food & Drink Specials 4-8pm ☑️Starting July 10th Every Friday! Bring your friends, your energy, and your Friday Night Vibes—WE CANT WAIT TO CELEBRATE WITH YOU!!!🍾 @sjenterprisesglobal @achotelbethesda #DMVHottest #BethesdaNightlife #ACHotelBethesda ",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Docent Led Public Tours",
@@ -14248,28 +13784,6 @@
    "admission": "$5/person"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Fall Fest at Transfiguration Parish",
-   "url": "https://visitmontgomery.com/events/fall-fest-at-transfiguration-parish/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Transfiguration Parish",
-   "address": "13925 New Hampshire Avenue",
-   "city": "Silver Spring",
-   "state": "MD",
-   "lat": 39.0091494,
-   "lng": -76.9796949,
-   "description": "Fall Fest celebrates harvest, cool weather and fun. All outdoors, rain or shine. Come to get the best pumpkins anywhere, grown in New Mexico by the Navajo Nation, the biggest selection on New Hampshire Avenue. Pumpkins are non-GMO, pesticide free and delicious. in addition: food trucks, bonfire, crafts vendors on weekends, and music. October 17 – Bake sale, 2pm – scarecrow building 4pm-scarecrow judging (free sticks & straw, Thrift Store opens at 10am) October 24 – 4pm – carved pumpkin judging",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Family Archery",
@@ -14407,28 +13921,6 @@
    "admission": "$40-$45 depending on date"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Flickering Flames Story Exchange for Adults",
-   "url": "https://visitmontgomery.com/events/flickering-flames-story-exchange-for-adults/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "18:30",
-   "endTime": "20:30",
-   "venue": "Seekers Church",
-   "address": "276 Carroll St NW",
-   "city": "Takoma Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Join us for an autumn evening of community building and belonging inside small story circles for adults at Seekers Church in Takoma Park. Compass Storytelling creates the space and framework to help you recall and exchange flickers of your life stories. This is not a religious gathering, and no storytelling experience is necessary. Come unprepared and open to an evening of connections! Tickets are limited. Registration is required.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Fort Tour",
@@ -14539,28 +14031,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Friday Night Salsa in the Pike District",
-   "url": "https://visitmontgomery.com/events/friday-night-salsa-in-the-pike-district-2/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "20:00",
-   "venue": "Pike District Pop Up Park",
-   "address": "Grand Park Avenue and Banneker Avenue",
-   "city": "North Bethesda",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Friday Night Salsa Return to the Pike District! Grab your friends and head back to the Pike District Pop-Up Park every Friday from September through October from 6-8 p.m. for Friday Night Salsa! Beginners and seasoned dancers are all welcome, no partner needed. Each evening kicks off with a free beginner-friendly lesson led by All Out Danza, then the dance floor opens up for community dancing under the stars. It’s the perfect way to kick off your weekend. See you on the dance floor! FREE to attend!",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Friday Night Trivia at Fleetwood",
@@ -14666,28 +14136,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Gallery B Presents “Layered Lives: Women in Print:",
-   "url": "https://visitmontgomery.com/events/gallery-b-presents-layered-lives-women-in-print/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "17:00",
-   "venue": "Gallery B",
-   "address": "7700 Wisconsin Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9868194,
-   "lng": -77.0954097,
-   "description": "October 9, 2026 – November 1, 2026 Gallery Hours: Friday-Saturday, 12-5pm; Sunday, 11am-2pm Opening Reception: Friday, October 9, 6-8pm Layered Lives: Women in Print brings together women artists from the DMV region who explore the depths of lived experience through experimental printmaking techniques. Working primarily in semi-abstract forms, the artists use layered images, symbols, and textures—both physical and symbolic to reflect narratives of resilience, identity, and transformation. Through innovative approaches to printmaking, their artworks reveal the enduring power of craft and creative strength, that evolves over time, celebrating the intersection of personal intuition, artistic craft, and collective memory.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -14989,6 +14437,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Halloween Costume Party ft. Collective",
+   "url": "https://patch.com/virginia/herndon/calendar/event/20261030/73917a1f-7c7b-46ee-b168-8a9063a2cb95/halloween-costume-party-ft-collective",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "21:30",
+   "endTime": "",
+   "venue": "NED DEVINE'S IRISH GASTRO PUB & RESTAURANT",
+   "address": "2445 Centreville Rd",
+   "city": "Herndon",
+   "state": "VA",
+   "lat": 38.9507168,
+   "lng": -77.4099224,
+   "description": "Join us at Ned Devine's Irish Gastro Pub in Herndon, VA, for our annual Halloween Costume Party on Friday, October 30, featuring live music from Collective starting at 9:30pm! Collective is an award-winning Northern Virginia cover band playing crowd favorites from the '80s, '90s, 2000s, and today, including rock, pop, alternative, pop punk, and country. Expect a lively night of dancing, sing-alongs, and great live music. Come dressed for our Halloween costume contest, with prizes for the best-dressed costume! Whether you're planning a night out with friends or looking for a Halloween party in Herndon or Northern Virginia, join us for an evening of costumes, music, and fun. 21 and up. Ned Devine's Irish Gastro Pub 2445 Centreville Rd, Herndon, VA 20171",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Halloween Scream Skate!",
@@ -15240,28 +14710,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Hip Flask Halloween: Fright Night Costume Party",
-   "url": "https://visitmontgomery.com/events/hip-flask-halloween-fright-night-costume-party/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "17:00",
-   "endTime": "",
-   "venue": "Hip Flask Rooftop Bar",
-   "address": "7707 Woodmont Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.986368,
-   "lng": -77.0964442,
-   "description": "Join us for two spectacular nights of music, drinks, tricks & treats, Hip Flask style. Put on your creepiest costume and join the fright! Joined by DJ V5NYCE: Friday, October 30th, from 9-11pm and Saturday, October 31st from 7-11pm Put on your creepiest costume and join the fright! Joined by DJ V5NYCE: Friday, Oct. 30th from 9-11pm & Saturday, Oct. 31st from 7-11pm",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Howl-O-Ween",
@@ -15381,28 +14829,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "10:30",
-   "endTime": "11:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -16165,28 +15591,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "NIGHTMARE ON ST. ELMO: Junior Aerial Dance Halloween Performance + Costume Party",
-   "url": "https://visitmontgomery.com/events/nightmare-on-st-elmo-junior-aerial-dance-halloween-performance-costume-party/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "19:30",
-   "endTime": "21:00",
-   "venue": "On St. Elmo",
-   "address": "4915 Saint Elmo Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9887166,
-   "lng": -77.0976756,
-   "description": "Grab your costume and get ready for a hauntingly fun evening at ON St. Elmo . Watch Flying Buddha’s junior students take the stage with aerial performances that are spooky, mysterious, playful, and everything in between. Over 10 weeks, our students created and refined their own choreography — choosing music, building characters, and bringing their routines to life. Now it’s time to celebrate their hard work. Friday, October 30th 7:30pm — Junior aerial performances (family-friendly showcase) 📍ON St. Elmo Enjoy signature Halloween cocktails, feast on American Coastal, Mediterranean-inspired cuisine, and celebrate these young performers with a live DJ and festive energy. Reserve your table now!",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Nightmare on Tingey St. – Halloween Rooftop Karaoke",
@@ -16260,28 +15664,6 @@
    "lng": -77.5503883,
    "description": "Let’s get warmed up for Halloween as Off the Record returns to Spanky’s on Oct 30th. This won’t be a costume party but feel free to rock your favorite outfit! Once you break it in, you can determine if you want to return it to Amazon! LOL! We hope to see you there!",
    "categories": "Musical Performances",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "OLD LINE MARKET: Vintage, Garden & Artisan Market",
-   "url": "https://visitmontgomery.com/events/old-line-market/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "17:00",
-   "venue": "Aix La Chapelle Farm",
-   "address": "19130 Jerusalem Road",
-   "city": "Poolesville",
-   "state": "MD",
-   "lat": 39.162543638351686,
-   "lng": -77.39851080964101,
-   "description": "Come spend the day with us shopping high quality vintage, garden and artisan vendors. Old Line Market is held at the historic Aix La Chapelle Farm in Poolesville, Maryland on Friday from 10-5, Saturday from 10-5 and Sunday from 10-4. Enjoy your weekend shopping in a village-like setting in and amongst beautifully restored historic barns, grounds, and tents. Food trucks, local wine and craft beer available. Plenty of free parking, and admission is good for both days, those under 18 are free. Dog and kid friendly.",
-   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -16504,28 +15886,6 @@
    "lat": null,
    "lng": null,
    "description": "Toddlers of all abilities are invited to explore the exciting natural world around the Discovery Center. Families will explore at their own pace using nature play prompts that will remain out for the duration of the program. Visit the front entrance of the Discovery Center to begin your journey through our most accessible areas of […]",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pumpkin Festival at Butler’s Orchard",
-   "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Clarksburg",
-   "state": "MD",
-   "lat": 39.22355988943543,
-   "lng": -77.23019599914552,
-   "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -16990,28 +16350,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Spooky Mosaics – Craft and Sip at Clear Skies",
-   "url": "https://visitmontgomery.com/events/spooky-mosaics-craft-and-sip-at-clear-skies/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "21:00",
-   "venue": "Clear Skies Meadery",
-   "address": "15201 Display Ct",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Choose your Halloween favorite—Ghost, Bat, or Pumpkin—and create your own 7″ standing stained-glass mosaic! 👻🦇🎃 Join us for a festive Halloween Craft & Sip where you’ll turn a solid wood shape into colorful mosaic décor you’ll actually want to display. All of the stained glass is hand-cut ahead of time, so there’s no glass cutting required—just choose your pieces, arrange your design, glue, grout, and have fun. No experience needed! 🎟️ Tickets are $45 each or Buy 3, Get 1 FREE! Quantities of each design are limited, and workshop space is limited too. Sign up early to make sure you get your favorite! What’s included • 🎨 Your choice of a 7″ solid wood Ghost, Bat, or Pumpkin that stands on its own • ✨ A selection of colorful, hand-cut stained-glass pieces + decorative accents • 🖌️ All tools, adhesive, grout + step-by-step instruction • 💚 Guided instruction + creative community • 🧀 Drinks & bites available to buy (NOT included in your ticket) Come in costume! 🎃 Costumes are encouraged! Dress up and you’ll be entered for a chance to win fun prizes—including tickets to future Acorn Craft Studio workshops. Perfect for Halloween-loving creatives, date night, girls’ night, a friend outing, or anyone looking for a fun fall night out. Why You’ll Love It • Beginner-friendly — all stained glass is already hand-cut and ready to use • Leave with a finished Halloween mosaic you can display year after year • Limited designs + limited spots — once your favorite sells out, it’s gone! \ud83e",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Spooky Serpents",
@@ -17231,28 +16569,6 @@
    "venueType": "Music Venue",
    "flCategory": "nightlife",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Legend of Sleepy Hollow-Olney Theatre",
-   "url": "https://visitmontgomery.com/events/the-legend-of-sleepy-hollow-olney-theatre/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "22:00",
-   "venue": "Olney Theatre",
-   "address": "2001 Olney Sandy Spring Road",
-   "city": "Olney",
-   "state": "MD",
-   "lat": 39.144959,
-   "lng": -77.0444099,
-   "description": "Olney audiences were blown away in 2025, when we invited Synetic Theater to perform their award-winning, wordless version of Shakespeare’s A Midsummer Night’s Dream . Now they’re back, but this time they’re tackling a story with classic American roots in the intimate confines of Olney Theatre Center’s 150-seat Theatre Lab. In the haunted village of Sleepy Hollow, the past refuses to stay buried. Years after a brutal Revolutionary War encounter leaves a Hessian soldier beheaded and his beloved horse slain, the fallen rider returns as the legendary Headless Horseman—an apparition stalking the shadowed forests in search of what was taken from him. Inspired by Washington Irving’s classic tale, Sleepy Hollow reimagines the familiar legend as a haunting story of love, guilt, revenge, and redemption. Blending supernatural horror with theatrical spectacle, it asks whether the true monsters are the spirits who haunt us—or the deeds we would rather forget. By Washington Irving Adapted by Nathan Weinberger Directed by Paata Tsikurishvili Choreographed by Irina Tsikurishvili Due to the layout of the Mulitz-Gudelsky Theatre Lab, late seating is at the discretion of the House Manager. Those exiting the theatre during the performance will not be re-admitted while the performance is in progress.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Annapolis",
@@ -17561,28 +16877,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Tween Teen Yoga and Mindfulness",
-   "url": "https://visitmontgomery.com/events/tween-teen-yoga-and-mindfulness/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "17:00",
-   "endTime": "17:45",
-   "venue": "Nimaste Yoga",
-   "address": "10412 Montgomery Ave",
-   "city": "Kensington",
-   "state": "MD",
-   "lat": 39.026147266667,
-   "lng": -77.0723724,
-   "description": "Teen and Tween Yoga and Mindfulness is designed for ages 7-15. In today’s world, many teens and pre-teens need coping skills, and mind-body practices that reduce stress. This class will combine creative functional movement, with mind-body work. They will learn traditional poses, yoga activities, and breathing exercises to calm the mind. Safe, non-judgmental movement and mindfulness will be emphasized.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -18724,50 +18018,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Butler’s Orchard Pumpkin Festival",
-   "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Germantown",
-   "state": "MD",
-   "lat": 39.2215035,
-   "lng": -77.2232477,
-   "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Caroline, or Change the Musical",
-   "url": "https://visitmontgomery.com/events/caroline-or-change-the-musical/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "19:30",
-   "endTime": "22:00",
-   "venue": "Rockville Civic Center Park",
-   "address": "603 Edmonston Drive",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0848452,
-   "lng": -77.1289823,
-   "description": "8 performances | October 31 and November 6*, 7, 13, and 14 at 7:30pm | November 1, 8, and 15 at 2:00pm *Friday, November 6 will include ASL interpretation and free tickets for Montgomery County residents! Full information at www.r-m-t.org/caroline-or-change Set in one of the most pivotal times in America’s history, the Tony-nominated Caroline, or Change is riveting, moving and awe-inspiring. Featuring a virtuosic score by Jeanine Tesori (Shrek The Musical, Thoroughly Modern Millie), it blends blues, gospel and traditional Jewish melodies, creating a breathtaking medium for Kushner’s provocative and personal story. ​ In 1963, the Gellman family and their African-American maid, Caroline, live in sleepy Lake Charles, Louisiana. Caroline is drifting through life as a single mother of four working in a service job to a white family. A fragile, yet beautiful friendship develops between the young Gellman son, Noah, and Caroline. Noah’s stepmother, Rose, unable to give Caroline a raise, tells Caroline that she may keep the money that Noah leaves in his pockets. Caroline balks and refuses to take money from a child but her own children desperately need food, clothing and shoes. Outside of the laundry room, some of the greatest social advancements that the country has seen are being set in motion, and change is knocking on the door. ​ Caroline, or Change is a story that must be shared and will touch hearts. It is a story that will open minds. It is a story that will change theatergoers",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Catoctin Mountain Halloween Photo Walk",
@@ -19196,28 +18446,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Congressional Polo Club Events",
-   "url": "https://visitmontgomery.com/events/congressional-polo-club-events/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "14:00",
-   "endTime": "18:00",
-   "venue": "",
-   "address": "14660 Hughes Road",
-   "city": "Poolesville",
-   "state": "MD",
-   "lat": 39.0925925,
-   "lng": -77.4093051,
-   "description": "Polo Cup | September 6 Polo Invitational | September 13 Polo Society Summer Social | September 20 Habitat for Humanity Metro Maryland 7th Annual Polo Classic | September 26 USPA Women’s Challenge | October 4 Kenyaluk Polo Classic | October 17 Alqimi Halloween Cup | October 31",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Conservation Clinic",
@@ -19576,28 +18804,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Fall Fest at Transfiguration Parish",
-   "url": "https://visitmontgomery.com/events/fall-fest-at-transfiguration-parish/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Transfiguration Parish",
-   "address": "13925 New Hampshire Avenue",
-   "city": "Silver Spring",
-   "state": "MD",
-   "lat": 39.0091494,
-   "lng": -76.9796949,
-   "description": "Fall Fest celebrates harvest, cool weather and fun. All outdoors, rain or shine. Come to get the best pumpkins anywhere, grown in New Mexico by the Navajo Nation, the biggest selection on New Hampshire Avenue. Pumpkins are non-GMO, pesticide free and delicious. in addition: food trucks, bonfire, crafts vendors on weekends, and music. October 17 – Bake sale, 2pm – scarecrow building 4pm-scarecrow judging (free sticks & straw, Thrift Store opens at 10am) October 24 – 4pm – carved pumpkin judging",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Fall Festival at Magnolia Meadow Farms",
@@ -19648,28 +18854,6 @@
    "admission": "$13.00 per person (age 1 and above)"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Fall Frolic",
-   "url": "https://visitmontgomery.com/events/fall-frolic/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "16:00",
-   "venue": "Glen Echo Park",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Join us for some Halloween fun at Glen Echo Park! Activities include Halloween arts & crafts, a festive fall photo-op (say that 10 times!), Trick-or-Treating at our resident art studios and galleries, and a costume contest (will you win for “Most Spooky,” “Most Creative,” or “Best Group?”). We focus on the arts-y & crafts-y more than the scary, but we love to see all the costumes – even the scary ones! Learn More: https://glenechopark.org/fallfrolic RSVP preferred, not required: https://www.eventbrite.com/e/fall-frolic-tickets-1985145321094?aff=oddtdtcreator",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Fall Frolic",
@@ -19716,6 +18900,28 @@
    "categories": "Family Friendly, Seasonal & Holidays, Fairs & Festivals, Halloween",
    "recurrence": "Recurring weekly on Sunday, Saturday",
    "admission": "$19 per child and $8 per accompanying adult; Kids under 2 are free"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Fall Quilting, Crafts, Fabric Sale",
+   "url": "https://patch.com/virginia/ashburn/calendar/event/20261031/bc4f95ed-56ce-4bce-a513-c1da70050066/fall-quilting-crafts-fabric-sale",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Floris United Methodist Church",
+   "address": "13600 Frying Pan Rd",
+   "city": "Herndon",
+   "state": "VA",
+   "lat": 38.9430106,
+   "lng": -77.4166588,
+   "description": "Calling all local crafters, sewists, and quilters for a large shopping event featuring quilted gifts, quilting fabric for $8 per pound, sewing supplies, sewing machines, sergers, and more. Browse a wide selection of quilts, quilt tops, kits, bag-making material, wool, flannel, and pre-cuts. You must visit the Scrap Mountain for unique finds. Hosted by Reston Quilters Unlimited, a non-profit.",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -20253,28 +19459,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Gallery B Presents “Layered Lives: Women in Print:",
-   "url": "https://visitmontgomery.com/events/gallery-b-presents-layered-lives-women-in-print/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "17:00",
-   "venue": "Gallery B",
-   "address": "7700 Wisconsin Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9868194,
-   "lng": -77.0954097,
-   "description": "October 9, 2026 – November 1, 2026 Gallery Hours: Friday-Saturday, 12-5pm; Sunday, 11am-2pm Opening Reception: Friday, October 9, 6-8pm Layered Lives: Women in Print brings together women artists from the DMV region who explore the depths of lived experience through experimental printmaking techniques. Working primarily in semi-abstract forms, the artists use layered images, symbols, and textures—both physical and symbolic to reflect narratives of resilience, identity, and transformation. Through innovative approaches to printmaking, their artworks reveal the enduring power of craft and creative strength, that evolves over time, celebrating the intersection of personal intuition, artistic craft, and collective memory.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Howard County",
    "title": "Gem Royale Halloween: Free Treat Bags & Prize Draw",
@@ -20416,6 +19600,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "Good Fortune Runs Out! Halloween Party at Hotel Heron ",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261031/545c6236-6826-4a4c-a4ea-9437ab8187ae/good-fortune-runs-out-halloween-party-at-hotel-heron",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "",
+   "address": "699 Prince St",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.8040069,
+   "lng": -77.046767,
+   "description": "Good Fortune is running out of time —and going out with a wicked bang! This Halloween, Good Fortune at Hotel Heron, and the only rooftop bar in Alexandria, is closing out the season with one final night of tricks, treats and spooky fun on Saturday, October 31. Guests can expect a spirited evening complete with a specialty spooky cocktail menu, DJ, raffles, giveaways and a costume contest, with the grand prize of a two-night stay at Hotel Heron with F&B credit. The night’s cocktail lineup includes a Devil’s Negroni, Dark & Stormy and Witching Hour Hot Toddy, the latter served straight from a cauldron for an extra dose of Halloween magic. Guests can also enter raffles to win a Hotel Heron tote bag and swag or a dinner for two at KILN , the hotel’s hearth-inspired Mid-Atlantic restaurant. With sweeping autumnal views of Old Town Alexandria and the Potomac as the backdrop, it’s the perfect way to toast to one last rooftop night before Good Fortune closes for the season.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Annapolis",
@@ -20704,28 +19910,6 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween at Song Dog Farm Distillery",
-   "url": "https://visitmontgomery.com/events/halloween-at-song-dog-farm-distillery/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "18:00",
-   "venue": "",
-   "address": "",
-   "city": "",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Bring your ghouls and goblins to Song Dog for a day of Halloween fun! 1-2: Costume contest for dogs (costumes for their humans optional but encouraged!) 2-3: Costume contest for kids All day: Pumpkin painting, arts and crafts, special cocktails, and a photo booth We hope to see you on the farm! Song Dog Farm Distillery 18100 Bucklodge Rd. Boyds, MD 20841",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Halloween Beer Dinner at Dirt Farm",
@@ -20792,50 +19976,6 @@
    "admission": "Explorer $99 / Connoisseur $179 per person"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Eye Spy Trains at Cabin John Regional Park",
-   "url": "https://visitmontgomery.com/events/halloween-eye-spy-trains-at-cabin-john-regional-park/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "09:30",
-   "endTime": "16:30",
-   "venue": "Cabin John Regional Park",
-   "address": "7400 Tuckerman Ln, Bethesda, MD 20817",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations Día de los Trenes (Wheaton) and Trainsylvania (Cabin John) will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Eye Spy Trains at Wheaton Regional Park",
-   "url": "https://visitmontgomery.com/events/halloween-eye-spy-trains-at-wheaton-regional-park/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "09:30",
-   "endTime": "16:30",
-   "venue": "Wheaton Regional Park",
-   "address": "2002 Shorefield Road",
-   "city": "Wheaton",
-   "state": "MD",
-   "lat": 39.0519001,
-   "lng": -77.04311259160946,
-   "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Howard County",
    "siteCounty": "Howard County",
    "title": "Halloween Happenings on Halloween -In Studio Only",
@@ -20856,28 +19996,6 @@
    "categories": "Visual & Performing Arts",
    "recurrence": "",
    "admission": "Each stem for flowers is $1.\r\nHalloween vases which include the tall cat for $10 and the mini cat for $6 \r\nlarge pumpkins for $10\r\nsingle stalks $1.50 each\r\nfinished stalk $1.50\r\ntiny floral magnets  $5 each"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Happy Hour",
-   "url": "https://visitmontgomery.com/events/halloween-happy-hour/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "15:00",
-   "endTime": "17:00",
-   "venue": "Waredaca Brewing Company",
-   "address": "4017 Damascus Road",
-   "city": "Laytonsville",
-   "state": "MD",
-   "lat": 39.2300951,
-   "lng": -77.0801321,
-   "description": "Join us for a Halloween pregame! $1 off pints and 15% off to go beer from 3pm-5pm. Visit the brewery in your costume at any point during the day and be entered in a raffle for a gift card!",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Frederick",
@@ -21462,28 +20580,6 @@
    "admission": "FREE"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Hip Flask Halloween: Fright Night Costume Party",
-   "url": "https://visitmontgomery.com/events/hip-flask-halloween-fright-night-costume-party/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "17:00",
-   "endTime": "",
-   "venue": "Hip Flask Rooftop Bar",
-   "address": "7707 Woodmont Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.986368,
-   "lng": -77.0964442,
-   "description": "Join us for two spectacular nights of music, drinks, tricks & treats, Hip Flask style. Put on your creepiest costume and join the fright! Joined by DJ V5NYCE: Friday, October 30th, from 9-11pm and Saturday, October 31st from 7-11pm Put on your creepiest costume and join the fright! Joined by DJ V5NYCE: Friday, Oct. 30th from 9-11pm & Saturday, Oct. 31st from 7-11pm",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Historic Annapolis Presents-Tavern Talk: Inside Annapolis’s Revolutionary-Era Taverns",
@@ -21739,50 +20835,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Instrument Petting Zoos with BreezeWood Strings!",
-   "url": "https://visitmontgomery.com/events/instrument-petting-zoos-with-breezewood-strings/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "11:00",
-   "endTime": "12:00",
-   "venue": "Gaithersburg Library",
-   "address": "18330 Montgomery Village Avenue",
-   "city": "Gaithersburg",
-   "state": "MD",
-   "lat": 39.15805788546913,
-   "lng": -77.20543116331102,
-   "description": "Hosted by BreezeWood Strings, a student-led classical string ensemble project under the 501(c)(3) non-profit organization Capital Youth Outreach Club (cyoc.club), Instrument Petting Zoos are a great way for your 4-8 year old child to have an exciting, hands-on experience trying new instruments! We have violin, cello, ukulele, guitar, tongue drums, kalimbas, tambourines, and many more instruments that our experienced student musician volunteers will assist your child with in their musical adventure! Sessions take place on the 2nd floor of the Gaithersburg Library on select Saturdays, September-December from 11 AM – 12 PM. Sign-up link: https://www.breezewoodstrings.org/blank-13",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Interactive fun – The Magic Duel Comedy Show",
-   "url": "https://visitmontgomery.com/events/final-magic-duel-appearance-of-2025/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "20:00",
-   "endTime": "21:30",
-   "venue": "The Writer's Center",
-   "address": "4508 Walsh Street",
-   "city": "Chevy Chase",
-   "state": "MD",
-   "lat": 38.979309,
-   "lng": -77.090721,
-   "description": "Two Masters. One Stage. ZERO Mercy. PREPARE TO BE ABSOLUTELY DEMOLISHED BY MAGIC! Watch two razor-sharp sleight-of-hand virtuosos unleash pure comedic chaos as they battle for the ultimate prize: the coveted Golden Wand! The Magic Duel isn’t your grandmother’s magic show – this is a full-contact magical bloodbath where wit meets wizardry and only one magician survives with their dignity intact. 🔥 WHAT AWAITS YOU: Interactive Mayhem: YOU control the chaos! Audience members command the magical challenges while our dueling magicians scramble to outdo each other Electronic Voting Power: Your vote determines who claims the legendary Golden Wand (and who goes home in magical shame) 5-Star Domination: This powerhouse show has conquered both Yelp and TripAdvisor in Washington DC Special Guest Sensation: Meadow Perry, the mesmerizing Bubble Magician from CW’s “Masters of Illusion,” joins the battle! 💫 THE PROMISE: You WILL laugh until your sides hurt. You WILL be fooled. You WILL question everything you thought you knew about reality. This isn’t just entertainment – it’s a full-scale assault on your senses delivered by two of the most wickedly talented performers you’ll ever witness. You WILL question everything you thought you knew about reality. This isn’t just entertainment – it’s a full-scale assault on your senses delivered by two of the most wickedly talented performers you’ll ever witness. Monthly Shows on select Saturdays The Writer’s Center becomes ground zero for this epic",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Invasive Vine Removal at Browning’s Grove Park",
@@ -21814,28 +20866,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "11:30",
-   "endTime": "12:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -22413,28 +21443,6 @@
    "admission": "$5 entry ticket, Projects between $8-10"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Markoff’s Haunted Forest 2026",
-   "url": "https://visitmontgomery.com/events/markoffs-haunted-forest-2026/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "",
-   "venue": "Calleva Farm",
-   "address": "19120 Martinsburg Rd",
-   "city": "Dickerson",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Creative, dramatic, and – YES — terrifying — MHF has built a national reputation for its unique, multi-sensory haunt experience. Music, lighting effects, scents & creepy human interaction set the tone in each of our 3 attractions. Markoff’s Haunted Forest is a benefit performance for Calleva, a 501c3 organization dedicated to building young leaders through positive outdoor experiences. Weekends in October & November.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Martin Luther King, Jr Memorial",
@@ -22498,28 +21506,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Meet & Greet at the Future Springsong Museum Site",
-   "url": "https://visitmontgomery.com/events/meet-greet-at-the-future-springsong-museum-site-2/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "14:00",
-   "venue": "Burnt Mills East Park",
-   "address": "10701 Columbia Pike",
-   "city": "Burnt Mills",
-   "state": "MD",
-   "lat": 39.030385863233,
-   "lng": -77.004702687264,
-   "description": "Join us for our 2nd Annual Springsong Museum Meet & Greet, a free community celebration at the future home of Springsong Museum! 📍 Location: Burnt Mills East Park, 10701 Columbia Pike, Silver Spring, MD 20901 📅 Date: Saturday, October 31 🕙 Time: 10:00 AM – 2:00 PM At Springsong Museum, fall is our time to mark milestones and show the community how much has happened in a year. Come explore the future site of the museum, meet the team, and learn more about what we’ve been doing. Leave inspired by Rachel Carson, the author and environmentalist whose sense of wonder and wisdom of nature are celebrated in Springsong. Carson lived most of her life in Silver Spring. Her legacy is all around us. This free event is for all ages. Drop in and explore: Hands-on activities, including a nature observation station with microscopes Explore the architectural models and concept drawings for the new museum Learn more about Carson in her nature writings, early editions of her books, and magazine articles Observe nature up close on a native plant walk led by members of the Maryland Native Plant Society starting at 11am and 1pm For our Spring:Story Project , record what sparks wonder for you and your reflections on Carson in short interviews with a journalist Hear about the long history of the historic Burnt Mills site with a local architect Take a selfie with a life-sized cutout of Carson by the Northwest Branch Support the museum and help us spread the word by purchasing a Springsong tshirt !",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -22769,28 +21755,6 @@
    "admission": "$8-$12/pp"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "MV Farmers’ Market",
-   "url": "https://visitmontgomery.com/events/mv-farmers-market/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "13:00",
-   "venue": "Christ the Servant Lutheran Church",
-   "address": "9801 Centerway Road",
-   "city": "Montgomery Village",
-   "state": "MD",
-   "lat": 39.1730054,
-   "lng": -77.2027318,
-   "description": "Offering fresh produce, homemade baked goods, beautiful florals, specialty items, and more, this is the place to get your weekly grocery shopping done while supporting local businesses. Every Saturday until Oct. 31, from 9 a.m. to 1 p.m. at Christ the Servant Lutheran Church in Montgomery Village.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Myersville Farmers Market",
@@ -22947,28 +21911,6 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "OLD LINE MARKET: Vintage, Garden & Artisan Market",
-   "url": "https://visitmontgomery.com/events/old-line-market/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "17:00",
-   "venue": "Aix La Chapelle Farm",
-   "address": "19130 Jerusalem Road",
-   "city": "Poolesville",
-   "state": "MD",
-   "lat": 39.162543638351686,
-   "lng": -77.39851080964101,
-   "description": "Come spend the day with us shopping high quality vintage, garden and artisan vendors. Old Line Market is held at the historic Aix La Chapelle Farm in Poolesville, Maryland on Friday from 10-5, Saturday from 10-5 and Sunday from 10-4. Enjoy your weekend shopping in a village-like setting in and amongst beautifully restored historic barns, grounds, and tents. Food trucks, local wine and craft beer available. Plenty of free parking, and admission is good for both days, those under 18 are free. Dog and kid friendly.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -23244,28 +22186,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pet A Pony",
-   "url": "https://visitmontgomery.com/events/pet-a-pony/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "14:00",
-   "venue": "Waredaca Brewing Company",
-   "address": "4017 Damascus Road",
-   "city": "Laytonsville",
-   "state": "MD",
-   "lat": 39.2300951,
-   "lng": -77.0801321,
-   "description": "Get ready for a little farmyard fun! 🐴🍁 Bring the whole family out for a fun-filled day at the brewery where little ones can meet, pet, and spend time with an adorable horse! It’s the perfect opportunity for kids to enjoy a hands-on farm experience while parents relax with a cold beer and soak up the beautiful fall weather. *Children must be supervised while petting the horse*",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Picnic in the Park: History and Music Series",
@@ -23374,28 +22294,6 @@
    "venueType": "Music Venue",
    "flCategory": "nightlife",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pumpkin Festival at Butler’s Orchard",
-   "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Clarksburg",
-   "state": "MD",
-   "lat": 39.22355988943543,
-   "lng": -77.23019599914552,
-   "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Patch",
@@ -23664,28 +22562,6 @@
    "venueType": "Market",
    "flCategory": "market",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Rockville Musical Theatre presents “Caroline, or Change”",
-   "url": "https://visitmontgomery.com/events/rockville-musical-theatre-presents-caroline-or-change/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "19:30",
-   "endTime": "22:00",
-   "venue": "F. Scott Fitzgerald Theatre",
-   "address": "603 Edmonston Drive",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0848452,
-   "lng": -77.1289823,
-   "description": "8 performances | Oct. 31 and Nov. 6*, 7, 13 & 14 at 7:30 p.m. | Nov. 1, 8 & 15 at 2 p.m. Set in one of the most pivotal times in America’s history, the Tony-nominated Caroline, or Change is riveting, moving, and awe-inspiring. Featuring a virtuosic score by Jeanine Tesori (Shrek The Musical, Thoroughly Modern Millie), it blends blues, gospel and traditional Jewish melodies, creating a breathtaking medium for Kushner’s provocative and personal story. In 1963, the Gellman family and their African-American maid, Caroline, live in sleepy Lake Charles, Louisiana. Caroline is drifting through life as a single mother of four, working in a service job for a white family. A fragile, yet beautiful friendship develops between the young Gellman son, Noah, and Caroline. Noah’s stepmother, Rose, unable to give Caroline a raise, tells Caroline that she may keep the money that Noah leaves in his pockets. Caroline balks and refuses to take money from a child, but her own children desperately need food, clothing and shoes. Outside of the laundry room, some of the greatest social advancements that the country has seen are being set in motion, and change is knocking on the door. Caroline, or Change, produces a valuable theatrical experience that continues to thrill audiences the world over. It is a story that must be shared and will touch hearts. It is a story that will open minds. It is a story that will change theatergoers for the better. Featuring one of the most powerful female roles in musi",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -24390,50 +23266,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Legend of Sleepy Hollow-Olney Theatre",
-   "url": "https://visitmontgomery.com/events/the-legend-of-sleepy-hollow-olney-theatre/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "22:00",
-   "venue": "Olney Theatre",
-   "address": "2001 Olney Sandy Spring Road",
-   "city": "Olney",
-   "state": "MD",
-   "lat": 39.144959,
-   "lng": -77.0444099,
-   "description": "Olney audiences were blown away in 2025, when we invited Synetic Theater to perform their award-winning, wordless version of Shakespeare’s A Midsummer Night’s Dream . Now they’re back, but this time they’re tackling a story with classic American roots in the intimate confines of Olney Theatre Center’s 150-seat Theatre Lab. In the haunted village of Sleepy Hollow, the past refuses to stay buried. Years after a brutal Revolutionary War encounter leaves a Hessian soldier beheaded and his beloved horse slain, the fallen rider returns as the legendary Headless Horseman—an apparition stalking the shadowed forests in search of what was taken from him. Inspired by Washington Irving’s classic tale, Sleepy Hollow reimagines the familiar legend as a haunting story of love, guilt, revenge, and redemption. Blending supernatural horror with theatrical spectacle, it asks whether the true monsters are the spirits who haunt us—or the deeds we would rather forget. By Washington Irving Adapted by Nathan Weinberger Directed by Paata Tsikurishvili Choreographed by Irina Tsikurishvili Due to the layout of the Mulitz-Gudelsky Theatre Lab, late seating is at the discretion of the House Manager. Those exiting the theatre during the performance will not be re-admitted while the performance is in progress.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Magic Duel Comedy Show",
-   "url": "https://visitmontgomery.com/events/the-magic-duel-comedy-show-11/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "17:00",
-   "endTime": "18:30",
-   "venue": "The Writer's Center",
-   "address": "4508 Walsh Street",
-   "city": "Chevy Chase",
-   "state": "MD",
-   "lat": 38.979309,
-   "lng": -77.090721,
-   "description": "The Ultimate Showdown of Illusion & Hilarity: THE MAGIC DUEL WITNESS THE SPECTACULAR COLLISION OF MIND-BLOWING MAGIC AND SIDE-SPLITTING COMEDY! Reality bends and laughter erupts as award-winning illusionists and master comedians MARK PHILLIPS and MEADOW PERRY go head-to-head in a no-holds-barred battle of wits, tricks, and pure entertainment! 90 MINUTES OF JAW-DROPPING WONDER THAT WILL LEAVE YOU QUESTIONING EVERYTHING! This isn’t just a magic show. It’s a high-stakes competition where YOU decide the victor. Cast your vote, join the action, and become part of the show as these two legendary performers push the boundaries of what’s possible right before your eyes. THE MAGIC DUEL DELIVERS: • Bubble magic that transforms the ordinary into extraordinary • Genuinely jaw-dropping surprises • Comedy so sharp it should come with a warning label • Audience participation that could make YOU the star of the show Don’t just watch magic—EXPERIENCE IT. Feel the electricity in the room as impossible feats unfold inches from your face. Hear the thunderous applause. Laugh until your sides ache. PERFECT FAMILY ENTERTAINMENT! Bring everyone from grandparents to grandkids for an unforgettable experience that delights all ages.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "The Rocky Horror Picture Show - Halloween Spectacular with Live Shadow Cast!",
@@ -24783,28 +23615,6 @@
    "lng": -77.67672019999999,
    "description": "Triune Entertainment presents Finding Neverland at the state of the art Journey Theater in Vint Hill, Virginia from October 23 - November 1. With music and lyrics by Gary Barlow and Eliot Kennedy and a book by James Graham, Finding Neverland explores how playwright J.M. Barrie found inspiration for his most enduring creation through his friendship with the Llewelyn Davies family. But this is more than the story of how Peter Pan came to be. It is a celebration of creativity, friendship, courage and the childlike wonder that adults sometimes forget.",
    "categories": "free",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Trolleyween Weekend",
-   "url": "https://visitmontgomery.com/events/trolleyween-weekend/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "17:00",
-   "venue": "National Capital Trolley Museum",
-   "address": "1313 Bonifant Road",
-   "city": "Colesville",
-   "state": "MD",
-   "lat": 39.0982801,
-   "lng": -77.0317533,
-   "description": "Trolleyween at the National Capital Trolley Museum! Saturday, October 31, 2026 | 12 PM – 5 PM All aboard for a spooktacular Halloween adventure before the neighborhood trick-or-treating begins! Looking for a fun way to kick off Halloween with the kids before the evening’s trick-or-treating festivities? The National Capital Trolley Museum has you covered with Trolleyween , a family-friendly daytime Halloween celebration filled with sweet treats, festive activities, and historic streetcar adventures! Gather the family, put on your favorite costumes, and join us on Saturday, October 31, from noon to 5 PM for an afternoon of not-so-scary Halloween fun. It’s the perfect way to get an early start on the holiday festivities before heading out for neighborhood trick-or-treating later in the evening. Here’s what’s waiting for you at Trolleyween: Trolley and Treat! Explore Streetcar Hall, visit our historic trolleys, and collect Halloween candy from museum volunteers along the way. Spooky Wooden Ornaments! Get creative by painting your own Halloween ornament for just $2 per child. Choose from cats, ghosts, witches, skulls, jack-o’-lanterns, bats, and more! Halloween Scavenger Hunt! Search for spooky surprises throughout the museum and complete a themed scavenger hunt for prizes. Unlimited Trolley Rides! Climb aboard our historic streetcars and enjoy unlimited rides through the beautiful fall scenery. Costume Fun! Come dressed in your Halloween best! Make Trolleyween Part of Your Hallow",
-   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -25211,28 +24021,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "workshop",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Woodlawn Manor House Tour",
-   "url": "https://visitmontgomery.com/events/woodlawn-manor-house-tour-2/",
-   "dates": [
-    "2026-10-31"
-   ],
-   "dateKind": "single",
-   "time": "14:00",
-   "endTime": "14:45",
-   "venue": "Woodlawn Manor Cultural Park",
-   "address": "16501 Norwood Road",
-   "city": "Sandy Spring",
-   "state": "MD",
-   "lat": 39.126299736823334,
-   "lng": -77.02773030914558,
-   "description": "The Woodlawn Manor House reopens to the public after a four-year closure. The Federal-style house reflects the former owners and uses since the home’s construction in the early 1800s. Learn about the Palmer family that oversaw the farm for nearly 100 years and explore the historic home’s first floor and outbuildings. Tours include interior and exterior spaces including optional areas that are not ADA-accessible. Fee: $5 per person. Tickets sold at the Visitor Center the day of your visit. Appropriate for: Ages 7 and up. Fee charged for ages 6 and up.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -25724,28 +24512,6 @@
    "admission": "$12/person"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Beethoven: Tragedy and Triumph",
-   "url": "https://visitmontgomery.com/events/beethoven-tragedy-and-triumph/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "15:00",
-   "endTime": "18:00",
-   "venue": "Montgomery College",
-   "address": "7995 Georgia Avenue",
-   "city": "Silver Spring",
-   "state": "MD",
-   "lat": 38.9869369,
-   "lng": -77.0260966,
-   "description": "Two hundred years after Beethoven’s death, the Symphony of the Potomac celebrates the revolutionary composer who transformed orchestral music—and the generations who carried that revolution forward. We cannot wait to start our season with Beethoven: Tragedy and Triumph, featuring Alon Goldstein on piano.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Beethoven: Tragedy and Triumph",
@@ -25915,28 +24681,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Butler’s Orchard Pumpkin Festival",
-   "url": "https://visitmontgomery.com/events/butlers-orchard-pumpkin-festival/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Germantown",
-   "state": "MD",
-   "lat": 39.2215035,
-   "lng": -77.2232477,
-   "description": "The 46th Annual Pumpkin Festival starts September 19th, 2026 and runs through November 1st. We’ve made a few updates to improve your Festival experience, and we are so excited to have you at Butler’s, whether it’s your first or 46h visit! Dates: September 19th – November 1st Wednesday – Sunday, Plus Columbus Day Hours: Wednesday – Friday: 1 PM – 6 PM (Last entry 4:30 PM) Saturday – Sunday, and Columbus Day: 9 AM – 6 PM (Last entry 4:30 PM) Under 24 months old are FREE Note: Making a reservation ahead of time is STRONGLY ENCOURAGED. We sell out most weekend days and are not allowing walk ins unless there is ticket availability. You will not be admitted if we are sold out. What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit Barnyard Buddies Twisted Corn Maze Live Music * Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon * , $7.00/shot or $10.00/2 shots, All weekends of Festival! Pony Rides * (10:30 am – 4:30 pm), $8.00/ride and up September 27-October 26 Face Painting * , $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Canopy of Discovery",
@@ -25957,28 +24701,6 @@
    "categories": "Nature & Outdoors, History & Heritage, Health & Wellness, Mount Vernon District",
    "recurrence": "",
    "admission": "$30"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Caroline, or Change the Musical",
-   "url": "https://visitmontgomery.com/events/caroline-or-change-the-musical/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "19:30",
-   "endTime": "22:00",
-   "venue": "Rockville Civic Center Park",
-   "address": "603 Edmonston Drive",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0848452,
-   "lng": -77.1289823,
-   "description": "8 performances | October 31 and November 6*, 7, 13, and 14 at 7:30pm | November 1, 8, and 15 at 2:00pm *Friday, November 6 will include ASL interpretation and free tickets for Montgomery County residents! Full information at www.r-m-t.org/caroline-or-change Set in one of the most pivotal times in America’s history, the Tony-nominated Caroline, or Change is riveting, moving and awe-inspiring. Featuring a virtuosic score by Jeanine Tesori (Shrek The Musical, Thoroughly Modern Millie), it blends blues, gospel and traditional Jewish melodies, creating a breathtaking medium for Kushner’s provocative and personal story. ​ In 1963, the Gellman family and their African-American maid, Caroline, live in sleepy Lake Charles, Louisiana. Caroline is drifting through life as a single mother of four working in a service job to a white family. A fragile, yet beautiful friendship develops between the young Gellman son, Noah, and Caroline. Noah’s stepmother, Rose, unable to give Caroline a raise, tells Caroline that she may keep the money that Noah leaves in his pockets. Caroline balks and refuses to take money from a child but her own children desperately need food, clothing and shoes. Outside of the laundry room, some of the greatest social advancements that the country has seen are being set in motion, and change is knocking on the door. ​ Caroline, or Change is a story that must be shared and will touch hearts. It is a story that will open minds. It is a story that will change theatergoers",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -26518,28 +25240,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Emancipation Day Walking Tour",
-   "url": "https://visitmontgomery.com/events/emancipation-day-walking-tour/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "14:00",
-   "venue": "Historic Red Brick Courthouse",
-   "address": "29 Courthouse Square",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0835781,
-   "lng": -77.1515154,
-   "description": "Join Peerless Rockville and local historians Ralph Buglass and Chiquita Sorrels for a walking tour of downtown Rockville’s African-American sites as we mark Emancipation Day in Maryland. Learn about the self-emancipation of the brave fugitives who fled slavery, the lives of the newly freed, and the growth of the strong Black communities who fought for equality during the following era of segregation. Spots are limited – registration is required.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Exhibit: Celeste Rogers - Vertical Beings",
@@ -26569,6 +25269,28 @@
    "venueType": "Music Venue",
    "flCategory": "art",
    "outdoorHint": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Fairfax Main St. Market",
+   "url": "https://patch.com/virginia/fairfaxcity/calendar/event/20261101/660ae61a-9893-4f28-8f39-7e70ab83e1a4/fairfax-main-st-market",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Main Street",
+   "address": "Main St",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.8455134,
+   "lng": -77.3029789,
+   "description": "The Main St. Market is held the FIRST SUNDAY of each month April through December from Noon to 4 p.m. in historic Old Town Fairfax, Virginia. Vendors are set up along sidewalks on Main Street between Chain Bridge and University Dr. Final Two Markets of 2026: Sundays November 1 and December 6 Offering a mix of new and vintage finds, handmade goods, jewelry and accessories and home goods - come explore our vendors, visit our Old Town Fairfax boutiques and shops, grab some lunch and enjoy our historic downtown area. Explore Old Town Fairfax businesses and events. Plenty of FREE Parking in Old Town Fairfax including 2 free garages and free city lots. Hosted by the Old Town Fairfax Business Association",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -26838,28 +25560,6 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Gallery B Presents “Layered Lives: Women in Print:",
-   "url": "https://visitmontgomery.com/events/gallery-b-presents-layered-lives-women-in-print/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "17:00",
-   "venue": "Gallery B",
-   "address": "7700 Wisconsin Avenue",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 38.9868194,
-   "lng": -77.0954097,
-   "description": "October 9, 2026 – November 1, 2026 Gallery Hours: Friday-Saturday, 12-5pm; Sunday, 11am-2pm Opening Reception: Friday, October 9, 6-8pm Layered Lives: Women in Print brings together women artists from the DMV region who explore the depths of lived experience through experimental printmaking techniques. Working primarily in semi-abstract forms, the artists use layered images, symbols, and textures—both physical and symbolic to reflect narratives of resilience, identity, and transformation. Through innovative approaches to printmaking, their artworks reveal the enduring power of craft and creative strength, that evolves over time, celebrating the intersection of personal intuition, artistic craft, and collective memory.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Gardening for All",
@@ -26999,50 +25699,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Eye Spy Trains at Cabin John Regional Park",
-   "url": "https://visitmontgomery.com/events/halloween-eye-spy-trains-at-cabin-john-regional-park/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "09:30",
-   "endTime": "16:30",
-   "venue": "Cabin John Regional Park",
-   "address": "7400 Tuckerman Ln, Bethesda, MD 20817",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations Día de los Trenes (Wheaton) and Trainsylvania (Cabin John) will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Halloween Eye Spy Trains at Wheaton Regional Park",
-   "url": "https://visitmontgomery.com/events/halloween-eye-spy-trains-at-wheaton-regional-park/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "09:30",
-   "endTime": "16:30",
-   "venue": "Wheaton Regional Park",
-   "address": "2002 Shorefield Road",
-   "city": "Wheaton",
-   "state": "MD",
-   "lat": 39.0519001,
-   "lng": -77.04311259160946,
-   "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "High Seas and Hardtack",
@@ -27149,28 +25805,6 @@
    "description": "The City of Bowie invites you to the Holiday Arts + Crafts Market on Saturday, November 15, 2025, from 10 a.m.to 2 p.m. at the Bowie Senior Center . Admission is free and open to all ages. Shop unique handmade works from local artisans and crafters, featuring jewelry, pottery, textiles, glass, photography, baked goods, wood, wreaths, and more. Proceeds from vendor fees support the City of Bowie Arts Scholarship program for graduating seniors pursuing art-related degrees. Vendors: If you would like to be a vendor, please complete this form . Applications are open until October 24 . For questions, email Allyssa Jarrett at community@cityofbowie.org or call 240-695-2643.",
    "categories": "General",
    "recurrence": "Recurring weekly on Sunday",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "11:30",
-   "endTime": "12:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
    "admission": ""
   },
   {
@@ -27516,28 +26150,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Markoff’s Haunted Forest 2026",
-   "url": "https://visitmontgomery.com/events/markoffs-haunted-forest-2026/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "18:00",
-   "endTime": "",
-   "venue": "Calleva Farm",
-   "address": "19120 Martinsburg Rd",
-   "city": "Dickerson",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Creative, dramatic, and – YES — terrifying — MHF has built a national reputation for its unique, multi-sensory haunt experience. Music, lighting effects, scents & creepy human interaction set the tone in each of our 3 attractions. Markoff’s Haunted Forest is a benefit performance for Calleva, a 501c3 organization dedicated to building young leaders through positive outdoor experiences. Weekends in October & November.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Martin Luther King, Jr Memorial",
@@ -27568,50 +26180,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Maryland Emancipation Day – History Walking Tour",
-   "url": "https://visitmontgomery.com/events/maryland-emancipation-day-history-walking-tour/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "14:00",
-   "venue": "Red Brick Courthouse",
-   "address": "29 Courthouse Square",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0835781,
-   "lng": -77.1515154,
-   "description": "Join Peerless Rockville and local historians Ralph Buglass and Chiquita Sorrels for a walking tour of downtown Rockville’s African-American sites as we mark Emancipation Day in Maryland. Learn about the self-emancipation of the brave fugitives who fled slavery, the lives of the newly freed, and the growth of the strong Black communities who fought for equality during the following era of segregation. Spots are limited – registration is required. Tour participants agree to hold harmless Peerless Rockville Historic Preservation, Ltd., its officers, directors, employees, members, volunteers, contractors, and assignees from any and all liability relating to his/her entry onto the tour properties. Peerless Rockville Historic Preservation Ltd. is supported in part by a grant from the City of Rockville and in part by funding from the Montgomery County Government and the Arts & Humanities Council of Montgomery County.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Maryland Emancipation Day at Josiah Henson",
-   "url": "https://visitmontgomery.com/events/maryland-emancipation-day-at-josiah-henson/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "16:00",
-   "venue": "Josiah Henson Museum & Park",
-   "address": "11410 Old Georgetown Road",
-   "city": "North Bethesda",
-   "state": "MD",
-   "lat": 39.0435736,
-   "lng": -77.1216211420527,
-   "description": "Maryland Emancipation Day commemorates the ratification of the Maryland Constitution of 1864, which officially abolished slavery within the state and emancipated all those still held in bondage. Join us on Saturday, November 1! All Day Events: Hands-On Activities in the Riley-Bolten House (Included with admission) Lawn Games (Included with admission) Self-guided tours (Included with admission) Admission: FREE Montgomery County Commission on Remembrance and Reconciliation has agreed to sponsor FREE admission on Saturday, November 1. Parking: Parking for the Josiah Henson Museum and Park is located at 5900 Executive Blvd, a 1.5-block walk. Limited accessible parking is located at the main Visitor Center.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Montgomery Parks",
@@ -27725,28 +26293,6 @@
    "admission": "Free"
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Music in the Mansion: Maryna Krut",
-   "url": "https://visitmontgomery.com/events/music-in-the-mansion-maryna-krut/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "16:00",
-   "endTime": "21:00",
-   "venue": "The Mansion at Strathmore",
-   "address": "10701 Rockville Pike",
-   "city": "North Bethesda",
-   "state": "MD",
-   "lat": 39.0314213,
-   "lng": -77.1044,
-   "description": "Ukrainian folk music performance blending traditional bandura, expressive vocals, jazz elements, and cultural storytelling. Shows at 4pm & 7pm.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Mystery Mansion 2026 Presents TWISTED. Get your tickets now!",
@@ -27852,28 +26398,6 @@
    "venueType": "Arena & Stadium",
    "flCategory": "sports",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "OLD LINE MARKET: Vintage, Garden & Artisan Market",
-   "url": "https://visitmontgomery.com/events/old-line-market/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "16:00",
-   "venue": "Aix La Chapelle Farm",
-   "address": "19130 Jerusalem Road",
-   "city": "Poolesville",
-   "state": "MD",
-   "lat": 39.162543638351686,
-   "lng": -77.39851080964101,
-   "description": "Come spend the day with us shopping high quality vintage, garden and artisan vendors. Old Line Market is held at the historic Aix La Chapelle Farm in Poolesville, Maryland on Friday from 10-5, Saturday from 10-5 and Sunday from 10-4. Enjoy your weekend shopping in a village-like setting in and amongst beautifully restored historic barns, grounds, and tents. Food trucks, local wine and craft beer available. Plenty of free parking, and admission is good for both days, those under 18 are free. Dog and kid friendly.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -28064,28 +26588,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Pumpkin Festival at Butler’s Orchard",
-   "url": "https://visitmontgomery.com/events/pumpkin-festival-at-butlers-orchard/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "18:00",
-   "venue": "Butler's Orchard",
-   "address": "22222 Davis Mill Road",
-   "city": "Clarksburg",
-   "state": "MD",
-   "lat": 39.22355988943543,
-   "lng": -77.23019599914552,
-   "description": "One of MoCo’s favorite fall traditions is back for its 46th year! Butler’s Orchard 46th Annual Pumpkin Festival is September 19th through November 1st and is full of classic fall good times like hayrides, a corn maze, a corn pool, plus loads of fun games & activities, and no shortage of the star of the show- PUMPKINS! What’s Included? Admission to Pick Your Own Pumpkins (pumpkins are $0.79/lb) Hayrides (last ride departs at 5:30pm) Hilltop Hop Jump Pads Playground Jump in the Hayloft Visit the Farm Animals in the Barnyard Twisted Corn Maze Live Music* Playground Spiderweb Corn Pool Straw Maze Giant Slides Corn Hole Games Pedal Tractors 2026 Other Activities ($) Pumpkin Cannon*, $7.00/shot or $10.00/2 shots (All weekends of Festival!) Pony Rides* (10:30 am – 4:30 pm), $8.00/ride and up (Weekends September 26-October 31) Face Painting*, $10.00 and up Mini Diggers $3.00 per 3 minute ride Pick Your Own Pumpkins, $.79/lb *activity is available weekends only",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Pumpkin Village",
@@ -28227,28 +26729,6 @@
    "categories": "Arts - Performance, Arts - Visual, Downtown Frederick, Performances",
    "recurrence": "",
    "admission": "$12/standard $8/artist"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Rockville Musical Theatre presents “Caroline, or Change”",
-   "url": "https://visitmontgomery.com/events/rockville-musical-theatre-presents-caroline-or-change/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "14:00",
-   "endTime": "16:30",
-   "venue": "F. Scott Fitzgerald Theatre",
-   "address": "603 Edmonston Drive",
-   "city": "Rockville",
-   "state": "MD",
-   "lat": 39.0848452,
-   "lng": -77.1289823,
-   "description": "8 performances | Oct. 31 and Nov. 6*, 7, 13 & 14 at 7:30 p.m. | Nov. 1, 8 & 15 at 2 p.m. Set in one of the most pivotal times in America’s history, the Tony-nominated Caroline, or Change is riveting, moving, and awe-inspiring. Featuring a virtuosic score by Jeanine Tesori (Shrek The Musical, Thoroughly Modern Millie), it blends blues, gospel and traditional Jewish melodies, creating a breathtaking medium for Kushner’s provocative and personal story. In 1963, the Gellman family and their African-American maid, Caroline, live in sleepy Lake Charles, Louisiana. Caroline is drifting through life as a single mother of four, working in a service job for a white family. A fragile, yet beautiful friendship develops between the young Gellman son, Noah, and Caroline. Noah’s stepmother, Rose, unable to give Caroline a raise, tells Caroline that she may keep the money that Noah leaves in his pockets. Caroline balks and refuses to take money from a child, but her own children desperately need food, clothing and shoes. Outside of the laundry room, some of the greatest social advancements that the country has seen are being set in motion, and change is knocking on the door. Caroline, or Change, produces a valuable theatrical experience that continues to thrill audiences the world over. It is a story that must be shared and will touch hearts. It is a story that will open minds. It is a story that will change theatergoers for the better. Featuring one of the most powerful female roles in musi",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Montgomery Parks",
@@ -28892,28 +27372,6 @@
    "description": "The Greenbelt Farmers Market is proud to bring a fantastic mix of local vendors to Roosevelt Center in Old Greenbelt. Our vendors will be offering produce, pasture-raised meats, sustainable seafood, soaps, ice cream, breads and baked goods, mushrooms, flowers, bedding plants, vegetable and herb plant starts, honey, coffee, wine, beer, baked desserts, and prepared entrees and sides, both frozen and hot. Not all vendors attend each week, and the information listed below is subject to change. For up-to-date information sign up for our weekly customer newsletter .",
    "categories": "Food & Drink",
    "recurrence": "Recurring weekly on Sunday",
-   "admission": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "The Legend of Sleepy Hollow-Olney Theatre",
-   "url": "https://visitmontgomery.com/events/the-legend-of-sleepy-hollow-olney-theatre/",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "19:00",
-   "endTime": "22:00",
-   "venue": "Olney Theatre",
-   "address": "2001 Olney Sandy Spring Road",
-   "city": "Olney",
-   "state": "MD",
-   "lat": 39.144959,
-   "lng": -77.0444099,
-   "description": "Olney audiences were blown away in 2025, when we invited Synetic Theater to perform their award-winning, wordless version of Shakespeare’s A Midsummer Night’s Dream . Now they’re back, but this time they’re tackling a story with classic American roots in the intimate confines of Olney Theatre Center’s 150-seat Theatre Lab. In the haunted village of Sleepy Hollow, the past refuses to stay buried. Years after a brutal Revolutionary War encounter leaves a Hessian soldier beheaded and his beloved horse slain, the fallen rider returns as the legendary Headless Horseman—an apparition stalking the shadowed forests in search of what was taken from him. Inspired by Washington Irving’s classic tale, Sleepy Hollow reimagines the familiar legend as a haunting story of love, guilt, revenge, and redemption. Blending supernatural horror with theatrical spectacle, it asks whether the true monsters are the spirits who haunt us—or the deeds we would rather forget. By Washington Irving Adapted by Nathan Weinberger Directed by Paata Tsikurishvili Choreographed by Irina Tsikurishvili Due to the layout of the Mulitz-Gudelsky Theatre Lab, late seating is at the discretion of the House Manager. Those exiting the theatre during the performance will not be re-admitted while the performance is in progress.",
-   "categories": "",
-   "recurrence": "",
    "admission": ""
   },
   {
@@ -30336,28 +28794,6 @@
    "categories": "Nature & Outdoors, Free",
    "recurrence": "Recurring weekly on Monday",
    "admission": "Free"
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-11-02"
-   ],
-   "dateKind": "single",
-   "time": "10:30",
-   "endTime": "11:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -31828,28 +30264,6 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
-  },
-  {
-   "source": "Visit Montgomery",
-   "siteCounty": "Montgomery County",
-   "title": "Jennie the Cat: A Halloween Adventure",
-   "url": "https://visitmontgomery.com/events/jennie-the-cat-a-halloween-adventure/",
-   "dates": [
-    "2026-11-03"
-   ],
-   "dateKind": "single",
-   "time": "10:30",
-   "endTime": "11:30",
-   "venue": "The Puppet Co. Playhouse",
-   "address": "7300 MacArthur Blvd",
-   "city": "Glen Echo",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -33609,6 +32023,28 @@
    "admission": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Lucketts Book Club: Finlay Donovan Is Killing It",
+   "url": "https://patch.com/virginia/leesburg/calendar/event/20261104/c28cf3f9-bfe6-46ae-80e8-f89184508f2a/lucketts-book-club-finlay-donovan-is-killing-it",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Lucketts Community Center",
+   "address": "42361 Lucketts Rd",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.2148627,
+   "lng": -77.53397989999999,
+   "description": "A monthly book discussion held at Lucketts Community Center. This month, discuss Finlay Donovan Is Killing It by Elle Cosimano. Copies of the book are available at the Rust Library Information Desk.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Experience Prince George’s",
    "siteCounty": "Prince George’s County",
    "title": "Lunchtime Listening with Sharon Rae North, vocals",
@@ -33629,6 +32065,28 @@
    "categories": "General",
    "recurrence": "",
    "admission": "Ticket Price: $5 Age: All Ages"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Makerspace: Glowforge 101",
+   "url": "https://patch.com/virginia/leesburg/calendar/event/20261104/25d2a15f-b7a3-418f-bc19-46114b63cf1c/makerspace-glowforge-101",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Rust Library",
+   "address": "380 Old Waterford Rd NW",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.123557,
+   "lng": -77.56778899999999,
+   "description": "Join us in the makerspace for beginner instruction on using each function on the Glowforge laser cutter and engraver. Instruction and supplies are provided. Supplies are limited to one per person. For teens and adults.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -34626,7 +33084,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-27T13:40:55.956Z",
+  "generatedAt": "2026-10-27T16:50:43.377Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -34635,7 +33093,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1365
+    "ms": 2156
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -34643,7 +33101,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 553
+    "ms": 886
    },
    "City of Rockville": {
     "ok": true,
@@ -34651,7 +33109,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1630
+    "ms": 1571
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -34659,7 +33117,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 871
+    "ms": 1374
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -34667,7 +33125,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 1400
+    "ms": 3208
    },
    "Navy Yard BID": {
     "ok": true,
@@ -34675,7 +33133,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1083
+    "ms": 1581
    },
    "DowntownDC BID": {
     "ok": true,
@@ -34683,7 +33141,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 991
+    "ms": 1519
    },
    "Falls Church": {
     "ok": true,
@@ -34723,7 +33181,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 722
+    "ms": 688
    },
    "Ticketmaster": {
     "ok": true,
@@ -34739,7 +33197,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2165
+    "ms": 2731
    },
    "Southwest BID": {
     "ok": true,
@@ -34747,23 +33205,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 340
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 591
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 467
+    "ms": 485
    },
    "Visit Alexandria": {
     "ok": true,
@@ -34771,7 +33213,15 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2395
+    "ms": 1506
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 508
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -34779,15 +33229,15 @@
     "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 523
+    "ms": 1330
    },
-   "City of Greenbelt": {
+   "City of Takoma Park": {
     "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 722
+    "ms": 1251
    },
    "NPS National Mall": {
     "ok": true,
@@ -34795,23 +33245,15 @@
     "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 338
+    "ms": 1138
    },
-   "City of Bowie": {
+   "City of Greenbelt": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 1116
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 670
+    "ms": 1181
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -34819,7 +33261,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 25888
+    "ms": 32735
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -34827,31 +33269,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 877
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1361
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 847
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 3408
+    "ms": 1834
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -34859,7 +33277,31 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 612
+    "ms": 1892
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 747
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 524
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2404
    },
    "Visit Prince William": {
     "ok": true,
@@ -34867,7 +33309,23 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 2954
+    "ms": 3780
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 572
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 3221
    },
    "Town of Vienna": {
     "ok": true,
@@ -34875,7 +33333,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2184
+    "ms": 2142
    },
    "Town of Occoquan": {
     "ok": true,
@@ -34883,15 +33341,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 142
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 24,
-    "outcome": "",
-    "error": "",
-    "ms": 464
+    "ms": 79
    },
    "Town of Warrenton": {
     "ok": true,
@@ -34899,7 +33349,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 488
+    "ms": 453
    },
    "Visit Stafford": {
     "ok": true,
@@ -34907,7 +33357,15 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 554
+    "ms": 510
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 24,
+    "outcome": "",
+    "error": "",
+    "ms": 364
    },
    "Georgetown BID": {
     "ok": true,
@@ -34915,23 +33373,23 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 6308
+    "ms": 7191
    },
    "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 17530
+    "ok": false,
+    "status": "PARTIAL — time limit reached",
+    "events": 0,
+    "outcome": "Stopped at the 45-second source limit",
+    "error": "Stopped at the 45-second source limit",
+    "ms": 45000
    },
    "NOVA Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 18,
+    "events": 17,
     "outcome": "",
     "error": "",
-    "ms": 1645
+    "ms": 1090
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -34939,7 +33397,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 18495
+    "ms": 10232
    },
    "City of Annapolis": {
     "ok": true,
@@ -34947,7 +33405,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 703
+    "ms": 636
    },
    "City of College Park": {
     "ok": true,
@@ -34955,7 +33413,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 526
+    "ms": 654
    },
    "City of Frederick": {
     "ok": true,
@@ -34963,7 +33421,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 979
+    "ms": 939
    },
    "City of Laurel": {
     "ok": true,
@@ -34971,7 +33429,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 391
+    "ms": 443
    },
    "Town of Purcellville": {
     "ok": true,
@@ -34979,15 +33437,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 365
+    "ms": 385
    },
    "National Landing BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 7614
+    "ms": 7826
    },
    "City of Fairfax": {
     "ok": true,
@@ -34995,7 +33453,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2944
+    "ms": 3097
    },
    "Mosaic District": {
     "ok": true,
@@ -35003,7 +33461,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 929
+    "ms": 684
    },
    "Union Market District": {
     "ok": true,
@@ -35011,7 +33469,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2690
+    "ms": 1062
    },
    "The Boro Tysons": {
     "ok": false,
@@ -35019,15 +33477,15 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 169
+    "ms": 86
    },
    "One Loudoun": {
-    "ok": false,
-    "status": "ACCESS FAILED",
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
     "events": 0,
-    "outcome": "Calendar could not be read: Unexpected token '<', \"<html><hea\"... is not valid JSON",
-    "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-    "ms": 210
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 566
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -35035,7 +33493,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 7115
+    "ms": 1267
    },
    "DC HSEMA": {
     "ok": true,
@@ -35046,7 +33504,7 @@
     "ms": null
    }
   },
-  "count": 193,
+  "count": 190,
   "events": [
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -35216,39 +33674,15 @@
     "lat": null,
     "lng": null,
     "title": "Veterans 5K T-Shirt Pickup",
-    "url": "https://www.cityofbowie.org/Calendar.aspx?EID=11784",
+    "url": "https://www.cityofbowie.org/Calendar.aspx?EID=11781",
     "activityLocation": "15901 Fred Robinson Way, Bowie, MD 20716",
     "dateEvidence": "Official CivicPlus calendar feed",
     "outdoorEvidence": "The scheduled activity is inherently outdoors",
-    "outdoorEvidenceURL": "https://www.cityofbowie.org/Calendar.aspx?EID=11784",
-    "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=11784|2026-10-27",
+    "outdoorEvidenceURL": "https://www.cityofbowie.org/Calendar.aspx?EID=11781",
+    "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=11781|2026-10-27",
     "date": "2026-10-27",
     "confidence": "Official CivicPlus calendar feed",
     "category": "fitness"
-   },
-   {
-    "source": "NOVA Parks",
-    "city": "Vienna",
-    "county": "Fairfax County",
-    "state": "VA",
-    "categories": "",
-    "venue": "Meadowlark Botanical Gardens",
-    "address": "Meadowlark Botanical Gardens , Vienna, VA",
-    "description": "Enjoy free garden admission and a guided walk around Meadowlark Botanical Gardens' 95 acres on Tuesdays. Each 75-minute walk will be over uneven, hilly terrain, have a positive focus, and include a silent, meditative portion and a few interesting...",
-    "time": "10:15",
-    "endTime": "11:30",
-    "lat": null,
-    "lng": null,
-    "title": "Just a Walk - A Free Peek at Meadowlark",
-    "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/just-a-walk-a-free-peek-at-meadowlark-11",
-    "activityLocation": "Meadowlark Botanical Gardens",
-    "dateEvidence": "NOVA Parks event calendar",
-    "outdoorEvidence": "Scheduled walk at an outdoor public space (Meadowlark Botanical Gardens)",
-    "outdoorEvidenceURL": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/just-a-walk-a-free-peek-at-meadowlark-11",
-    "id": "NOVA Parks|https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/just-a-walk-a-free-peek-at-meadowlark-11|2026-10-27",
-    "date": "2026-10-27",
-    "confidence": "NOVA Parks event calendar",
-    "category": "nature"
    },
    {
     "source": "Visit Calvert",
@@ -37445,30 +35879,6 @@
     "category": "fitness"
    },
    {
-    "source": "Visit Fredericksburg",
-    "city": "Fredericksburg",
-    "county": "Fredericksburg City",
-    "state": "VA",
-    "categories": "",
-    "venue": "Meet at the VRE Lot B",
-    "address": "405 Caroline Street, Fredericksburg, VA, USA",
-    "description": "ScarecrowFest Family Costume Stroll Get in your Halloween costumes and head to downtown Fredericksburg for the annual Costume Stroll. Pre-stroll festivities – 8:30am Costume Stroll – 9:30 am Meet at the VRE Lot B (Caroline and Frederick Streets at 9:00am) for line-up. Walking, strollers, or wagons only. No motorized vehicles, floats, pets or bikes. Stroll ends at Market Square. Treats on the Streets starts at 10am. For your safety, please stay in the stroll procession until the end. Free family-friendly event. For more Halloween Fun in downtown, visit FxbgScarecrowFest.com Event Details Saturday, October 31, 2026 8:30am Meet at the VRE Lot B 405 Caroline Street, Fredericksburg, VA, USA Free Visit Event Website",
-    "time": "08:30",
-    "endTime": "",
-    "lat": null,
-    "lng": null,
-    "title": "ScarecrowFest Family Costume Stroll",
-    "url": "https://fxbg.com/calendar-item/scarecrowfest-family-costume-stroll/",
-    "activityLocation": "Meet at the VRE Lot B",
-    "dateEvidence": "Visit Fredericksburg event page schedule",
-    "outdoorEvidence": "Scheduled costume at an outdoor public space (Market Square)",
-    "outdoorEvidenceURL": "https://fxbg.com/calendar-item/scarecrowfest-family-costume-stroll/",
-    "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/scarecrowfest-family-costume-stroll/|2026-10-31",
-    "date": "2026-10-31",
-    "confidence": "Visit Fredericksburg event page schedule",
-    "category": "family"
-   },
-   {
     "source": "Navy Yard BID",
     "city": "Washington",
     "county": "District of Columbia",
@@ -37490,30 +35900,6 @@
     "id": "Navy Yard BID|https://navyyarddc.org/event/half-street-central-farmers-market-28-copy|2026-10-31",
     "date": "2026-10-31",
     "confidence": "Navy Yard BID event page date and time",
-    "category": "market"
-   },
-   {
-    "source": "Visit Fredericksburg",
-    "city": "Fredericksburg",
-    "county": "Fredericksburg City",
-    "state": "VA",
-    "categories": "",
-    "venue": "Hurkamp Park",
-    "address": "500 William St, Fredericksburg, VA 22401",
-    "description": "Halloween at the Market Join us at the Fredericksburg Farmers Market for a fun-filled day of games, Halloween crafts, trick-or-treating, a spooky maze, and more! 🎟️FREE Event Details Saturday, October 31, 2026 9am - 1pm Hurkamp Park 500 William St, Fredericksburg, VA 22401 Visit Event Website",
-    "time": "09:00",
-    "endTime": "13:00",
-    "lat": null,
-    "lng": null,
-    "title": "Halloween at the Market",
-    "url": "https://fxbg.com/calendar-item/halloween-at-the-market/",
-    "activityLocation": "Hurkamp Park",
-    "dateEvidence": "Visit Fredericksburg event page schedule",
-    "outdoorEvidence": "Scheduled market at an outdoor public space (Hurkamp Park)",
-    "outdoorEvidenceURL": "https://fxbg.com/calendar-item/halloween-at-the-market/",
-    "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/halloween-at-the-market/|2026-10-31",
-    "date": "2026-10-31",
-    "confidence": "Visit Fredericksburg event page schedule",
     "category": "market"
    },
    {
@@ -38480,7 +36866,7 @@
     "categories": "",
     "venue": "Mosaic District",
     "address": "2910 District Ave, Fairfax, VA 22031",
-    "description": "Grab your costume and join us October 31 for a Spooktacular Halloween at Mosaic! Starting at 4 PM, stop by your favorite shops for trick-or-treating and then lay out your blankets, spread out your candy, and enjoy Hocus Pocus on the big screen in Strawberry Park at 6 PM. Where can I stop in to Trick-or-Treat? Angelika Barnes & Noble Bartaco BedHead PJs Boll & Branch Brilliant Earth B Side Caboose Commons F45 Faherty Hi/Fi Tex-Mex BBQ JINYA Ramen Bar Macmillan Whisky Room Makers Union Neuhaus OneLife Paper Source Pupatella Pura Vida RASA South Moon Under Scout & Molly’s The Beaufort Bonnet Company The Shade Store Urbano Waxing The City Warby Parker West Elm Stay tuned for more!",
+    "description": "Grab your costume and join us October 31 for a Spooktacular Halloween at Mosaic! Starting at 4 PM, stop by your favorite shops for trick-or-treating and then lay out your blankets, spread out your candy, and enjoy Hocus Pocus on the big screen in Strawberry Park at 6 PM. Where can I stop in to Trick-or-Treat? Angelika Barnes & Noble Bartaco BedHead PJs Boll & Branch Brilliant Earth B Side Caboose Commons F45 Faherty Hi/Fi Tex-Mex BBQ JINYA Ramen Bar Macmillan Whisky Room Makers Union Neuhaus OneLife Paper Source Pupatella Pura Vida RASA South Moon Under Scout & Molly’s The Beaufort Bonnet Company The Shade Store True Food Kitchen Urbano Waxing The City Warby Parker West Elm Stay tuned for more!",
     "time": "16:00",
     "endTime": "19:00",
     "lat": null,
@@ -38573,30 +36959,6 @@
     "date": "2026-10-31",
     "confidence": "NPS explicit occurrence and time slot",
     "category": "nature"
-   },
-   {
-    "source": "Visit Fredericksburg",
-    "city": "Fredericksburg",
-    "county": "Fredericksburg City",
-    "state": "VA",
-    "categories": "",
-    "venue": "Fredericksburg Church of Christ",
-    "address": "336 Riverside Drive, Fredericksburg, VA 22401",
-    "description": "Fall Festival – Trunk or Treat Event Details Saturday, October 31, 2026 5:30pm - 8:30pm Fredericksburg Church of Christ 336 Riverside Drive, Fredericksburg, VA 22401",
-    "time": "17:30",
-    "endTime": "20:30",
-    "lat": null,
-    "lng": null,
-    "title": "Fall Festival – Trunk or Treat",
-    "url": "https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/",
-    "activityLocation": "Fredericksburg Church of Christ",
-    "dateEvidence": "Visit Fredericksburg event page schedule",
-    "outdoorEvidence": "Event title identifies an outdoor activity",
-    "outdoorEvidenceURL": "https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/",
-    "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/fall-festival-trunk-or-treat/|2026-10-31",
-    "date": "2026-10-31",
-    "confidence": "Visit Fredericksburg event page schedule",
-    "category": "festival"
    },
    {
     "source": "NOVA Parks",
@@ -39767,6 +38129,30 @@
     "date": "2026-11-03",
     "confidence": "Visit Alexandria explicit iCalendar occurrence",
     "category": "other"
+   },
+   {
+    "source": "National Landing BID",
+    "city": "Arlington",
+    "county": "Arlington County",
+    "state": "VA",
+    "categories": "",
+    "venue": "Met Park",
+    "address": "Met Park, National Landing, Arlington, VA",
+    "description": "Every Tuesday and Saturday, Met Park transforms into a bustling marketplace where vendors bring the best of local agriculture straight to you, featuring an enticing selection of fresh fruits, vegetables, artisanal breads, teas, baked goods, and more. Whether you’re stocking up on your weekly groceries or exploring new flavors, you’re sure to find something special. Produced by Eat Loco, the Met Park farmers market is not just a place to shop; it’s a community experience where you can discover the stories behind your food and connect with local farmers and artisans.",
+    "time": "10:00",
+    "endTime": "14:00",
+    "lat": null,
+    "lng": null,
+    "title": "Met Park Tuesday Farmers Market",
+    "url": "https://www.nationallanding.org/events/met-park-tuesdayfarmers-market/2026-11-03",
+    "activityLocation": "Met Park",
+    "dateEvidence": "National Landing BID calendar date",
+    "outdoorEvidence": "Event title identifies an outdoor activity",
+    "outdoorEvidenceURL": "https://www.nationallanding.org/events/met-park-tuesdayfarmers-market/2026-11-03",
+    "id": "National Landing BID|https://www.nationallanding.org/events/met-park-tuesdayfarmers-market/2026-11-03|2026-11-03",
+    "date": "2026-11-03",
+    "confidence": "National Landing BID calendar date",
+    "category": "market"
    },
    {
     "source": "NPS DC-area parks",
