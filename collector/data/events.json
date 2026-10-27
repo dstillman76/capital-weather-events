@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T17:53:17.523Z",
+ "generatedAt": "2026-10-27T17:57:32.617Z",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-04"
@@ -147,12 +147,12 @@
    "source": "University of Maryland",
    "kind": "day pages",
    "status": "ok",
-   "listings": 0,
-   "opened": 0,
-   "skippedLong": 0,
+   "listings": 79,
+   "opened": 22,
+   "skippedLong": 11,
    "skippedInternal": 0,
-   "inWindow": 0,
-   "note": "2026-10-27: robots.txt disallows /events/2026/10/27. 2026-10-28: robots.txt disallows /events/2026/10/28. 2026-10-29: robots.txt disallows /events/2026/10/29. 2026-10-30: robots.txt disallows /events/2026/10/30. 2026-10-31: robots.txt disallows /events/2026/10/31. 2026-11-01: robots.txt disallows /events/2026/11/01. 2026-11-02: robots.txt disallows /events/2026/11/02. 2026-11-03: robots.txt disallows /events/2026/11/03. 2026-11-04: robots.txt disallows /events/2026/11/04. "
+   "inWindow": 30,
+   "note": ""
   },
   {
    "source": "FindLocal",
@@ -167,7 +167,7 @@
    "keptPrevious": 578
   }
  ],
- "count": 1290,
+ "count": 1320,
  "events": [
   {
    "source": "Visit Fairfax",
@@ -846,6 +846,28 @@
    "admission": "Free"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Patch",
    "siteCounty": "Fairfax County",
    "title": "Author Talk: Alma Katsu with K.T. Nguyen",
@@ -1314,6 +1336,28 @@
    "admission": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Careers Crossing Borders: The Mini Roundtable on Global Business Skills in the Age of AI and Tech",
+   "url": "https://calendar.umd.edu/careers-crossing-borders-the-mini-roundtable-on-global-business-skills-in-the-age-of-ai-and-tech",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "19:00",
+   "venue": "Careers Crossing Borders: The Mini Roundtable on Global Business Skills in the Age of AI and Tech",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Hear from global business and AI professionals from Microsoft, W.R. Grace, Lazarus AI, and Vanbri Consulting about about how AI is changing how global business happens - and the skills students need to succeed. Pizza will be provided. Tue Oct 27 5:00pm To – 7:00pm Van Munching Hall Visit the Event Webpage for more information. The event webpage. Add to Calendar Join this Careers Crossing Borders event to hear directly from global business professionals about how AI is changing how global business happens - and the skills students need to succeed. Learn how they are using AI in their day-to-day work, incorporating AI into products and services, and navigating the opportunities and challenges created by rapidly evolving technologies. Learn how these professionals prepared for careers at the intersection of AI and global business and what skills, experiences and perspectives are becoming increasingly valuable. Following the panel, join mini roundtables for small-group conversations with professionals across industries. Ask questions, gain practical insights into how AI is applied in different sectors, build connections and explore potential career opportunities in AI, technology and global business. Location Van Munching Hall Room 2333 Contact Robert H. Smith School of Business (301).405.2136 info@rhsmith.umd.edu Marina Augoustidis 301.405.9477 CIBER@rhsmith.umd.edu For access needs, accommodations, and questions, ",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Chesapeake Sampler - Crabbing + Fishing",
@@ -1532,6 +1576,28 @@
    "admission": "185.00+ for up to two children. | Ages 4+. | Reservations required."
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Creepy Crafts & Classical Music",
+   "url": "https://calendar.umd.edu/creepy-crafts-classical-music",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "21:00",
+   "venue": "Creepy Crafts & Classical Music",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "What’s scarier than a ghoul or monster? Not having a beautiful Halloween craft in your room this October! Tue Oct 27 6:00pm To – 9:00pm Adele H. Stamp Student Union Visit Terplink for more information! Terplink landing page for Creepy Crafts & Classical Music Add to Calendar Join us for a night of pumpkin painting, trick or treat bag decorating, scrapbooking, and spooky music played by live musicians! Guests are encouraged to wear Halloween costumes to bring in the spooky season! Location Adele H. Stamp Student Union 3972 Campus Drive College Park, MD 20742 Get Directions with Google Maps STAMP Atrium Contact Student Entertainment Events (301).314.8498 seespecialevents@umd.edu For access needs, accommodations, and questions, please contact Abby Callas at acallas@umd.edu or 3013144156 Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Friends Tags Arts and Culture Student Affairs Student Life Event Topics Arts, Entertainment and Culture Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Dan Hovey",
@@ -1681,6 +1747,28 @@
    "venueType": "University & College",
    "flCategory": "talks",
    "outdoorHint": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Dean's Lecture Series: The Work of Connection: Research, Leadership and the Conditions for Thriving in Education",
+   "url": "https://calendar.umd.edu/deans-lecture-series-the-work-of-connection-research-leadership-and-the-conditions-for-thriving-in-education",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "15:30",
+   "endTime": "18:00",
+   "venue": "Dean's Lecture Series: The Work of Connection: Research, Leadership and the Conditions for Thriving in Education",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "What does it take for people, institutions, and fields of inquiry to thrive, particularly in periods of uncertainty, contestation, and change? Drawing on nearly three decades of experience as a researcher, educator, institutional leader, and now exec Tue Oct 27 3:30pm To – 6:00pm Samuel Riggs IV Alumni Center RSVP Register via this link Add to Calendar The Work of Connection: Research, Leadership, and the Conditions for Thriving in Education What does it take for people, institutions, and fields of inquiry to thrive, particularly in periods of uncertainty, contestation, and change? Drawing on nearly three decades of experience as a researcher, educator, institutional leader, and now executive director of the American Educational Research Association, she will explore the role of connection in creating educational environments and professional communities in which people and ideas can flourish. The lecture will draw connections among research on social identity, motivation, belonging, and educational climate; lessons from leading institutional change and advancing equity; and the responsibilities of researchers, educational leaders, and professional associations in the current moment. She will engage attendees in considering what research teaches us about the conditions that enable individual and collective thriving, how leaders can translate that knowledge into institutional practice, and how the education research community ca",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -2380,6 +2468,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "GradImages Portrait Sessions",
+   "url": "https://calendar.umd.edu/gradimages-portrait-sessions",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "GradImages Portrait Sessions",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The Samuel Riggs IV Alumni Center is excited to host GradImages for student portrait sessions October 26-29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Mon Oct 26 To – Thu Oct 29 9:00am To – 8:00pm Samuel Riggs IV Alumni Center Schedule Now Link is going to a booking page for appointments with GradImages Portrait Photographers. Add to Calendar The Alumni Association will host GradImages at the Samuel Riggs IV Alumni Center for student portrait sessions on October 26, 27, 28 and 29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Have an iconic spot on campus you would rather have your picture at? No problem - post production can make your dream come true! Take time to celebrate your upcoming graduation or get the perfect headshot for your resume while on the internship/job hunt. Location Samuel Riggs IV Alumni Center 7801 Alumni Dr. College Park, MD 20742 Get Directions with Google Maps Contact Alumni Association (301).405.4678 alumni@umd.edu For access needs, accommodations, and questions, please contact Lindsey M. Wareing at lwareing@umd.edu Event Tags Schools and Units A. James Clark School of Engineering Alumni Association Belonging & Community at UMD The Clarice Smith Performing Arts Center College of Agriculture and Natural Resources College of Arts and Humanities College of ",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Halloween Horror Films Trivia Night",
@@ -2685,6 +2795,50 @@
    "outdoorHint": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "IRS for the AI Ager",
+   "url": "https://calendar.umd.edu/irs-for-the-ai-ager",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:00",
+   "venue": "IRS for the AI Ager",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join Smith Professor and former Acting IRS Commissioner Mike Faulkender and Anderson Managing Director Cory Ellenson for a discussion about the changing landscape in accounting and tax careers. Tue Oct 27 12:00pm To – 1:00pm Van Munching Hall Register for the event here Link will be below Add to Calendar Join Smith Professor and former Acting IRS Commissioner Mike Faulkender and Anderson Managing Director Cory Ellenson for a discussion about the changing landscape in accounting and tax careers. Location Van Munching Hall 2517 Van Munching Hall Contact Robert H. Smith School of Business (301).405.2136 info@rhsmith.umd.edu For access needs, accommodations, and questions, please contact Emanuel Zur at ezur@umd.edu Event Tags Schools and Units Robert H. Smith School of Business Audience Undergraduate Students Graduate Students Alumni Faculty Staff Event Topics Academics",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Is Capitalism Superior to Socialism as an Economic System That Promotes Individual Freedom and Prosperity? A Debate.",
+   "url": "https://calendar.umd.edu/is-capitalism-superior-to-socialism-as-an-economic-system-that-promotes-individual-freedom-and-prosperity-a-debate",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "19:30",
+   "venue": "Is Capitalism Superior to Socialism as an Economic System That Promotes Individual Freedom and Prosperity? A Debate.",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Is capitalism superior to socialism as an economic system that promotes individual freedom and prosperity? A Debate. Tue Oct 27 6:00pm To – 7:30pm Adele H. Stamp Student Union Is capitalism superior to socialism as an economic system that promotes individual freedom and prosperity? A Debate. Event Registration & Details Page Add to Calendar As concerns about economic inequality, corporate power, and the cost of living intensify, the debate between capitalism and socialism has taken on renewed urgency. Which system best protects individual freedom, expands opportunity, and delivers prosperity—and what tradeoffs does each require? Join leading scholars and public intellectuals for a lively examination of one of the most consequential economic questions of our time. Join us Tuesday October 27th, at 6 pm in the Colony Ballroom at University of Maryland's, Adele H. Stamp Student Union. Rajshree Agarwal, Professor and Director of the Ed Snider Center for Enterprise and Markets at the University of Maryland and Daniel Di Martino, Economist and Fellow at the Manhattan Institute will both argue the affirmative. Paul Adler, Professor Emeritus of Management and Organization in the Marshall School of Business, University of Southern California, and (invited) Megan Romer, Co-chair of the Democratic Socialists",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Jenna Davis",
@@ -2846,6 +3000,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Language House International Film Series: \"Yves Saint Laurent\" with the French Cluster",
+   "url": "https://calendar.umd.edu/language-house-international-film-series-yves-saint-laurent-with-the-french-cluster",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Language House International Film Series: \"Yves Saint Laurent\" with the French Cluster",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join us for a French movie night at the Language House! Tue Oct 27 6:00pm To – 8:00pm St. Mary's Hall Visit the SLLC events page for more information. SLLC events page Add to Calendar Join students from the Language House French cluster for the next installment in the International Film Series! We'll be screening the film \"Yves Saint Laurent\" on Tuesday, October 27 at 6:00pm in the International Film Lounge (0107), on the ground floor of St. Mary's Hall. English subtitles will be provided. Everyone is welcome! Film synopsis: The film follows the iconic fashion designer Yves Saint Laurent from 1958 through the building of his global fashion empire. Location St. Mary's Hall The film will be screened in 0107 St. Mary's Hall, the International Film Lounge, on the ground floor. Contact Language House SLLC (301).405.4046 mmatar@umd.edu For access needs, accommodations, and questions, please contact Charlee Bezilla at sllc-accessibility@umd.edu Hosted By Language House SLLC School of Languages, Literatures, & Cultures Event Tags Schools and Units Belonging & Community at UMD College of Arts and Humanities Department of Resident Life Division of Student Affairs Office of Undergraduate Studies Audience Undergraduate Students Graduate Students Fa",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Montgomery",
@@ -3112,6 +3288,28 @@
    "admission": "Email: fields@libertysportspark.com or call 443.794.7004 for more details"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Masterful Strings: Boston Trio",
+   "url": "https://calendar.umd.edu/masterful-strings-boston-trio",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "22:00",
+   "venue": "Masterful Strings: Boston Trio",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Celebrated for their exceptional ensemble, luminous balance and compelling interpretations, the Boston Trio has earned acclaim for performances that combine virtuosity, depth and imagination. Tue Oct 27 8:00pm To – 10:00pm The Clarice Smith Performing Arts Center Learn more Clarice website Add to Calendar “Whenever this trio plays, drop everything and go hear them!” hailed the Boston Globe following the Boston Trio’s Tanglewood debut at Ozawa Hall. Celebrated for their exceptional ensemble, luminous balance and compelling interpretations, the Boston Trio — violinist Irina Muresanu, cellist Christine Lee and pianist Heng-Jin Park — has earned acclaim for performances that combine virtuosity, depth and imagination. Join us as the Boston Trio joins us for a performance of works by Turina, Ruehr and Brahms as part of our Masterful Strings Series. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Park, MD 20742-1625 Get Directions with Google Maps Contact The Clarice Smith Performing Arts Center (301).405.2787 tickets-theclarice@umd.edu For access needs, accommodations, and questions, please contact The Clarice Ticket Office at tickets-theclarice@umd.edu Hosted By College of Arts and Humanities School of Music The Clarice Smith Performing Arts Center Event Tags Schools and Units The Clarice Smith Performing Arts Center College of Arts and Humanities",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Miguel Braceli: UNBURIAL (exhibition)",
@@ -3177,6 +3375,28 @@
    "description": "From the California coast to the Kansas heartland to the streets of New York City, the photographs in Much Here is Beautiful: Photography Surveys of the U.S. Bicentennial present an expansive and evocative portrait of America with a focus on the 1970s and early 1980s. The exhibition offers a history of federal survey photography, beginning in the 19th century and leading up to the years just before and after the Bicentennial in 1976, through selected images that document people and places in the United States.",
    "categories": "America250 in DC",
    "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Music Lounge Show & Tell",
+   "url": "https://calendar.umd.edu/music-lounge-show-tell",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "16:30",
+   "venue": "Music Lounge Show & Tell",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Show off your taste, create new playlists, jam with us! Tue Oct 27 3:00pm To – 4:30pm Cole Student Activities Building Terplink Terplink Add to Calendar Calling all music lovers, mixtape makers, and playlist warriors! Do you have a favorite song, album, music video, or Tiny Desk you wish the whole world could hear? This is your chance to share it! Join us in The Braid for some food, and bring a song you've been looking to share with someone. Music of all genres and languages are welcome! The PopCULTURE Lounge is a space to discuss, explore, appreciate & think critically about what’s happening in pop culture today. Join us twice a month for snacks, drinks, and great conversation! For access needs, accommodations, and questions related to this event please reach out to: mica-office@umd.edu Location Cole Student Activities Building The Braid Lounge @ The Unity Center Contact Multicultural Involvement & Community Advocacy (MICA) (301).314.8600 MICA-contact@umd.edu For access needs, accommodations, and questions, please contact mica-office@umd.edu at mica-office@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Tags Music Event Topics Arts, Entertainment and Culture Diversity a",
+   "categories": "",
+   "recurrence": "",
    "admission": ""
   },
   {
@@ -4232,6 +4452,28 @@
    "description": "Looking for Halloween activities in Crofton that are not limited to one crowded weekend? Make Monster Mini Golf Crofton part of your spooky season plans throughout October. Gather your favorite ghouls for glow-in-the-dark mini golf, arcade games and monstrous indoor fun in an immersive setting made for the season. Add a Halloween date night, family night out, October birthday celebration or something fun to do with friends this season! Monster Mini Golf offers a friendly fright for all ages, any day of the week. Monster Mini Golf Crofton welcomes guests from Bowie, Gambrills, and surrounding areas. Stop by the nearest location today!",
    "categories": "Family Friendly",
    "recurrence": "Recurring daily",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Spooky Situations: Step Up! Event",
+   "url": "https://calendar.umd.edu/spooky-situations-step-up-event",
+   "dates": [
+    "2026-10-27"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Spooky Situations: Step Up! Event",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join CARE Step Up! Educators for a spooky evening of bystander intervention and learning how to step up when it matters. Tue Oct 27 6:00pm To – 8:00pm Edward St. John Learning and Teaching Center Visit CARE's Event webpage for more information. CARE Events Add to Calendar CARE Step Up! Educators host a spooky evening of bystander intervention. More information to come! Email mmeads@umd.edu with any questions. Location Edward St. John Learning and Teaching Center Room 1215 Contact CARE to Stop Violence (301).314.2222 uhc-care@umd.edu For access needs, accommodations, and questions, please contact Meredith Meads at mmeads@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Faculty Staff Friends Campus Leaders Tags Public Safety Sexual Assault Prevention & Education Event Topics Health and Wellness Student Life",
+   "categories": "",
+   "recurrence": "",
    "admission": ""
   },
   {
@@ -5481,6 +5723,50 @@
    "admission": "Free"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "ARHU Prospective Student Event: Arts, Humanities & You 2026",
+   "url": "https://calendar.umd.edu/arhu-prospective-student-event-arts-humanities-you-2026",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "16:30",
+   "endTime": "19:00",
+   "venue": "ARHU Prospective Student Event: Arts, Humanities & You 2026",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Come learn about academic programs in the arts and humanities, hear from current students and ask questions about how the arts and humanities can be a part of your University of Maryland experience! Wed Oct 28 4:30pm To – 7:00pm Tawes Hall Register today Registration form Add to Calendar Visit the University of Maryland College of Arts and Humanities to learn about academic programs in the arts and humanities, hear from current students and ask questions about how the arts and humanities can be a part of your University of Maryland experience! This event is open to prospective students and their families. Location Tawes Hall Ulrich Recital Hall Contact College of Arts and Humanities (301).405.2088 For access needs, accommodations, and questions, please contact Jessica Krenek at jkrenek@umd.edu Event Tags Schools and Units College of Arts and Humanities Audience Prospective Students Tags American Studies Archaeology Artificial Intelligence Arts and Culture Communication English History Languages Literature Middle Eastern Studies Music Student Life Theatre, Dance & Performance Studies Visual Arts Women's Studies Event Topics Academics Arts, Entertainment and Culture Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Arts on Stage Presents...Story of Dia de Muertos",
@@ -6089,6 +6375,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Environmental & GIS Career Fair",
+   "url": "https://calendar.umd.edu/environmental-gis-career-fair",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "12:00",
+   "venue": "Environmental & GIS Career Fair",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Career Fair with employers seeking to hire for full-time and part-time positions and internships in environmental policy, communication, research, GIS, conservation, and more. Wed Oct 28 10:00am To – 12:00pm Adele H. Stamp Student Union Register on Handshake Handshake website with event registration details. Add to Calendar Location : Stamp Student Union, Atrium The University of Maryland's annual Environmental and GIS Career Fair connects undergraduate and graduate students, plus recent alumni, with employers seeking to hire for full-time and part-time positions and internships in environmental policy, communication, research, GIS, conservation, sustainability, and related fields. Don't miss this exciting opportunity! Join us on Wednesday, October 28, 2026, from 10:00 a.m. - 12:00 p.m. in the Stamp Student Union - Atrium to connect with employers in your career fields of interest. The University Career Center & the President's Promise is committed to creating and maintaining an accessible and inclusive fair experience for all students. Any student in need of accommodations to attend the Career Fair, navigate the space, or speak with employers should contact the University Career Center at careerfairs@umd.edu at least two (2) weeks before the event. Location Adele H. Stamp Student Union 3972 Campus Drive College Park, MD 20742 Get Directions with Google ",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "Fall Fest at Transfiguration Parish",
@@ -6529,6 +6837,28 @@
    "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "GradImages Portrait Sessions",
+   "url": "https://calendar.umd.edu/gradimages-portrait-sessions",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "GradImages Portrait Sessions",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The Samuel Riggs IV Alumni Center is excited to host GradImages for student portrait sessions October 26-29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Mon Oct 26 To – Thu Oct 29 9:00am To – 8:00pm Samuel Riggs IV Alumni Center Schedule Now Link is going to a booking page for appointments with GradImages Portrait Photographers. Add to Calendar The Alumni Association will host GradImages at the Samuel Riggs IV Alumni Center for student portrait sessions on October 26, 27, 28 and 29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Have an iconic spot on campus you would rather have your picture at? No problem - post production can make your dream come true! Take time to celebrate your upcoming graduation or get the perfect headshot for your resume while on the internship/job hunt. Location Samuel Riggs IV Alumni Center 7801 Alumni Dr. College Park, MD 20742 Get Directions with Google Maps Contact Alumni Association (301).405.4678 alumni@umd.edu For access needs, accommodations, and questions, please contact Lindsey M. Wareing at lwareing@umd.edu Event Tags Schools and Units A. James Clark School of Engineering Alumni Association Belonging & Community at UMD The Clarice Smith Performing Arts Center College of Agriculture and Natural Resources College of Arts and Humanities College of ",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Halloween at Upton Hill",
@@ -6959,6 +7289,28 @@
    "lng": null,
    "description": "Join Cove Collective's Late Fall League: four Wednesday nights of American mahjong with an awesome, friendly group! The league is for players who already know the basics and want a regular game, a little friendly competition, and great company. Dates: Wednesdays, October 28, November 4, 11 & 18 Time: arrive 6:45 PM Location: Cove Collective, Herndon Includes: four weeks of play, snacks, and drinks Level: must know how to play Cost: $99 Only 1 spot remains out of 16! But we also need subs!",
    "categories": "paid",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "LEAP Preschool Program Touring Dates",
+   "url": "https://calendar.umd.edu/leap-preschool-program-touring-dates",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "12:00",
+   "venue": "LEAP Preschool Program Touring Dates",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The LEAP Preschool Program is hosting touring dates on Wednesdays from 11am to 12pm weekly! Wed Oct 28 11:00am To – 12:00pm Lefrak Hall Visit LEAP Website For More Information This Link give access to information about LEAP Add to Calendar The LEAP Preschool is currently accepting applications for our afternoon sessions from 12:45pm to 4:10 pm on Mondays, Wednesdays, and Fridays. For more information about our preschool, our application process, and eligibility please visit our website https://leap.umd.edu/enrollmen... . Location Lefrak Hall Please visit room 0102 in Lefrak Hall for touring. Contact College of Behavioral and Social Sciences (301).405.1690 For access needs, accommodations, and questions, please contact Amanda Clay at aclay1@umd.edu Event Tags Audience Prospective Students Faculty Staff Parents & Families Tags Hearing and Speech Sciences Event Topics Academics",
+   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -7817,6 +8169,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "film",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Seoul of Black Folk: Navigating Race in the Korean Wave",
+   "url": "https://calendar.umd.edu/seoul-of-black-folk-navigating-race-in-the-korean-wave",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:00",
+   "venue": "Seoul of Black Folk: Navigating Race in the Korean Wave",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Fall 2026 Brown Bag Series: Seoul of Black Folk: Navigating Race in the Korean Wave by Dr. Chinyere Osuji Wed Oct 28 12:00pm To – 1:00pm Taliaferro Hall Vist our website for more information! The link is going to AAAS website. Add to Calendar The Department of African American and Africana Studies presents \"Seoul of Black Folk: Navigating Race in the Korean Wave,\" by Dr. Chinyere Osuji. In May 2026, Dr. Chinyere Osuji did a two-week intensive language course in Seoul, South Korea. In this talk, she will discuss feasibility concerns surrounding doing qualitative field research in Seoul along lines of nationality, race, gender, and dis/ability. She has published several popular pieces about the rise in Korean dramas and is currently writing a book about the meaning of blackness in the “Korean Wave.” Please RSVP at go.umd.edu/SeoulofBlackFolk . The Zoom link provded after RSVP. Location Taliaferro Hall 1102 Hybrid Event - Zoom link provide after RSVP. Contact Department of African American Studies (301).405.1158 Naia Lee-Hendricks leehnai@umd.edu For access needs, accommodations, and questions, please contact Natalie Rivera at nrivera2@umd.edu Event Tags Schools and Units College of Behavioral and Social Sciences Audience Undergraduate Students Graduate Students Faculty Tags African Ameri",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Montgomery",
@@ -8792,6 +9166,28 @@
    "admission": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Weed It Wednesdays",
+   "url": "https://calendar.umd.edu/weed-it-wednesdays-2",
+   "dates": [
+    "2026-10-28"
+   ],
+   "dateKind": "single",
+   "time": "13:30",
+   "endTime": "15:00",
+   "venue": "Weed It Wednesdays",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join us Wednesday for fresh air, good vibes, and a little garden therapy. Wed Oct 28 1:30pm To – 3:00pm Arboretum Outreach Center Register Here Link to Google Form with registration information Add to Calendar Join us Wednesday for fresh air, good vibes, and a little garden therapy. No experience needed — just show up ready to get your hands dirty (we provide gloves!) and help cultivate our living campus. The event takes place from 1:30pm - 3pm at various places across campus so be sure to register to receive location information! Don't worry - all events will take place on campus! Location Arboretum Outreach Center The location varies across campus in our gardens. Each week's location is indicated on the registration form. Contact Facilities Management 301.405.2222 fmcrc@umd.edu For access needs, accommodations, and questions, please contact Meg Smolinski at 3013141823 Event Tags Audience Undergraduate Students Graduate Students Alumni Faculty Staff Friends External Media Tags Environmental Health Event Topics Community Engagement Health and Wellness Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "WEEKLY TRIVIA",
@@ -9181,6 +9577,28 @@
    "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
    "recurrence": "Recurring weekly on Thursday",
    "admission": "FREE"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -9736,6 +10154,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Circles of Connection",
+   "url": "https://calendar.umd.edu/circles-of-connection",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:00",
+   "venue": "Circles of Connection",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join the Memorial Chapel and University Health Center for our Fall 2026 labyrinth and meditation series. Thu Oct 29 12:00pm To – 1:00pm Memorial Chapel RSVP Here Google form RSVP link Add to Calendar Join the Memorial Chapel and University Health Center for our Fall 2026 labyrinth and meditation series. We will gather outside at the Garden of Reflection and Remembrance at noon for a guided meditation, mindful labyrinth journey, and free lunch. Here are the dates for Fall 2026: Oct. 1 Oct. 8 Oct. 15 Oct. 22 Oct. 29 Location Memorial Chapel 7744 Regents Drive College Park, MD 20742 Get Directions with Google Maps Contact Memorial Chapel (301).314.9866 chapel@umd.edu For access needs, accommodations, and questions, please contact Denise McHugh at dmchugh@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Alumni Faculty Staff Friends Campus Leaders Tags Food Health and Fitness Student Affairs Student Life Event Topics Community Engagement Diversity and Inclusion Health and Wellness Spiritual and Religious Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Patch",
    "siteCounty": "Loudoun County",
    "title": "Citizenship Preparation",
@@ -10215,6 +10655,28 @@
    "lng": -77.04102309999999,
    "description": "A longtime comedy club standout, Godfrey's profile has gotten even bigger in recent years thanks to his \"In Godfrey We Trust\" podcast and a stint hosting his own satellite radio show. The Chicago native is a live wire on stage, using an arsenal of voices and wide-eyed expressions while giving his high-energy takes on current events. Check out one of the hottest touring comics going ...",
    "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "GradImages Portrait Sessions",
+   "url": "https://calendar.umd.edu/gradimages-portrait-sessions",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "GradImages Portrait Sessions",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The Samuel Riggs IV Alumni Center is excited to host GradImages for student portrait sessions October 26-29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Mon Oct 26 To – Thu Oct 29 9:00am To – 8:00pm Samuel Riggs IV Alumni Center Schedule Now Link is going to a booking page for appointments with GradImages Portrait Photographers. Add to Calendar The Alumni Association will host GradImages at the Samuel Riggs IV Alumni Center for student portrait sessions on October 26, 27, 28 and 29, 2026. Sessions will be held in the beautiful Chaney Library & Moxley Gradens (weather dependent). Have an iconic spot on campus you would rather have your picture at? No problem - post production can make your dream come true! Take time to celebrate your upcoming graduation or get the perfect headshot for your resume while on the internship/job hunt. Location Samuel Riggs IV Alumni Center 7801 Alumni Dr. College Park, MD 20742 Get Directions with Google Maps Contact Alumni Association (301).405.4678 alumni@umd.edu For access needs, accommodations, and questions, please contact Lindsey M. Wareing at lwareing@umd.edu Event Tags Schools and Units A. James Clark School of Engineering Alumni Association Belonging & Community at UMD The Clarice Smith Performing Arts Center College of Agriculture and Natural Resources College of Arts and Humanities College of ",
+   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -11963,6 +12425,28 @@
    "admission": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Special Event: The Aftermath of the General Election in Israel",
+   "url": "https://calendar.umd.edu/special-event-the-aftermath-of-the-general-election-in-israel",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "19:00",
+   "venue": "Special Event: The Aftermath of the General Election in Israel",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Prof. Shibley Telhami, Dr. Michael Koplow, and Prof. Donna Robinson Divine will explore the election results, coalition-building prospects, voters trends, and the implications for Israel's domestic politics, economy, and foreign relations. Thu Oct 29 6:00pm To – 7:00pm Online Visit Jewish Studies website for more information Jewish Studies website Add to Calendar Speakers will examine how the Israel election results reflect shifts in Israeli public opinion, assess the priorities of the incoming governing coalition, and discuss what the outcome may mean for relations with neighboring states, the Israeli-Palestinian conflict, and Israel's partnerships with the United States, Europe, and the broader Middle East. Location Online Registration Link: Zoom Registration Zoom registration link Contact Gildenhorn Institute for Israel Studies 301.405.9413 israel-contact@umd.edu For access needs, accommodations, and questions, please contact Avis Koeiman at akoeiman@umd.edu Event Tags Schools and Units College of Arts and Humanities Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Government and Politics Middle Eastern Studies Election Event Topics Academics",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Stories of Cryptids from the Maryland State Archives: The Snallygaster Hunt of 1973",
@@ -12083,6 +12567,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Terp Family Hugs & High Fives",
+   "url": "https://calendar.umd.edu/terp-family-hugs-high-fives-3",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "14:00",
+   "venue": "Terp Family Hugs & High Fives",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Terp families are back for Hugs and High Fives! Join us on October 29 from 12.30 - 2.30 p.m. at Hornbake Plaza (Rain Location: Atrium, Stamp) . Thu Oct 29 12:00pm To – 2:00pm Hornbake Plaza Visit the Terp Family website Hugs and High fives event page Add to Calendar Need some extra support and study fuel as you take on the last few weeks of the semester? Terp families will be at Hornbake Plaza on Thursday, October 29, from 12.30 - 2.30 p.m. to offer free hugs, high fives, fist bumps, and words of encouragement. Snacks will also be available (while supplies last). Location Hornbake Plaza Contact Office of Family Engagement 301.314.8429 terpfamily@umd.edu For access needs, accommodations, and questions, please contact Family Engagement at terpfamily@umd.edu or 301.314.7905 Event Tags Schools and Units Office of Family Engagement Audience Undergraduate Students Graduate Students Staff Parents & Families Friends Tags Student Life Family Engagement Event Topics Community Engagement Health and Wellness Student Life Family Engagement",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -13281,6 +13787,28 @@
    "admission": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "BabyCat Brewery Event Space Open House",
@@ -13389,6 +13917,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Becoming Brokers and Advocates for Social Change Fall Workshop",
+   "url": "https://calendar.umd.edu/becoming-brokers-and-advocates-for-social-change-fall-workshop",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "14:00",
+   "venue": "Becoming Brokers and Advocates for Social Change Fall Workshop",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "You're invited to the Becoming Brokers and Advocates for Social Change Fall Workshop hosted by the BSU-UMD Social Justice Alliance and 2nd Lt. Richard W. Collins III Foundation. Fri Oct 30 10:00am To – 2:00pm Adele H. Stamp Student Union Click here to RSVP. Link leads to a Google form where you can RSVP. Add to Calendar You're invited to the Becoming Brokers and Advocates for Social Change Fall Workshop hosted by the BSU-UMD Social Justice Alliance and 2nd Lt. Richard W. Collins III Foundation facilitated by Dr. Victoria Alexander Thompson and Dr. Rashawn Ray at the University of Maryland, College Park. This workshop invites participants to explore the critical role of advocacy, civic engagement, and social justice in advancing equity and strengthening democracy regardless of your experience. As we approach the ten-year remembrance of 1st Lt. Richard W. Collins III, we honor his legacy by equipping the next generation of leaders with the knowledge, skills, and strategies needed to challenge injustice, expand access to civic participation, and create meaningful social change. Through interactive sessions and specialized learning tracks, participants will move beyond awareness to action, developing the tools necessary to become effective brokers and advocates within their communities and institutions. The BSU-UMD SJA Fall Workshop will be held on Friday, Oct",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -16140,6 +16690,28 @@
    "outdoorHint": "a home baseball game, an outdoor sport"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Maryland Field Hockey vs Iowa",
+   "url": "https://calendar.umd.edu/maryland-field-hockey-6-2-2-2-2-2-2",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "15:00",
+   "venue": "Maryland Field Hockey vs Iowa",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Watch Maryland field hockey compete at the Field Hockey & Lacrosse Complex! Come support one of the nation's top field hockey programs on their home turf. Fri Oct 30 1:00pm To – 3:00pm Field Hockey and Lacrosse Complex Reserve Tickets Link to athletics website Add to Calendar Watch Maryland field hockey compete at the Field Hockey & Lacrosse Complex! Come support one of the nation's top field hockey programs on their home turf. Location Field Hockey and Lacrosse Complex Contact Maryland Athletics terptix@umd.edu For access needs, accommodations, and questions, please contact Maryland Athletics at terptix@umd.edu Hosted By Maryland Athletics Event Tags Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Field Hockey Event Topics Athletics and Recreation Arts, Entertainment and Culture Community Engagement Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Maryland Athletics",
    "siteCounty": "",
    "title": "Maryland Field Hockey vs. Iowa",
@@ -18146,6 +18718,28 @@
    "categories": "Seasonal & Holidays, Halloween, Performing Arts/Theater/Film, Spotlight Events",
    "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
    "admission": "Starting at $25"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Working in the Arts: Workshop – Creating Your Checklist",
+   "url": "https://calendar.umd.edu/working-in-the-arts-workshop-creating-your-checklist",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:30",
+   "venue": "Working in the Arts: Workshop – Creating Your Checklist",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The Stamp Gallery and Studio A present \"Working in the Arts: Workshop – Creating Your Checklist\" Fri Oct 30 12:00pm To – 1:30pm Adele H. Stamp Student Union RSVP here. Link leads to RSVP page. Add to Calendar Want to apply for a grant and need to know where to begin? Join us for a workshop led by Cassie Janowski, the program coordinator at Arts for All. During this session, we will learn how to build your grant application from the ground up, focusing on identifying, organizing, and completing the main elements needed for your grant narrative. If you are currently working on your grant materials, please bring them with you! Learn more and RSVP here. Location Adele H. Stamp Student Union 3972 Campus Drive College Park, MD 20742 Get Directions with Google Maps Studio A Basement, Adele H. Stamp Student Union Contact Studio A 301.314.ARTS StudioA@umd.edu For access needs, accommodations, and questions, please contact Tara youngborg at tny@umd.edu Hosted By Stamp Gallery Studio A Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Arts and Culture Event Topics Arts, Entertainment and Culture",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -30282,6 +30876,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -31923,6 +32539,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -33440,6 +34078,28 @@
    "admission": "",
    "athletics": true,
    "outdoorHint": "a home soccer game, an outdoor sport"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Another Look, Another World (Insect Art) Exhibition",
+   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Another Look, Another World (Insect Art) Exhibition",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -35630,7 +36290,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-27T17:54:15.767Z",
+  "generatedAt": "2026-10-27T17:58:19.541Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -35639,7 +36299,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1126
+    "ms": 1785
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -35647,7 +36307,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 485
+    "ms": 641
    },
    "City of Rockville": {
     "ok": true,
@@ -35655,7 +36315,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1413
+    "ms": 1566
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -35663,7 +36323,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 729
+    "ms": 1133
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -35671,7 +36331,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 721
+    "ms": 768
    },
    "Navy Yard BID": {
     "ok": true,
@@ -35679,7 +36339,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 697
+    "ms": 1123
    },
    "DowntownDC BID": {
     "ok": true,
@@ -35687,7 +36347,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 763
+    "ms": 1146
    },
    "Falls Church": {
     "ok": true,
@@ -35727,39 +36387,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 861
-   },
-   "Mount Vernon Triangle CID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 2899
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 367
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1399
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 471
+    "ms": 847
    },
    "Ticketmaster": {
     "ok": true,
@@ -35769,13 +36397,45 @@
     "error": "",
     "ms": null
    },
+   "Mount Vernon Triangle CID": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 520
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 382
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 2039
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 511
+   },
    "City of Greenbelt": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 606
+    "ms": 475
    },
    "Visit Alexandria": {
     "ok": true,
@@ -35783,7 +36443,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 542
+    "ms": 1094
    },
    "City of Bowie": {
     "ok": true,
@@ -35791,7 +36451,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1813
+    "ms": 1255
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -35799,23 +36459,7 @@
     "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 470
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 21,
-    "outcome": "",
-    "error": "",
-    "ms": 350
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 27409
+    "ms": 1176
    },
    "City of Hyattsville": {
     "ok": true,
@@ -35823,31 +36467,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 498
+    "ms": 1087
    },
-   "National Arboretum (FONA)": {
+   "NPS National Mall": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 338
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 1977
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 24,
-    "outcome": "",
-    "error": "",
-    "ms": 478
+    "ms": 973
    },
    "Downtown Columbia": {
     "ok": true,
@@ -35855,7 +36483,31 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 832
+    "ms": 2081
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 2050
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 168
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 122
    },
    "Visit Calvert": {
     "ok": true,
@@ -35863,23 +36515,7 @@
     "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 584
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 13,
-    "outcome": "",
-    "error": "",
-    "ms": 6762
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2729
+    "ms": 601
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -35887,7 +36523,23 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 871
+    "ms": 1525
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 24,
+    "outcome": "",
+    "error": "",
+    "ms": 580
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 13,
+    "outcome": "",
+    "error": "",
+    "ms": 930
    },
    "Town of Vienna": {
     "ok": true,
@@ -35895,7 +36547,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 1737
+    "ms": 1669
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 3317
    },
    "Town of Occoquan": {
     "ok": true,
@@ -35903,7 +36563,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 117
+    "ms": 517
    },
    "Town of Warrenton": {
     "ok": true,
@@ -35911,7 +36571,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 555
+    "ms": 497
    },
    "Visit Stafford": {
     "ok": true,
@@ -35919,7 +36579,7 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 279
+    "ms": 542
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -35927,119 +36587,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 21325
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 17,
-    "outcome": "",
-    "error": "",
-    "ms": 154
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 3853
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2523
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 855
-   },
-   "City of Frederick": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1081
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 904
-   },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 571
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 6866
-   },
-   "City of Fairfax": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 2467
-   },
-   "Mosaic District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 604
-   },
-   "Union Market District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1524
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
-    "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 158
-   },
-   "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 183
-   },
-   "George Washington’s Mount Vernon": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1524
+    "ms": 1171
    },
    "DC HSEMA": {
     "ok": true,
@@ -36048,6 +36596,118 @@
     "outcome": "",
     "error": "",
     "ms": null
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 17,
+    "outcome": "",
+    "error": "",
+    "ms": 340
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 801
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 465
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 639
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1026
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 672
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 442
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 7417
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1072
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 167
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 466
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 252
+   },
+   "One Loudoun": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 151
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 884
    }
   },
   "count": 193,
