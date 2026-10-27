@@ -785,6 +785,8 @@ export function parseLocalist(payload, src, today, windowEnd) {
   const out = [];
   for (const {event: e} of payload?.events || []) {
     if (!e || e.private || e.status !== 'live' || /virtual|online/i.test(e.experience || '')) continue;
+    // "Sign in to download the location": a members-only (student) event.
+    if (/sign in/i.test(e.location_name || '') || /water polo|swim|dive/i.test(e.title || '')) continue;
     const aud = (e.filters?.event_audiences || []).map(a => a.name);
     if (aud.length && !aud.some(a => PUBLIC_AUDIENCE.test(a))) continue;
     for (const {event_instance: inst} of e.event_instances || []) {
