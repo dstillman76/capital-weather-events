@@ -606,6 +606,81 @@ async function collectPatch(today, windowEnd) {
   return {report, records};
 }
 
+/* ---------- University athletics (SIDEARM schedules) ---------- */
+
+// Home games in outdoor sports (soccer, field hockey, lacrosse, baseball,
+// softball, football, cross country…) are public, usually free, and very much
+// weather-dependent. Most schools here publish their full schedule as JSON on
+// the same platform. Away games and indoor sports are left out.
+const ATHLETICS = [
+  {name: 'Maryland Athletics', host: 'umterps.com', city: 'College Park', state: 'MD'},
+  {name: 'Navy Athletics', host: 'navysports.com', city: 'Annapolis', state: 'MD'},
+  {name: 'UMBC Athletics', host: 'umbcretrievers.com', city: 'Catonsville', state: 'MD'},
+  {name: 'Towson Athletics', host: 'towsontigers.com', city: 'Towson', state: 'MD'},
+  {name: 'George Mason Athletics', host: 'gomason.com', city: 'Fairfax', state: 'VA'},
+  {name: 'Georgetown Athletics', host: 'guhoyas.com', city: 'Washington', state: 'DC'},
+  {name: 'GW Athletics', host: 'gwsports.com', city: 'Washington', state: 'DC'},
+  {name: 'American University Athletics', host: 'aueagles.com', city: 'Washington', state: 'DC'},
+  {name: 'Howard Athletics', host: 'hubison.com', city: 'Washington', state: 'DC'},
+  {name: 'Catholic University Athletics', host: 'cuacardinals.com', city: 'Washington', state: 'DC'},
+];
+const OUTDOOR_SPORT = /\b(?:soccer|field hockey|lacrosse|baseball|softball|football|cross country|rugby|beach volleyball|track|rowing|golf|tennis)\b/i;
+const INDOOR_SPORT = /\b(?:basketball|volleyball(?! beach)|wrestling|swim|diving|gymnastics|ice hockey|bowling|squash|fencing|indoor|esports|broadcast)\b/i;
+export function parseSidearmMonth(payload, src, today, windowEnd) {
+  const out = [];
+  for (const day of Array.isArray(payload) ? payload : []) for (const g of day.events || []) {
+    const date = String(g.date || '').slice(0, 10);
+    if (!/^\d{4}-\d\d-\d\d$/.test(date) || date < today || date > windowEnd) continue;
+    if (g.location_indicator !== 'H') continue;
+    const sport = String(g.sport?.title || '').trim();
+    if (!OUTDOOR_SPORT.test(sport) || INDOOR_SPORT.test(sport) && !/beach volleyball/i.test(sport)) continue;
+    if (/^(?:C|P|X)$/.test(g.status || '') || /cancel|postpon/i.test(g.noplay_text || '')) continue;
+    const opp = String(g.opponent?.title || '').trim();
+    const clock = String(g.date || '').slice(11, 16);
+    const time = clock && clock !== '00:00' && !/tbd|tba|all day/i.test(g.time || '') ? clock : '';
+    const loc = String(g.location || '');
+    const csz = loc.match(/^([A-Za-z .'-]+),\s*(MD|VA|DC|Md\.|Va\.|D\.C\.)$/i);
+    const facility = String(g.facility?.title || '').trim() || (csz ? '' : loc);
+    const school = src.name.replace(/ Athletics$/, '');
+    out.push({
+      source: src.name, siteCounty: '', title: `${school} ${sport}${opp ? (g.at_vs === 'at' ? ' at ' : ' vs. ') + opp : ''}`,
+      url: `https://${src.host}/sports/${g.sport?.shortname || ''}/schedule`.replace(/\/sports\/\/schedule$/, '/calendar'),
+      dates: [date], dateKind: 'single', time, endTime: '',
+      venue: facility || school + ' campus', address: '', city: csz ? csz[1].trim().replace(/^Washington.*$/i, 'Washington') : src.city, state: src.state,
+      lat: null, lng: null,
+      description: `${school} home ${sport.toLowerCase()} game${opp ? ' against ' + opp : ''}${facility ? ' at ' + facility : ''}. Outdoor venue; check the team's site for weather updates.`,
+      categories: 'sports', recurrence: '', admission: '',
+      athletics: true, outdoorHint: `a home ${sport.toLowerCase()} game, an outdoor sport`,
+    });
+  }
+  return out;
+}
+async function collectAthletics(today, windowEnd) {
+  const report = {source: 'University athletics', kind: 'sidearm', status: 'ok', schools: 0, failed: [], inWindow: 0, note: ''};
+  const records = [];
+  const months = [...new Set([today, windowEnd].map(d => d.slice(5, 7) + '/15/' + d.slice(0, 4)))];
+  await Promise.all(ATHLETICS.map(async src => {
+    const site = new Site(src.host);
+    try {
+      await site.init();
+      let any = false;
+      for (const m of months) {
+        const json = JSON.parse(await site.get(`https://${src.host}/services/responsive-calendar.ashx?type=month&sport=0&date=${m}`));
+        any = true;
+        for (const r of parseSidearmMonth(json, src, today, windowEnd)) records.push(r);
+      }
+      if (any) report.schools++;
+    } catch (e) { report.failed.push(src.name + ': ' + e.message); }
+  }));
+  // The month views overlap at the edges; one record per school, sport and start.
+  const seen = new Set();
+  const out = records.filter(r => { const k = r.source + '|' + r.title + '|' + r.dates[0] + '|' + r.time; if (seen.has(k)) return false; seen.add(k); return true; });
+  report.inWindow = out.length;
+  if (report.failed.length) report.note = 'Not read: ' + report.failed.join('; ');
+  if (!report.schools) report.status = 'failed';
+  return {report, records: out};
+}
+
 /* ---------- Visit Montgomery ---------- */
 
 // Visit Montgomery's GeoDirectory API often takes 10–60 s a page, longer than
@@ -770,6 +845,7 @@ async function main() {
     // Parktakes refuses GitHub's servers (HTTP 403, Oct 26, 2026); not bypassed, so not called.
     // collectParktakes(today, windowEnd),
     collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
+    collectAthletics(today, windowEnd).catch(e => ({report: {source: 'University athletics', status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
