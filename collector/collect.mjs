@@ -691,6 +691,75 @@ async function collectAthletics(today, windowEnd) {
   return {report, records};
 }
 
+/* ---------- University of Maryland campus calendar ---------- */
+
+// calendar.umd.edu draws its event list from the university's public GraphQL
+// feed, with a viewer token embedded in the page (the same feed UMD's own
+// web components use to show events on other sites). Only events whose
+// audience includes the public ("Friends") are kept; the widget's outdoor
+// checks then decide, so lectures and indoor talks drop out and big outdoor
+// days like Maryland Day stay.
+const UMD = {name: 'University of Maryland', city: 'College Park', state: 'MD', county: 'Prince George’s County'};
+const UMD_QUERY = `query getEvents($startDate: String!, $limit: Int, $offset: Int) {
+  entries: solspace_calendar { events(loadOccurrences: true, startsAfterOrAt: $startDate, limit: $limit, offset: $offset) {
+    ... on communications_Event { ...F_communications }
+    ... on submission_Event { ...F_submission }
+  } }
+}
+${['communications', 'submission'].map(c => `fragment F_${c} on ${c}_Event {
+  id title url
+  startStamp: startDate @formatDateTime(format: "Y-m-d")
+  startClock: startDate @formatDateTime(format: "H:i")
+  endStamp: endDate @formatDateTime(format: "Y-m-d")
+  endClock: endDate @formatDateTime(format: "H:i")
+  allDay
+  summary: commonRichTextTwo
+  location: categoriesCampusBuildingSingle { title }
+  audience: categoriesEventAudienceMultiple { title }
+}`).join('\n')}`;
+async function collectUMD(today, windowEnd) {
+  const report = {source: UMD.name, kind: 'graphql', status: 'ok', listings: 0, publicListings: 0, inWindow: 0, note: ''};
+  const site = new Site('calendar.umd.edu'); await site.init();
+  const page = await site.get('https://calendar.umd.edu/');
+  const token = (page.match(/data-token=["']?([A-Za-z0-9_-]{16,})/) || [])[1];
+  if (!token) { report.status = 'failed'; report.note = 'Feed token not found on the calendar page.'; return {report, records: []}; }
+  const records = [], seen = new Set();
+  for (let offset = 0; offset < 1200; offset += 200) {
+    const res = await fetch('https://calendar.umd.edu/graphql', {method: 'POST', signal: AbortSignal.timeout(60000),
+      headers: {'content-type': 'application/json', authorization: 'Bearer ' + token, 'user-agent': UA},
+      body: JSON.stringify({query: UMD_QUERY, variables: {startDate: today, limit: 200, offset}})});
+    if (!res.ok) { report.status = offset ? 'partial' : 'failed'; report.note = 'GraphQL HTTP ' + res.status; break; }
+    const json = await res.json();
+    if (json.errors?.length) { report.status = offset ? 'partial' : 'failed'; report.note = 'GraphQL: ' + String(json.errors[0].message).slice(0, 160); break; }
+    const rows = json.data?.entries?.events || [];
+    report.listings += rows.length;
+    let beyond = 0;
+    for (const e of rows) {
+      const date = e.startStamp;
+      if (!date || date > windowEnd) { beyond++; continue; }
+      if (date < today) continue;
+      const aud = (e.audience || []).map(a => a.title);
+      if (!aud.some(a => /friends|community|public|alumni|families|prospective/i.test(a))) continue;
+      report.publicListings++;
+      const key = e.id + '|' + date + '|' + e.startClock;
+      if (seen.has(key)) continue; seen.add(key);
+      const multi = e.endStamp && e.endStamp !== date;
+      records.push({
+        source: UMD.name, siteCounty: UMD.county, title: textOf(e.title), url: e.url,
+        dates: multi && daysBetween(date, e.endStamp) <= 3 ? rangeDates(date, e.endStamp).filter(d => d <= windowEnd) : [date],
+        dateKind: 'single', time: e.allDay || e.startClock === '00:00' ? '' : e.startClock,
+        endTime: !e.allDay && !multi && e.endClock && e.endClock > e.startClock ? e.endClock : '',
+        venue: textOf(e.location?.[0]?.title || e.location?.title || '') || 'University of Maryland campus',
+        address: '', city: UMD.city, state: UMD.state, lat: null, lng: null,
+        description: textOf(e.summary).slice(0, 1500), categories: aud.join(', '), recurrence: '', admission: '',
+      });
+    }
+    if (rows.length < 200 || beyond === rows.length) break;
+  }
+  report.inWindow = records.length;
+  return {report, records};
+}
+
 /* ---------- Visit Montgomery ---------- */
 
 // Visit Montgomery's GeoDirectory API often takes 10–60 s a page, longer than
@@ -858,6 +927,7 @@ async function main() {
     // collectParktakes(today, windowEnd),
     collectPatch(today, windowEnd).catch(e => ({report: {source: 'Patch', status: 'failed', note: e.message}, records: []})),
     collectAthletics(today, windowEnd).catch(e => ({report: {source: 'University athletics', status: 'failed', note: e.message}, records: []})),
+    collectUMD(today, windowEnd).catch(e => ({report: {source: UMD.name, status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
