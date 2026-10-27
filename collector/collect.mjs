@@ -606,49 +606,62 @@ async function collectPatch(today, windowEnd) {
   return {report, records};
 }
 
-/* ---------- University athletics (SIDEARM schedules) ---------- */
+/* ---------- University athletics (SIDEARM calendar feeds) ---------- */
 
 // Home games in outdoor sports (soccer, field hockey, lacrosse, baseball,
 // softball, football, cross country…) are public, usually free, and very much
-// weather-dependent. Most schools here publish their full schedule as JSON on
-// the same platform. Away games and indoor sports are left out.
+// weather-dependent. The schools here publish their whole schedule as an
+// iCalendar feed (robots.txt disallows their /services/ JSON, so it isn't used).
+// Away games, neutral sites and indoor sports are left out.
 const ATHLETICS = [
-  {name: 'Maryland Athletics', host: 'umterps.com', city: 'College Park', state: 'MD'},
-  {name: 'Navy Athletics', host: 'navysports.com', city: 'Annapolis', state: 'MD'},
-  {name: 'UMBC Athletics', host: 'umbcretrievers.com', city: 'Catonsville', state: 'MD'},
-  {name: 'Towson Athletics', host: 'towsontigers.com', city: 'Towson', state: 'MD'},
-  {name: 'George Mason Athletics', host: 'gomason.com', city: 'Fairfax', state: 'VA'},
-  {name: 'Georgetown Athletics', host: 'guhoyas.com', city: 'Washington', state: 'DC'},
-  {name: 'GW Athletics', host: 'gwsports.com', city: 'Washington', state: 'DC'},
-  {name: 'American University Athletics', host: 'aueagles.com', city: 'Washington', state: 'DC'},
-  {name: 'Howard Athletics', host: 'hubison.com', city: 'Washington', state: 'DC'},
-  {name: 'Catholic University Athletics', host: 'cuacardinals.com', city: 'Washington', state: 'DC'},
+  {name: 'Maryland Athletics', host: 'umterps.com', home: ['College Park'], state: 'MD'},
+  {name: 'Navy Athletics', host: 'navysports.com', home: ['Annapolis'], state: 'MD'},
+  {name: 'UMBC Athletics', host: 'umbcretrievers.com', home: ['Catonsville', 'Baltimore'], state: 'MD'},
+  {name: 'Towson Athletics', host: 'towsontigers.com', home: ['Towson'], state: 'MD'},
+  {name: 'George Mason Athletics', host: 'gomason.com', home: ['Fairfax'], state: 'VA'},
+  {name: 'Georgetown Athletics', host: 'guhoyas.com', home: ['Washington'], state: 'DC'},
+  {name: 'GW Athletics', host: 'gwsports.com', home: ['Washington'], state: 'DC'},
+  {name: 'American University Athletics', host: 'aueagles.com', home: ['Washington'], state: 'DC'},
+  {name: 'Howard Athletics', host: 'hubison.com', home: ['Washington'], state: 'DC'},
+  {name: 'Catholic University Athletics', host: 'cuacardinals.com', home: ['Washington'], state: 'DC'},
 ];
 const OUTDOOR_SPORT = /\b(?:soccer|field hockey|lacrosse|baseball|softball|football|cross country|rugby|beach volleyball|track|rowing|golf|tennis)\b/i;
-const INDOOR_SPORT = /\b(?:basketball|volleyball(?! beach)|wrestling|swim|diving|gymnastics|ice hockey|bowling|squash|fencing|indoor|esports|broadcast)\b/i;
-export function parseSidearmMonth(payload, src, today, windowEnd) {
+const INDOOR_SPORT = /\b(?:basketball|wrestling|swim|diving|gymnastics|ice hockey|bowling|squash|fencing|indoor|esports|broadcast)\b|\bvolleyball\b(?<!beach volleyball)/i;
+function icsEvents(text) {
+  const lines = String(text).replace(/\r?\n[ \t]/g, '').split(/\r?\n/);
+  const out = []; let cur = null;
+  for (const line of lines) {
+    if (line === 'BEGIN:VEVENT') cur = {};
+    else if (line === 'END:VEVENT') { if (cur) out.push(cur); cur = null; }
+    else if (cur) { const m = line.match(/^([A-Z-]+)((?:;[^:]*)?):(.*)$/); if (m) cur[m[1]] = {params: m[2], value: m[3].replace(/\\([,;\\])/g, '$1').replace(/\\n/gi, ' ').trim()}; }
+  }
+  return out;
+}
+export function parseSidearmICS(text, src, today, windowEnd) {
   const out = [];
-  for (const day of Array.isArray(payload) ? payload : []) for (const g of day.events || []) {
-    const date = String(g.date || '').slice(0, 10);
-    if (!/^\d{4}-\d\d-\d\d$/.test(date) || date < today || date > windowEnd) continue;
-    if (g.location_indicator !== 'H') continue;
-    const sport = String(g.sport?.title || '').trim();
-    if (!OUTDOOR_SPORT.test(sport) || INDOOR_SPORT.test(sport) && !/beach volleyball/i.test(sport)) continue;
-    if (/^(?:C|P|X)$/.test(g.status || '') || /cancel|postpon/i.test(g.noplay_text || '')) continue;
-    const opp = String(g.opponent?.title || '').trim();
-    const clock = String(g.date || '').slice(11, 16);
-    const time = clock && clock !== '00:00' && !/tbd|tba|all day/i.test(g.time || '') ? clock : '';
-    const loc = String(g.location || '');
-    const csz = loc.match(/^([A-Za-z .'-]+),\s*(MD|VA|DC|Md\.|Va\.|D\.C\.)$/i);
-    const facility = String(g.facility?.title || '').trim() || (csz ? '' : loc);
+  for (const ev of icsEvents(text)) {
+    const summary = decode(ev.SUMMARY?.value || ''), location = decode(ev.LOCATION?.value || '');
+    if (!OUTDOOR_SPORT.test(summary) || INDOOR_SPORT.test(summary)) continue;
+    if (/\sat\s/i.test(summary.replace(/^[^ ]+ /, ' '))) continue;              // "Navy Soccer at Army"
+    const parts = location.split(/\s*,\s*/);
+    const city = parts[0] || '', facility = parts.slice(2).join(', ') || (parts.length === 1 ? '' : '');
+    if (!src.home.some(h => city.toLowerCase().startsWith(h.toLowerCase()))) continue;   // away or neutral site
+    const raw = ev.DTSTART?.value || '';
+    let date = '', time = '';
+    if (/^\d{8}$/.test(raw)) date = `${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}`;
+    else if (/^\d{8}T\d{6}Z$/.test(raw)) { const e = etDateTime(`${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}T${raw.slice(9, 11)}:${raw.slice(11, 13)}:00Z`); date = e.date; time = e.time; }
+    else if (/^\d{8}T\d{6}$/.test(raw)) { date = `${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}`; time = `${raw.slice(9, 11)}:${raw.slice(11, 13)}`; }
+    if (!date || date < today || date > windowEnd) continue;
+    if (/cancel|postpon/i.test(summary + ' ' + (ev.DESCRIPTION?.value || ''))) continue;
     const school = src.name.replace(/ Athletics$/, '');
+    const sport = (summary.match(OUTDOOR_SPORT) || [''])[0];
     out.push({
-      source: src.name, siteCounty: '', title: `${school} ${sport}${opp ? (g.at_vs === 'at' ? ' at ' : ' vs. ') + opp : ''}`,
-      url: `https://${src.host}/sports/${g.sport?.shortname || ''}/schedule`.replace(/\/sports\/\/schedule$/, '/calendar'),
-      dates: [date], dateKind: 'single', time, endTime: '',
-      venue: facility || school + ' campus', address: '', city: csz ? csz[1].trim().replace(/^Washington.*$/i, 'Washington') : src.city, state: src.state,
+      source: src.name, siteCounty: '', title: summary.replace(/\s+vs\s+/i, ' vs. ').replace(/\s+/g, ' ').trim(),
+      url: decode(ev.URL?.value || `https://${src.host}/calendar`).replace(/\/\/admin\./, '//'),
+      dates: [date], dateKind: 'single', time: time === '00:00' ? '' : time, endTime: '',
+      venue: facility || school + ' campus', address: '', city: city.replace(/^Washington.*$/i, 'Washington'), state: src.state,
       lat: null, lng: null,
-      description: `${school} home ${sport.toLowerCase()} game${opp ? ' against ' + opp : ''}${facility ? ' at ' + facility : ''}. Outdoor venue; check the team's site for weather updates.`,
+      description: `${school} home ${sport.toLowerCase()} game${facility ? ' at ' + facility : ''}. Outdoor venue; check the team's site for weather updates.`,
       categories: 'sports', recurrence: '', admission: '',
       athletics: true, outdoorHint: `a home ${sport.toLowerCase()} game, an outdoor sport`,
     });
@@ -656,29 +669,20 @@ export function parseSidearmMonth(payload, src, today, windowEnd) {
   return out;
 }
 async function collectAthletics(today, windowEnd) {
-  const report = {source: 'University athletics', kind: 'sidearm', status: 'ok', schools: 0, failed: [], inWindow: 0, note: ''};
+  const report = {source: 'University athletics', kind: 'ics', status: 'ok', schools: 0, failed: [], inWindow: 0, note: ''};
   const records = [];
-  const months = [...new Set([today, windowEnd].map(d => d.slice(5, 7) + '/15/' + d.slice(0, 4)))];
   await Promise.all(ATHLETICS.map(async src => {
     const site = new Site(src.host);
     try {
       await site.init();
-      let any = false;
-      for (const m of months) {
-        const json = JSON.parse(await site.get(`https://${src.host}/services/responsive-calendar.ashx?type=month&sport=0&date=${m}`));
-        any = true;
-        for (const r of parseSidearmMonth(json, src, today, windowEnd)) records.push(r);
-      }
-      if (any) report.schools++;
+      records.push(...parseSidearmICS(await site.get(`https://${src.host}/calendar.ashx/calendar.ics?sport_id=0`, {timeout: 60000}), src, today, windowEnd));
+      report.schools++;
     } catch (e) { report.failed.push(src.name + ': ' + e.message); }
   }));
-  // The month views overlap at the edges; one record per school, sport and start.
-  const seen = new Set();
-  const out = records.filter(r => { const k = r.source + '|' + r.title + '|' + r.dates[0] + '|' + r.time; if (seen.has(k)) return false; seen.add(k); return true; });
-  report.inWindow = out.length;
+  report.inWindow = records.length;
   if (report.failed.length) report.note = 'Not read: ' + report.failed.join('; ');
   if (!report.schools) report.status = 'failed';
-  return {report, records: out};
+  return {report, records};
 }
 
 /* ---------- Visit Montgomery ---------- */
@@ -701,7 +705,9 @@ async function collectVisitMontgomery(today, windowEnd) {
         try { rows = JSON.parse(await site.get(url, {timeout: 90000})); }
         catch (e) { if (e.refused || e.robots || e.status === 400) { report.status = e.refused ? 'blocked' : report.status; rows = []; break; } report.errors++; }
       }
-      if (!Array.isArray(rows)) { report.status = 'partial'; report.note = `Page ${page} (${period}) did not load after 3 tries.`; break; }
+      // A first page that never loads means most of the week is missing: report a
+      // failure, so the previous run's records are kept instead of a fragment.
+      if (!Array.isArray(rows)) { report.status = page === 1 ? 'failed' : 'partial'; report.note = `Page ${page} (${period}) did not load after 3 tries.`; break; }
       report.pages++; report.listings += rows.length;
       for (const e of rows) {
         const start = e.start_datetime?.raw || '', end = e.end_datetime?.raw || '', date = start.slice(0, 10);
@@ -722,7 +728,7 @@ async function collectVisitMontgomery(today, windowEnd) {
     }
     if (report.status !== 'ok') break;
   }
-  const records = [...byKey.values()];
+  const records = report.status === 'failed' ? [] : [...byKey.values()];
   report.inWindow = records.length;
   if (report.status === 'ok' && !report.pages) report.status = 'failed';
   return {report, records};

@@ -17,3 +17,9 @@ assert.equal(ev.length, 1);
 assert.equal(ev[0].dates[0], '2026-10-31'); assert.equal(ev[0].time, '17:00'); assert.equal(ev[0].city, 'Gaithersburg');
 assert.equal(ev[0].url, 'https://patch.com/maryland/gaithersburg/calendar/event/20261031/a/trunk');
 console.log('sources2 ok');
+
+import {parseSidearmICS} from '../collect.mjs';
+const ics = 'BEGIN:VCALENDAR\r\nBEGIN:VEVENT\r\nDTSTART:20261030T170000Z\r\nLOCATION:College Park\\, MD, Field Hockey & Lacrosse Complex\r\nSUMMARY:Maryland Field Hockey vs Iowa\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTART:20261030T154500Z\r\nLOCATION:Madison\\, WI\r\nSUMMARY:Maryland Women\'s Cross Country vs Big Ten Championships\r\nEND:VEVENT\r\nEND:VCALENDAR';
+const g = parseSidearmICS(ics, {name: 'Maryland Athletics', host: 'umterps.com', home: ['College Park'], state: 'MD'}, '2026-10-27', '2026-11-04');
+assert.equal(g.length, 1); assert.equal(g[0].time, '13:00'); assert.equal(g[0].venue, 'Field Hockey & Lacrosse Complex');
+console.log('athletics ok');
