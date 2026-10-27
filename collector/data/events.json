@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T17:00:32.779Z",
+ "generatedAt": "2026-10-27T17:26:37.593Z",
  "window": {
   "start": "2026-10-27",
   "end": "2026-11-04"
@@ -110,7 +110,7 @@
    "pages": 2,
    "listings": 107,
    "inWindow": 89,
-   "errors": 0,
+   "errors": 1,
    "note": ""
   },
   {
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 208,
-   "inWindow": 165,
+   "listings": 211,
+   "inWindow": 166,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -144,6 +144,15 @@
    "note": "Not read: Catholic University Athletics: fetch failed"
   },
   {
+   "source": "University of Maryland",
+   "kind": "graphql",
+   "status": "ok",
+   "listings": 0,
+   "publicListings": 0,
+   "inWindow": 0,
+   "note": ""
+  },
+  {
    "source": "FindLocal",
    "kind": "api",
    "status": "reused",
@@ -156,7 +165,7 @@
    "keptPrevious": 578
   }
  ],
- "count": 1289,
+ "count": 1290,
  "events": [
   {
    "source": "Visit Fairfax",
@@ -31340,6 +31349,28 @@
    "admission": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Monday Mix-Up: Ghost Hunting",
+   "url": "https://patch.com/virginia/leesburg/calendar/event/20261102/f3499a62-2f61-4530-a159-5b0297681b9d/monday-mix-up-ghost-hunting",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "",
+   "venue": "Rust Library",
+   "address": "380 Old Waterford Rd NW",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.123557,
+   "lng": -77.56778899999999,
+   "description": "Who ya gonna call? Rust teens! Use the library's thermal imaging cameras to scan the grounds for paranormal activity. No experience is necessary. Learn about ghosts and hear about some of our favorite paranormal reads.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Monday Night Football",
@@ -35597,7 +35628,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-27T17:01:11.038Z",
+  "generatedAt": "2026-10-27T17:28:32.118Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -35606,7 +35637,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1480
+    "ms": 1692
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -35614,7 +35645,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 724
+    "ms": 712
    },
    "City of Rockville": {
     "ok": true,
@@ -35622,7 +35653,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 297
+    "ms": 115
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -35630,7 +35661,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 922
+    "ms": 1017
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -35638,7 +35669,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 749
+    "ms": 911
    },
    "Navy Yard BID": {
     "ok": true,
@@ -35646,7 +35677,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1038
+    "ms": 906
    },
    "DowntownDC BID": {
     "ok": true,
@@ -35654,7 +35685,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1132
+    "ms": 839
    },
    "Falls Church": {
     "ok": true,
@@ -35694,7 +35725,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1025
+    "ms": 1246
    },
    "Ticketmaster": {
     "ok": true,
@@ -35710,7 +35741,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 1046
+    "ms": 605
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -35718,7 +35749,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 436
+    "ms": 506
    },
    "Southwest BID": {
     "ok": true,
@@ -35726,7 +35757,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 520
+    "ms": 626
    },
    "The Wharf": {
     "ok": true,
@@ -35734,7 +35765,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1244
+    "ms": 1839
    },
    "City of Takoma Park": {
     "ok": true,
@@ -35742,15 +35773,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 811
-   },
-   "City of Greenbelt": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 1060
+    "ms": 551
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -35758,15 +35781,7 @@
     "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 638
-   },
-   "City of Bowie": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 826
+    "ms": 502
    },
    "NPS National Mall": {
     "ok": true,
@@ -35774,15 +35789,23 @@
     "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 853
+    "ms": 475
    },
-   "M-NCPPC Prince George’s Parks": {
+   "City of Greenbelt": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 14,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2602
+    "ms": 571
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 1521
    },
    "City of Hyattsville": {
     "ok": true,
@@ -35790,7 +35813,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 947
+    "ms": 873
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 30319
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -35798,31 +35829,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 403
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 647
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 676
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1928
+    "ms": 159
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -35830,7 +35837,15 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 544
+    "ms": 750
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2204
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -35838,15 +35853,7 @@
     "events": 24,
     "outcome": "",
     "error": "",
-    "ms": 609
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2832
+    "ms": 305
    },
    "Georgetown BID": {
     "ok": true,
@@ -35854,7 +35861,23 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 993
+    "ms": 5238
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 590
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1119
    },
    "Town of Vienna": {
     "ok": true,
@@ -35862,7 +35885,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2431
+    "ms": 2760
    },
    "Town of Occoquan": {
     "ok": true,
@@ -35870,7 +35893,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 651
+    "ms": 173
    },
    "Town of Warrenton": {
     "ok": true,
@@ -35878,7 +35901,15 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 837
+    "ms": 593
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 3268
    },
    "Visit Stafford": {
     "ok": true,
@@ -35886,7 +35917,7 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 513
+    "ms": 325
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -35894,7 +35925,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 5332
+    "ms": 19367
    },
    "NOVA Parks": {
     "ok": true,
@@ -35902,7 +35933,7 @@
     "events": 17,
     "outcome": "",
     "error": "",
-    "ms": 354
+    "ms": 183
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -35910,7 +35941,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 2066
+    "ms": 13487
    },
    "City of Annapolis": {
     "ok": true,
@@ -35918,7 +35949,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 2320
+    "ms": 656
    },
    "City of College Park": {
     "ok": true,
@@ -35926,7 +35957,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 701
+    "ms": 698
    },
    "City of Frederick": {
     "ok": true,
@@ -35934,7 +35965,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 792
+    "ms": 5260
    },
    "City of Laurel": {
     "ok": true,
@@ -35942,7 +35973,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 607
+    "ms": 1121
    },
    "Town of Purcellville": {
     "ok": true,
@@ -35950,7 +35981,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 381
+    "ms": 556
    },
    "National Landing BID": {
     "ok": true,
@@ -35958,7 +35989,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 9217
+    "ms": 7793
    },
    "City of Fairfax": {
     "ok": true,
@@ -35966,7 +35997,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2975
+    "ms": 2272
    },
    "Mosaic District": {
     "ok": true,
@@ -35974,7 +36005,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 135
+    "ms": 315
    },
    "Union Market District": {
     "ok": true,
@@ -35982,7 +36013,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 549
+    "ms": 703
    },
    "The Boro Tysons": {
     "ok": false,
@@ -35990,15 +36021,15 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 147
+    "ms": 266
    },
    "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
+    "ok": false,
+    "status": "ACCESS FAILED",
     "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 143
+    "outcome": "Calendar could not be read: Unexpected token '<', \"<html><hea\"... is not valid JSON",
+    "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+    "ms": 346
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -36006,7 +36037,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1283
+    "ms": 1864
    },
    "DC HSEMA": {
     "ok": true,
