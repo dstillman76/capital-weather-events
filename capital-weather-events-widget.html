@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
@@ -2809,9 +2809,9 @@ function render(){
   title.addEventListener('click',event=>{event.stopPropagation();selectEvent(e);});
   card.append(title);
 
-  const loc=el('div','cwe-location',e.outdoorCardNote||location(e));
-  loc.title=e.outdoorNote?e.outdoorNote+' · '+location(e):location(e);
-  if(e.outdoorNote)loc.classList.add('cwe-outdoor-note');
+  // v53: cards always show the place; weather-contingency notes are not shown.
+  const loc=el('div','cwe-location',location(e));
+  loc.title=location(e);
   card.append(loc);
 
   card.append(el('div','cwe-time',displayRange(e)));
@@ -2908,7 +2908,6 @@ function selectEvent(e,showDetails=false){
  detail.append(el('p','',
   pretty(e.date)+' · '+displayRange(e)
  ));
- if(e.outdoorNote)detail.append(el('p','cwe-outdoor-note',e.outdoorNote));
 
  const loc=[e.venue,e.address,e.city,
   e.county,e.state].filter(Boolean);
@@ -2920,7 +2919,7 @@ function selectEvent(e,showDetails=false){
  if(e.description){
   const excerpt=descriptionExcerpt(e.description,30);
   // v44: skip it when the weather note above already quotes the same text.
-  if(!(e.outdoorNote&&clean(e.outdoorNote).includes(clean(excerpt.text).slice(0,60))))detail.append(el('p','',excerpt.text));
+  detail.append(el('p','',excerpt.text));
  }
 
  const source=el('p','','Source: ');
