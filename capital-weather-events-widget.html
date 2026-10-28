@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
@@ -851,6 +851,16 @@ function displayRange(e){
 }
 
 const CLOCK='\\d{1,2}(?::[0-5]\\d)?\\s*[ap]\\.?m\\.?';
+/* v54: a listing whose clock reads early morning (4:30 a.m.) while its own
+ * text says the same time in the afternoon or evening ("TIME: 4:30-7:00
+ * p.m.") has its a.m./p.m. swapped; the text wins. */
+function fixSwappedMeridiem(c){
+ if(!/^\d\d:\d\d$/.test(c.time||'')||c.time>='08:00')return c;
+ const d=timeFromDescription(c.description,c.date||(c.dates||[])[0]);
+ if(d&&d.time&&d.time.slice(3)===c.time.slice(3)&&Number(d.time.slice(0,2))-Number(c.time.slice(0,2))===12)
+  return {...c,time:d.time,endTime:d.endTime||'',timeFromText:true};
+ return c;
+}
 /* v49: a listing with no time often states it in the text: "every Monday at
  * 7 a.m. April-September and 8 a.m. October-March", "9-10 am", "10 a.m. to
  * 2 p.m.". Use the publisher's own words when they give one clear answer for
@@ -1855,6 +1865,7 @@ function createEvent(candidate,iso,confidence){
  // v41: an end before the start that isn't just past midnight is a typo in
  // the listing ("5 p.m.–4 a.m."), so it is dropped, not shown.
  if(candidate.time&&candidate.endTime&&candidate.endTime<=candidate.time&&candidate.endTime>'02:00')candidate={...candidate,endTime:''};
+ candidate=fixSwappedMeridiem({...candidate,date:parseDate(iso)});
  if(!candidate.time){const d=timeFromDescription(candidate.description,parseDate(iso));if(d&&d.time)candidate={...candidate,time:d.time,endTime:d.endTime||'',timeFromText:true}}
  const e={
   ...candidate,
@@ -5095,7 +5106,7 @@ async function fromCollector(name){
  if(!(ageH<COLLECTOR_MAX_AGE_HOURS)||!status?.ok)return false;
  // Types are re-derived here, so a file written by an older version still sorts the same way.
  const base=name.replace(/ calendar$/,'');
- const events=(group.events||[]).filter(e=>(e.source===name||e.source===base)&&validISO(e.date)&&days.includes(e.date)).map(e=>{const d=!e.time&&timeFromDescription(e.description,e.date);return {...e,category:category(e),...(e.time&&e.endTime&&e.endTime<=e.time&&e.endTime>'02:00'?{endTime:''}:{}),...(d&&d.time?{time:d.time,endTime:d.endTime||'',timeFromText:true}:{})}});
+ const events=(group.events||[]).filter(e=>(e.source===name||e.source===base)&&validISO(e.date)&&days.includes(e.date)).map(e=>fixSwappedMeridiem(e)).map(e=>{const d=!e.time&&timeFromDescription(e.description,e.date);return {...e,category:category(e),...(e.time&&e.endTime&&e.endTime<=e.time&&e.endTime>'02:00'?{endTime:''}:{}),...(d&&d.time?{time:d.time,endTime:d.endTime||'',timeFromText:true}:{})}});
  if(events.length){state.events=dedupe([...state.events,...events]);geography();render()}
  state.reports.push({source:name,ok:true,collector:true,candidates:events.length,count:0,requests:0,
   discoveryComplete:true,outcome:'Read by the daily collector ('+new Date(group.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET): '+status.status});
