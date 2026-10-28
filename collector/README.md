@@ -69,3 +69,9 @@ node collector/test/robots.test.mjs
 ```
 
 To run it now on GitHub, open Actions → **Collect events** → **Run workflow**.
+
+## Possible future sources
+
+- **George Mason University** campus calendar (calendar.gmu.edu, "Today at Mason"; Drupal, needs its own reader).
+- **Catholic University** campus calendar (events.catholic.edu, 25Live) and its athletics schedule (cuacardinals.com, which didn't answer GitHub's servers on Oct 27, 2026).
+- Not usable: Georgetown (calendar.georgetown.edu refuses automated requests, HTTP 403) and American University (www.american.edu/calendar sits behind a bot challenge).
