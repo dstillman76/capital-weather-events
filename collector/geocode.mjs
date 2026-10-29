@@ -39,7 +39,7 @@ async function main() {
   const out = JSON.parse(await readFile(OUT_FILE, 'utf8'));
   let cache = {};
   try { cache = JSON.parse(await readFile(CACHE_FILE, 'utf8')); } catch { /* none yet */ }
-  const geo = cache.__geocode ||= {};
+  const geo = cache.__geocodeOSM ||= {};   // separate from the earlier Census attempts
   const lists = [out.events || [], out.screened?.events || []];
   const started = Date.now();
   let looked = 0, filled = 0, failed = 0;
