@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-29T14:40:33.898Z",
+ "generatedAt": "2026-10-29T19:11:27.085Z",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-06"
@@ -10,9 +10,9 @@
    "source": "Visit Fairfax",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 383,
-   "opened": 0,
-   "cached": 371,
+   "sitemapEvents": 380,
+   "opened": 52,
+   "cached": 368,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -24,13 +24,13 @@
    "source": "Visit Loudoun",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 354,
-   "opened": 0,
-   "cached": 341,
+   "sitemapEvents": 349,
+   "opened": 34,
+   "cached": 337,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 124,
+   "inWindow": 122,
    "pending": 0,
    "note": ""
   },
@@ -38,13 +38,13 @@
    "source": "Visit Frederick",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 225,
-   "opened": 0,
-   "cached": 216,
+   "sitemapEvents": 239,
+   "opened": 43,
+   "cached": 230,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 55,
+   "inWindow": 59,
    "pending": 0,
    "note": ""
   },
@@ -52,13 +52,13 @@
    "source": "Experience Prince George’s",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 88,
-   "opened": 0,
-   "cached": 88,
+   "sitemapEvents": 95,
+   "opened": 17,
+   "cached": 95,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 33,
+   "inWindow": 39,
    "pending": 0,
    "note": ""
   },
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 57,
-   "opened": 0,
+   "opened": 10,
    "cached": 36,
    "refused": 0,
    "errors": 0,
@@ -80,9 +80,9 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 258,
-   "opened": 0,
-   "cached": 253,
+   "sitemapEvents": 255,
+   "opened": 26,
+   "cached": 251,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 184,
-   "opened": 10,
+   "opened": 12,
    "cached": 182,
    "refused": 0,
    "errors": 0,
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 219,
-   "inWindow": 175,
+   "listings": 224,
+   "inWindow": 179,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 71,
-   "opened": 3,
+   "opened": 1,
    "skippedLong": 11,
    "skippedInternal": 0,
    "inWindow": 20,
@@ -176,7 +176,10 @@
    "keptPrevious": 609
   }
  ],
- "count": 1601,
+ "count": 1612,
+ "exclude": [
+  "Pickleball at Metro Park"
+ ],
  "events": [
   {
    "source": "Visit Fairfax",
@@ -406,28 +409,6 @@
    "categories": "Beer, Culinary, Arts & Culture, Wine",
    "recurrence": "",
    "admission": "Tickets: $123.49 + tax and gratuity per person includes the show, buffet dinner, plated dessert, unlimited soft drinks, and 18% gratuity."
-  },
-  {
-   "source": "Visit Loudoun",
-   "siteCounty": "Loudoun County",
-   "title": "A Grave Misunderstanding: Murder Mystery Dinner at The Branch",
-   "url": "https://www.visitloudoun.org/event/a-grave-misunderstanding%3a-murder-mystery-dinner-at-the-branch/52243/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "",
-   "endTime": "",
-   "venue": "The Branch",
-   "address": "49 Catoctin Circle Southeast, Leesburg, VA 20175",
-   "city": "Leesburg",
-   "state": "VA",
-   "lat": 39.1059736,
-   "lng": -77.5634457,
-   "description": "An evening of mystery, murder, dinner, and deadly family drama awaits at The Branch!",
-   "categories": "Culinary, Holiday Celebrations",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -4365,28 +4346,6 @@
    "admission": ""
   },
   {
-   "source": "Visit Loudoun",
-   "siteCounty": "Loudoun County",
-   "title": "Murder Mystery Dinner",
-   "url": "https://www.visitloudoun.org/event/murder-mystery-dinner/52141/",
-   "dates": [
-    "2026-10-29"
-   ],
-   "dateKind": "single",
-   "time": "",
-   "endTime": "",
-   "venue": "The Branch",
-   "address": "49 Catoctin Circle Southeast, Leesburg, VA 20175",
-   "city": "Leesburg",
-   "state": "VA",
-   "lat": 39.1059736,
-   "lng": -77.5634457,
-   "description": "Join us at The Branch for an unforgettable evening of mystery, murder, and dinner with A Grave Misunderstanding, presented by StageCoach Theatre Company!The residents of Wollstonecraft Village have gathered for a candlelight vigil honoring two departed teens, Rex and Alaura. Despite their differences—one a witch and the other a werewolf—their families have put aside their feud for an evening of remembrance. But when Lenore Thornwick becomes convinced their deaths were no accident, the evening takes a deadly turn.Think Dynasty meets The Munsters with a dash of Romeo and Juliet as you follow the clues, uncover secrets, and try to solve the mystery!Your ticket includes the live interactive murder mystery show, dinner buffet, plated dessert, unlimited soft drinks, and 18% gratuity.🍸 Doors open for cocktails at 6:00 PM🍽️ Dinner buffet begins at 6:30 PM🔎 Show begins at 7:00 PMTwo performances are available at The Branch this October: October 15 and October 29. Early Bird tickets are available for a limited time!",
-   "categories": "Culinary",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Music Bingo",
@@ -4871,40 +4830,6 @@
    "description": "PHO Wheels food truck is at The Fenwick today 5:00 pm - 7:30 pm. Stop by and enjoy!",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Visit Fairfax",
-   "siteCounty": "Fairfax County",
-   "title": "Pickleball at Metro Park",
-   "url": "https://www.fxva.com/event/pickleball-at-metro-park/48047/",
-   "dates": [
-    "2026-10-29",
-    "2026-10-30",
-    "2026-10-31",
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-04",
-    "2026-11-05",
-    "2026-11-06"
-   ],
-   "dateKind": "long-range",
-   "range": [
-    "2026-10-02",
-    "2026-11-11"
-   ],
-   "time": "",
-   "endTime": "",
-   "venue": "Metro Park at Capital One Center",
-   "address": "1803 Capital One Dr S, Tysons, VA 22102",
-   "city": "Tysons",
-   "state": "VA",
-   "lat": 38.926108,
-   "lng": -77.2124917,
-   "description": "Capital One Center now offers four professional-grade pickleball courts at Metro Park at 1820 Capital One Drive South in Tysons, Fairfax County, Virginia. Courts are suitable for both singles and doubles play and utilize premium acrylic hardcourt surfacing material (Laykold) with professional-grade nets and court striping that meet USA Pickleball standards. Courts operate daily from 8:00 a.m. to 9:00 p.m. and stay open through the beginning of November. Metro Park features bleacher seating for 150 spectators. Walk-ups are allowed; however, all players should check the CourtReserve booking system before arriving and make reservations through the platform. Reserve court time at https://app.courtreserve.com/Online/Portal/Index/17560 . For private events or tournament reservations, email reservations@capitalonecenter.com . Metro Park is easily accessible via McLean Metro Station on the Silver Line. Parking is available at Metro Park (Block D) Garage and Wegmans Garage: free for 0–2 hours; $6.00 for 2–3 hours; $8.00 for 3–4 hours; $16.00 for 4–6 hours; $25.00 for 6–24 hours. Pickleball at Metro Park combines accessible recreation, professional-grade facilities, and community play in Fairfax County, Virginia. Discover More Attractions in #FXVA",
-   "categories": "Sports, Nature & Outdoors, Health & Wellness, Providence District",
-   "recurrence": "Recurring daily",
    "admission": ""
   },
   {
@@ -6149,6 +6074,28 @@
    "admission": "$65 per class for AHS members/$75 per class for non-members."
   },
   {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "THE ARTHUR WHEELER BOTTLING EXPERIENCE",
+   "url": "https://www.experienceprincegeorges.com/event/the-arthur-wheeler-bottling-experience/31254/",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "next-of-range",
+   "time": "",
+   "endTime": "",
+   "venue": "The Free State Distillery, Inc",
+   "address": "1001 Prince Georges Boulevard, Suite 200, Upper Marlboro, MD 20774",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.8773134,
+   "lng": -76.7253452,
+   "description": "Don’t just buy the bottle. Bottle it yourself. For a limited time, step behind the scenes at Arthur Wheeler Spirits Company... THE ARTHUR WHEELER BOTTLING EXPERIENCE Don’t just buy the bottle. Bottle it yourself. For a limited time, step behind the scenes at Arthur Wheeler Spirits Company and experience the satisfaction of filling your own bottle of premium spirits—straight from our DoubleShot bottling system. You fill it. You make it yours. You take it home. Choose between two exceptional spirits and leave with a bottle you didn’t simply purchase—you bottled yourself. THIS ISN'T A TASTING. IT'S YOUR BOTTLE. There is something different about taking home a bottle you filled with your own hands. Bring your date. Bring your best friend. Bring your bourbon crew. Celebrate a birthday, anniversary or milestone—or simply come because you've never done anything quite like this before. And yes, take the pictures and the videos! The filling. The bottle. The label. The toast. This is one of those experiences you'll want to remember. We're opening a limited number of reservations so our first guests can experience it before everyone else. That means availability is intentionally limited. Once a session sells out, it's sold out. HOW IT WORKS 1. CHOOSE IT. Select Cask Strength Bourbon or Reserve Agave Spirit. 2. TASTE IT. Get to know what's going into your bottle. 3. FILL IT. Step up to the DoubleShot system and fill your own bottle. 4. MAKE IT YOURS. Personalize your label and put your mark on your bottle. 5. TAKE IT HOME. Leave Arthur Wheeler with a premium spirit—and a story that starts with, “I bottled this myself.” CHOOSE YOUR EXPERIENCE 🥃 CASK STRENGTH BOURBON EXPERIENCE — $99 For the whiskey lover who wants Arthur Wheeler at full strength. Experience our bold Cask Strength Bourbon , then step up to the bottling station and fill your own bottle. Your $99 experience includes: • Guided introduction to the spirit and bottling process • Tasting of your selected spirit • Hands",
+   "categories": "Food & Drink",
+   "recurrence": "Recurring weekly on Sunday, Thursday, Friday, Saturday",
+   "admission": "Free, please reserve a space by clicking \"Get Tickets\" link\r\nMultiple dates/times available"
+  },
+  {
    "source": "University of Maryland",
    "siteCounty": "Prince George’s County",
    "title": "The Great TerPumpkin Hunt",
@@ -7211,6 +7158,29 @@
    "geocoded": "OpenStreetMap Nominatim"
   },
   {
+   "source": "Montgomery Parks",
+   "siteCounty": "Montgomery County",
+   "title": "*Canceled* - Creepy Critters: Spooky Story Campfire",
+   "url": "https://montgomeryparks.org/events/creepy-critters-spooky-story-campfire-2/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "18:30",
+   "venue": "Locust Grove Nature Center",
+   "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
+   "city": "Bethesda",
+   "state": "MD",
+   "lat": 39.0241289,
+   "lng": -77.1576553,
+   "description": "We apologize for the inconvenience, but this program has been canceled. We hope you attend a future Locust Grove Nature Center program! Enjoy the season, with our spooky, creepy themed campfire programs. Join us for an evening of spooky stories and roasting marshmallows around the campfire. Please note that these stories will have a scary […]",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Fairfax County",
    "title": "🎃 FREE - Hocus Pocus Double Feature at Eden Center! - FREE👻",
@@ -7572,24 +7542,24 @@
    "admission": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
+   "source": "Patch",
+   "siteCounty": "Anne Arundel County",
+   "title": "Antique Jewelry Trunk Show at Zachary's Jewelers Oct. 29-30",
+   "url": "https://patch.com/maryland/annapolis/calendar/event/20261030/5b5a5b7f-0ff3-4245-8998-3cd961ca9bf8/antique-jewelry-trunk-show-at-zacharys-jewelers-oct-29-30",
    "dates": [
     "2026-10-30"
    ],
    "dateKind": "single",
    "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
+   "endTime": "",
+   "venue": "Zachary's Jewelers",
+   "address": "100 Main St",
+   "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
+   "lat": 38.9777114,
+   "lng": -76.48797789999999,
+   "description": "A returning favorite, Zachary’s welcomes back an antique jewelry partner for a limited two-day showcase featuring antique diamonds and distinctive vintage pieces . Returns to Zachary's Jewelers from Oct. 29-30.",
+   "categories": "free",
    "recurrence": "",
    "admission": ""
   },
@@ -8652,29 +8622,6 @@
    "admission": ""
   },
   {
-   "source": "Montgomery Parks",
-   "siteCounty": "Montgomery County",
-   "title": "Creepy Critters: Spooky Story Campfire",
-   "url": "https://montgomeryparks.org/events/creepy-critters-spooky-story-campfire-2/",
-   "dates": [
-    "2026-10-30"
-   ],
-   "dateKind": "single",
-   "time": "17:30",
-   "endTime": "18:30",
-   "venue": "Locust Grove Nature Center",
-   "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
-   "city": "Bethesda",
-   "state": "MD",
-   "lat": 39.0241289,
-   "lng": -77.1576553,
-   "description": "Enjoy the season, with our spooky, creepy themed campfire programs. Join us for an evening of spooky stories and roasting marshmallows around the campfire. Please note that these stories will have a scary elements, so please make sure both you and your child will enjoy these tales. Costumes encouraged! Inclement weather will cancel this program. […]",
-   "categories": "",
-   "recurrence": "",
-   "admission": "",
-   "geocoded": "OpenStreetMap Nominatim"
-  },
-  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Davis Mansion Tours",
@@ -8871,6 +8818,28 @@
    "categories": "Nightlife",
    "recurrence": "",
    "admission": "$28"
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Drive-In Movies at Prince George's Stadium",
+   "url": "https://www.experienceprincegeorges.com/event/drive-in-movies-at-prince-georges-stadium/31252/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "22:30",
+   "venue": "Prince George's Stadium",
+   "address": "4101 Crain Hwy, Bowie, MD",
+   "city": "Bowie",
+   "state": "MD",
+   "lat": 38.9456008,
+   "lng": -76.7097351,
+   "description": "Come and join us as we relax and enjoy popular movie titles at Prince George’s Stadium. Tickets are FREE; pre-registration is required. Register based on the number of cars in your party, not the number of people. Dates and showings: June 12: Black Panthe r — Cancelled due to the forecast for thunderstorms and inclement weather July 10: Hoppers August 28: Respect September 10th: Black Panther October 16: Coco Cancelled due to the forecast for thunderstorms and inclement weather October 30: Coco Gate opens at 7 pm and movies begin at dusk (approx. 8 pm). Contact PGP-Resource@pgparks.com for more information!",
+   "categories": "Theater",
+   "recurrence": "",
+   "admission": "Ticket Price: Free\r\nAge: All Ages"
   },
   {
    "source": "George Washington University",
@@ -9277,6 +9246,28 @@
    "categories": "Family Friendly, Food and Drink, Halloween, Free, Performing Arts/Theater/Film",
    "recurrence": "",
    "admission": "Free"
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Family-Friendly Trunk or Treat in Fort Washington",
+   "url": "https://www.experienceprincegeorges.com/event/family-friendly-trunk-or-treat-in-fort-washington/31257/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "PGPD Fort Washington Police Station",
+   "address": "11108 Fort Washington Road, Fort Washington, MD 20744",
+   "city": "Fort Washington",
+   "state": "MD",
+   "lat": 38.7419919,
+   "lng": -76.99539089999999,
+   "description": "Come join the Halloween festivities at the PGPD Fort Washington Police Station. There will be lots of family-friendly fun, free candy, contests, music and more. This event will be held at: 11108 Fort Washington Road, Fort Washington, Maryland 20744",
+   "categories": "Fairs & Festivals",
+   "recurrence": "",
+   "admission": "FREE\r\nALL AGES WELCOME\r\n*FOOD AVAILABLE FOR PURCHASE*"
   },
   {
    "source": "FindLocal",
@@ -11428,7 +11419,7 @@
    "dates": [
     "2026-10-30"
    ],
-   "dateKind": "list",
+   "dateKind": "single",
    "time": "",
    "endTime": "",
    "venue": "One Loudoun",
@@ -12385,6 +12376,28 @@
    "categories": "Wine",
    "recurrence": "",
    "admission": "60.00 per guest. | Reservations required."
+  },
+  {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Sax, Spoken Word & Vocals — Let’s Celebrate!",
+   "url": "https://www.experienceprincegeorges.com/event/sax-spoken-word-%26-vocals-%e2%80%94-let%e2%80%99s-celebrate!/31258/",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "19:30",
+   "venue": "Arts’tination Gallery",
+   "address": "162 Waterfront Street , National Harbor, MD 20745",
+   "city": "National Harbor",
+   "state": "MD",
+   "lat": 38.7842906,
+   "lng": -77.016388,
+   "description": "LET’S CELEBRATE THE ARTS! Live Music. Powerful Words. Soulful Performances. Looking for a little inspiration to close out your week? Join us at Arts’tination Gallery in National Harbor on Friday, October 30, for an evening celebrating the creativity and cultural expression that bring our community together. In recognition of National Arts & Humanities Month, PGAHC presents Sax, Spoken Word & Vocals — Let’s Celebrate!, a free, 90-minute showcase featuring four talented artists. Meet the Performers Johnny Jones — Saxophonist Tatiana Figueroa Ramírez — Prince George’s County Poet Laureate Dinahsta “Miss Kiane” Thomas — Spoken Word Artist Leilani Clendenin — Vocalist Moderated by Sistah Joy From smooth saxophone melodies and expressive poetry to engaging spoken word and soulful vocals, this evening offers a little something for every arts lover. Event Details 📅 Date: Friday, October 30, 2026 🕒 Time: 6:00–7:30 PM 📍 Location: Arts’tination Gallery - 162 Waterfront Street National Harbor, MD 20745 FREE ADMISSION | ALL AGES WELCOME Bring a friend, enjoy an evening at National Harbor, and experience the artistry of some of our community’s creative voices. RSVP HERE",
+   "categories": "Concert",
+   "recurrence": "",
+   "admission": "FREE ADMISSION \r\nALL AGES WELCOME"
   },
   {
    "source": "Howard University",
@@ -15349,7 +15362,7 @@
    "dates": [
     "2026-10-31"
    ],
-   "dateKind": "list",
+   "dateKind": "single",
    "time": "",
    "endTime": "",
    "venue": "Colvin Run Mill",
@@ -15974,6 +15987,28 @@
    "venueType": "Restaurant",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Echoes in the Gallery: Sharing Spirit Encounters & Spirit Inspired Poetry",
+   "url": "https://www.visitfrederick.org/event/echoes-in-the-gallery%3a-sharing-spirit-encounters-%26-spirit-inspired-poetry/26316/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "21:00",
+   "venue": "Lockhouse Gallery",
+   "address": "17 W. Potomac St., Brunswick, MD 21716",
+   "city": "Brunswick",
+   "state": "MD",
+   "lat": 39.3131584,
+   "lng": -77.6275706,
+   "description": "An evening of intimate storytelling and remembrance. Share your personal encounters with spirits, your beloved departed, or the unseen. Or read poetry that bridges the living and the departed. It's not necessary to participate. We are happy to have your presence. Contact Kim to sign up or just show up. You're also welcome to visit the gallery anytime and add a photo/small offering of your departed relative or crossed-over pet to our community Ofrenda altar. It is currently set up in the gallery to celebrate Dia de Los Muertos and All Souls' Day, which starts on the eve of Oct. 31st. Dress is casual. The gallery will serve snacks, wine, and beverages. Those interested in sharing an encounter or poem are encouraged to contact Kim Yourick at kim@lockhousegallery.com or call 301-969-6676 to sign up. Our gallery hours are Thursday - Sat 10-7 and Sun 10-5 if you would like to come add to the Ofrenda. History of the Ofrenda (altar): An ofrenda (altar) during Día de los Muertos (Day of the Dead) is a sacred, temporary home or community table built to welcome and honor deceased family members and loved ones as their spirits return to visit the living on November 1 and 2. Rather than a place of mourning, the ofrenda is a joyful celebration of memory, identity, and continuing love. Key Elements of the Ofrenda and Their Meanings Every item placed on the ofrenda serves a specific purpose to guide, welcome, or honor the returning spirits: -Photographs & Personal Items: Pictures of the deceased go on the upper tiers so the spirit feels recognized, welcomed, and personally remembered. You may also include favorite toys, tools, or clothing. Marigolds ( Cempasúchil ): The bright orange and yellow \"flower of the dead\" has a strong fragrance and vibrant color believed to attract and guide souls from the spirit world back to the home. Petals are often scattered to form a welcoming path. Candles ( Velas ): Represent the element of fire, casting light in the dark to illuminate the path fo",
+   "categories": "Arts - Visual, Free",
+   "recurrence": "",
+   "admission": "Free"
   },
   {
    "source": "FindLocal",
@@ -16649,7 +16684,7 @@
    "address": "500 N Pendleton St., Middleburg, VA 20117",
    "city": "Middleburg",
    "state": "VA",
-   "lat": 38.97441930000001,
+   "lat": 38.9744193,
    "lng": -77.7433449,
    "description": "Join us for an immersive exploration of Virginia’s natural landscape and the wild ingredients that shape regional cuisine. Through guided instruction and hands-on fieldwork, guests will learn the art of responsible foraging, from identifying edible plants and seasonal ingredients to understanding how their distinctive flavors can be used in the kitchen. Along the way, sample house-made oils, vinegars, sauces, ferments and spices before gathering a selection of your own foraged finds to take home and incorporate into your cooking.",
    "categories": "Culinary, Family-Friendly, Farm & Nature",
@@ -22677,6 +22712,28 @@
    "admission": ""
   },
   {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "Trunk or Treat",
+   "url": "https://www.experienceprincegeorges.com/event/trunk-or-treat/31256/",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "17:00",
+   "venue": "",
+   "address": "1301 McCormick Drive, Largo, MD 20774",
+   "city": "Largo",
+   "state": "MD",
+   "lat": 38.9091819,
+   "lng": -76.84205279999999,
+   "description": "",
+   "categories": "Fairs & Festivals",
+   "recurrence": "",
+   "admission": "FREE\r\nALL AGES WELCOME"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Trunk or Treat",
@@ -25179,6 +25236,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "Ghost Doctors Hunting Tour-Manassas Virginia...Experience The Paranormal!",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261101/8a49b53f-a912-4dbe-a1f2-f02fef2a4ee4/ghost-doctors-hunting-tour-manassas-virginia-experience-the-paranormal",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "",
+   "address": "9101 Prince William St",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.7485811,
+   "lng": -77.47214819999999,
+   "description": "Experience a Halloween ghost hunt one more time...and the ghost are still sticking around! Embark on a supernatural adventure in Old Town Manassas Virginia! Join us for a truly immersive and spine-chilling experience in Historic Old Town Manassas. Prepare to be amazed as you delve into the world of paranormal activity that has inhabited this town for over 150 years. Brace yourself for the unexpected, as you never know who or what might make an appearance! As seen on network and cable television from coast to coast paranormal investigators and tour guides to the supernatural, the Ghost Doctors, will lead you through the darkened streets passing century old buildings on a supernatural trek in Historic Old Town Manassas. This is not your typical ghost tour where stories are told; this is an authentic ghost hunt. Step into the shoes of a paranormal investigator as the Ghost Doctors will instruct you with hands-on experience with real ghost hunting equipment as you learn the protocols of the trade. Immerse yourself in the history of this remarkable city nestled in the heart of Northern Virginia, while you search for the lingering spirits of the Civil War era. For an unforgettable paranormal adventure Who ya gonna call? ... Ghost Doctors! For tour and ticket info including future tour dates visit: https://ghostdoctors.com or call (703) 686-4564.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Girl Girl w/ Fake Radio, My Mandy",
@@ -25230,6 +25309,28 @@
    "categories": "Student Life",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Gothic Afternoon Tea: The Black Door Tea Society",
+   "url": "https://www.visitfrederick.org/event/gothic-afternoon-tea%3a-the-black-door-tea-society/26307/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "The Banyan",
+   "address": "216 E. Patrick St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4137861,
+   "lng": -77.4068782,
+   "description": "You are cordially invited to step beyond the Black Door… if you dare. Join us at The Banyan for an enchanting afternoon of gothic elegance, delicate savories, freshly served scones, darkly decadent desserts, and bottomless tea. Expect wickedly delicious bites, hauntingly beautiful details, and a few delightful surprises along the way. All ages welcome! Dress for the occasion, if you dare. Gather your coven, summon your favorite people, and join us for an afternoon that’s equal parts elegant and eerie. Additional cocktails, wine, and menu items will be available for purchase. Reservations: 301-228-9181",
+   "categories": "Holiday Events, Foodie, Downtown Frederick, Events",
+   "recurrence": "",
+   "admission": "$45/person"
   },
   {
    "source": "George Washington University",
@@ -27197,6 +27298,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Sound to Soul: Restorative Yoga with Sound Bath and SoulCollage with Tara Lemerise and Melody Klemin",
+   "url": "https://www.visitfrederick.org/event/sound-to-soul%3a-restorative-yoga-with-sound-bath-and-soulcollage-with-tara-lemerise-and-melody-klemin/26308/",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "17:00",
+   "venue": "Roots & River Yoga",
+   "address": "30 W. Potomac St., Ste 102, Brunswick, MD 21716",
+   "city": "Brunswick",
+   "state": "MD",
+   "lat": 39.3129679,
+   "lng": -77.6277929,
+   "description": "Rest. Receive. Create. Connect. In this unique workshop, you will first tend to your nervous system and quiet your analytical brain with passive, fully propped Restorative Yoga postures accompanied by a soothing sound bath. This sets the stage for you to tap into your inner knowing and creative capacity with SoulCollage, a guided collaging activity where you will create your own oracle card and learn to give voice to the card for ongoing support along your path. This meaningful afternoon is the perfect blend of time for introspection and time to connect in community. You will leave you feeling rested, resourced, and inspired. All materials are provided. All artistic abilities welcome.",
+   "categories": "Arts - Visual, Events, Classes & Workshops",
+   "recurrence": "",
+   "admission": "$60/person"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Spilling the Tea at the Old Stone House",
@@ -27228,6 +27351,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "St. Francis Chili Cook-Off",
+   "url": "https://patch.com/virginia/great-falls-va/calendar/event/20261101/7804b143-044a-4a20-8478-264acf898223/st-francis-chili-cook-off",
+   "dates": [
+    "2026-11-01"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "St. Francis Episcopal Church Parish Hall",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": 38.7945952,
+   "lng": -106.5348379,
+   "description": "Get ready for a spicy evening of community fun at this Halloween-themed chili competition featuring a variety of delicious entries and a grand trophy for the winner. Whether you bring a crockpot to compete or simply come to taste and vote, you'll enjoy provided cornbread, drinks, and desserts while supporting local charities FACETS and the Lamb Center. All ages are encouraged to wear their best Halloween costumes to this festive fundraiser where donations will be welcomed at the door.",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -29572,6 +29717,28 @@
    "categories": "Beer, Musical Performances",
    "recurrence": "Recurring weekly on Monday",
    "admission": "Free"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Language Chats at the Language House",
+   "url": "https://calendar.umd.edu/language-chats-at-the-language-house",
+   "dates": [
+    "2026-11-02"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "17:30",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Come practice or share your language skills in a casual setting with drinks and snacks! Mon Nov 02 4:00pm To – 5:30pm St. Mary's Hall Visit the Language Chats website for more information. Language Chats website Add to Calendar Everyone is welcome to practice, improve, share, or maintain their language skills in a casual setting with drinks and snacks. The program meets every Monday from 4 to 5:30 p.m. at St. Mary’s Hall, home to the Language House Living-Learning Program, and is open to members of the campus community interested in practicing or sharing any language they are learning or have learned. Regularly available language tables include Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Persian, Portuguese, Russian and Spanish. Location St. Mary's Hall The Language Chats are held on the ground floor of St. Mary's Hall, in the Multipurpose Room as well as the lounge area. Contact Language House SLLC (301).405.4046 mmatar@umd.edu For access needs, accommodations, and questions, please contact Charlee Bezilla at cmredman@umd.edu Hosted By Language House SLLC School of Languages, Literatures, & Cultures Event Tags Schools and Units Belonging & Community at UMD College of Arts and Humanities Department of Resident Life Division of Student Affairs O",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -35931,6 +36098,33 @@
    "outdoorHint": ""
   },
   {
+   "source": "Experience Prince George’s",
+   "siteCounty": "Prince George’s County",
+   "title": "2026 Regional Textile Showcase & Artists' Boutique",
+   "url": "https://www.experienceprincegeorges.com/event/2026-regional-textile-showcase-%26-artists-boutique/31253/",
+   "dates": [
+    "2026-11-05",
+    "2026-11-06"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-05",
+    "2026-12-27"
+   ],
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Montpelier Historic Site & Museum",
+   "address": "9650 Muirkirk Road, Laurel, MD",
+   "city": "Laurel",
+   "state": "MD",
+   "lat": 39.0650457,
+   "lng": -76.84494889999999,
+   "description": "Join us for an exhibition showcasing the art of talented artists working in the mediums embroidery, rug hooking, quilting, felting, needlework, and more! Support your local artistic community by purchasing a unique, handmade piece in the Showcase & Boutique and voting for your favorite in this year’s People’s Choice Awards! Walk-ins are welcome. NOTE: This exhibition is only open Thursdays-Sundays each week. The Museum is closed Mondays-Wednesdays, and Friday, December 25.",
+   "categories": "Art Exhibition",
+   "recurrence": "Recurring weekly on Sunday, Thursday, Friday, Saturday",
+   "admission": "Ticket Price: Free, donations are welcome.\r\nAge: All Ages"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "606 Run Club (5-mile group run)",
@@ -41037,6 +41231,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Patch",
+   "siteCounty": "Anne Arundel County",
+   "title": "Jade Trau Trunk Show November 6-8",
+   "url": "https://patch.com/maryland/annapolis/calendar/event/20261106/c69a92a7-316d-4cbe-921b-f78e42f4d43e/jade-trau-trunk-show-november-6-8",
+   "dates": [
+    "2026-11-06"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Zachary's Jewelers",
+   "address": "100 Main St",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9777114,
+   "lng": -76.48797789999999,
+   "description": "Known for distinctive diamond jewelry and a fresh approach to timeless design, Jade Trau will showcase its collection along with custom redesign possibilities for clients interested in reimagining jewelry they already own .",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Jeremy Pelt - \"50th Birthday Celebration\"",
@@ -41632,7 +41848,7 @@
    "dates": [
     "2026-11-06"
    ],
-   "dateKind": "list",
+   "dateKind": "single",
    "time": "",
    "endTime": "21:30",
    "venue": "Next Stop Comedy",
@@ -42233,6 +42449,28 @@
    "admission": "0"
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Roots to Rest: AcuAroma Sleep Support with Ruxandra Meinze",
+   "url": "https://www.visitfrederick.org/event/roots-to-rest%3a-acuaroma-sleep-support-with-ruxandra-meinze/26309/",
+   "dates": [
+    "2026-11-06"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "19:45",
+   "venue": "Roots & River Yoga",
+   "address": "30 W. Potomac St., Ste 102, Brunswick, MD 21716",
+   "city": "Brunswick",
+   "state": "MD",
+   "lat": 39.3129679,
+   "lng": -77.6277929,
+   "description": "Step into a more intentional approach to rest with a 75-minute, hands-on AcuAroma Therapy workshop that brings together the therapeutic traditions of essential oils and Traditional Chinese Medicine acupressure. Working with a carefully selected collection of high-quality organic essential oils, you’ll be introduced to three specific oil and acupressure point pairings chosen to support relaxation and restorative sleep. Your facilitator will explore the therapeutic qualities of each oil, the significance of the corresponding organ points, and, most importantly, how these points relate to and work together as part of a larger practice. This is both a learning experience and a moment of self-pampering. You’ll have time to slow down, work with the oils directly, and learn a simple ritual you can return to whenever your body and mind need help transitioning into deeper rest. You’ll also leave with your own take-home collection of therapeutic oils, along with a laminated reference card featuring images of the three acupressure points so you can confidently locate and practice them at home. The goal is not simply to experience the work in the room, but to give you the knowledge, tools, and quality ingredients to make it part of your own evening ritual. No prior experience is needed. Come as you are, and leave with a deeper understanding of how aromatic medicine and acupressure can be thoughtfully combined to support your wellbeing.",
+   "categories": "Events, Classes & Workshops",
+   "recurrence": "",
+   "admission": "$75/person"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Salamander Uncorked: Burgundy Masterclass",
@@ -42816,7 +43054,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-29T14:40:58.097Z",
+  "generatedAt": "2026-10-29T19:12:05.254Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -42825,7 +43063,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 786
+    "ms": 891
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -42833,7 +43071,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 220
+    "ms": 433
    },
    "City of Rockville": {
     "ok": true,
@@ -42841,7 +43079,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1813
+    "ms": 1790
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -42849,7 +43087,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 308
+    "ms": 339
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -42857,15 +43095,15 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 347
+    "ms": 1654
    },
    "Navy Yard BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 323
+    "ms": 1131
    },
    "DowntownDC BID": {
     "ok": true,
@@ -42873,7 +43111,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 505
+    "ms": 481
    },
    "Falls Church": {
     "ok": true,
@@ -42907,21 +43145,21 @@
     "error": "",
     "ms": null
    },
-   "NoMa BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 728
-   },
    "Mount Vernon Triangle CID": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2080
+    "ms": 2291
+   },
+   "NoMa BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 480
    },
    "Southwest BID": {
     "ok": true,
@@ -42929,31 +43167,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 191
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 437
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1010
-   },
-   "City of Greenbelt": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 617
+    "ms": 397
    },
    "Ticketmaster": {
     "ok": true,
@@ -42969,15 +43183,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 571
-   },
-   "City of Bowie": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 603
+    "ms": 2373
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -42985,7 +43191,183 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 183
+    "ms": 250
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1069
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1382
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 179
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 27673
+   },
+   "City of Greenbelt": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 567
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1646
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 582
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 2119
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 656
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 96
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 787
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 4808
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1127
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 55
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 560
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 3687
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 502
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 587
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND — coverage incomplete",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 19049
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 13,
+    "outcome": "",
+    "error": "",
+    "ms": 1257
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 6,
+    "outcome": "",
+    "error": "",
+    "ms": 8329
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 12306
    },
    "DC HSEMA": {
     "ok": true,
@@ -42995,157 +43377,13 @@
     "error": "",
     "ms": null
    },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 238
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 738
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 18884
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2193
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2959
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 551
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 1134
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 469
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1474
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 28
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 477
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 398
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2592
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 17528
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 13,
-    "outcome": "",
-    "error": "",
-    "ms": 953
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 222
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 7008
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 6,
-    "outcome": "",
-    "error": "",
-    "ms": 3818
-   },
    "City of Annapolis": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 774
+    "ms": 1009
    },
    "City of College Park": {
     "ok": true,
@@ -43153,7 +43391,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 542
+    "ms": 1386
    },
    "City of Frederick": {
     "ok": true,
@@ -43161,7 +43399,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 906
+    "ms": 845
    },
    "City of Laurel": {
     "ok": true,
@@ -43169,7 +43407,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 696
+    "ms": 466
    },
    "Town of Purcellville": {
     "ok": true,
@@ -43177,7 +43415,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 739
+    "ms": 506
    },
    "National Landing BID": {
     "ok": true,
@@ -43185,7 +43423,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 7660
+    "ms": 9539
    },
    "City of Fairfax": {
     "ok": true,
@@ -43193,7 +43431,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3806
+    "ms": 2369
    },
    "Mosaic District": {
     "ok": true,
@@ -43201,7 +43439,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 591
+    "ms": 1480
    },
    "Union Market District": {
     "ok": true,
@@ -43209,7 +43447,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1468
+    "ms": 1111
    },
    "The Boro Tysons": {
     "ok": false,
@@ -43217,7 +43455,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 315
+    "ms": 274
    },
    "One Loudoun": {
     "ok": true,
@@ -43225,7 +43463,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 49
+    "ms": 1121
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -43233,10 +43471,10 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1653
+    "ms": 2493
    }
   },
-  "count": 178,
+  "count": 179,
   "events": [
    {
     "source": "Visit Calvert",
@@ -45313,6 +45551,30 @@
     "geocoded": "OpenStreetMap Nominatim"
    },
    {
+    "source": "Navy Yard BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "categories": "",
+    "venue": "Ride the River with Anacostia Riverkeeper",
+    "address": "",
+    "description": "Join us in the fight for a healthy, swimmable, fishable Anacostia River!Location: Atlas Brew Works Bridge District, immediately across from the Frederick Douglass Bridge in Anacostia. It offers easy access to the Anacostia River Trail and is the perfect spot for the post-ride festival.Route: Atlas Bridge District to Bladensburg Waterfront Park and back, a roughly 16-mile ride that covers the main stem of the Anacostia River. Turnaround points are included for those who need a shorter route.At Anacostia Riverkeeper, we are dedicated to protecting the Anacostia River for all who live, work, and play in its watershed. We create meaningful encounters with the river for all people in order to open opportunities for enjoyment of the Anacostia River. As an organization, our primary programmatic goals that help us achieve our mission are centered on trash mitigation, advocacy, water quality, stormwater reduction, and river access. All these programs have a strong community component, whether it’s having local volunteers collect water quality samples or taking a school group out on a free educational boat tour.Through a combination of outreach, advocacy, and science-based research our programs work to protect the water and the ecosystems it supports as well as foster deeper watershed appreciation through community connections and opportunities. The Anacostia community has long been neglected both environmentally and socioeconomically, with a legacy of industry and environmental racism forming much of the historical foundation surrounding the river. However, with the help of Anacostia Riverkeeper and other local grassroots organizations, progress has been made to make the river not only safer but more accessible and approachable for the people who live along its banks.",
+    "time": "11:00",
+    "endTime": "15:00",
+    "lat": null,
+    "lng": null,
+    "title": "Ride the River with Anacostia Riverkeeper",
+    "url": "https://navyyarddc.org/event/ride-the-river-anacostia-riverkeeper-oct-31-2026",
+    "activityLocation": "Ride the River with Anacostia Riverkeeper",
+    "dateEvidence": "Navy Yard BID event page date and time",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://navyyarddc.org/event/ride-the-river-anacostia-riverkeeper-oct-31-2026",
+    "date": "2026-10-31",
+    "id": "Navy Yard BID|https://navyyarddc.org/event/ride-the-river-anacostia-riverkeeper-oct-31-2026|2026-10-31",
+    "confidence": "Navy Yard BID event page date and time",
+    "category": "fitness"
+   },
+   {
     "source": "NPS National Mall",
     "city": "Washington",
     "county": "District of Columbia",
@@ -45703,7 +45965,7 @@
     "categories": "",
     "venue": "George Washington's Mount Vernon",
     "address": "3200 Mount Vernon Memorial Highway, Mount Vernon, VA",
-    "description": "Visit Mount Vernon for a Unique Halloween Experience Go Trick-or-Treating at Washington's Historic HomeCollect candy in your special Mount Vernon treat bag around the historic grounds from 2 p.m. to 5 p.m. This bag is required to collect candy.Candy includes 3 Musketeers, Life Savers Gummies, M&M's, Milky Way, Twix, Skittles, Starbursts, and Snickers. While supplies last.Show Off Your Costumes in a ParadeCapture photos of your children in a costume parade starting from the upper garden through the historic area at 3:30 p.m. Explore the Historic Area to See Colonial Demonstrations Watch Sparks Fly at the Blacksmith ShopSee tradespeople create tools, utensils, and hardware to assist with preservation work and living history demonstrations around the estate. Learn How Clothes & Linens Were MadeLearn how textiles were made using spinning and weaving techniques at the spinning house. Enjoy 18th-Century Magic & PuppetryWatch conjuror Mr. Peter Gardiner’s illusions on the bowling green at 3 p.m. and 4:30 p.m., with a chance to join in on a magic trick.Plus, see a traditional Punch and Judy puppet show at 2:30 p.m. or 4 p.m. Take Home Fresh Baked BreadSee an 18th-century bake oven demonstration with Half Crown Bakehouse in the 12-acre field and sample chocolate baked pudding with a puff paste crust, from a recipe dating back to 1764 (while supplies last).See the Process for Making Apple ButterWatch a demonstration on the 12-acre field of the traditional process for making apple butte",
+    "description": "Visit Mount Vernon for a Unique Halloween Experience Go Trick-or-Treating at Washington's Historic HomeCollect candy in your special Mount Vernon treat bag around the historic grounds from 2 p.m. to 5 p.m. This bag is required to collect candy.Candy includes 3 Musketeers, Life Savers Gummies, M&M's, Milky Way, Twix, Skittles, Starbursts, and Snickers. While supplies last.Show Off Your Costumes in a ParadeCapture photos of your children in a costume parade starting from the upper garden through the historic area at 3:30 p.m. Explore the Historic Area to See Colonial Demonstrations Watch Sparks Fly at the Blacksmith ShopSee tradespeople create tools, utensils, and hardware to assist with preservation work and living history demonstrations around the estate. Learn How Clothes & Linens Were MadeLearn how textiles were made using spinning and weaving techniques at the spinning house. Enjoy 18th-Century Magic & PuppetryWatch conjuror Mr. Peter Gardiner’s illusions on the bowling green at 3 p.m. and 4:30 p.m., with a chance to join in on a magic trick.Plus, see a traditional Punch and Judy puppet show at 2:30 p.m. or 4 p.m. See the Process for Making Apple ButterWatch a demonstration on the 12-acre field of the traditional process for making apple butter from fresh apples to a rich, flavorful spread.Sample Fresh Chocolate-baked PuddingJoin our resident baker from Half Crown Bakehouse on the 12-acre field and sample chocolate-baked pudding with a puff paste crust from a recipe dating",
     "time": "14:00",
     "endTime": "17:00",
     "lat": 38.7079,
