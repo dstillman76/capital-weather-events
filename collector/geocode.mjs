@@ -1,7 +1,7 @@
 // Third collector step: give a map position (and town, when missing) to events
 // that have a street address but no coordinates, so the hourly forecast can be
 // shown for the event's own location ("1770 Tucker Road, Prince George's
-// County" → Fort Washington). Uses the U.S. Census Bureau's free geocoder and
+// County" → Fort Washington). Uses OpenStreetMap's Nominatim (one request a second) and
 // keeps only a match in the event's own county; results are cached.
 
 import {readFile, writeFile} from 'node:fs/promises';
@@ -19,16 +19,18 @@ export function streetOf(address) {
   return m ? m[1].trim() : '';
 }
 
-async function geocode(street, state) {
-  const u = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=' +
-    encodeURIComponent(street + ', ' + state) + '&benchmark=Public_AR_Current&vintage=Current_Current&layers=Counties&format=json';
-  const r = await fetch(u, {headers: {'user-agent': UA}, signal: AbortSignal.timeout(12000)});
+const STATE_NAME = {MD: 'Maryland', VA: 'Virginia', DC: 'District of Columbia'};
+// OpenStreetMap's Nominatim (the same service the page's forecast module uses),
+// queried with the street, county and state; at most one request a second.
+async function geocode(street, state, county) {
+  const p = new URLSearchParams({format: 'jsonv2', addressdetails: '1', countrycodes: 'us', limit: '3', street, state: STATE_NAME[state] || state});
+  if (county && state !== 'DC') p.set('county', county.replace(/[’]/g, "'"));
+  const r = await fetch('https://nominatim.openstreetmap.org/search?' + p, {headers: {'user-agent': UA, 'accept-language': 'en-US'}, signal: AbortSignal.timeout(20000)});
   if (!r.ok) throw Error('HTTP ' + r.status);
-  const j = await r.json();
-  return (j.result?.addressMatches || []).map(m => ({
-    lat: m.coordinates?.y, lng: m.coordinates?.x,
-    city: m.addressComponents?.city || '', zip: m.addressComponents?.zip || '',
-    county: m.geographies?.Counties?.[0]?.NAME || '',
+  return (await r.json()).map(m => ({
+    lat: Number(m.lat), lng: Number(m.lon),
+    city: m.address?.city || m.address?.town || m.address?.village || m.address?.hamlet || m.address?.suburb || '',
+    county: m.address?.county || (state === 'DC' ? 'District of Columbia' : ''),
   }));
 }
 const titleCase = s => String(s).toLowerCase().replace(/\b[a-z]/g, c => c.toUpperCase());
@@ -50,7 +52,7 @@ async function main() {
     const county = e.county || e.siteCounty || '';
     return {key: norm(street) + '|' + state + '|' + norm(county), street, state, county};
   };
-  // Unique new addresses, looked up four at a time, at most four minutes a run.
+  // Unique new addresses, one a second, at most four minutes a run.
   const todo = new Map();
   for (const list of lists) for (const e of list) { const k = keyOf(e); if (k && !(k.key in geo) && !todo.has(k.key)) todo.set(k.key, k); }
   const queue = [...todo.values()].slice(0, 120);
@@ -59,7 +61,8 @@ async function main() {
       const {key, street, state, county} = queue.shift();
       looked++;
       try {
-        const matches = await geocode(street, state);
+        const matches = await geocode(street, state, county);
+        await sleep(1100);
         // The same street name exists in many counties: keep a match in the
         // event's county, or the only match when the county isn't known.
         const want = norm(county).replace(/ county$| city$/, '');
@@ -68,7 +71,7 @@ async function main() {
       } catch { failed++; }
     }
   };
-  await Promise.all([worker(), worker(), worker(), worker()]);
+  await worker();   // one at a time: Nominatim's usage policy
   for (const [li, list] of lists.entries()) for (const e of list) {
     const k = keyOf(e); if (!k) continue;
     const g = geo[k.key];
@@ -77,12 +80,12 @@ async function main() {
     // A raw record with no county of its own keeps its blank town, so the
     // widget's coverage check isn't decided by a town name it may not know.
     if (!e.city && g.city && (li === 1 || e.siteCounty)) e.city = g.city;
-    e.geocoded = 'U.S. Census geocoder';
+    e.geocoded = 'OpenStreetMap Nominatim';
     filled++;
   }
   await writeFile(OUT_FILE, JSON.stringify(out, null, 1) + '\n');
   await writeFile(CACHE_FILE, JSON.stringify(cache) + '\n');
-  console.log(`Geocoder: ${looked} new lookups, ${filled} events placed, ${failed} failures.`);
+  console.log(`::notice::Geocoder: ${looked} new lookups, ${filled} events placed, ${failed} failures.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch(e => { console.error(e); process.exit(0); });
