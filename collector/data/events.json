@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-29T12:58:13.329Z",
+ "generatedAt": "2026-10-29T13:06:31.420Z",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-06"
@@ -791,12 +791,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Touch artifacts, ask questions, and learn more about your favorite animal ambassadors from the Naturalists who care for them! No registration required. ",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -897,12 +898,13 @@
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1925025,
+   "lng": -77.2961566,
    "description": "Join us for a sunset cruise aboard the pontoon boat. We’ll search for beaver lodges and feeding sites, and hopefully see some beavers! As the sun sets, we’ll use our bat detector to help us find feeding bats. Please register and pay for all participants. You may want to bring a jacket or sweater as […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -1735,12 +1737,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Across the Americas, people commemorate loved ones with offerings of their favorite foods, objects, and stories. This ceremony observes the interconnectedness of life and death, a natural cycle experienced by all forms of life. Through October 27th and November 3rd, Meadowside Nature Center welcomes offerings (“ofrenda”) in a community exhibit discussing cycles of rest and renewal, and cultural traditions that celebrate death as a universal experience.   Registration is not […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -2532,12 +2535,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Instructor: Sherry Weber These series of classes feature foundational yoga poses that are designed to support better breathing, walking, and space orientation. Yoga movements help build muscle, bone density and core strength while improving balance, posture and flexibility. Mats are not included. Location: Japanese Tea House (September – October) or Brookside Gardens Visitor Center (mid-October […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Frederick",
@@ -3043,14 +3047,15 @@
    "endTime": "",
    "venue": "6830 Elm St,  Suite 9, McLean, VA, 22101",
    "address": "",
-   "city": "",
+   "city": "Mclean",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 38.935833,
+   "lng": -77.1792737,
    "description": "Bel-Air House of Silver Now Open in McLean, Virginia! Thursdays 10-4 (703)691-4190 (866)657-9318 Polishing • Plating • Repair Silver • Brass • Copper • Pewter Do you have an heirloom that is blackened with years of tarnish or in need of repair? The Silversmiths at Bel-Air House of Silver can restore your silver and brass heirlooms with expertise and love. They provide restoration for tea sets, flatware, hollow ware, trays, candelabras, tortoise shell combs, boar brushes, hand mirrors, lamps, chandeliers, trophies, hardware, tabletops, fireplace tools... and much much more. *** Bel-Air House of Silver is based out of Charlottesville, Virginia and their Silver Restoration Experts come to McLean, Virginia on THURSDAYS to provide services for the area. http://www.belairhouseofsilver. com",
    "categories": "paid",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Howard County",
@@ -3300,12 +3305,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -3685,12 +3691,13 @@
    "address": "7014 Westmoreland avenue",
    "city": "Takoma Park",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9744863,
+   "lng": -77.0115099,
    "description": "In the continuation of our witchy October offerings: Lisa Perrin, joined by tarot reader Jane Prompeng, unveils some spine-tingling true tales of spiritual encounters and mediums.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -4569,12 +4576,13 @@
    "address": "11717 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0492351,
+   "lng": -77.0338942,
    "description": "Wear your costumes and celebrate Halloween at Wheaton Ice Arena! Starting at 6:00pm, we will have skating time (including a costume parade) as well as Halloween crafts and treats set up in our party rooms. Skaters under the age of 6 should have a parent participate in the public skating and craft portion of the […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Montgomery",
@@ -4611,14 +4619,15 @@
    "endTime": "",
    "venue": "13655 Dulles Technology Dr, Herndon, VA, 20171 Suite 100",
    "address": "",
-   "city": "",
+   "city": "Mcnair",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9568265,
+   "lng": -77.4150223,
    "description": "Need a Break or to rejuvenate? Join us this coming Thursday 10/29 at the Life Wellness Centre as we enter an oasis of calm with soothing sound vibrations from the gong, Tibetan singing bowls, chimes and other healing instruments designed to restore and soothe the mind and body. Contact us at (571) 643-0255 to reserve your spot!",
    "categories": "paid",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -5345,12 +5354,13 @@
    "address": "20930 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1963496,
+   "lng": -77.2918768,
    "description": "This is a no rider left behind group ride – think “party pace.” There will likely be some “session-ing” and skills instruction along the way. This is a perfect way to meet other riders and build skills on your bike. We have a limited number of bikes and helmets available to borrow (we will ask […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -5474,12 +5484,13 @@
    "address": "7731 Leesburg Pike",
    "city": "Falls Church",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9049472,
+   "lng": -77.2133644,
    "description": "Join us for an award-winning documentary screening and expert panel discussion of the 97th Oscar Best Documentary Feature official contender. This alarming and gripping film has received over 50 international accolades, and the event features a live Q&A with producer Cindy Song and leading medical and human rights experts. Admission is $15 for the public and free for students, but seats are limited so RSVP today!",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Annapolis",
@@ -5631,12 +5642,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Gather around the campfire for an evening perfect for the whole family! This program kicks off with a campfire followed by the ultimate campfire tradition: roasting marshmallows and building delicious, gooey s’mores. With sticky fingers and full bellies, we will then settle onto the benches around the warm glow of the fire to share a collection of spooky […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "University of Maryland",
@@ -5920,12 +5932,13 @@
    "address": "320 Kent Square Road",
    "city": "Gaithersburg",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.118343,
+   "lng": -77.2393499,
    "description": "Celebrate tradition through art! In this all-ages workshop, you’ll be supplied with everything you need to decorate your very own ceramic sugar skull to take home and display. Spend an evening painting your skull and adorning it with marigolds, all while learning about the rich history, traditions, and cultural impact of Dia de los Muertos.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -7167,12 +7180,13 @@
    "address": "18400 Muncaster Road, Derwood, MD 20855",
    "city": "Derwood",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.158385,
+   "lng": -77.129542,
    "description": "Put your knowledge to the test with Trivia Night at the Barn! Gather your friends, bring your thinking caps, and enjoy an evening of friendly competition in our rustic setting. Questions will span a variety of fun categories so there’s something for trivia buffs of all kinds – whether you’re a casual guesser or a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -7616,12 +7630,13 @@
    "address": "10241 Kensington Pkwy",
    "city": "Kensington",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0258502,
+   "lng": -77.0705852,
    "description": "BabyCat Brewery is hosting an open house for their event space in Kensington. Come by and have a beer to see the new space which is available for booking private events up to 125 people.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -8371,12 +8386,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Carlos Rodriguez, Horticulturist, Brookside Gardens Delight in an autumn-inspired display of specialty chrysanthemums —a vibrant finale to the garden season! Discover fascinating facts about these amazing flowers, cultivated since the 15th century with over 20,000 varieties worldwide. Learn how our horticulturists create massive blooms, colorful combinations and impressive forms with this incredible plant! NOTE: Please […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -8628,12 +8644,13 @@
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0241289,
+   "lng": -77.1576553,
    "description": "Enjoy the season, with our spooky, creepy themed campfire programs. Join us for an evening of spooky stories and roasting marshmallows around the campfire. Please note that these stories will have a scary elements, so please make sure both you and your child will enjoy these tales. Costumes encouraged! Inclement weather will cancel this program. […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -9315,12 +9332,13 @@
    "address": "276 Carroll St NW",
    "city": "Takoma Park",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9748114,
+   "lng": -77.0140981,
    "description": "Join us for an autumn evening of community building and belonging inside small story circles for adults at Seekers Church in Takoma Park. Compass Storytelling creates the space and framework to help you recall and exchange flickers of your life stories. This is not a religious gathering, and no storytelling experience is necessary. Come unprepared and open to an evening of connections! Tickets are limited. Registration is required.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "University of Maryland",
@@ -10648,12 +10666,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -10938,12 +10957,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "Get your little one moving, learning, and having fun in Little Athletes! This parent-and-child program is designed for children ages 3-5 and focuses on building fundamental movement and sports skills through active play, creative games, and engaging skill stations. Each session introduces young athletes to age-appropriate activities that help develop coordination, balance, confidence, and social […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -11895,12 +11915,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "Bring your little one for a fun-filled morning of movement, play, and exploration on the open field! Pavilion Play Pals is a drop-in program designed for preschool-aged children and their parent or caregiver. Self-guided activity stations will be set up throughout the sports field area, giving families the opportunity to explore a variety of field […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -12040,12 +12061,13 @@
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1925025,
+   "lng": -77.2961566,
    "description": "Toddlers of all abilities are invited to explore the exciting natural world around the Discovery Center. Families will explore at their own pace using nature play prompts that will remain out for the duration of the program. Visit the front entrance of the Discovery Center to begin your journey through our most accessible areas of […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -12487,12 +12509,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Gather around the campfire for an evening perfect for the whole family! This program kicks off with a campfire followed by the ultimate campfire tradition: roasting marshmallows and building delicious, gooey s’mores. With sticky fingers and full bellies, we will then settle onto the benches around the warm glow of the fire to share a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -12661,12 +12684,13 @@
    "address": "15201 Display Ct",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1052178,
+   "lng": -77.1467997,
    "description": "Choose your Halloween favorite—Ghost, Bat, or Pumpkin—and create your own 7″ standing stained-glass mosaic! 👻🦇🎃 Join us for a festive Halloween Craft & Sip where you’ll turn a solid wood shape into colorful mosaic décor you’ll actually want to display. All of the stained glass is hand-cut ahead of time, so there’s no glass cutting required—just choose your pieces, arrange your design, glue, grout, and have fun. No experience needed! 🎟️ Tickets are $45 each or Buy 3, Get 1 FREE! Quantities of each design are limited, and workshop space is limited too. Sign up early to make sure you get your favorite! What’s included • 🎨 Your choice of a 7″ solid wood Ghost, Bat, or Pumpkin that stands on its own • ✨ A selection of colorful, hand-cut stained-glass pieces + decorative accents • 🖌️ All tools, adhesive, grout + step-by-step instruction • 💚 Guided instruction + creative community • 🧀 Drinks & bites available to buy (NOT included in your ticket) Come in costume! 🎃 Costumes are encouraged! Dress up and you’ll be entered for a chance to win fun prizes—including tickets to future Acorn Craft Studio workshops. Perfect for Halloween-loving creatives, date night, girls’ night, a friend outing, or anyone looking for a fun fall night out. Why You’ll Love It • Beginner-friendly — all stained glass is already hand-cut and ready to use • Leave with a finished Halloween mosaic you can display year after year • Limited designs + limited spots — once your favorite sells out, it’s gone! \ud83e",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Experience Prince George’s",
@@ -13022,12 +13046,13 @@
    "address": "801 Chase St., Annapolis, MD 21401",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9738265,
+   "lng": -76.5058419,
    "description": "Duty, love, and laughter set sail in this swashbuckling comedy! The Pirates of Penzance is a delightful adventure filled with romance, mischief, and mistaken identity! Young Frederic believes his years of apprenticeship under a band of pirates is finally over when he falls for Mabel, daughter of the Major-General. But an unexpected twist threatens both his newfound love and his freedom. This Gilbert and Sullivan classic proves that even the fiercest pirates can have a heart of gold!",
    "categories": "Concerts & Live Music",
    "recurrence": "",
-   "admission": "$28-$120"
+   "admission": "$28-$120",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -13355,12 +13380,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Dress in your favorite costume and take a self-guided stroll through Meadowside’s enchanted forest. Collect treats along your way as you answer tricks, riddles, puzzles and more! Trails are natural with roots, rocks, and uneven surfaces. Flat, closed-toed shoes are recommended.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -14330,12 +14356,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "No Team or commitment needed, just drop in and enjoy a fun casual game with other soccer lovers.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -15416,12 +15443,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Join Meadowside Nature Center in a community celebration of Día de Los Muertos. The event will discuss cultural traditions that celebrate death as a universal experience, as observed in our personal lives and in nature. Guests are invited to bring offerings to loved ones of all kinds to share in a community art exhibit, and will be invited to explore themes of rest and renewal through culturally-themed art […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -15438,12 +15466,13 @@
    "address": "15 Parole St",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9798976,
+   "lng": -76.5286506,
    "description": "Join Cecil Memorial for a fun-filled afternoon featuring a costume contest, horseback rides, trunk or treat, and live music for the whole family. The event also includes a vaccine clinic in partnership with Safeway Pharmacy from 9:00 AM to noon, plus plenty of food, games, and giveaways for all to enjoy.",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -15482,12 +15511,13 @@
    "address": "15 Parole St",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9798976,
+   "lng": -76.5286506,
    "description": "Join us for a free community vaccine clinic offering flu shots, COVID, shingles, Tdap, RSV, Hepatitis-B, and pneumonia vaccinations. No insurance or appointments are required for this walk-in event sponsored by Safeway Pharmacy. Stay for the Harvest Festival kicking off immediately after the clinic at 1:00 P.M.",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Montgomery",
@@ -15733,12 +15763,13 @@
    "address": "9811 Washingtonian Boulevard",
    "city": "Gaithersburg",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1159157,
+   "lng": -77.19754,
    "description": "Gather your coven and celebrate Halloween at Dave & Buster’s Gaithersburg on Saturday, October 31st! Boo Bash | 10 AM–1 PM Kick off Halloween with a fun family outing before trick-or-treating! Enjoy a pancake breakfast, costume contest, face painters, scavenger hunt, Monster Mash music, and more! The Boo Bash Combo includes a $10 Power Card + 3 hours of unlimited play on BLUE games! Moonlight Mixer | 7 PM–10 PM | Adults Only Ready for a spooky night out? Enjoy a savory banquet, costume contest, Monster Mash music, 3 hours of unlimited gameplay, and optional drink tickets! The best part? Costume contest winners at BOTH events will receive FREE GAME PLAY FOR A YEAR! Whether you’re bringing your little monsters or gathering your favorite ghosts and ghouls, we’ve got your Halloween plans covered! Grab your tickets and join the fun at Dave & Buster’s Gaithersburg! Questions? Call Colleen Murphy at 301-296-9356 or email colleen.murphy@daveandbusters.com",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -16160,12 +16191,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "Join us for some Halloween fun at Glen Echo Park! Activities include Halloween arts & crafts, a festive fall photo-op (say that 10 times!), Trick-or-Treating at our resident art studios and galleries, and a costume contest (will you win for “Most Spooky,” “Most Creative,” or “Best Group?”). We focus on the arts-y & crafts-y more than the scary, but we love to see all the costumes – even the scary ones! Learn More: https://glenechopark.org/fallfrolic RSVP preferred, not required: https://www.eventbrite.com/e/fall-frolic-tickets-1985145321094?aff=oddtdtcreator",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -16862,12 +16894,13 @@
    "address": "76 East Moser Rd., Thurmont, MD 21788",
    "city": "Thurmont",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.6129745,
+   "lng": -77.41208,
    "description": "Join us for a calming, beginner-friendly yoga class designed to help you unwind, stretch, and move with ease. This all-levels session is perfect for anyone looking to build flexibility, reduce stress, and explore mindful movement in a welcoming environment. With over ten years' experience, Hannah Cherry offers supportive guidance for every body. All are welcome— no prior yoga experience needed. Please wear comfortable clothes. There are a limited amount of yoga mats available, but patrons are welcome to bring their own.",
    "categories": "Classes & Workshops, Free",
    "recurrence": "",
-   "admission": "Free"
+   "admission": "Free",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Mason Athletics",
@@ -17062,12 +17095,13 @@
    "address": "8360 Court Ave",
    "city": "Ellicott City",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.2684833,
+   "lng": -76.7983986,
    "description": "Join Howard County Recreation & Parks for a spooky day of tabletop fun at the Capitoline Center. This free event is designed for gamers ages 13 and up looking to celebrate Halloween with fellow community members. Free event, but RSVP to reserve your space by emailing LBoies@howardcountymd.gov",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -17706,12 +17740,13 @@
    "address": "7400 Tuckerman Ln, Bethesda, MD 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0343701,
+   "lng": -77.1505201,
    "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations Día de los Trenes (Wheaton) and Trainsylvania (Cabin John) will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Montgomery",
@@ -18231,12 +18266,13 @@
    "address": "15 Parole St",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9798976,
+   "lng": -76.5286506,
    "description": "Join Cecil Memorial United Methodist Church for a safe, welcoming, and joyful Harvest Festival focused on food, family, and fellowship. This vital outreach event brings the community together through activities and resources, with opportunities for sponsorship, monetary or in-kind donations, and volunteering.",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -18253,12 +18289,13 @@
    "address": "10800 Vandor Ln",
    "city": "Manassas",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 38.8023396,
+   "lng": -77.5182246,
    "description": "Fall festival meets small business celebration! Join Common Ground for HARVEST on Saturday, Oct. 31 from 10AM–2PM at Wyndham Garden Manassas HARVEST is here — and if you know Common Ground, you know we WE DO IT BIG. 🎃 Mark your calendars, Prince William County — Saturday, October 31 from 10AM–2PM at Wyndham Garden Manassas (10800 Vandor Lane, Manassas, VA), we're throwing our fall festival and small business celebration all in one. This is Common Ground's Harvest season, and it's free, family-friendly, and built for the whole community — kids, neighbors, small business owners, all of it. Here's what's waiting for you: For the kids: face painting, a fall craft-making table, and yes — trick-or-treating with our vendors. Costumes encouraged! For the adults: shop local, get a head start on holiday gifting, and find that one-of-a-kind treasure you didn't know you needed. Plus — every guest who RSVPs gets 1 entry into our raffle, and the first 100 guests through the door walk away with a swag bag. This is what Common Ground is about: connecting community and cultivating opportunity, one season at a time. Come shop, come play, come be part of it. RSVP is free — but swag bags go fast. Let us know you are coming: ymscommonground.com 📍 Wyndham Garden Manassas, 10800 Vandor Lane, Manassas, VA 20109 🗓 Saturday, Oct. 31 · 10AM–2PM 🎃 Costumes welcome. Bring the whole family. #CommonGroundPWC #ShopLocal #PrinceWilliamCounty #ManassasVA #FallFestival #HarvestFest #SmallBusinessSaturday",
    "categories": "paid",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Frederick",
@@ -18493,14 +18530,15 @@
    "endTime": "",
    "venue": "46700 Middlefield Dr Sterling, VA 20165",
    "address": "",
-   "city": "",
+   "city": "Sterling",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 39.048205,
+   "lng": -77.3825728,
    "description": "Holla-Ween: Makes Me Wanna Holla! Day Party Get ready to dress up, show out, and give back! The Loudoun County Alumnae Chapter of Delta Sigma Theta Sorority, Incorporated invites you to Holla-Ween: Makes Me Wanna Holla! , a grown-and-stylish Halloween day party fundraiser. Gather your crew for an afternoon filled with great music, dancing, creative costumes, delicious food and beverages, contests, vendors, photo-worthy moments, and nonstop fun. Event highlights include: Live DJ and day-party music Food and beverage trucks with selections available for purchase Costume contests and prizes Interactive entertainment Photo opportunities Fellowship with friends and community supporters Opportunities to support LCAC’s service and scholarship programs Come for the vibes. Stay for the fellowship. Support a powerful purpose.",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -18847,12 +18885,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -19277,12 +19316,13 @@
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0241289,
+   "lng": -77.1576553,
    "description": "Enjoy the season, with our spooky, creepy themed campfire programs. Snakes, spiders, and toads… do these critters give you the jitters? We’ll celebrate nature’s creepiest with a special presentation featuring our live animal ambassadors. Then come around the campfire to roast a sweet marshmallow treat. Costumes encouraged! Inclement weather will cancel this program. Each registration […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -19574,12 +19614,13 @@
    "address": "19120 Martinsburg Rd",
    "city": "Dickerson",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1766275,
+   "lng": -77.4755541,
    "description": "Creative, dramatic, and – YES — terrifying — MHF has built a national reputation for its unique, multi-sensory haunt experience. Music, lighting effects, scents & creepy human interaction set the tone in each of our 3 attractions. Markoff’s Haunted Forest is a benefit performance for Calleva, a 501c3 organization dedicated to building young leaders through positive outdoor experiences. Weekends in October & November.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -20786,12 +20827,13 @@
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1925025,
+   "lng": -77.2961566,
    "description": "Bring a costume and pose with pumpkins! Drop by for a unique photo op at the Discovery Center. We’ll provide some fun props, and a staff member will take your photo on instant film, just like those original instant photos (shaking optional). Take home a memory you will never forget. No registration required; drop in […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Annapolis",
@@ -21559,12 +21601,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Ana Ka’ahanui, Certified Forest Therapy Guide Connect with nature through a forest bathing walk among the beautiful fall colors. Stroll the grounds and neighboring forest at a measured pace that allows you to notice the small miracles of nature unfolding. Inspired by the ancient Japanese practice of shinrin-yoku, this walk invites you to slow down […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -21973,12 +22016,13 @@
    "address": "15402 Emerald Way",
    "city": "Bowie",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.943921,
+   "lng": -76.735699,
    "description": "Step behind the curtain for an interactive mystery experience where one masterpiece and one mystery await. Guests are encouraged to dress in emerald for this immersive evening where you must trust no one to solve the Mystery. Live Music, Cocktails & hors d' oeuvres! Join Us for Overdue Recognition Art Gallery third annual Halloween Experience",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -22657,12 +22701,13 @@
    "address": "15 Parole St",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9798976,
+   "lng": -76.5286506,
    "description": "Cecil Memorial invites you to join the fun at their 2026 Trunk or Treat celebration. The event features a contest for the best-decorated vehicle, so bring your most creative ideas for a chance to win a prize! Vehicle participants must register by email or phone and be ready by 12:30 PM.",
    "categories": "free",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -23228,12 +23273,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Instructor: Tanory Ateek Designed to increase flexibility and physical strength and to cultivate mental focus, these classes are a beautiful and relaxing way to begin your weekend. Mats are not included. Location: Japanese Tea House (September – October) or Brookside Gardens Visitor Center (mid-October – February)",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -25224,12 +25270,13 @@
    "address": "7400 Tuckerman Ln, Bethesda, MD 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0343701,
+   "lng": -77.1505201,
    "description": "This October, take a Halloween-themed ride aboard the miniature trains. Each rider is given an “Eye Spy” card with seasonal items such as pumpkins, ghosts, and black cats to look for along the tracks during the ride. The train stations Día de los Trenes (Wheaton) and Trainsylvania (Cabin John) will be decked out in seasonal decor. Fun for all ages! Purchase tickets online in advance to guarantee your preferred date and time. Under 2 ride free with a paying adult. Limited tickets may be purchased on-site Trains do not operate when tracks are wet.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Montgomery",
@@ -25555,12 +25602,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Annapolis",
@@ -25952,12 +26000,13 @@
    "address": "19120 Martinsburg Rd",
    "city": "Dickerson",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1766275,
+   "lng": -77.4755541,
    "description": "Creative, dramatic, and – YES — terrifying — MHF has built a national reputation for its unique, multi-sensory haunt experience. Music, lighting effects, scents & creepy human interaction set the tone in each of our 3 attractions. Markoff’s Haunted Forest is a benefit performance for Calleva, a 501c3 organization dedicated to building young leaders through positive outdoor experiences. Weekends in October & November.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -26050,12 +26099,13 @@
    "address": "11410 Old Georgetown Road, North Bethesda, MD 20852",
    "city": "North Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0435736,
+   "lng": -77.1216211,
    "description": "In commemoration of the adoption in 1864 of the Maryland state constitution that abolished slavery, Josiah Henson Museum and Park will offer free admission. No registration required. Regular hours, 12pm to 4pm",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -26831,12 +26881,13 @@
    "address": "",
    "city": "Kensington",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0261473,
+   "lng": -77.0723724,
    "description": "If you are a Reiki Practitioner (all levels are welcome) you are invited to join us to receive and share the gift of Reiki. Please sign up in advance so we can organize the groups. This workshop is in person only.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Montgomery",
@@ -26875,12 +26926,13 @@
    "address": "18041 Central Park Circle, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1497093,
+   "lng": -77.3121453,
    "description": "This is a perfect way to expand on your skills aboard a bicycle from certified bike coaches. Depending on the location you can expect a program that includes: bike set up and safety, body position, shifting and cadence, looking ahead, effective braking and more!. Please pay attention to the location of the program as some […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Montgomery Parks",
@@ -26897,12 +26949,13 @@
    "address": "18041 Central Park Circle, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1497093,
+   "lng": -77.3121453,
    "description": "Come out to the Bike Park to hang out and ride with the Roots to Rocks coaches! We will be “session-ing” the pump track, features and progressive jumps with some individualized skills instruction along the way. This is a perfect way to meet other riders and build skills on your bike. We have a limited […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -27643,12 +27696,13 @@
    "address": "801 Chase St., Annapolis, MD 21401",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9738265,
+   "lng": -76.5058419,
    "description": "Duty, love, and laughter set sail in this swashbuckling comedy! The Pirates of Penzance is a delightful adventure filled with romance, mischief, and mistaken identity! Young Frederic believes his years of apprenticeship under a band of pirates is finally over when he falls for Mabel, daughter of the Major-General. But an unexpected twist threatens both his newfound love and his freedom. This Gilbert and Sullivan classic proves that even the fiercest pirates can have a heart of gold!",
    "categories": "Concerts & Live Music",
    "recurrence": "",
-   "admission": "$28-$120"
+   "admission": "$28-$120",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -28108,12 +28162,13 @@
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1925025,
+   "lng": -77.2961566,
    "description": "Have your teen join us for outdoor adventures! In this series, we’ll hike, paddle, and wade our way through some of the most interesting nature locales in our area! Sign up for one or all of the programs! Join us for the day as we work our way through the twists and turns of a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -28273,12 +28328,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "A day off school is the perfect time to enjoy a full day of artistic fun both indoors and outside. Each session features varied media and activities, including nature photography, watercolor painting, and zine making. Bring a bag lunch and a refillable water bottle. Required sign-in forms will be emailed to guardians before the program […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -29409,12 +29465,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -29464,12 +29521,13 @@
    "address": "18400 Muncaster Road, Derwood, MD 20855",
    "city": "Derwood",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.158385,
+   "lng": -77.129542,
    "description": "Step into the past and discover history in a fun, immersive way with Junior Historians! This program series is designed for ages 5-8, and invites young learners to explore history through interactive activities and playful discovery. Each session combines historical learning with practical, hands-on activities that bring history to life. Each class will cover a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -29552,12 +29610,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Join us at Meadowside Nature Center to learn about how Montgomery Parks Naturalists take care of our animal ambassadors! At this program, adults with intellectual and developmental disabilities will help us care for reptiles, amphibians, and birds, including frogs, toads, snakes, and raptors. Participants will feed animals, clean water dishes, and create enrichment materials. To […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -30104,12 +30163,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "No school? No problem! On many of the days Montgomery County Public Schools are off, our brand-new School’s Out Sport Days are on! Bring your kids (ages 6-12 years) for a day full of sporting fun. Each day is structured with different sports focusing on skill development, teamwork and sportsmanship, as well as arts & […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -30288,12 +30348,13 @@
    "address": "20926 Lake Ridge Drive, Boyds, Maryland 20841",
    "city": "Boyds",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1925025,
+   "lng": -77.2961566,
    "description": "We need your help at the park! Join us for a variety of projects which can earn Student Service Learning hours or come out to help because it just feels good to volunteer. As the workday draws closer, check out our Facebook page for detailed information on today’s project. Can’t make it to one of […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -30519,12 +30580,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "A day off school is the perfect time to enjoy a full day of artistic fun both indoors and outside. Each session features varied media and activities, including nature photography, watercolor painting, and zine making. Bring a bag lunch and a refillable water bottle. Required sign-in forms will be emailed to guardians before the program […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -31265,12 +31327,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Josh Demers, Brookside Gardens staff Discover a whole new garden brought on by the changing Autumn season. This walking tour highlights the spectacular fall colors in the woody and herbaceous plant collections with a closer look at our staff’s favorite fall blooming perennials like asters, coneflowers, sedums, and grasses. NOTE: This in-person program will meet […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -31440,12 +31503,13 @@
    "address": "7300 MacArthur Blvd",
    "city": "Glen Echo",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9669117,
+   "lng": -77.1387382,
    "description": "The Helen Hayes nominated favorite from Ingrid&Mollie returns! When Jennie receives a Halloween card that calls her a scary cat, she feels like she’s been put in a box. Does she have to be scary? Join Jennie as she meets new friends with some spectacular tricks and treats to share, like skateboarding, shadow puppetry, and pumpkin carving. Who will Jennie choose to be? This show features cuddly puppets, audience interaction, and all original music. Starring Ingrid Bork and Mollie Greenberg James Understudy: Cate Ginsberg Recommended ages 4+. Run time approximately 45 minutes.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -31551,12 +31615,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "Get your little one moving, learning, and having fun in Little Athletes! This parent-and-child program is designed for children ages 3-5 and focuses on building fundamental movement and sports skills through active play, creative games, and engaging skill stations. Each session introduces young athletes to age-appropriate activities that help develop coordination, balance, confidence, and social […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Annapolis",
@@ -31882,12 +31947,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "No school? No problem! On many of the days Montgomery County Public Schools are off, our brand-new School’s Out Sport Days are on! Bring your kids (ages 6-12 years) for a day full of sporting fun. Each day is structured with different sports focusing on skill development, teamwork and sportsmanship, as well as arts & […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -32589,12 +32655,13 @@
    "address": "10000 Kensington Parkway, Kensington, MD 20895",
    "city": "Kensington",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0199339,
+   "lng": -77.0746694,
    "description": "This hands-on workshop will help you take control of your iPhone Photo Library so you can quickly find, organize, and enjoy your photos. We’ll cover how to use Collections, how to customize how your library appears, and how to create Albums in a way that works for you. You’ll leave with practical strategies to feel […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -33196,12 +33263,13 @@
    "address": "18400 Muncaster Road, Derwood, MD 20855",
    "city": "Derwood",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.158385,
+   "lng": -77.129542,
    "description": "KicKick up your boots and get ready to move with Dance Nights in the Barn! Join us for an upbeat, high-energy evening where dancers of all skill levels can learn classic and modern dances in a welcoming, rustic setting. Our instructor will guide you step-by-step, making it easy to jump in – whether you’re a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -33335,14 +33403,15 @@
    "endTime": "12:00",
    "venue": "Royce Hanson Conservation Park",
    "address": "21820 Club Hollow Road, Poolesville MD, 20837",
-   "city": "",
+   "city": "Poolesville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1311163,
+   "lng": -77.4583535,
    "description": "New to the area or just want to get out for a hike? Explore different parks in Montgomery County with an experienced naturalist. Length of hike and trail difficulty varies from site to site. Today we’ll explore Royce Hanson Conservation Park, one of the newest parks in the Montgomery Parks system. Created to protect the […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Howard University",
@@ -34193,12 +34262,13 @@
    "address": "1400 Glenallan Ave., Wheaton, Maryland 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0588201,
+   "lng": -77.0328736,
    "description": "Let’s read stories, sing songs, and take mini-hikes meant for the youngest legs! Please note: The Little Explorers programs scheduled in the same month will have the same topic and activities. This program is for children at least 18 months of age but younger than 36 months of age. Register each child, a guardian must […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -34940,12 +35010,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Instructor: Charles Votaw Tai Chi is an ancient, Chinese form of exercise perfect for adults seeking stress reduction while strengthening muscles, improving balance and increasing ﬂexibility. The Forms are repetitive patterns that emphasize slow, ﬂowing motions and controlled movements. Classes will help beginners to learn the Forms while providing regular practitioners the guidance of an […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -35327,14 +35398,15 @@
    "endTime": "21:00",
    "venue": "Fialova Bethesda",
    "address": "8120 Wisconsin Avenue",
-   "city": "",
+   "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9912899,
+   "lng": -77.0962314,
    "description": "Trivia Nights at Fialova – Every Wednesday, 7–9 PM Put your knowledge to the test and bring your A-game to Trivia Night at Fialova. Gather your friends, grab a drink, and compete for bragging rights and prizes while enjoying great food and drinks. With a fresh set of questions each week, every round is a chance to prove you’re the sharpest in the room. Whether you’re a trivia pro or just in it for the fun, all are welcome. Join us every Wednesday from 7–9 PM and make it a midweek tradition.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -35619,12 +35691,13 @@
    "address": "23394 Endeavor Dr",
    "city": "Aldie",
    "state": "VA",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9702698,
+   "lng": -77.5477034,
    "description": "Join aspiring and early-stage women business owners for a day of education, meaningful connections, and valuable resources. For a $25 registration fee, attendees will receive lunch and insights designed to help build stronger businesses and move forward with confidence. 21 area businesswomen will present in panels and roundtables. For more information, see lcwag.org/event/women-empower-entrepreneurial-summit-2026/",
    "categories": "paid",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -35993,12 +36066,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Touch artifacts, ask questions, and learn more about your favorite animal ambassadors from the Naturalists who care for them! No registration required. ",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -36739,12 +36813,13 @@
    "address": "1800 Glenallan Avenue, Wheaton, MD 20902,",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0581159,
+   "lng": -77.0374206,
    "description": "Instructor: Sherry Weber These series of classes feature foundational yoga poses that are designed to support better breathing, walking, and space orientation. Yoga movements help build muscle, bone density and core strength while improving balance, posture and flexibility. Mats are not included. Location: Japanese Tea House (September – October) or Brookside Gardens Visitor Center (mid-October […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -36960,12 +37035,13 @@
    "address": "18400 Muncaster Road, Derwood, MD 20855",
    "city": "Derwood",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.158385,
+   "lng": -77.129542,
    "description": "Step back in time and experience the past in a truly immersive way with Homeschool History at the Farm Park. This program series combines historical learning with practical, hands-on activities that bring history to life. Each class will cover a different theme from the Farm Park’s history, in which students will gain a deeper understanding […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Howard Athletics",
@@ -38413,12 +38489,13 @@
    "address": "11717 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0492351,
+   "lng": -77.0338942,
    "description": "Join us for the Parent and Tot Skate at 10:45 am the first Thursday of the month and stay afterwards for a themed coloring craft in the party room. November’s theme is Turkey Time. Admission for the skating time is $10 for one child age 3-4 and one parent (skate rental is included). No registration […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Fairfax",
@@ -39238,12 +39315,13 @@
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0241289,
+   "lng": -77.1576553,
    "description": "Get inspired with the beauty of nature in any of our Art in Nature programs at Locust Grove Nature Center. Learn to capture the beauty of nature with pencil and paper in our nature drawing program. Join a naturalist for a guided lesson in drawing the flora and fauna that you see at the nature […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -39644,12 +39722,13 @@
    "address": "5100 Meadowside Lane, Rockville, Maryland 20855",
    "city": "Rockville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.113617,
+   "lng": -77.106354,
    "description": "Gather around the campfire for an evening perfect for the whole family! This program kicks off with a campfire followed by the ultimate campfire tradition: roasting marshmallows and building delicious, gooey s’mores. With sticky fingers and full bellies, we will then settle onto the benches around the warm glow of the fire to share a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "George Washington University",
@@ -41136,12 +41215,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "Get your little one moving, learning, and having fun in Little Athletes! This parent-and-child program is designed for children ages 3-5 and focuses on building fundamental movement and sports skills through active play, creative games, and engaging skill stations. Each session introduces young athletes to age-appropriate activities that help develop coordination, balance, confidence, and social […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Montgomery Parks",
@@ -41158,12 +41238,13 @@
    "address": "18400 Muncaster Road, Derwood, MD 20855",
    "city": "Derwood",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.158385,
+   "lng": -77.129542,
    "description": "Join us for Little Farmer Storytime, a special hour just for little ones ages 5 years old and under and their loved ones. Here at the farm park, fun farm-related stories will be read out loud. It’s a great way to learn about farm animals, plants, and all the wonderful things that happen on a […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -41279,12 +41360,13 @@
    "address": "7777 Democracy Boulevard, Bethesda, Maryland 20817",
    "city": "Bethesda",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0241289,
+   "lng": -77.1576553,
    "description": "Do you have an interest in birding? Then join us for a morning of bird watching at Locust Grove Nature Center. Enjoy a cup of freshly brewed tea from our tea station as you learn beginner birding techniques, or bring a thermos of your favorite breakfast beverage. Inclement weather will cancel this program. Bring your […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -41446,12 +41528,13 @@
    "address": "121 Blake Rd., Annapolis, MD 21401",
    "city": "Annapolis",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 38.9815984,
+   "lng": -76.4832158,
    "description": "Come support the last home game of the Patriot League as Navy competes against American University. The game starts at 6:00 PM on Friday, November 6, 2026. Will they be able to spike down the competition? Find out at the Wesley A. Brown Field House. GO NAVY!",
    "categories": "Naval Academy",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Patch",
@@ -41611,12 +41694,13 @@
    "address": "1638 Maydale Drive, Colesville, MD 20905",
    "city": "Colesville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1040989,
+   "lng": -76.9735165,
    "description": "Join us as we hike through the woods, meadow, and ponds of Maydale exploring the sights, sounds, and stars that surround us! Who knows what we might find! All participants ages 6 and up must register, including adults.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Visit Loudoun",
@@ -41885,12 +41969,13 @@
    "address": "11751 Orebaugh Avenue, Wheaton, MD 20902",
    "city": "Wheaton",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.0529278,
+   "lng": -77.0354753,
    "description": "Bring your little one for a fun-filled morning of movement, play, and exploration on the open field! Pavilion Play Pals is a drop-in program designed for preschool-aged children and their parent or caregiver. Self-guided activity stations will be set up throughout the sports field area, giving families the opportunity to explore a variety of field […]",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "Montgomery Parks",
@@ -41907,12 +41992,13 @@
    "address": "1638 Maydale Drive, Colesville, MD 20905",
    "city": "Colesville",
    "state": "MD",
-   "lat": null,
-   "lng": null,
+   "lat": 39.1040989,
+   "lng": -76.9735165,
    "description": "If you just need a little boost, a bit of laughter or just a break from your daily routine stop by to meet a friendly canine! Therapy dogs are not service dogs. All attendees must register. Minors must be accompanied by an adult.",
    "categories": "",
    "recurrence": "",
-   "admission": ""
+   "admission": "",
+   "geocoded": "OpenStreetMap Nominatim"
   },
   {
    "source": "FindLocal",
@@ -42686,7 +42772,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-29T12:58:57.877Z",
+  "generatedAt": "2026-10-29T13:06:58.681Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -42695,7 +42781,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1798
+    "ms": 1363
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -42703,7 +42789,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 509
+    "ms": 237
    },
    "City of Rockville": {
     "ok": true,
@@ -42711,7 +42797,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 179
+    "ms": 118
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -42719,7 +42805,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 508
+    "ms": 382
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -42727,7 +42813,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 876
+    "ms": 447
    },
    "Navy Yard BID": {
     "ok": true,
@@ -42735,7 +42821,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 815
+    "ms": 566
    },
    "DowntownDC BID": {
     "ok": true,
@@ -42743,7 +42829,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 601
+    "ms": 1040
    },
    "Falls Church": {
     "ok": true,
@@ -42783,7 +42869,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 695
+    "ms": 1003
    },
    "Visit Alexandria": {
     "ok": true,
@@ -42791,7 +42877,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 762
+    "ms": 793
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -42799,7 +42885,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 448
+    "ms": 705
    },
    "Southwest BID": {
     "ok": true,
@@ -42807,7 +42893,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 545
+    "ms": 650
    },
    "The Wharf": {
     "ok": true,
@@ -42815,7 +42901,23 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 612
+    "ms": 699
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 282
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 963
    },
    "Ticketmaster": {
     "ok": true,
@@ -42825,37 +42927,13 @@
     "error": "",
     "ms": null
    },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 456
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1287
-   },
    "City of Greenbelt": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 801
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 216
+    "ms": 775
    },
    "City of Bowie": {
     "ok": true,
@@ -42863,7 +42941,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 734
+    "ms": 1192
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 239
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
@@ -42871,231 +42957,7 @@
     "events": 15,
     "outcome": "",
     "error": "",
-    "ms": 29803
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 654
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 294
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 136
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 676
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 478
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 658
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 801
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2125
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 127
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 13,
-    "outcome": "",
-    "error": "",
-    "ms": 2249
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 8939
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 479
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 305
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 9376
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 13,
-    "outcome": "",
-    "error": "",
-    "ms": 95
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 6,
-    "outcome": "",
-    "error": "",
-    "ms": 9697
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 539
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 434
-   },
-   "City of Frederick": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 486
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 473
-   },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 697
-   },
-   "National Landing BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 9594
-   },
-   "City of Fairfax": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 4154
-   },
-   "Mosaic District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 578
-   },
-   "Union Market District": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 1119
-   },
-   "The Boro Tysons": {
-    "ok": false,
-    "status": "BLOCKED BY PUBLISHER",
-    "events": 0,
-    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
-    "error": "HTTP 403 (publisher refused)",
-    "ms": 503
-   },
-   "One Loudoun": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 1048
-   },
-   "George Washington’s Mount Vernon": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 987
+    "ms": 2224
    },
    "DC HSEMA": {
     "ok": true,
@@ -43104,6 +42966,230 @@
     "outcome": "",
     "error": "",
     "ms": null
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 557
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 140
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 628
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 751
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 2302
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 6856
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 673
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 820
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 2667
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 45
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 624
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 540
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 13,
+    "outcome": "",
+    "error": "",
+    "ms": 3167
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND — coverage incomplete",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 1406
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 13,
+    "outcome": "",
+    "error": "",
+    "ms": 174
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 6,
+    "outcome": "",
+    "error": "",
+    "ms": 1777
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 425
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 424
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 504
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 467
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 821
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 7166
+   },
+   "City of Fairfax": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 2359
+   },
+   "Mosaic District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 125
+   },
+   "Union Market District": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 476
+   },
+   "The Boro Tysons": {
+    "ok": false,
+    "status": "BLOCKED BY PUBLISHER",
+    "events": 0,
+    "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
+    "error": "HTTP 403 (publisher refused)",
+    "ms": 151
+   },
+   "One Loudoun": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 75
+   },
+   "George Washington’s Mount Vernon": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 750
    }
   },
   "count": 177,
@@ -43220,8 +43306,8 @@
     "description": "",
     "time": "11:00",
     "endTime": "13:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9086101,
+    "lng": -76.9974046,
     "title": "DC Mural Tour",
     "url": "https://unionmarketdc.com/event/dc-mural-tour-2/2026-10-29/",
     "activityLocation": "Union Market",
@@ -43231,7 +43317,8 @@
     "date": "2026-10-29",
     "id": "Union Market District|https://unionmarketdc.com/event/dc-mural-tour-2/2026-10-29/|2026-10-29",
     "confidence": "Publisher Events Calendar API",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -43298,8 +43385,8 @@
     "description": "Laurel Farmer's Market Every Thursday through October 29th....",
     "time": "15:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.1052805,
+    "lng": -76.8466505,
     "title": "Laurel Farmer's Market",
     "url": "https://www.cityoflaurel.org/Calendar.aspx?EID=2406",
     "activityLocation": "378 Main Street, Laurel, MD 20707",
@@ -43309,7 +43396,8 @@
     "date": "2026-10-29",
     "id": "City of Laurel|https://www.cityoflaurel.org/Calendar.aspx?EID=2406|2026-10-29",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "market"
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Alexandria",
@@ -43358,7 +43446,10 @@
     "date": "2026-10-29",
     "id": "Visit Prince William|https://www.facebook.com/events/1101960055681173/|2026-10-29|16:00|",
     "confidence": "Visit Prince William event occurrence",
-    "category": "family"
+    "category": "family",
+    "lat": 38.6702619,
+    "lng": -77.3320294,
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NOVA Parks",
@@ -43456,7 +43547,7 @@
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class.",
@@ -43465,8 +43556,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "17:00",
     "endTime": "18:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-watkins-regional-park/2026-10-29",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43478,7 +43569,8 @@
     "date": "2026-10-29",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-watkins-regional-park/2026-10-29|2026-10-29|17:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Sharif",
@@ -43514,8 +43606,8 @@
     "address": "12390 Fairwood Parkway, Bowie, MD 20720",
     "time": "17:30",
     "endTime": "18:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9584505,
+    "lng": -76.7793297,
     "title": "Fitness in the Parks - Zumba",
     "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-zumba-2/2026-10-29",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43527,7 +43619,8 @@
     "date": "2026-10-29",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/fitness-in-the-parks-zumba-2/2026-10-29|2026-10-29|17:30|fairwood park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -43540,8 +43633,8 @@
     "address": "12390 Fairwood Parkway, Bowie, MD 20720",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9584505,
+    "lng": -76.7793297,
     "title": "Get Fit Mobile: Fitness on the Fly @ Fairwood Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly/2026-10-29",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43553,11 +43646,12 @@
     "date": "2026-10-29",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly/2026-10-29|2026-10-29|18:00|fairwood park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class. Ages 13 & up; FREE",
@@ -43566,8 +43660,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-2/2026-10-29",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43579,11 +43673,12 @@
     "date": "2026-10-29",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-2/2026-10-29|2026-10-29|18:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! Strength in motion is a dynamic circuit-based fitness class designed to build strength, improve endurance, and keep the body moving through a series of structured exercise stations. This class is ideal for individuals looking for a full-body workout that is energizing, and adaptable for all fitness levels. The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience.",
@@ -43592,8 +43687,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Strength in Motion (4-week program)",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-strength-in-motion-4-week-program/2026-10-29",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43605,7 +43700,8 @@
     "date": "2026-10-29",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-strength-in-motion-4-week-program/2026-10-29|2026-10-29|18:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Navy Yard BID",
@@ -43689,8 +43785,8 @@
     "address": "",
     "time": "19:00",
     "endTime": "20:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-29/",
     "coverage": true,
@@ -43701,7 +43797,8 @@
     "date": "2026-10-29",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-29/|2026-10-29|19:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Georgetown BID",
@@ -43714,8 +43811,8 @@
     "address": "",
     "time": "20:00",
     "endTime": "21:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-29/",
     "coverage": true,
@@ -43726,7 +43823,8 @@
     "date": "2026-10-29",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-29/|2026-10-29|20:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Dupont Circle BID",
@@ -43753,7 +43851,7 @@
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Fort Washington",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Looking for an exciting workout experience? Follow a scenic trail and scan QR codes at each station to access video instructions for your next exercise. This program goes beyond walking by incorporating resistance and flexibility exercises to build strength, improve mobility, and reduce the risk of injury. Let’s get moving together and create a balanced and effective fitness routine!",
@@ -43762,8 +43860,8 @@
     "address": "1770 Tucker Road",
     "time": "08:30",
     "endTime": "09:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.7843339,
+    "lng": -76.9776279,
     "title": "QR Fit Trail - Instructor Led Sessions",
     "url": "https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions-2/2026-10-30",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -43775,7 +43873,8 @@
     "date": "2026-10-30",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions-2/2026-10-30|2026-10-30|08:30|tucker road athletic complex",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Alexandria",
@@ -43892,8 +43991,8 @@
     "description": "",
     "time": "11:00",
     "endTime": "17:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.4468007,
+    "lng": -76.5115353,
     "title": "Harvest Festival",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=23471",
     "activityLocation": "1865 Horsman Farm Lane, St. Leonard, MD 20685",
@@ -43903,7 +44002,8 @@
     "date": "2026-10-30",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=23471|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Alexandria",
@@ -44019,8 +44119,8 @@
     "description": "Bring your pups out for the City's annual Howl-O-Ween costume party at the Dog Park! There will be a costume contest, pup cups, a spooky photo booth, a prize basket, Animal Control trivia, responsible pet ownership information, and more. Grab your pup’s best costume and come celebrate Halloween with the Bowie community!",
     "time": "15:00",
     "endTime": "17:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.936545,
+    "lng": -76.740014,
     "title": "Howl-O-Ween",
     "url": "https://www.cityofbowie.org/Calendar.aspx?EID=11706",
     "activityLocation": "3600 Northview Drive, Bowie, MD 20716",
@@ -44030,7 +44130,8 @@
     "date": "2026-10-30",
     "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=11706|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "family"
+    "category": "family",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS Rock Creek Park",
@@ -44094,8 +44195,8 @@
     "description": "",
     "time": "16:00",
     "endTime": "18:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.3245011,
+    "lng": -76.461,
     "title": "Spooky Solomons Ghost Tour with Big Kahuna Cruises",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=21768",
     "activityLocation": "14426 Solomons Island Rd S, Solomons, MD 20688",
@@ -44105,7 +44206,8 @@
     "date": "2026-10-30",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=21768|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "water"
+    "category": "water",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "DowntownDC BID",
@@ -44141,8 +44243,8 @@
     "description": "",
     "time": "17:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9994721,
+    "lng": -76.9083457,
     "title": "Trunk or Treat",
     "url": "https://www.greenbeltmd.gov/Calendar.aspx?EID=2694",
     "activityLocation": "6000 Greenbelt Road, Greenbelt, MD 20770",
@@ -44152,7 +44254,8 @@
     "date": "2026-10-30",
     "id": "City of Greenbelt|https://www.greenbeltmd.gov/Calendar.aspx?EID=2694|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "family"
+    "category": "family",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Guided Hikes @ Greenwell State Park",
@@ -44185,8 +44288,8 @@
     "address": "11401 Thrift Rd, Clinton, MD 20735",
     "time": "17:30",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.7333049,
+    "lng": -76.9188068,
     "title": "Halloweenie Roast Campfire",
     "url": "https://www.pgparks.com/event_list/halloweenie-roast-campfire",
     "categoryEvidence": "",
@@ -44198,7 +44301,8 @@
     "date": "2026-10-30",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/halloweenie-roast-campfire|2026-10-30|17:30|clearwater nature center",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NOVA Parks",
@@ -44304,8 +44408,8 @@
     "description": "What’s On At Merriweather District Spook-tacular Start planning your spookiest — or cutest — costume for this year’s Spook-tacular Halloween celebration. Come out to Color Burst Park on October 30 at 6pm for Merriweather District’s Sixth Annual Spook-tacular , which will be full of treats and spooky fun, including: A Group Costume Contest: The winners get a Merriweather District Prize Pack valued at over $250. Sign up in advance here , and get ready to strut your stuff on the catwalk at 7:15pm; A Trick-or-Treat Trail: Find candy at our participating merchants from 6pm-8pm (While supplies last); Pumpkin Patch Plus, pumpkin decorating, games, a glitter tattoo artist, interactive photo ops, and complimentary goodie bags for the first 250 guests who check in at Guest Services. RSVP TODAY",
     "time": "18:00",
     "endTime": "20:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.2057524,
+    "lng": -76.8616898,
     "title": "Spook-tacular",
     "url": "https://merriweatherdistrict.com/event/spook-tacular-2/",
     "activityLocation": "Color Burst Park",
@@ -44315,7 +44419,8 @@
     "date": "2026-10-30",
     "id": "Downtown Columbia|https://merriweatherdistrict.com/event/spook-tacular-2/|2026-10-30",
     "confidence": "Merriweather District calendar data",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Calvert",
@@ -44328,8 +44433,8 @@
     "description": "",
     "time": "18:00",
     "endTime": "23:59",
-    "lat": null,
-    "lng": null,
+    "lat": 38.3224968,
+    "lng": -76.4594853,
     "title": "Spooky Solomons Ghost Tours",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=23627",
     "activityLocation": "14488 Solomons Island Rd S, Solomons, MD 20688",
@@ -44339,7 +44444,8 @@
     "date": "2026-10-30",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=23627|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Myles Deep Band",
@@ -44375,8 +44481,8 @@
     "description": "",
     "time": "18:45",
     "endTime": "19:45",
-    "lat": null,
-    "lng": null,
+    "lat": 38.733074,
+    "lng": -77.8087497,
     "title": "Flashlight Candy Hunt at Rady Park",
     "url": "https://www.warrentonva.gov/Calendar.aspx?EID=980",
     "activityLocation": "540 Evans Avenue, Warrenton, VA 20186",
@@ -44386,7 +44492,8 @@
     "date": "2026-10-30",
     "id": "Town of Warrenton|https://www.warrentonva.gov/Calendar.aspx?EID=980|2026-10-30",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "family"
+    "category": "family",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Fairfax County Park Authority",
@@ -44399,8 +44506,8 @@
     "description": "(5-Adult) Celebrate international bat week at Riverbend Park. Learn about the fascinating lives of these flying mammals as you participate in an educational scavenger hunt through the woods. Conclude the evening with a naturally crafted bat decoration to take home.",
     "time": "19:00",
     "endTime": "20:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.0187357,
+    "lng": -77.2461667,
     "title": "Bat Walk at the Bend",
     "url": "https://www.fairfaxcounty.gov/parks/riverbend/bat-walk-bend/103026",
     "activityLocation": "Riverbend Park",
@@ -44410,7 +44517,8 @@
     "date": "2026-10-30",
     "id": "Fairfax County Park Authority|https://www.fairfaxcounty.gov/parks/riverbend/bat-walk-bend/103026|2026-10-30",
     "confidence": "Fairfax County Park Authority event page",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "From Another Time: Haunted Historic House & Cemetery Tour",
@@ -44433,7 +44541,10 @@
     "date": "2026-10-30",
     "id": "Visit Prince William|https://www.eventbrite.com/e/from-another-time-haunted-historic-house-cemetery-tour-tickets-1999942461740|2026-10-30|19:00|weems-botts museum welcome center",
     "confidence": "Visit Prince William event occurrence",
-    "category": "nature"
+    "category": "nature",
+    "lat": 38.5683184,
+    "lng": -77.3296767,
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Georgetown BID",
@@ -44446,8 +44557,8 @@
     "address": "",
     "time": "19:00",
     "endTime": "20:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-30/",
     "coverage": true,
@@ -44458,7 +44569,8 @@
     "date": "2026-10-30",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-30/|2026-10-30|19:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Georgetown BID",
@@ -44471,8 +44583,8 @@
     "address": "",
     "time": "20:00",
     "endTime": "21:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-30/",
     "coverage": true,
@@ -44483,7 +44595,8 @@
     "date": "2026-10-30",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-30/|2026-10-30|20:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -44548,8 +44661,8 @@
     "address": "9200 Ruby Lockhart Blvd, Lanham, MD 20706",
     "time": "08:00",
     "endTime": "09:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9199797,
+    "lng": -76.8438077,
     "title": "Fitness in the Parks - Full Body Sculpt: Strength & Conditioning",
     "url": "https://www.pgparks.com/event_list/fitness-in-the-parks-full-body-sculpt-strength-conditioning-2/2026-10-31",
     "categoryEvidence": "",
@@ -44561,7 +44674,8 @@
     "date": "2026-10-31",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/fitness-in-the-parks-full-body-sculpt-strength-conditioning-2/2026-10-31|2026-10-31|08:00|woodmore towne centre park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "National Arboretum (FONA)",
@@ -44574,8 +44688,8 @@
     "address": "2400 R St NE",
     "time": "08:30",
     "endTime": "14:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.912676,
+    "lng": -76.9717777,
     "title": "Fall 5K & Festival",
     "url": "https://www.fona.org/events/fall-5k/",
     "dateEvidence": "FONA live event card epochs and matching Eastern clock labels",
@@ -44586,7 +44700,8 @@
     "date": "2026-10-31",
     "id": "National Arboretum (FONA)|https://www.fona.org/events/fall-5k/|2026-10-31|08:30|u.s. national arboretum",
     "confidence": "FONA live event card epochs and matching Eastern clock labels",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Fredericksburg",
@@ -44623,8 +44738,8 @@
     "description": "The Half Street Central Farmers Market is a vibrant outdoor market in Navy Yard featuring over 30 local vendors offering fresh produce, baked goods, prepared foods, and artisanal products. Held every Saturday from spring through fall, it combines shopping with a lively community atmosphere, including live music, chef demos, and family-friendly activities just steps from Nationals Park.",
     "time": "09:00",
     "endTime": "13:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.87564,
+    "lng": -77.0070472,
     "title": "Half Street Central Farmers Market",
     "url": "https://navyyarddc.org/event/half-street-central-farmers-market-28-copy",
     "activityLocation": "Half Street",
@@ -44634,7 +44749,8 @@
     "date": "2026-10-31",
     "id": "Navy Yard BID|https://navyyarddc.org/event/half-street-central-farmers-market-28-copy|2026-10-31",
     "confidence": "Navy Yard BID event page date and time",
-    "category": "market"
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Fredericksburg",
@@ -44745,8 +44861,8 @@
     "description": "(5-Adult) Hike through the fall foliage and identify trees. Find that perfect autumn leaf and make a craft keepsake.",
     "time": "10:00",
     "endTime": "22:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.0187357,
+    "lng": -77.2461667,
     "title": "Autumn Leaves Hike and Craft",
     "url": "https://www.fairfaxcounty.gov/parks/riverbend/autumn-leaves-hike-craft/103126",
     "activityLocation": "Riverbend Park",
@@ -44756,7 +44872,8 @@
     "date": "2026-10-31",
     "id": "Fairfax County Park Authority|https://www.fairfaxcounty.gov/parks/riverbend/autumn-leaves-hike-craft/103126|2026-10-31",
     "confidence": "Fairfax County Park Authority event page",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Costume Parade & Contest",
@@ -44779,7 +44896,10 @@
     "date": "2026-10-31",
     "id": "Visit Prince William|https://www.visitoccoquanva.com/costumeparade|2026-10-31|10:00|river mill park",
     "confidence": "Visit Prince William event occurrence",
-    "category": "festival"
+    "category": "festival",
+    "lat": 38.6856509,
+    "lng": -77.2626794,
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS Rock Creek Park",
@@ -44870,8 +44990,8 @@
     "description": "",
     "time": "10:00",
     "endTime": "17:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.4468007,
+    "lng": -76.5115353,
     "title": "Harvest Festival",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=23484",
     "activityLocation": "1865 Horsman Farm Lane, St. Leonard, MD 20685",
@@ -44881,7 +45001,8 @@
     "date": "2026-10-31",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=23484|2026-10-31",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Old Town Manassas Fall-O-Ween",
@@ -44962,7 +45083,7 @@
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Come support new growers, explore the fields, and take home something delicious at the Urban Farm Incubator at Watkins Regional Park. Every Saturday, 10 am-2 pm , from late May to mid-November , you can shop fresh vegetables, fruit, herbs, and flowers grown on-site by ten emerging farm businesses. Expect nutrient‑dense, culturally relevant, all‑natural produce! DIRECTIONS: Once inside Watkins Regional Park, follow signs for the Urban Farm Incubator and park inside the black deer fence. The Urban Farm Incubator hosts ten beginner farm businesses growing vegetables, fruit, herbs, and flowers. The Urban Farm Incubator at Watkins Regional Park is a collaboration among ECO City Farms, the Prince George’s Soil Conservation District (PGSCD), Prince George’s Food Equity Council (FEC), The Capital Market, and M-NCPPC, Department of Recreation, Prince George’s County. This event is held at 601 Watkins Park Drive For more info, visit https://www.ecoffshoots.org/urban-farm-incubator or email urbanfarmincubator@gmail.com",
@@ -44971,8 +45092,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "10:00",
     "endTime": "14:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Watkins Park Farmers Market",
     "url": "https://www.pgparks.com/event_list/watkins-park-farmers-market/2026-10-31",
     "categoryEvidence": "",
@@ -44984,7 +45105,8 @@
     "date": "2026-10-31",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/watkins-park-farmers-market/2026-10-31|2026-10-31|10:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "market"
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS National Mall",
@@ -45051,8 +45173,8 @@
     "description": "",
     "time": "11:00",
     "endTime": "13:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9086101,
+    "lng": -76.9974046,
     "title": "DC Mural Tour",
     "url": "https://unionmarketdc.com/event/dc-mural-tour-2/2026-10-31/",
     "activityLocation": "Union Market",
@@ -45062,7 +45184,8 @@
     "date": "2026-10-31",
     "id": "Union Market District|https://unionmarketdc.com/event/dc-mural-tour-2/2026-10-31/|2026-10-31",
     "confidence": "Publisher Events Calendar API",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS National Mall",
@@ -45102,8 +45225,8 @@
     "description": "Celebrate Halloween in Navy Yard with live DJs and exclusive drink specials! Mad City Bar Fest, Georgetown Events, Mission Group & Versus present the Navy Yard Halloween Bar Fest at some of the neighborhood’s most popular bars and clubs. Costumes encouraged!Check in at the bar you purchased a ticket for to receive your wristband.Participating bars: The Bullpen, Royal Sands, Takoda, Walter’s, STFU, Silver Social, Atlas, Problem Child, and Mission (all-day pre and post party).This event is 21+. Tickets do not guarantee entry to bars that are over capacity, and each bar has the right to refuse entry. Bars are subject to change. No refunds, all sales final.",
     "time": "11:00",
     "endTime": "20:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.87564,
+    "lng": -77.0070472,
     "title": "Navy Yard DC Halloween Bar Fest",
     "url": "https://navyyarddc.org/event/navy-yard-dc-halloween-bar-fest",
     "activityLocation": "Half Street",
@@ -45113,7 +45236,8 @@
     "date": "2026-10-31",
     "id": "Navy Yard BID|https://navyyarddc.org/event/navy-yard-dc-halloween-bar-fest|2026-10-31",
     "confidence": "Navy Yard BID event page date and time",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS National Mall",
@@ -45354,8 +45478,8 @@
     "description": "",
     "time": "13:00",
     "endTime": "15:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.3245011,
+    "lng": -76.461,
     "title": "Spooky Solomons Ghost Tour with Big Kahuna Cruises",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=21766",
     "activityLocation": "14426 Solomons Island Rd S, Solomons, MD 20688",
@@ -45365,7 +45489,8 @@
     "date": "2026-10-31",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=21766|2026-10-31",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "water"
+    "category": "water",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "id": "ticketmaster|17A8v0G6CxidULX|2026-10-31",
@@ -45532,8 +45657,8 @@
     "description": "",
     "time": "14:00",
     "endTime": "16:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.7172269,
+    "lng": -77.8186612,
     "title": "Trunk or Treat at the WARF",
     "url": "https://www.warrentonva.gov/Calendar.aspx?EID=982",
     "activityLocation": "800 Waterloo Road, Warrenton, VA 20186",
@@ -45543,7 +45668,8 @@
     "date": "2026-10-31",
     "id": "Town of Warrenton|https://www.warrentonva.gov/Calendar.aspx?EID=982|2026-10-31",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "family"
+    "category": "family",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "title": "Bansy",
@@ -45603,8 +45729,8 @@
     "description": "",
     "time": "16:00",
     "endTime": "18:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.3245011,
+    "lng": -76.461,
     "title": "Halloween Cruise",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=21767",
     "activityLocation": "14426 Solomons Island Rd S, Solomons, MD 20688",
@@ -45614,7 +45740,8 @@
     "date": "2026-10-31",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=21767|2026-10-31",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "water"
+    "category": "water",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Mosaic District",
@@ -45627,8 +45754,8 @@
     "description": "Grab your costume and join us October 31 for a Spooktacular Halloween at Mosaic! Starting at 4 PM, stop by your favorite shops for trick-or-treating and then lay out your blankets, spread out your candy, and enjoy Hocus Pocus on the big screen in Strawberry Park at 6 PM. Where can I stop in to Trick-or-Treat? Angelika Barnes & Noble Bartaco BedHead PJs Boll & Branch Brilliant Earth B Side Caboose Commons F45 Faherty Hi/Fi Tex-Mex BBQ JINYA Ramen Bar Macmillan Whisky Room Makers Union Neuhaus OneLife Paper Source Pupatella Pura Vida RASA South Moon Under Scout & Molly’s The Beaufort Bonnet Company The Shade Store True Food Kitchen Urbano Waxing The City Warby Parker West Elm Stay tuned for more!",
     "time": "16:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8725342,
+    "lng": -77.2300534,
     "title": "Mosaic Halloween Spooktacular",
     "url": "https://mosaicdistrict.com/event/mosaic-halloween-spooktacular/",
     "activityLocation": "",
@@ -45638,7 +45765,8 @@
     "date": "2026-10-31",
     "id": "Mosaic District|https://mosaicdistrict.com/event/mosaic-halloween-spooktacular/|2026-10-31",
     "confidence": "Publisher Events Calendar API",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS National Mall",
@@ -45777,8 +45905,8 @@
     "description": "",
     "time": "18:00",
     "endTime": "23:59",
-    "lat": null,
-    "lng": null,
+    "lat": 38.3224968,
+    "lng": -76.4594853,
     "title": "Spooky Solomons Ghost Tours",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=23628",
     "activityLocation": "14488 Solomons Island Rd S, Solomons, MD 20688",
@@ -45788,7 +45916,8 @@
     "date": "2026-10-31",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=23628|2026-10-31",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -45801,8 +45930,8 @@
     "address": "2413 Pinebrook Avenue, Greater Landover, MD 20785",
     "time": "18:00",
     "endTime": "21:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9244071,
+    "lng": -76.8957283,
     "title": "Trunk or Treat Family Halloween Night",
     "url": "https://www.pgparks.com/event_list/trunk-or-treat-family-halloween-night",
     "categoryEvidence": "",
@@ -45814,7 +45943,8 @@
     "date": "2026-10-31",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/trunk-or-treat-family-halloween-night|2026-10-31|18:00|kentland community center",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "family"
+    "category": "family",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "City of Bowie",
@@ -45874,8 +46004,8 @@
     "address": "",
     "time": "19:00",
     "endTime": "20:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-31/",
     "coverage": true,
@@ -45886,7 +46016,8 @@
     "date": "2026-10-31",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-31/|2026-10-31|19:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Georgetown BID",
@@ -45924,8 +46055,8 @@
     "address": "",
     "time": "20:00",
     "endTime": "21:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9054188,
+    "lng": -77.060379,
     "title": "Ghosts of Georgetown & Exorcist Steps Haunted Walking Tour",
     "url": "https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-31/",
     "coverage": true,
@@ -45936,7 +46067,8 @@
     "date": "2026-10-31",
     "id": "Georgetown BID|https://www.georgetowndc.com/event/ghosts-of-georgetown-exorcist-steps-haunted-walking-tour/2026-10-31/|2026-10-31|20:00|3051 m st nw",
     "confidence": "Publisher explicit schedule",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -46072,8 +46204,8 @@
     "description": "",
     "time": "10:00",
     "endTime": "14:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.0005734,
+    "lng": -76.8773857,
     "title": "Greenbelt Farmer's Market",
     "url": "https://www.greenbeltmd.gov/Calendar.aspx?EID=2372",
     "activityLocation": "25 Crescent Road, Greenbelt, MD 20770",
@@ -46083,7 +46215,8 @@
     "date": "2026-11-01",
     "id": "City of Greenbelt|https://www.greenbeltmd.gov/Calendar.aspx?EID=2372|2026-11-01",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "market"
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Visit Calvert",
@@ -46096,8 +46229,8 @@
     "description": "",
     "time": "10:00",
     "endTime": "17:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.4468007,
+    "lng": -76.5115353,
     "title": "Harvest Festival",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=23485",
     "activityLocation": "1865 Horsman Farm Lane, St. Leonard, MD 20685",
@@ -46107,7 +46240,8 @@
     "date": "2026-11-01",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=23485|2026-11-01",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "festival"
+    "category": "festival",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "Fairfax County Park Authority",
@@ -46120,8 +46254,8 @@
     "description": "(8-Adult) Join our park naturalist on a hike and explore wild plants and animals throughout the trails. Learn how to use the iNaturalist app to take pictures of things you find along the way. Smart phones, cameras and binoculars welcome. Each hike will feature a different theme and may include: salamanders, birds and other wildlife, wildflowers, trees, nature photography, cultural history, or a scenic destination.",
     "time": "10:00",
     "endTime": "11:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.7608026,
+    "lng": -77.3068937,
     "title": "Hike with a Naturalist",
     "url": "https://www.fairfaxcounty.gov/parks/burke-lake/hike-with-naturalist/110126",
     "activityLocation": "Burke Lake Park",
@@ -46131,7 +46265,8 @@
     "date": "2026-11-01",
     "id": "Fairfax County Park Authority|https://www.fairfaxcounty.gov/parks/burke-lake/hike-with-naturalist/110126|2026-11-01",
     "confidence": "Fairfax County Park Authority event page",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -46383,8 +46518,8 @@
     "description": "(6-Adult) Hike the trail and learn about the history of abandoned sites hidden from most visitor’s view. Follow trails of forested areas and Cain’s Branch waterway to learn about the life of early inhabitants who made Sully their home. This outdoor guided program does involve some walking over uneven terrain and along trails. Program is held weather permitting.",
     "time": "13:00",
     "endTime": "14:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9076685,
+    "lng": -77.4308404,
     "title": "Cain's Branch Archaeology Tour",
     "url": "https://www.fairfaxcounty.gov/parks/sully-historic-site/cains-branch-archaelogy-tour/110126",
     "activityLocation": "Sully Historic Site",
@@ -46394,7 +46529,8 @@
     "date": "2026-11-01",
     "id": "Fairfax County Park Authority|https://www.fairfaxcounty.gov/parks/sully-historic-site/cains-branch-archaelogy-tour/110126|2026-11-01",
     "confidence": "Fairfax County Park Authority event page",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -46461,8 +46597,8 @@
     "description": "(9-Adult) Join a naturalist to learn how to preserve nature by creating resin pendants encapsulating small natural specimens. Discover how to responsibly select natural materials, while also learning how to use resin to make your own natural charm. No living wildlife will be affected in the making of the charms. All materials will be provided.",
     "time": "13:00",
     "endTime": "14:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.7608026,
+    "lng": -77.3068937,
     "title": "Nature Charms",
     "url": "https://www.fairfaxcounty.gov/parks/burke-lake/nature-charms/110126",
     "activityLocation": "Burke Lake Park",
@@ -46472,7 +46608,8 @@
     "date": "2026-11-01",
     "id": "Fairfax County Park Authority|https://www.fairfaxcounty.gov/parks/burke-lake/nature-charms/110126|2026-11-01",
     "confidence": "Fairfax County Park Authority event page",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS National Mall",
@@ -46835,7 +46972,7 @@
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Looking for an exciting workout experience? Follow a scenic trail and scan QR codes at each station to access video instructions for your next exercise. This program goes beyond walking by incorporating resistance and flexibility exercises to build strength, improve mobility, and reduce the risk of injury. Let’s get moving together and create a balanced and effective fitness routine!",
@@ -46844,8 +46981,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "08:00",
     "endTime": "17:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "QR Fit Trail - Instructor Led Sessions",
     "url": "https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions/2026-11-03",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -46857,7 +46994,8 @@
     "date": "2026-11-03",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/qr-fit-trail-instructor-led-sessions/2026-11-03|2026-11-03|08:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -47001,8 +47139,8 @@
     "description": "",
     "time": "14:00",
     "endTime": "17:30",
-    "lat": null,
-    "lng": null,
+    "lat": 38.5615126,
+    "lng": -76.5978591,
     "title": "Calvert County Farmers Market at CalvertHealth",
     "url": "https://www.calvertcountymd.gov/Calendar.aspx?EID=22223",
     "activityLocation": "130 Hospital Road, Prince Frederick, MD 20678",
@@ -47012,7 +47150,8 @@
     "date": "2026-11-03",
     "id": "Visit Calvert|https://www.calvertcountymd.gov/Calendar.aspx?EID=22223|2026-11-03",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "market"
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -47156,8 +47295,8 @@
     "description": "",
     "time": "14:00",
     "endTime": "15:00",
-    "lat": null,
-    "lng": null,
+    "lat": 39.4158537,
+    "lng": -77.4145326,
     "title": "Get Outside! Senior Scapes",
     "url": "https://www.cityoffrederickmd.gov/Calendar.aspx?EID=21937",
     "activityLocation": "121 North Bentz Street, Frederick, MD 21701",
@@ -47167,7 +47306,8 @@
     "date": "2026-11-04",
     "id": "City of Frederick|https://www.cityoffrederickmd.gov/Calendar.aspx?EID=21937|2026-11-04",
     "confidence": "Official CivicPlus calendar feed",
-    "category": "other"
+    "category": "other",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -47362,8 +47502,8 @@
     "description": "",
     "time": "11:00",
     "endTime": "13:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9086101,
+    "lng": -76.9974046,
     "title": "DC Mural Tour",
     "url": "https://unionmarketdc.com/event/dc-mural-tour-2/2026-11-05/",
     "activityLocation": "Union Market",
@@ -47373,7 +47513,8 @@
     "date": "2026-11-05",
     "id": "Union Market District|https://unionmarketdc.com/event/dc-mural-tour-2/2026-11-05/|2026-11-05",
     "confidence": "Publisher Events Calendar API",
-    "category": "nature"
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "NPS DC-area parks",
@@ -47457,7 +47598,7 @@
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class.",
@@ -47466,8 +47607,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "17:00",
     "endTime": "18:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-watkins-regional-park/2026-11-05",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -47479,7 +47620,8 @@
     "date": "2026-11-05",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-watkins-regional-park/2026-11-05|2026-11-05|17:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
@@ -47492,8 +47634,8 @@
     "address": "12390 Fairwood Parkway, Bowie, MD 20720",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.9584505,
+    "lng": -76.7793297,
     "title": "Get Fit Mobile: Fitness on the Fly @ Fairwood Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly/2026-11-05",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -47505,11 +47647,12 @@
     "date": "2026-11-05",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly/2026-11-05|2026-11-05|18:00|fairwood park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience. This class will feature a fusion of body weight, strength, and cardio exercises. All fitness levels welcome! Please bring a mat or towel to class. Ages 13 & up; FREE",
@@ -47518,8 +47661,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Fitness on the Fly @ Watkins Regional Park",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-2/2026-11-05",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -47531,11 +47674,12 @@
     "date": "2026-11-05",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-fitness-on-the-fly-2/2026-11-05|2026-11-05|18:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    },
    {
     "source": "M-NCPPC Prince George’s Parks",
-    "city": "",
+    "city": "Upper Marlboro",
     "county": "Prince George’s County",
     "state": "MD",
     "description": "Join our outdoor mobile fitness experience in the scenic parks of Prince George’s County! Strength in motion is a dynamic circuit-based fitness class designed to build strength, improve endurance, and keep the body moving through a series of structured exercise stations. This class is ideal for individuals looking for a full-body workout that is energizing, and adaptable for all fitness levels. The Get Fit Mobile unit will supply a range of fitness equipment to create a vibrant workout experience.",
@@ -47544,8 +47688,8 @@
     "address": "301 Watkins Park Drive, Upper Marlboro",
     "time": "18:00",
     "endTime": "19:00",
-    "lat": null,
-    "lng": null,
+    "lat": 38.8871402,
+    "lng": -76.786076,
     "title": "Get Fit Mobile: Strength in Motion (4-week program)",
     "url": "https://www.pgparks.com/event_list/get-fit-mobile-strength-in-motion-4-week-program/2026-11-05",
     "categoryEvidence": "PG Parks lists this program under Outdoor Wellness",
@@ -47557,7 +47701,8 @@
     "date": "2026-11-05",
     "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/get-fit-mobile-strength-in-motion-4-week-program/2026-11-05|2026-11-05|18:00|watkins regional park",
     "confidence": "Publisher Events Calendar explicit local schedule",
-    "category": "fitness"
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
    }
   ],
   "npsIndex": [
