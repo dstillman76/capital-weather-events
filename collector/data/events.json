@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-29T13:06:31.420Z",
+ "generatedAt": "2026-10-29T14:40:33.898Z",
  "window": {
   "start": "2026-10-29",
   "end": "2026-11-06"
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 214,
-   "inWindow": 171,
+   "listings": 219,
+   "inWindow": 175,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -147,11 +147,11 @@
    "source": "University of Maryland",
    "kind": "day pages",
    "status": "ok",
-   "listings": 77,
-   "opened": 0,
+   "listings": 71,
+   "opened": 3,
    "skippedLong": 11,
    "skippedInternal": 0,
-   "inWindow": 22,
+   "inWindow": 20,
    "note": ""
   },
   {
@@ -176,7 +176,7 @@
    "keptPrevious": 609
   }
  ],
- "count": 1599,
+ "count": 1601,
  "events": [
   {
    "source": "Visit Fairfax",
@@ -1645,6 +1645,28 @@
    "lng": -77.56778899999999,
    "description": "The series runs from Oct. 1-Nov 5. Learn the process for becoming a U.S. citizen. This series covers completing the application, preparing for an interview with an immigration officer, and the material on the civics test.",
    "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Baltimore city",
+   "title": "City of Baltimore: Jay-Z30 at SB LXI, Ravens \"No Purple Doubt\" & \"No Championship Doubt\" Brewers",
+   "url": "https://patch.com/maryland/baltimore/calendar/event/20261029/97656b32-91ec-487d-b9bc-ac5f5124f1a9/city-of-baltimore-jay-z30-at-sb-lxi-ravens-no-purple-doubt-no-championship-doubt-brewers",
+   "dates": [
+    "2026-10-29"
+   ],
+   "dateKind": "single",
+   "time": "10:30",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "lat": 39.2905023,
+   "lng": -76.6104072,
+   "description": "City of Baltimore: Jay-Z30 at SB LXI, Ravens \"No Purple Doubt\" & \"No Championship Doubt\" Brewers October 29, 2026 - The \"Charm'tastic Mile\" of Baltimore (CTMB-1.3) www.thecharmtasticmile.com . The chic & famed 1.3 mile corridor located in the heart of Charm City (Est.1975) that connects Dwtn-West, the Inner Harbor & Harbor East (S. Greene & W. Pratt Street to S. President & Fleet Street) that is now listed on Google search as one of the Top 10-15 Most Famous Streets in America is reporting its Sports'tastic Thursday in B'more. The exciting news of Jay-Z being named as the headline performer for Super Bowl LXI (61) amps up the anticipation of the music Icon bringing his magic to the big-stage. HOVA this past Friday & Saturday had 2 concerts at So Fi Stadium , the site of the SB LXI. he's celebrating the 30th Anniversary (1996-26) of his debut album Reasonable Doubt, the year-long celebration has amazed crowds all-over the globe. The Baltimore Ravens fan-based slogan/motto \"No Purple Doubt\" was inspired by the Reasonable Doubt title. When the Ravens held their 1st-ever NFL training camp just weeks earlier Jay-Z released his debut album on June 25, 1996. There's 68-days between the release of Reasonable Doubt and the Ravens 1st-ever game as an NFL www.nfl.com franchise on September 1, 1996 a 19-14 win vs the then Oakland Raiders. \"No Purple Doubt\" has its own signature hype-anthem that has a Jay-Z/Rihanna, Run This Town vibe to it https://youtu.be/IRkYgEF0caA?is=KPkMSqLp6CiHRLbi",
+   "categories": "paid",
    "recurrence": "",
    "admission": ""
   },
@@ -12299,6 +12321,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "RESCHEDULED Terp Carnival Fireworks",
+   "url": "https://calendar.umd.edu/rescheduled-terp-carnival-fireworks",
+   "dates": [
+    "2026-10-30"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "19:30",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Don’t worry, Terps—we haven’t forgotten about the fireworks! Join us on the Mall to kick off Halloween weekend with our rescheduled Terp Carnival fireworks display. Fri Oct 30 7:00pm To – 7:30pm McKeldin Mall Learn more on TerpLink. TerpLink Event Page. Add to Calendar Don’t worry, Terps—we haven’t forgotten about the fireworks! Join us on the Mall to kick off Halloween weekend with our rescheduled Terp Carnival fireworks display. Costumes are encouraged, so come celebrate with your fellow Terps and enjoy a little Halloween magic. Location McKeldin Mall 7649 Library Lane College Park, MD 20742-7011 Get Directions with Google Maps Contact Stamp Student Union (301).314.3375 stampithelp@umd.edu For access needs, accommodations, and questions, please contact Laura Hood at lcm@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Alumni Faculty Staff Parents & Families Friends Tags Homecoming Student Affairs Student Life Terps After Dark Event Topics Arts, Entertainment and Culture Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "George Washington University",
    "siteCounty": "",
    "title": "Research & Enrichment! Science with Your Dog",
@@ -14338,6 +14382,28 @@
    "lng": -106.5348379,
    "description": "Join AAHA for a spectacular online auction where 100% of proceeds support our mission of saving dogs from shelters all over Maryland. Bid on over 350 items of a wide variety including gift cards, dining experiences, jewelry, concert tickets, trips, and pet supplies for dogs, cats, and horses. We have 11 pick up locations to choose from and some items can be shipped as well. biddingowl.com/AAHARescue",
    "categories": "paid",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "ADULT Moonlight Mixer & KIDS Boo Bash",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261031/ff1f7f28-342f-40a9-a105-1876bc6be169/adult-moonlight-mixer-kids-boo-bash",
+   "dates": [
+    "2026-10-31"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Dave & Buster's",
+   "address": "6655 Springfield Mall",
+   "city": "Springfield",
+   "state": "VA",
+   "lat": 38.7742212,
+   "lng": -77.1754316,
+   "description": "Join us for a day of Halloween festivities featuring a family-friendly Boo Bash with pancake banquets and pumpkin decorating, followed by an ADULTS ONLY Moonlight Mixer with unlimited video games and cocktail options. Both events include costume contests where the best dressed wins free game play for a year! feverup.com/m/753615",
+   "categories": "free",
    "recurrence": "",
    "admission": ""
   },
@@ -24650,28 +24716,6 @@
    "admission": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Fall M.F.A. Dance Thesis Concert",
-   "url": "https://calendar.umd.edu/fall-m-f-a-dance-thesis-concert-5",
-   "dates": [
-    "2026-11-01"
-   ],
-   "dateKind": "single",
-   "time": "19:30",
-   "endTime": "22:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "The Fall MFA Dance Concert features original works from two MFA candidates, Emilia Bruno and Connor Voss. Fri Oct 30 7:30pm To – 10:00pm The Clarice Smith Performing Arts Center Buy Tickets Clarice website Add to Calendar The Fall MFA Dance Concert features original works from two MFA candidates, Emilia Bruno and Connor Voss. This performance is the culmination of their MFA journey and gives the candidates an opportunity to choreograph, produce and perform their final thesis project. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Park, MD 20742-1625 Get Directions with Google Maps Contact The Clarice Smith Performing Arts Center (301).405.2787 tickets-theclarice@umd.edu For access needs, accommodations, and questions, please contact The Clarice Ticket Office at tickets-theclarice@umd.edu Hosted By College of Arts and Humanities School of Theatre, Dance, and Performance Studies The Clarice Smith Performing Arts Center Event Tags Schools and Units The Clarice Smith Performing Arts Center College of Arts and Humanities Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Arts and Culture Theatre, Dance & Performance Studies Event Topics Arts, Entertainment and ",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Alexandria city",
    "title": "Fall Music at the Market Series",
@@ -28292,28 +28336,6 @@
    "admission": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
-   "dates": [
-    "2026-11-02"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -30544,28 +30566,6 @@
    "outdoorHint": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
-   "dates": [
-    "2026-11-03"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
    "title": "Art Outside for Teens",
@@ -31400,6 +31400,50 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Info Session: Master of Science in GIS & Graduate Certificate in GIS or Remote Sensing",
+   "url": "https://calendar.umd.edu/info-session-master-of-science-in-gis-graduate-certificate-in-gis-or-remote-sensing-7",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Info Session: Master of Science in GIS & Graduate Certificate in GIS or Remote Sensing Tue Nov 03 12:00pm To – 1:00pm Online Event information and RSVP link Event information and RSVP link Add to Calendar Position yourself for success! The Master of Science in Geospatial Information Sciences (MS GIS) program is dedicated to providing the most up-to-date education on geospatial technology, theory and applications. The courses cover spatial analysis, statistics, programming, databases, modeling, remote sensing, Web GIS, Mobile GIS, big data analytics, drones for data collection, and Open Source GIS. Location Online Registration Link: RSVP Link RSVP Link Contact Department of Geographical Sciences (301).405.4050 For access needs, accommodations, and questions, please contact Erin Jacobs at ekjacobs@umd.edu Event Tags Schools and Units College of Behavioral and Social Sciences Audience Undergraduate Students Graduate Students Prospective Students Alumni Staff Tags Computer Science Environmental Science and Technology Geographical Sciences Information Systems Event Topics Academics",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Information Session: Master of Science in GIS and Graduate Certificate in GIS or Remote Sensing",
+   "url": "https://calendar.umd.edu/information-session-master-of-science-in-gis-and-graduate-certificate-in-gis-or-remote-sensing",
+   "dates": [
+    "2026-11-03"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "13:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Information Session: Master of Science in GIS and Graduate Certificate in GIS or Remote Sensing Tue Nov 03 12:00pm To – 1:00pm Online Event details and RSVP Event details and link to Zoom registration Add to Calendar Position yourself for success! Join us for a virtual info session about our Master of Science in GIS, Graduate Certificate in GIS, and Graduate Certificate in Remote Sensing. The Master of Science in Geospatial Information Sciences (MS GIS) program is dedicated to providing the most up-to-date education on geospatial technology, theory and applications. The courses cover spatial analysis, statistics, programming, databases, modeling, remote sensing, Web GIS, Mobile GIS, big data analytics, drones for data collection, GeoAI and Open Source GIS. Location Online Registration Link: Information and RSVP Event information and link to registration Contact Department of Geographical Sciences (301).405.4050 For access needs, accommodations, and questions, please contact Erin Jacobs at ekjacobs@umd.edu Event Tags Schools and Units College of Behavioral and Social Sciences Audience Undergraduate Students Graduate Students Prospective Students Alumni Staff Tags Computer Science Environmental Science and Technology Geographical Sciences Information Systems Event Topics Academ",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -32796,28 +32840,6 @@
    "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
-   "dates": [
-    "2026-11-04"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "Patch",
    "siteCounty": "Montgomery County",
    "title": "Anti-Virus and Malware Removal Tools at a Glance - a Senior Planet Tech Talk",
@@ -33885,6 +33907,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Holiday Singing Fun",
+   "url": "https://patch.com/virginia/herndon/calendar/event/20261104/552da1a2-b6c4-48a7-998d-36062df7a2e2/holiday-singing-fun",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "King of Kings Lutheran Preschool",
+   "address": "4025 Kings Wy",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.87593529999999,
+   "lng": -77.3871262,
+   "description": "Singing fun for all, meet new friends. Our award-winning Director, Richard Lewellen, will teach students of all talent levels - all that love to sing, always wanted to sing, or would like to hone their singing skills. When: 7pm Wednesdays; Nov 4, 11, 18, and Dec 2 RSVP on link",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Homeschool Grades 5-8: Agriculture",
@@ -34226,6 +34270,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "LEAP Preschool Program Touring Dates",
+   "url": "https://calendar.umd.edu/leap-preschool-program-touring-dates",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "12:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "The LEAP Preschool Program is hosting touring dates on Wednesdays from 11am to 12pm weekly! Wed Oct 28 11:00am To – 12:00pm Lefrak Hall Visit LEAP Website For More Information This Link give access to information about LEAP Add to Calendar The LEAP Preschool is currently accepting applications for our afternoon sessions from 12:45pm to 4:10 pm on Mondays, Wednesdays, and Fridays. For more information about our preschool, our application process, and eligibility please visit our website https://leap.umd.edu/enrollmen... . Location Lefrak Hall Please visit room 0102 in Lefrak Hall for touring. Contact College of Behavioral and Social Sciences (301).405.1690 For access needs, accommodations, and questions, please contact Amanda Clay at aclay1@umd.edu Event Tags Audience Prospective Students Faculty Staff Parents & Families Tags Hearing and Speech Sciences Event Topics Academics",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Howard University",
    "siteCounty": "",
    "title": "Lights of Rembrance 2026",
@@ -34426,6 +34492,28 @@
    "lat": 39.123557,
    "lng": -77.56778899999999,
    "description": "Coffee, tea, treats, and relaxed, pleasant conversation with others. Fun, easy discussion questions are provided. Come chat for ten minutes or stay the whole hour! For adults.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Prince George's County",
+   "title": "My Shocking Revelation",
+   "url": "https://patch.com/maryland/bowie/calendar/event/20261104/afda8ad4-e305-4c92-abf5-ce1242cd06be/my-shocking-revelation",
+   "dates": [
+    "2026-11-04"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Bladensburg Seventh-day Adventist Church",
+   "address": "11911 Lanham Severn Rd",
+   "city": "Bowie",
+   "state": "MD",
+   "lat": 38.99765439999999,
+   "lng": -76.7989601,
+   "description": "Join Frank E. Legette III, author of \"The Art of Womanhood,\" for a transformative 5-week series focused on helping Christian women—both single and married—achieve the love they desire and deserve. This virtual event series is hosted by Bladensburg SDA Church and is accessible via Zoom.",
    "categories": "free",
    "recurrence": "",
    "admission": ""
@@ -35984,28 +36072,6 @@
    "categories": "Seasonal & Holidays, Food and Drink",
    "recurrence": "",
    "admission": "$160"
-  },
-  {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
-   "dates": [
-    "2026-11-05"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "Patch",
@@ -39254,28 +39320,6 @@
    "description": "Annapolis Jazz & Roots is launching its fifth festival on the scenic shores of the Chesapeake Bay. Events combine music, art, poetry and history on two weekends, November 6-15. Based in the maritime community of Eastport, the festival includes eight venues in nearby neighborhoods. Each has its own distinct character and charm. Festival goers can visit centuries old buildings, take in restorative bay views and stroll the tree-lined streets of the historic Maryland city. THEME AND HIGHLIGHTS The 2026 theme “New World Music: Centuries of Sound” will be brought home by international and regional performers. An adventurous lineup includes programs rooted in history and culture from colonial days to modern times. Trace the evolution of music and culture since the days Indigenous tribes walked the forests and rode the waters. Gain new insights into the startling history and legacy of slavery and indenture in Maryland; delve into the soulful roots of jazz, and celebrate the changing color of sound in America. Events are free or require modest admission, and all but two venues offer free onsite parking. Reservations are strongly advised for all events. Tickets are sold through instantseats.com. WEEKEND ONE Opening Night takes place Friday, November 6 at 7:00 p.m. at St. Luke’s Episcopal Church in Eastport. Jazz lovers will appreciate how the intimacy and beautiful acoustics of the venue elevate the listening experience when the Muneer Nasser Band performs. Trumpeter Muneer Nasser was exposed to great music by his father, jazz bassist Jamil Nasser. This concert pays homage to three legendary musicians born in 1926: John Coltrane, Miles Davis and Randy Weston. Their brave explorations led to seismic shifts in the sonic landscape and continue to resonate around the globe. On Saturday at 11:00 a.m. visit Eastport-Annapolis Neck Library to gain new insights into slavery and indenture in colonial times. Lecturer William Kelly, Ph.D. is a research archivist and historian at the Mar",
    "categories": "Concerts & Live Music",
    "recurrence": "Recurring weekly on Sunday, Friday, Saturday",
-   "admission": ""
-  },
-  {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Another Look, Another World (Insect Art) Exhibition",
-   "url": "https://calendar.umd.edu/another-look-another-world-insect-art-exhibition",
-   "dates": [
-    "2026-11-06"
-   ],
-   "dateKind": "single",
-   "time": "09:00",
-   "endTime": "17:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "An art-science exhibition about Maryland's insect diversity and insect conservation. Tue Oct 27 9:00am To – 5:00pm Parren J. Mitchell Art-Sociology Building Another Look, Another World Exhibition Web Page Another Look, Another World Exhibition Web Page Add to Calendar Another Look, Another World is an interdisciplinary exhibition exploring how visual art may deepen our understanding of Maryland’s insect biodiversity and inspire greater appreciation for the ecological roles insects play in our environment. The exhibition is part of a University of Maryland Arts for All-funded project aimed at engaging students in science communication through art, increasing awareness of insect biodiversity and ecological roles, fostering collaboration across disciplines, evaluating changes in attendee knowledge, attitudes, and intentions, and contributing to a replicable arts-based model for conservation education. The exhibition will highlight six Maryland insect species that are included on Maryland’s List of Rare, Threatened, and Endangered Animals . Original works created through the exhibition’s two different open calls will be displayed alongside science-based information about insect ecological roles, insect habitats, and key conservation actions. Anyone, including Universit",
-   "categories": "",
-   "recurrence": "",
    "admission": ""
   },
   {
@@ -42772,7 +42816,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-29T13:06:58.681Z",
+  "generatedAt": "2026-10-29T14:40:58.097Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -42781,7 +42825,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1363
+    "ms": 786
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -42789,7 +42833,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 237
+    "ms": 220
    },
    "City of Rockville": {
     "ok": true,
@@ -42797,7 +42841,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 118
+    "ms": 1813
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -42805,7 +42849,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 382
+    "ms": 308
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -42813,7 +42857,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 447
+    "ms": 347
    },
    "Navy Yard BID": {
     "ok": true,
@@ -42821,7 +42865,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 566
+    "ms": 323
    },
    "DowntownDC BID": {
     "ok": true,
@@ -42829,7 +42873,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 1040
+    "ms": 505
    },
    "Falls Church": {
     "ok": true,
@@ -42869,15 +42913,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1003
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 793
+    "ms": 728
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -42885,7 +42921,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 705
+    "ms": 2080
    },
    "Southwest BID": {
     "ok": true,
@@ -42893,7 +42929,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 650
+    "ms": 191
    },
    "The Wharf": {
     "ok": true,
@@ -42901,15 +42937,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 699
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 282
+    "ms": 437
    },
    "City of Takoma Park": {
     "ok": true,
@@ -42917,7 +42945,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 963
+    "ms": 1010
+   },
+   "City of Greenbelt": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 617
    },
    "Ticketmaster": {
     "ok": true,
@@ -42927,13 +42963,13 @@
     "error": "",
     "ms": null
    },
-   "City of Greenbelt": {
+   "Visit Alexandria": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 775
+    "ms": 571
    },
    "City of Bowie": {
     "ok": true,
@@ -42941,23 +42977,15 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 1192
+    "ms": 603
    },
-   "NPS National Mall": {
+   "NPS Rock Creek Park": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 15,
+    "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 239
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
-    "error": "",
-    "ms": 2224
+    "ms": 183
    },
    "DC HSEMA": {
     "ok": true,
@@ -42967,21 +42995,13 @@
     "error": "",
     "ms": null
    },
-   "National Arboretum (FONA)": {
+   "NPS National Mall": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 15,
     "outcome": "",
     "error": "",
-    "ms": 557
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 140
+    "ms": 238
    },
    "City of Hyattsville": {
     "ok": true,
@@ -42989,15 +43009,23 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 628
+    "ms": 738
    },
-   "NPS DC-area parks": {
+   "M-NCPPC Prince George’s Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 23,
+    "events": 15,
     "outcome": "",
     "error": "",
-    "ms": 751
+    "ms": 18884
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 2193
    },
    "Downtown Columbia": {
     "ok": true,
@@ -43005,15 +43033,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2302
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 6856
+    "ms": 2959
    },
    "Visit Calvert": {
     "ok": true,
@@ -43021,7 +43041,15 @@
     "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 673
+    "ms": 551
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 1134
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -43029,7 +43057,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 820
+    "ms": 469
    },
    "Town of Vienna": {
     "ok": true,
@@ -43037,7 +43065,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2667
+    "ms": 1474
    },
    "Town of Occoquan": {
     "ok": true,
@@ -43045,7 +43073,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 45
+    "ms": 28
    },
    "Town of Warrenton": {
     "ok": true,
@@ -43053,7 +43081,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 624
+    "ms": 477
    },
    "Visit Stafford": {
     "ok": true,
@@ -43061,15 +43089,15 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 540
+    "ms": 398
    },
    "Visit Prince William": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 13,
+    "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 3167
+    "ms": 2592
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -43077,7 +43105,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1406
+    "ms": 17528
    },
    "NOVA Parks": {
     "ok": true,
@@ -43085,7 +43113,23 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 174
+    "ms": 953
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 222
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 7008
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -43093,7 +43137,7 @@
     "events": 6,
     "outcome": "",
     "error": "",
-    "ms": 1777
+    "ms": 3818
    },
    "City of Annapolis": {
     "ok": true,
@@ -43101,7 +43145,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 425
+    "ms": 774
    },
    "City of College Park": {
     "ok": true,
@@ -43109,7 +43153,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 424
+    "ms": 542
    },
    "City of Frederick": {
     "ok": true,
@@ -43117,7 +43161,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 504
+    "ms": 906
    },
    "City of Laurel": {
     "ok": true,
@@ -43125,7 +43169,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 467
+    "ms": 696
    },
    "Town of Purcellville": {
     "ok": true,
@@ -43133,7 +43177,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 821
+    "ms": 739
    },
    "National Landing BID": {
     "ok": true,
@@ -43141,7 +43185,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 7166
+    "ms": 7660
    },
    "City of Fairfax": {
     "ok": true,
@@ -43149,7 +43193,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2359
+    "ms": 3806
    },
    "Mosaic District": {
     "ok": true,
@@ -43157,7 +43201,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 125
+    "ms": 591
    },
    "Union Market District": {
     "ok": true,
@@ -43165,7 +43209,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 476
+    "ms": 1468
    },
    "The Boro Tysons": {
     "ok": false,
@@ -43173,7 +43217,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 151
+    "ms": 315
    },
    "One Loudoun": {
     "ok": true,
@@ -43181,7 +43225,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 75
+    "ms": 49
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -43189,10 +43233,10 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 750
+    "ms": 1653
    }
   },
-  "count": 177,
+  "count": 178,
   "events": [
    {
     "source": "Visit Calvert",
@@ -44573,6 +44617,32 @@
     "geocoded": "OpenStreetMap Nominatim"
    },
    {
+    "title": "Campfire Ghost Stories",
+    "source": "Visit Prince William",
+    "url": "https://parksandrec.pwcgov.org/webtrac/web/iteminfo.html?FMID=216031098&Module=PST",
+    "description": "Join an eerie evening around the campfire to hear ghost stories associated with Ben Lomond Historic Site, a former Civil War hospital, farm, and private home. Bring a chair and flashlight. Admission is $5 per person; children age 6 and under are free.",
+    "venue": "Ben Lomond Historic Site",
+    "address": "10321 Sudley Manor Drive, Manassas, VA 20109",
+    "city": "Manassas",
+    "state": "VA",
+    "county": "Prince William County",
+    "categories": "",
+    "dateEvidence": "Visit Prince William event occurrence",
+    "time": "19:30",
+    "endTime": "21:00",
+    "outdoorEvidence": "Participants gather at an actual campfire",
+    "occurrenceTime": "19:30",
+    "coverage": true,
+    "outdoorEvidenceURL": "https://parksandrec.pwcgov.org/webtrac/web/iteminfo.html?FMID=216031098&Module=PST",
+    "date": "2026-10-30",
+    "id": "Visit Prince William|https://parksandrec.pwcgov.org/webtrac/web/iteminfo.html?FMID=216031098&Module=PST|2026-10-30|19:30|ben lomond historic site",
+    "confidence": "Visit Prince William event occurrence",
+    "category": "nature",
+    "lat": 38.7887652,
+    "lng": -77.5063021,
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
     "source": "Georgetown BID",
     "city": "Washington",
     "county": "District of Columbia",
@@ -44953,7 +45023,10 @@
     "date": "2026-10-31",
     "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=E9EE8C73-E402-7C28-70BC041A356D2C6B|2026-10-31|10:00|meet the ranger outside the park's visitor center at 10:00am.",
     "confidence": "NPS explicit occurrence and time slot",
-    "category": "nature"
+    "category": "nature",
+    "alsoListedBy": [
+     "Visit Prince William"
+    ]
    },
    {
     "source": "Town of Warrenton",
