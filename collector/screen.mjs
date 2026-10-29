@@ -69,7 +69,9 @@ async function main() {
       const ok = r.ok && !r.blocked && !r.error && /^(EVENTS FOUND|COMPLETED|ZERO)/.test(r.status);
       sources[r.source] = {ok, status: r.status, events: 0, outcome: r.outcome || '', error: r.error || '', ms: r.ms};
     }
-    events = snapshot.events.filter(e => sources[e.source]?.ok);
+    const excludeKey = t => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const excluded = new Set((out.exclude || []).map(excludeKey));
+    events = snapshot.events.filter(e => sources[e.source]?.ok && !excluded.has(excludeKey(e.title)));
     for (const e of events) sources[e.source].events++;
   } else if (previous) {
     // The headless run failed; keep the last good results until their dates pass.

@@ -1007,13 +1007,20 @@ async function main() {
       .map(e => ({...e, dates: (e.dates || []).filter(d => d >= today)})).filter(e => e.dates.length);
     if (kept.length) { r.records = kept; r.report.keptPrevious = kept.length; r.report.inWindow = kept.length; }
   }
-  const events = results.flatMap(r => r.records).sort((a, b) => a.dates[0].localeCompare(b.dates[0]) || a.title.localeCompare(b.title));
+  // Editorial exclusions (collector/exclude.json): those events are not kept.
+  let excludeTitles = [];
+  try { excludeTitles = JSON.parse(await readFile(new URL('../exclude.json', DATA_DIR), 'utf8')).titles || []; } catch { /* none */ }
+  const excludeKey = t => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const excluded = new Set(excludeTitles.map(excludeKey));
+  const events = results.flatMap(r => r.records).filter(e => !excluded.has(excludeKey(e.title))).sort((a, b) => a.dates[0].localeCompare(b.dates[0]) || a.title.localeCompare(b.title));
   const out = {
     schemaVersion: 1,
     generatedAt: new Date().toISOString(),
     window: {start: today, end: windowEnd},
     sources: results.map(r => r.report),
     count: events.length,
+    // Titles the widget also drops if it ever loads a source live.
+    exclude: excludeTitles,
     events,
     // collector/screen.mjs replaces this after it runs; carried over meanwhile.
     ...(previous.screened ? {screened: previous.screened} : {}),

@@ -60,6 +60,13 @@ The collector does no outdoor screening. Each record has what the publisher's pa
 The widget then applies its usual date, location, outdoor and duplicate checks. Events whose span
 covers more than three days with no daily schedule are left out, as they are in the widget.
 
+## Excluding an event
+
+To stop listing a particular event, add its title to `collector/exclude.json`.
+Titles match exactly, ignoring capitalization, punctuation and spacing, from any
+source. The next daily run leaves it out, and the widget also drops it if it
+ever loads a source live. No change to the Ghost card is needed.
+
 ## Running it locally
 
 ```sh
