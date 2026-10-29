@@ -22,7 +22,7 @@ export function streetOf(address) {
 async function geocode(street, state) {
   const u = 'https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=' +
     encodeURIComponent(street + ', ' + state) + '&benchmark=Public_AR_Current&vintage=Current_Current&layers=Counties&format=json';
-  const r = await fetch(u, {headers: {'user-agent': UA}, signal: AbortSignal.timeout(30000)});
+  const r = await fetch(u, {headers: {'user-agent': UA}, signal: AbortSignal.timeout(12000)});
   if (!r.ok) throw Error('HTTP ' + r.status);
   const j = await r.json();
   return (j.result?.addressMatches || []).map(m => ({
@@ -39,17 +39,24 @@ async function main() {
   try { cache = JSON.parse(await readFile(CACHE_FILE, 'utf8')); } catch { /* none yet */ }
   const geo = cache.__geocode ||= {};
   const lists = [out.events || [], out.screened?.events || []];
+  const started = Date.now();
   let looked = 0, filled = 0, failed = 0;
-  for (const [li, list] of lists.entries()) for (const e of list) {
-    if (Number.isFinite(e.lat) && e.lat && Number.isFinite(e.lng) && e.lng) continue;
+  const keyOf = e => {
+    if (Number.isFinite(e.lat) && e.lat && Number.isFinite(e.lng) && e.lng) return null;
     const state = String(e.state || '').toUpperCase();
-    if (!['MD', 'VA', 'DC'].includes(state)) continue;
+    if (!['MD', 'VA', 'DC'].includes(state)) return null;
     const street = streetOf(e.address) || streetOf(e.venue);
-    if (!street) continue;
+    if (!street) return null;
     const county = e.county || e.siteCounty || '';
-    const key = norm(street) + '|' + state + '|' + norm(county);
-    if (!(key in geo)) {
-      if (looked >= 150) continue;   // a new day's handful; the rest wait for the next run
+    return {key: norm(street) + '|' + state + '|' + norm(county), street, state, county};
+  };
+  // Unique new addresses, looked up four at a time, at most four minutes a run.
+  const todo = new Map();
+  for (const list of lists) for (const e of list) { const k = keyOf(e); if (k && !(k.key in geo) && !todo.has(k.key)) todo.set(k.key, k); }
+  const queue = [...todo.values()].slice(0, 120);
+  const worker = async () => {
+    while (queue.length && Date.now() - started < 4 * 60e3) {
+      const {key, street, state, county} = queue.shift();
       looked++;
       try {
         const matches = await geocode(street, state);
@@ -58,10 +65,13 @@ async function main() {
         const want = norm(county).replace(/ county$| city$/, '');
         const hit = want ? matches.find(m => norm(m.county).replace(/ county$| city$/, '') === want) : (matches.length === 1 ? matches[0] : null);
         geo[key] = hit ? {lat: hit.lat, lng: hit.lng, city: titleCase(hit.city)} : null;
-      } catch { failed++; continue; }
-      await sleep(300);
+      } catch { failed++; }
     }
-    const g = geo[key];
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  for (const [li, list] of lists.entries()) for (const e of list) {
+    const k = keyOf(e); if (!k) continue;
+    const g = geo[k.key];
     if (!g) continue;
     e.lat = g.lat; e.lng = g.lng;
     // A raw record with no county of its own keeps its blank town, so the

@@ -49,6 +49,7 @@ jobs:
         run: node collector/screen.mjs
       - name: Place events that have only a street address
         continue-on-error: true
+        timeout-minutes: 6
         run: node collector/geocode.mjs
       - name: Save page cache
         if: always()
