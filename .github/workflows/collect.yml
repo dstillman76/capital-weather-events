@@ -47,6 +47,9 @@ jobs:
       - name: Run widget sources headless
         continue-on-error: true
         run: node collector/screen.mjs
+      - name: Place events that have only a street address
+        continue-on-error: true
+        run: node collector/geocode.mjs
       - name: Save page cache
         if: always()
         uses: actions/cache/save@v4
