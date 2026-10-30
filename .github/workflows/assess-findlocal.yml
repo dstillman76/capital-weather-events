@@ -2,7 +2,7 @@ name: Assess FindLocal (manual, one-off)
 on:
   workflow_dispatch: {}
 permissions:
-  contents: read
+  contents: write
 jobs:
   assess:
     runs-on: ubuntu-latest
@@ -15,8 +15,14 @@ jobs:
       - run: node collector/tools/assess-findlocal.mjs
         env:
           FINDLOCAL_API_KEY: ${{ secrets.FINDLOCAL_API_KEY }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: findlocal-assess
-          path: assess/findlocal.json
-          retention-days: 3
+      - name: Save result to the findlocal-assess branch (not main)
+        run: |
+          mv assess/findlocal.json /tmp/findlocal.json
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@users.noreply.github.com'
+          git checkout --orphan findlocal-assess
+          git rm -rfq .
+          cp /tmp/findlocal.json findlocal.json
+          git add findlocal.json
+          git commit -qm 'FindLocal assessment data'
+          git push -f origin findlocal-assess
