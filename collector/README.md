@@ -60,6 +60,23 @@ The collector does no outdoor screening. Each record has what the publisher's pa
 The widget then applies its usual date, location, outdoor and duplicate checks. Events whose span
 covers more than three days with no daily schedule are left out, as they are in the widget.
 
+## The finished list (widget-events.json)
+
+The last step, `finalize.mjs`, opens the widget headless with
+`window.CW_FINALIZE_MODE`, gives it the collector file and lets it do all of its
+screening, de-duplication and event types, with no network access. It saves the
+result, nine days of finished events, to `data/widget-events.json` (about 150 KB
+compressed instead of 700 KB). Readers' browsers load only that file and do just
+the day, place, type and search filters and the time-of-day checks (events that
+are already over, the Tomorrow tab from 9 p.m.). If the file is missing or more
+than 36 hours old, the widget falls back to `events.json` and its own sources.
+
+A change to the widget's screening reaches readers after the next run, so run
+the workflow by hand after such a change.
+
+Scheduled runs start at 07:41, 09:13 and 11:07 UTC; GitHub often starts them
+late. A later one does nothing once that day's finished list exists.
+
 ## Excluding an event
 
 To stop listing a particular event, add its title to `collector/exclude.json`.

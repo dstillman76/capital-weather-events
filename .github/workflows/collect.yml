@@ -3,8 +3,11 @@ name: Collect events
 on:
   schedule:
     # Once a day at 07:41 UTC: 3:41 a.m. Eastern in summer, 2:41 a.m. in winter.
-    # (GitHub schedules run in UTC and can start late; that's fine.)
+    # GitHub often starts scheduled runs late, so two backup times follow; a
+    # backup does nothing once that day's collection has finished.
     - cron: '41 7 * * *'
+    - cron: '13 9 * * *'
+    - cron: '7 11 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -15,7 +18,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Scheduled runs skip when today's (Eastern) finished list already exists.
+  # A manual run always collects.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: collector/data/widget-events.json
+          sparse-checkout-cone-mode: false
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          node -e "
+            const fs=require('fs');const et=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York'}).format(d);
+            let done=false;try{const f=JSON.parse(fs.readFileSync('collector/data/widget-events.json','utf8'));done=et(new Date(f.generatedAt))===et(new Date());}catch{}
+            console.log(done?'Today\'s collection already finished; skipping.':'No collection yet today; running.');
+            fs.appendFileSync(process.env.GITHUB_OUTPUT,'run='+(!done)+'\n');"
   collect:
+    needs: check
+    if: needs.check.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
@@ -51,6 +75,12 @@ jobs:
         continue-on-error: true
         timeout-minutes: 6
         run: node collector/geocode.mjs
+      # Last step: the widget screens and de-duplicates everything headless and
+      # saves the finished list readers load (collector/finalize.mjs).
+      - name: Build the finished events list
+        continue-on-error: true
+        timeout-minutes: 10
+        run: node collector/finalize.mjs
       - name: Save page cache
         if: always()
         uses: actions/cache/save@v4
@@ -62,6 +92,7 @@ jobs:
           git config user.name "events-collector"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add collector/data/events.json
+          [ -f collector/data/widget-events.json ] && git add collector/data/widget-events.json
           if git diff --cached --quiet; then
             echo "No changes"
           else

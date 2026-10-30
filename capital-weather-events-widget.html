@@ -1,4 +1,5 @@
-<!-- Capital Weather outdoor events v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
   <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
@@ -692,7 +693,13 @@ function addDays(n){
  * are lifted and one extra day is collected, so the file still covers the full
  * seven-day window the evening after it was made. */
 const COLLECT_MODE=typeof window!=='undefined'&&window.CW_COLLECT_MODE===true;
-const days=Array.from({length:COLLECT_MODE?8:7},(_,i)=>addDays(i));
+/* v58: the daily run also opens this widget with window.CW_FINALIZE_MODE set.
+ * It reads the collector file, screens and de-duplicates everything exactly as
+ * a reader's browser would, and saves the finished list (finalize.mjs). Both
+ * headless modes cover nine days, so a file up to two days old still fills
+ * all seven days for readers. */
+const FINALIZE_MODE=typeof window!=='undefined'&&window.CW_FINALIZE_MODE===true;
+const days=Array.from({length:COLLECT_MODE||FINALIZE_MODE?9:7},(_,i)=>addDays(i));
 const firstDay=days[0],lastDay=days[days.length-1];
 const weekendDays=new Set(days.filter(iso=>{
  const wd=new Date(iso+'T12:00:00Z').getUTCDay();
@@ -4029,7 +4036,11 @@ const CIVIC_RSS='/RSSFeed.aspx?ModID=58&CID=All-calendar.xml';
  * file is missing, unreadable or older than COLLECTOR_MAX_AGE_HOURS, the widget
  * carries on with its own sources only. */
 const COLLECTOR_URL='https://raw.githubusercontent.com/dstillman76/capital-weather-events/main/collector/data/events.json';
-const COLLECTOR_MAX_AGE_HOURS=36;   // the collector runs once a day (about 3 a.m. Eastern)
+const COLLECTOR_MAX_AGE_HOURS=36;
+// v58: the finished list from the daily run. Readers load only this file when
+// it is fresh; if it is missing or stale, the widget falls back to the
+// collector file and its own sources as before.
+const FINAL_URL='https://raw.githubusercontent.com/dstillman76/capital-weather-events/main/collector/data/widget-events.json';   // the collector runs once a day (about 3 a.m. Eastern)
 const CW_EXPANSION_SOURCES=[
  {name:'Adams Morgan BID',adapter:'ctyCards',calendar:'https://adamsmorgan.com/events/calendar/?d=7days',url:'https://adamsmorgan.com/',city:'Washington',county:'District of Columbia',state:'DC'},
  {name:'Golden Triangle BID',adapter:'goldenTriangle',url:'https://goldentriangledc.com/events/',city:'Washington',county:'District of Columbia',state:'DC'},
@@ -5378,7 +5389,30 @@ window.cwExportEvents=function({download=false,full=false}={}){
 
 /* Load public tourism, HSEMA, and Ticketmaster sources independently. */
 
+async function loadFinal(){
+ if(COLLECT_MODE||FINALIZE_MODE||!FINAL_URL)return false;
+ try{
+  const r=await netText(FINAL_URL,10000,{cache:'no-cache'});
+  if(!r.ok)return false;
+  const file=JSON.parse(r.text);
+  const ageH=(Date.now()-Date.parse(file?.generatedAt))/36e5;
+  if(file?.schemaVersion!==2||!Array.isArray(file.events)||!(ageH<COLLECTOR_MAX_AGE_HOURS))return false;
+  const events=file.events.filter(e=>days.includes(e.date));
+  if(!events.length)return false;
+  state.events=events;
+  state.reports=Array.isArray(file.sources)?file.sources:[];
+  state.sourceTotal=file.sourceTotal||state.reports.length;
+  state.sourcesDone=state.sourceTotal;
+  state.enriching=false;
+  state.fromFinal=file.generatedAt;
+  geography();render();updateSourceDiagnostics();
+  state.finishedMs=Math.round(performance.now()-state.started);
+  return true;
+ }catch{return false}
+}
+
 async function load(){
+ if(await loadFinal())return;
  const verifiedSources=loadVerifiedSources();
  const sourceDone=()=>{state.sourcesDone++;render()};
  const princeWilliam=loadPrinceWilliamImGoing().then(events=>{
