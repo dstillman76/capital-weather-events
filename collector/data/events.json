@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-30T14:36:32.800Z",
+ "generatedAt": "2026-10-30T16:37:26.024Z",
  "window": {
   "start": "2026-10-30",
   "end": "2026-11-07"
@@ -11,7 +11,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 380,
-   "opened": 4,
+   "opened": 0,
    "cached": 368,
    "refused": 0,
    "errors": 0,
@@ -25,7 +25,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 349,
-   "opened": 8,
+   "opened": 0,
    "cached": 337,
    "refused": 0,
    "errors": 0,
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 95,
-   "opened": 3,
+   "opened": 0,
    "cached": 95,
    "refused": 0,
    "errors": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 178,
-   "opened": 144,
+   "opened": 12,
    "cached": 176,
    "refused": 0,
    "errors": 0,
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 70,
-   "opened": 7,
+   "opened": 0,
    "skippedLong": 11,
    "skippedInternal": 0,
    "inWindow": 21,
@@ -160,23 +160,23 @@
    "status": "ok",
    "schools": 2,
    "failed": [],
-   "inWindow": 221,
+   "inWindow": 220,
    "note": ""
   },
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 69,
-   "listings": 1296,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 796,
-   "skipped": 234,
-   "note": "3 call(s) used; 69 left this month; next refresh in 2 day(s).",
-   "indoorVenue": 266
+   "skipped": 0,
+   "note": "Refreshed 2026-10-30; next refresh in 2 day(s) to stay within the monthly quota.",
+   "keptPrevious": 796
   }
  ],
- "count": 1879,
+ "count": 1878,
  "exclude": [
   "Pickleball at Metro Park"
  ],
@@ -30379,28 +30379,6 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
-   "source": "Howard University",
-   "siteCounty": "",
-   "title": "Fireside Chat with Maimouna Dièye, Former Minister of Family, Social Action and Solidarity of Senegal",
-   "url": "https://events.howard.edu/event/building-sustainable-futures-african-agency-and-social-change",
-   "dates": [
-    "2026-11-04"
-   ],
-   "dateKind": "single",
-   "time": "15:00",
-   "endTime": "16:30",
-   "venue": "Founders Library",
-   "address": "500 Howard PI NW, Washington, DC 20059",
-   "city": "Washington",
-   "state": "DC",
-   "lat": 38.922301,
-   "lng": -77.019688,
-   "description": "Join the Center for Women, Gender, and Global Leadership, the Center for African Studies, and the Ralph J. Bunche International Affairs Center for a special conversation with Maimouna Dièye, Senegal's former Minister of Family, Social Action and Solidarity. Part of CWGGL's At the Center: Conversations on Women, Gender & Global Change series, this discussion will explore African leadership, women's empowerment, social change, and the role of African agency in building sustainable futures. Attendees will have the opportunity to hear insights from Ms. Dièye's experience in government and her work advancing social and gender issues in Senegal and beyond.",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Foggy Bottom FRESHFARM Market",
@@ -33603,7 +33581,7 @@
    "state": "DC",
    "lat": 38.899826,
    "lng": -77.046159,
-   "description": "What do the 2026 election results mean for the future of American politics? Join the Graduate School of Political Management in Washington, DC, for an engaging post-election conversation featuring leading political experts who will unpack the biggest results, pivotal races, and emerging political trends from across the country. We’ll look beyond the headlines to explore what the election revealed about the American electorate and what it could mean for the political landscape in the years ahead.",
+   "description": "What do the 2026 election results mean for the future of American politics? Join the Graduate School of Political Management in Washington, DC, for an engaging post-election conversation featuring leading political experts who will unpack the biggest results, pivotal races, and emerging political trends from across the country. We’ll look beyond the headlines to explore what the election revealed about the American electorate and what it could mean for the political landscape in the years ahead. Our expert panelists include: Manu Raj (Moderator) - Anchor of Inside Politics Sundayand CNN's Chief Congressional CorrespondentRep. Haley Stevens - U.S. House Representative, Michigan’s 11th DistrictNathan Gonzales - Editor & Publisher of Inside Elections, Non-Partisan AnalystMorris Katz - Lead Media Strategist for Zohran Mamdani's Mayoral CampaignThe Hon. Debbie Mucarsel-Powell - Executive Director of the GW Graduate School of Political Management (GSPM)",
    "categories": "Politics & Policy",
    "recurrence": "",
    "admission": "$0"
@@ -50828,16 +50806,16 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-10-30T14:37:11.921Z",
+  "generatedAt": "2026-10-30T16:38:40.643Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 5,
+    "events": 6,
     "outcome": "",
     "error": "",
-    "ms": 1045
+    "ms": 1920
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -50845,7 +50823,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 343
+    "ms": 926
    },
    "City of Rockville": {
     "ok": true,
@@ -50853,7 +50831,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1366
+    "ms": 1237
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -50861,7 +50839,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 514
+    "ms": 1318
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -50869,15 +50847,15 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 877
+    "ms": 2082
    },
    "Navy Yard BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 572
+    "ms": 1212
    },
    "DowntownDC BID": {
     "ok": true,
@@ -50885,12 +50863,12 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 645
+    "ms": 1043
    },
    "Falls Church": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 2,
     "outcome": "",
     "error": "",
     "ms": null
@@ -50925,7 +50903,15 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 862
+    "ms": 1098
+   },
+   "Ticketmaster": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": null
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -50933,7 +50919,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1990
+    "ms": 3114
    },
    "Southwest BID": {
     "ok": true,
@@ -50941,7 +50927,15 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 346
+    "ms": 648
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 16,
+    "outcome": "",
+    "error": "",
+    "ms": 2703
    },
    "The Wharf": {
     "ok": true,
@@ -50949,15 +50943,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 633
-   },
-   "Ticketmaster": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 4,
-    "outcome": "",
-    "error": "",
-    "ms": null
+    "ms": 746
    },
    "City of Takoma Park": {
     "ok": true,
@@ -50965,7 +50951,23 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1153
+    "ms": 599
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 23,
+    "outcome": "",
+    "error": "",
+    "ms": 649
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 22,
+    "outcome": "",
+    "error": "",
+    "ms": 551
    },
    "City of Greenbelt": {
     "ok": true,
@@ -50973,47 +50975,31 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 919
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 2345
-   },
-   "NPS Rock Creek Park": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 16,
-    "outcome": "",
-    "error": "",
-    "ms": 394
+    "ms": 1130
    },
    "City of Bowie": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 673
+    "ms": 996
    },
-   "NPS National Mall": {
+   "City of Hyattsville": {
     "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 15,
-    "outcome": "",
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 282
+    "ms": 775
    },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 11,
+    "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 27077
+    "ms": 49485
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -51021,15 +51007,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 805
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 620
+    "ms": 1736
    },
    "Downtown Columbia": {
     "ok": true,
@@ -51037,7 +51015,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 190
+    "ms": 1351
    },
    "Visit Calvert": {
     "ok": true,
@@ -51045,15 +51023,15 @@
     "events": 10,
     "outcome": "",
     "error": "",
-    "ms": 539
+    "ms": 840
    },
    "Visit Prince William": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 11,
+    "events": 12,
     "outcome": "",
     "error": "",
-    "ms": 2053
+    "ms": 3226
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -51061,7 +51039,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 917
+    "ms": 1736
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -51069,7 +51047,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 519
+    "ms": 5270
    },
    "Town of Vienna": {
     "ok": true,
@@ -51077,7 +51055,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1572
+    "ms": 1994
    },
    "Town of Occoquan": {
     "ok": true,
@@ -51085,7 +51063,15 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 278
+    "ms": 293
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 28,
+    "outcome": "",
+    "error": "",
+    "ms": 836
    },
    "Town of Warrenton": {
     "ok": true,
@@ -51093,7 +51079,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 562
+    "ms": 591
    },
    "Visit Stafford": {
     "ok": true,
@@ -51101,39 +51087,23 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 598
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 23,
-    "outcome": "",
-    "error": "",
-    "ms": 461
+    "ms": 502
    },
    "Visit Fredericksburg": {
     "ok": true,
     "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
+    "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 13547
+    "ms": 33496
    },
    "NOVA Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 10,
+    "events": 11,
     "outcome": "",
     "error": "",
-    "ms": 860
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 9,
-    "outcome": "",
-    "error": "",
-    "ms": 6111
+    "ms": 1288
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -51141,39 +51111,15 @@
     "events": 7,
     "outcome": "",
     "error": "",
-    "ms": 9644
+    "ms": 13892
    },
-   "City of Annapolis": {
+   "Georgetown BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 492
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 477
-   },
-   "City of Frederick": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 530
-   },
-   "City of Laurel": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 634
+    "ms": 5071
    },
    "DC HSEMA": {
     "ok": true,
@@ -51183,13 +51129,45 @@
     "error": "",
     "ms": null
    },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 606
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 627
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 518
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 567
+   },
    "Town of Purcellville": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 431
+    "ms": 846
    },
    "National Landing BID": {
     "ok": true,
@@ -51197,7 +51175,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 7729
+    "ms": 10265
    },
    "City of Fairfax": {
     "ok": true,
@@ -51205,7 +51183,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3198
+    "ms": 3725
    },
    "Mosaic District": {
     "ok": true,
@@ -51213,15 +51191,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1269
+    "ms": 1054
    },
    "Union Market District": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 2277
+    "ms": 2242
    },
    "The Boro Tysons": {
     "ok": false,
@@ -51229,7 +51207,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 207
+    "ms": 139
    },
    "One Loudoun": {
     "ok": false,
@@ -51237,7 +51215,7 @@
     "events": 0,
     "outcome": "Calendar could not be read: Unexpected token '<', \"<html><hea\"... is not valid JSON",
     "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-    "ms": 189
+    "ms": 289
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -51245,10 +51223,10 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1693
+    "ms": 3192
    }
   },
-  "count": 166,
+  "count": 198,
   "events": [
    {
     "source": "Dupont Circle BID",
@@ -52378,7 +52356,10 @@
     "date": "2026-10-31",
     "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=E9EE8C73-E402-7C28-70BC041A356D2C6B|2026-10-31|10:00|meet the ranger outside the park's visitor center at 10:00am.",
     "confidence": "NPS explicit occurrence and time slot",
-    "category": "nature"
+    "category": "nature",
+    "alsoListedBy": [
+     "Visit Prince William"
+    ]
    },
    {
     "source": "Navy Yard BID",
@@ -55491,6 +55472,841 @@
     "id": "Georgetown BID|https://www.georgetowndc.com/event/sips-sounds/2026-11-06/|2026-11-06|18:00|pinstripes (1064 wisconsin ave nw)",
     "confidence": "Publisher explicit schedule",
     "category": "music"
+   },
+   {
+    "source": "City of Bowie",
+    "city": "Bowie",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "categories": "",
+    "venue": "15606 Emerald Way, Bowie, MD 20716",
+    "address": "15606 Emerald Way, Bowie, MD 20716",
+    "description": "Join us at Bowie Town Center to honor the City's veterans!",
+    "time": "07:30",
+    "endTime": "10:30",
+    "lat": 38.9440411,
+    "lng": -76.7347848,
+    "title": "Green Bowie Veterans 5k",
+    "url": "https://www.cityofbowie.org/Calendar.aspx?EID=10842",
+    "activityLocation": "15606 Emerald Way, Bowie, MD 20716",
+    "dateEvidence": "Official CivicPlus calendar feed",
+    "outdoorEvidence": "The scheduled activity is inherently outdoors",
+    "outdoorEvidenceURL": "https://www.cityofbowie.org/Calendar.aspx?EID=10842",
+    "date": "2026-11-07",
+    "id": "City of Bowie|https://www.cityofbowie.org/Calendar.aspx?EID=10842|2026-11-07",
+    "confidence": "Official CivicPlus calendar feed",
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
+    "source": "NPS DC-area parks",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "We invite you to join a National Park Service volunteer birder for an engaging bird walk at Kenilworth Aquatic Gardens. This event is open to all, including those new to birding. We encourage participants to bring water, sunscreen, and binoculars if available. A limited number of binoculars are available for loan with a photo ID. The walk will be conducted at a leisurely pace, covering approximately one mile. We will gather in front of the visitor center, and the duration of the walk will typically range from 1.5 to 2 hours, depending on our observations. We look forward to sharing this delightful experience with you!",
+    "categories": "",
+    "venue": "Kenilworth Park & Aquatic Gardens",
+    "address": "Kenilworth Park & Aquatic Gardens",
+    "time": "08:30",
+    "endTime": "10:00",
+    "lat": null,
+    "lng": null,
+    "title": "Saturday Bird Walk",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=2C1E0972-BA30-9659-90D51788E3F579F1",
+    "activityLocation": "Kenilworth Park & Aquatic Gardens",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Event title explicitly identifies an outdoor activity",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=2C1E0972-BA30-9659-90D51788E3F579F1",
+    "occurrenceTime": "08:30",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=2C1E0972-BA30-9659-90D51788E3F579F1|2026-11-07|08:30|kenilworth park & aquatic gardens",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "Visit Fredericksburg",
+    "city": "Fredericksburg",
+    "county": "Fredericksburg City",
+    "state": "VA",
+    "categories": "",
+    "venue": "Hurkamp Park",
+    "address": "Hurkamp Park, Prince Edward St, Fredericksburg, VA 22401",
+    "description": "Animal Rescue Festival Join us for the 2026 Animal Rescue Festival, a fun-filled day celebrating the animals, people, and organizations working together to make our community a better place for every animal. Saturday, November 7, 2026 Hurkamp Park | Downtown Fredericksburg Walk For The Animals 9:00 AM – 10:00 AM | Festival 10:00 AM – 2:00 PM The day kicks off at 9:00 AM with our annual one-mile Walk for the Animals, bringing animal lovers from across the community together to walk in support of animals in need. After the walk, stick around and enjoy everything the festival has to offer! Throughout the day, Hurkamp Park will be buzzing with animal rescue organizations, local vendors, music, activities, and plenty of opportunities to meet fellow animal lovers. Whether you’re looking to adopt, learn more about animal welfare, shop local, enjoy some music, or simply spend the day with your four-legged family members, there’s something for everyone. Thank you to B101.5 for being our Exclusive Media Partner! **VENDOR AND SPONSORSHIP OPPORTUNITIES ARE AVAILABLE!** Email [email protected] , or visit the Animal Rescue Festival page at https://fredspca.salsalabs.org/arf2026/index.html Event Details Saturday, November 7, 2026 9am - 2pm Hurkamp Park Hurkamp Park, Prince Edward St, Fredericksburg, VA 22401 $0-$35 Visit Event Website",
+    "time": "09:00",
+    "endTime": "14:00",
+    "lat": null,
+    "lng": null,
+    "title": "Animal Rescue Festival",
+    "url": "https://fxbg.com/calendar-item/animal-rescue-festival-3/",
+    "activityLocation": "Hurkamp Park",
+    "dateEvidence": "Visit Fredericksburg event page schedule",
+    "outdoorEvidence": "Scheduled festival at an outdoor public space (Hurkamp Park)",
+    "outdoorEvidenceURL": "https://fxbg.com/calendar-item/animal-rescue-festival-3/",
+    "date": "2026-11-07",
+    "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/animal-rescue-festival-3/|2026-11-07",
+    "confidence": "Visit Fredericksburg event page schedule",
+    "category": "festival"
+   },
+   {
+    "title": "Birding 101",
+    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14827&month=10&year=2026&day=30&calType=0",
+    "source": "Falls Church",
+    "description": "Birding 101 November 7, 2026 501 N Van Buren St. Event Details Calling all early birds and aspiring birders! Naturalists from the Fairfax County Park Authority are leading Birding 101, a guided bird walk through Crossman Park on Saturday, November 7, 2026, from 9 to 10 a.m.🐦 Learn how to spot and identify birds👀 Get tips for using binoculars🪶 Free, all skills and interest levels welcomeBinoculars will be available to borrow. Participants are also welcome to bring their own. Advance registration required.",
+    "categories": "",
+    "venue": "Isaac Crossman Park Address: 501 N Van Buren St.Falls Church, VA 22046",
+    "address": "501 N Van Buren St.",
+    "city": "Falls Church",
+    "county": "Falls Church City",
+    "state": "VA",
+    "time": "09:00",
+    "endTime": "10:00",
+    "lat": null,
+    "lng": null,
+    "dateEvidence": "calendar card date",
+    "scheduleAmbiguous": false,
+    "date": "2026-11-07",
+    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14827&month=10&year=2026&day=30&calType=0|2026-11-07",
+    "confidence": "event page schedule",
+    "category": "nature"
+   },
+   {
+    "source": "Visit Alexandria",
+    "city": "Mount Vernon",
+    "county": "Fairfax County",
+    "state": "VA",
+    "description": "Immerse yourself in the daily life of soldiers, military officers, and the camp followers who traveled with the army as you explore a Revolutionary War encampment. At this hands-on attraction, you can touch the items inside the soldiers' tents and officer's tent, wash clothes in the laundry yard, and examine cooking utensils used by camp followers. See two daily programs about enlisting in General Washington's army and how soldiers prepared their meals while traveling. This attraction is made possible thanks to Americana Corner.",
+    "categories": "",
+    "venue": "George Washington's Mount Vernon",
+    "address": "3200 Mount Vernon Memorial Highway",
+    "time": "09:00",
+    "endTime": "16:00",
+    "lat": 38.710439,
+    "lng": -77.086961,
+    "title": "Patriots Path: A Revolutionary War Encampment",
+    "url": "https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/",
+    "dateEvidence": "Visit Alexandria explicit iCalendar occurrence",
+    "outdoorEvidence": "Source description explicitly places the activity outdoors",
+    "outdoorEvidenceURL": "https://www.mountvernon.org/plan-your-visit/calendar/events/patriots-path-revolutionary-war-encampment?utm_source=visitalexandria.com&utm_medium=referral&utm_campaign=estate_revwar_encamp_ec",
+    "occurrenceTime": "09:00",
+    "coverage": true,
+    "organizerURL": "https://www.mountvernon.org/plan-your-visit/calendar/events/patriots-path-revolutionary-war-encampment?utm_source=visitalexandria.com&utm_medium=referral&utm_campaign=estate_revwar_encamp_ec",
+    "date": "2026-11-07",
+    "id": "Visit Alexandria|https://visitalexandria.com/events/patriots-path-a-revolutionary-war-encampment/|2026-11-07|09:00|george washington's mount vernon",
+    "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "other"
+   },
+   {
+    "source": "M-NCPPC Prince George’s Parks",
+    "city": "Mount Rainier",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "description": "Ready for adventure? Join us for a trip to C&O Canal! Each Adventure Seekers trip takes participants ages eight to twelve to a new destination for a day of outdoor exploration, discovery, and fun. From hiking trails and canoeing adventures to museums, nature centers, and historic sites, every program offers a unique opportunity to learn, explore, and connect with the world around them. These guided day trips help young adventurers build confidence, curiosity, and new friendships while discovering the natural and cultural attractions of the D.C. region. Participants will meet at Mount Rainier Nature Center to travel to the destination. Transportation is provided via M-NCPPC minibus. Participants should bring a lunch and reusable water bottle, and wear closed-toe shoes.",
+    "categories": "Fitness, History, Nature & Outdoor, Tours, Walks/Runs, Youth",
+    "venue": "Mount Rainier Nature Center",
+    "address": "4701 31st Place, Mount Rainier, MD",
+    "time": "10:00",
+    "endTime": "15:00",
+    "lat": 38.9481414,
+    "lng": -76.9650441,
+    "title": "Adventure Seekers: Fall Color at the C&O Canal",
+    "url": "https://www.pgparks.com/event_list/adventure-seekers-fall-color-at-the-co-canal",
+    "categoryEvidence": "",
+    "dateEvidence": "Publisher Events Calendar explicit local schedule",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://www.pgparks.com/event_list/adventure-seekers-fall-color-at-the-co-canal",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/adventure-seekers-fall-color-at-the-co-canal|2026-11-07|10:00|mount rainier nature center",
+    "confidence": "Publisher Events Calendar explicit local schedule",
+    "category": "fitness",
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
+    "source": "Navy Yard BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "categories": "",
+    "venue": "Half Street",
+    "address": "1250 Half St SE, Washington, DC 20003",
+    "description": "The Half Street Central Farmers Market is a vibrant outdoor market in Navy Yard featuring over 30 local vendors offering fresh produce, baked goods, prepared foods, and artisanal products. Held every Saturday from spring through fall, it combines shopping with a lively community atmosphere, including live music, chef demos, and family-friendly activities just steps from Nationals Park.",
+    "time": "10:00",
+    "endTime": "14:00",
+    "lat": 38.87564,
+    "lng": -77.0070472,
+    "title": "Half Street Central Farmers Market",
+    "url": "https://navyyarddc.org/event/half-street-central-farmers-market-29",
+    "activityLocation": "Half Street",
+    "dateEvidence": "Navy Yard BID event page date and time",
+    "outdoorEvidence": "Publisher explicitly places the activity outdoors",
+    "outdoorEvidenceURL": "https://navyyarddc.org/event/half-street-central-farmers-market-29",
+    "date": "2026-11-07",
+    "id": "Navy Yard BID|https://navyyarddc.org/event/half-street-central-farmers-market-29|2026-11-07",
+    "confidence": "Navy Yard BID event page date and time",
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a ranger for a pleasant hike through the woods and along the creek. Ranger's choice of route - the hike may be between 1.5-3.5 miles. Come prepared with proper footwear and clothing, water, and curiosity to connect with nature. Meet on the front porch of the Nature Center and Planetarium.",
+    "categories": "",
+    "venue": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "address": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "time": "10:00",
+    "endTime": "11:30",
+    "lat": 38.960047,
+    "lng": -77.05176,
+    "title": "Ramble with a Ranger",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=2368153B-BDF0-1DE4-F6011C5AF33951EF",
+    "activityLocation": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=2368153B-BDF0-1DE4-F6011C5AF33951EF",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=2368153B-BDF0-1DE4-F6011C5AF33951EF|2026-11-07|10:00|the nature center and planetarium is located at 5200 glover rd nw washington, d.c. 20015.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS DC-area parks",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+    "categories": "",
+    "venue": "Kenilworth Park & Aquatic Gardens",
+    "address": "Kenilworth Park & Aquatic Gardens",
+    "time": "10:00",
+    "endTime": "11:00",
+    "lat": 38.912716,
+    "lng": -76.941934,
+    "title": "Ranger Led Garden Tour",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5",
+    "activityLocation": "Kenilworth Park & Aquatic Gardens",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Outdoor nature activity at a matching outdoor venue",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5|2026-11-07|10:00|kenilworth park & aquatic gardens",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a National Park Service ranger for a guided walk-through Battleground National Cemetery to explore Civil War monuments, their symbols, and the stories they were built to preserve. Discover how art, memory, and history come together in this quiet landscape where Washington, DC’s past is written in stone. As a part of the Freedom 250 commemoration, this program invites visitors to reflect on sacrifice, citizenship, and the enduring power of public memory. Please note that parking is limited to public streets.",
+    "categories": "",
+    "venue": "6625 Georgia Ave NW, Washington, DC",
+    "address": "6625 Georgia Ave NW, Washington, DC",
+    "time": "10:00",
+    "endTime": "10:30",
+    "lat": 38.970754,
+    "lng": -77.026697,
+    "title": "Stories in Stone: Monuments at Battleground National Cemetery",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "activityLocation": "6625 Georgia Ave NW, Washington, DC",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248|2026-11-07|10:00|6625 georgia ave nw, washington, dc",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "M-NCPPC Prince George’s Parks",
+    "city": "Upper Marlboro",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "description": "Come support new growers, explore the fields, and take home something delicious at the Urban Farm Incubator at Watkins Regional Park. Every Saturday, 10 am-2 pm , from late May to mid-November , you can shop fresh vegetables, fruit, herbs, and flowers grown on-site by ten emerging farm businesses. Expect nutrient‑dense, culturally relevant, all‑natural produce! DIRECTIONS: Once inside Watkins Regional Park, follow signs for the Urban Farm Incubator and park inside the black deer fence. The Urban Farm Incubator hosts ten beginner farm businesses growing vegetables, fruit, herbs, and flowers. The Urban Farm Incubator at Watkins Regional Park is a collaboration among ECO City Farms, the Prince George’s Soil Conservation District (PGSCD), Prince George’s Food Equity Council (FEC), The Capital Market, and M-NCPPC, Department of Recreation, Prince George’s County. This event is held at 601 Watkins Park Drive For more info, visit https://www.ecoffshoots.org/urban-farm-incubator or email urbanfarmincubator@gmail.com",
+    "categories": "All Ages, Free, Nature & Outdoor",
+    "venue": "Watkins Regional Park",
+    "address": "301 Watkins Park Drive, Upper Marlboro",
+    "time": "10:00",
+    "endTime": "14:00",
+    "lat": 38.8871402,
+    "lng": -76.786076,
+    "title": "Watkins Park Farmers Market",
+    "url": "https://www.pgparks.com/event_list/watkins-park-farmers-market/2026-11-07",
+    "categoryEvidence": "",
+    "dateEvidence": "Publisher Events Calendar explicit local schedule",
+    "outdoorEvidence": "Market activity is located in fields, a plaza or a street",
+    "outdoorEvidenceURL": "https://www.pgparks.com/event_list/watkins-park-farmers-market/2026-11-07",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "M-NCPPC Prince George’s Parks|https://www.pgparks.com/event_list/watkins-park-farmers-market/2026-11-07|2026-11-07|10:00|watkins regional park",
+    "confidence": "Publisher Events Calendar explicit local schedule",
+    "category": "market",
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the World War II Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet in front of the World War II Kiosk.",
+    "address": "Meet in front of the World War II Kiosk.",
+    "time": "10:00",
+    "endTime": "10:30",
+    "lat": 38.888553,
+    "lng": -77.040542,
+    "title": "World War II Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20BC795E-F31D-23BE-8ECD667441CCC6A3",
+    "activityLocation": "Meet in front of the World War II Kiosk.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=20BC795E-F31D-23BE-8ECD667441CCC6A3",
+    "occurrenceTime": "10:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=20BC795E-F31D-23BE-8ECD667441CCC6A3|2026-11-07|10:00|meet in front of the world war ii kiosk.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS DC-area parks",
+    "city": "Oxon Hill",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "description": "Join a Park Ranger on a tour of Oxon Hill Farm! Learn about the history of the land on which Oxon Cove Park now stands while also meeting our resident farm animals. From goats to mules and horses to pigs, our animals are excited to meet you! This program is great for all ages. Children must be supervised by an adult for the entirety of the activity.",
+    "categories": "",
+    "venue": "Meet the ranger at the front of the Visitor Center Barn.",
+    "address": "Meet the ranger at the front of the Visitor Center Barn.",
+    "time": "10:30",
+    "endTime": "11:15",
+    "lat": 38.801791,
+    "lng": -77.007987,
+    "title": "Farm Tour",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=F48EDE4F-ABB1-FD67-BE3CB5AD5C8DFADF",
+    "activityLocation": "Meet the ranger at the front of the Visitor Center Barn.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Event title explicitly identifies an outdoor activity",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=F48EDE4F-ABB1-FD67-BE3CB5AD5C8DFADF",
+    "occurrenceTime": "10:30",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=F48EDE4F-ABB1-FD67-BE3CB5AD5C8DFADF|2026-11-07|10:30|meet the ranger at the front of the visitor center barn.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "Union Market District",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "categories": "",
+    "venue": "Union Market",
+    "address": "1309 5th St NE",
+    "description": "",
+    "time": "11:00",
+    "endTime": "13:00",
+    "lat": 38.9086101,
+    "lng": -76.9974046,
+    "title": "DC Mural Tour",
+    "url": "https://unionmarketdc.com/event/dc-mural-tour-2/2026-11-07/",
+    "activityLocation": "Union Market",
+    "dateEvidence": "Publisher Events Calendar API",
+    "outdoorEvidence": "The scheduled activity is inherently outdoors",
+    "outdoorEvidenceURL": "https://unionmarketdc.com/event/dc-mural-tour-2/2026-11-07/",
+    "date": "2026-11-07",
+    "id": "Union Market District|https://unionmarketdc.com/event/dc-mural-tour-2/2026-11-07/|2026-11-07",
+    "confidence": "Publisher Events Calendar API",
+    "category": "nature",
+    "geocoded": "OpenStreetMap Nominatim"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the Korean War Veterans Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet in front of the Korean War Memorial Kiosk.",
+    "address": "Meet in front of the Korean War Memorial Kiosk.",
+    "time": "11:00",
+    "endTime": "11:30",
+    "lat": 38.888361,
+    "lng": -77.049099,
+    "title": "Korean War Veterans Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD",
+    "activityLocation": "Meet in front of the Korean War Memorial Kiosk.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD",
+    "occurrenceTime": "11:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=20C8A006-9D75-B08D-B9660EEE010654DD|2026-11-07|11:00|meet in front of the korean war memorial kiosk.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "title": "Norton Showcase - Presented by Norton Network",
+    "source": "Visit Prince William",
+    "url": "https://www.eventbrite.com/e/norton-showcase-presented-by-norton-network-grand-norton-tasting-tickets-1995323710932",
+    "description": "Celebrate Norton, Virginia's native grape, at the Norton Showcase, presented by Norton Network! This exclusive event brings together Virginia's premier Norton producers for a day of exceptional wines, great food, live music, and friendly competition. Whether you're a longtime Norton fan or discovering the varietal for the first time, you'll enjoy sampling a wide range of Norton wines, meeting the winemakers behind them, and experiencing the passion that makes Virginia's native grape so special. Grand Norton Tasting Tickets Your Grand Norton Tasting Ticket includes tasting samples from each of the participating wineries. **$30 when purchased in advance *$40 when purchased at the gate on the day of the event Guests must be 21 years of age or older with a valid government-issued photo ID to purchase or redeem a Grand Norton Tasting Ticket. All IDs will be checked before participating in wine tastings or purchasing wine by the bottle or glass. Event Highlights -Grand Norton Tasting featuring Virginia's top Norton producers -Virginia Norton Judgement wine competition -Meet the winemakers -Live music -Local food trucks and artisan vendors Please Note -No pets allowed. -This is an outdoor event. Please dress for the weather. Join us for a day of great wine, delicious food, live entertainment, and a celebration of Virginia's signature grape!",
+    "venue": "Piedmont Meadows",
+    "address": "Marine Corps Base, 17937 Joplin Rd, Triangle, VA 22172, USA",
+    "city": "Triangle",
+    "state": "VA",
+    "county": "Prince William County",
+    "categories": "",
+    "dateEvidence": "Visit Prince William event occurrence",
+    "time": "11:00",
+    "endTime": "17:00",
+    "outdoorEvidence": "Publisher explicitly places the activity outdoors",
+    "occurrenceTime": "11:00",
+    "coverage": true,
+    "outdoorEvidenceURL": "https://www.eventbrite.com/e/norton-showcase-presented-by-norton-network-grand-norton-tasting-tickets-1995323710932",
+    "date": "2026-11-07",
+    "id": "Visit Prince William|https://www.eventbrite.com/e/norton-showcase-presented-by-norton-network-grand-norton-tasting-tickets-1995323710932|2026-11-07|11:00|piedmont meadows",
+    "confidence": "Visit Prince William event occurrence",
+    "category": "music",
+    "alsoListedBy": []
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a National Park Service ranger for a guided walk-through Battleground National Cemetery to explore Civil War monuments, their symbols, and the stories they were built to preserve. Discover how art, memory, and history come together in this quiet landscape where Washington, DC’s past is written in stone. As a part of the Freedom 250 commemoration, this program invites visitors to reflect on sacrifice, citizenship, and the enduring power of public memory. Please note that parking is limited to public streets.",
+    "categories": "",
+    "venue": "6625 Georgia Ave NW, Washington, DC",
+    "address": "6625 Georgia Ave NW, Washington, DC",
+    "time": "11:00",
+    "endTime": "11:30",
+    "lat": 38.970754,
+    "lng": -77.026697,
+    "title": "Stories in Stone: Monuments at Battleground National Cemetery",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "activityLocation": "6625 Georgia Ave NW, Washington, DC",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "occurrenceTime": "11:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248|2026-11-07|11:00|6625 georgia ave nw, washington, dc",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS DC-area parks",
+    "city": "Oxon Hill",
+    "county": "Prince George’s County",
+    "state": "MD",
+    "description": "Join a ranger and explore our Woodlot Trail! Learn about the people and animals that have called Oxon Hill Farm and Oxon Cove Park home throughout its long history. Bring water, closed–toe shoes, and layers for this half mile walk through uneven terrain. Meet at the visitor center at 11:30 a.m.",
+    "categories": "",
+    "venue": "Oxon Cove Park & Oxon Hill Farm",
+    "address": "Oxon Cove Park & Oxon Hill Farm",
+    "time": "11:30",
+    "endTime": "12:30",
+    "lat": 38.801791,
+    "lng": -77.007987,
+    "title": "Woodlot Trail Hike",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=546CF70C-B2F5-F5E1-829DC71AD774FE8B",
+    "activityLocation": "Oxon Cove Park & Oxon Hill Farm",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=546CF70C-B2F5-F5E1-829DC71AD774FE8B",
+    "occurrenceTime": "11:30",
+    "round2": true,
+    "outdoorNote": "Bring water, closed–toe shoes, and layers for this half mile walk through uneven terrain.",
+    "outdoorCardNote": "Weather contingency; see details",
+    "date": "2026-11-07",
+    "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=546CF70C-B2F5-F5E1-829DC71AD774FE8B|2026-11-07|11:30|oxon cove park & oxon hill farm",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "Dupont Circle BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "",
+    "categories": "",
+    "venue": "Dupont Circle park",
+    "address": "",
+    "time": "12:00",
+    "endTime": "15:00",
+    "lat": null,
+    "lng": null,
+    "title": "Music in the Circle: Fall 2026 Concert Series",
+    "url": "https://dupontcirclebid.org/do/music-in-the-circle-fall-2026-concert-series",
+    "dateEvidence": "CTY dated calendar occurrence",
+    "outdoorEvidence": "The concert description explicitly places the live performances in Dupont Circle Park.",
+    "outdoorEvidenceURL": "https://dupontcirclebid.org/do/music-in-the-circle-fall-2026-concert-series",
+    "date": "2026-11-07",
+    "id": "Dupont Circle BID|https://dupontcirclebid.org/do/music-in-the-circle-fall-2026-concert-series|2026-11-07",
+    "confidence": "CTY dated calendar occurrence",
+    "category": "music"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a park ranger to learn about the Presidents and Vice Presidents who served in uniform during World War II. From Franklin D. Roosevelt to George H. W. Bush, discover how a generation of American leaders answered the call to serve their country both in and out of uniform.",
+    "categories": "",
+    "venue": "World War II Memorial (meet the ranger at the contact station)",
+    "address": "World War II Memorial (meet the ranger at the contact station)",
+    "time": "12:00",
+    "endTime": "12:30",
+    "lat": null,
+    "lng": null,
+    "title": "Presidential Valor: The Military Service of Presidents and Vice Presidents Who Served in World War II",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=55B0C189-0B31-E797-843817D1C3CA4B3B",
+    "activityLocation": "World War II Memorial (meet the ranger at the contact station)",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=55B0C189-0B31-E797-843817D1C3CA4B3B",
+    "occurrenceTime": "12:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=55B0C189-0B31-E797-843817D1C3CA4B3B|2026-11-07|12:00|world war ii memorial (meet the ranger at the contact station)",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "other"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the Vietnam Veteran's Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet in front of the Korean War Memorial Kiosk.",
+    "address": "Meet in front of the Korean War Memorial Kiosk.",
+    "time": "12:00",
+    "endTime": "12:30",
+    "lat": 38.888361,
+    "lng": -77.049099,
+    "title": "Vietnam Veterans Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+    "activityLocation": "Meet in front of the Korean War Memorial Kiosk.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+    "occurrenceTime": "12:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=20D2D49A-C6EB-C60B-3FDF9FF5498CAABC|2026-11-07|12:00|meet in front of the korean war memorial kiosk.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a ranger for a 30-minute, family-friendly walk through Battleground National Cemetery and discover the stories of the soldiers buried here. Learn who these men were and how their service helped shape our nation's history. Uncover clues about the lives of the soldiers, and think about how we remember people who served long ago. Through stories, questions, and observation, children and families will gain a deeper appreciation for the sacrifices made during one of the most important chapters in American history. Perfect for families with children ages 6 and up. This easy walking tour lasts approximately 30 minutes.",
+    "categories": "",
+    "venue": "Battleground National Cemetery 6625 Georgia Avenue NW Washington, DC",
+    "address": "Battleground National Cemetery 6625 Georgia Avenue NW Washington, DC",
+    "time": "12:30",
+    "endTime": "13:00",
+    "lat": 38.970712,
+    "lng": -77.026777,
+    "title": "Heroes Remembered: Stories from Battleground National Cemetery",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7286A74-FAE3-A88E-739FE5F812F8CF52",
+    "activityLocation": "Battleground National Cemetery 6625 Georgia Avenue NW Washington, DC",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7286A74-FAE3-A88E-739FE5F812F8CF52",
+    "occurrenceTime": "12:30",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=A7286A74-FAE3-A88E-739FE5F812F8CF52|2026-11-07|12:30|battleground national cemetery 6625 georgia avenue nw washington, dc",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "Visit Alexandria",
+    "city": "Alexandria",
+    "county": "Alexandria City",
+    "state": "VA",
+    "description": "Go beyond King Street on a 90-minute guided walk through Alexandria's remarkable Wilkes Street Cemetery Complex—13 historic cemeteries, 52 acres, and more than 35,000 burials in one walkable landscape.Led by independent historian and cemetery superintendent David Heiby, creator of Gravestone Stories, the tour connects Alexandria's past to the American Revolution, War of 1812, Civil War, Cold War, and more. Meet George Washington's pallbearers, Revolutionary War patriots, Civil War soldiers, a Soviet spy, and others whose stories illuminate more than two centuries of Alexandria history. Every stop is grounded in original research, cemetery records, and discoveries made within the complex, including graves rediscovered after nearly 200 years. Tours are limited to small groups. The 90-minute walk covers approximately 1 to 1.5 miles over historic cemetery paths and uneven terrain. Free parking is available.Tours are offered Fridays and Saturdays at 1:00 p.m., with an additional Thursday tour at 3:30 p.m. Tickets are $30 per person and include the official Gravestone Stories companion e-book. See the Gravestone Stories website for current availability and booking.",
+    "categories": "",
+    "venue": "Gravestone Stories",
+    "address": "Hamilton Avenue & Wilkes Street",
+    "time": "13:00",
+    "endTime": "14:30",
+    "lat": 38.801642,
+    "lng": -77.056728,
+    "title": "Alexandria Historic Cemetery Complex: 13 Cemeteries Walking Tour",
+    "url": "https://visitalexandria.com/events/alexandria-historic-cemetery-complex-13-cemeteries-walking-tour/",
+    "dateEvidence": "Visit Alexandria explicit iCalendar occurrence",
+    "outdoorEvidence": "Participants walk 1–1.5 miles over cemetery paths and uneven terrain.",
+    "outdoorEvidenceURL": "https://visitalexandria.com/events/alexandria-historic-cemetery-complex-13-cemeteries-walking-tour/",
+    "occurrenceTime": "13:00",
+    "coverage": false,
+    "organizerURL": "https://www.viator.com/tours/Virginia/Journey-Through-Americas-Most-Historic-Cemetery-Complex/d22229-5589637P1",
+    "date": "2026-11-07",
+    "id": "Visit Alexandria|https://visitalexandria.com/events/alexandria-historic-cemetery-complex-13-cemeteries-walking-tour/|2026-11-07|13:00|gravestone stories",
+    "confidence": "Visit Alexandria explicit iCalendar occurrence",
+    "category": "nature"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the Lincoln Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet in front of the Lincoln Memorial on the plaza at the base of the stairs.",
+    "address": "Meet in front of the Lincoln Memorial on the plaza at the base of the stairs.",
+    "time": "13:00",
+    "endTime": "13:30",
+    "lat": 38.889271,
+    "lng": -77.049732,
+    "title": "Lincoln Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20E95621-C801-29EC-8D514DA27A4B20BD",
+    "activityLocation": "Meet in front of the Lincoln Memorial on the plaza at the base of the stairs.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=20E95621-C801-29EC-8D514DA27A4B20BD",
+    "occurrenceTime": "13:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=20E95621-C801-29EC-8D514DA27A4B20BD|2026-11-07|13:00|meet in front of the lincoln memorial on the plaza at the base of the stairs.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the Martin Luther King, Jr Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet at the Martin Luther King Memorial.",
+    "address": "Meet at the Martin Luther King Memorial.",
+    "time": "14:00",
+    "endTime": "14:30",
+    "lat": 38.886465,
+    "lng": -77.044619,
+    "title": "Martin Luther King, Jr Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+    "activityLocation": "Meet at the Martin Luther King Memorial.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+    "occurrenceTime": "14:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=20F3964D-C2EB-D551-D4D9F8FDB79A2B6B|2026-11-07|14:00|meet at the martin luther king memorial.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a ranger for a pleasant hike through the woods and along the creek. Ranger's choice of route - the hike may be between 1.5-3.5 miles. Come prepared with proper footwear and clothing, water, and curiosity to connect with nature. Meet on the front porch of the Nature Center and Planetarium.",
+    "categories": "",
+    "venue": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "address": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "time": "14:00",
+    "endTime": "15:30",
+    "lat": 38.960047,
+    "lng": -77.05176,
+    "title": "Ramble with a Ranger",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=B4CF163C-BC87-C33C-858AF8BF773E9D5F",
+    "activityLocation": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=B4CF163C-BC87-C33C-858AF8BF773E9D5F",
+    "occurrenceTime": "14:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=B4CF163C-BC87-C33C-858AF8BF773E9D5F|2026-11-07|14:00|the nature center and planetarium is located at 5200 glover rd nw washington, d.c. 20015.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS DC-area parks",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a Kenilworth Aquatic Gardens Ranger for a Ranger led tour of the Aquatic Gardens! The talk will cover the history of the park, the waterlillies and lotuses that are grown in the ponds, and the importance of the marshes that are connected to the ponds. Meet the ranger in front of the visitor center where the talk will begin. Please be sure to bring a water bottle and wear appropriate clothing for the weather.",
+    "categories": "",
+    "venue": "Kenilworth Park & Aquatic Gardens",
+    "address": "Kenilworth Park & Aquatic Gardens",
+    "time": "14:00",
+    "endTime": "15:00",
+    "lat": 38.912716,
+    "lng": -76.941934,
+    "title": "Ranger Led Garden Tour",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5",
+    "activityLocation": "Kenilworth Park & Aquatic Gardens",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Outdoor nature activity at a matching outdoor venue",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5",
+    "occurrenceTime": "14:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=F881D52D-D67F-AA74-A75CE8479A5B38D5|2026-11-07|14:00|kenilworth park & aquatic gardens",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NOVA Parks",
+    "city": "Arlington",
+    "county": "Arlington County",
+    "state": "VA",
+    "categories": "",
+    "venue": "Potomac Overlook Regional Park",
+    "address": "Potomac Overlook Regional Park, Arlington, VA",
+    "description": "Soar on down to this program about local avian predators! Learn about native birds of prey and the amazing adaptations they use to hunt, meet the resident raptors that are cared for at the park, and watch a Naturalist feed a live bird of prey!",
+    "time": "14:00",
+    "endTime": "15:00",
+    "lat": null,
+    "lng": null,
+    "title": "Raptors of the Potomac",
+    "url": "https://www.novaparks.com/parks/potomac-overlook-regional-park/events/raptors-of-the-potomac-5",
+    "activityLocation": "Potomac Overlook Regional Park",
+    "dateEvidence": "NOVA Parks event calendar",
+    "outdoorEvidence": "Scheduled naturalist at an outdoor public space (Potomac Overlook Regional Park)",
+    "outdoorEvidenceURL": "https://www.novaparks.com/parks/potomac-overlook-regional-park/events/raptors-of-the-potomac-5",
+    "date": "2026-11-07",
+    "id": "NOVA Parks|https://www.novaparks.com/parks/potomac-overlook-regional-park/events/raptors-of-the-potomac-5|2026-11-07",
+    "confidence": "NOVA Parks event calendar",
+    "category": "other"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Have you ever wondered how the trees in our treasured forests put on such a brilliant display in the autumn? Now you can join a ranger on this 2-mile hike to take in the fall colors and learn the science behind the spectacular color change as you feel the seasons shifting around you. This route has a steep but manageable climb. Meet at the Rock Creek Park Nature Center porch, bring plenty of water, dress for the weather, and be prepared for a fun and enjoyable outing.",
+    "categories": "",
+    "venue": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015. Meet on the front porch.",
+    "address": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015. Meet on the front porch.",
+    "time": "15:00",
+    "endTime": "16:30",
+    "lat": 38.960047,
+    "lng": -77.05176,
+    "title": "Fall Leaves in Rock Creek Park Hike",
+    "categoryEvidence": "",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=23DA94FE-9A71-47CD-21BEEAFBD6E9D0F5",
+    "activityLocation": "The Nature Center and Planetarium is located at 5200 Glover Rd NW Washington, D.C. 20015. Meet on the front porch.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "Publisher describes the actual route or outdoor terrain",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=23DA94FE-9A71-47CD-21BEEAFBD6E9D0F5",
+    "occurrenceTime": "15:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=23DA94FE-9A71-47CD-21BEEAFBD6E9D0F5|2026-11-07|15:00|the nature center and planetarium is located at 5200 glover rd nw washington, d.c. 20015. meet on the front porch.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "source": "NPS Rock Creek Park",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Join a National Park Service ranger for a guided walk-through Battleground National Cemetery to explore Civil War monuments, their symbols, and the stories they were built to preserve. Discover how art, memory, and history come together in this quiet landscape where Washington, DC’s past is written in stone. As a part of the Freedom 250 commemoration, this program invites visitors to reflect on sacrifice, citizenship, and the enduring power of public memory. Please note that parking is limited to public streets.",
+    "categories": "",
+    "venue": "6625 Georgia Ave NW, Washington, DC",
+    "address": "6625 Georgia Ave NW, Washington, DC",
+    "time": "15:00",
+    "endTime": "15:30",
+    "lat": 38.970754,
+    "lng": -77.026697,
+    "title": "Stories in Stone: Monuments at Battleground National Cemetery",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "activityLocation": "6625 Georgia Ave NW, Washington, DC",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248",
+    "occurrenceTime": "15:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248|2026-11-07|15:00|6625 georgia ave nw, washington, dc",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
+   },
+   {
+    "id": "ticketmaster|1A4ZkCKGkd16Qa1|2026-11-07",
+    "title": "D.C. United vs New York City FC",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.com/dc-united-vs-new-york-city-washington-district-of-columbia-11-07-2026/event/15006393CA1DA24A",
+    "date": "2026-11-07",
+    "time": "16:00",
+    "endTime": "",
+    "venue": "Audi Field",
+    "address": "100 Potomac Ave. SW, Washington, DC",
+    "city": "Washington",
+    "state": "DC",
+    "county": "District of Columbia",
+    "lat": 38.867998,
+    "lng": -77.013642,
+    "description": "Please Note: Audi Field is a mobile-only venue. Children 2 and under do not need a ticket if they are sitting on a parent/guardian's lap.",
+    "categories": "Sports",
+    "outdoorEvidence": "Scheduled activity at a verified outdoor sports/performance venue",
+    "outdoorEvidenceURL": "https://www.ticketmaster.com/dc-united-vs-new-york-city-washington-district-of-columbia-11-07-2026/event/15006393CA1DA24A",
+    "confidence": "Ticketmaster schedule",
+    "category": "sports"
+   },
+   {
+    "source": "NPS National Mall",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "description": "Explore the history and art of the Thomas Jefferson Memorial with a ranger.",
+    "categories": "",
+    "venue": "Meet at the base of the stairs to the chamber where the statue of Jefferson is located.",
+    "address": "Meet at the base of the stairs to the chamber where the statue of Jefferson is located.",
+    "time": "17:00",
+    "endTime": "17:30",
+    "lat": 38.881855,
+    "lng": -77.036562,
+    "title": "Thomas Jefferson Memorial",
+    "categoryEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=210B48F0-9F51-FC75-4436E2F198520714",
+    "activityLocation": "Meet at the base of the stairs to the chamber where the statue of Jefferson is located.",
+    "dateEvidence": "NPS explicit occurrence and time slot",
+    "outdoorEvidence": "NPS program held at an open-air memorial or national cemetery",
+    "outdoorEvidenceURL": "https://www.nps.gov/planyourvisit/event-details.htm?id=210B48F0-9F51-FC75-4436E2F198520714",
+    "occurrenceTime": "17:00",
+    "round2": true,
+    "date": "2026-11-07",
+    "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=210B48F0-9F51-FC75-4436E2F198520714|2026-11-07|17:00|meet at the base of the stairs to the chamber where the statue of jefferson is located.",
+    "confidence": "NPS explicit occurrence and time slot",
+    "category": "nature"
    }
   ],
   "npsIndex": [
@@ -55651,6 +56467,24 @@
     "lng": -77.05176
    },
    {
+    "t": "friends of georgetown waterfront park labyrinth program",
+    "id": "8A20BE0C-9E7E-A5FF-897946F1BFC7B3E1",
+    "lat": 39,
+    "lng": -77
+   },
+   {
+    "t": "ramble with a ranger",
+    "id": "2368153B-BDF0-1DE4-F6011C5AF33951EF",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
+    "t": "fall leaves in rock creek park hike",
+    "id": "23DA94FE-9A71-47CD-21BEEAFBD6E9D0F5",
+    "lat": 38.960047,
+    "lng": -77.05176
+   },
+   {
     "t": "world war ii memorial",
     "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
     "lat": 38.888553,
@@ -55759,16 +56593,16 @@
     "lng": -76.99502
    },
    {
-    "t": "bat week @ cushwa basin",
-    "id": "2626A1FC-D255-C798-F9CFCBE5FB66686B",
-    "lat": 39.600562,
-    "lng": -77.826263
-   },
-   {
     "t": "lockhouse 44 - williamsport",
     "id": "1E8804BB-91CE-47F1-68AFD5264261C604",
     "lat": 39.594163,
     "lng": -77.825252
+   },
+   {
+    "t": "bat week @ cushwa basin",
+    "id": "2626A1FC-D255-C798-F9CFCBE5FB66686B",
+    "lat": 39.600562,
+    "lng": -77.826263
    },
    {
     "t": "graveyards and ghosts hike",
@@ -55859,6 +56693,30 @@
     "id": "7E35CFE1-C35E-E57E-3FAFAC90050967F9",
     "lat": null,
     "lng": null
+   },
+   {
+    "t": "saturday bird walk",
+    "id": "2C1E0972-BA30-9659-90D51788E3F579F1",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "history of fly fishing",
+    "id": "50F856FD-ACC9-8C79-EA9B04351490CB11",
+    "lat": 39.634178,
+    "lng": -77.449819
+   },
+   {
+    "t": "woodlot trail hike",
+    "id": "546CF70C-B2F5-F5E1-829DC71AD774FE8B",
+    "lat": 38.801791,
+    "lng": -77.007987
+   },
+   {
+    "t": "campfire program: fall: our american landscape and the history of thanksgiving",
+    "id": "0EDB068F-DCB2-398C-3DC0E51F82F0DA94",
+    "lat": 39,
+    "lng": -77
    }
   ]
  }
