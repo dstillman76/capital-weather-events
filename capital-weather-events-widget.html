@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v59: dark mode; v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
 <div id="cw-weekend-events">
   <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
@@ -528,6 +528,46 @@
 @media(max-width:620px) {
  #cw-weekend-events #cwe-cards { min-height:201px; padding-bottom:6px; }
  #cw-weekend-events .cwe-selection-tip { margin-top:6px; }
+}
+/* v59: dark mode. The site follows the reader's system setting
+   (prefers-color-scheme); colors match the hourly forecast card's dark theme. */
+@media (prefers-color-scheme: dark) {
+ #cw-weekend-events { color:#e5e7eb; }
+ #cw-weekend-events .cwe-intro,
+ #cw-weekend-events h2 { color:#f3f4f6; }
+ #cw-weekend-events .cwe-header p,
+ #cw-weekend-events #cwe-weekend-label,
+ #cw-weekend-events #cwe-status { color:#a3adbb; }
+ #cw-weekend-events .cwe-geography { background:#161e2b; border-color:#2f3a4a; }
+ #cw-weekend-events .cwe-geography label { color:#c3ccd8; }
+ #cw-weekend-events .cwe-geography select,
+ #cw-weekend-events #cwe-type,
+ #cw-weekend-events #cwe-search,
+ #cw-weekend-events .cwe-arrows button,
+ #cw-weekend-events .cwe-days button { background:#111827; color:#e5e7eb; }
+ #cw-weekend-events .cwe-geography select,
+ #cw-weekend-events #cwe-type,
+ #cw-weekend-events #cwe-search { border-color:#374151 !important; color-scheme:dark; }
+ #cw-weekend-events #cwe-search::placeholder { color:#8b95a3; }
+ #cw-weekend-events .cwe-days,
+ #cw-weekend-events .cwe-arrows button { border-color:#374151; }
+ #cw-weekend-events .cwe-days button { border-right-color:#374151 !important; }
+ #cw-weekend-events .cwe-days button.active { background:#2f5f93; color:#fff; }
+ #cw-weekend-events .cwe-card { background:#111827; border-color:#3a4a5e; }
+ #cw-weekend-events .cwe-card.selected { background:#172338; border-color:#8fb4ff; }
+ #cw-weekend-events .cwe-date { color:#93a7bd; }
+ #cw-weekend-events .cwe-title { color:#f3f4f6; }
+ #cw-weekend-events .cwe-location { color:#b4bdc9; }
+ #cw-weekend-events .cwe-time { color:#d1d5db; }
+ #cw-weekend-events .cwe-source,
+ #cw-weekend-events .cwe-footer { color:#9aa4b2; border-top-color:#2f3a4a; }
+ #cw-weekend-events a,
+ #cw-weekend-events .cwe-show-details { color:#8fb4ff !important; }
+ #cw-weekend-events #cwe-detail { background:#161e2b; border-color:#2f3a4a; color:#e5e7eb; }
+ #cw-weekend-events .cwe-selection-tip { color:#b4bdc9; border-top-color:#4b5563; border-bottom-color:#4b5563; }
+ #cw-weekend-events .cwe-diagnostics-controls { border-top-color:#2f3a4a; }
+ #cw-weekend-events #cwe-diagnostics { color:#b4bdc9; }
+ #cw-weekend-events #cwe-cards { scrollbar-color:#4b5563 transparent; }
 }
 </style>
 
