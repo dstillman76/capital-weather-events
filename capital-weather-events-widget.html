@@ -5234,7 +5234,8 @@ async function adaptCollector(source,r){
   // v60: where at the venue, when FindLocal says ("Location: Spanish Ballroom"
   // at Glen Echo Park). A room, theater, gallery or studio is indoors.
   const flLocation=rec.source==='FindLocal'?clean(rec.flLocation||''):'';
-  if(flLocation&&(FL_INDOOR_ROOM.test(flLocation)||BUILDING_WORDS.test(flLocation))&&!EXPLICIT_OUTDOOR.test(flLocation)){
+  if((flLocation&&(FL_INDOOR_ROOM.test(flLocation)||BUILDING_WORDS.test(flLocation))&&!EXPLICIT_OUTDOOR.test(flLocation))||
+     (rec.source==='FindLocal'&&rec.venueType==='Park & Outdoors'&&FL_INDOOR_ROOM.test(rec.title||''))){
    bumpExtra(r,'FindLocal events in an indoor room at the venue',dates.length);continue}
   // v60: a "Park & Outdoors" venue does not make a dance, show, art session or
   // class outdoors (Glen Echo Park's ballroom and theaters): those need the
