@@ -982,7 +982,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
       description: textOf(e.description).slice(0, 1200),
       // Where at the venue, when FindLocal says ("Location: Spanish Ballroom"
       // at the end of Glen Echo Park's listings); read before the trim above.
-      flLocation: (textOf(e.description).match(/\bLocation:\s*([^\n]{2,120}?)\s*$/) || [])[1] || '',
+      flLocation: ((textOf(e.description).match(/\bLocation:\s*([^\n]{2,160}?)\s*$/) || [])[1] || '').split(/\s+·\s+(?=Admission|Ages|Cost|Price)/i)[0],   // without the admission/ages notes that follow
       categories: [e.category, ...types].filter(Boolean).join(', '),
       recurrence: '', admission: e.price || '',
       venueType: e.venue_type || '', flCategory: e.category || '',
