@@ -58,9 +58,11 @@ const FINDLOCAL = {
   near: '38.9072,-77.0369', radiusKm: 60,
   categories: '',
   indoorVenueTypes: /^(?:Theater|Comedy Club|Nightclub|Library|Bookstore|Museum|Art Gallery|Cafe)$/,
-  monthlyTarget: 80,      // plan for at most 80 of the 100 monthly calls
-  maxCallsPerRun: 6,
-  keepInReserve: 10,      // never spend the last 10 calls of the month
+  // Indie plan (from 2026-11-03): 10,000 calls a month. A full refresh is
+  // about 15 calls, so the collector refreshes every night and stops well short.
+  monthlyTarget: 1000,    // planning cap: far below the plan's 10,000 calls
+  maxCallsPerRun: 40,
+  keepInReserve: 500,
   // Rows per call: 500 until 2026-11-15, 100 after (FindLocal's announced change).
   pageSize: today => today < '2026-11-15' ? 500 : 100,
 };
@@ -896,11 +898,11 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const report = {source: 'FindLocal', kind: 'api', status: 'ok', calls: 0, remaining: null, listings: 0, inWindow: 0, skipped: 0, note: ''};
   const month = today.slice(0, 7);
   // The budget record is per month and per key, so a new key starts fresh.
-  const keyId = FINDLOCAL.key.slice(-4);
+  const keyId = FINDLOCAL.key.slice(-4) + '|indie';   // plan in the id: the free plan's remaining-calls count no longer applies
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
   // A changed request (radius, categories) is fetched at once, not on schedule.
-  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v3';   // v2 adds venueType/flCategory; v3 records which link each listing has
+  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v4';   // v4: collapse=0, flLocation   // v2 adds venueType/flCategory; v3 records which link each listing has
   if (state.query !== query) { state.lastFetch = ''; state.query = query; }
   // Refresh as often as the quota allows: with 3 calls per refresh (100-row
   // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
@@ -919,7 +921,10 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const rows = [];
   for (let page = 1; page <= FINDLOCAL.maxCallsPerRun; page++) {
     const params = new URLSearchParams({near: FINDLOCAL.near, radius_km: String(FINDLOCAL.radiusKm), date_from: today, date_to: windowEnd,
-      limit: String(limit), page: String(page)});
+      limit: String(limit), page: String(page),
+      // FindLocal collapses daily series into one row by default (since
+      // 2026-10-28); collapse=0 returns every date as its own row.
+      collapse: '0'});
     if (FINDLOCAL.categories) params.set('cat', FINDLOCAL.categories);
     const res = await fetch('https://findlocal.community/api/events?' + params, {
       headers: {Authorization: 'Bearer ' + FINDLOCAL.key, 'user-agent': UA, accept: 'application/json'},
@@ -947,7 +952,13 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const records = [];
   for (const e of rows) {
     if (e.is_deleted || /cancel|postpon/i.test(e.status || '')) { report.skipped++; continue; }
-    if (FINDLOCAL.indoorVenueTypes.test(e.venue_type || '')) { report.indoorVenue = (report.indoorVenue || 0) + 1; continue; }
+    // Always-indoor venue types are dropped, unless the event itself is a
+    // market, festival or outdoor activity (a farmers market run by a museum);
+    // the widget's screening then decides.
+    const evTypes = Array.isArray(e.event_types) ? e.event_types : [];
+    const outdoorEvent = /^(?:market|festival)$/.test(e.category || '') || evTypes.some(t => /farmers_market|outdoor|festival/.test(t)) ||
+      /\b(?:rain or shine|outdoors?|open[- ]air)\b/i.test(textOf(e.description) + ' ' + (e.title || ''));
+    if (FINDLOCAL.indoorVenueTypes.test(e.venue_type || '') && !outdoorEvent) { report.indoorVenue = (report.indoorVenue || 0) + 1; continue; }
     const start = e.event_date, end = e.end_date || e.event_date;
     if (!/^\d{4}-\d\d-\d\d$/.test(start || '')) { report.skipped++; continue; }
     if (daysBetween(start, end) > 3) { report.skipped++; continue; }   // a long run with no daily schedule
@@ -969,6 +980,9 @@ export async function collectFindLocal(cache, today, windowEnd) {
       venue: decode(e.venue_name || '').trim(), address: decode(e.venue_address || '').trim(),
       city: where[1].trim(), state: where[2], lat: e.venue_lat ?? null, lng: e.venue_lng ?? null,
       description: textOf(e.description).slice(0, 1200),
+      // Where at the venue, when FindLocal says ("Location: Spanish Ballroom"
+      // at the end of Glen Echo Park's listings); read before the trim above.
+      flLocation: (textOf(e.description).match(/\bLocation:\s*([^\n]{2,120}?)\s*$/) || [])[1] || '',
       categories: [e.category, ...types].filter(Boolean).join(', '),
       recurrence: '', admission: e.price || '',
       venueType: e.venue_type || '', flCategory: e.category || '',

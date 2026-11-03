@@ -1,8 +1,7 @@
-<!-- Capital Weather outdoor events v59: dark mode; v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v60: intro line moved to Ghost text; FindLocal locations within a venue; dances, shows and classes at park venues need outdoor wording; NPS farm and fort programs; v59: dark mode; v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
 <div id="cw-weekend-events">
-  <!-- v42: the intro line lives in the widget (centered), so the Ghost page needs no separate paragraph. -->
-  <p class="cwe-intro"><span>Explore outdoor events</span> <span>in DC, Maryland, and Virginia</span></p>
+  <!-- v60: the "Explore outdoor events…" line is now Ghost body text above this card (centered by page code injection). -->
   <!-- The date range is hidden for now; remove "hidden" to show it again. -->
   <div class="cwe-header" hidden>
     <div>
@@ -121,16 +120,6 @@
   font-size: 13px;
   white-space: nowrap;
   color: #697584;
-}
-/* v47: when the line wraps, it breaks only before "in DC, Maryland, and Virginia". */
-#cw-weekend-events .cwe-intro span { white-space: nowrap; }
-#cw-weekend-events .cwe-intro {
-  margin: 0 0 14px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.35;
-  color: #0d0d0d;
 }
 #cw-weekend-events .cwe-geography {
   display: grid;
@@ -533,7 +522,6 @@
    (prefers-color-scheme); colors match the hourly forecast card's dark theme. */
 @media (prefers-color-scheme: dark) {
  #cw-weekend-events { color:#e5e7eb; }
- #cw-weekend-events .cwe-intro,
  #cw-weekend-events h2 { color:#f3f4f6; }
  #cw-weekend-events .cwe-header p,
  #cw-weekend-events #cwe-weekend-label,
@@ -1012,6 +1000,9 @@ const INDOOR=
 
 const INDOOR_VENUE=
  /\b(?:politics\s*(?:and|&)\s*prose|bookstore|bookshop|booksellers?|publick playhouse|library|libraries|museum|art gallery|cinema|movie theater|theatre|theater|auditorium|ballroom|nightclub|comedy club|conference center|convention center|indoor arena)\b/i;
+// v60: FindLocal's "Location: …" line names the room or spot within a venue.
+const FL_INDOOR_ROOM=/\b(?:ballrooms?|theat(?:er|re)s?|playhouse|galler(?:y|ies)|aquarium|puppet|arcade|studios?|classrooms?|halls?|rooms?|yurts?|chapel|auditorium|lobby|indoors?)\b/i;
+const FL_OUTDOOR_SPOT=/\b(?:lawn|grove|field|meadow|garden|trail|plaza|pavilion|bandstand|amphitheat(?:er|re)|grounds|picnic area|outdoors?|open.air|courtyard|carousel)\b/i;
 const EXPLICIT_OUTDOOR=
  /\b(?:outdoors?|open.air|on the (?:lawn|plaza|pier|patio)|in the park|outside|under the stars|parking lot|sidewalk|courtyard|rooftop)\b/i;
 function outdoorDenial(e){
@@ -3222,6 +3213,7 @@ function round2Candidate(source,fields,report){
  return round2Weather(c);
 }
 const NPS_OPEN_AIR=/\b(?:World War II Memorial|Korean War (?:Veterans )?Memorial|Vietnam Veterans Memorial|Martin Luther King,? Jr\.? Memorial|Lincoln Memorial|(?:Thomas )?Jefferson Memorial|Franklin Delano Roosevelt Memorial|National Cemetery|Washington Monument grounds)\b/i;
+const NPS_FARM_FORT=/\b(?:farm|fort|battlefield)\b/i;
 const NPS_INDOOR_POINT=/\b(?:bookstore|park store|exhibit|museum|visitor center|planetarium|nature center|indoors?|auditorium|lodge)\b/i;
 /* v21: county for an event in the combined NPS request, from its park code,
  * location text and coordinates. Returns null for parts of a park outside the
@@ -3302,8 +3294,13 @@ function parseNPSRound2(payload,source,report){
    // v21: ranger programs held at open-air memorials or national cemeteries are
    // outdoors even when the description never says so. Meeting points in a
    // store, exhibit area, museum or nature center stay excluded.
+   // v60: and tours, walks and animal feedings at historic farms, forts and
+   // battlefields (Chicken Feeding at Oxon Hill Farm, Fort Tour at Fort
+   // Washington), unless they meet in a building or tour one.
+   const farmFort=NPS_FARM_FORT.test(venue+' '+clean(item.parkFullName||''))&&/\b(?:tours?|walks?|hikes?|feedings?|demonstrations?|ranger)\b/i.test(item.title)&&
+    !NPS_INDOOR_POINT.test(venue+' '+item.title)&&!/\b(?:mansion|house|interior)\b/i.test(item.title);
    const openAir=NPS_OPEN_AIR.test(venue+' '+item.title)&&!NPS_INDOOR_POINT.test(venue)?
-    'NPS program held at an open-air memorial or national cemetery':'';
+    'NPS program held at an open-air memorial or national cemetery':farmFort?'NPS program at a historic farm, fort or battlefield':'';
    const candidate=round2Candidate(source,{title:item.title,categoryEvidence:openAir,...(place||{}),
     url:'https://www.nps.gov/planyourvisit/event-details.htm?id='+encodeURIComponent(item.id),
     venue,address:venue,activityLocation:venue,description,
@@ -5234,6 +5231,17 @@ async function adaptCollector(source,r){
   if(rec.source==='FindLocal'&&/^(?:Music Venue|Bar|Restaurant|Brewery & Winery|Performing Arts Center|Community Center|Place of Worship|University & College)$/.test(rec.venueType||'')&&
      !EXPLICIT_OUTDOOR.test((rec.title||'')+' '+(rec.description||''))&&!TM_OUTDOOR_VENUE.test(rec.venue||'')){
    bumpExtra(r,'FindLocal events at indoor venue types without outdoor wording',dates.length);continue}
+  // v60: where at the venue, when FindLocal says ("Location: Spanish Ballroom"
+  // at Glen Echo Park). A room, theater, gallery or studio is indoors.
+  const flLocation=rec.source==='FindLocal'?clean(rec.flLocation||''):'';
+  if(flLocation&&(FL_INDOOR_ROOM.test(flLocation)||BUILDING_WORDS.test(flLocation))&&!EXPLICIT_OUTDOOR.test(flLocation)){
+   bumpExtra(r,'FindLocal events in an indoor room at the venue',dates.length);continue}
+  // v60: a "Park & Outdoors" venue does not make a dance, show, art session or
+  // class outdoors (Glen Echo Park's ballroom and theaters): those need the
+  // listing, or its stated location, to place them outside.
+  if(rec.source==='FindLocal'&&rec.venueType==='Park & Outdoors'&&/^(?:workshop|talks|literary|art|theater|comedy|dance|music|nightlife)$/.test(rec.flCategory||'')&&
+     !EXPLICIT_OUTDOOR.test((rec.title||'')+' '+(rec.description||''))&&!(flLocation&&FL_OUTDOOR_SPOT.test(flLocation))){
+   bumpExtra(r,'FindLocal classes and shows at park venues without outdoor wording',dates.length);continue}
   const site={name:clean(rec.source)||'Daily collector',city:'',county:county||rec.siteCounty||'',state:st};
   // v24: FindLocal classifies venues ("Park & Outdoors") and events
   // ("outdoor_activity"); either counts as outdoor evidence, after the usual
@@ -5259,7 +5267,7 @@ async function adaptCollector(source,r){
    if(hit)recURL='https://www.nps.gov/planyourvisit/event-details.htm?id='+encodeURIComponent(hit.id);
   }
   out.push(admitPublisher(site,r,{title:rec.title,url:recURL,venue:rec.venue||'',address:rec.address||'',
-   activityLocation:rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
+   activityLocation:flLocation||rec.venue||'',city,county:county||rec.siteCounty||'',state:st,description:rec.description||'',
    categories:rec.categories||'',lat:rec.lat,lng:rec.lng,dates,time:/^\d\d:\d\d$/.test(rec.time||'')&&rec.time!=='00:00'?rec.time:'',
    endTime:/^\d\d:\d\d$/.test(rec.endTime||'')?rec.endTime:'',viaFindLocal:rec.source==='FindLocal',
    flLinkKind:rec.source==='FindLocal'?findLocalLinkKind(rec):'',
