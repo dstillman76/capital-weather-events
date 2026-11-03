@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-03T13:45:37.920Z",
+ "generatedAt": "2026-11-03T13:48:58.991Z",
  "window": {
   "start": "2026-11-03",
   "end": "2026-11-11"
@@ -11,7 +11,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 334,
-   "opened": 62,
+   "opened": 0,
    "cached": 321,
    "refused": 0,
    "errors": 0,
@@ -25,7 +25,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 290,
-   "opened": 38,
+   "opened": 0,
    "cached": 278,
    "refused": 0,
    "errors": 0,
@@ -39,7 +39,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 209,
-   "opened": 51,
+   "opened": 0,
    "cached": 200,
    "refused": 0,
    "errors": 0,
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 88,
-   "opened": 18,
+   "opened": 0,
    "cached": 88,
    "refused": 0,
    "errors": 0,
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 49,
-   "opened": 10,
+   "opened": 0,
    "cached": 28,
    "refused": 0,
    "errors": 0,
@@ -81,7 +81,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 257,
-   "opened": 28,
+   "opened": 0,
    "cached": 253,
    "refused": 0,
    "errors": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 165,
-   "opened": 134,
+   "opened": 11,
    "cached": 163,
    "refused": 0,
    "errors": 0,
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 70,
-   "opened": 3,
+   "opened": 0,
    "skippedLong": 10,
    "skippedInternal": 0,
    "inWindow": 27,
@@ -166,14 +166,14 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 9994,
-   "listings": 1240,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 720,
-   "skipped": 215,
-   "note": "3 call(s) used; 9994 left this month; next refresh in 1 day(s).",
-   "indoorVenue": 305
+   "skipped": 0,
+   "note": "Refreshed 2026-11-03; next refresh in 1 day(s) to stay within the monthly quota.",
+   "keptPrevious": 720
   }
  ],
  "count": 1557,
@@ -43423,7 +43423,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-03T13:46:27.717Z",
+  "generatedAt": "2026-11-03T13:49:25.174Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -43432,7 +43432,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 1611
+    "ms": 1242
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -43440,7 +43440,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 636
+    "ms": 323
    },
    "City of Rockville": {
     "ok": true,
@@ -43448,7 +43448,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1937
+    "ms": 154
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -43456,7 +43456,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 945
+    "ms": 484
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -43464,7 +43464,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 2794
+    "ms": 528
    },
    "Navy Yard BID": {
     "ok": true,
@@ -43472,7 +43472,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 798
+    "ms": 512
    },
    "DowntownDC BID": {
     "ok": true,
@@ -43480,7 +43480,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2424
+    "ms": 349
    },
    "Falls Church": {
     "ok": true,
@@ -43520,39 +43520,7 @@
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 883
-   },
-   "Mount Vernon Triangle CID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 3364
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 908
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 665
-   },
-   "Ticketmaster": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 4,
-    "outcome": "",
-    "error": "",
-    "ms": null
+    "ms": 943
    },
    "Visit Alexandria": {
     "ok": true,
@@ -43560,13 +43528,21 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 2633
+    "ms": 646
    },
-   "NPS Rock Creek Park": {
+   "Mount Vernon Triangle CID": {
     "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 17,
-    "outcome": "",
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 212
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
     "ms": 614
    },
@@ -43576,31 +43552,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 677
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 19,
-    "outcome": "",
-    "error": "",
-    "ms": 244
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 10,
-    "outcome": "",
-    "error": "",
-    "ms": 34288
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 1703
+    "ms": 584
    },
    "City of Takoma Park": {
     "ok": true,
@@ -43608,7 +43560,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 679
+    "ms": 590
    },
    "City of Greenbelt": {
     "ok": true,
@@ -43616,7 +43568,31 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1296
+    "ms": 548
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 17,
+    "outcome": "",
+    "error": "",
+    "ms": 603
+   },
+   "Ticketmaster": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 4,
+    "outcome": "",
+    "error": "",
+    "ms": null
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 19,
+    "outcome": "",
+    "error": "",
+    "ms": 215
    },
    "City of Bowie": {
     "ok": true,
@@ -43624,7 +43600,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1660
+    "ms": 798
    },
    "City of Hyattsville": {
     "ok": true,
@@ -43632,7 +43608,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 1476
+    "ms": 775
    },
    "Downtown Columbia": {
     "ok": true,
@@ -43640,23 +43616,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 935
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 4248
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 37,
-    "outcome": "",
-    "error": "",
-    "ms": 699
+    "ms": 105
    },
    "Visit Calvert": {
     "ok": true,
@@ -43664,7 +43624,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 919
+    "ms": 704
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -43672,7 +43632,47 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1435
+    "ms": 1555
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 10,
+    "outcome": "",
+    "error": "",
+    "ms": 3241
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 1306
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 464
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 374
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 37,
+    "outcome": "",
+    "error": "",
+    "ms": 540
    },
    "Town of Vienna": {
     "ok": true,
@@ -43680,7 +43680,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2520
+    "ms": 4266
    },
    "Town of Occoquan": {
     "ok": true,
@@ -43688,15 +43688,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 1551
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 2964
+    "ms": 395
    },
    "Town of Warrenton": {
     "ok": true,
@@ -43704,7 +43696,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 675
+    "ms": 669
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 2980
    },
    "Visit Stafford": {
     "ok": true,
@@ -43712,7 +43712,7 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 687
+    "ms": 448
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -43720,7 +43720,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 17480
+    "ms": 4865
    },
    "NOVA Parks": {
     "ok": true,
@@ -43728,7 +43728,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1450
+    "ms": 262
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -43736,7 +43736,15 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 40255
+    "ms": 3233
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1523
    },
    "DC HSEMA": {
     "ok": true,
@@ -43746,21 +43754,13 @@
     "error": "",
     "ms": null
    },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1281
-   },
    "City of College Park": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 668
+    "ms": 742
    },
    "City of Frederick": {
     "ok": true,
@@ -43768,7 +43768,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 570
+    "ms": 489
    },
    "City of Laurel": {
     "ok": true,
@@ -43776,7 +43776,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 513
+    "ms": 444
    },
    "Town of Purcellville": {
     "ok": true,
@@ -43784,7 +43784,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 500
+    "ms": 430
    },
    "National Landing BID": {
     "ok": true,
@@ -43792,7 +43792,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 8278
+    "ms": 9999
    },
    "City of Fairfax": {
     "ok": true,
@@ -43800,7 +43800,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3339
+    "ms": 3362
    },
    "Mosaic District": {
     "ok": true,
@@ -43808,7 +43808,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 19848
+    "ms": 152
    },
    "Union Market District": {
     "ok": true,
@@ -43816,7 +43816,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 18605
+    "ms": 517
    },
    "The Boro Tysons": {
     "ok": false,
@@ -43824,7 +43824,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 116
+    "ms": 91
    },
    "One Loudoun": {
     "ok": true,
@@ -43832,7 +43832,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 1294
+    "ms": 92
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -43840,7 +43840,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3149
+    "ms": 515
    }
   },
   "count": 134,
