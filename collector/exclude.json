@@ -1,6 +1,10 @@
 {
  "_note": "Events the site does not list. Each entry is an event title, matched exactly (ignoring capitalization, punctuation and extra spaces), whatever source lists it. Edit this file to add or remove one; no change to the Ghost card is needed.",
  "titles": [
-  "Pickleball at Metro Park"
- ]
+  "Pickleball at Metro Park",
+  "Secretaries' Cup Fan Fest"
+ ],
+ "_temporary": {
+  "Secretaries' Cup Fan Fest": "Added 2026-11-12: Ticketmaster still shows 1 p.m., but the game's kickoff is moving to later on Nov 14 for the Spirit semifinal. Remove once the new time is posted."
+ }
 }
