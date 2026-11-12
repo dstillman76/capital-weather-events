@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-11T15:49:59.912Z",
+ "generatedAt": "2026-11-12T02:37:36.054Z",
  "window": {
   "start": "2026-11-11",
   "end": "2026-11-19"
@@ -10,13 +10,13 @@
    "source": "Visit Fairfax",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 341,
-   "opened": 50,
-   "cached": 327,
+   "sitemapEvents": 340,
+   "opened": 37,
+   "cached": 328,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 102,
+   "inWindow": 103,
    "pending": 0,
    "note": ""
   },
@@ -25,7 +25,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 401,
-   "opened": 53,
+   "opened": 45,
    "cached": 389,
    "refused": 0,
    "errors": 0,
@@ -38,13 +38,13 @@
    "source": "Visit Frederick",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 187,
-   "opened": 26,
-   "cached": 178,
+   "sitemapEvents": 195,
+   "opened": 41,
+   "cached": 186,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 42,
+   "inWindow": 45,
    "pending": 0,
    "note": ""
   },
@@ -52,9 +52,9 @@
    "source": "Experience Prince George’s",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 88,
-   "opened": 14,
-   "cached": 88,
+   "sitemapEvents": 87,
+   "opened": 5,
+   "cached": 87,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -66,13 +66,13 @@
    "source": "Visit Howard County",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 51,
-   "opened": 5,
-   "cached": 30,
+   "sitemapEvents": 52,
+   "opened": 8,
+   "cached": 31,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 4,
+   "inWindow": 5,
    "pending": 0,
    "note": ""
   },
@@ -80,13 +80,13 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 217,
-   "opened": 21,
-   "cached": 212,
+   "sitemapEvents": 215,
+   "opened": 35,
+   "cached": 211,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 40,
+   "inWindow": 41,
    "pending": 0,
    "note": ""
   },
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 399,
-   "opened": 367,
+   "opened": 11,
    "cached": 397,
    "refused": 0,
    "errors": 0,
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 326,
-   "inWindow": 226,
+   "listings": 325,
+   "inWindow": 233,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -140,7 +140,7 @@
    "failed": [
     "Catholic University Athletics: fetch failed"
    ],
-   "inWindow": 6,
+   "inWindow": 7,
    "note": "Not read: Catholic University Athletics: fetch failed"
   },
   {
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 66,
-   "opened": 13,
+   "opened": 0,
    "skippedLong": 5,
    "skippedInternal": 1,
    "inWindow": 27,
@@ -160,27 +160,51 @@
    "status": "ok",
    "schools": 2,
    "failed": [],
-   "inWindow": 240,
+   "inWindow": 242,
    "note": ""
   },
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 9974,
-   "listings": 1326,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 736,
-   "skipped": 244,
-   "note": "3 call(s) used; 9974 left this month; next refresh in 1 day(s).",
-   "indoorVenue": 346
+   "skipped": 0,
+   "note": "Refreshed 2026-11-11; next refresh in 1 day(s) to stay within the monthly quota.",
+   "keptPrevious": 736
   }
  ],
- "count": 1689,
+ "count": 1705,
  "exclude": [
   "Pickleball at Metro Park"
  ],
  "events": [
+  {
+   "source": "Navy Athletics",
+   "siteCounty": "",
+   "title": "[T] Naval Academy Women's Soccer vs. Loyola",
+   "url": "https://navysports.com/calendar.aspx?game_id=28546&sport_id=24",
+   "dates": [
+    "2026-11-11"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "Navy campus",
+   "address": "",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Navy home soccer game. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
+  },
   {
    "source": "Montgomery Parks",
    "siteCounty": "Montgomery County",
@@ -1373,6 +1397,30 @@
    "categories": "Beer",
    "recurrence": "Recurring weekly on Wednesday",
    "admission": ""
+  },
+  {
+   "source": "Maryland Athletics",
+   "siteCounty": "",
+   "title": "Field Hockey: Fairfield vs. Wagner (at [N] Maryland)",
+   "url": "https://umterps.com/calendar.aspx?game_id=22695&sport_id=2",
+   "dates": [
+    "2026-11-11"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Field Hockey & Lacrosse Complex",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Maryland home field hockey game at Field Hockey & Lacrosse Complex. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home field hockey game, an outdoor sport"
   },
   {
    "source": "George Washington University",
@@ -2773,30 +2821,6 @@
    "admission": ""
   },
   {
-   "source": "Maryland Athletics",
-   "siteCounty": "",
-   "title": "Maryland Field Hockey vs. Fairfield vs. Wagner",
-   "url": "https://umterps.com/calendar.aspx?game_id=22695&sport_id=2",
-   "dates": [
-    "2026-11-11"
-   ],
-   "dateKind": "single",
-   "time": "14:00",
-   "endTime": "",
-   "venue": "Field Hockey & Lacrosse Complex",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Maryland home field hockey game at Field Hockey & Lacrosse Complex. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home field hockey game, an outdoor sport"
-  },
-  {
    "source": "University of Maryland",
    "siteCounty": "Prince George’s County",
    "title": "Maryland Volleyball vs Penn State",
@@ -3141,30 +3165,6 @@
    "categories": "Naval Academy",
    "recurrence": "",
    "admission": "$25 for General; $40 for Reserved"
-  },
-  {
-   "source": "Navy Athletics",
-   "siteCounty": "",
-   "title": "Navy Women's Soccer vs. Loyola",
-   "url": "https://navysports.com/calendar.aspx?game_id=28546&sport_id=24",
-   "dates": [
-    "2026-11-11"
-   ],
-   "dateKind": "single",
-   "time": "12:00",
-   "endTime": "",
-   "venue": "Navy campus",
-   "address": "",
-   "city": "Annapolis",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Navy home soccer game. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "Howard University",
@@ -3688,7 +3688,7 @@
    "state": "VA",
    "lat": 38.8631694371,
    "lng": -77.3591995239,
-   "description": "🎅 SANTA IS COMING TO FAIR OAKS MALL STARTING FRIDAY, NOVEMBER 6, 2026 AT 11:00AM! 🎅 Below are our 2026 Santa Hours, Holiday Events, and Special Holiday Hours starting November 6 – December 24 Capture the joy of the season with professional Santa photos for all ages. Whether you are continuing a cherished tradition or starting a new one, guests can visit Santa in his festive set at Center Court for heartwarming photos and unforgettable holiday memories. Reserve Your Spot Today - CLICK HERE! 📸 Reservations Recommended Skip the line and book your photo session in advance at WhereIsSanta.com! Early booking helps secure your ideal date and time. Walk-ups are also welcome during all operating hours! 🎅 Santa Visiting Hours Please note Santa is on a daily cookies and milk break from 3:00PM - 4:00PM 🍪🥛✨ Mondays - Fridays: November 6 - December 4: 11AM – 7PM December 7 - December 11: 11AM – 8PM December 14 - December 23: 9AM - 8PM PLEASE NOTE: Thursday, November 26, 2026 – Thanksgiving - MALL CLOSED Friday, November 27, 2026 - Black Friday - 10AM - 7PM Thursday, December 24, 2026 – Christmas Eve - 9AM - 6PM Friday, December 25, 2026 - Christmas - MALL CLOSED Saturdays: 10 AM – 8 PM Sundays: November 8 – November 22: 11 AM – 7 PM November 29 – December 20: 11 AM – 8 PM 🎄 Special Holiday Mall Hours: Thursday, November 26, 2026 – Thanksgiving - MALL CLOSED Friday, November 27, 2026 - Black Friday - 10AM - 7PM Monday, December 14 – Saturday, December 19 - 9AM – 9PM Sunday, December 20 - 10AM – 8PM Monday, December 21 – Wednesday, December 23 - 9AM – 9PM Thursday, December 24 – Christmas Eve - 9AM – 6PM Friday, December 25, 2026 - Christmas - MALL CLOSED Come & Enjoy! 🎅",
+   "description": "🎅 SANTA IS COMING TO FAIR OAKS MALL STARTING FRIDAY, NOVEMBER 6, 2026 AT 11:00AM! 🎅 Below are our 2026 Santa Hours, Holiday Events, and Special Holiday Hours starting November 6 – December 24 Capture the joy of the season with professional Santa photos for all ages. Whether you are continuing a cherished tradition or starting a new one, guests can visit Santa in his festive set at Center Court for heartwarming photos and unforgettable holiday memories. Reserve Your Spot Today - CLICK HERE! 📸 Reservations Recommended Skip the line and book your photo session in advance at WhereIsSanta.com! Early booking helps secure your ideal date and time. Walk-ups are also welcome during all operating hours! 🎅 Santa Visiting Hours Please note Santa is on a daily cookies and milk break from 3:00PM - 4:00PM 🍪🥛✨ Mondays - Fridays: November 6 - December 4: 11AM – 7PM December 7 - December 11: 11AM – 8PM December 14 - December 23: 9AM - 8PM PLEASE NOTE: Thursday, November 26, 2026 – Thanksgiving - MALL CLOSED Friday, November 27, 2026 - Black Friday - 10AM - 7PM Thursday, December 24, 2026 – Christmas Eve - 9AM - 6PM Friday, December 25, 2026 - Christmas - MALL CLOSED Saturdays: 10 AM – 8 PM Sundays: November 8 – November 22: 11 AM – 7 PM November 29 – December 20: 11 AM – 8 PM ✨ Special Holiday Events Santa Is Coming to Town - November 6 at 11AM !!! Pet Photo Night – Every Monday November 9 - November 30: 4PM – 7 PM December 7 and December 14: 4PM – 8PM Storytime with Santa - Wednesday, November 11: 11:30AM - 12PM Saturday, November 21: 4PM - 4:30PM Tuesday, December 1: 1PM - 1:30PM Saturday, December 12: 5PM - 5:30PM Holiday Market - November 14: 10 AM–8 PM Santa Arrival - November 14: 5PM – 9 PM Sensory Santa - December 6: 9:30AM - 10:30AM 🎄 Special Holiday Mall Hours: Thursday, November 26, 2026 – Thanksgiving - MALL CLOSED Friday, November 27, 2026 - Black Friday - 10AM - 7PM Monday, December 14 – Saturday, December 19 - 9AM – 9PM Sunday, December 20 - 10AM – 8PM Monday, De",
    "categories": "Family Friendly, Seasonal & Holidays, Braddock District",
    "recurrence": "Recurring daily",
    "admission": ""
@@ -3895,6 +3895,28 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Songwriter Sesh LIVE",
+   "url": "https://www.visitfrederick.org/event/songwriter-sesh-live/25850/",
+   "dates": [
+    "2026-11-11"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "21:00",
+   "venue": "Sandbox Brewhouse",
+   "address": "880 N. East St. #201, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4248026,
+   "lng": -77.4028387,
+   "description": "Local musician and podcaster Ken Demith is bringing his Songwriter Sesh podcast to our stage for a LIVE monthly performance featuring a different special guest for each installment! Join us on the second Wednesday of the month to listen to two incredible musicians swapping tunes and chatting about the creative process behind their songs. Additionally, if you are a musician who would like to participate, we welcome you to our stage as a Sideman Sit-in! Just reach out to Ken prior to the next Songwriter Sesh to express your interest in sitting in with the artists. 11/11 Special Guest: Juliet Lloyd",
+   "categories": "Wineries, Breweries, Distilleries, Live Music, Downtown Frederick, Events, Free",
+   "recurrence": "",
+   "admission": "Free"
   },
   {
    "source": "FindLocal",
@@ -7426,6 +7448,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Heirloom -Silver & Brass Restoration Services: THURSDAYS 10-4",
+   "url": "https://patch.com/virginia/mclean/calendar/event/20261112/74587748-f0b6-4322-9da1-aa084b87cdf5/heirloom-silver-brass-restoration-services-thursdays-10-4",
+   "dates": [
+    "2026-11-12"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "6830;Elm Street Suite 9 McLean VA 22101",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": null,
+   "lng": null,
+   "description": "Bel-Air House of Silver Now Open in McLean, Virginia! Thursdays 10-4 Bel-Air House of Silver 6830 Elm St. Suite 9 McLean VA 22101 (703)691-4190 (866)657-9318 Polishing • Plating • Repair Silver • Brass • Copper • Pewter Do you have an heirloom that is blackened with years of tarnish or in need of repair? The Silversmiths at Bel-Air House of Silver can restore your silver and brass heirlooms with expertise and love. They provide restoration for tea sets, flatware, hollow ware, trays, candelabras, tortoise shell combs, boar brushes, hand mirrors, lamps, chandeliers, trophies, hardware, tabletops, fireplace tools... and much much more. *** Bel-Air House of Silver is based out of Charlottesville, Virginia and their Silver Restoration Experts come to McLean, Virginia on THURSDAYS to provide services for the area. http://www.belairhouseofsilver. com",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Hidden in Plain Sight",
@@ -9465,6 +9509,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Annapolis",
+   "siteCounty": "Anne Arundel County",
+   "title": "Sip & Shop: An Annapolis Holiday Preview",
+   "url": "https://www.visitannapolis.org/event/sip-%26-shop%3a-an-annapolis-holiday-preview/18633/",
+   "dates": [
+    "2026-11-12"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "21:00",
+   "venue": "Historic Downtown Annapolis, Main Street",
+   "address": "155 Main St, Annapolis, MD 21401",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9775648,
+   "lng": -76.4896291,
+   "description": "Kick off the holiday shopping season in Historic Downtown Annapolis! On Thursday, November 12 from 5 to 9 PM, participating Main Street merchants will welcome guests with seasonal sips and snacks, staff-picked holiday gift favorites and a few surprises along the way. Pick up a Loyal to Local Holiday Passport at any participating shop or print one at home, collect stamps from three participating stores and enter our holiday gift drawing. No purchase is necessary to enter. Participating shops: 3 Sisters, Brightside Boutique, Capital Comics, Hobo Bags, Local Coast, Lucky Knot / Lucky Knot Men, Sea Dog Pet Boutique, Seasons Olive Oil Tap Room, The Cottage, The Spice & Tea Exchange and Woodcraft Artisans. Shop hours vary and some stores close at 6 or 7 PM, so start early to see them all!",
+   "categories": "Shopping",
+   "recurrence": "",
+   "admission": "Free"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "STONE TOWER STUDIO",
@@ -10011,6 +10077,28 @@
    "lng": -77.1515154,
    "description": "Join Peerless Rockville as we mark Maryland Emancipation Day and Veterans Day with psychiatrist and author Dr. Stephen A. Goldman. In this presentation, he will discuss the 1864 Maryland Constitutional Election that emancipated enslaved Marylanders, the only state in the Union to end slavery through the state consititution. The soldiers’ vote in Maryland would greatly determine the state’s future, and their overwhelming support for slavery’s abolition exemplified how the war radicalized so many white servicemen throughout the Union. Of all the states involved in the Civil War, Maryland epitomized its harsh “brother against brother” reality, and the complicated prewar circumstances of slavery and freedom. While a border slave state, Maryland remained in the Union, and contributed 63,000 soldiers, sailors, and marines to its war effort, including ten thousand African Americans. By 1864, the state had reached a crossroads that the entire nation was confronting – a Civil War that had turned savage, whether Abraham Lincoln would be re-elected, and what would be the fate of four million human beings held in bondage. On November 1, 1864, the Maryland electorate voted to end slavery in the state. ABOUT THE SPEAKER Stephen A. Goldman, M.D. is a Distinguished Life Fellow of the American Psychiatric Association, war historian, and the only physician to serve on the Abraham Lincoln Institute Board of Directors. His having treated and worked with those who have been in combat, in-depth st",
    "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "The Trojan Women available for Purchase, Local Award Winning Play Publishes",
+   "url": "https://patch.com/virginia/burke/calendar/event/20261112/a5af9d15-059c-4ee7-a7a5-9d8c1e1ad349/the-trojan-women-available-for-purchase-local-award-winning-play-publishes",
+   "dates": [
+    "2026-11-12"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": null,
+   "lng": null,
+   "description": "Crexton Publishers is pleased to announce the publication of Jessie Holder Tourtellotte's new stage adaptation of The Trojan Women . The script revisits Euripides' ancient tragedy through an expanded cast and driving plot, while retaining and honoring the poetic text and the conventions of Greek Tragedy. New choral chant, original music, movement storytelling opportunities, and extended dialogue scenes draw in audiences and create a powerful theatrical experience. Written by a playwright local to the DC area, the play’s world premiere in 2025 at the Lake Braddock Theatre won Best Play at the Cappies of the National Capital Area. Set on the beach outside fallen Troy, the narrative follows surviving royal women as Greek soldiers patrol their prison encampment. Queen Hecuba, the prophetess Cassandra, Helen of Sparta or of Troy, and the widowed princess Andromache await their fates alongside the myriad huddled women of the decimated city. Holder Tourtellotte’s development process utilized text from Gilbert Murray's rhyming verse translation, expanding classical references into full onstage confrontations between the captives and Greek leaders Agamemnon, Menelaus and Odysseus. The script adds focus to the moral burden placed on lower-ranking soldiers who execute wartime commands, showing how personal choices accelerate destruction. Production notes call on artists to use specific visual elements to connect the ancient tales with modern day warfare across the centuries. Drawing on ",
+   "categories": "free",
    "recurrence": "",
    "admission": ""
   },
@@ -12640,6 +12728,30 @@
    "outdoorHint": ""
   },
   {
+   "source": "Maryland Athletics",
+   "siteCounty": "",
+   "title": "Field Hockey: Duke vs. Iowa (at Maryland)",
+   "url": "https://umterps.com/calendar.aspx?game_id=22696&sport_id=2",
+   "dates": [
+    "2026-11-13"
+   ],
+   "dateKind": "single",
+   "time": "14:30",
+   "endTime": "",
+   "venue": "Field Hockey & Lacrosse Complex",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Maryland home field hockey game at Field Hockey & Lacrosse Complex. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home field hockey game, an outdoor sport"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Field Work Fridays",
@@ -14349,31 +14461,7 @@
   {
    "source": "Maryland Athletics",
    "siteCounty": "",
-   "title": "Maryland Field Hockey vs. Duke vs. Iowa",
-   "url": "https://umterps.com/calendar.aspx?game_id=22696&sport_id=2",
-   "dates": [
-    "2026-11-13"
-   ],
-   "dateKind": "single",
-   "time": "14:30",
-   "endTime": "",
-   "venue": "Field Hockey & Lacrosse Complex",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Maryland home field hockey game at Field Hockey & Lacrosse Complex. Outdoor venue; check the team's site for weather updates.",
-   "categories": "sports",
-   "recurrence": "",
-   "admission": "",
-   "athletics": true,
-   "outdoorHint": "a home field hockey game, an outdoor sport"
-  },
-  {
-   "source": "Maryland Athletics",
-   "siteCounty": "",
-   "title": "Maryland Field Hockey vs. Fairfield or Wagner",
+   "title": "Maryland Field Hockey vs. Wagner",
    "url": "https://umterps.com/calendar.aspx?game_id=22694&sport_id=2",
    "dates": [
     "2026-11-13"
@@ -16659,6 +16747,28 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "\"Lasting Impressions\" - Artist Talk & Opening Reception: New Work by Pamela Betts and Holly Buehler",
+   "url": "https://www.visitfrederick.org/event/lasting-impressions-artist-talk-%26-opening-reception%3a-new-work-by-pamela-betts-and-holly-buehler/26376/",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "17:00",
+   "venue": "Lockhouse Gallery",
+   "address": "17 W. Potomac St., Brunswick, MD 21716",
+   "city": "Brunswick",
+   "state": "MD",
+   "lat": 39.3131584,
+   "lng": -77.6275706,
+   "description": "Saturday, November 14th, 3- 5 p.m. Casual Event. Light food, wine, and beverages will be served. This will be a fantastic artist talk! Come see their new work. It is wonderful!! Pamela Betts and Holly Buehler are nationally recognized plein air painters known for creating vibrant, light-filled landscapes. Both artists specialize in capturing fleeting moments in nature and share a strong commitment to traditional outdoor painting. Betts brings a luminous Impressionist approach to her work, using expressive brushwork to capture light and atmosphere. Her harmonious color palettes evoke the distinct feel of different times of day, from crisp mornings to glowing dusk. Buehler focuses on strong composition and vivid color, highlighting the patterns and forms found in nature. Her bold brushstrokes balance the quick spontaneity of outdoor painting with an impactful sense of place and design. Both artists are regular fixtures on the plein air circuit, earning spots in prestigious regional juried competitions and exhibiting alongside other leading outdoor painters. Their ability to work quickly in changing weather conditions has brought them Quick Draw honors and local festival awards. Regional galleries and private collectors feature their pieces, where buyers appreciate the authentic connection to each location. Light food, wine, and beverages will be served. We look forward to seeing you there! - Kim (Lockhouse Gallery)",
+   "categories": "Arts - Visual, Events, Free",
+   "recurrence": "",
+   "admission": "Free"
   },
   {
    "source": "FindLocal",
@@ -19526,28 +19636,6 @@
    "admission": "At the Door = $20 general admission; kids under 12 free"
   },
   {
-   "source": "Patch",
-   "siteCounty": "Loudoun County",
-   "title": "DMV Chocolate and Coffee Festival ~ Virginia Edition",
-   "url": "https://patch.com/virginia/sterling-va/calendar/event/20261114/aa26f2d8-b9b9-433b-9b5d-41414437a15e/dmv-chocolate-and-coffee-festival-virginia-edition",
-   "dates": [
-    "2026-11-14"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "",
-   "venue": "Dulles Town Center",
-   "address": "21100 Dulles Town Cir",
-   "city": "Sterling",
-   "state": "VA",
-   "lat": 39.032372,
-   "lng": -77.42393849999999,
-   "description": "NOVEMBER 14 from 10am-5pm VIP Ticket Holders have a special shopping hour from 9am-10am Come take a journey with your senses. Sip coffees from around the world, brought to you by local vendors. Taste chocolates of every form for every palate, handcrafted by caring artisans. Explore other unique vendors with products like teas, soaps, candles, gifts, and art! Enjoy time with your friends and family as you sample from the many vendors, learn from the experts, and shop for something nice to share later. Smile for an instagram shot, get your kids involved in the activities, and make it a family weekend to remember as we come together to support local businesses! 200+ Vendors to meet! Classes & Presentations Free mascot photo opportunities Gourmet Coffee Baristas Sampling experiences provided by select vendors Kids Coffee Filter Craft Table Prize drawings for food drive supporters Demonstrations & More!",
-   "categories": "paid",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Drawing Workshop - Dried Botanicals",
@@ -19780,28 +19868,6 @@
    "categories": "Musical Performances",
    "recurrence": "",
    "admission": ""
-  },
-  {
-   "source": "Visit Fairfax",
-   "siteCounty": "Fairfax County",
-   "title": "Fair Oaks Holiday Market",
-   "url": "https://www.fxva.com/event/fair-oaks-holiday-market/48198/",
-   "dates": [
-    "2026-11-14"
-   ],
-   "dateKind": "single",
-   "time": "10:00",
-   "endTime": "20:00",
-   "venue": "Fair Oaks Mall",
-   "address": "11750 Fair Oaks Mall, VA 22033",
-   "city": "",
-   "state": "VA",
-   "lat": 38.8623327,
-   "lng": -77.3583084,
-   "description": "Fair Oaks Mall presents Santa's Arrival & Holiday Artisan Market on Saturday, November 14th, 2026. The Holiday Artisan Market runs from 10:00 a.m. to 8:00 p.m., while Santa's Arrival Event takes place from 5:00 p.m. to 9:00 p.m. at Center Court and throughout the mall in Fairfax, Fairfax County, Virginia. This magical festive celebration brings together the community for holiday cheer, shopping, and seasonal spirit. Explore local artisan booths featuring handmade crafts, seasonal gifts, and festive décor—perfect for holiday shoppers searching for unique presents and festive home décor. Join families and friends as Santa makes his grand entrance with music, lights, and joy throughout the mall. The event features live entertainment and activities including holiday performances, giveaways, and fun for all ages, creating a joyful atmosphere for the entire community to kick off the holiday season together. Santa's Arrival & Holiday Artisan Market combines holiday magic, local artisanship, community gathering, and seasonal celebration in Fairfax County, Virginia. Interested in becoming a vendor or sponsor? Reserve your spot at https://www.kojamevents.com/ . Discover More Attractions in #FXVA",
-   "categories": "Family Friendly, Seasonal & Holidays, Food and Drink, Free, Live Music/Concerts, Performing Arts/Theater/Film, Spotlight Events, Springfield District",
-   "recurrence": "",
-   "admission": "Free!"
   },
   {
    "source": "FindLocal",
@@ -24085,6 +24151,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Patch",
+   "siteCounty": "Howard County",
+   "title": "Open House",
+   "url": "https://patch.com/maryland/columbia/calendar/event/20261114/ce30f36f-6684-44fc-8197-a1b42a6beb62/open-house",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "",
+   "address": "4307 Miami Pl",
+   "city": "Baltimore",
+   "state": "MD",
+   "lat": 39.323772,
+   "lng": -76.6936349,
+   "description": "Open House on Saturday, November 14, 2026 12pm-2pm",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "Open Studio: Guided Stone Carving",
@@ -25393,6 +25481,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "Santa's Arrival & Holiday Market at Fair Oaks Mall",
+   "url": "https://www.fxva.com/event/santas-arrival-%26-holiday-market-at-fair-oaks-mall/48198/",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "20:00",
+   "venue": "Fair Oaks Mall",
+   "address": "11750 Fair Oaks Mall, VA 22033",
+   "city": "",
+   "state": "VA",
+   "lat": 38.8623327,
+   "lng": -77.3583084,
+   "description": "Fair Oaks Mall presents Santa's Arrival & Holiday Artisan Market on Saturday, November 14th, 2026. The Holiday Artisan Market runs from 10:00 a.m. to 8:00 p.m., while Santa's Arrival Event takes place from 5:00 p.m. to 9:00 p.m. at Center Court and throughout the mall in Fairfax, Fairfax County, Virginia. This magical festive celebration brings together the community for holiday cheer, shopping, and seasonal spirit. Explore local artisan booths featuring handmade crafts, seasonal gifts, and festive décor—perfect for holiday shoppers searching for unique presents and festive home décor. Join families and friends as Santa makes his grand entrance with music, lights, and joy throughout the mall. The event features live entertainment and activities including holiday performances, giveaways, and fun for all ages, creating a joyful atmosphere for the entire community to kick off the holiday season together. Santa's Arrival & Holiday Artisan Market combines holiday magic, local artisanship, community gathering, and seasonal celebration in Fairfax County, Virginia. Interested in becoming a vendor or sponsor? Reserve your spot at https://www.kojamevents.com/ . Discover More Attractions in #FXVA",
+   "categories": "Family Friendly, Seasonal & Holidays, Food and Drink, Free, Live Music/Concerts, Performing Arts/Theater/Film, Spotlight Events, Springfield District",
+   "recurrence": "",
+   "admission": "Free!"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Saturday Farmers Market",
@@ -26161,6 +26271,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Fairfax",
+   "siteCounty": "Fairfax County",
+   "title": "StoryWorx Book Festival",
+   "url": "https://www.fxva.com/event/storyworx-book-festival/48278/",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "",
+   "endTime": "",
+   "venue": "Workhouse Arts Center",
+   "address": "9518 Workhouse Way, Lorton, VA 22079",
+   "city": "Lorton",
+   "state": "VA",
+   "lat": 38.6983738,
+   "lng": -77.2541653,
+   "description": "For the first time in its history, the Workhouse Arts Center is hosting a book festival. StoryWorx, a free meet-the-authors celebration, will take place as part of Second Saturday on Saturday, November 14, 2026, from 11:00 a.m. to 5:00 p.m. The headline draw is a rare opportunity to meet and hear from an impressive lineup of local and national authors, including Angie Kim, the New York Times bestselling author of Happiness Falls and Miracle Creek; Ken Harvey, former NFL Pro Bowler and author of Stepping Stones and The Me That Needs to Be; Wisdom Martin, multiple Emmy Award-winning journalist and author of Pass Interference: The History of the Black Quarterback in the NFL; Marcie Flinchum Atkins, author of the YA historical fiction novel-in-verse One Step Forward and multiple award-winning nonfiction books for children. Marcie will participate in a live podcast recording with Upstart Crow. Omar Abed, award-winning Palestinian-American children’s author of The Book That Almost Rhymed, and Ellen R. B. Smith, author of the humorous memoir Memoirs of a Suburban Troublemaker. A highlight of the day will be the first-ever live script reading of Xavier: A Hero No More, Ken Harvey’s suspense thriller about a retired NFL All-Pro accused of a fatal crash he can’t remember. From 2:00 to 3:00 p.m., Ken will read the title role alongside local actors, bringing the first episode of this television-in-development story to life in an engaging, audience-interactive performance. “Ken’s dramatic reading is going to be a unique and fun element that you won’t want to miss,” said Carla Welborn, Director of Marketing and Communications at the Workhouse Arts Center. “This entire festival is about connecting the community with the artists behind the work. This year, we’re extending that spirit to the literary world for the first time. We want people to walk away having met an author, discovered a new book, taken a class, and maybe even found their new favorite local maker.” Throughout the da",
+   "categories": "Family Friendly, Free, Mount Vernon District",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -30778,6 +30910,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Knine Rescue Adoption Event",
+   "url": "https://www.visitfrederick.org/event/knine-rescue-adoption-event/25849/",
+   "dates": [
+    "2026-11-15"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "15:00",
+   "venue": "Sandbox Brewhouse",
+   "address": "880 N. East St. #201, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4248026,
+   "lng": -77.4028387,
+   "description": "Dogs? Beer? What better way to spend your Sunday afternoon! Knine Rescue is a non-profit 501(3)c organization dedicated to animal care and protection through helping shelters find forever homes for their rescues. Learn more here . Meet the pups in our taproom - Knine Rescue will be bringing adorable puppies and lovable adult dogs, ready to be your new best friend! Get pre-approved for adoption here .",
+   "categories": "Wineries, Breweries, Distilleries, Downtown Frederick, Events, Family Friendly, Free, Shopping",
+   "recurrence": "",
+   "admission": "Free"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Korean War Veterans Memorial",
@@ -31299,7 +31453,7 @@
   {
    "source": "Maryland Athletics",
    "siteCounty": "",
-   "title": "Maryland Field Hockey vs. Quarterfinal Game",
+   "title": "Maryland Field Hockey: Quarterfinal game, opponent to be determined",
    "url": "https://umterps.com/calendar.aspx?game_id=22697&sport_id=2",
    "dates": [
     "2026-11-15"
@@ -31619,6 +31773,30 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Navy Athletics",
+   "siteCounty": "",
+   "title": "Navy Women's Soccer vs. Boston University",
+   "url": "https://navysports.com/calendar.aspx?game_id=27904&sport_id=24",
+   "dates": [
+    "2026-11-15"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "",
+   "venue": "Navy campus",
+   "address": "",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Navy home soccer game. Outdoor venue; check the team's site for weather updates.",
+   "categories": "sports",
+   "recurrence": "",
+   "admission": "",
+   "athletics": true,
+   "outdoorHint": "a home soccer game, an outdoor sport"
   },
   {
    "source": "Howard University",
@@ -31987,6 +32165,28 @@
    "categories": "Family Friendly, Food and Drink",
    "recurrence": "Recurring weekly on Sunday, Monday",
    "admission": "$25 per child"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "Pleasure Focused Workshop for Transfems",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261115/059f905d-ec83-4f45-b16e-ddf880f16543/pleasure-focused-workshop-for-transfems",
+   "dates": [
+    "2026-11-15"
+   ],
+   "dateKind": "single",
+   "time": "19:30",
+   "endTime": "",
+   "venue": "Lotus Blooms Events @ Ms. Moxie's Moon Shop, 102 N Fayette St, Alexandria, VA, 22314",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": null,
+   "lng": null,
+   "description": "Lotus Blooms is an education focused adult boutique in Old Town Alexandria offering education and resources for every phase of life. From new relationships to new parenthood, menopause, chronic illness, coming-out, and everything in-between and beyond. We offer educational workshops for adults for many phases of life. Think- the adult version of Family Life Education, but with a little more fun, and a lot less shame & STI discussion! This is an educational workshop geared towards trans women, transfeminine people, and their partners. This class welcomes you at any stage and path of transition. The workshop will be an affirming deep dove into exploring pleasure in the most affirming ways. The content of the class will: - cover anatomy at various stages and types of transition - normalize common concerns that come up during intimate play - explore practical tips - show off toys, tools, and aids What to expect from this workshop: This is an educational and experiential class, but it is not a sexual class. The focus of the content will be on learning about how to use products in affirming ways for anatomy you're working with. Conversations will focus on framing pleasure, techniques, props, and toys in enjoyable and affirming ways. Participants will be able to opt in and out of any exercises or offerings. The Fine Print: Lotus Blooms’ workshops are open to people of all genders and sexual orientations, individuals, couples, or groups. Due to state law, attendees must be over 18 to",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "George Washington University",
@@ -35831,6 +36031,28 @@
    "admission": ""
   },
   {
+   "source": "George Washington University",
+   "siteCounty": "",
+   "title": "The Future of the Americas: Civil Society, Youth Leadership, and Hemispheric Dialogue",
+   "url": "https://calendar.gwu.edu/event/the-future-of-the-americas-civil-society-youth-leadership-and-hemispheric-dialogue",
+   "dates": [
+    "2026-11-16"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "18:30",
+   "venue": "1957 E Street NW",
+   "address": "1957 E St NW, Washington DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.896188,
+   "lng": -77.044206,
+   "description": "Join us for an exclusive student dialogue with Her Excellency Ambassador Laura Gil, Assistant Secretary General of the Organization of American States (OAS). Hosted by LATAM@GW at the George Washington University, The Future of the Americas: Civil Society, Youth Leadership, and Hemispheric Dialogue will bring together students, young professionals, faculty, and members of the broader community for an engaging conversation on the future of the Americas. The Organization of American States (OAS) is the region's leading forum for political dialogue and cooperation, promoting democracy, human rights, security, and development across the hemisphere. As Assistant Secretary General, Ambassador Gil brings extensive diplomatic experience and a commitment to strengthening civil society engagement and inclusive participation. This special event offers an opportunity to hear directly from a senior leader of the inter-American system, explore the role of youth in shaping regional priorities, and engage in a meaningful discussion about the challenges and opportunities facing our hemisphere. Event Details Date: Monday, November 16, 2026 Time: 5:30–6:30 PM Doors Close: 5:15 PM Location: City View Room, Elliott School of International Affairs, The George Washington University Registration is open to students, faculty, young professionals, and members of the public. Please complete this form to RSVP and reserve your spot. Space is limited, and advance registration is strongly encouraged. We re",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Traditional Irish Music Session",
@@ -36422,28 +36644,6 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
-  },
-  {
-   "source": "George Washington University",
-   "siteCounty": "",
-   "title": "Book Launch: Transitional Shakespeare, Gender and Adaption",
-   "url": "https://calendar.gwu.edu/event/book-launch-transitional-shakespeare-gender-and-adaption",
-   "dates": [
-    "2026-11-17"
-   ],
-   "dateKind": "single",
-   "time": "16:00",
-   "endTime": "17:00",
-   "venue": "Duques Hall",
-   "address": "2201 G Street NW, Washington DC 20052",
-   "city": "Washington",
-   "state": "DC",
-   "lat": 38.899007,
-   "lng": -77.049161,
-   "description": "Join us for a book launch celebrating Professor of English Alexa Alice Joubin's new book, Transitional Shakespeare, Gender, and Adaption. About the Book The cross-gender role is a staple of Shakespeare’s plays, and drama is a transitional art. Gender is made flesh and brought into being by actors’ embodiment. Similarly, adaptations also operate transitionally. Some adaptations translate narratives into hospitable forms of expression. Other adaptations function as minor uses of established genres and gender categories. In Transitional Shakespeare, Gender, and Adaption, Professor Alexa Alice Joubin, PhD, theorizes “transness” in a number of modes, including composite figures in drama that arise from the convergence of a character, their curated self-image, and actors’ performance; cultural translation; stagecraft onscreen; and drama as processes of social assemblage. Joubin close-reads a number of films, such as Stage Beauty (2004), As We Like It (Taiwan, 2001), The King and the Clown ( South Korea, 2005), She’s the Man (2006) and Shakespeare in Love (1998). RSVP online >> This event is co-sponsored by the Women's, Gender, and Sexuality Studies Program and the Department of English.",
-   "categories": "Academic, Lectures & Speakers",
-   "recurrence": "",
-   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -37631,6 +37831,28 @@
    "lng": -77.56778899999999,
    "description": "Learn the basics of needle felting to create a pumpkin. Supplies are limited and available on a first-come, first-served basis. For teens and adults.",
    "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Mean Mary on stage at Amphora - Tuesday November 17th",
+   "url": "https://patch.com/virginia/reston/calendar/event/20261117/511883a1-8020-432b-8529-7b385bacccd2/mean-mary-on-stage-at-amphora-tuesday-november-17th",
+   "dates": [
+    "2026-11-17"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Amphora's Diner Deluxe",
+   "address": "1151 Elden St",
+   "city": "Herndon",
+   "state": "VA",
+   "lat": 38.9637234,
+   "lng": -77.3971565,
+   "description": "The Folk Club of Reston-Herndon welcomes YouTube sensation Mean Mary to the Amphora Diner Deluxe (1151 Elden St.) this coming Tuesday November 17th at 7:00 pm. Founded in 1985, the non-profit Folk Club has presented outstanding performers and offers a premier listening room experience for musicians and audience members alike. Award-winning musician/writer and fan favorite (over 40 million views on her YouTube videos), Mean Mary literally grew up in music. She evolved from a child prodigy who played for tips on the streets of Nashville (startling talent,\" said The Tennessean) to a seasoned performer and headliner of over 4,000 concerts. Her latest album, Woman Creature (Portrait of a Woman, Part 2) , was named Country Music Peoples #1 Critics' Choice Album of 2024, and her recording of \"Wayfaring Stranger\" was recently featured in the feature film Hellfire. Deering Banjos named her their Goodtime Ambassador, and Janet Deering describes Mary's banjo playing as giving her \"chills.\" Equally versatile on guitar, fiddle, and eight other instruments. Mary is known internationally for her lightning-fast fingers, haunting vocals, and intricate story songs. As a high-energy performer who thrives on variety and a songwriter who chooses unusual subject matter - anything from ghost pirates to demon guitars could romp through a Mean Mary show. www.meanmary.com",
+   "categories": "paid",
    "recurrence": "",
    "admission": ""
   },
@@ -39074,6 +39296,28 @@
    "categories": "Sports",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "George Washington University",
+   "siteCounty": "",
+   "title": "2026 NWSL Awards Presented by AT&T",
+   "url": "https://calendar.gwu.edu/event/2026-nwsl-awards-presented-by-att",
+   "dates": [
+    "2026-11-18"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "",
+   "venue": "Lisner Auditorium",
+   "address": "730 21st Street NW, Washington DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.899308,
+   "lng": -77.047104,
+   "description": "See who will be named Most Valuable Player, Rookie of the Year, and more at the second annual NWSL Awards presented by AT&T. The show celebrates the season’s best performances with the biggest names in the NWSL, celebrities, and special guests. Plus, see who shows up on the Blue Carpet and in AT&T’s She’s Connected Lounge before taking the main stage! You never know who might show up glammed out before the big game. Awards to be presented include: Best XI presented by Amazon Prime Most Valuable Player presented by AT&T Rookie of the Year presented by Ally Goalkeeper of the Year presented by e.l.f. Defender of the Year Coach of the Year Midfielder of the Year Golden Boot Lauren Holiday Impact Award presented by Nationwide",
+   "categories": "Athletics",
+   "recurrence": "",
+   "admission": "$31.00+"
   },
   {
    "source": "FindLocal",
@@ -42523,6 +42767,32 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Howard County",
+   "siteCounty": "Howard County",
+   "title": "Wednesday Karaoke at Nottingham's Tavern",
+   "url": "https://www.visithowardcounty.com/event/wednesday-karaoke-at-nottinghams-tavern/23611/",
+   "dates": [
+    "2026-11-18"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-18",
+    "2027-06-30"
+   ],
+   "time": "21:30",
+   "endTime": "",
+   "venue": "Nottingham's Tavern",
+   "address": "8850 Stanford Blvd, Columbia, MD 21045",
+   "city": "Columbia",
+   "state": "MD",
+   "lat": 39.190448,
+   "lng": -76.81524089999999,
+   "description": "Karaoke with DJ Luna every Wednesday night at Nottingham's Tavern on Stanford Boulevard in Columbia, from 9:30 PM to 1:30 AM. Grab a drink and something from the kitchen, then sign up and take the mic. Weekly schedule and details: https://findkaraoke.net/columbia-md/venues/nottingham-s-tavern-2 More karaoke nights around Columbia: https://findkaraoke.net/columbia-md",
+   "categories": "Food & Drink, Music",
+   "recurrence": "Recurring weekly on Wednesday",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "WednesDEUS - Kitchen",
@@ -43011,6 +43281,28 @@
    "venueType": "Community Center",
    "flCategory": "talks",
    "outdoorHint": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "After Hours Salon: A Candy Speakeasy",
+   "url": "https://patch.com/virginia/fallschurch/calendar/event/20261119/1767c2f1-440d-4e8b-8a53-91151de5914e/after-hours-salon-a-candy-speakeasy",
+   "dates": [
+    "2026-11-19"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "48 Blocks Fine Candy",
+   "address": "7777 Leesburg Pike Service Rd",
+   "city": "Falls Church",
+   "state": "VA",
+   "lat": 38.9074106,
+   "lng": -77.2144381,
+   "description": "Join us for an intimate 21+ speakeasy-style salon exploring zero-proof mixology and guided flavor arbitrage pairings in our boutique candy manufacturing studio. Your Ticket Includes: Zero-Proof Cocktails: Featuring signature botanical extractions European-Inspired Charcuterie Table: Sweet and savory components with textural contrasts and accoutrement Guided Flavor Arbitrage: Curated small plates featuring signature flavor pairings presented by the Principal Curator Confection Tasting: Small batch marshmallows and fruit prisms grounded in adult flavors that are anything but vanilla... Candy was never meant to be child’s play...",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "George Washington University",
@@ -44081,6 +44373,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Found Objects, Found Family",
+   "url": "https://patch.com/virginia/leesburg/calendar/event/20261119/177f6a23-0216-4933-81e2-055e735e1aaf/found-objects-found-family",
+   "dates": [
+    "2026-11-19"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Studio 101 Retreat",
+   "address": "101 Masons Ln",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.0866943,
+   "lng": -77.5871215,
+   "description": "A trauma-informed space to explore family, belonging, and grief during the holidays. Participants create a mixed-media collage representing their \"found family\": the people, places, and communities that offer comfort and connection. You can get your tickets here: events.humanitix.com/found-objects-found-family-diorama?_gl=1*iv8fkm*_gcl_au*MTExNzI1NTc0LjE3OTM1NjAwMzQuMTQ0MTgzNzQ0NS4xNzkzNTYxMTg3LjE3OTM1NjExODYuMjEzNTAxMTczMC4xNzkzNTYwODg2LjE3OTM1NjExODY.*_ga*ODA3ODU1ODY4LjE3OTM1NjAwMzQ.*_ga_LHKW5FR9N6*czE3OTQ0NDY1NTMkbzQkZzEkdDE3OTQ0NDcxNTIkajU5JGwwJGgw",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "George Washington University",
    "siteCounty": "",
    "title": "Founders Program",
@@ -44540,6 +44854,28 @@
    "categories": "Culinary, Farm & Nature",
    "recurrence": "",
    "admission": "$99 per adult; $79 per child"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Montgomery County",
+   "title": "Holy Cross Hospital Walk With a Doc",
+   "url": "https://patch.com/maryland/silverspring/calendar/event/20261119/3dcdb708-6a90-4d15-9c10-5802a2f07920/holy-cross-hospital-walk-with-a-doc",
+   "dates": [
+    "2026-11-19"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "",
+   "venue": "Holy Cross Hospital",
+   "address": "1500 Forest Glen Rd",
+   "city": "Silver Spring",
+   "state": "MD",
+   "lat": 39.0146998,
+   "lng": -77.0350306,
+   "description": "Holy Cross Hospital invites community members to join local physicians for a free “Walk With a Doc” event focused on heart health. Participants will have the opportunity to walk alongside physicians, ask questions about cardiovascular wellness, and learn practical steps to improve their health in an informal, welcoming setting. The event is open to all ages and fitness levels.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Montgomery Parks",
@@ -46005,6 +46341,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "George Washington University",
+   "siteCounty": "",
+   "title": "The Importance of Climate Leadership and the Power of Public Action",
+   "url": "https://calendar.gwu.edu/event/the-importance-of-climate-leadership-and-the-power-of-public-action",
+   "dates": [
+    "2026-11-19"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "",
+   "venue": "Lisner Auditorium",
+   "address": "730 21st Street NW, Washington DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.899308,
+   "lng": -77.047104,
+   "description": "Al Gore and Rep. Maxwell Frost discuss climate, democracy, affordability and their hopes for the future. Twenty years ago, former Vice President Al Gore and The Climate Reality Project set out to turn everyday citizens into leaders. Today, we find ourselves posing the question: with a new Congress, will there be fresh opportunities for progress? This is an in-person event. No livestream will be available. Vice President Gore, who has spent decades pushing the climate crisis to the center of public debate, is joined by Congressman Maxwell Frost, a longtime organizer who brings the urgency of a new generation to Capitol Hill. Together, they’ll hold a cross-generational conversation on the road ahead: the policy priorities facing lawmakers, the payoffs clean energy is already delivering, and the ways an engaged citizenry and organizations like Climate Reality are standing up to the fossil fuel industry and turning ambition into change.",
+   "categories": "Lectures & Speakers",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "The Owners, Live Skull, Skull Practitioners",
@@ -46627,7 +46985,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-11T15:50:33.685Z",
+  "generatedAt": "2026-11-12T02:39:46.222Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -46636,7 +46994,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 947
+    "ms": 1360
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -46644,7 +47002,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 582
+    "ms": 705
    },
    "City of Rockville": {
     "ok": true,
@@ -46652,7 +47010,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1852
+    "ms": 2658
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -46660,7 +47018,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 565
+    "ms": 822
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -46668,15 +47026,15 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 1266
+    "ms": 922
    },
    "Navy Yard BID": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 284
+    "ms": 629
    },
    "DowntownDC BID": {
     "ok": true,
@@ -46684,7 +47042,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 259
+    "ms": 519
    },
    "Falls Church": {
     "ok": true,
@@ -46724,7 +47082,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2146
+    "ms": 3516
    },
    "Southwest BID": {
     "ok": true,
@@ -46732,15 +47090,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 466
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 522
+    "ms": 461
    },
    "NoMa BID": {
     "ok": false,
@@ -46748,7 +47098,7 @@
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 672
+    "ms": 985
    },
    "Ticketmaster": {
     "ok": true,
@@ -46758,13 +47108,21 @@
     "error": "",
     "ms": null
    },
+   "The Wharf": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 870
+   },
    "City of Takoma Park": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 591
+    "ms": 3250
    },
    "Visit Prince William": {
     "ok": true,
@@ -46772,15 +47130,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 819
-   },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 16,
-    "outcome": "",
-    "error": "",
-    "ms": 999
+    "ms": 962
    },
    "City of Greenbelt": {
     "ok": true,
@@ -46788,15 +47138,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 737
+    "ms": 485
    },
-   "NPS Rock Creek Park": {
+   "Visit Alexandria": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 15,
+    "events": 16,
     "outcome": "",
     "error": "",
-    "ms": 381
+    "ms": 863
    },
    "City of Bowie": {
     "ok": true,
@@ -46804,7 +47154,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 445
+    "ms": 1013
+   },
+   "NPS Rock Creek Park": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 15,
+    "outcome": "",
+    "error": "",
+    "ms": 362
    },
    "City of Hyattsville": {
     "ok": true,
@@ -46812,135 +47170,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 733
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 25,
-    "outcome": "",
-    "error": "",
-    "ms": 217
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 555
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 514
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 7,
-    "outcome": "",
-    "error": "",
-    "ms": 22040
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "ZERO — coverage not measured",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 3017
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 28942
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 515
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1326
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 49
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 476
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 511
-   },
-   "Visit Fredericksburg": {
-    "ok": true,
-    "status": "EVENTS FOUND — coverage incomplete",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 18380
-   },
-   "NOVA Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": 982
-   },
-   "Fairfax County Park Authority": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 4,
-    "outcome": "",
-    "error": "",
-    "ms": 16606
-   },
-   "City of Annapolis": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1090
-   },
-   "City of College Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 484
+    "ms": 833
    },
    "DC HSEMA": {
     "ok": true,
@@ -46950,21 +47180,61 @@
     "error": "",
     "ms": null
    },
-   "City of Frederick": {
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 25,
+    "outcome": "",
+    "error": "",
+    "ms": 178
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 7,
+    "outcome": "",
+    "error": "",
+    "ms": 117405
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "ZERO — coverage not measured",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 920
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 738
+   },
+   "Visit Calvert": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 596
+    "ms": 512
    },
-   "City of Laurel": {
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 907
+   },
+   "Visit St. Mary’s": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 297
+    "ms": 1856
    },
    "NPS DC-area parks": {
     "ok": true,
@@ -46972,23 +47242,15 @@
     "events": 34,
     "outcome": "",
     "error": "",
-    "ms": 417
+    "ms": 358
    },
-   "Town of Purcellville": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 814
-   },
-   "National Landing BID": {
+   "Town of Vienna": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 9400
+    "ms": 2057
    },
    "Georgetown BID": {
     "ok": true,
@@ -46996,7 +47258,103 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 7014
+    "ms": 7105
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 139
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 385
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 662
+   },
+   "Visit Fredericksburg": {
+    "ok": true,
+    "status": "EVENTS FOUND — coverage incomplete",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": 14065
+   },
+   "NOVA Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 801
+   },
+   "Fairfax County Park Authority": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 4,
+    "outcome": "",
+    "error": "",
+    "ms": 10680
+   },
+   "City of Annapolis": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 818
+   },
+   "City of College Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 491
+   },
+   "City of Frederick": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 567
+   },
+   "City of Laurel": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 314
+   },
+   "Town of Purcellville": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1476
+   },
+   "National Landing BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 9796
    },
    "City of Fairfax": {
     "ok": true,
@@ -47004,7 +47362,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 4338
+    "ms": 2889
    },
    "Mosaic District": {
     "ok": true,
@@ -47012,7 +47370,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1651
+    "ms": 1019
    },
    "Union Market District": {
     "ok": true,
@@ -47020,7 +47378,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 920
+    "ms": 942
    },
    "The Boro Tysons": {
     "ok": false,
@@ -47028,7 +47386,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 110
+    "ms": 112
    },
    "One Loudoun": {
     "ok": true,
@@ -47036,7 +47394,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 930
+    "ms": 2436
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -47044,10 +47402,10 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2817
+    "ms": 1617
    }
   },
-  "count": 139,
+  "count": 138,
   "events": [
    {
     "title": "Run for Valor 5K",
@@ -47276,31 +47634,6 @@
     "category": "nature"
    },
    {
-    "source": "City of Frederick",
-    "city": "Frederick",
-    "county": "Frederick County",
-    "state": "MD",
-    "categories": "",
-    "venue": "121 North Bentz Street, Frederick, MD 21701",
-    "address": "121 North Bentz Street, Frederick, MD 21701",
-    "description": "",
-    "time": "14:00",
-    "endTime": "15:00",
-    "lat": 39.4158537,
-    "lng": -77.4145326,
-    "title": "Get Outside! Senior Scapes",
-    "url": "https://www.cityoffrederickmd.gov/Calendar.aspx?EID=21938",
-    "activityLocation": "121 North Bentz Street, Frederick, MD 21701",
-    "dateEvidence": "Official CivicPlus calendar feed",
-    "outdoorEvidence": "The publisher’s title places the activity outdoors (Outside)",
-    "outdoorEvidenceURL": "https://www.cityoffrederickmd.gov/Calendar.aspx?EID=21938",
-    "date": "2026-11-11",
-    "id": "City of Frederick|https://www.cityoffrederickmd.gov/Calendar.aspx?EID=21938|2026-11-11",
-    "confidence": "Official CivicPlus calendar feed",
-    "category": "other",
-    "geocoded": "OpenStreetMap Nominatim"
-   },
-   {
     "source": "NPS National Mall",
     "city": "Washington",
     "county": "District of Columbia",
@@ -47379,30 +47712,6 @@
     "date": "2026-11-11",
     "id": "NPS National Mall|https://www.nps.gov/planyourvisit/event-details.htm?id=586E8317-DB16-E484-BFDD7E4E19C247A9|2026-11-11|15:00|korean war veterans memorial (meet the ranger inside the memorial)",
     "confidence": "NPS explicit occurrence and time slot",
-    "category": "nature"
-   },
-   {
-    "source": "NOVA Parks",
-    "city": "Vienna",
-    "county": "Fairfax County",
-    "state": "VA",
-    "categories": "",
-    "venue": "Meadowlark Botanical Gardens",
-    "address": "Meadowlark Botanical Gardens , Vienna, VA",
-    "description": "3-2-1-Lights! Help count down to the start of the 2026 season at Meadowlark's Winter Walk of Lights! Join NOVA Parks Executive Director Justin Wilson, Fairfax County Supervisors and partners from the Fairfax 250 Commission in a countdown to light...",
-    "time": "17:30",
-    "endTime": "18:30",
-    "lat": null,
-    "lng": null,
-    "title": "Winter Walk of Lights Opening",
-    "url": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/winter-walk-of-lights-opening",
-    "activityLocation": "Meadowlark Botanical Gardens",
-    "dateEvidence": "NOVA Parks event calendar",
-    "outdoorEvidence": "Scheduled walk at an outdoor public space (Meadowlark Botanical Gardens)",
-    "outdoorEvidenceURL": "https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/winter-walk-of-lights-opening",
-    "date": "2026-11-11",
-    "id": "NOVA Parks|https://www.novaparks.com/parks/meadowlark-botanical-gardens/events/winter-walk-of-lights-opening|2026-11-11",
-    "confidence": "NOVA Parks event calendar",
     "category": "nature"
    },
    {
@@ -48859,8 +49168,7 @@
     "outdoorEvidence": "Scheduled activity at a verified outdoor sports/performance venue",
     "outdoorEvidenceURL": "https://www.ticketmaster.com/secretaries-cup-fan-fest-washington-district-of-columbia-11-14-2026/event/150064E183AA318D",
     "confidence": "Ticketmaster schedule",
-    "category": "festival",
-    "alsoListedBy": []
+    "category": "festival"
    },
    {
     "source": "NOVA Parks",
@@ -49071,6 +49379,30 @@
     "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/fredericksburg-tree-lighting/|2026-11-14",
     "confidence": "Visit Fredericksburg event page schedule",
     "category": "nature"
+   },
+   {
+    "source": "Navy Yard BID",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "categories": "",
+    "venue": "Yards Park",
+    "address": "",
+    "description": "For one night only, Boots on the Boardwalk is bringing the West to The Yards with live country music, line dancing, games, and plenty of ways to kick up your heels along the waterfront.A live country band will set the soundtrack for the night with country favorites made for singing and dancing along. New to the dance floor? No problem. Line dancing instruction will have you learning the steps before putting your new moves to the test.Take a ride on the mechanical bull, challenge your friends to classic carnival games, or strike a pose at the Western-themed photo booth. When you’re ready for a break from the action, grab a drink from District Winery’s onsite bar and enjoy the music.Come dressed in your Western best, grab your friends, and make a day of it with to-go food and onsite drinks from your favorite Yards restaurants before heading down to the festivities.Whether you’re here to two-step, test your luck, take on the bull, or just enjoy some country music by the water, Boots on the Boardwalk has a little something for every cowboy and cowgirl.Saturday, November 14, 2026, 5–8 PM at The Yards Boardwalk. Register on Eventbrite.",
+    "time": "17:00",
+    "endTime": "20:00",
+    "lat": null,
+    "lng": null,
+    "title": "Boots on the Boardwalk",
+    "url": "https://navyyarddc.org/event/boots-on-the-boardwalk-nov-14-2026",
+    "activityLocation": "Yards Park",
+    "dateEvidence": "Navy Yard BID event page date and time",
+    "outdoorEvidence": "The publisher’s title places the activity outdoors (on the Boardwalk)",
+    "outdoorEvidenceURL": "https://navyyarddc.org/event/boots-on-the-boardwalk-nov-14-2026",
+    "date": "2026-11-14",
+    "id": "Navy Yard BID|https://navyyarddc.org/event/boots-on-the-boardwalk-nov-14-2026|2026-11-14",
+    "confidence": "Navy Yard BID event page date and time",
+    "category": "other"
    },
    {
     "source": "NPS National Mall",
@@ -50736,14 +51068,14 @@
     "lng": -77.05176
    },
    {
-    "t": "roosevelt at rock creek park",
-    "id": "23ABFB03-AE1D-FBEA-676DFCC2EC386BD7",
+    "t": "bike with a ranger: fall leaves",
+    "id": "23C09F0F-ED24-BF8C-FD812BA532952A7C",
     "lat": 38.94055,
     "lng": -77.052198
    },
    {
-    "t": "bike with a ranger: fall leaves",
-    "id": "23C09F0F-ED24-BF8C-FD812BA532952A7C",
+    "t": "roosevelt at rock creek park",
+    "id": "23ABFB03-AE1D-FBEA-676DFCC2EC386BD7",
     "lat": 38.94055,
     "lng": -77.052198
    },
@@ -50752,12 +51084,6 @@
     "id": "AE9BF4DA-C9A2-64C5-3A422F5C7338B988",
     "lat": 38.960047,
     "lng": -77.05176
-   },
-   {
-    "t": "after emancipation history hike",
-    "id": "239ED9E1-9601-D0A3-675857682071F058",
-    "lat": 38.94055,
-    "lng": -77.052198
    },
    {
     "t": "the civil war in georgetown: a guided walk in a city divided",
@@ -50770,6 +51096,12 @@
     "id": "27C5B5CA-ECDC-40E5-1A1F06744C8C48A7",
     "lat": 38.905367,
     "lng": -77.060363
+   },
+   {
+    "t": "after emancipation history hike",
+    "id": "239ED9E1-9601-D0A3-675857682071F058",
+    "lat": 38.94055,
+    "lng": -77.052198
    },
    {
     "t": "korean war memorial tour",
@@ -50832,6 +51164,12 @@
     "lng": -77.044233
    },
    {
+    "t": "franklin delano roosevelt memorial",
+    "id": "F8807F67-EC7B-B3EA-4B71DD2E28D0B134",
+    "lat": 38.883884,
+    "lng": -77.044233
+   },
+   {
     "t": "thomas jefferson memorial",
     "id": "210B48F0-9F51-FC75-4436E2F198520714",
     "lat": 38.881855,
@@ -50856,14 +51194,14 @@
     "lng": null
    },
    {
-    "t": "gettysburg address: past, present, and future",
-    "id": "C8D6E4EA-F614-DB85-8C3C926335DDFA8D",
+    "t": "fdr grows the national park system",
+    "id": "56ADE9DF-9F52-340B-41E274BC9D00B3F5",
     "lat": null,
     "lng": null
    },
    {
-    "t": "fdr grows the national park system",
-    "id": "56ADE9DF-9F52-340B-41E274BC9D00B3F5",
+    "t": "gettysburg address: past, present, and future",
+    "id": "C8D6E4EA-F614-DB85-8C3C926335DDFA8D",
     "lat": null,
     "lng": null
    },
