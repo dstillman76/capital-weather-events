@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-12T16:28:06.910Z",
+ "generatedAt": "2026-11-12T18:10:44.297Z",
  "window": {
   "start": "2026-11-12",
   "end": "2026-11-20"
@@ -11,7 +11,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 340,
-   "opened": 30,
+   "opened": 0,
    "cached": 326,
    "refused": 0,
    "errors": 0,
@@ -24,9 +24,9 @@
    "source": "Visit Loudoun",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 401,
-   "opened": 66,
-   "cached": 389,
+   "sitemapEvents": 397,
+   "opened": 48,
+   "cached": 385,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -39,7 +39,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 195,
-   "opened": 15,
+   "opened": 0,
    "cached": 186,
    "refused": 0,
    "errors": 0,
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 52,
-   "opened": 2,
+   "opened": 0,
    "cached": 31,
    "refused": 0,
    "errors": 0,
@@ -81,7 +81,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 215,
-   "opened": 13,
+   "opened": 0,
    "cached": 211,
    "refused": 0,
    "errors": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 397,
-   "opened": 370,
+   "opened": 11,
    "cached": 395,
    "refused": 0,
    "errors": 0,
@@ -143,24 +143,24 @@
     "Towson Athletics: location is not defined",
     "George Mason Athletics: location is not defined",
     "Georgetown Athletics: location is not defined",
-    "Maryland Athletics: location is not defined",
     "American University Athletics: location is not defined",
+    "Maryland Athletics: location is not defined",
     "Howard Athletics: location is not defined",
     "GW Athletics: location is not defined",
     "Catholic University Athletics: fetch failed"
    ],
    "inWindow": 0,
-   "note": "Not read: Navy Athletics: location is not defined; UMBC Athletics: location is not defined; Towson Athletics: location is not defined; George Mason Athletics: location is not defined; Georgetown Athletics: location is not defined; Maryland Athletics: location is not defined; American University Athletics: location is not defined; Howard Athletics: location is not defined; GW Athletics: location is not defined; Catholic University Athletics: fetch failed"
+   "note": "Not read: Navy Athletics: location is not defined; UMBC Athletics: location is not defined; Towson Athletics: location is not defined; George Mason Athletics: location is not defined; Georgetown Athletics: location is not defined; American University Athletics: location is not defined; Maryland Athletics: location is not defined; Howard Athletics: location is not defined; GW Athletics: location is not defined; Catholic University Athletics: fetch failed"
   },
   {
    "source": "University of Maryland",
    "kind": "day pages",
    "status": "ok",
-   "listings": 65,
-   "opened": 7,
+   "listings": 69,
+   "opened": 11,
    "skippedLong": 5,
    "skippedInternal": 0,
-   "inWindow": 24,
+   "inWindow": 27,
    "note": ""
   },
   {
@@ -169,25 +169,26 @@
    "status": "ok",
    "schools": 2,
    "failed": [],
-   "inWindow": 254,
+   "inWindow": 257,
    "note": ""
   },
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 3,
-   "remaining": 9971,
-   "listings": 1355,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 767,
-   "skipped": 243,
-   "note": "3 call(s) used; 9971 left this month; next refresh in 1 day(s).",
-   "indoorVenue": 345
+   "skipped": 0,
+   "note": "Refreshed 2026-11-12; next refresh in 1 day(s) to stay within the monthly quota.",
+   "keptPrevious": 767
   }
  ],
- "count": 1753,
+ "count": 1759,
  "exclude": [
-  "Pickleball at Metro Park"
+  "Pickleball at Metro Park",
+  "Secretaries' Cup Fan Fest"
  ],
  "events": [
   {
@@ -4043,6 +4044,28 @@
    "venueType": "Performing Arts Center",
    "flCategory": "theater",
    "outdoorHint": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "MS in Marketing Information Systems",
+   "url": "https://calendar.umd.edu/ms-in-marketing-information-systems",
+   "dates": [
+    "2026-11-12"
+   ],
+   "dateKind": "single",
+   "time": "12:30",
+   "endTime": "13:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join us to learn more about the new MS in Marketing at the University of Maryland’s Robert H. Smith School of Business. Thu Nov 12 12:30pm To – 1:00pm Online Event Link Link to event Add to Calendar Join us to learn more about the new MS in Marketing at the University of Maryland’s Robert H. Smith School of Business. Hear from Admissions and a current Smith student about the program, application process, and student experience, and get your questions answered. Location Online Registration Link: Register Here Link to registration Contact Robert H. Smith School of Business (301).405.2136 info@rhsmith.umd.edu For access needs, accommodations, and questions, please contact Jennifer Fortney at jfortney@umd.edu Event Tags Schools and Units Robert H. Smith School of Business Audience Prospective Students Tags Business Event Topics Academics",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -10503,6 +10526,28 @@
    "lng": -77.6229901,
    "description": "The Curse of the Lost Film Lights, camera, murder! Join us at Lark Brewing Co. on Friday, November 13 at 6:30 PM for an evening of mystery, suspense, and a killer dinner. Hollywood horror film director Victor Marshall receives an anonymous offer to ransom his long-lost film, Dr. Y, for $15,000—but before the deal can be made, murder arrives on his doorstep. Can you uncover the culprit? Dinner is included with your ticket. Come ready to eat, drink, and solve the mystery! Hosted in the Found Pavilion.",
    "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Lecture and Performance: Payam Yousefi",
+   "url": "https://calendar.umd.edu/lecture-and-performance-payam-yousefi",
+   "dates": [
+    "2026-11-13"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "21:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Payam Yousefi (University of Florida) presents \"Sound Presences in a Politics of Silencing: Case Studies of Women and Voice in Iran\" followed by a performance of \"Narration Spaces\" Fri Nov 13 4:00pm To – 9:00pm Tawes Hall Event page Event page Add to Calendar Please join us on Friday, November 13 at 4pm in Ulrich Recital Hall for his talk, \"Sound Presences in a Politics of Silencing: Case Studies of Women and Voice in Iran,\" followed by a reception and then a performance, at 7pm, of “Narration Spaces.\" Admission to all parts of this event is free. PayamYousefi is an Assistant Professor of Ethnomusicology at the University of Florida specializing in the intersections of music and politics in the Middle East and the US. His book project, titled Subversive Sounds: Music and Authoritarianism in Modern Iran , tells multiple stories of how Iranian musicians' have transcended authoritarian controls over the past 19 years. Yousefi explores how musicians' ethically framed practices not only mediate social movements, but also imagine and enact new socio-political futures. Yousefi is also a master improviser, multi-instrumentalist, and vocalist of traditional Persian music. Most recently, Yousefi's improvisatory prowess on the kamancheh (Persian fiddle) is featured on his solo album Songs of Hope , which was awarded a \"Global Music Award\" in the instrumental category. I",
+   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -19554,6 +19599,28 @@
    "admission": "Tickets Required"
   },
   {
+   "source": "Howard University",
+   "siteCounty": "",
+   "title": "LSAC Boston Law Forum",
+   "url": "https://events.howard.edu/event/lsac-boston-law-forum",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "16:00",
+   "venue": "Howard University campus",
+   "address": "",
+   "city": "Washington",
+   "state": "DC",
+   "lat": null,
+   "lng": null,
+   "description": "Join the School of Law Admissions team for an informational session designed to help prospective students learn more about the law school, its academic programs, and the admissions process. Attendees will have the opportunity to hear about the HUSL experience, gain insight into application requirements, and have their questions answered as they consider taking the next step in their legal education journey.",
+   "categories": "Admissions",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Madams Dance Party",
@@ -19783,6 +19850,28 @@
    "lng": null,
    "description": "Celebrate the 50th Annual Antiques Show & Sale, featuring dozens of dealers offering fine antiques, art, furniture, jewelry, collectibles and unique finds from around the world. Enjoy the onsite café and a free anniversary lecture by interior designer Josh Hildreth at 10 a.m. on Saturday, Nov. 14, at The Alden Theatre. Want to socialize with fellow Antique-afficionados? Make sure to come at 9 a.m. for an exclusive Muffins & Mimosas event that also grants you access to VIP seating at the Josh Hildreth lecture on how to incorporate antiques with modern and contemporary decor. Registration for Muffins & Mimosas is required; must be 21 or older to drink.",
    "categories": "paid",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Memorial Chapel Open House",
+   "url": "https://calendar.umd.edu/memorial-chapel-open-house",
+   "dates": [
+    "2026-11-14"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "12:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join us for our monthly Open House! Sat Nov 14 10:00am To – 12:00pm Memorial Chapel Visit our website for more information Memorial Chapel website Add to Calendar Stop by to explore the Chapel, learn more about our spaces and programs, and enjoy the Chapel Gardens. Reservations are recommended. To reserve your spot, please email chapel@umd.edu. We hope to see you there! Location Memorial Chapel 7744 Regents Drive College Park, MD 20742 Get Directions with Google Maps Contact Memorial Chapel (301).314.9866 chapel@umd.edu For access needs, accommodations, and questions, please contact Denise McHugh at dmchugh@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders Tags Student Affairs Student Life Family Engagement Event Topics Community Engagement Diversity and Inclusion Family Engagement",
+   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -30031,28 +30120,6 @@
    "admission": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "UMD Symphony Orchestra Concerto Competition Prelims",
-   "url": "https://calendar.umd.edu/umd-symphony-orchestra-concerto-competition-prelims",
-   "dates": [
-    "2026-11-15"
-   ],
-   "dateKind": "single",
-   "time": "13:00",
-   "endTime": "15:00",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "Join the search for the UMD Symphony Orchestra’s next featured soloist. Sun Nov 15 1:00pm To – 3:00pm The Clarice Smith Performing Arts Center Learn more Clarice website Add to Calendar Join the search for the UMD Symphony Orchestra’s next featured soloist. In the first round of this exciting competition, UMD School of Music students perform concerto excerpts or concert pieces for an independent jury panel. With each round of the competition, the field narrows until the final round, when a winner and runners-up are announced. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Park, MD 20742-1625 Get Directions with Google Maps Contact The Clarice Smith Performing Arts Center (301).405.2787 tickets-theclarice@umd.edu For access needs, accommodations, and questions, please contact The Clarice Ticket Office at tickets-theclarice@umd.edu Hosted By College of Arts and Humanities School of Music The Clarice Smith Performing Arts Center Event Tags Schools and Units The Clarice Smith Performing Arts Center College of Arts and Humanities Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Music Event Topics Arts, Entertainment and Cultu",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Veteran’s Book Month: Local Veteran’s Book Fair",
@@ -30641,6 +30708,28 @@
    "categories": "Sports",
    "recurrence": "Recurring daily",
    "admission": "Email: fields@libertysportspark.com or call 443.794.7004 for more details"
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Billiards Tournament",
+   "url": "https://calendar.umd.edu/billiards-tournament",
+   "dates": [
+    "2026-11-16"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "23:00",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Playing pool is a lot like life; you need to know when to take your shot. Show off your 9-ball skills at the TerpZone Billiards Tournament! Mon Nov 16 7:00pm To – 11:00pm Adele H. Stamp Student Union Sign up to play. TerpLink Event Page. Add to Calendar Show off your 9-ball skills at the TerpZone Billiards Tournament! Playing pool is a lot like life; you need to know when to take your shot. Free entry, and prizes are awarded to first and second place players (with valid student ID.) Location Adele H. Stamp Student Union 3972 Campus Drive College Park, MD 20742 Get Directions with Google Maps This event will take place in the TerpZone, located on the basement level of The Adele H. Stamp Student Union—Center for Campus Life. Contact TerpZone (301).314.3375 stampithelp@umd.edu For access needs, accommodations, and questions, please contact Mike Golze at mgolze@umd.edu Event Tags Schools and Units Division of Student Affairs Audience Undergraduate Students Graduate Students Friends Tags Student Affairs Student Life Event Topics Athletics and Recreation Student Life",
+   "categories": "",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "University of Maryland",
@@ -31605,7 +31694,7 @@
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "Come practice or share your language skills in a casual setting with drinks and snacks! Mon Nov 09 4:00pm To – 5:30pm St. Mary's Hall Visit the Language Chats website for more information. Language Chats website Add to Calendar Everyone is welcome to practice, improve, share, or maintain their language skills in a casual setting with drinks and snacks. The program meets every Monday from 4 to 5:30 p.m. at St. Mary’s Hall, home to the Language House Living-Learning Program, and is open to members of the campus community interested in practicing or sharing any language they are learning or have learned. Regularly available language tables include Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Persian, Portuguese, Russian and Spanish. Location St. Mary's Hall The Language Chats are held on the ground floor of St. Mary's Hall, in the Multipurpose Room as well as the lounge area. Contact Language House SLLC (301).405.4046 mmatar@umd.edu For access needs, accommodations, and questions, please contact Charlee Bezilla at cmredman@umd.edu Hosted By Language House SLLC School of Languages, Literatures, & Cultures Event Tags Schools and Units Belonging & Community at UMD College of Arts and Humanities Department of Resident Life Division of Student Affairs O",
+   "description": "Come practice or share your language skills in a casual setting with drinks and snacks! Mon Nov 16 4:00pm To – 5:30pm St. Mary's Hall Visit the Language Chats website for more information. Language Chats website Add to Calendar Everyone is welcome to practice, improve, share, or maintain their language skills in a casual setting with drinks and snacks. The program meets every Monday from 4 to 5:30 p.m. at St. Mary’s Hall, home to the Language House Living-Learning Program, and is open to members of the campus community interested in practicing or sharing any language they are learning or have learned. Regularly available language tables include Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Korean, Persian, Portuguese, Russian and Spanish. Location St. Mary's Hall The Language Chats are held on the ground floor of St. Mary's Hall, in the Multipurpose Room as well as the lounge area. Contact Language House SLLC (301).405.4046 mmatar@umd.edu For access needs, accommodations, and questions, please contact Charlee Bezilla at cmredman@umd.edu Hosted By Language House SLLC School of Languages, Literatures, & Cultures Event Tags Schools and Units Belonging & Community at UMD College of Arts and Humanities Department of Resident Life Division of Student Affairs O",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -32862,6 +32951,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "George Washington University",
+   "siteCounty": "",
+   "title": "A Conversation with Niki Kerameus, Minister of Labour and Social Security of Greece",
+   "url": "https://calendar.gwu.edu/event/a-conversation-with-niki-kerameus-minister-of-labour-and-social-security-of-greece",
+   "dates": [
+    "2026-11-17"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "11:30",
+   "venue": "1957 E Street NW",
+   "address": "1957 E St NW, Washington DC 20052",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.896188,
+   "lng": -77.044206,
+   "description": "Please join the Institute for European, Russian, and Eurasian Studies for a conversation with Niki Kerameus, Minister of Labour and Social Security of Greece. The Minister will discuss the transformation of Greece's labor market, with a special focus on reform, inclusion, and the future of work.",
+   "categories": "International, Politics & Policy",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Acoustic Jamming Class",
@@ -33217,6 +33328,28 @@
    "lng": -77.049161,
    "description": "Join us for a book launch celebrating Professor of English Alexa Alice Joubin's new book, Transitional Shakespeare, Gender, and Adaption. About the Book The cross-gender role is a staple of Shakespeare’s plays, and drama is a transitional art. Gender is made flesh and brought into being by actors’ embodiment. Similarly, adaptations also operate transitionally. Some adaptations translate narratives into hospitable forms of expression. Other adaptations function as minor uses of established genres and gender categories. In Transitional Shakespeare, Gender, and Adaption, Professor Alexa Alice Joubin, PhD, theorizes “transness” in a number of modes, including composite figures in drama that arise from the convergence of a character, their curated self-image, and actors’ performance; cultural translation; stagecraft onscreen; and drama as processes of social assemblage. Joubin close-reads a number of films, such as Stage Beauty (2004), As We Like It (Taiwan, 2001), The King and the Clown ( South Korea, 2005), She’s the Man (2006) and Shakespeare in Love (1998). RSVP online >> This event is co-sponsored by the Women's, Gender, and Sexuality Studies Program and the Department of English.",
    "categories": "Academic, Lectures & Speakers",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "University of Maryland",
+   "siteCounty": "Prince George’s County",
+   "title": "Brunch & Learn with Dara Ashley",
+   "url": "https://calendar.umd.edu/brunch-learn-with-dara-ashley",
+   "dates": [
+    "2026-11-17"
+   ],
+   "dateKind": "single",
+   "time": "09:30",
+   "endTime": "12:15",
+   "venue": "University of Maryland campus",
+   "address": "",
+   "city": "College Park",
+   "state": "MD",
+   "lat": null,
+   "lng": null,
+   "description": "Join the Center for Social Value Creation for a Brunch & Learn with Dara Ashley of The Dara Ashley Foundation. Tue Nov 17 9:30am To – 12:15pm Van Munching Hall View Event Link to view event Add to Calendar Join the Center for Social Value Creation for a Brunch & Learn with Dara Ashley of The Dara Ashley Foundation. Explore how servant leadership builds stronger teams and businesses. Apply its principles in class, campus organizations and your future career. Location Van Munching Hall Van Munching Hall, Room 2517 Contact Robert H. Smith School of Business (301).405.2136 info@rhsmith.umd.edu For access needs, accommodations, and questions, please contact Jennifer Fortney at jfortney@umd.edu Event Tags Schools and Units Robert H. Smith School of Business Audience Undergraduate Students Graduate Students Tags Business Event Topics Academics Community Engagement Diversity and Inclusion",
+   "categories": "",
    "recurrence": "",
    "admission": ""
   },
@@ -37782,6 +37915,28 @@
   {
    "source": "Howard University",
    "siteCounty": "",
+   "title": "In-Person Information Session",
+   "url": "https://events.howard.edu/event/in-person-information-session",
+   "dates": [
+    "2026-11-18"
+   ],
+   "dateKind": "single",
+   "time": "17:30",
+   "endTime": "19:00",
+   "venue": "Dunbarton Chapel, West Campus",
+   "address": "2900 Van Ness St NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.942691,
+   "lng": -77.059419,
+   "description": "Join the School of Law Admissions team for an informational session designed to help prospective students learn more about the law school, its academic programs, and the admissions process. Attendees will have the opportunity to hear about the HUSL experience, gain insight into application requirements, and have their questions answered as they consider taking the next step in their legal education journey.",
+   "categories": "Admissions",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Howard University",
+   "siteCounty": "",
    "title": "International Conference on Stigma",
    "url": "https://events.howard.edu/event/international-conference-on-stigma-44",
    "dates": [
@@ -39120,7 +39275,7 @@
    "state": "DC",
    "lat": 38.91979,
    "lng": -77.018752,
-   "description": "Join CETLA for an interactive Lunch & Learn designed to help faculty navigate the evolving role of artificial intelligence in teaching and learning. This practical workshop will explore strategies for integrating AI into classroom practice while establishing clear, thoughtful expectations for its use in courses and assignments. Grounded in Howard University’s AI Policy, the session will help faculty translate University guidance into clear, course-specific expectations that reflect their disciplinary and instructional contexts. Participants will leave with a customizable, AI policy-informed syllabus template, as well as practical tools, examples, and resources they can immediately apply to their courses. Lunch will be provided for the in-person faculty workshop Participants will learn how to: Identify productive and appropriate uses of AI in teaching, learning, and assessment.Clearly communicate permissible and impermissible uses of AI to students.Develop or refine course-level and assignment-level AI guidance.Locate Howard University resources and identify next steps for continued support. This session is hosted by Howard University’s Center for Excellence in Teaching, Learning, and Assessment (CETLA) in collaboration with the President’s AI Advisory Council.",
+   "description": "Join CETLA for an interactive Lunch & Learn designed to help faculty navigate the evolving role of artificial intelligence in teaching and learning. This practical workshop will explore strategies for integrating AI into classroom practice while establishing clear, thoughtful expectations for its use in courses and assignments. Grounded in Howard University’s AI Policy, the session will help faculty translate University guidance into clear, course-specific expectations that reflect their disciplinary and instructional contexts. Participants will leave with a customizable, AI policy-informed syllabus template, as well as practical tools, examples, and resources they can immediately apply to their courses. Lunch will be provided for the in-person faculty workshop Participants will learn how to: Identify productive and appropriate uses of AI in teaching, learning, and assessment.Clearly communicate permissible and impermissible uses of AI to students.Develop or refine course-level and assignment-level AI guidance.Locate Howard University resources and identify next steps for continued support. This session is hosted by Howard University’s Center for Excellence in Teaching, Learning, and Assessment (CETLA) in collaboration with the President’s AI Advisory Council. Register today.",
    "categories": "Gatherings",
    "recurrence": "",
    "admission": ""
@@ -45083,28 +45238,6 @@
    "admission": ""
   },
   {
-   "source": "University of Maryland",
-   "siteCounty": "Prince George’s County",
-   "title": "Do Good Campus Symposium",
-   "url": "https://calendar.umd.edu/do-good-campus-symposium",
-   "dates": [
-    "2026-11-20"
-   ],
-   "dateKind": "single",
-   "time": "11:00",
-   "endTime": "13:30",
-   "venue": "University of Maryland campus",
-   "address": "",
-   "city": "College Park",
-   "state": "MD",
-   "lat": null,
-   "lng": null,
-   "description": "2026 Do Good Campus Symposium Fri Nov 20 11:00am To – 1:30pm Samuel Riggs IV Alumni Center Please RSVP by November 12, 2026. The link goes to a Qualtrics registration form asking for the attendee's personal information and accommodations. Add to Calendar Join us for a celebration of impact and innovation, highlighting our campus-wide commitment to do good. OUR KEYNOTE SPEAKER Caitlin Marshall, Brin Do Good Professor Dr. Caitlin Marshall, our first Brin Do Good Professor in the College of Arts and Humanities, is a theater and performance historian and practice-based researcher in the School of Theatre, Dance, and Performance Studies. As part of her Do Good work, Dr. Marshall is working alongside community members to develop a full-length musical and documentary film that tells the story of the S Street Salon, a creative and intellectual hub of black artists and activists in the early 20th century (including celebrated authors Langston Hughes, Zora Neale Hurston and W.E.B. DuBois). Join us for a sneak peak into the musical production, including a prerecorded song, followed by a student-performed staged reading. LIGHTNING TALKS Inspiring and informative talks from Do Good Campus Fund grantees and more. POSTERS Eng",
-   "categories": "",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Dominion Hills Invasive Plant Removal",
@@ -48441,7 +48574,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-12T16:29:08.459Z",
+  "generatedAt": "2026-11-12T18:13:10.386Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -48450,7 +48583,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1556
+    "ms": 2132
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -48458,7 +48591,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 442
+    "ms": 1085
    },
    "City of Rockville": {
     "ok": true,
@@ -48466,7 +48599,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1993
+    "ms": 3244
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -48474,7 +48607,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 590
+    "ms": 1140
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -48482,7 +48615,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 538
+    "ms": 1442
    },
    "Navy Yard BID": {
     "ok": true,
@@ -48490,7 +48623,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 594
+    "ms": 792
    },
    "DowntownDC BID": {
     "ok": true,
@@ -48498,7 +48631,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 526
+    "ms": 386
    },
    "Falls Church": {
     "ok": true,
@@ -48532,45 +48665,13 @@
     "error": "",
     "ms": null
    },
-   "NoMa BID": {
-    "ok": false,
-    "status": "ACCESS FAILED",
-    "events": 0,
-    "outcome": "",
-    "error": "No explicit market season and weekly schedule",
-    "ms": 599
-   },
    "Mount Vernon Triangle CID": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2855
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 782
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 924
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 546
+    "ms": 2355
    },
    "Ticketmaster": {
     "ok": true,
@@ -48580,13 +48681,29 @@
     "error": "",
     "ms": null
    },
-   "Visit Alexandria": {
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 444
+   },
+   "NoMa BID": {
+    "ok": false,
+    "status": "ACCESS FAILED",
+    "events": 0,
+    "outcome": "",
+    "error": "No explicit market season and weekly schedule",
+    "ms": 858
+   },
+   "The Wharf": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 17,
+    "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1092
+    "ms": 1203
    },
    "Visit Prince William": {
     "ok": true,
@@ -48594,7 +48711,15 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 1197
+    "ms": 1224
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 800
    },
    "City of Greenbelt": {
     "ok": true,
@@ -48602,7 +48727,15 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 526
+    "ms": 690
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 17,
+    "outcome": "",
+    "error": "",
+    "ms": 1041
    },
    "City of Bowie": {
     "ok": true,
@@ -48610,15 +48743,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 714
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 711
+    "ms": 828
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -48626,7 +48751,15 @@
     "events": 17,
     "outcome": "",
     "error": "",
-    "ms": 649
+    "ms": 498
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 566
    },
    "Downtown Columbia": {
     "ok": true,
@@ -48634,7 +48767,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1219
+    "ms": 1521
    },
    "NPS National Mall": {
     "ok": true,
@@ -48642,15 +48775,7 @@
     "events": 21,
     "outcome": "",
     "error": "",
-    "ms": 378
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 9,
-    "outcome": "",
-    "error": "",
-    "ms": 47748
+    "ms": 515
    },
    "Visit Calvert": {
     "ok": true,
@@ -48658,15 +48783,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 602
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "ZERO — coverage not measured",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 638
+    "ms": 663
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -48674,15 +48791,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 8125
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 15872
+    "ms": 12649
    },
    "Town of Vienna": {
     "ok": true,
@@ -48690,15 +48799,31 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1151
+    "ms": 2104
    },
-   "NPS DC-area parks": {
+   "M-NCPPC Prince George’s Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 34,
+    "events": 9,
     "outcome": "",
     "error": "",
-    "ms": 689
+    "ms": 125265
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "ZERO — coverage not measured",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 806
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 3556
    },
    "Town of Occoquan": {
     "ok": true,
@@ -48706,7 +48831,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 162
+    "ms": 57
    },
    "Town of Warrenton": {
     "ok": true,
@@ -48714,7 +48839,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 374
+    "ms": 599
    },
    "DC HSEMA": {
     "ok": true,
@@ -48730,15 +48855,15 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 564
+    "ms": 487
    },
-   "Georgetown BID": {
+   "NPS DC-area parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 2,
+    "events": 34,
     "outcome": "",
     "error": "",
-    "ms": 8189
+    "ms": 1050
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -48746,7 +48871,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 20903
+    "ms": 14090
    },
    "NOVA Parks": {
     "ok": true,
@@ -48754,7 +48879,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 835
+    "ms": 825
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -48762,7 +48887,15 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 19925
+    "ms": 10076
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 7076
    },
    "City of Annapolis": {
     "ok": true,
@@ -48770,7 +48903,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 715
+    "ms": 574
    },
    "City of College Park": {
     "ok": true,
@@ -48778,7 +48911,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 518
+    "ms": 735
    },
    "City of Frederick": {
     "ok": true,
@@ -48786,7 +48919,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 770
+    "ms": 735
    },
    "City of Laurel": {
     "ok": true,
@@ -48794,7 +48927,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 815
+    "ms": 848
    },
    "Town of Purcellville": {
     "ok": true,
@@ -48802,7 +48935,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1250
+    "ms": 443
    },
    "National Landing BID": {
     "ok": true,
@@ -48810,7 +48943,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 8053
+    "ms": 11005
    },
    "City of Fairfax": {
     "ok": true,
@@ -48818,7 +48951,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2414
+    "ms": 4493
    },
    "Mosaic District": {
     "ok": true,
@@ -48826,7 +48959,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 638
+    "ms": 1559
    },
    "Union Market District": {
     "ok": true,
@@ -48834,7 +48967,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 979
+    "ms": 950
    },
    "The Boro Tysons": {
     "ok": false,
@@ -48842,7 +48975,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 122
+    "ms": 140
    },
    "One Loudoun": {
     "ok": true,
@@ -48850,7 +48983,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 896
+    "ms": 311
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -48858,7 +48991,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 7839
+    "ms": 3735
    }
   },
   "count": 139,
@@ -49395,7 +49528,7 @@
     "categories": "",
     "venue": "Market Square",
     "address": "",
-    "description": "Santa is bringing holiday magic to The Wharf! 🎁 The Coca-Cola Caravan rolls in on Friday, November 13! Don't miss this oversized holiday production. Featuring holiday decor, photos with Santa and his Polar Bear friend, samplings of the limited edition Coca-Cola Holiday Creamy Vanilla flavor, festive holiday music, giveaways, and more. This is a one time event from 6-8:30pm in Market Square. All are welcome and there is no cost to attend. Once you visit Santa, check out one of the adjacent Wharf restaurants. From an upscale meal at The Grill, a handcrafted on site rum and Coke at Tiki TNT, fresh seafood and burgers at Rappahannock Oyster Bar or a quick bite from Falafal or the Fish Market, there is something for everyone. Whether you’re traveling to Washington, DC for business or pleasure, the hotels at The Wharf offer a wide variety of choices for overnight stays, quick weekend getaways, or extended stays. Enjoy iconic views of the monuments and the waterfront right from your room, and the District's best restaurants, entertainment, and museums within walking distance.",
+    "description": "Santa is bringing holiday magic to The Wharf! 🎁 The Coca-Cola Caravan rolls in on Friday, November 13! Don't miss this oversized holiday production. Featuring holiday decor, photos with Santa and his Polar Bear friend, samplings of the limited edition Coca-Cola Holiday Creamy Vanilla flavor, festive holiday music from the Benjamin D. Foulois Creative and Performing Arts Academy Children's Chorus, giveaways, and more. This is a one time event from 6-8:30pm in Market Square. All are welcome and there is no cost to attend. Once you visit Santa, check out one of the adjacent Wharf restaurants. From an upscale meal at The Grill, a handcrafted on site rum and Coke at Tiki TNT, fresh seafood and burgers at Rappahannock Oyster Bar or a quick bite from Falafal or the Fish Market, there is something for everyone. Whether you’re traveling to Washington, DC for business or pleasure, the hotels at The Wharf offer a wide variety of choices for overnight stays, quick weekend getaways, or extended stays. Enjoy iconic views of the monuments and the waterfront right from your room, and the District's best restaurants, entertainment, and museums within walking distance.",
     "time": "18:00",
     "endTime": "20:30",
     "lat": null,
@@ -50276,28 +50409,6 @@
     "category": "nature"
    },
    {
-    "id": "ticketmaster|17A8v0G6CkdnNku|2026-11-14",
-    "title": "Secretaries' Cup Fan Fest",
-    "source": "Ticketmaster",
-    "url": "https://www.ticketmaster.com/secretaries-cup-fan-fest-washington-district-of-columbia-11-14-2026/event/150064E183AA318D",
-    "date": "2026-11-14",
-    "time": "13:00",
-    "endTime": "",
-    "venue": "Audi Field",
-    "address": "100 Potomac Ave. SW, Washington, DC",
-    "city": "Washington",
-    "state": "DC",
-    "county": "District of Columbia",
-    "lat": 38.867998,
-    "lng": -77.013642,
-    "description": "Kick off your Secretaries' Cup experience at FanFest before heading into Audi Field! Join us outside in the Pocket Park and along Audi Drive outside of Gate A for a fun-filled pregame celebration featuring food trucks, lawn games, family-friendly activities, music, and more. Date: Saturday, November 14 Time: 10:00 a.m. ? 12:00 p.m. Location: Pocket Park & Audi Drive (Outside Gate A, Audi Field) Tickets: $15 FanFest add-on (Game ticket required) Food and beverages will be available for purchase from a variety of local food trucks. Whether you're bringing the family, reconnecting with fellow alumni, or simply soaking in the excitement before kickoff, FanFest is the perfect way to start your Secretaries' Cup experience. Add FanFest to your game-day plans and enjoy the festivities before the rivalry begins!",
-    "categories": "Miscellaneous",
-    "outdoorEvidence": "Scheduled activity at a verified outdoor sports/performance venue",
-    "outdoorEvidenceURL": "https://www.ticketmaster.com/secretaries-cup-fan-fest-washington-district-of-columbia-11-14-2026/event/150064E183AA318D",
-    "confidence": "Ticketmaster schedule",
-    "category": "festival"
-   },
-   {
     "source": "NOVA Parks",
     "city": "Arlington",
     "county": "Arlington County",
@@ -50506,6 +50617,28 @@
     "id": "Visit Fredericksburg|https://fxbg.com/calendar-item/fredericksburg-tree-lighting/|2026-11-14",
     "confidence": "Visit Fredericksburg event page schedule",
     "category": "nature"
+   },
+   {
+    "id": "ticketmaster|17A8v0G6uU_hPal|2026-11-14",
+    "title": "Secretaries' Cup: USCGA VS. USMMA",
+    "source": "Ticketmaster",
+    "url": "https://www.ticketmaster.com/secretaries-cup-uscga-vs-usmma-washington-district-of-columbia-11-14-2026/event/150064DD996E526B",
+    "date": "2026-11-14",
+    "time": "16:30",
+    "endTime": "",
+    "venue": "Audi Field",
+    "address": "100 Potomac Ave. SW, Washington, DC",
+    "city": "Washington",
+    "state": "DC",
+    "county": "District of Columbia",
+    "lat": 38.867998,
+    "lng": -77.013642,
+    "description": "Children under 2 do not need a ticket. Tickets are MOBILE only.",
+    "categories": "Sports",
+    "outdoorEvidence": "Scheduled activity at a verified outdoor sports/performance venue",
+    "outdoorEvidenceURL": "https://www.ticketmaster.com/secretaries-cup-uscga-vs-usmma-washington-district-of-columbia-11-14-2026/event/150064DD996E526B",
+    "confidence": "Ticketmaster schedule",
+    "category": "sports"
    },
    {
     "source": "Navy Yard BID",
