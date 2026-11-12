@@ -645,6 +645,17 @@ function icsEvents(text) {
   }
   return out;
 }
+// Tournament games a school hosts come through as "Maryland Field Hockey vs.
+// Duke vs. Iowa": a game between the two visitors, played on its campus.
+// "… vs. Quarterfinal Game" is a round whose opponent is not yet known.
+export function athleticsTitle(t, sport) {
+  const esc = String(sport || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const hosted = sport && t.match(new RegExp('^(.+?)\\s+' + esc + '\\s+vs\\.\\s+(.+?)\\s+vs\\.\\s+(.+)$', 'i'));
+  if (hosted) return `${sport}: ${hosted[2]} vs. ${hosted[3]} (at ${hosted[1]})`;
+  const round = t.match(/^(.+?)\s+vs\.\s+((?:opening|first|second|third)[- ]round|quarterfinals?|semifinals?|finals?|championship)(?:\s+game)?$/i);
+  if (round) return `${round[1]}: ${round[2].replace(/^./, c => c.toUpperCase())} game, opponent to be determined`;
+  return t;
+}
 export function parseSidearmICS(text, src, today, windowEnd) {
   const out = [];
   for (const ev of icsEvents(text)) {
@@ -664,7 +675,7 @@ export function parseSidearmICS(text, src, today, windowEnd) {
     const school = src.name.replace(/ Athletics$/, '');
     const sport = (summary.match(OUTDOOR_SPORT) || [''])[0];
     out.push({
-      source: src.name, siteCounty: '', title: shortSchoolName(summary.replace(/\s+vs\s+/i, ' vs. ').replace(/\s+/g, ' ').trim()),
+      source: src.name, siteCounty: '', title: athleticsTitle(shortSchoolName(summary.replace(/\s+vs\s+/gi, ' vs. ').replace(/\s+/g, ' ').trim()), sport),
       url: decode(ev.URL?.value || `https://${src.host}/calendar`).replace(/\/\/admin\./, '//'),
       dates: [date], dateKind: 'single', time: time === '00:00' ? '' : time, endTime: '',
       venue: facility || school + ' campus', address: '', city: src.city || city.replace(/^Washington.*$/i, 'Washington'), state: src.state,
