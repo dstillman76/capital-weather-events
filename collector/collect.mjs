@@ -45,10 +45,11 @@ const MONTGOMERY_PARKS = {name: 'Montgomery Parks', host: 'montgomeryparks.org',
 // FindLocal (findlocal.community): an events API built from venues' own
 // calendars. The free plan allows 100 calls a month (hard stop) and requires a
 // visible "Event data by FindLocal" link wherever its events are shown; the
-// widget adds it to each FindLocal card. The key below can be replaced by a
-// GitHub Actions secret named FINDLOCAL_API_KEY, which takes precedence.
+// widget adds it to each FindLocal card. The API key comes only from the
+// GitHub Actions secret FINDLOCAL_API_KEY (repo Settings -> Secrets and
+// variables -> Actions); without it FindLocal is skipped and reported.
 const FINDLOCAL = {
-  key: process.env.FINDLOCAL_API_KEY || '3k8TJ8RBxCC81EpnJKUKha',
+  key: process.env.FINDLOCAL_API_KEY || '',
   // One request covers everything within 60 km of DC (Leesburg, Manassas,
   // Columbia and Annapolis are inside; Frederick and Fredericksburg are not).
   // Every category: outdoor concerts, community festivals, stadium games and
@@ -659,7 +660,8 @@ export function athleticsTitle(t, sport) {
 export function parseSidearmICS(text, src, today, windowEnd) {
   const out = [];
   for (const ev of icsEvents(text)) {
-    const summary = decode(ev.SUMMARY?.value || '').replace(/[®™]/g, '').replace(/\s*\[[A-Z]\]\s*/g, ' ')   // "[N]" neutral-site markers, location = decode(ev.LOCATION?.value || '').replace(/[®™]/g, '');
+    // "[N]" is SIDEARM's neutral-site marker.
+    const summary = decode(ev.SUMMARY?.value || '').replace(/[®™]/g, '').replace(/\s*\[[A-Z]\]\s*/g, ' '), location = decode(ev.LOCATION?.value || '').replace(/[®™]/g, '');
     if (!OUTDOOR_SPORT.test(summary) || INDOOR_SPORT.test(summary)) continue;
     if (/\sat\s/i.test(summary.replace(/^[^ ]+ /, ' '))) continue;              // "Navy Soccer at Army"
     const parts = location.split(/\s*,\s*/);
@@ -907,6 +909,7 @@ export function findLocalLinkKind(e, url) {
 }
 export async function collectFindLocal(cache, today, windowEnd) {
   const report = {source: 'FindLocal', kind: 'api', status: 'ok', calls: 0, remaining: null, listings: 0, inWindow: 0, skipped: 0, note: ''};
+  if (!FINDLOCAL.key) return {report: {...report, status: 'failed', note: 'No API key: the FINDLOCAL_API_KEY secret is missing'}, records: []};
   const month = today.slice(0, 7);
   // The budget record is per month and per key, so a new key starts fresh.
   const keyId = FINDLOCAL.key.slice(-4) + '|indie';   // plan in the id: the free plan's remaining-calls count no longer applies

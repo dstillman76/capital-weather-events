@@ -58,6 +58,8 @@ jobs:
           restore-keys: collector-cache-
       - name: Run collector
         run: node collector/collect.mjs
+        env:
+          FINDLOCAL_API_KEY: ${{ secrets.FINDLOCAL_API_KEY }}
       # Second step: run the widget itself headless for the sources that are
       # slow or unreliable in readers' browsers (see collector/README.md).
       - name: Install Playwright (uses the runner's Google Chrome)
