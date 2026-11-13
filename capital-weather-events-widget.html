@@ -1,4 +1,4 @@
-<!-- Capital Weather outdoor events v62: Weekend tab = Friday 6 p.m. on, Saturday, Sunday and a holiday Monday; v61: board games, talks, films and the like at FindLocal park venues need outdoor wording; v60: intro line moved to Ghost text; FindLocal locations within a venue; dances, shows and classes at park venues need outdoor wording; NPS farm and fort programs; v59: dark mode; v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
+<!-- Capital Weather outdoor events v63: State, County, City and event type filters take several choices; v62: Weekend tab = Friday 6 p.m. on, Saturday, Sunday and a holiday Monday; v61: board games, talks, films and the like at FindLocal park venues need outdoor wording; v60: intro line moved to Ghost text; FindLocal locations within a venue; dances, shows and classes at park venues need outdoor wording; NPS farm and fort programs; v59: dark mode; v58: shows the daily run's finished list (screened and de-duplicated on GitHub) and loads only that small file; v57: larger intro line; v56: titles listed in collector/exclude.json are dropped; v55: first card selected on load until the reader picks one; v54: a.m./p.m. swaps corrected from the listing's own text; v53: weather-contingency notes removed; v52: opens on Tomorrow from 9 p.m.; v51: University of Maryland campus calendar; v50: university home games in outdoor sports; v49: times stated only in the description are used; v48: start-only events drop off 3 hours after they start, untimed daytime ones after 6 p.m.; v47: intro line wraps only before "in DC…"; v46: FindLocal NPS links repaired; FindLocal source line the same on cards and details; v44: FindLocal source line the same on cards and details, venue-site links labeled; v43: tighter gap above the selection tip on phones; v42: centered intro line back inside the widget; v41: Ticketmaster listing preferred for games and concerts; implausible end times dropped; space above the widget; date range above the filters removed; every source read by the daily GitHub run (live only as fallback); selection tip centered, reworded, more space below; darker, tighter dividers around the selection tip; event-selection tip between two dividing lines; date range left-aligned on desktop; date range left-aligned on desktop; event types re-sorted with word-bounded rules (music, family, festivals, fitness, water…); no placeholder text while loading; source diagnostics hidden, no unavailable count; Weekend tab after the last day; FindLocal credit as "(via FindLocal)"; collector adds Fairfax parks' Parktakes programs and Patch town calendars. Ghost HTML card, self-contained. Outdoor-activity evidence for every source (hikes, bird walks, campfires, trails trick-or-treat, farmer's markets, cruises…); general cross-source duplicate matching. Uses the daily GitHub collector file (tourism sites, Montgomery Parks, FindLocal and slow sources) and loads everything live if it is missing or stale. -->
 <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
 <div id="cw-weekend-events">
   <!-- v60: the "Explore outdoor events…" line is now Ghost body text above this card (centered by page code injection). -->
@@ -10,22 +10,11 @@
     <span id="cwe-weekend-label"></span>
   </div>
 
+  <!-- v63: each filter is a checklist, so readers can pick several. -->
   <div class="cwe-geography">
-    <label>State
-      <select id="cwe-state">
-        <option value="">All DC, MD, and VA</option>
-      </select>
-    </label>
-    <label>County
-      <select id="cwe-county">
-        <option value="">All counties</option>
-      </select>
-    </label>
-    <label>City
-      <select id="cwe-city">
-        <option value="">All cities</option>
-      </select>
-    </label>
+    <div class="cwe-field"><span class="cwe-field-label" id="cwe-state-label">State</span><div id="cwe-state-ms"></div></div>
+    <div class="cwe-field"><span class="cwe-field-label" id="cwe-county-label">County</span><div id="cwe-county-ms"></div></div>
+    <div class="cwe-field"><span class="cwe-field-label" id="cwe-city-label">City</span><div id="cwe-city-ms"></div></div>
   </div>
 
   <div class="cwe-controls">
@@ -39,18 +28,7 @@
       <button type="button" data-day="6" id="cwe-day-6"></button>
       <button type="button" data-day="weekend">Weekend</button>
     </div>
-    <select id="cwe-type" aria-label="Event type">
-      <option value="">All event types</option>
-      <option value="festival">Festivals & fairs</option>
-      <option value="market">Markets</option>
-      <option value="nature">Parks & nature</option>
-      <option value="fitness">Runs & fitness</option>
-      <option value="sports">Sports</option>
-      <option value="family">Family activities</option>
-      <option value="music">Outdoor music</option>
-      <option value="water">On the water</option>
-      <option value="other">Other outdoor</option>
-    </select>
+    <div id="cwe-type-ms"></div>
     <input id="cwe-search" type="search"
       placeholder="Search events or places"
       aria-label="Search events or places">
@@ -518,6 +496,69 @@
  #cw-weekend-events #cwe-cards { min-height:201px; padding-bottom:6px; }
  #cw-weekend-events .cwe-selection-tip { margin-top:6px; }
 }
+/* v63: checklist filters */
+#cw-weekend-events .cwe-geography .cwe-field {
+  display: flex; flex-direction: column; gap: 5px; min-width: 0;
+  font-size: 12px; font-weight: 700; color: #4d6175;
+}
+#cw-weekend-events .cwe-ms { position: relative; min-width: 0; }
+#cw-weekend-events .cwe-ms-btn {
+  display: flex !important; align-items: center; gap: 6px;
+  width: 100%; min-width: 0;
+  height: 40px !important; min-height: 40px !important; max-height: 40px !important;
+  margin: 0 !important; padding: 0 8px !important;
+  border: 1px solid #d0dbe5 !important; border-radius: 7px;
+  background: white; color: #24364a;
+  font: inherit; font-size: 13px !important; font-weight: 400; line-height: 1.2 !important;
+  text-align: left; cursor: pointer; box-shadow: none !important;
+}
+#cw-weekend-events .cwe-ms-btn span { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#cw-weekend-events .cwe-ms-btn svg { flex: 0 0 auto; opacity: .65; }
+#cw-weekend-events .cwe-ms-btn.has-choice { border-color: #183a60 !important; font-weight: 600; }
+#cw-weekend-events #cwe-type-ms { flex: 0 1 180px; min-width: 135px; }
+#cw-weekend-events #cwe-type-ms .cwe-ms-btn { border-radius: 8px; padding: 0 11px !important; border-color: #d6dee7 !important; }
+#cw-weekend-events #cwe-type-ms .cwe-ms-btn.has-choice { border-color: #183a60 !important; }
+#cw-weekend-events .cwe-ms-panel {
+  position: absolute; top: calc(100% + 4px); left: 0; z-index: 60;
+  min-width: max(100%, 200px); width: max-content; max-width: min(300px, calc(100vw - 24px));
+  max-height: 320px; overflow: auto;
+  padding: 4px 0; background: white; color: #24364a;
+  border: 1px solid #c9d5e1; border-radius: 9px;
+  box-shadow: 0 8px 24px rgba(15,32,52,.16);
+  font-size: 13px; font-weight: 400;
+}
+#cw-weekend-events .cwe-ms-panel[hidden] { display: none !important; }
+#cw-weekend-events .cwe-ms-head, #cw-weekend-events .cwe-ms-foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 4px 10px; font-size: 12px; color: #697584;
+}
+#cw-weekend-events .cwe-ms-foot { position: sticky; bottom: -4px; background: inherit; border-top: 1px solid #e3e9ef; padding-top: 6px; padding-bottom: 6px; }
+#cw-weekend-events .cwe-ms-head button, #cw-weekend-events .cwe-ms-foot button {
+  margin: 0 !important; padding: 4px 8px !important; border: 0 !important; background: none !important;
+  color: #1d5ea8; font: inherit; font-size: 12px !important; font-weight: 600; cursor: pointer; box-shadow: none !important;
+}
+#cw-weekend-events .cwe-ms-head button:disabled { color: #a9b4c0; cursor: default; }
+#cw-weekend-events .cwe-ms-item {
+  display: flex !important; flex-direction: row !important; align-items: center !important; justify-content: flex-start !important; gap: 9px !important;
+  text-align: left !important; min-width: 0;
+  margin: 0 !important; padding: 7px 12px !important;
+  font-size: 13px !important; font-weight: 400 !important; color: inherit !important;
+  cursor: pointer; white-space: nowrap; line-height: 1.25;
+}
+#cw-weekend-events .cwe-ms-item:hover { background: #f0f4f8; }
+#cw-weekend-events .cwe-ms-item input { margin: 0 !important; width: 16px; height: 16px; flex: 0 0 16px; accent-color: #183a60; }
+#cw-weekend-events .cwe-ms-empty { padding: 8px 12px; color: #697584; font-size: 12px; }
+@media(max-width:640px) {
+  #cw-weekend-events .cwe-geography .cwe-field { font-size: 11px; }
+  #cw-weekend-events .cwe-geography .cwe-ms-btn { padding: 0 4px !important; font-size: 11px !important; gap: 3px; }
+  #cw-weekend-events #cwe-type-ms { flex: 0 1 calc(45% - 5px); min-width: 0; }
+  #cw-weekend-events .cwe-ms-item { padding: 10px 14px !important; font-size: 14px !important; }
+  #cw-weekend-events .cwe-ms-panel { max-height: 60vh; }
+}
+@media(max-width:350px) {
+  #cw-weekend-events .cwe-geography .cwe-ms-btn { font-size: 10px !important; }
+}
+
 /* v59: dark mode. The site follows the reader's system setting
    (prefers-color-scheme); colors match the hourly forecast card's dark theme. */
 @media (prefers-color-scheme: dark) {
@@ -556,6 +597,18 @@
  #cw-weekend-events .cwe-diagnostics-controls { border-top-color:#2f3a4a; }
  #cw-weekend-events #cwe-diagnostics { color:#b4bdc9; }
  #cw-weekend-events #cwe-cards { scrollbar-color:#4b5563 transparent; }
+ #cw-weekend-events .cwe-geography .cwe-field { color:#c3ccd8; }
+ #cw-weekend-events .cwe-ms-btn { background:#111827; color:#e5e7eb; border-color:#374151 !important; }
+ #cw-weekend-events .cwe-ms-btn.has-choice,
+ #cw-weekend-events #cwe-type-ms .cwe-ms-btn.has-choice { border-color:#8fb4ff !important; }
+ #cw-weekend-events #cwe-type-ms .cwe-ms-btn { border-color:#374151 !important; }
+ #cw-weekend-events .cwe-ms-panel { background:#111827; color:#e5e7eb; border-color:#374151; box-shadow:0 8px 24px rgba(0,0,0,.5); color-scheme:dark; }
+ #cw-weekend-events .cwe-ms-head, #cw-weekend-events .cwe-ms-foot { color:#9aa4b2; }
+ #cw-weekend-events .cwe-ms-foot { border-top-color:#2f3a4a; }
+ #cw-weekend-events .cwe-ms-head button, #cw-weekend-events .cwe-ms-foot button { color:#8fb4ff; }
+ #cw-weekend-events .cwe-ms-head button:disabled { color:#4b5563; }
+ #cw-weekend-events .cwe-ms-item:hover { background:#1f2937; }
+ #cw-weekend-events .cwe-ms-item input { accent-color:#8fb4ff; }
 }
 </style>
 
@@ -693,8 +746,9 @@ const $=s=>root.querySelector(s);
 const cards=$('#cwe-cards');
 const detail=$('#cwe-detail');
 const state={
- events:[],reports:[],day:'0',region:'',county:'',
- city:'',type:'',search:'',selected:null,detailOpenId:null,scrollColumn:0,
+ events:[],reports:[],day:'0',
+ // v63: filters hold any number of choices (empty = all).
+ regions:new Set(),counties:new Set(),cities:new Set(),types:new Set(),search:'',selected:null,detailOpenId:null,scrollColumn:0,
  enriching:false,attempted:0,enriched:0,failed:0,userSelected:false,
  sourcesDone:0,sourceTotal:0,started:performance.now(),finishedMs:0
 };
@@ -2740,45 +2794,109 @@ function dedupe(events){
 
 /* Filter controls */
 
-function options(select,values,label,current){
- select.replaceChildren();
- const all=document.createElement('option');
- all.value='';all.textContent=label;
- select.append(all);
- for(const value of values){
-  const o=document.createElement('option');
-  o.value=value;
-  o.textContent=value;
-  select.append(o);
- }
- select.value=values.includes(current)?current:'';
- return select.value;
+/* v63: checklist dropdown. Choices apply as they are ticked; an empty
+ * selection means "all". */
+const multiSelects=[];
+function multiSelect(id,{allLabel,noun,labelledBy,labelOf=v=>v,onChange}){
+ const wrap=$('#'+id);
+ wrap.classList.add('cwe-ms');
+ const btn=document.createElement('button');
+ btn.type='button';btn.className='cwe-ms-btn';
+ btn.setAttribute('aria-haspopup','true');btn.setAttribute('aria-expanded','false');
+ if(labelledBy)btn.setAttribute('aria-describedby',labelledBy);
+ const text=document.createElement('span');
+ btn.append(text);
+ btn.insertAdjacentHTML('beforeend','<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>');
+ const panel=document.createElement('div');
+ panel.className='cwe-ms-panel';panel.hidden=true;panel.setAttribute('role','group');
+ if(labelledBy)panel.setAttribute('aria-labelledby',labelledBy);
+ wrap.append(btn,panel);
+ const ms={values:[],selected:new Set(),
+  setValues(values){
+   this.values=values;
+   for(const v of [...this.selected])if(!values.includes(v))this.selected.delete(v);
+   this.drawButton();if(!panel.hidden)this.drawPanel();
+  },
+  drawButton(){
+   const sel=this.values.filter(v=>this.selected.has(v)).map(labelOf);
+   let t=allLabel;
+   if(sel.length===1)t=sel[0];
+   else if(sel.length===2)t=(sel[0]+', '+sel[1]).length<=24?sel[0]+', '+sel[1]:sel[0]+' + 1 more';
+   else if(sel.length>2)t=sel.length+' '+noun;
+   text.textContent=t;btn.title=sel.length?sel.join(', '):allLabel;
+   btn.classList.toggle('has-choice',sel.length>0);
+  },
+  drawPanel(){
+   panel.replaceChildren();
+   const head=document.createElement('div');head.className='cwe-ms-head';
+   const count=document.createElement('span');
+   count.textContent=this.selected.size?this.selected.size+' selected':allLabel;
+   const clear=document.createElement('button');clear.type='button';clear.textContent='Clear';
+   clear.disabled=!this.selected.size;
+   clear.addEventListener('click',()=>{this.selected.clear();this.drawPanel();this.drawButton();onChange();});
+   head.append(count,clear);panel.append(head);
+   if(!this.values.length){const n=document.createElement('div');n.className='cwe-ms-empty';n.textContent='No choices for this selection';panel.append(n);}
+   for(const v of this.values){
+    const row=document.createElement('label');row.className='cwe-ms-item';
+    const box=document.createElement('input');box.type='checkbox';box.checked=this.selected.has(v);
+    box.addEventListener('change',()=>{
+     if(box.checked)this.selected.add(v);else this.selected.delete(v);
+     count.textContent=this.selected.size?this.selected.size+' selected':allLabel;
+     clear.disabled=!this.selected.size;
+     this.drawButton();onChange();
+    });
+    const span=document.createElement('span');span.textContent=labelOf(v);
+    row.append(box,span);panel.append(row);
+   }
+   const foot=document.createElement('div');foot.className='cwe-ms-foot';
+   const done=document.createElement('button');done.type='button';done.textContent='Done';
+   done.addEventListener('click',()=>{this.close();btn.focus();});
+   foot.append(document.createElement('span'),done);panel.append(foot);
+  },
+  open(){
+   for(const other of multiSelects)if(other!==this)other.close();
+   this.drawPanel();panel.hidden=false;btn.setAttribute('aria-expanded','true');
+   // Keep the list on screen: shift it left when it would run off the right edge.
+   panel.style.left='0px';
+   const r=panel.getBoundingClientRect(),over=r.right-(document.documentElement.clientWidth-8);
+   if(over>0)panel.style.left=(-Math.min(over,r.left-8))+'px';
+  },
+  close(){if(!panel.hidden){panel.hidden=true;btn.setAttribute('aria-expanded','false');}},
+  wrap,btn,panel
+ };
+ btn.addEventListener('click',()=>panel.hidden?ms.open():ms.close());
+ panel.addEventListener('keydown',e=>{if(e.key==='Escape'){ms.close();btn.focus();}});
+ btn.addEventListener('keydown',e=>{if(e.key==='Escape')ms.close();});
+ multiSelects.push(ms);ms.drawButton();
+ return ms;
 }
+document.addEventListener('click',e=>{for(const ms of multiSelects)if(!ms.wrap.contains(e.target))ms.close();});
+
+const REGION_NAMES={DC:'DC',MD:'Maryland',VA:'Virginia'};
+const TYPE_OPTIONS=[['festival','Festivals & fairs'],['market','Markets'],['nature','Parks & nature'],['fitness','Runs & fitness'],['sports','Sports'],['family','Family activities'],['music','Outdoor music'],['water','On the water'],['other','Other outdoor']];
+const TYPE_NAMES=Object.fromEntries(TYPE_OPTIONS);
+const regionMS=multiSelect('cwe-state-ms',{allLabel:'All DC, MD, and VA',noun:'states',labelledBy:'cwe-state-label',labelOf:v=>REGION_NAMES[v]||v,onChange:()=>{geography();render();}});
+const countyMS=multiSelect('cwe-county-ms',{allLabel:'All counties',noun:'counties',labelledBy:'cwe-county-label',onChange:()=>{geography();render();}});
+const cityMS=multiSelect('cwe-city-ms',{allLabel:'All cities',noun:'cities',labelledBy:'cwe-city-label',onChange:()=>render()});
+const typeMS=multiSelect('cwe-type-ms',{allLabel:'All event types',noun:'event types',labelOf:v=>TYPE_NAMES[v]||v,onChange:()=>render()});
+typeMS.btn.setAttribute('aria-label','Event type');
+typeMS.setValues(TYPE_OPTIONS.map(t=>t[0]));
+state.regions=regionMS.selected;state.counties=countyMS.selected;state.cities=cityMS.selected;state.types=typeMS.selected;
 
 function geography(){
- state.region=options(
-  $('#cwe-state'),['DC','MD','VA'],
-  'All DC, MD, and VA',state.region
- );
-
- const counties=state.region?
-  GEOGRAPHY[state.region]||[]:
-  [...new Set(Object.values(GEOGRAPHY).flat())];
-
- state.county=options(
-  $('#cwe-county'),counties.sort(),
-  'All counties',state.county
- );
-
+ regionMS.setValues(['DC','MD','VA']);
+ const counties=state.regions.size?
+  [...state.regions].flatMap(r=>GEOGRAPHY[r]||[]):
+  Object.values(GEOGRAPHY).flat();
+ countyMS.setValues([...new Set(counties)].sort());
  const cities=[...new Set(state.events.filter(e=>
-  (!state.region||e.state===state.region)&&
-  (!state.county||e.county===state.county)
+  (!state.regions.size||state.regions.has(e.state))&&
+  (!state.counties.size||state.counties.has(e.county))
  ).map(e=>e.city).filter(Boolean))].sort();
-
- state.city=options(
-  $('#cwe-city'),cities,'All cities',state.city
- );
+ cityMS.setValues(cities);
 }
+// For the forecast card: a single place when exactly one is chosen.
+const only=set=>set.size===1?[...set][0]:'';
 
 function easternClock(){
  const p=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date()).map(x=>[x.type,x.value]));
@@ -2821,10 +2939,10 @@ function matches(e){
   // Friday counts from 6 p.m.: evening events only.
   if(weekdayOf(e.date)===5&&!(e.time&&e.time>='18:00'))return false;
  }else if(e.date!==days[Number(state.day)])return false;
- if(state.region&&e.state!==state.region)return false;
- if(state.county&&e.county!==state.county)return false;
- if(state.city&&e.city!==state.city)return false;
- if(state.type&&e.category!==state.type)return false;
+ if(state.regions.size&&!state.regions.has(e.state))return false;
+ if(state.counties.size&&!state.counties.has(e.county))return false;
+ if(state.cities.size&&!state.cities.has(e.city))return false;
+ if(state.types.size&&!state.types.has(e.category))return false;
  if(state.search&&![
   e.title,e.venue,e.address,e.city,
   e.county,e.description
@@ -3022,19 +3140,6 @@ function selectEvent(e,showDetails=false){
  publishSelection(e,true);
 }
 
-$('#cwe-state').addEventListener('change',e=>{
- state.region=e.target.value;
- state.county='';state.city='';
- geography();render();
-});
-$('#cwe-county').addEventListener('change',e=>{
- state.county=e.target.value;
- state.city='';
- geography();render();
-});
-$('#cwe-city').addEventListener('change',e=>{
- state.city=e.target.value;render();
-});
 root.querySelectorAll('[data-day]').forEach(button=>{
  button.addEventListener('click',()=>{
   state.day=button.dataset.day;
@@ -3049,7 +3154,7 @@ root.querySelectorAll('[data-day]').forEach(button=>{
   detail.replaceChildren();
   cards.scrollLeft=0;
   cards.scrollTop=0;
-  window.dispatchEvent(new CustomEvent('cw:events-day-changed',{detail:{day:state.day,date:state.day==='weekend'?null:days[Number(state.day)],weekendDates:[...weekendDays],city:state.city,county:state.county,region:state.region}}));
+  window.dispatchEvent(new CustomEvent('cw:events-day-changed',{detail:{day:state.day,date:state.day==='weekend'?null:days[Number(state.day)],weekendDates:[...weekendDays],city:only(state.cities),county:only(state.counties),region:only(state.regions)}}));
   render();
  });
 });
@@ -3059,9 +3164,6 @@ if(easternClock()>='21:00'){
  state.day='1';
  root.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('active',b.dataset.day==='1'));
 }
-$('#cwe-type').addEventListener('change',e=>{
- state.type=e.target.value;render();
-});
 $('#cwe-search').addEventListener('input',e=>{
  state.search=e.target.value.trim().toLowerCase();
  render();
