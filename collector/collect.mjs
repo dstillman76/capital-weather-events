@@ -657,6 +657,13 @@ export function athleticsTitle(t, sport) {
   if (round) return `${round[1]}: ${round[2].replace(/^./, c => c.toUpperCase())} game, opponent to be determined`;
   return t;
 }
+// "13:00" UTC on an Eastern date -> "08:00" (EST) or "09:00" (EDT).
+export function utcClockToEastern(date, hhmm) {
+  if (!/^\d\d:\d\d$/.test(hhmm || '')) return hhmm;
+  const t = new Date(`${date}T${hhmm}:00Z`);
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', hourCycle: 'h23'}).formatToParts(t).map(x => [x.type, x.value]));
+  return `${p.hour}:${p.minute}`;
+}
 export function parseSidearmICS(text, src, today, windowEnd) {
   const out = [];
   for (const ev of icsEvents(text)) {
@@ -983,6 +990,16 @@ export async function collectFindLocal(cache, today, windowEnd) {
     // A 90 km circle reaches Baltimore city, which is outside the coverage area.
     if (/^baltimore$/i.test(where[1].trim())) { report.skipped++; continue; }
     const types = Array.isArray(e.event_types) ? e.event_types : [];
+    // FindLocal's Prince William County Parks listings carry UTC clock times
+    // (Dale City Farmers Market, 8 a.m., arrives as 13:00); shown in Eastern.
+    let host = ''; try { host = new URL(url).hostname; } catch {}
+    const utcClock = /(^|\.)pwcva\.gov$/i.test(host);
+    const clock = t => (t && utcClock ? utcClockToEastern(start, t) : t);
+    // The "Location:" line can be a street address that differs from the
+    // venue's (an organizer's office): then it is where the event happens.
+    const flLocation = ((textOf(e.description).match(/\bLocation:\s*([^\n]{2,160}?)\s*$/) || [])[1] || '').split(/\s+·\s+(?=Admission|Ages|Cost|Price)/i)[0];
+    const flAddr = flLocation.match(/^\d+[A-Za-z]?\s+\S.*?,\s*([^,]+?),\s*(DC|MD|VA)\b/);
+    const moved = flAddr && !String(e.venue_address || '').toLowerCase().startsWith(flLocation.toLowerCase().slice(0, 12));
     records.push({
       source: 'FindLocal', siteCounty: '', title: decode(e.title || '').trim(), url,
       // Which link this is: the event's own page, its ticket page, or only the venue's site.
@@ -990,13 +1007,17 @@ export async function collectFindLocal(cache, today, windowEnd) {
       flId: e.id ?? e.event_id ?? null,
       links: Object.fromEntries(Object.entries(e).filter(([k, v]) => /url|link|slug/i.test(k) && typeof v === 'string' && v)),
       dates, dateKind: start === end ? 'single' : 'range',
-      time: e.start_time && e.start_time !== '00:00' ? e.start_time : '', endTime: e.end_time || '',
-      venue: decode(e.venue_name || '').trim(), address: decode(e.venue_address || '').trim(),
-      city: where[1].trim(), state: where[2], lat: e.venue_lat ?? null, lng: e.venue_lng ?? null,
+      time: e.start_time && e.start_time !== '00:00' ? clock(e.start_time) : '', endTime: clock(e.end_time || ''),
+      venue: decode(e.venue_name || '').trim(),
+      address: moved ? flLocation : decode(e.venue_address || '').trim(),
+      city: moved ? flAddr[1].trim() : where[1].trim(), state: moved ? flAddr[2] : where[2],
+      // The venue's coordinates are wrong when the event is elsewhere; the
+      // geocoding step places it from the street address instead.
+      lat: moved ? null : e.venue_lat ?? null, lng: moved ? null : e.venue_lng ?? null,
       description: textOf(e.description).slice(0, 1200),
       // Where at the venue, when FindLocal says ("Location: Spanish Ballroom"
       // at the end of Glen Echo Park's listings); read before the trim above.
-      flLocation: ((textOf(e.description).match(/\bLocation:\s*([^\n]{2,160}?)\s*$/) || [])[1] || '').split(/\s+·\s+(?=Admission|Ages|Cost|Price)/i)[0],   // without the admission/ages notes that follow
+      flLocation,   // without the admission/ages notes that follow
       categories: [e.category, ...types].filter(Boolean).join(', '),
       recurrence: '', admission: e.price || '',
       venueType: e.venue_type || '', flCategory: e.category || '',
