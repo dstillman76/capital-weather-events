@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-20T16:33:11.967Z",
+ "generatedAt": "2026-11-20T22:14:40.138Z",
  "window": {
   "start": "2026-11-20",
   "end": "2026-11-28"
@@ -10,9 +10,9 @@
    "source": "Visit Fairfax",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 357,
-   "opened": 52,
-   "cached": 345,
+   "sitemapEvents": 354,
+   "opened": 38,
+   "cached": 342,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -24,13 +24,13 @@
    "source": "Visit Loudoun",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 385,
-   "opened": 68,
-   "cached": 373,
+   "sitemapEvents": 431,
+   "opened": 186,
+   "cached": 419,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 147,
+   "inWindow": 165,
    "pending": 0,
    "note": ""
   },
@@ -38,13 +38,13 @@
    "source": "Visit Frederick",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 189,
-   "opened": 67,
-   "cached": 179,
+   "sitemapEvents": 218,
+   "opened": 68,
+   "cached": 209,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 55,
+   "inWindow": 58,
    "pending": 0,
    "note": ""
   },
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 73,
-   "opened": 21,
+   "opened": 0,
    "cached": 73,
    "refused": 0,
    "errors": 0,
@@ -66,9 +66,9 @@
    "source": "Visit Howard County",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 51,
-   "opened": 9,
-   "cached": 30,
+   "sitemapEvents": 50,
+   "opened": 8,
+   "cached": 29,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -80,9 +80,9 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 269,
-   "opened": 113,
-   "cached": 264,
+   "sitemapEvents": 266,
+   "opened": 48,
+   "cached": 262,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 370,
-   "opened": 311,
+   "opened": 8,
    "cached": 368,
    "refused": 0,
    "errors": 0,
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 236,
-   "inWindow": 179,
+   "listings": 240,
+   "inWindow": 182,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 65,
-   "opened": 7,
+   "opened": 5,
    "skippedLong": 5,
    "skippedInternal": 2,
    "inWindow": 16,
@@ -166,17 +166,17 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 12,
-   "remaining": 9902,
-   "listings": 1154,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 711,
-   "skipped": 210,
-   "note": "12 call(s) used; 9902 left this month; next refresh in 1 day(s).",
-   "indoorVenue": 233
+   "skipped": 0,
+   "note": "Refreshed 2026-11-20; next refresh in 1 day(s) to stay within the monthly quota.",
+   "keptPrevious": 711
   }
  ],
- "count": 1535,
+ "count": 1559,
  "exclude": [
   "Pickleball at Metro Park",
   "Secretaries' Cup Fan Fest"
@@ -1140,7 +1140,7 @@
    "dateKind": "long-range",
    "range": [
     "2026-05-07",
-    "2028-11-12"
+    "2028-11-20"
    ],
    "time": "",
    "endTime": "",
@@ -4018,6 +4018,28 @@
   {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
+   "title": "Jazz by Candlelight",
+   "url": "https://www.visitloudoun.org/event/jazz-by-candlelight/52977/",
+   "dates": [
+    "2026-11-20"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "20:30",
+   "venue": "South Riding Proprietary",
+   "address": "42420 Unicorn Drive, South Riding, VA 20152",
+   "city": "South Riding",
+   "state": "VA",
+   "lat": 38.9189957,
+   "lng": -77.5357835,
+   "description": "An intimate live-jazz performance by the Sweet Something Jazz Quartet surrounded by candlelight. Tickets include one complimentary drink ticket; registration is required and the event is for adults 21+.",
+   "categories": "Musical Performances",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
    "title": "Jumptown at The Barns",
    "url": "https://www.visitloudoun.org/event/jumptown-at-the-barns/52812/",
    "dates": [
@@ -4831,6 +4853,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Mix, Sip & Sourdough",
+   "url": "https://www.visitloudoun.org/event/mix-sip-%26-sourdough/52975/",
+   "dates": [
+    "2026-11-20"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "20:00",
+   "venue": "Merrick Mama Bakes",
+   "address": "12428 Mountain Road, Lovettsville, VA 20180",
+   "city": "Lovettsville",
+   "state": "VA",
+   "lat": 39.2707849,
+   "lng": -77.6873631,
+   "description": "A hands-on sourdough experience where participants learn the basics, shape a loaf, and receive materials for baking at home.",
+   "categories": "Culinary",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Monster Mini Golf Crofton Supports Special Olympics Throughout November",
@@ -5518,6 +5562,28 @@
    "recurrence": "",
    "admission": "",
    "geocoded": "OpenStreetMap Nominatim"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Peppy Penguins Painting Class",
+   "url": "https://www.visitloudoun.org/event/peppy-penguins-painting-class/52974/",
+   "dates": [
+    "2026-11-20"
+   ],
+   "dateKind": "single",
+   "time": "15:30",
+   "endTime": "17:30",
+   "venue": "Muse Paintbar",
+   "address": "20626 Easthampton Plaza, Ashburn, VA 20147",
+   "city": "Ashburn",
+   "state": "VA",
+   "lat": 39.0519711,
+   "lng": -77.453704,
+   "description": "A guided acrylic painting session where artist instructors lead participants step by step through a Peppy Penguins canvas painting. No art experience is required; all ages are welcome, with reservations required.",
+   "categories": "Holiday Celebrations, Arts & Culture",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Loudoun",
@@ -7250,6 +7316,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Turkish Lamp!",
+   "url": "https://www.visitloudoun.org/event/turkish-lamp!/52976/",
+   "dates": [
+    "2026-11-20"
+   ],
+   "dateKind": "single",
+   "time": "18:30",
+   "endTime": "",
+   "venue": "Wine & Design",
+   "address": "1607 Village Market Boulevard Southeast, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.08829,
+   "lng": -77.5233021,
+   "description": "A guided DIY art class in which participants create a take-home Turkish lamp design. No artistic experience is required.",
+   "categories": "Arts & Culture",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "George Washington University",
    "siteCounty": "",
    "title": "Unfossilizing African Art",
@@ -7630,6 +7718,28 @@
    "admission": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Wizard Fest Sterling, VA",
+   "url": "https://www.visitloudoun.org/event/wizard-fest-sterling-va/52978/",
+   "dates": [
+    "2026-11-20"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": "23:00",
+   "venue": "Wizard Fest",
+   "address": "22455 Davis Drive, Sterling, VA 20164",
+   "city": "Sterling",
+   "state": "VA",
+   "lat": 38.9944782,
+   "lng": -77.4229098,
+   "description": "An interactive fantasy-themed party with themed cocktails and brews, a costume contest, fantasy trivia, wizard games and competitions, a photo booth, a magical guild ceremony, and a live DJ dance party.",
+   "categories": "Beer, Family-Friendly",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Y2K: The Millennium Party!",
@@ -7836,6 +7946,28 @@
    "lng": null,
    "description": "Cheer on the George Mason University basketball team while they defend their home court at EagleBank Arena in Fairfax, VA. For more information and tickets, visit their website.",
    "categories": "Sports",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "13th Annual HVRS Holiday Bazaar",
+   "url": "https://www.visitloudoun.org/event/13th-annual-hvrs-holiday-bazaar/52979/",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "14:00",
+   "venue": "Hamilton Volunteer Rescue Squad Auxiliary",
+   "address": "39077 East Colonial Highway, Hamilton, VA 20158",
+   "city": "Hamilton",
+   "state": "VA",
+   "lat": 39.1338241,
+   "lng": -77.6518037,
+   "description": "Annual holiday bazaar featuring holiday gifts and décor, crochet items, baked goods, yard décor, local honey, pet items, antiques, jewelry, apple butter, ceramics, local author books, handmade soap, and more. Includes a festive raffle. All proceeds support the Hamilton Volunteer Rescue Squad. Hosted by the HVRS Auxiliary.",
+   "categories": "Holiday Celebrations",
    "recurrence": "",
    "admission": ""
   },
@@ -8160,6 +8292,28 @@
    "lng": null,
    "description": "The Younger family on Chicago’s South Side is holding tight to visions of a brighter future, but when a life insurance check arrives, suddenly possibility comes with a price. Sat Nov 21 2:00pm To – 4:30pm The Clarice Smith Performing Arts Center Buy Tickets Clarice website Add to Calendar “What happens to a dream deferred? / Does it dry up / like a raisin in the sun?” - Langston Hughes The Younger family on Chicago’s South Side is holding tight to visions of a brighter future. When a life insurance check arrives, suddenly possibility comes with a price. As each family member reaches for a different dream, they must confront what a better life really means – and what America is willing to share. Both tender and electrifying, A Raisin in the Sun celebrates Black joy, resilience and family while facing the brutal realities of segregation and discrimination. A landmark of American theater, it made history as the first Broadway play written by an African American woman (Lorraine Hansberry), the first Broadway play directed by an African American man (Lloyd Richards), and the first commercially produced Broadway drama to center Black life. TDPS Assistant Professor KenYatta Rogers (director of Stick Fly, Men on Boats , Metamorphoses and Home ) directs this enduring American classic. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Pa",
    "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Abstract Painting",
+   "url": "https://www.visitloudoun.org/event/abstract-painting/52980/",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "13:00",
+   "venue": "Round Hill Arts Center",
+   "address": "35246 Leesburg Pike, Round Hill, VA 20141",
+   "city": "Round Hill",
+   "state": "VA",
+   "lat": 39.127938,
+   "lng": -77.7874303,
+   "description": "A one-day workshop exploring color, line, texture, and abstract techniques. Participants examine how color relates to emotion and combine spontaneity with intentional design. Materials are provided, and artists of all skill levels are welcome.",
+   "categories": "Arts & Culture",
    "recurrence": "",
    "admission": ""
   },
@@ -8521,6 +8675,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Art Workshop: Painting Dualities",
+   "url": "https://www.visitloudoun.org/event/art-workshop%3a-painting-dualities/52981/",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "10:30",
+   "endTime": "12:00",
+   "venue": "Loudoun County Public Library",
+   "address": "22850 Brambleton Plaza, Ashburn, VA 20148",
+   "city": "Ashburn",
+   "state": "VA",
+   "lat": 38.9848888,
+   "lng": -77.5364529,
+   "description": "Create two paintings exploring harmony and balance through contrasting light and dark. Experiment with color mixing to show how opposing forces can complement each other artistically.",
+   "categories": "Arts & Culture",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Patch",
@@ -11621,7 +11797,29 @@
    "state": "VA",
    "lat": 38.7485811,
    "lng": -77.47214819999999,
-   "description": "Dare to Face the Unknown and Unearth the Secrets of the Paranormal? Are you ready for a spine-tingling adventure like no other this Halloween? Join the Ghost Doctors in Manassas, VA, as they lead you through an eerie paranormal investigation in search of ghostly encounters. With their extensive knowledge and state-of-the-art equipment, these real-life ghost hunters will guide you through the haunted streets of Manassas, for an unforgettable and hair-raising experience. Known for their fearlessness and expertise, the Ghost Doctors are known on network and cable TV as renowned paranormal investigators and tour guides to the supernatural. This Halloween, they are gearing up to take you on a supernatural journey through the historic landmarks of Manassas, where spirits of the past wander and secrets wait to be revealed. During this thrilling adventure, you will receive a crash course in the basics of ghost hunting, learning how to utilize authentic ghost hunting equipment. Equipped with your newfound knowledge, you will join the Ghost Doctors as they delve into the unknown, braving the mysteries that dwell within Manassas. Be prepared to encounter signs of paranormal activity as trek past century-old buildings. The Ghost Doctors have previously captured electronic voice phenomena (EVPs) and experienced positive readings on their ghost hunting equipment, heightening the anticipation for what awaits you. You might even capture a ghostly apparition in your own photographs! Discover ",
+   "description": "Dare to Face the Unknown and Unearth the Secrets of the Paranormal? Are you ready for a spine-tingling adventure like no other this Halloween? Join the Ghost Doctors in Manassas, VA, as they lead you through an eerie paranormal investigation in search of ghostly encounters. With their extensive knowledge and state-of-the-art equipment, these real-life ghost hunters will guide you through the haunted streets of Manassas, for an unforgettable and hair-raising experience. Known for their fearlessness and expertise, the Ghost Doctors are known on network and cable TV as renowned paranormal investigators and tour guides to the supernatural. The Ghost Doctors are gearing up to take you on a supernatural journey through the historic landmarks of Manassas, where spirits of the past wander and secrets wait to be revealed. During this thrilling adventure, you will receive a crash course in the basics of ghost hunting, learning how to utilize authentic ghost hunting equipment. Equipped with your newfound knowledge, you will join the Ghost Doctors as they delve into the unknown, braving the mysteries that dwell within Manassas. Be prepared to encounter signs of paranormal activity as trek past century-old buildings. The Ghost Doctors have previously captured electronic voice phenomena (EVPs) and experienced positive readings on their ghost hunting equipment, heightening the anticipation for what awaits you. You might even capture a ghostly apparition in your own photographs! Discover a t",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Ghost Doctors' Chilling Ghost Hunting Adventure in Historic Old Town Manassas!",
+   "url": "https://patch.com/virginia/leesburg/calendar/event/20261121/5687cade-d1b3-4eba-ad7e-6ccabce4e0f4/ghost-doctors-chilling-ghost-hunting-adventure-in-historic-old-town-manassas",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "17:00",
+   "endTime": "",
+   "venue": "",
+   "address": "9101 Prince William St",
+   "city": "Manassas",
+   "state": "VA",
+   "lat": 38.7485811,
+   "lng": -77.47214819999999,
+   "description": "This Saturday night (11/21/26-5:00 PM) brace yourself for a REAL ghost hunt for spirits in Old Town Manassas Virginia...it's a Paranormal Experience! Step into the supernatural realm and join the renowned Ghost Doctors on an electrifying paranormal investigation through the enchanting streets of Old Town Manassas, Virginia. With over 150 years of ghostly presence, this captivating city holds untold secrets just waiting to be discovered. Ditch the ordinary ghost tours and immerse yourself in a truly interactive and immersive experience like no other. The Ghost Doctors --as seen on cable and network TV from coast to coast and tour guides to the supernatural--will escort you on a spine-tingling journey where you'll have the chance to use real ghost hunting equipment and learn the protocols of this exhilarating art. Prepare to explore the historic heart of Northern Virginia as you wander through the shadows of the Civil War era, where echoes of the past linger at every corner. With each step, be prepared for unexpected encounters with spirits who have witnessed the city's tumultuous history first-hand. As twilight descends, the veil between the living and the departed grows thinner, and you might just find yourself face to face with the lingering souls who still call Old Town Manassas home. This is not a mere storytelling session; this is a genuine ghost hunt, packed with thrilling encounters that will leave you breathless. Dare to face the unknown? Then book your tickets now to ",
    "categories": "free",
    "recurrence": "",
    "admission": ""
@@ -11764,6 +11962,28 @@
    "categories": "Family Friendly, Nature & Outdoors, Food and Drink, Farmers Markets, Free",
    "recurrence": "Recurring weekly on Saturday",
    "admission": "FREE"
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "GRIND Pop Up Art Show",
+   "url": "https://www.visitloudoun.org/event/grind-pop-up-art-show/52983/",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "21:00",
+   "venue": "Kevin Bednarz / GRIND",
+   "address": "538 Fort Evans Road Northeast, Leesburg, VA 20176",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.1069314,
+   "lng": -77.526508,
+   "description": "A one-night pop-up art show curated by local artist Kevin Bednarz, featuring original paintings, skateboard decks, street art, limited-edition prints, guest artists, live music, complimentary refreshments, and cocktails. A portion of proceeds benefits Loudoun County first responders.",
+   "categories": "Arts & Culture",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -17281,7 +17501,7 @@
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "The Maryland Opera Studio presents Benjamin Britten’s haunting chamber opera that centers on the tragic consequences when power and pride collide. Wed Nov 18 7:30pm To – 10:00pm The Clarice Smith Performing Arts Center Buy Tickets Clarice website Add to Calendar Maryland Opera Studio performs Benjamin Britten’s The Rape of Lucretia , an emotionally raw chamber opera that's tragic plot begs us to reflect on violence, misogyny, the abuse of power and how these themes continue to haunt society. A group of soldiers decide to test the loyalty of the wives left behind at home, unleashing a cruel and reckless chain of events that have devastating consequences. What begins as drunken bluster soon spirals into an act of irreversible violence, exposing the destructive power of pride, entitlement and unchecked authority. At the center of the tragedy is Lucretia, a woman whose integrity becomes the focus of both admiration and devastating cruelty. Written by Britten in the aftermath of the World War II, The Rape of Lucretia reflects a society struggling to rebuild itself after immense suffering and moral collapse. Britten’s chamber opera confronts the abuse of power with unflinching boldness while searching for compassion, redemption and the possibility of renewal. Framed by male and female choruses who attempt to make sense of the trage",
+   "description": "The Maryland Opera Studio presents Benjamin Britten’s haunting chamber opera that centers on the tragic consequences when power and pride collide. Sat Nov 21 7:30pm To – 10:00pm The Clarice Smith Performing Arts Center Buy Tickets Clarice website Add to Calendar Maryland Opera Studio performs Benjamin Britten’s The Rape of Lucretia , an emotionally raw chamber opera that's tragic plot begs us to reflect on violence, misogyny, the abuse of power and how these themes continue to haunt society. A group of soldiers decide to test the loyalty of the wives left behind at home, unleashing a cruel and reckless chain of events that have devastating consequences. What begins as drunken bluster soon spirals into an act of irreversible violence, exposing the destructive power of pride, entitlement and unchecked authority. At the center of the tragedy is Lucretia, a woman whose integrity becomes the focus of both admiration and devastating cruelty. Written by Britten in the aftermath of the World War II, The Rape of Lucretia reflects a society struggling to rebuild itself after immense suffering and moral collapse. Britten’s chamber opera confronts the abuse of power with unflinching boldness while searching for compassion, redemption and the possibility of renewal. Framed by male and female choruses who attempt to make sense of the trage",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -17307,6 +17527,28 @@
    "categories": "Wineries, Breweries, Distilleries, Live Music, Events, Performances",
    "recurrence": "",
    "admission": "$20/person"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "The Return of Christmas Pop-Up Bar",
+   "url": "https://patch.com/virginia/vienna/calendar/event/20261121/26e77717-630e-4885-8345-40513513da4e/the-return-of-christmas-pop-up-bar",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "21:00",
+   "endTime": "",
+   "venue": "Vienna Thai and Bar",
+   "address": "226 Maple Ave W",
+   "city": "Vienna",
+   "state": "VA",
+   "lat": 38.89856839999999,
+   "lng": -77.2682648,
+   "description": "🎄✨ THE HOLIDAY MAGIC IS BACK AT VIENNA THAI & BAR! ✨🎄 It’s the most wonderful time of the year, and we’re bringing a little extra Christmas magic to Vienna! 🎅🏻🥂 Step into our festive Christmas Pop-Up Bar, featuring sparkling holiday decorations, creative Christmas-inspired craft cocktails 🍸, and delicious Thai cuisine! 🎉 Planning a Holiday Party? Celebrate with us! Our dining room accommodates up to 45 guests. 🎄 NOW OPEN MONDAYS FOR DINNER! ⏰ 4 PM – 9 PM 📍 226 Maple Ave. West, Vienna, VA 22180 ☎️ 703-255-2467 🌐 www.viennathaiva.com ❤️ Come for the cocktails, stay for the holiday magic!",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Montgomery",
@@ -17971,6 +18213,28 @@
    "lng": -77.1289823,
    "description": "The Tradition Continues: WBS Back for One Night Only! | Saturday, Nov. 21 at 8 p.m. The 55 musicians of the Washington Balalaika Orchestra will present a program of many time periods and genres, including “Waves of the Danube, Fiddler on the Roof,” and “Speak Softly, Love” from The Godfather. “Winter is Coming” will also feature selections from Tchaikovsky’s “Nutcracker Suite”! The Washington Balalaika Society is a community orchestra of musicians who perform the music of Eastern Europe, Ukraine, Russia, and many other countries, on traditional folk instruments. It is the largest orchestra of its kind in America and has been performing in the Greater Washington, D.C. area for almost 40 years. WBS supports the Ukrainian people and provides humanitarian support for displaced Ukrainian refugees. General Admission Tickets*: $35 | $30 Seniors (65+) & Military | $15 Students | $5 Children 12 & under Group pricing available – Call the Box Office for more information",
    "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Watercolor Fall Landscape: Nov 21",
+   "url": "https://www.visitloudoun.org/event/watercolor-fall-landscape%3a-nov-21/52982/",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "10:30",
+   "endTime": "12:00",
+   "venue": "Studio 101",
+   "address": "101 Masons Lane, Leesburg, VA 20175",
+   "city": "Leesburg",
+   "state": "VA",
+   "lat": 39.0867014,
+   "lng": -77.5871235,
+   "description": "A hands-on watercolor workshop focused on washes, wet-on-wet, wet-on-dry, dry brushing, and splattering while painting an autumn landscape.",
+   "categories": "Arts & Culture",
    "recurrence": "",
    "admission": ""
   },
@@ -19434,6 +19698,28 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Cozy Winter Village: Miniature Holiday House Workshop",
+   "url": "https://www.visitloudoun.org/event/cozy-winter-village%3a-miniature-holiday-house-workshop/52984/",
+   "dates": [
+    "2026-11-22"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "17:00",
+   "venue": "Glenn",
+   "address": "43170 Southern Walk Plaza, Ashburn, VA 20148",
+   "city": "Ashburn",
+   "state": "VA",
+   "lat": 39.008698,
+   "lng": -77.508103,
+   "description": "A hands-on seasonal craft workshop in which participants decorate a wooden Christmas house or a winter woodland gnome or fairy house.",
+   "categories": "Holiday Celebrations",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Crafting Crepe Paper Plants: Poinsettia (On-site Workshop)",
@@ -20310,28 +20596,6 @@
    "lng": null,
    "description": "George Washington University Men's Basketball vs Western Kentucky Tickets: https://greenbriertipoff.com/tickets/ https://gwsports.com/calendar.aspx?game_id=15781&sport_id=3",
    "categories": "Athletics",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
-   "source": "Patch",
-   "siteCounty": "Loudoun County",
-   "title": "Ghost  Doctors' UFO Tour Smithsonian Air and Space Museum-Udvar-Hazy Center...A Space Odyssey!",
-   "url": "https://patch.com/virginia/leesburg/calendar/event/20261122/5687cade-d1b3-4eba-ad7e-6ccabce4e0f4/ghost-doctors-ufo-tour-smithsonian-air-and-space-museum-udvar-hazy-center-a-space-odyssey",
-   "dates": [
-    "2026-11-22"
-   ],
-   "dateKind": "single",
-   "time": "15:15",
-   "endTime": "",
-   "venue": "Steven F. Udvar-Hazy Center",
-   "address": "14390 Air and Space Museum Pkwy",
-   "city": "Chantilly",
-   "state": "VA",
-   "lat": 38.9109189,
-   "lng": -77.44420749999999,
-   "description": "This Sunday (11/22/26-3:15 PM) embark on an Extraterrestrial Adventure and Unravel the Mystery of UFOs Step into a world straight out of a Hollywood UFO movie as The Ghost Doctors present an exclusive and out-of-this-world UFO tour at the prestigious Smithsonian National Air and Space Museum-Hazy Ctr. Join the Ghost Doctors' (nationally renowned paranormal investigators and tour guides to the supernatural), on a journey through one of the greatest air and space museums on Earth as you dive deep into the enigmatic world of UFO phenomena. Prepare to be captivated as the Ghost Doctors take you beyond mere storytelling. Discover a cosmic showcase of reported UFO sightings from ancient aliens and mind-boggling flying machines to unexplained present day sightings, be amazed by the multitude of strange incidents and encounters that defy explanation. But this tour isn't just about thrilling tales. Brace yourself for an immersive interactive experience as the Ghost Doctors unveil the investigation techniques and tools used by UFO investigators. Learn to differentiate between genuine UFO sightings and look-alikes, exploring the boundaries of the unknown. Get ready to witness authentic audiovisual recordings that shed light on some of the most baffling UFO and close encounter cases ever recorded. As you venture past awe-inspiring flying machines, the Ghost Doctors' captivating visuals enhance your journey into the mysterious world of unidentified flying objects. Don't miss your chance t",
-   "categories": "free",
    "recurrence": "",
    "admission": ""
   },
@@ -24096,6 +24360,28 @@
    "admission": "Free"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Beginning Acrylic Painting",
+   "url": "https://www.visitloudoun.org/event/beginning-acrylic-painting/52985/",
+   "dates": [
+    "2026-11-23"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "12:00",
+   "venue": "Round Hill Arts Center",
+   "address": "35246 Leesburg Pike, Round Hill, VA 20141",
+   "city": "Round Hill",
+   "state": "VA",
+   "lat": 39.127938,
+   "lng": -77.7874303,
+   "description": "Introductory acrylic painting class focused on color mixing, basic painting techniques, brush care, and guided exercises and projects. Materials are provided. The event page specifies the class dates as November 23 through December 16, 2026, with no class on November 25.",
+   "categories": "Arts & Culture",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Bengals",
@@ -25606,6 +25892,28 @@
    "lng": null,
    "description": "Thanksgiving Break (no classes) for the Fall 2026 semester at the George Washington University.",
    "categories": "",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Thanksgiving Harvest Dinner",
+   "url": "https://www.visitloudoun.org/event/thanksgiving-harvest-dinner/52986/",
+   "dates": [
+    "2026-11-23"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "20:00",
+   "venue": "The Red Fox Inn & Tavern",
+   "address": "2 East Washington Street, Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.9692453,
+   "lng": -77.7354394,
+   "description": "A Thanksgiving-week dining experience at The Red Fox Inn & Tavern, offering seasonal cuisine in a historic Middleburg setting. The next listed dinner occurrence is Monday, November 23, 2026.",
+   "categories": "Culinary, Holiday Celebrations",
    "recurrence": "",
    "admission": ""
   },
@@ -29585,6 +29893,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "Happy Thanksgiving Yoga",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261125/7c8b3dc9-77cc-4b0e-91da-10ac95d90d6b/happy-thanksgiving-yoga",
+   "dates": [
+    "2026-11-25"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "532YOGA",
+   "address": "Madison Pl",
+   "city": "Alexandria",
+   "state": "VA",
+   "lat": 38.8135084,
+   "lng": -77.0432333,
+   "description": "Begin your holiday weekend with a special series of yoga classes designed to keep you centered and refreshed. Embrace the spirit of the season as you cultivate gratitude and peace through movement and mindfulness.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Heroes Remembered: Stories from Battleground National Cemetery",
@@ -31958,6 +32288,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Alexandria city",
+   "title": "Happy Thanksgiving Class Schedule",
+   "url": "https://patch.com/virginia/oldtownalexandria/calendar/event/20261126/f3320aba-9587-4760-90dd-0f889b55b598/happy-thanksgiving-class-schedule",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "09:30",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": 38.7945952,
+   "lng": -106.5348379,
+   "description": "Celebrate the holiday with a special Thanksgiving yoga class; Slow, Stretchy, & Delicious, with an Attitude of Gratitude. Join us for various sessions throughout the holiday week to stay active, be grateful, and be blessed.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "HAPPY THANKSGIVING!!",
@@ -32182,6 +32534,28 @@
    "description": "Show what you know at a fun weekly Trivia Night at Lake Anne Brewhouse, with great prizes (and great beer)",
    "categories": "Sports, Food and Drink, Health & Wellness",
    "recurrence": "Recurring weekly on Thursday",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Lansdowne Turkey Trot",
+   "url": "https://www.visitloudoun.org/event/lansdowne-turkey-trot/52987/",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "08:30",
+   "endTime": "",
+   "venue": "Bishop's Events",
+   "address": "43459 Riverpoint Drive, Lansdowne, VA 20176",
+   "city": "Lansdowne",
+   "state": "VA",
+   "lat": 39.0866931,
+   "lng": -77.4830168,
+   "description": "Thanksgiving Day 5K and 1-mile races in Lansdowne. Virtual registration options are also listed, but this event record is for the in-person Lansdowne location.",
+   "categories": "Holiday Celebrations, Sports & Recreation",
+   "recurrence": "",
    "admission": ""
   },
   {
@@ -34156,6 +34530,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Diamond Art & Drinks",
+   "url": "https://www.visitloudoun.org/event/diamond-art-%26-drinks/52988/",
+   "dates": [
+    "2026-11-27"
+   ],
+   "dateKind": "single",
+   "time": "05:30",
+   "endTime": "07:30",
+   "venue": "Stockyard Brewery",
+   "address": "12428 Mountain Road, Lovettsville, VA 20180",
+   "city": "Lovettsville",
+   "state": "VA",
+   "lat": 39.2707849,
+   "lng": -77.6873631,
+   "description": "A casual, self-guided diamond-art crafting event with supplies and one drink included.",
+   "categories": "Holiday Celebrations, Arts & Culture",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "DISTRICT ZOUK",
@@ -35345,6 +35741,28 @@
    "categories": "On the Water, Family Friendly, Winter Occasions",
    "recurrence": "",
    "admission": "$28/Adult $15/Child (11 and under)"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Anne Arundel County",
+   "title": "Jolly Express Cruise",
+   "url": "https://patch.com/maryland/annapolis/calendar/event/20261127/392247c1-315d-46c0-b88b-defadb86b850/jolly-express-cruise",
+   "dates": [
+    "2026-11-27"
+   ],
+   "dateKind": "single",
+   "time": "11:30",
+   "endTime": "",
+   "venue": "",
+   "address": "1 Prince George St",
+   "city": "Annapolis",
+   "state": "MD",
+   "lat": 38.9770633,
+   "lng": -76.484366,
+   "description": "Annapolis’ favorite holiday activity makes its return for the 2026 holiday season. Enjoy a festive, 45-minute, on-water “sleigh ride” along Spa Creek, with Captain Santa or Mrs. Claus at the helm. An onboard elf serves hot cocoa and good cheer. Blankets are available to stay warm and cozy. This is the perfect opportunity to start your own family holiday tradition. In the spirit of the season, a portion of proceeds are donated to Historic Annapolis. Your ticket includes the cruise and your first cup of hot cocoa. Notes and reminders:Walk-up tickets are limited! We encourage you to reserve tickets ahead of time by ordering online or by calling our sales office.Due to the limited capacity of the boat, children’s pricing applies for anyone 11 and under. Thank you for your understanding!Want the boat to yourself? Select Private Tour at checkout to purchase a private cruise for up to 21 passengers. If your desired time is not available, please contact our office at 410-268-7601 and we’ll be happy to help with your booking.Please leave large strollers in the car, as there is limited room aboard the boat.",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -36970,6 +37388,29 @@
    "lng": -77.5656196,
    "description": "$ 25.00 - $50.00 / Age All Ages Tickets:https://www.ticketweb.com/.../the-ten-band.../15030103...",
    "categories": "Musical Performances",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "The Velvet Reindeer: A Magical Holiday Pop-Up at Goodstone",
+   "url": "https://www.visitloudoun.org/event/the-velvet-reindeer%3a-a-magical-holiday-pop-up-at-goodstone/52989/",
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "dateKind": "list",
+   "time": "16:00",
+   "endTime": "18:00",
+   "venue": "Goodstone Inn & Restaurant",
+   "address": "36205 Snake Hill Road, Middleburg, VA 20117",
+   "city": "Middleburg",
+   "state": "VA",
+   "lat": 38.9941786,
+   "lng": -77.7525946,
+   "description": "Step into the magic of The Velvet Reindeer, Goodstone Inn’s enchanting holiday pop-up experience. Just beyond the Ivy Wall, the covered poolside hideaway transforms into a warm holiday retreat filled with twinkling lights, ribbon-draped evergreens, and lantern-lit corners. Perfect for all ages, this festive experience captures the timeless spirit of Holiday on the Farm with something for everyone: Stunning holiday decor with hundreds of sparkling lights and velvet accentsSeasonal cocktails ($18), festive mocktails ($10), warm hot chocolate, and spiced ciderKid-friendly treats like plain hot chocolate and ciderThe perfect setting for family outings, date nights, or festive gatheringsLocated just an hour from D.C., The Velvet Reindeer is open Friday and Saturday evenings from 4 PM and Sundays from noon–6 PM. Pair your visit with Goodstone’s famous Sunday brunch, dinner at Grayson’s, or an overnight stay to extend the holiday magic.",
+   "categories": "Holiday Celebrations",
    "recurrence": "",
    "admission": ""
   },
@@ -38987,28 +39428,6 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
-   "source": "Patch",
-   "siteCounty": "Alexandria city",
-   "title": "FLASHBACK Plays That Funky Music!",
-   "url": "https://patch.com/virginia/alexandria-va/calendar/event/20261128/bd73d6af-a011-4e0a-b47f-f6f8f785d07d/flashback-plays-that-funky-music",
-   "dates": [
-    "2026-11-28"
-   ],
-   "dateKind": "single",
-   "time": "21:00",
-   "endTime": "",
-   "venue": "Blackwall Hitch",
-   "address": "5 Cameron St",
-   "city": "Alexandria",
-   "state": "VA",
-   "lat": 38.8053609,
-   "lng": -77.03926539999999,
-   "description": "What’s a great night out for you? If rock, funk, soul, blues, and jazz are your thing- If you like to sing along, Get up and dance (or boogie down at the table) Clap your hands, play the cowbell, share that vibe- Come on out where the energy is infectious and the mood is fine! FLASHBACK is playing at Blackwall Hitch in Alexandria Saturday November 28, 9 pm to Midnight ——-NO COVER CHARGE!——-",
-   "categories": "paid",
-   "recurrence": "",
-   "admission": ""
-  },
-  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Fletcher's Cove parkrun",
@@ -39804,6 +40223,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Holiday Wreath Sale Presented by the Middletown Valley Historical Society",
+   "url": "https://www.visitfrederick.org/event/holiday-wreath-sale-presented-by-the-middletown-valley-historical-society/26394/",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "list",
+   "time": "09:00",
+   "endTime": "14:00",
+   "venue": "MVHS Carriage House/Barn",
+   "address": "308 W. Green St., Middletown, MD 21769",
+   "city": "Middletown",
+   "state": "MD",
+   "lat": 39.4448487,
+   "lng": -77.549025,
+   "description": "Please consider a visit to the Middletown Valley Historical Society Carriage House/Barn for various local gifts and live decorated wreaths. Saturdays, November 28, December 5 and December 12, from 9 am to 2 pm.",
+   "categories": "Holiday Events, Shopping",
+   "recurrence": "",
+   "admission": "Free"
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Improv Church",
@@ -40392,6 +40833,28 @@
    "lng": -77.423193,
    "description": "This Christmas Market is all about supporting local small businesses, artisans, nonprofits, and young entrepreneurs. - Free admission – Free pictures with Santa -Local artisans, handmade gifts and smalk businesses - Free kids’activities and twisted balloons -Delicious food and holiday treats - Festive music",
    "categories": "Holiday Celebrations",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Loudoun Thrift Holiday Mobile Thrift Tour- Purcellville",
+   "url": "https://www.visitloudoun.org/event/loudoun-thrift-holiday-mobile-thrift-tour-purcellville/52990/",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "14:00",
+   "venue": "Loudoun Thrift",
+   "address": "609 East Main Street, Purcellville, VA 20132",
+   "city": "Purcellville",
+   "state": "VA",
+   "lat": 39.1372796,
+   "lng": -77.7069331,
+   "description": "Hop into the Loudoun Thrift Van for a fun holiday thrift shopping spree! We'll visit 5 stores & get exclusive discounts at each store!",
+   "categories": "Holiday Celebrations, Shopping",
    "recurrence": "",
    "admission": ""
   },
@@ -41098,6 +41561,28 @@
    "venueType": "Park & Outdoors",
    "flCategory": "family",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Plushies, Pistons, and Holiday Traditions",
+   "url": "https://www.visitfrederick.org/event/plushies-pistons-and-holiday-traditions/26389/",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "19:00",
+   "venue": "Nymeo Field at Harry Grove Stadium",
+   "address": "21 Stadium Dr., Frederick, MD 21703",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4015801,
+   "lng": -77.4138954,
+   "description": "Stuff Rod™ Car Show Load up your ride with your favorite plush passengers and cruise into our one-of-a-kind Stuff Rod™ Car Show! Free admission for spectators $25 to register a Stuff Rod™ 50% of all Stuff Rod™ registration fees benefit Little Wishes, an organization that grants immediate and ongoing wishes to seriously ill, hospitalized children. Merry Market & Holiday Bazaar Shop local this Shop Local Saturday! Browse unique gifts, discover festive finds, and support our amazing local small businesses. Holiday Drive-In Movie featuring Polar Express Pile into your car or find a seat, bring your blankets, pillows, and PJs, and enjoy a festive holiday movie experience with family and friends. Drive-In Movie Admission: Just $10 per car advanced online and $15 day of the event. Advance ticket purchase is encouraged. Spots are limited. Ticket Link Coming Soon",
+   "categories": "Arts - Visual, Holiday Events, Outdoor, Events, Family Friendly, Free, Shopping",
+   "recurrence": "",
+   "admission": "Free Admission\r\n$10 Drive-in Movie Experience"
   },
   {
    "source": "Visit Frederick",
@@ -42061,6 +42546,28 @@
    "admission": "FREE"
   },
   {
+   "source": "Visit Loudoun",
+   "siteCounty": "Loudoun County",
+   "title": "Stand Up Comedy Night at Catoctin Creek Distilling Company",
+   "url": "https://www.visitloudoun.org/event/stand-up-comedy-night-at-catoctin-creek-distilling-company/52991/",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "19:00",
+   "endTime": "",
+   "venue": "Beer Run Comedy",
+   "address": "120 West Main Street, Purcellville, VA 20132",
+   "city": "Purcellville",
+   "state": "VA",
+   "lat": 39.1365068,
+   "lng": -77.7150616,
+   "description": "Beer Run Comedy presents a live stand-up comedy show at Catoctin Creek Distilling Co.; a two-item minimum purchase applies per ticket holder. ([eventbrite.com](https://www.eventbrite.com/e/stand-up-comedy-night-at-catoctin-creek-distilling-company-tickets-2003322026108?aff=ebdssbdestsearch&utm_source=openai))",
+   "categories": "Arts & Culture",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Stickman",
@@ -42239,6 +42746,28 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Thanksgiving Salsa Dance Party",
+   "url": "https://www.visitfrederick.org/event/thanksgiving-salsa-dance-party/26378/",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "20:30",
+   "endTime": "23:59",
+   "venue": "Rockwell Brewery",
+   "address": "8411 Broadband Dr. Ste K, Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4401824,
+   "lng": -77.3808825,
+   "description": "YOU’RE INVITED to the hottest Dance Party in Town! It’s Frederick Salsa’s THANKSGIVING DANCE PARTY Night!! Grab all of your favorite family, put on that cute festive outfit and get ready to dance! This is definitely the absolute Dance Party in town and you don't want to miss out on the fun! Saturday 11/28/26 - 8:30PM! Awesome music by DJ-Cesar. If you've never attended a Salsa Night at Rockwell Brewery, you are missing out on the fun!! ALL ARE WELCOME! Open to Everyone (21+)! Start out the night with a quick salsa dance lesson, then it's time to hit the dance floor. No experience necessary, all are welcome! Let the rhythm hit you! Cash Cover at the door.",
+   "categories": "Holiday Events, Wineries, Breweries, Distilleries, Live Music, Events",
+   "recurrence": "",
+   "admission": "$15/cover at the door"
   },
   {
    "source": "FindLocal",
@@ -42998,7 +43527,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-20T16:33:36.002Z",
+  "generatedAt": "2026-11-20T22:15:11.304Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -43007,7 +43536,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1495
+    "ms": 1098
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -43015,7 +43544,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 606
+    "ms": 356
    },
    "City of Rockville": {
     "ok": true,
@@ -43023,7 +43552,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1653
+    "ms": 1746
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -43031,7 +43560,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 815
+    "ms": 676
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -43039,7 +43568,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 2579
+    "ms": 1488
    },
    "Navy Yard BID": {
     "ok": true,
@@ -43047,7 +43576,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 742
+    "ms": 593
    },
    "DowntownDC BID": {
     "ok": true,
@@ -43055,7 +43584,7 @@
     "events": 8,
     "outcome": "",
     "error": "",
-    "ms": 1216
+    "ms": 802
    },
    "Falls Church": {
     "ok": true,
@@ -43095,7 +43624,7 @@
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 545
+    "ms": 616
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -43103,7 +43632,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2581
+    "ms": 2022
    },
    "Southwest BID": {
     "ok": true,
@@ -43111,7 +43640,31 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 386
+    "ms": 350
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1016
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 8,
+    "outcome": "",
+    "error": "",
+    "ms": 848
+   },
+   "Visit Alexandria": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 14,
+    "outcome": "",
+    "error": "",
+    "ms": 863
    },
    "Ticketmaster": {
     "ok": true,
@@ -43121,29 +43674,13 @@
     "error": "",
     "ms": null
    },
-   "Visit Alexandria": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 14,
-    "outcome": "",
-    "error": "",
-    "ms": 893
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 933
-   },
    "City of Takoma Park": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 520
+    "ms": 453
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -43151,23 +43688,7 @@
     "events": 17,
     "outcome": "",
     "error": "",
-    "ms": 607
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 27,
-    "outcome": "",
-    "error": "",
-    "ms": 981
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 8,
-    "outcome": "",
-    "error": "",
-    "ms": 1676
+    "ms": 835
    },
    "City of Greenbelt": {
     "ok": true,
@@ -43175,23 +43696,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 646
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 7,
-    "outcome": "",
-    "error": "",
-    "ms": 14652
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 644
+    "ms": 1697
    },
    "City of Bowie": {
     "ok": true,
@@ -43199,7 +43704,23 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 947
+    "ms": 624
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 27,
+    "outcome": "",
+    "error": "",
+    "ms": 383
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 7,
+    "outcome": "",
+    "error": "",
+    "ms": 9408
    },
    "City of Hyattsville": {
     "ok": true,
@@ -43207,7 +43728,15 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 520
+    "ms": 396
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 1218
    },
    "Downtown Columbia": {
     "ok": true,
@@ -43215,7 +43744,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1103
+    "ms": 1116
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -43223,15 +43752,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 1303
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 33,
-    "outcome": "",
-    "error": "",
-    "ms": 844
+    "ms": 1492
    },
    "Visit Calvert": {
     "ok": true,
@@ -43239,23 +43760,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 631
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 3369
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1454
+    "ms": 552
    },
    "DC HSEMA": {
     "ok": true,
@@ -43265,21 +43770,37 @@
     "error": "",
     "ms": null
    },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 3748
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1460
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 33,
+    "outcome": "",
+    "error": "",
+    "ms": 670
+   },
    "Town of Occoquan": {
     "ok": true,
     "status": "COMPLETED — no listings this week",
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 147
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 3854
+    "ms": 123
    },
    "Town of Warrenton": {
     "ok": true,
@@ -43287,7 +43808,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 525
+    "ms": 402
    },
    "Visit Stafford": {
     "ok": true,
@@ -43295,7 +43816,15 @@
     "events": 0,
     "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
     "error": "",
-    "ms": 622
+    "ms": 539
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 3985
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -43303,7 +43832,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 12110
+    "ms": 17075
    },
    "NOVA Parks": {
     "ok": true,
@@ -43311,7 +43840,7 @@
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 1032
+    "ms": 100
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -43319,7 +43848,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 11535
+    "ms": 7769
    },
    "City of Annapolis": {
     "ok": true,
@@ -43327,7 +43856,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 654
+    "ms": 1928
    },
    "City of College Park": {
     "ok": true,
@@ -43335,7 +43864,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 616
+    "ms": 497
    },
    "City of Frederick": {
     "ok": true,
@@ -43343,7 +43872,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 474
+    "ms": 384
    },
    "City of Laurel": {
     "ok": true,
@@ -43351,7 +43880,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 395
+    "ms": 996
    },
    "Town of Purcellville": {
     "ok": true,
@@ -43359,7 +43888,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 429
+    "ms": 826
    },
    "National Landing BID": {
     "ok": true,
@@ -43367,7 +43896,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 7608
+    "ms": 9570
    },
    "City of Fairfax": {
     "ok": true,
@@ -43375,7 +43904,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 3539
+    "ms": 2700
    },
    "Mosaic District": {
     "ok": true,
@@ -43383,7 +43912,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1480
+    "ms": 806
    },
    "Union Market District": {
     "ok": true,
@@ -43391,7 +43920,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1374
+    "ms": 1305
    },
    "The Boro Tysons": {
     "ok": false,
@@ -43399,7 +43928,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 125
+    "ms": 162
    },
    "One Loudoun": {
     "ok": true,
@@ -43407,7 +43936,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 1125
+    "ms": 223
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -43415,7 +43944,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 5640
+    "ms": 1423
    }
   },
   "count": 149,
@@ -43831,7 +44360,8 @@
     "date": "2026-11-21",
     "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14146&month=11&year=2026&day=20&calType=0|2026-11-21",
     "confidence": "event page schedule",
-    "category": "market"
+    "category": "market",
+    "alsoListedBy": []
    },
    {
     "title": "Dominion Valley Turkey Trot 5k",
@@ -47448,16 +47978,16 @@
     "lng": null
    },
    {
-    "t": "vietnam veterans memorial",
-    "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
-    "lat": 38.888361,
-    "lng": -77.049099
-   },
-   {
     "t": "presidential valor: the military service of presidents and vice presidents who served in world war ii",
     "id": "55B0C189-0B31-E797-843817D1C3CA4B3B",
     "lat": null,
     "lng": null
+   },
+   {
+    "t": "vietnam veterans memorial",
+    "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+    "lat": 38.888361,
+    "lng": -77.049099
    },
    {
     "t": "lincoln memorial",
