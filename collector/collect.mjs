@@ -923,7 +923,7 @@ export async function collectFindLocal(cache, today, windowEnd) {
   const budget = cache.__findlocal && cache.__findlocal.month === month && cache.__findlocal.keyId === keyId ? cache.__findlocal : (cache.__findlocal = {month, keyId, calls: 0, remaining: null});
   const state = cache.__findlocalState ||= {lastFetch: '', callsPerRefresh: 1};
   // A changed request (radius, categories) is fetched at once, not on schedule.
-  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v4';   // v4: collapse=0, flLocation   // v2 adds venueType/flCategory; v3 records which link each listing has
+  const query = FINDLOCAL.near + '|' + FINDLOCAL.radiusKm + '|' + FINDLOCAL.categories + '|records-v5';   // v5: Prince William Parks UTC times, event street address;   // v4: collapse=0, flLocation   // v2 adds venueType/flCategory; v3 records which link each listing has
   if (state.query !== query) { state.lastFetch = ''; state.query = query; }
   // Refresh as often as the quota allows: with 3 calls per refresh (100-row
   // pages), every 2 days; with 1 call (500-row pages), daily. Each refresh
