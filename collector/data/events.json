@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-21T21:32:45.588Z",
+ "generatedAt": "2026-11-21T22:17:52.135Z",
  "window": {
   "start": "2026-11-21",
   "end": "2026-11-29"
@@ -178,22 +178,23 @@
   {
    "source": "Destination DC",
    "kind": "sitemap",
-   "status": "partial",
+   "status": "ok",
    "sitemapEvents": 761,
-   "opened": 500,
-   "cached": 496,
+   "opened": 246,
+   "cached": 742,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 215,
-   "pending": 261,
-   "note": "261 event pages still to open; later runs continue from the cache."
+   "inWindow": 258,
+   "pending": 0,
+   "note": ""
   }
  ],
- "count": 1738,
+ "count": 1780,
  "exclude": [
   "Pickleball at Metro Park",
-  "Secretaries' Cup Fan Fest"
+  "Secretaries' Cup Fan Fest",
+  "Holiday Party at Enchant"
  ],
  "events": [
   {
@@ -798,6 +799,33 @@
    "outdoorHint": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "40th Annual Holiday Craft Show (Nov. 21-22)",
+   "url": "https://washington.org/event/40th-annual-holiday-craft-show-nov-21-22",
+   "venue": "Fairfax High School",
+   "address": "3501 Lion Run, Fairfax, VA 22030",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.8597906,
+   "lng": -77.2862776,
+   "description": "Nov. 21-22, 2026 Sat: 10 a.m. - 5 p.m. Sun: 10 a.m. - 3 p.m. Learn More What started out in 1987 as a very small show has grown to become a premium arts and crafts festival. Artisans from all over the United States, including many local artists, are participating in this year’s show and we are delighted to be able to offer so many wonderful, holiday gift choices. We also invite you to enjoy a hot lunch from the concession stand and use our dining area to rest and recover before you continue shopping. There really is something for everyone on your shopping list, so please take your time and visit all the areas of the show- you won't want to miss a single one! Admission One-day pass $5 Two-day pass $8 18 and under Free Tickets only sold at the door. Fairfax High School, 3501 Lion Run, 22030",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026 - Nov 22, 2026. Times Vary",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "next-of-range",
+   "range": [
+    "2026-11-21",
+    "2026-11-22"
+   ],
+   "time": "10:00",
+   "endTime": "17:00"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Fairfax County",
    "title": "47th Christmas Bazaar",
@@ -1240,6 +1268,33 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "America the Beautiful screening at The National Museum of the Marine Corps",
+   "url": "https://washington.org/event/america-beautiful-screening-national-museum-marine-corps",
+   "venue": "National Museum of the Marine Corps",
+   "address": "1775 Semper Fidelis Way, Triangle, VA 22172",
+   "city": "Triangle",
+   "state": "VA",
+   "lat": 38.5440538,
+   "lng": -77.3432457,
+   "description": "Complimentary screening of America the Beautiful on November 11 at 2 PM, followed by Set Your Own Ticket Price screenings November 12–25! Join us for the nationwide premiere on our giant screen and embark on an awe-inspiring journey from sea to shining sea. Explore America’s most iconic landscapes, from soaring mountain ranges and expansive plains to flowing rivers and wetlands. More than a visual spectacle, this breathtaking film celebrates the natural wonders that define our nation and the conservation pioneers, including Theodore Roosevelt, whose vision helped protect these treasured places for generations to come. Reserve your tickets today! https://ticketing.useast.veezi.com/sessions/?siteToken=2h8dz5g8x9ywxhcmdktrmm0zb8",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Now - Nov 25, 2026. 2:00 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "next-of-range",
+   "range": [
+    "2026-11-21",
+    "2026-11-25"
+   ],
+   "time": "14:00",
+   "endTime": ""
   },
   {
    "source": "Destination DC",
@@ -2309,6 +2364,37 @@
    "admission": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Blitzen's Holiday Pop Up Bar",
+   "url": "https://washington.org/event/blitzens-holiday-pop-bar",
+   "venue": "The Marquee Lounge",
+   "address": "2500 Calvert St. NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9230638,
+   "lng": -77.0536462,
+   "description": "Blitzen's at Marquee Bar & Lounge Omni Shoreham Hotel Washington D.C. November 20 - January 10 Blitzen's is our holiday pop up bar experience with over-the-top décor and a festive menu of cocktails and lite bites. The Pop Up Bar is spilling over with holiday cheer. Discover cocktails like the Va-Va-Vixen, Frost Bite or Oy to the World. Be wowed by glittering decor, holiday cocktails and a new dinner menu. Stop by The Marque Lounge in the heart of Woodley Park and make merry!",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Now - Jan 10, 2027. 4 pm - Midnight",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "16:00",
+   "endTime": ""
+  },
+  {
    "source": "Visit Fairfax",
    "siteCounty": "Fairfax County",
    "title": "Bluey x CAMP: Bluey's House",
@@ -2461,6 +2547,29 @@
    "venueType": "Restaurant",
    "flCategory": "food_drink",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Breakfast With Santa",
+   "url": "https://washington.org/event/breakfast-santa-0",
+   "venue": "Hard Rock Cafe",
+   "address": "999 E St. NW, Washington, DC 20004",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8964505,
+   "lng": -77.0253658,
+   "description": "Join us at Hard Rock Cafe Washington, DC on November 21, 2026, for a festive morning featuring a breakfast buffet, holiday crafts, a hot chocolate station, and photos with Santa before attending A Christmas Carol at Ford's Theatre. Breakfast Buffet Includes: Scrambled Eggs Bacon & Sausage Breakfast Potatoes French Toast Sticks Fresh Fruit Assorted Bagels, Muffins & Danish Coffee, Tea, Juice & Hot Chocolate Special Offer for Ford's Theatre Guests Use code 2026 GSBWS to receive: $10 off adult tickets Free admission for children 4 and under with a paid adult ticket (limit two per adult) Reservations are required. Space is limited, so reserve your seats early for this magical holiday experience!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. From: 11:00 AM to 01:00 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "13:00"
   },
   {
    "source": "FindLocal",
@@ -3024,6 +3133,37 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Celebrate Your Special Occasion at Barbouzard",
+   "url": "https://washington.org/event/celebrate-your-special-occasion-barbouzard",
+   "venue": "Barbouzard",
+   "address": "1700 K St. NW, Washington, DC 20006",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9040053,
+   "lng": -77.0600238,
+   "description": "Some moments deserve more than a reservation. They deserve an evening remembered long after the last toast. It is my pleasure to invite you to celebrate your next special occasion at Barbouzard, a French Mediterranean experience in the heart of Washington D.C. Whether you are marking a birthday or anniversary, celebrating a deal well closed or a graduation, or simply sharing a quiet evening with someone who matters, our team would be honored to make the occasion unforgettable. YOUR CELEBRATION AT BARBOUZARD When you walk into Barbouzard, our Host team will warmly greet you and welcome you with: A glass of champagne on arrival for you and your guests A celebration dessert from our pastry kitchen, personalized for your occasion Preferred rates at the Tempo Hotel next door, should you wish to extend the evening into a staycation Guests who celebrate with us may be invited to join The Agency, our private VIP guest circle, with early access to special dinners and events, priority seating, and more Every celebration at Barbouzard is planned with care, from the table we select for you to the moment your dessert arrives. Simply let us know the occasion when you book, and we will take care of the rest. HOW TO RESERVE To reserve, please email us at dmvcelebrate@barbouzard.com or call our Host team at +1.202.998.2009 and mention code DMVCELEBRATE or simply click here Reserve Your Celebration to book online. For gatherings of twelve guests or more, our private events team will be delighted to tailor the evening to you. We look forward to welcoming you to Barbouzard.",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Now - Dec 31, 2027. Regular Operating Hours",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "",
+   "endTime": ""
   },
   {
    "source": "FindLocal",
@@ -3765,6 +3905,29 @@
   {
    "source": "Destination DC",
    "siteCounty": "",
+   "title": "Commonwealth Brewing Co. Friendsgiving Market",
+   "url": "https://washington.org/event/commonwealth-brewing-co-friendsgiving-market",
+   "venue": "Commonwealth Brewing Co.",
+   "address": "10426 Main St, Fairfax, VA 22003",
+   "city": "Fairfax",
+   "state": "VA",
+   "lat": 38.846309,
+   "lng": -77.3061792,
+   "description": "Commonwealth Brewing Co. Friendsgiving Market: November 21st 12 - 6pm Our favorite time of the year to gather with friends & fam... around the best beers in town of course Shop local vendors to support small business this holiday season! Plus, catch a live set by indie rockers The Assembly 3-6pm! 🍁 Get your holiday shopping started early & support local makers with our curated vendor market! 🍻 Enjoy draft pours all day long featuring flagship favorites and seasonal releases- think Fixins, Maximillian, and a brand new doppelbock just for fall 👀 🎵 Groove to live music & enjoy festive food specials",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. 12 PM - 6 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "18:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
    "title": "Community Art Walks with Jason Bowers",
    "url": "https://washington.org/event/community-art-walks-jason-bowers",
    "venue": "Union Market District",
@@ -3822,6 +3985,29 @@
    "venueType": "Park & Outdoors",
    "flCategory": "parks",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Congressional Cemetery Introductory Tour",
+   "url": "https://washington.org/event/congressional-cemetery-introductory-tour-0",
+   "venue": "1801 E St. SE",
+   "address": "1801 E St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8828306,
+   "lng": -76.9789095,
+   "description": "Over 67,000 people are interred at Congressional Cemetery, ranging from 1807 all the way until the present day. Their stories are American history in microcosm, all in 35 acres of the nation’s capital. Come and experience their extraordinary lives in a one of kind portal into the past. On this tour of approximately 90 minutes, one of our trained docents will share with you the stories of some of Congressional’s interred residents while walking the beautiful and scenic cemetery grounds. Tickets are only $5 and all proceeds go to benefitting our non-profit mission of historical preservation and education. This is a non-refundable donation. Please come prepared with comfortable and weather-appropriate clothing and shoes, as the tours often stray from the main paths. Tours are rain or shine. Visitors may meet docents at the front gate of the cemetery located at the corner of E St. and Potomac Ave. The cemetery is closed to dogs on Saturdays from 11am – 3pm. Purchase Tickets Here!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. From: 11:00 AM to 12:30 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "12:30"
   },
   {
    "source": "FindLocal",
@@ -4979,6 +5165,31 @@
    ],
    "time": "",
    "endTime": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Enchant Christmas returns to DC!",
+   "url": "https://washington.org/event/enchant-christmas-returns-dc",
+   "venue": "Nationals Park",
+   "address": "1500 S Capitol St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9072873,
+   "lng": -77.0369274,
+   "description": "The World’s Largest Christmas Light Maze and Market is returning to Nationals Park! Enchant Christmas is officially returning to Washington, DC and bringing back the holiday magic that families, friends, and festive spirits have been waiting for. From November 20 through December 27, Nationals Park will once again transform into a dazzling winter wonderland anchored by the World's Largest Christmas Light Maze.Guests can expect breathtaking larger-than-life light sculptures, millions of twinkling lights, festive experiences around every corner, and an all-new holiday adventure: Night of the Nutcrackers. This year's maze experience invites guests into a world where the Nutcrackers — legendary guardians of Christmas magic — have mysteriously vanished, threatening to dim the spirit of the season itself. Throughout the journey, guests will search for eight missing Nutcrackers hidden throughout the maze, restoring holiday magic along the way through immersive scenes and dazzling light displays. Timing: November 20 - December 27 Tuesday-Wednesday | 5:30pm - 7:30pm Thursday | 5:30pm - 8:30pm Friday- Saturday | 4:30pm - 9:30pm Sunday | 4:30pm- 7:30pm December 20 - 27 Tuesday - Saturday schedule doesn't change Sunday | 4:30pm- 9:30pm *Enchant Christmas will be closed Thursday, November 26.",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Now - Dec 27, 2026. From: 04:30 PM to 10:30 PM",
+   "dates": [
+    "2026-11-21",
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "dateKind": "range",
+   "time": "16:30",
+   "endTime": "21:30"
   },
   {
    "source": "Visit Fairfax",
@@ -6274,6 +6485,29 @@
    "outdoorHint": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Georgetown Ghost, Vampires & Witches Tour",
+   "url": "https://washington.org/event/georgetown-ghost-vampires-witches-tour",
+   "venue": "Georgetown Ghost Tours",
+   "address": "2929 M St. NW Truist Bank, Washignton, DC 20007",
+   "city": "Washignton",
+   "state": "DC",
+   "lat": 38.9054241,
+   "lng": -77.0589014,
+   "description": "Led by skilled historians who bring the past to life through theatrical storytelling, this Victorian-inspired tour uncovers the strange stories hidden throughout one of Washington’s oldest neighborhoods. You'll hear real-life hauntings, discover documented vampire sightings and explore the story of the infamous “Witches of Georgetown.” We'll end at the infamous Exorcist Steps, where we reveal the facts behind America’s most famous case of demonic possession.",
+   "categories": "",
+   "recurrence": "Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Fridays, Saturdays, Now - Nov 20, 2027. 7:30 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "range",
+   "time": "19:30",
+   "endTime": "21:30"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Prince William County",
    "title": "Ghost Doctors Mystifying Ghost Hunting Tour in Manassas, VA...Experience it!",
@@ -7074,37 +7308,6 @@
    "venueType": "Park & Outdoors",
    "flCategory": "market",
    "outdoorHint": "a Park & Outdoors venue"
-  },
-  {
-   "source": "Destination DC",
-   "siteCounty": "",
-   "title": "Holiday Party at Enchant",
-   "url": "https://washington.org/event/holiday-party-enchant",
-   "venue": "Washington Nationals",
-   "address": "Nationals Park 1500 S Capitol St. SE, Washington, DC 20003",
-   "city": "Washington",
-   "state": "DC",
-   "lat": 38.8730102,
-   "lng": -77.0074329,
-   "description": "Give your team an unforgettable celebration at Enchant at Nationals Park! From immersive light mazes and private suites to standout catering and customizable buyouts, we offer everything you need to create a truly magical holiday event. Ready to make this season extraordinary? Let's connect at Events@Nationals.com",
-   "categories": "",
-   "recurrence": "Daily",
-   "admission": "",
-   "scheduleLine": "Daily, Now - Dec 27, 2026. 4:00 PM -10:00 PM",
-   "dates": [
-    "2026-11-21",
-    "2026-11-22",
-    "2026-11-23",
-    "2026-11-24",
-    "2026-11-25",
-    "2026-11-26",
-    "2026-11-27",
-    "2026-11-28",
-    "2026-11-29"
-   ],
-   "dateKind": "range",
-   "time": "16:00",
-   "endTime": "22:00"
   },
   {
    "source": "Visit Montgomery",
@@ -8074,6 +8277,55 @@
    "venueType": "Performing Arts Center",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Jazz at The Kreeger - EJB and Standard-Ish",
+   "url": "https://washington.org/event/jazz-kreeger-anansi-trio",
+   "venue": "The Kreeger Museum",
+   "address": "2401 Foxhall Rd. NW, Washington, DC 20007",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9219317,
+   "lng": -77.0887867,
+   "description": "In collaboration with Elijah Jamal Balbed, The Kreeger Museum is honored and thrilled to present Jazz at The Kreeger, a series that furthers our mission to share music across the city. Tickets now include admission to Museum galleries and Sculpture Garden. Ticket-holders may enter the Museum through the front entrance beginning at 1:30pm to view the galleries before the performance begins at 3:00pm. In the event that you must cancel your reservation, please email education@kreegermuseum.org as soon as possible so we can offer your seat to someone else. Refunds will only be issued for cancellations made more than 24 hours in advance. Parking onsite is extremely limited. The use of rideshare is strongly encouraged. A limited number of 'pay what you can' tickets will be available for this Jazz at The Kreeger performance. For more information, email education@kreegermuseum.org. About the Artists Elijah Jamal Balbed - Saxophones, Arrangements Andrew Tinch - Guitar Minh Vo - Piano Tyson Femister - Upright Bass Stefan Schatz - Drum Set Elijah Jamal Balbed is an award-winning saxophonist, composer, and educator from Washington, DC. An alum of Howard University’s legendary jazz program, Elijah actually started his performing career before then - venturing down to U Street as a teenager to seek out places to play and musicians to meet. While at Howard, Elijah became even more immersed in the local jazz scene - often performing at venues like Twins Jazz, Bohemian Caverns, and HR-57. Around the same time, Elijah received a life-changing call to perform with the Godfather of Go-Go Chuck Brown at Blues Alley. This connection led him to performing with the great George Duke, just months before Duke passed. Since then Elijah has performed with the likes of Winard Harper, Keyon Harrold, Gloria Estefan, Jazzmeia Horn, Igmar Thomas and The Revive Big Band, Lauryn Hill, Fantasia, Lalah Hathaway, and many others. He has appeared on NPR’s Tiny Desk with The Dream, Noochie’s Front Porch w",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. From: 03:00 PM to 04:00 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "15:00",
+   "endTime": "16:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Jazz Brunch and Cocktails",
+   "url": "https://washington.org/event/jazz-brunch-and-cocktails",
+   "venue": "Bonne Vie Cafe & Bistro",
+   "address": "1604 U St. NW, Washington, DC 20009",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9168425,
+   "lng": -77.0371189,
+   "description": "Inspired by the sounds of old world Paris and the ease of a long relaxed afternoon Our Weekend Jazz Brunch is held in our Rooftop Garden **shows are in the lounge on rainy days and during private events $8 - $14 cocktails $35 bottomless mimosas Saturday & Sunday Knox & Dominique Brunch Served 11 a.m. to 3 p.m. Live Music 12 p.m. – 3 p.m.",
+   "categories": "",
+   "recurrence": "Sundays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Sundays, Saturdays, Nov 21, 2026 - Nov 19, 2028. From: 12:00 PM to 03:00 PM",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "12:00",
+   "endTime": "15:00"
   },
   {
    "source": "Visit Annapolis",
@@ -10675,6 +10927,34 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "November Art Exhibition",
+   "url": "https://washington.org/event/november-art-exhibition",
+   "venue": "Arts Club of Washington",
+   "address": "2017 I St. NW, Washington, DC 20006",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9017279,
+   "lng": -77.0458772,
+   "description": "The Arts Club of Washington welcomes guests during opening hours to view its November Exhibition, featuring Kate Fitzpatrick and the Associates of the American Foreign Service Worldwide in the downstairs Monroe galleries. Guests also can enjoy the upstairs Spilsbury Members' Gallery, with an exhibition of works by Arts Club members and featured artists, Tom Stack & Paul DiVito. Club galleries are free and open to the public. Reservations are not required during normal opening hours. (Images are courtesy of the artists.) Opening Hours: Tuesday – Friday: 10:00am to 5:00pm, Saturdays 10:00am to 2:00pm Sunday & Monday: closed Hours may differ on Federal holidays",
+   "categories": "",
+   "recurrence": "Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays, Now - Nov 28, 2026. From: 10:00 AM to 05:00 PM",
+   "dates": [
+    "2026-11-21",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "dateKind": "range",
+   "time": "10:00",
+   "endTime": "17:00"
   },
   {
    "source": "FindLocal",
@@ -13735,6 +14015,29 @@
   {
    "source": "Destination DC",
    "siteCounty": "",
+   "title": "Susan Claassen in A Conversation with Edith Head",
+   "url": "https://washington.org/event/susan-claassen-conversation-edith-head",
+   "venue": "Arts Club of Washington",
+   "address": "2017 I St. NW, Washington, DC 20006",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9017279,
+   "lng": -77.0458772,
+   "description": "Please join the Arts Club of Washington for an evening of wit, wisdom, and a whisper of gossip as Hollywood’s golden age comes to life! Award-winning Susan Claassen stars in her internationally acclaimed portrayal of legendary costume designer, Edith Head. A Conversation with Edith Head, by Susan Claassen and Paddy Calistro, with Stuart Moulton, Host, is a feast of delicious behind-the-scenes stories about Hollywood’s greatest stars that provide an intimate portrait of Hollywood’s legendary costume designer. In her six decades of costume design, Edith Head worked on over eleven hundred films; dressed the greatest stars of Hollywood; received 35 Academy Award nominations and won an unprecedented eight Oscars. Edith Head’s story is as fascinating as the history of the film industry itself, filled with humor, frustration and, above all, glamour. This diva of design helped to define glamour in the most glamorous place in the world - Hollywood! Program: 6:00pm: Doors open; drinks reception 7:00pm: Performance, followed by desserts and photos w/Edith",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. From: 06:00 PM to 08:30 PM",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "18:00",
+   "endTime": "20:30"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
    "title": "Tai Chi with Master Nick",
    "url": "https://washington.org/event/tai-chi-master-nick",
    "venue": "Birdcage Walk. West Promenade.",
@@ -14524,6 +14827,34 @@
    "admission": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "The ROW at Union Market District",
+   "url": "https://washington.org/event/row-union-market-district",
+   "venue": "Union Market District",
+   "address": "1348 4th Street NE, Washington, DC 20002",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9100666,
+   "lng": -76.9988155,
+   "description": "The ROW is a retail village experience where community and culture come together. Discover a new shopping experience and stick around for food, drinks and music. Shops popping up at The ROW include Saturday Football, Cookbook Courtyard, CLAT Jewelry, Nest Proper and Pyramid Atlantic Art Center, alongside a great selection of food and drink vendors. The ROW opens November 5, 2026, and will operate Thursdays through Sundays through December 23, adding to a full season of events across Union Market District. Thursday - Sunday November 5-December 23 11 AM-7 PM",
+   "categories": "",
+   "recurrence": "Sundays, Thursdays, Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Sundays, Thursdays, Fridays, Saturdays, Now - Dec 20, 2026. 11 AM-7 PM",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "11:00",
+   "endTime": "19:00"
+  },
+  {
    "source": "Visit Montgomery",
    "siteCounty": "Montgomery County",
    "title": "The Sip Series: Back to Basics | Wine 101 at The Crossvines",
@@ -14567,6 +14898,29 @@
    "dateKind": "single",
    "time": "10:30",
    "endTime": "11:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "The Smithsonian Center for Folklife and Cultural Heritage presents: “Rhythms, Roots, Recipes: Ho-Chunk Nation”",
+   "url": "https://washington.org/event/smithsonian-center-folklife-and-cultural-heritage-presents-rhythms-roots-recipes-ho-chunk",
+   "venue": "National Museum of American History",
+   "address": "1300 Constitution Ave. NW, Washington, DC 20560",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8911728,
+   "lng": -77.0301791,
+   "description": "“Rhythms, Roots, Recipes: Community Stories of Food and Music” is a series that brings together cooking demonstrations, live music and storytelling. Each program will explore traditions that animate families and communities across the United States. Visitors will experience an afternoon of Indigenous/Ho-Chunk with Chef Elena Terry, the Executive Chef/Founder of Wild Bearies in Wisconsin. To learn more about the series, visit the website.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 21, 2026. 1 p.m.",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": ""
   },
   {
    "source": "FindLocal",
@@ -16579,6 +16933,29 @@
   {
    "source": "Destination DC",
    "siteCounty": "",
+   "title": "Advanced Screening of Mosquito Bowl at The National Museum of the Marine Corps",
+   "url": "https://washington.org/event/advanced-screening-mosquito-bowl-national-museum-marine-corps",
+   "venue": "National Museum of the Marine Corps",
+   "address": "1775 Semper Fidelis Way, Triangle, VA 22172",
+   "city": "Triangle",
+   "state": "VA",
+   "lat": 38.5440538,
+   "lng": -77.3432457,
+   "description": "Based on the true story of four college football stars who put their fame aside to enlist in the Marine Corps following the attack on Pearl Harbor, the film follows their journey from the football field to the battlefields of World War II. As they prepare for the invasion of Okinawa, they take part in a legendary football game that would become a defining moment in their lives. The screening will feature opening remarks from Buzz Bissinger, author of Friday Night Lights and The Mosquito Bowl, followed by a book signing in the Medal of Honor Theater Lobby. Don't miss this opportunity to experience an extraordinary story of brotherhood, sacrifice, and the Marines who served. Showtime: November 22 at 12 PM Tickets: $10 per person + $1 online booking fee per ticket Rating: R | Runtime: 127 minutes Theater doors open at 11:45 AM. Book signing to follow the screening. Reserve your tickets today! https://ticketing.useast.veezi.com/sessions/?siteToken=2h8dz5g8x9ywxhcmdktrmm0zb8",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 22, 2026. 12:00 PM",
+   "dates": [
+    "2026-11-22"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
    "title": "All That Jazz",
    "url": "https://washington.org/event/all-jazz-0",
    "venue": "Philippe Chow DC",
@@ -17980,6 +18357,30 @@
    "venueType": "Restaurant",
    "flCategory": "sports",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Enchant Christmas returns to DC!",
+   "url": "https://washington.org/event/enchant-christmas-returns-dc",
+   "venue": "Nationals Park",
+   "address": "1500 S Capitol St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9072873,
+   "lng": -77.0369274,
+   "description": "The World’s Largest Christmas Light Maze and Market is returning to Nationals Park! Enchant Christmas is officially returning to Washington, DC and bringing back the holiday magic that families, friends, and festive spirits have been waiting for. From November 20 through December 27, Nationals Park will once again transform into a dazzling winter wonderland anchored by the World's Largest Christmas Light Maze.Guests can expect breathtaking larger-than-life light sculptures, millions of twinkling lights, festive experiences around every corner, and an all-new holiday adventure: Night of the Nutcrackers. This year's maze experience invites guests into a world where the Nutcrackers — legendary guardians of Christmas magic — have mysteriously vanished, threatening to dim the spirit of the season itself. Throughout the journey, guests will search for eight missing Nutcrackers hidden throughout the maze, restoring holiday magic along the way through immersive scenes and dazzling light displays. Timing: November 20 - December 27 Tuesday-Wednesday | 5:30pm - 7:30pm Thursday | 5:30pm - 8:30pm Friday- Saturday | 4:30pm - 9:30pm Sunday | 4:30pm- 7:30pm December 20 - 27 Tuesday - Saturday schedule doesn't change Sunday | 4:30pm- 9:30pm *Enchant Christmas will be closed Thursday, November 26.",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Now - Dec 27, 2026. From: 04:30 PM to 10:30 PM",
+   "dates": [
+    "2026-11-22",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "16:30",
+   "endTime": "19:30"
   },
   {
    "source": "University of Maryland",
@@ -20180,6 +20581,29 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Morning Yoga: Underwater Flow",
+   "url": "https://washington.org/event/morning-yoga-underwater-flow",
+   "venue": "National Aquarium",
+   "address": "501 E Pratt St., Baltimore, MD 21202",
+   "city": "Baltimore",
+   "state": "MD",
+   "lat": 39.2852787,
+   "lng": -76.6081601,
+   "description": "Join us for an exclusive early morning yoga session led by local instructor, Marissa Walch, before the National Aquarium opens to the public. Begin your day with an unforgettable experience surrounded by the wonder of marine life as you practice yoga right in front of our Dolphin Discovery underwater viewing area. Admission to the National Aquarium is included in your ticket, and you are encouraged to explore our exhibits after the yoga session. This unique wellness experience is more than just a yoga class—it's an opportunity to connect with nature in an extraordinary setting. Your participation supports the National Aquarium's mission to inspire compassion and care for our ocean planet by funding animal care and welfare, animal rescue programs and more. Whether you're a seasoned pro or new to yoga, this transformative experience will leave you feeling centered, inspired and connected to the ocean world. Space is limited to ensure an intimate experience. Unroll your mat and dive into something extraordinary.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 22, 2026. 9:30 a.m. to 10:30 a.m.",
+   "dates": [
+    "2026-11-22"
+   ],
+   "dateKind": "single",
+   "time": "09:30",
+   "endTime": "10:30"
   },
   {
    "source": "Patch",
@@ -25515,6 +25939,29 @@
    "admission": "$3 City Resident / $6 Non City Resident"
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Coffee with an Explorer: Reyhaneh Maktoufi",
+   "url": "https://washington.org/event/coffee-explorer-reyhaneh-maktoufi",
+   "venue": "National Geographic Museum of Exploration",
+   "address": "1600 M St. NW, Washington, DC 20036",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9052469,
+   "lng": -77.0374093,
+   "description": "Start your morning in conversation with National Geographic Explorers – scientists, photographers, and researchers with stories from the field that captivate audiences of all ages. Coffee with an Explorer is an intimate small-group experience where guests can hear firsthand stories from National Geographic Explorers whose work is shaping how we understand wildlife, science, culture and our changing planet. Over coffee in Explorers Eatery, you’ll go beyond headlines and documentaries to hear personal stories from the field, ask questions and connect directly with the people behind the work. National Geographic Explorer Reyhaneh “Rey” Maktoufi is a science communication specialist. Together, you'll explore how she aims to make scientific knowledge more accessible by humanizing important and often complex work. Ticket includes complimentary coffee and tea.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 24, 2026. From: 10:00 AM to 11:00 AM",
+   "dates": [
+    "2026-11-24"
+   ],
+   "dateKind": "single",
+   "time": "10:00",
+   "endTime": "11:00"
+  },
+  {
    "source": "George Washington University",
    "siteCounty": "",
    "title": "Common Ground Micro-Grant Application",
@@ -25635,6 +26082,30 @@
    "categories": "free",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Enchant Christmas returns to DC!",
+   "url": "https://washington.org/event/enchant-christmas-returns-dc",
+   "venue": "Nationals Park",
+   "address": "1500 S Capitol St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9072873,
+   "lng": -77.0369274,
+   "description": "The World’s Largest Christmas Light Maze and Market is returning to Nationals Park! Enchant Christmas is officially returning to Washington, DC and bringing back the holiday magic that families, friends, and festive spirits have been waiting for. From November 20 through December 27, Nationals Park will once again transform into a dazzling winter wonderland anchored by the World's Largest Christmas Light Maze.Guests can expect breathtaking larger-than-life light sculptures, millions of twinkling lights, festive experiences around every corner, and an all-new holiday adventure: Night of the Nutcrackers. This year's maze experience invites guests into a world where the Nutcrackers — legendary guardians of Christmas magic — have mysteriously vanished, threatening to dim the spirit of the season itself. Throughout the journey, guests will search for eight missing Nutcrackers hidden throughout the maze, restoring holiday magic along the way through immersive scenes and dazzling light displays. Timing: November 20 - December 27 Tuesday-Wednesday | 5:30pm - 7:30pm Thursday | 5:30pm - 8:30pm Friday- Saturday | 4:30pm - 9:30pm Sunday | 4:30pm- 7:30pm December 20 - 27 Tuesday - Saturday schedule doesn't change Sunday | 4:30pm- 9:30pm *Enchant Christmas will be closed Thursday, November 26.",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Now - Dec 27, 2026. From: 04:30 PM to 10:30 PM",
+   "dates": [
+    "2026-11-24",
+    "2026-11-25"
+   ],
+   "dateKind": "range",
+   "time": "17:30",
+   "endTime": "19:30"
   },
   {
    "source": "FindLocal",
@@ -26088,6 +26559,34 @@
    "venueType": "Park & Outdoors",
    "flCategory": "market",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Holidays at Hillwood | A Woven Wonderland",
+   "url": "https://washington.org/event/holidays-hillwood-woven-wonderland",
+   "venue": "Hillwood Estate, Museum & Gardens",
+   "address": "4155 Linnean Ave. NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9441888,
+   "lng": -77.0528921,
+   "description": "A Woven Wonderland at Hillwood draws inspiration from the special exhibition Interwoven: A Tradition of Textiles with resplendent Christmas trees and holiday decorations throughout the estate. Beginning Tuesday, November 24, the beauty of the exquisite objects on view, which celebrate the enduring artistry of textiles throughout the centuries, permeates the holiday décor that adorns the entire estate. As the exhibition showcases the technical mastery and creativity behind textile making, so too do the Christmas trees, each inspired by a particular exhibition piece. Festive décor, workshops, and holiday shopping add to the holiday splendor. A Woven Wonderland will be on display at Hillwood from Tuesday, November 24 until Sunday, January 3.",
+   "categories": "",
+   "recurrence": "Sundays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Sundays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays, Nov 24, 2026 - Jan 03, 2027. 10 a.m. - 5 p.m.",
+   "dates": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "10:00",
+   "endTime": "17:00"
   },
   {
    "source": "FindLocal",
@@ -29533,6 +30032,29 @@
    "admission": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Painting with Pattee Hipschen, Late Fall Series",
+   "url": "https://washington.org/event/painting-pattee-hipschen-late-fall-series",
+   "venue": "Arts Club of Washington",
+   "address": "2017 I St. NW, Washington, DC 20006",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9017279,
+   "lng": -77.0458772,
+   "description": "Pursue painting with artist Pattee Hipschen! Pattee Hipschen has been painting for several decades and exhibiting professionally since 2005. She holds degrees in Studio Fine Arts and Art History from GMU and is a member of the Washington Society of Landscape Painters, the WPA, and the Arlington Artists Alliance. Her work is held internationally in private and corporate collections. Pattee structures this 6-week studio workshop to accommodate all artistic levels from the beginner to the intermediate. Students learn ways to improve their paintings through composition, color and technique using all mediums, including OIL and ACRYLIC paint. Instruction includes individual focus as well as short demos. Students bring in their own photographs or other reference materials as needed. Wednesdays, 10:00 AM - 1:00 PM, on the following dates: October 28; November 4; November 11; November 18; November 25; and December 2. Participants will need to walk up several flights of stairs to the art studio, where this Workshop is held. Prices vary; Payment covers all six sessions; No makeups, refunds or credits for missed sessions. (Image is courtesy of the artist.)",
+   "categories": "",
+   "recurrence": "Wednesdays",
+   "admission": "",
+   "scheduleLine": "Wednesdays, Nov 25, 2026 - Dec 02, 2026. From: 10:00 AM to 01:00 PM",
+   "dates": [
+    "2026-11-25"
+   ],
+   "dateKind": "range",
+   "time": "10:00",
+   "endTime": "13:00"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Pie and Pint Night $20.95",
@@ -30023,6 +30545,29 @@
    "outdoorHint": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Thanksgiving To-Go",
+   "url": "https://washington.org/event/thanksgiving-go",
+   "venue": "Summer House - North Bethesda",
+   "address": "11825 Grand Park Ave., Rockville, MD 20852",
+   "city": "Rockville",
+   "state": "MD",
+   "lat": 39.0497485,
+   "lng": -77.1167404,
+   "description": "Our Thanksgiving To-Go brings the whole feast to your table. Each order serves four and includes All-Natural Roasted Turkey, California Zinfandel Gravy, Buttery Mashed Yellow Finn Potatoes, Stuffing with House-Made Bread, Roasted Brussels Sprouts, Cranberry Relish, our signature Pumpkin Chiffon Pie, and reheating instructions. Price: $149.95 plus tax; additional guests $34.95 per person Order by: Monday, November 23 Pickup: Wednesday, November 25, 12:00 PM to 6:00 PM Thanksgiving To-Go Menu Hand-Carved Roasted All Natural Turkey California Zinfandel Gravy Buttery Mashed Yellow Finn Potatoes Stuffing house-made bread, herbs, & aromatic vegetables Roasted Brussels Sprouts grain mustard Cranberry Relish candied ginger Spiced Pumpkin Chiffon Pie Please note that Summer House will be closed on Thanksgiving Day, November 26. Happy Thanksgiving from our Summer House family to yours!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 25, 2026. 12:00 pm-5:00 pm",
+   "dates": [
+    "2026-11-25"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "17:00"
+  },
+  {
    "source": "Visit Loudoun",
    "siteCounty": "Loudoun County",
    "title": "The Day before Turkey Day Gobble Rocking Jam!",
@@ -30460,6 +31005,29 @@
    "categories": "Food and Drink, Free, Spotlight Events",
    "recurrence": "Recurring weekly on Wednesday",
    "admission": "Free"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "TURKEGGING: The Night Before Thanksgiving",
+   "url": "https://washington.org/event/turkegging-night-thanksgiving",
+   "venue": "Wunder Garten",
+   "address": "1101 First Street NE, Washington, 20002",
+   "city": "Washington",
+   "state": "",
+   "lat": 38.9040696,
+   "lng": -77.005402,
+   "description": "TURKEGGING 2026: The Night Before Thanksgiving at Wunder Garten! Wednesday, November 25 | Festivities Begin at 4 PM Before the turkey, there's TURKEGGING! 🦃🍻 A DC tradition returns to Wunder Garten! Whether you're staying in the District for Thanksgiving, returning home to visit family and friends, or just looking for a reason to get out before the holiday festivities begin, TURKEGGING is your invitation to let loose, reconnect, and celebrate! We're kicking off Thanksgiving Eve at 4 PM with deep drink discounts, great company, and the warm, welcoming atmosphere that makes Wunder Garten a favorite neighborhood gathering spot. As the temperatures drop, we're turning up the cozy! Bundle up in your favorite winter gear, grab a specialty hot beverage, and settle in beside one of our glowing fireplaces. Prefer to mingle? Gather your crew, raise a glass, and enjoy a festive evening under the lights. 🍂 What to Expect 🍻 Deep Drink Discounts – Get into the holiday spirit with special beverage deals throughout the evening. 🔥 Cozy Fireside Vibes – Relax by the fire and enjoy the crisp fall air in a warm, inviting atmosphere. ☕ Specialty Hot Beverages – Warm up from the inside out with seasonal favorites. 🎉 A Night to Let Loose – Leave the holiday preparations behind and enjoy a carefree evening with friends, family, and fellow DC locals. 🤝 A Gathering for Everyone – Whether you're a DC regular, visiting for the holidays, or spending Thanksgiving away from home, there's a place for you at Wunder Garten. 📍 Event Details Date: Wednesday, November 25, 2026 Time: 4 PM until late Location: Wunder Garten at NoMa 1101 First Street NE, Washington, DC 20002 Admission: FREE Age Policy: 21+ unless accompanied by a parent or legal guardian. Valid ID required. Dog-Friendly: Bring your four-legged friends along! 🦃 Make TURKEGGING Your Thanksgiving Eve Tradition! Thanksgiving is about gathering, and we're starting the celebration a little early. So grab your friends, bundle up, and jo",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 25, 2026. 4:00 PM",
+   "dates": [
+    "2026-11-25"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": "23:00"
   },
   {
    "source": "FindLocal",
@@ -30904,6 +31472,29 @@
    "venueType": "Bar",
    "flCategory": "food_drink",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Wine Down Wednesdays with Live Music",
+   "url": "https://washington.org/event/wine-down-wednesdays-live-music",
+   "venue": "Bonne Vie Cafe & Bistro",
+   "address": "1604 U St. NW, Washington, DC 20009",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9168425,
+   "lng": -77.0371189,
+   "description": "Join us for Wine Down Wednesdays at Bonne Vie Café & Bistro. Enjoy a special selection of wines starting at $10, plus live music featuring timeless classics —Perfect for reminiscing over familiar favorites and making new memories upstairs in our lounge. The Experience Includes: Live music performed 7pm to 10pm Special Selection of Wines - Starting at $10 Our full dinner menu is available, including the prix-fixe experience (* excludes bottomless fries) A midweek gathering with neighbors and friends, throwback tunes, and simple French comforts — where the music brings back memories and the wine makes new ones. *Reservations are encouraged.",
+   "categories": "",
+   "recurrence": "Wednesdays",
+   "admission": "",
+   "scheduleLine": "Wednesdays, Nov 25, 2026 - Nov 15, 2028. 7 p.m. to 10 p.m.",
+   "dates": [
+    "2026-11-25"
+   ],
+   "dateKind": "range",
+   "time": "19:00",
+   "endTime": "22:00"
   },
   {
    "source": "Visit Fairfax",
@@ -31396,6 +31987,29 @@
    "admission": "$40 November 2 - Race Day"
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Festive Cocktails & Mocktails at Opaline",
+   "url": "https://washington.org/event/festive-cocktails-mocktails-opaline",
+   "venue": "Opaline",
+   "address": "806 15th St. NW Sofitel Lafayette Square, Washington, DC 20005",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9004782,
+   "lng": -77.034006,
+   "description": "Celebrate the season at Opaline Bar & Brasserie with an enchanting collection of festive cocktails and thoughtfully crafted mocktails. Discover vibrant seasonal flavors, elegant presentations and a touch of Parisian charm in the heart of Washington, DC. Whether toasting with friends or unwinding after a day of holiday festivities, there’s a festive sip for every occasion.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. 4:00PM",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Fort Tour",
@@ -31619,6 +32233,29 @@
    "outdoorHint": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Happy Hour at The Marquee Lounge",
+   "url": "https://washington.org/event/happy-hour-marquee-lounge",
+   "venue": "Marquee Lounge at the Omni Shoreham",
+   "address": "2500 Calvert St. NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.922555,
+   "lng": -77.0537479,
+   "description": "What could be finer than to be surrounded by the approachable elegance of the historic Omni Shoreham Hotel. The hotel has a legacy woven into the fabric of great performers since the day the doors opened in 1930 with Rudy Vallée and his band. Sachmo sang here. Jimi Hendrix wrote the lyrics of Bold as Love here. The Beatles stayed here. Liza Minelli launched her career at age 17 here. Join us in the Marquee Lounge and raise a glass to great legendary music and bespoke cocktails.",
+   "categories": "",
+   "recurrence": "Thursdays",
+   "admission": "",
+   "scheduleLine": "Thursdays, Nov 26, 2026 - Dec 30, 2027. From: 04:00 PM to 07:00 PM",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "range",
+   "time": "16:00",
+   "endTime": "19:00"
+  },
+  {
    "source": "Patch",
    "siteCounty": "Alexandria city",
    "title": "Happy Thanksgiving Class Schedule",
@@ -31717,6 +32354,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Jazz & Martini Night",
+   "url": "https://washington.org/event/jazz-martini-night",
+   "venue": "Bonne Vie Cafe & Bistro",
+   "address": "1604 U St. NW, Washington, DC 20009",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9168425,
+   "lng": -77.0371189,
+   "description": "Every Thursday night, Bonne Vie Café & Bistro sets the tone for an evening of live jazz and classic martinis, an invitation to slow down, settle in, and let the night unfold naturally. Designed as a standing weekly ritual, Jazz & Martini Night brings together music, conversation, and the quiet pleasure of a perfectly made drink. Rooted in the traditions of the French café and the intimacy of a jazz club, the experience is relaxed yet intentional, meant for lingering, listening, and enjoying the moment without rush. The Experience Includes Live jazz, performed throughout the evening $10 martinis, featuring a curated five-martini menu of timeless classics and house interpretations A limited French-inspired dinner menu, crafted to pair seamlessly with both the music and the mood $10 Martini Menu Earl Grey Martini French Kiss Martini Dirty Martini Classic Martini An intimate night of sound, spirits, and simple French comfort, meant for staying just a little longer than planned. Walk-ins welcome. Seating is limited.",
+   "categories": "",
+   "recurrence": "Thursdays",
+   "admission": "",
+   "scheduleLine": "Thursdays, Nov 26, 2026 - Nov 16, 2028. 7 p.m.",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "range",
+   "time": "19:00",
+   "endTime": "22:00"
   },
   {
    "source": "FindLocal",
@@ -32352,6 +33012,52 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Skydome Thanksgiving Feast on Your Table (To-Go)",
+   "url": "https://washington.org/event/skydome-thanksgiving-feast-your-table-go",
+   "venue": "Skydome Restaurant",
+   "address": "300 Army Navy Dr. Pick-up at Made Market Store (Lobby), Arlington, VA 22202",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8636852,
+   "lng": -77.0526745,
+   "description": "This year, let Skydome handle your Thanksgiving dinner! Enjoy a delicious holiday feast prepared by our culinary team and ready to take home and share. The Skydome Thanksgiving To-Go features holiday favorites, including: - Freshly Baked Breads and Spreads | honey butter cornbread & cranberry walnut loaf - Seasonal Greens | roasted bartlett pear - Traditional Thanksgiving | old-fashioned cornbread stuffing, French bean casserole, sweet potato casserole, whipped Kennebec potatoes and gruyere mac & cheese - Thanksgiving Highlights | brown butter herb roasted turkey breast and maple miso salmon - Sweet Finishes | sweet potato pie, pecan pie and fresh fruit tarts Pickup: Thanksgiving Day at 1:00 PM or 2:00 PM at Made Market Store on the main Level. Price: $75 per person Minimum order requirement: 2 people If you're hosting more than 6 people, please contact our team for pricing: Connie.Li4@Hilton.com.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. From: 02:00 PM to 7:45 PM",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "19:45"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Skydome Thanksgiving Feast on Your Table (To-Go)",
+   "url": "https://washington.org/event/skydome-thanksgiving-feast-your-table-go-0",
+   "venue": "Skydome Restaurant",
+   "address": "300 Army Navy Dr. Pick-up at Made Market Store (Lobby), Arlington, VA 22202",
+   "city": "Arlington",
+   "state": "VA",
+   "lat": 38.8636852,
+   "lng": -77.0526745,
+   "description": "This year, let Skydome handle your Thanksgiving dinner! Enjoy a delicious holiday feast prepared by our culinary team and ready to take home and share. The Skydome Thanksgiving To-Go features holiday favorites, including: - Freshly Baked Breads and Spreads | honey butter cornbread & cranberry walnut loaf - Seasonal Greens | roasted bartlett pear - Traditional Thanksgiving | old-fashioned cornbread stuffing, french bean casserole, sweet potato casserole, whipped kennebec potatoes, and gruyere mac & cheese - Thanksgiving Highlights | brown butter herb roasted turkey breast and maple miso salmon - Sweet Finishes | sweet potato pie, pecan pie, and fresh fruit tarts Pickup: Thanksgiving Day at 1:00 PM or 2:00 PM at Made Market Store on the main Level. Price: $75 per person Minimum order requirement: 2 people If you're hosting more than 6 people, please contact our team for pricing: Connie.Li4@Hilton.com.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. From: 02:00 PM to 7:45 PM",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "19:45"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "STONE TOWER STUDIO",
@@ -32388,6 +33094,29 @@
   {
    "source": "Destination DC",
    "siteCounty": "",
+   "title": "Thanksgiving at Barbouzard",
+   "url": "https://washington.org/event/thanksgiving-barbouzard",
+   "venue": "Barbouzard",
+   "address": "1700 K St. NW, Washington, DC 20006",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9040053,
+   "lng": -77.0600238,
+   "description": "Dine in, take home, or just outsource the sides. Celebrate Thanksgiving at Barbouzard on Thursday, November 26 from 12–8 PM, with a special holiday menu available for $95 per person and $35 for children under 12. Prefer to celebrate at home? We are making Thanksgiving easier with two To-Go options: a complete Turkey Dinner Package for Two, or Thanksgiving Sides & More, an à la carte menu for hosts who want to cook the turkey and leave the rest to us. Reservations or Walk-ins welcome!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. 12 pm to 8 pm",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "20:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
    "title": "Thanksgiving at Hard Rock Cafe!",
    "url": "https://washington.org/event/thanksgiving-hard-rock-cafe",
    "venue": "Hard Rock Cafe",
@@ -32407,6 +33136,31 @@
    "dateKind": "single",
    "time": "11:00",
    "endTime": "20:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Thanksgiving at Jackie",
+   "url": "https://washington.org/event/thanksgiving-jackie",
+   "venue": "Jackie",
+   "address": "79 Potomac Ave. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8708058,
+   "lng": -77.0069044,
+   "description": "This Thanksgiving, gather around the table at Jackie for a celebration of seasonal flavors, thoughtful craftsmanship, and the pleasure of sharing a memorable meal. Our special holiday menu brings the essence of autumn to life through refined ingredients and comforting classics with a contemporary twist. From forest mushroom tartelette and heritage turkey to slow-braised Wagyu beef cheeks and delicate seasonal desserts, every dish is created to make the occasion feel truly special.",
+   "categories": "",
+   "recurrence": "Daily",
+   "admission": "",
+   "scheduleLine": "Daily, Nov 26, 2026 - Nov 28, 2026. From: 04:00 PM to 10:00 PM",
+   "dates": [
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "dateKind": "range",
+   "time": "16:00",
+   "endTime": "22:00"
   },
   {
    "source": "Visit Fairfax",
@@ -32495,6 +33249,29 @@
    "categories": "Family Friendly, Seasonal & Holidays, Food and Drink, Thanksgiving",
    "recurrence": "",
    "admission": "Adults: $185 per person (Exclusive 10% tax and 20% service charge). Kids (4 to 10 years old): $65.00 (Exclusive 10% tax and 20% service charge)"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Thanksgiving Brunch",
+   "url": "https://washington.org/event/thanksgiving-brunch",
+   "venue": "The Potomac Hotel",
+   "address": "1330 Maryland Ave. SW, Washington, DC 20024",
+   "city": "Washington",
+   "state": "DC",
+   "lat": null,
+   "lng": null,
+   "description": "Savor an abundant culinary spread featuring a decadent hot chocolate bar, a made-to-order macaroni and cheese station, expertly carved prime rib and roasted turkey, and a fresh raw bar, alongside an array of brunch favorites! $135 Adults/ $65 kids (ages 12 and under) Please note a 48-hour cancellation policy applies for the full amount of experience. Open Seatings 11:30am & 3:00pm Raw Bar Local and East Coast Oysters, Shrimp Classic mignonette | Hot Sauce | Lemon Wedges | Cocktail Sauce Watermelon and Palm Ceviche Watermelon | Heart of Palm | Mint | Lime | Red Onion. Shrimp “Martini” Maine Lobster | Celery | Old Bay | Butter Lettuce | Pomegranate | Green Olives Local Charcuterie & Cheeses Toasted Bread & Crackers | Honey Coombs | Cornichons| Dried Fruits Market Greens “Thanksgiving Cobb” (V, Contains Dairy, Nuts) Golden & Candy Beets (V/GF, Contains Dairy) House Made Cranberry Butter & Sweet Rolls Mac N Cheese Pasta Station Rock Shrimp | Bacon | Chicken | Scallions | Blue Cheese Soup Coconut Pumkin | Toasted Pumpkin Seeds Carving Station Traditional Roasted Turkey Thyme Scented Gravy Cornbread Stuffing with Roasted Apples, Italian Sausage, Pecans and Bourbon Cranberry-Orange compote Roasted Prime Rib Port Wine Demi-Glace Creamy Horseradish Salmon “Provencal” Baked Salmon with herbes the Provence, Sundried Tomato, Nicoise Olives, Capers Thanksgiving Sides Roasted Garlic Mashed potato | Dijon and Maple Green Beans with Candy Pecans and Feta Cheese| Roasted Brussel Sprout, Carrots & Zucchini | Sweet Potato & Marshmallow Casserole | Warm Couscous Sundried Tomato Kalamata Olives Spinach | Wild Rice Pilaf, Cornbread Stuffing Breakfast Omelet station | Scramble Eggs | Waffles | Applewood Smoked Bacon Sweet Table Pastry Chef Assortments Hot Chocolate Bar HOUSEMADE DARKCHOCOLATE HOT CHOCOLATE Whipped Cream |Crushed Peppermint | Mini Marshmallows | Rainbow Sprinkles | White Chocolate Chips",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. 11:30 am - 3:00pm",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "11:30",
+   "endTime": "15:00"
   },
   {
    "source": "Visit Montgomery",
@@ -32629,6 +33406,29 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Thanksgiving Day Brunch",
+   "url": "https://washington.org/event/thanksgiving-day-brunch",
+   "venue": "Waldorf Astoria Washington, DC",
+   "address": "1100 Pennsylvania Ave. NW, Washington, DC 20004",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8941129,
+   "lng": -77.0275845,
+   "description": "Leave the cooking to us this Thanksgiving and gather for an unforgettable holiday brunch at Waldorf Astoria Washington DC. In collaboration with our new Executive Chef, enjoy an indulgent buffet showcasing seasonal flavors, refined culinary craftsmanship and signature Waldorf Astoria touches. Begin with a lavish raw bar featuring chilled seafood, oysters, shrimp and crab, alongside Maine Lobster Tartare with Cornbread and Yuzu Aioli and Black Truffle Deviled Eggs with Caviar and Gold Flakes. Explore an array of seasonal salads, artisanal cheeses and charcuterie before visiting the chef-attended carving station for Garlic and Sage Rubbed Turkey with aromatic gravy or our showstopping 23K Gold-Covered Prime Rib. The buffet continues with Parmesan-Crusted Salmon, Vegan Carrot Risotto, Wild Mushroom and Truffle Waffles, and an array of thoughtfully prepared seasonal sides. Younger guests can enjoy a dedicated Kids’ Corner, while the dessert display offers a tempting finale of seasonal tarts, delicate confections and freshly baked spiced pumpkin, pecan and traditional apple crisp pies. Celebrate the holiday with exceptional cuisine, gracious hospitality and time well spent around the table.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 26, 2026. 12:00 PM, 2:30 PM and 5 PM",
+   "dates": [
+    "2026-11-26"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "19:00"
   },
   {
    "source": "Patch",
@@ -35093,6 +35893,30 @@
    "admission": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Georgetown Ghost, Vampires & Witches Tour",
+   "url": "https://washington.org/event/georgetown-ghost-vampires-witches-tour",
+   "venue": "Georgetown Ghost Tours",
+   "address": "2929 M St. NW Truist Bank, Washignton, DC 20007",
+   "city": "Washignton",
+   "state": "DC",
+   "lat": 38.9054241,
+   "lng": -77.0589014,
+   "description": "Led by skilled historians who bring the past to life through theatrical storytelling, this Victorian-inspired tour uncovers the strange stories hidden throughout one of Washington’s oldest neighborhoods. You'll hear real-life hauntings, discover documented vampire sightings and explore the story of the infamous “Witches of Georgetown.” We'll end at the infamous Exorcist Steps, where we reveal the facts behind America’s most famous case of demonic possession.",
+   "categories": "",
+   "recurrence": "Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Fridays, Saturdays, Now - Nov 20, 2027. 7:30 PM",
+   "dates": [
+    "2026-11-27",
+    "2026-11-28"
+   ],
+   "dateKind": "range",
+   "time": "19:30",
+   "endTime": ""
+  },
+  {
    "source": "Visit Frederick",
    "siteCounty": "Frederick County",
    "title": "Ghost Tours of Historic Frederick",
@@ -36755,6 +37579,29 @@
    ],
    "time": "18:00",
    "endTime": "21:00"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Radford Highlanders at American University Eagles Mens Basketball",
+   "url": "https://washington.org/event/radford-highlanders-american-university-eagles-mens-basketball",
+   "venue": "Bender Arena",
+   "address": "Bender Arena 4400 Massachusetts Ave, NW , Ward Cir, Washington, DC 20016",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9378426,
+   "lng": -77.0900614,
+   "description": "A century of American University basketball meets the Radford Highlanders in this NCAA Division I matchup. The Eagles enter their 2026–27 centennial season with four NCAA Tournament appearances and four Patriot League tournament titles, including a return to March Madness in 2025. Radford brings its own postseason history: the Highlanders have reached the NCAA Tournament three times, most recently in 2018. As the teams face off in the Capital Thanksgiving Classic, the appeal is the contrast between American’s Patriot League tradition and Radford’s Big South roots—two programs looking to make their mark on the early-season court.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 27, 2026. Starting: 4:00 PM",
+   "dates": [
+    "2026-11-27"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": ""
   },
   {
    "source": "FindLocal",
@@ -38500,6 +39347,29 @@
    "outdoorHint": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Alice's Holiday Peppermint Tea Party",
+   "url": "https://washington.org/event/alices-holiday-peppermint-tea-party",
+   "venue": "Robert's Restaurant at the Omni Shoreham",
+   "address": "2500 Calvert St. NW, Washington, DC 20008",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.922555,
+   "lng": -77.0537479,
+   "description": "Reservations Required Celebrate the magic of the season at the Omni Shoreham Hotel with an Alice’s Peppermint Tea Party that celebrates Alice and the marvelous 1865 English children's novel by Lewis Carroll, a mathematics fellow at Oxford University. The novel invites us into the story of a girl named Alice who falls through a rabbit hole into a fantasy world. Join us in December for a refreshing holiday twist on the tea party with holiday themed teas, savories and sweets. Tis the season to make merry – join us! Overlooking Rock Creek Park, the Omni Shoreham Hotel is a elegantly approachable resort that hails back to 1930. With 4 acres of landscaped gardens, the resort is a tranquil escape. Robert's Restaurant & Terrace features stunning architecture with grand arched windows overlooking a beautifully landscaped garden with patios and terraces that magically transform over the seasons. Sip properly brewed tea whilst sampling savories, sweets and freshly baked scones served with clotted cream and jams. Feel relaxed, refreshed and fully present with family or friends as you take in the tranquil views of the gardens and Rock Creek National Park. Afterwards, croquet awaits!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 28, 2026. From: 01:00 PM to 02:00 PM",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "14:00"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "ALL MIGHTY SENATORS",
@@ -39514,6 +40384,29 @@
    "categories": "Student Life",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Congressional Cemetery Introductory Tour",
+   "url": "https://washington.org/event/congressional-cemetery-introductory-tour-1",
+   "venue": "1801 E St. SE",
+   "address": "1801 E St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8828306,
+   "lng": -76.9789095,
+   "description": "Over 67,000 people are interred at Congressional Cemetery, ranging from 1807 all the way until the present day. Their stories are American history in microcosm, all in 35 acres of the nation’s capital. Come and experience their extraordinary lives in a one of kind portal into the past. On this tour of approximately 90 minutes, one of our trained docents will share with you the stories of some of Congressional’s interred residents while walking the beautiful and scenic cemetery grounds. Tickets are only $5 and all proceeds go to benefitting our non-profit mission of historical preservation and education. This is a non-refundable donation. Please come prepared with comfortable and weather-appropriate clothing and shoes, as the tours often stray from the main paths. Tours are rain or shine. Visitors may meet docents at the front gate of the cemetery located at the corner of E St. and Potomac Ave. The cemetery is closed to dogs on Saturdays from 11am – 3pm. Purchase Tickets Here!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 28, 2026. From: 11:00 AM to 12:30 PM",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "12:30"
   },
   {
    "source": "Visit Loudoun",
@@ -41064,6 +41957,29 @@
    "venueType": "Music Venue",
    "flCategory": "music",
    "outdoorHint": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Kem",
+   "url": "https://washington.org/event/kem",
+   "venue": "The Hall at Maryland Live",
+   "address": "The Hall at Maryland Live 7002 Arundel Mills Circle, Hanover, MD 21076",
+   "city": "Hanover",
+   "state": "MD",
+   "lat": 39.1568525,
+   "lng": -76.7277839,
+   "description": "Detroit singer-songwriter KEM brings a polished, soulful touch to contemporary R&B, pairing a velvety, expressive voice with gently swinging grooves and lyrics shaped by love, faith and hard-won hope. His independently released debut, KEMISTRY, led to a Motown recording deal and introduced “Love Calls,” his breakthrough hit. He followed it with the platinum-certified KEM ALBUM II, featuring “I Can’t Stop Loving You,” and the Grammy-nominated album INTIMACY, which debuted at No. 2 on the Billboard 200. KEM’s songs make room for both romance and reflection, carried by the unhurried warmth of his vocals.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 28, 2026. Starting: 8:00 PM",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "20:00",
+   "endTime": ""
   },
   {
    "source": "Visit Montgomery",
@@ -44184,6 +45100,29 @@
    "outdoorHint": "a Park & Outdoors venue"
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "UMass Lowell River Hawks at American University Eagles Mens Basketball",
+   "url": "https://washington.org/event/umass-lowell-river-hawks-american-university-eagles-mens-basketball",
+   "venue": "Bender Arena",
+   "address": "Bender Arena 4400 Massachusetts Ave, NW , Ward Cir, Washington, DC 20016",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9378426,
+   "lng": -77.0900614,
+   "description": "American University’s Eagles enter their centennial season with a proud Patriot League tradition and a fresh milestone in view. Since first taking the court in 1926, the program has earned four Patriot League tournament titles and four NCAA Tournament appearances, most recently returning to March Madness in 2025. The River Hawks bring a competitive America East challenge, having reached their conference tournament semifinals in 2026. With these programs meeting for the first time as part of the Capital Thanksgiving Classic, the matchup pairs American’s championship-season momentum with UMass Lowell’s drive to test itself against new Division I opponents.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 28, 2026. Starting: 4:00 PM",
+   "dates": [
+    "2026-11-28"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "UNDERTALE VS DELTARUNE",
@@ -44547,6 +45486,30 @@
    "categories": "",
    "recurrence": "",
    "admission": ""
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "WinterFest 2026",
+   "url": "https://washington.org/event/winterfest-2026",
+   "venue": "Wunder Garten",
+   "address": "1101 1st St. NE, Washington, DC 20002",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9040696,
+   "lng": -77.005402,
+   "description": "WinterFest at Wunder Garten: Nov. 28–Dec. 19! Holiday Markets, Festive Cocktails, Christmas Trees, Entertainment & More! ❄️ WinterFest 2026 at Wunder Garten! 🎄 November 28 – December 19, 2026 | Washington, DC Celebrate the magic of the holiday season as WinterFest returns to Wunder Garten! From November 28 through December 19, Wunder Garten transforms into a festive winter wonderland filled with holiday cheer, seasonal cocktails, unique shopping experiences, live entertainment, and special activities for friends, families, and four-legged companions. Whether you're searching for the perfect holiday gift, gathering with friends for festive drinks, or looking for a fun way to celebrate the season, WinterFest offers something for everyone! 🎄 WinterFest Highlights 🛍️ Holiday Market | Fridays, Saturdays & Sundays Shop local and support small businesses! Discover unique gifts, handcrafted goods, artwork, accessories, and holiday treasures from a rotating selection of local makers, artisans, and independent vendors. 🎄 The Giving Tree Christmas Tree Lot The Giving Tree Lot returns to Wunder Garten! Find the perfect Christmas tree to bring home and make your holiday season even brighter. 🍹 Festive Cocktails & Warm Winter Beverages Sip your way through the season with specialty holiday cocktails, seasonal beers, warm beverages, and festive creations from Wunder Garten's bars. ⛷️ Après-Ski Experience Enjoy a special après-ski-inspired experience in partnership with Blossom Beverages, bringing cozy winter vibes and festive drinks to the heart of NoMa. 🍺 Winter Beer Tasting Experience Explore seasonal beers during a special guided winter beer tasting class presented by our partners at City Brew Tours. 🐾 Holiday Yappy Hour Bring your four-legged friends for a special holiday-themed Yappy Hour featuring festive fun for dogs and their humans. 🎶 Holiday Entertainment & Themed Parties Get into the holiday spirit with themed dance parties, music, entertainment, and special sea",
+   "categories": "",
+   "recurrence": "Sundays, Fridays, Saturdays",
+   "admission": "",
+   "scheduleLine": "Sundays, Fridays, Saturdays, Nov 28, 2026 - Dec 19, 2026. 12:00 PM",
+   "dates": [
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "range",
+   "time": "12:00",
+   "endTime": ""
   },
   {
    "source": "FindLocal",
@@ -45471,6 +46434,29 @@
    "admission": ""
   },
   {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Congressional Cemetery Introductory Tour",
+   "url": "https://washington.org/event/congressional-cemetery-introductory-tour-2",
+   "venue": "1801 E St. SE",
+   "address": "1801 E St. SE, Washington, DC 20003",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.8828306,
+   "lng": -76.9789095,
+   "description": "Over 67,000 people are interred at Congressional Cemetery, ranging from 1807 all the way until the present day. Their stories are American history in microcosm, all in 35 acres of the nation’s capital. Come and experience their extraordinary lives in a one of kind portal into the past. On this tour of approximately 90 minutes, one of our trained docents will share with you the stories of some of Congressional’s interred residents while walking the beautiful and scenic cemetery grounds. Tickets are only $5 and all proceeds go to benefitting our non-profit mission of historical preservation and education. This is a non-refundable donation. Please come prepared with comfortable and weather-appropriate clothing and shoes, as the tours often stray from the main paths. Tours are rain or shine. Visitors may meet docents at the front gate of the cemetery located at the corner of E St. and Potomac Ave. The cemetery is closed to dogs on Saturdays from 11am – 3pm. Purchase Tickets Here!",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 29, 2026. From: 01:00 PM to 02:30 PM",
+   "dates": [
+    "2026-11-29"
+   ],
+   "dateKind": "single",
+   "time": "13:00",
+   "endTime": "14:30"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Dale City Farmers Market",
@@ -45966,6 +46952,29 @@
    "venueType": "Park & Outdoors",
    "flCategory": "art",
    "outdoorHint": "a Park & Outdoors venue"
+  },
+  {
+   "source": "Destination DC",
+   "siteCounty": "",
+   "title": "Hampton Pirates at American University Eagles Mens Basketball",
+   "url": "https://washington.org/event/hampton-pirates-american-university-eagles-mens-basketball",
+   "venue": "Bender Arena",
+   "address": "Bender Arena 4400 Massachusetts Ave, NW , Ward Cir, Washington, DC 20016",
+   "city": "Washington",
+   "state": "DC",
+   "lat": 38.9378426,
+   "lng": -77.0900614,
+   "description": "Hampton Pirates and American University Eagles bring two Division I programs with recent postseason momentum together in a nonconference matchup. Hampton’s basketball history includes a celebrated 2001 NCAA Tournament upset of No. 2 seed Iowa State, while the Pirates also won back-to-back MEAC tournament titles in 2015 and 2016. American captured the 2024-25 Patriot League championship and returned to the NCAA Tournament for the first time since 2014, setting a program record with 299 three-pointers that season. The matchup pairs Hampton’s proud tournament tradition with an Eagles team shaped by an up-tempo approach and a knack for scoring from beyond the arc.",
+   "categories": "",
+   "recurrence": "",
+   "admission": "",
+   "scheduleLine": "Nov 29, 2026. Starting: 4:00 PM",
+   "dates": [
+    "2026-11-29"
+   ],
+   "dateKind": "single",
+   "time": "16:00",
+   "endTime": ""
   },
   {
    "source": "FindLocal",
@@ -48302,7 +49311,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-21T21:33:26.969Z",
+  "generatedAt": "2026-11-21T22:18:18.693Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -48311,7 +49320,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 2203
+    "ms": 1460
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -48319,7 +49328,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1323
+    "ms": 624
    },
    "City of Rockville": {
     "ok": true,
@@ -48327,7 +49336,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 156
+    "ms": 189
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -48335,7 +49344,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1963
+    "ms": 947
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -48343,7 +49352,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 2007
+    "ms": 1232
    },
    "Navy Yard BID": {
     "ok": true,
@@ -48351,7 +49360,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 638
+    "ms": 444
    },
    "DowntownDC BID": {
     "ok": true,
@@ -48359,7 +49368,7 @@
     "events": 8,
     "outcome": "",
     "error": "",
-    "ms": 1484
+    "ms": 607
    },
    "Falls Church": {
     "ok": true,
@@ -48399,7 +49408,7 @@
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 1133
+    "ms": 529
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -48407,7 +49416,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 780
+    "ms": 346
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 357
    },
    "Visit Alexandria": {
     "ok": true,
@@ -48415,7 +49432,7 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 584
+    "ms": 986
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -48423,7 +49440,63 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 610
+    "ms": 576
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 7,
+    "outcome": "",
+    "error": "",
+    "ms": 826
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 1088
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 564
+   },
+   "City of Greenbelt": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 587
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 810
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 33,
+    "outcome": "",
+    "error": "",
+    "ms": 799
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 1021
    },
    "Ticketmaster": {
     "ok": true,
@@ -48433,6 +49506,102 @@
     "error": "",
     "ms": null
    },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 650
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 1036
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 408
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 4,
+    "outcome": "",
+    "error": "",
+    "ms": 569
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 5152
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 2559
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 36,
+    "outcome": "",
+    "error": "",
+    "ms": 701
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1497
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 6400
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 157
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 399
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 276
+   },
    "DC HSEMA": {
     "ok": true,
     "status": "EVENTS FOUND",
@@ -48441,181 +49610,21 @@
     "error": "",
     "ms": null
    },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 566
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1400
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 7,
-    "outcome": "",
-    "error": "",
-    "ms": 1591
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 33,
-    "outcome": "",
-    "error": "",
-    "ms": 1064
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 1450
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 943
-   },
-   "City of Greenbelt": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 905
-   },
-   "City of Bowie": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 906
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 860
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 592
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 864
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 4,
-    "outcome": "",
-    "error": "",
-    "ms": 715
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1147
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 3452
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 36,
-    "outcome": "",
-    "error": "",
-    "ms": 525
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 7578
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 2054
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 171
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 384
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 311
-   },
    "Visit Fredericksburg": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 9476
+    "ms": 2362
    },
    "NOVA Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 3,
+    "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 135
+    "ms": 932
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -48623,7 +49632,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 3229
+    "ms": 6231
    },
    "City of Annapolis": {
     "ok": true,
@@ -48631,7 +49640,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 500
+    "ms": 2232
    },
    "City of College Park": {
     "ok": true,
@@ -48639,7 +49648,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 650
+    "ms": 575
    },
    "City of Frederick": {
     "ok": true,
@@ -48647,7 +49656,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 475
+    "ms": 371
    },
    "City of Laurel": {
     "ok": true,
@@ -48655,7 +49664,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 551
+    "ms": 268
    },
    "Town of Purcellville": {
     "ok": true,
@@ -48663,7 +49672,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 424
+    "ms": 368
    },
    "National Landing BID": {
     "ok": true,
@@ -48671,7 +49680,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 8698
+    "ms": 7383
    },
    "City of Fairfax": {
     "ok": true,
@@ -48679,7 +49688,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2102
+    "ms": 2346
    },
    "Mosaic District": {
     "ok": true,
@@ -48687,7 +49696,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1455
+    "ms": 1635
    },
    "Union Market District": {
     "ok": true,
@@ -48695,7 +49704,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1110
+    "ms": 1494
    },
    "The Boro Tysons": {
     "ok": false,
@@ -48703,7 +49712,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 107
+    "ms": 100
    },
    "One Loudoun": {
     "ok": true,
@@ -48711,7 +49720,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 314
+    "ms": 261
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -48719,10 +49728,10 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1528
+    "ms": 1053
    }
   },
-  "count": 149,
+  "count": 148,
   "events": [
    {
     "title": "Citizens Advisory Committee on Transportation Tabling at Falls Church Farmers Market",
@@ -49424,30 +50433,6 @@
     "date": "2026-11-21",
     "id": "NPS Rock Creek Park|https://www.nps.gov/planyourvisit/event-details.htm?id=A7115921-B645-232C-5FDF613CC8CA5248|2026-11-21|15:00|6625 georgia ave nw, washington, dc",
     "confidence": "NPS explicit occurrence and time slot",
-    "category": "nature"
-   },
-   {
-    "source": "NOVA Parks",
-    "city": "Sterling",
-    "county": "Loudoun County",
-    "state": "VA",
-    "categories": "",
-    "venue": "Algonkian Regional Park",
-    "address": "Algonkian Regional Park, Sterling, VA",
-    "description": "Experience the vibrant colors and crisp air of autumn along a smooth, accessible paved path. Join a park naturalist for a leisurely journey to spot changing leaves, listen to migrating birds, and discover how local plants and wildlife get ready for...",
-    "time": "15:30",
-    "endTime": "17:00",
-    "lat": null,
-    "lng": null,
-    "title": "Autumn Guided Walk",
-    "url": "https://www.novaparks.com/parks/algonkian-regional-park/events/autumn-guided-walk",
-    "activityLocation": "Algonkian Regional Park",
-    "dateEvidence": "NOVA Parks event calendar",
-    "outdoorEvidence": "Scheduled walk at an outdoor public space (Algonkian Regional Park)",
-    "outdoorEvidenceURL": "https://www.novaparks.com/parks/algonkian-regional-park/events/autumn-guided-walk",
-    "date": "2026-11-21",
-    "id": "NOVA Parks|https://www.novaparks.com/parks/algonkian-regional-park/events/autumn-guided-walk|2026-11-21",
-    "confidence": "NOVA Parks event calendar",
     "category": "nature"
    },
    {
@@ -52728,16 +53713,16 @@
     "lng": null
    },
    {
-    "t": "presidential valor: the military service of presidents and vice presidents who served in world war ii",
-    "id": "55B0C189-0B31-E797-843817D1C3CA4B3B",
-    "lat": null,
-    "lng": null
-   },
-   {
     "t": "vietnam veterans memorial",
     "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
     "lat": 38.888361,
     "lng": -77.049099
+   },
+   {
+    "t": "presidential valor: the military service of presidents and vice presidents who served in world war ii",
+    "id": "55B0C189-0B31-E797-843817D1C3CA4B3B",
+    "lat": null,
+    "lng": null
    },
    {
     "t": "lincoln memorial",
