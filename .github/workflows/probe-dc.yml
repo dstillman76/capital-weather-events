@@ -1,0 +1,27 @@
+name: Probe washington.org (one-off)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fetch robots, sitemaps, listing and one event page
+        run: |
+          mkdir -p out; UA='CapitalWeatherEventsCollector/1.0 (+https://github.com/dstillman76/capital-weather-events)'
+          get(){ code=$(curl -sL -o "out/$1" -w '%{http_code} %{content_type} %{url_effective}' -A "$UA" --max-time 30 "$2" || true); echo "$1 $code" >> out/codes.txt; sleep 3; }
+          get robots.txt https://washington.org/robots.txt
+          get sitemap.xml https://washington.org/sitemap.xml
+          get listing.html https://washington.org/find-dc-listings/dc-events
+          get enchant.html https://washington.org/event/enchant-christmas-returns-dc
+          for u in $(grep -o 'https://washington.org/sitemap[^<]*' out/sitemap.xml | head -8); do n=$(echo "$u" | tr -c 'a-zA-Z0-9' '_' | tail -c 60); get "sm_$n.xml" "$u"; done
+          ls -la out
+      - name: Save to the probe-dc branch (not main)
+        run: |
+          cd out
+          git init -q && git checkout -q -b probe-dc
+          git config user.name github-actions && git config user.email github-actions@users.noreply.github.com
+          git add -A && git commit -qm "washington.org probe"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe-dc
