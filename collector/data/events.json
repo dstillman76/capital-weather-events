@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-21T22:17:52.135Z",
+ "generatedAt": "2026-11-21T22:20:22.355Z",
  "window": {
   "start": "2026-11-21",
   "end": "2026-11-29"
@@ -180,7 +180,7 @@
    "kind": "sitemap",
    "status": "ok",
    "sitemapEvents": 761,
-   "opened": 246,
+   "opened": 0,
    "cached": 742,
    "refused": 0,
    "errors": 0,
@@ -190,11 +190,12 @@
    "note": ""
   }
  ],
- "count": 1780,
+ "count": 1779,
  "exclude": [
   "Pickleball at Metro Park",
   "Secretaries' Cup Fan Fest",
-  "Holiday Party at Enchant"
+  "Holiday Party at Enchant",
+  "Tai Chi with Master Nick"
  ],
  "events": [
   {
@@ -14034,30 +14035,6 @@
    "dateKind": "single",
    "time": "18:00",
    "endTime": "20:30"
-  },
-  {
-   "source": "Destination DC",
-   "siteCounty": "",
-   "title": "Tai Chi with Master Nick",
-   "url": "https://washington.org/event/tai-chi-master-nick",
-   "venue": "Birdcage Walk. West Promenade.",
-   "address": "2500 Calvert Street NW, Washington, DC 20008",
-   "city": "Washington",
-   "state": "DC",
-   "lat": 38.922555,
-   "lng": -77.0537479,
-   "description": "Tai Chi is sometimes called \"meditation in motion\" because it's designed to harmonize the body's energy and mind. The class is led by Master Nick Gracenin, a 46-year career as a teacher of Qigong, Tai Chi, Chinese Yoga (Dao Yin) and Chinese Martial Arts. All fitness levels are welcomed. Classes are open to resort guests, no reservation is required.",
-   "categories": "",
-   "recurrence": "Saturdays",
-   "admission": "",
-   "scheduleLine": "Saturdays, Nov 21, 2026 - Jan 01, 2028. From: 09:30 AM to 10:30 AM",
-   "dates": [
-    "2026-11-21",
-    "2026-11-28"
-   ],
-   "dateKind": "range",
-   "time": "09:30",
-   "endTime": "10:30"
   },
   {
    "source": "FindLocal",
@@ -49311,7 +49288,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-21T22:18:18.693Z",
+  "generatedAt": "2026-11-21T22:20:36.399Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -49320,7 +49297,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1460
+    "ms": 716
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -49328,7 +49305,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 624
+    "ms": 187
    },
    "City of Rockville": {
     "ok": true,
@@ -49336,7 +49313,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 189
+    "ms": 101
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -49344,7 +49321,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 947
+    "ms": 567
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -49352,7 +49329,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 1232
+    "ms": 560
    },
    "Navy Yard BID": {
     "ok": true,
@@ -49360,7 +49337,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 444
+    "ms": 281
    },
    "DowntownDC BID": {
     "ok": true,
@@ -49368,7 +49345,7 @@
     "events": 8,
     "outcome": "",
     "error": "",
-    "ms": 607
+    "ms": 255
    },
    "Falls Church": {
     "ok": true,
@@ -49408,23 +49385,7 @@
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 529
-   },
-   "Mount Vernon Triangle CID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 346
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 357
+    "ms": 363
    },
    "Visit Alexandria": {
     "ok": true,
@@ -49432,7 +49393,23 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 986
+    "ms": 246
+   },
+   "Mount Vernon Triangle CID": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 370
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 331
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -49440,47 +49417,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 576
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 7,
-    "outcome": "",
-    "error": "",
-    "ms": 826
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1088
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 564
-   },
-   "City of Greenbelt": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 2,
-    "outcome": "",
-    "error": "",
-    "ms": 587
-   },
-   "City of Bowie": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 810
+    "ms": 237
    },
    "NPS National Mall": {
     "ok": true,
@@ -49488,119 +49425,7 @@
     "events": 33,
     "outcome": "",
     "error": "",
-    "ms": 799
-   },
-   "M-NCPPC Prince George’s Parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 5,
-    "outcome": "",
-    "error": "",
-    "ms": 1021
-   },
-   "Ticketmaster": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": null
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 650
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 1036
-   },
-   "National Arboretum (FONA)": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 408
-   },
-   "Visit Calvert": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 4,
-    "outcome": "",
-    "error": "",
-    "ms": 569
-   },
-   "Bethesda Urban Partnership": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 5152
-   },
-   "Visit St. Mary’s": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 2559
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 36,
-    "outcome": "",
-    "error": "",
-    "ms": 701
-   },
-   "Town of Vienna": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 1,
-    "outcome": "",
-    "error": "",
-    "ms": 1497
-   },
-   "Georgetown BID": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "",
-    "error": "",
-    "ms": 6400
-   },
-   "Town of Occoquan": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 157
-   },
-   "Town of Warrenton": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 399
-   },
-   "Visit Stafford": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
-    "error": "",
-    "ms": 276
+    "ms": 282
    },
    "DC HSEMA": {
     "ok": true,
@@ -49610,13 +49435,165 @@
     "error": "",
     "ms": null
    },
+   "The Wharf": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 879
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 483
+   },
+   "City of Greenbelt": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 2,
+    "outcome": "",
+    "error": "",
+    "ms": 537
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 685
+   },
+   "M-NCPPC Prince George’s Parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 5,
+    "outcome": "",
+    "error": "",
+    "ms": 818
+   },
+   "National Arboretum (FONA)": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 231
+   },
+   "Bethesda Urban Partnership": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 136
+   },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 7,
+    "outcome": "",
+    "error": "",
+    "ms": 801
+   },
+   "NPS DC-area parks": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 36,
+    "outcome": "",
+    "error": "",
+    "ms": 482
+   },
+   "Ticketmaster": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": null
+   },
+   "Georgetown BID": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 9684
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 807
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 1010
+   },
+   "Visit Calvert": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 4,
+    "outcome": "",
+    "error": "",
+    "ms": 636
+   },
+   "Visit St. Mary’s": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "",
+    "error": "",
+    "ms": 405
+   },
+   "Town of Vienna": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 1,
+    "outcome": "",
+    "error": "",
+    "ms": 1018
+   },
+   "Town of Occoquan": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 55
+   },
+   "Town of Warrenton": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 360
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 114
+   },
    "Visit Fredericksburg": {
     "ok": true,
     "status": "COMPLETED — none qualified this week",
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2362
+    "ms": 760
    },
    "NOVA Parks": {
     "ok": true,
@@ -49624,7 +49601,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 932
+    "ms": 115
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -49632,7 +49609,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 6231
+    "ms": 1001
    },
    "City of Annapolis": {
     "ok": true,
@@ -49640,7 +49617,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2232
+    "ms": 420
    },
    "City of College Park": {
     "ok": true,
@@ -49648,7 +49625,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 575
+    "ms": 536
    },
    "City of Frederick": {
     "ok": true,
@@ -49656,7 +49633,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 371
+    "ms": 473
    },
    "City of Laurel": {
     "ok": true,
@@ -49664,7 +49641,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 268
+    "ms": 310
    },
    "Town of Purcellville": {
     "ok": true,
@@ -49672,7 +49649,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 368
+    "ms": 327
    },
    "National Landing BID": {
     "ok": true,
@@ -49680,7 +49657,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 7383
+    "ms": 6990
    },
    "City of Fairfax": {
     "ok": true,
@@ -49688,7 +49665,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2346
+    "ms": 2194
    },
    "Mosaic District": {
     "ok": true,
@@ -49696,7 +49673,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1635
+    "ms": 170
    },
    "Union Market District": {
     "ok": true,
@@ -49704,7 +49681,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1494
+    "ms": 494
    },
    "The Boro Tysons": {
     "ok": false,
@@ -49720,7 +49697,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 261
+    "ms": 78
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -49728,20 +49705,20 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1053
+    "ms": 764
    }
   },
   "count": 148,
   "events": [
    {
-    "title": "Citizens Advisory Committee on Transportation Tabling at Falls Church Farmers Market",
-    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14875&month=11&year=2026&day=21&calType=0",
+    "title": "Falls Church Farmers Market",
+    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14146&month=11&year=2026&day=21&calType=0",
     "source": "Falls Church",
-    "description": "Citizens Advisory Committee on Transportation Tabling at Falls Church Farmers Market November 21, 2026, 8:00 AM - 12:00 PM@ City Hall - Parking Lot Citizens Advisory Committee on Transportation Tabling at Falls Church Farmers Market 2026-11-21T08:00:00 City Hall - Parking Lot300 Park Ave.Falls ChurchVA22046 More Details CACT members will host an information table at the Falls Church Farmers Market on the second Saturday of each month. Residents can stop by to ask questions, share transportation related concerns and learn more about the Committee's work.",
+    "description": "Falls Church Farmers Market November 21, 2026, 8:00 AM - 12:00 PM@ City Hall Parking Lot Falls Church Farmers Market2026-11-21T08:00:00Shop the award-winning market every Saturday, year-round! City Hall Parking Lot300 Park Ave.Falls ChurchVA22046Shop the award-winning market every Saturday, year-round! More Details Visit the official website for the latest information on vendors, entertainment, and other special programs.You can also find weekly details on Facebook and Instagram.",
     "categories": "",
-    "venue": "",
+    "venue": "View Facility City Hall Parking Lot Address: 300 Park Ave.Falls Church, VA 22046",
     "address": "300 Park Ave.",
-    "city": "Kenneth R. Burnett BuildingFalls Church",
+    "city": "Falls Church",
     "county": "Falls Church City",
     "state": "VA",
     "time": "08:00",
@@ -49751,7 +49728,7 @@
     "dateEvidence": "calendar card date",
     "scheduleAmbiguous": false,
     "date": "2026-11-21",
-    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14875&month=11&year=2026&day=21&calType=0|2026-11-21",
+    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14146&month=11&year=2026&day=21&calType=0|2026-11-21",
     "confidence": "event page schedule",
     "category": "market",
     "alsoListedBy": []
