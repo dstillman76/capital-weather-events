@@ -352,6 +352,162 @@ async function collectSimpleview(src, cache, today, windowEnd) {
   return {report, records};
 }
 
+/* ---------- Destination DC (washington.org) ---------- */
+
+// DC's official tourism calendar. Its robots.txt allows event pages; its
+// sitemap lists the current events. Each page has a schema.org Event block
+// (the next occurrence, venue, address, coordinates) and a schedule line
+// ("Daily, Now - Dec 27, 2026.  From: 04:30 PM to 10:30 PM",
+// "Wednesdays, Nov 25, 2026 - Jun 30, 2027.  6:00 PM to 8:00 PM",
+// "Dec 08, 2026.  Starting: 5:30 PM").
+const DESTINATION_DC = {name: 'Destination DC', host: 'washington.org', county: 'District of Columbia', state: 'DC'};
+const WEEKDAY_SHORT = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+const wdIndex = w => WEEKDAY_SHORT.indexOf(String(w).slice(0, 3).toLowerCase());
+const weekdayOfISO = iso => new Date(iso + 'T12:00:00Z').getUTCDay();
+// "4 - 6 PM", "6PM-7:30PM", "From: 04:30 PM to 10:30 PM", "Starting: 8:00 PM",
+// "2:00 p.m. and 7:00 p.m." (first), "10:00 a.m. to 5:30 p.m."
+export function dcClockRange(text) {
+  const t = String(text || '').replace(/^(?:from|starting|starts|begins)\s*:?\s*/i, '');
+  if (/times vary|see website|varies/i.test(t)) return {start: '', end: ''};
+  const m = t.match(/(\d{1,2})(?::([0-5]\d))?\s*([ap])?\.?\s*m?\.?\s*(?:-|–|to|until)\s*(\d{1,2})(?::([0-5]\d))?\s*([ap])\.?\s*m\b/i);
+  const to24 = (h, min, ap) => { let x = +h % 12; if (/p/i.test(ap)) x += 12; return `${pad(x)}:${min || '00'}`; };
+  if (m) {
+    const endAp = m[6], startAp = m[3] || (+m[1] <= +m[4] || +m[4] === 12 ? endAp : (/p/i.test(endAp) ? 'a' : 'p'));
+    const start = to24(m[1], m[2], startAp), end = to24(m[4], m[5], endAp);
+    return {start, end: end > start ? end : ''};
+  }
+  return {start: parseClock(t), end: ''};
+}
+// Weekday hours stated in the description ("Tuesday-Wednesday | 5:30pm - 7:30pm",
+// "Sunday | 4:30pm- 7:30pm") and closed dates ("closed Thursday, November 26").
+export function dcWeekdaySchedule(text, year) {
+  const schedule = {}, closed = [];
+  const re = /\b(Sun|Mon|Tues?|Wed(?:nes)?|Thu(?:rs)?|Fri|Sat(?:ur)?)[a-z]*\s*(?:(?:-|–|through|to)\s*(Sun|Mon|Tues?|Wed(?:nes)?|Thu(?:rs)?|Fri|Sat(?:ur)?)[a-z]*)?\s*\|\s*([^|]{0,20}?\d{1,2}(?::\d\d)?\s*(?:[ap]\.?m\.?)?\s*(?:-|–|to)\s*\d{1,2}(?::\d\d)?\s*[ap]\.?m\.?|[^|]{0,20}?\d{1,2}(?::\d\d)?\s*[ap]\.?m\.?)/gi;
+  for (const m of String(text).matchAll(re)) {
+    const a = wdIndex(m[1]), b = m[2] ? wdIndex(m[2]) : a, tr = dcClockRange(m[3]);
+    if (a < 0 || b < 0 || !tr.start) continue;
+    for (let d = a, n = 0; n < 7; d = (d + 1) % 7, n++) { schedule[d] ??= tr; if (d === b) break; }
+  }
+  for (const m of String(text).matchAll(/\bclosed\s+(?:on\s+)?(?:[A-Z][a-z]+day,?\s+)?([A-Z][a-z]{2,8})\.?\s+(\d{1,2})\b/g)) {
+    const mo = MONTHS[m[1].slice(0, 3).toLowerCase()]; if (mo && year) closed.push(isoFrom(year, mo, m[2]));
+  }
+  return {schedule, closed};
+}
+export function parseDestinationDCPage(html, url, today) {
+  let ev = null;
+  for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try { const j = JSON.parse(m[1]); if (j['@type'] === 'Event') ev = j; } catch { /* other blocks */ }
+  }
+  if (!ev) return {skip: 'no event data'};
+  const validity = decode((html.match(/class="deal-validity">\s*([^<]+?)\s*<\/div>/) || [])[1] || '').replace(/\s+/g, ' ').trim();
+  const [datePart, ...rest] = validity.split(/\.\s+/);
+  const timePart = rest.join('. ');
+  // Inline tags removed without a space: "<em>Tuesday | 5</em><span>:30pm" is one clock.
+  const body = textOf(((html.match(/class="businessdetail--body">([\s\S]*?)<div (?:id="accordion"|class="(?:businessdetail--|deal-|share))/) || [])[1] || '')
+    .replace(/<\/?(?:em|span|strong|b|i|a|u|font)\b[^>]*>/gi, ''));
+  const loc = ev.location || {}, ad = loc.address || {};
+  let street = decode(ad.streetAddress || '').trim();
+  street = street.replace(/^(.+?)\s+\1$/, '$1');                     // "1500 S Capitol St. SE 1500 S Capitol St. SE"
+  const ldStart = String(ev.startDate || '').slice(0, 10), ldEnd = String(ev.endDate || '').slice(0, 10);
+  const ldTime = /T\d\d:\d\d/.test(ev.startDate || '') ? ev.startDate.slice(11, 16) : '';
+  const ldEndTime = /T\d\d:\d\d/.test(ev.endDate || '') && ldEnd === ldStart ? ev.endDate.slice(11, 16) : '';
+  // Schedule line: optional recurrence, then a date or a range.
+  const rng = datePart.match(/(Now|[A-Z][a-z]{2,8}\.? \d{1,2}, 20\d\d)\s*-\s*([A-Z][a-z]{2,8}\.? \d{1,2}, 20\d\d)\s*$/);
+  const lead = rng ? datePart.slice(0, rng.index).replace(/,\s*$/, '').trim() : '';
+  const single = !rng && parseUSDate(datePart);
+  const head = dcClockRange(timePart);
+  const base = {
+    source: DESTINATION_DC.name, siteCounty: '', title: decode(ev.name || '').trim(), url,
+    venue: decode(loc.name || '').trim(),
+    address: [street, [decode(ad.addressLocality || ''), [ad.addressRegion, ad.postalCode].filter(Boolean).join(' ')].filter(Boolean).join(', ')].filter(Boolean).join(', '),
+    city: decode(ad.addressLocality || '').trim(), state: ad.addressRegion || '',
+    lat: Number(loc.geo?.latitude) || null, lng: Number(loc.geo?.longitude) || null,
+    description: (body || textOf(ev.description)).slice(0, 2000), categories: '', recurrence: lead, admission: '',
+    scheduleLine: validity,
+  };
+  if (single) return {...base, dates: [single], dateKind: 'single', time: head.start || ldTime, endTime: head.end || ldEndTime};
+  if (!rng) return ldStart ? {...base, dates: [ldStart], dateKind: 'next', time: ldTime, endTime: ldEndTime} : {skip: 'no dates'};
+  const a = rng[1] === 'Now' ? today : parseUSDate(rng[1]), b = parseUSDate(rng[2]);
+  let weekdays = null;
+  if (/^daily$/i.test(lead)) weekdays = [0, 1, 2, 3, 4, 5, 6];
+  else if (/week ?day/i.test(lead)) weekdays = [1, 2, 3, 4, 5];
+  else if (/^(?:(?:sun|mon|tues?|wednes|thurs?|fri|satur)days?,?\s*)+$/i.test(lead)) weekdays = lead.split(/,\s*/).map(wdIndex).filter(x => x >= 0);
+  if (!weekdays) return ldStart ? {...base, dates: [ldStart], dateKind: 'next-of-range', range: [a, b], time: ldTime || head.start, endTime: ldEndTime || head.end} : {skip: 'no dates'};
+  const {schedule, closed} = dcWeekdaySchedule(body, (b || a).slice(0, 4));
+  return {...base, dates: [], dateKind: 'weekly', range: [a, b], weekdays, schedule, closed,
+    time: head.start, endTime: head.end, nextDate: ldStart, nextTime: ldTime, nextEndTime: ldEndTime};
+}
+// Window records: one per distinct time, so weekday hours stay right.
+function destinationDCRecords(r, today, windowEnd) {
+  if (r.dateKind !== 'weekly') {
+    const dates = r.dates.filter(d => d >= today && d <= windowEnd);
+    return dates.length ? [{...r, dates}] : [];
+  }
+  const from = r.range[0] > today ? r.range[0] : today, to = r.range[1] < windowEnd ? r.range[1] : windowEnd;
+  const groups = new Map();
+  for (const d of from <= to ? rangeDates(from, to) : []) {
+    const wd = weekdayOfISO(d);
+    if (!r.weekdays.includes(wd) || r.closed.includes(d)) continue;
+    // The page's own next occurrence carries exact times; other days use the
+    // stated weekday hours, else the schedule line's hours.
+    // When the page lists hours by weekday, a weekday it leaves out is closed
+    // (Enchant: "Tuesday-Wednesday | …" through "Sunday | …", so no Mondays).
+    const listed = Object.keys(r.schedule).length > 0;
+    if (listed && !r.schedule[wd] && d !== r.nextDate) continue;
+    const t = d === r.nextDate && r.nextTime ? {start: r.nextTime, end: r.nextEndTime} : r.schedule[wd] || {start: r.time, end: r.endTime};
+    const key = t.start + '|' + t.end;
+    if (!groups.has(key)) groups.set(key, {...t, dates: []});
+    groups.get(key).dates.push(d);
+  }
+  const {schedule, closed, weekdays, range, nextDate, nextTime, nextEndTime, ...rest} = r;
+  return [...groups.values()].map(g => ({...rest, dates: g.dates, dateKind: 'range', time: g.start, endTime: g.end}));
+}
+async function collectDestinationDC(cache, today, windowEnd) {
+  const src = DESTINATION_DC;
+  const report = {source: src.name, kind: 'sitemap', status: 'ok', sitemapEvents: 0, opened: 0, cached: 0, refused: 0, errors: 0, robotsSkipped: 0, inWindow: 0, pending: 0, note: ''};
+  const site = new Site(src.host); await site.init();
+  const store = cache['dc:' + src.host] ||= {};
+  const urls = new Map();
+  try {
+    const queue = [`https://${src.host}/sitemap.xml`], seen = new Set();
+    while (queue.length && seen.size < 12) {
+      const u = queue.shift(); if (seen.has(u)) continue; seen.add(u);
+      for (const e of sitemapEntries(await site.get(u))) {
+        if (e.kind === 'sitemap') { queue.push(e.loc); continue; }
+        if (/^\/event\/[^/]+\/?$/.test(new URL(e.loc).pathname)) urls.set(e.loc, e.lastmod);
+      }
+    }
+  } catch (e) { report.status = e.refused ? 'blocked' : 'failed'; report.note = 'Sitemap: ' + e.message; return {report, records: []}; }
+  report.sitemapEvents = urls.size;
+  for (const key of Object.keys(store)) if (!urls.has(key)) delete store[key];
+  const stale = (entry, lastmod) => !entry || (lastmod && entry.lastmod !== lastmod) || Date.now() - entry.fetched > REFRESH_DAYS * 864e5 ||
+    // "Next occurrence" pages move forward without a sitemap change.
+    (entry.record && /^next/.test(entry.record.dateKind) && entry.record.dates.every(d => d < today) && (!entry.record.range || entry.record.range[1] >= today));
+  const todo = [...urls].filter(([u, lm]) => stale(store[u], lm)).sort((a, b) => (store[a[0]]?.fetched || 0) - (store[b[0]]?.fetched || 0));
+  let consecutiveRefusals = 0;
+  for (const [url, lastmod] of todo) {
+    if (report.opened >= MAX_PAGES_PER_SITE || overBudget()) { report.pending = todo.length - report.opened; break; }
+    try {
+      const rec = parseDestinationDCPage(await site.get(url), url, today);
+      store[url] = {lastmod, fetched: Date.now(), record: rec.skip ? null : rec};
+      report.opened++; consecutiveRefusals = 0;
+      if (report.opened % 100 === 0) console.log(`${src.name}: opened ${report.opened} of ${todo.length}`);
+    } catch (e) {
+      if (e.robots) { report.robotsSkipped++; store[url] = {lastmod, fetched: Date.now(), record: null}; continue; }
+      if (e.status === 404 || e.status === 410) { delete store[url]; continue; }
+      report.errors++;
+      if (e.refused && ++consecutiveRefusals >= 5) { report.status = 'blocked'; report.note = 'Publisher refused event pages (HTTP 403); stopped. Not bypassed.'; break; }
+    }
+  }
+  report.refused = site.refused;
+  report.cached = Object.values(store).filter(x => x.record).length;
+  const records = Object.values(store).filter(x => x.record).flatMap(x => destinationDCRecords(x.record, today, windowEnd));
+  report.inWindow = records.length;
+  if (report.status === 'ok' && report.pending) report.status = 'partial';
+  if (report.pending) report.note ||= `${report.pending} event pages still to open; later runs continue from the cache.`;
+  return {report, records};
+}
+
 /* ---------- Montgomery Parks ---------- */
 
 // Montgomery Parks' calendar feed (admin-ajax.php) is disallowed by its
@@ -1047,6 +1203,7 @@ async function main() {
     collectUMD(cache, today, windowEnd).catch(e => ({report: {source: UMD.name, status: 'failed', note: e.message}, records: []})),
     collectLocalist(today, windowEnd).catch(e => ({report: {source: 'University calendars', status: 'failed', note: e.message}, records: []})),
     collectFindLocal(cache, today, windowEnd).catch(e => ({report: {source: 'FindLocal', status: 'failed', note: e.message}, records: []})),
+    collectDestinationDC(cache, today, windowEnd).catch(e => ({report: {source: DESTINATION_DC.name, status: 'failed', note: e.message}, records: []})),
   ]);
   // A source that could not be read this run keeps its previous records (still
   // in the window), so one bad run does not empty the widget's extra coverage.
