@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-21T15:49:18.097Z",
+ "generatedAt": "2026-11-21T20:56:44.442Z",
  "window": {
   "start": "2026-11-21",
   "end": "2026-11-29"
@@ -10,9 +10,9 @@
    "source": "Visit Fairfax",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 354,
-   "opened": 30,
-   "cached": 342,
+   "sitemapEvents": 347,
+   "opened": 52,
+   "cached": 335,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -24,9 +24,9 @@
    "source": "Visit Loudoun",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 431,
-   "opened": 25,
-   "cached": 418,
+   "sitemapEvents": 412,
+   "opened": 35,
+   "cached": 400,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -38,13 +38,13 @@
    "source": "Visit Frederick",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 218,
-   "opened": 19,
-   "cached": 209,
+   "sitemapEvents": 224,
+   "opened": 36,
+   "cached": 215,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
-   "inWindow": 55,
+   "inWindow": 58,
    "pending": 0,
    "note": ""
   },
@@ -53,7 +53,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 72,
-   "opened": 15,
+   "opened": 0,
    "cached": 72,
    "refused": 0,
    "errors": 0,
@@ -67,7 +67,7 @@
    "kind": "simpleview",
    "status": "ok",
    "sitemapEvents": 50,
-   "opened": 4,
+   "opened": 7,
    "cached": 29,
    "refused": 0,
    "errors": 0,
@@ -80,9 +80,9 @@
    "source": "Visit Annapolis",
    "kind": "simpleview",
    "status": "ok",
-   "sitemapEvents": 266,
-   "opened": 18,
-   "cached": 261,
+   "sitemapEvents": 261,
+   "opened": 36,
+   "cached": 257,
    "refused": 0,
    "errors": 0,
    "robotsSkipped": 0,
@@ -95,7 +95,7 @@
    "kind": "sitemap+pages",
    "status": "ok",
    "sitemapEvents": 371,
-   "opened": 342,
+   "opened": 8,
    "cached": 369,
    "refused": 0,
    "errors": 0,
@@ -127,8 +127,8 @@
     "virginia/woodbridge",
     "virginia/greatfalls"
    ],
-   "listings": 226,
-   "inWindow": 169,
+   "listings": 233,
+   "inWindow": 173,
    "errors": 0,
    "note": "No calendar at: maryland/olney, maryland/frederick, maryland/waldorf, virginia/springfield, virginia/arlington, virginia/woodbridge, virginia/greatfalls. "
   },
@@ -148,7 +148,7 @@
    "kind": "day pages",
    "status": "ok",
    "listings": 65,
-   "opened": 1,
+   "opened": 5,
    "skippedLong": 5,
    "skippedInternal": 2,
    "inWindow": 14,
@@ -166,17 +166,17 @@
   {
    "source": "FindLocal",
    "kind": "api",
-   "status": "ok",
-   "calls": 12,
-   "remaining": 9878,
-   "listings": 1144,
+   "status": "reused",
+   "calls": 0,
+   "remaining": null,
+   "listings": 0,
    "inWindow": 716,
-   "skipped": 210,
-   "note": "12 call(s) used; 9878 left this month; next refresh in 1 day(s).",
-   "indoorVenue": 218
+   "skipped": 0,
+   "note": "Refreshed 2026-11-21; next refresh in 1 day(s) to stay within the monthly quota.",
+   "keptPrevious": 716
   }
  ],
- "count": 1516,
+ "count": 1523,
  "exclude": [
   "Pickleball at Metro Park",
   "Secretaries' Cup Fan Fest"
@@ -2587,6 +2587,38 @@
    "admission": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Christmas on Carroll at True Standard Distilling",
+   "url": "https://www.visitfrederick.org/event/christmas-on-carroll-at-true-standard-distilling/24355/",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "long-range",
+   "range": [
+    "2026-11-06",
+    "2027-01-10"
+   ],
+   "time": "15:00",
+   "endTime": "21:00",
+   "venue": "True Standard Distilling",
+   "address": "10 N. Carroll St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4146067,
+   "lng": -77.4073042,
+   "description": "The holiday magic is here at True Standard Distilling! Come experience our festive decor, soak up the Christmas vibes, and sip on our delicious Dangerous Summer holiday cocktails!",
+   "categories": "Holiday Events, Wineries, Breweries, Distilleries, Downtown Frederick",
+   "recurrence": "Recurring weekly on Wednesday, Thursday, Friday, Saturday, Sunday",
+   "admission": "FREE"
+  },
+  {
    "source": "Visit Annapolis",
    "siteCounty": "Anne Arundel County",
    "title": "Christmas Ornaments from Nature (Parent & Child Workshop - Ages 6+)",
@@ -2685,6 +2717,28 @@
    "categories": "Performing Arts",
    "recurrence": "Recurring daily",
    "admission": "$30"
+  },
+  {
+   "source": "Patch",
+   "siteCounty": "Baltimore city",
+   "title": "City of Baltimore: 85-Days Until SB LXI Jay-Z Halftime '85 Bears Charm'tastic Mile USPTO to Mag Mile",
+   "url": "https://patch.com/maryland/baltimore/calendar/event/20261121/a3fad033-2a30-498d-87de-45fa60b26cbe/city-of-baltimore-85-days-until-sb-lxi-jay-z-halftime-85-bears-charm-tastic-mile-uspto-to-mag-mile",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "12:00",
+   "endTime": "",
+   "venue": "",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "lat": 39.2905023,
+   "lng": -76.6104072,
+   "description": "City of Baltimore: 85-Days Until SB LXI Jay-Z Halftime '85 Bears Charm'tastic Mile USPTO to Mag Mile November 21, 2026 - The \"Charm'tastic Mile\" of Baltimore (CTMB-1.3) www.thecharmtasticmile.com . The chic & famed 1.3 mile corridor located in the heart of Charm City (Est.1975) that connects Dwtn-West, the Inner Harbor & Harbor East (S. Greene & W. Pratt Street to S. President & Fleet Street) that is now listed on Google search as one of the Top 10-15 Most Famous Streets in America is reporting its Sports'tastic Saturday in B'more. Today marks 85-days until Super Bowl LXI (61) . One of the NFL's most-memorable teams was the '85 Bears . 41-years later they are still talked about. Their \"46 Defense\" was one of the most dominant defenses of all-time. Dan Hampton, Richard Dent, Mike Singletary, Steve McMichael and Otis Wilson were leaders of the vaunted \"46 Defense\". The team was colorful with a list of future Hall of Famers and a head coach in Mike Ditka who became legendary with his persona and sideline demeanor. The '85 Bears were also led by RB Walter Payton and QB Jim McMahon. The NFL Man of the Year Award is named after Payton. Two of the Most Iconic NFL Streets are The \"Charm'tastic Mile\" in Baltimore and The Magnificent Mile in Chicago. Both are two of the rare U.S. Streets that are USPTO wwwuspto.gov (R) registered trademarks. The other two are Rodeo Drive and Vegas Strip . The 2000 Baltimore Ravens defense led by Ray Lewis is often compared to the '85 Bears. Superstar h",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "Visit Fairfax",
@@ -4929,6 +4983,35 @@
    "venueType": "Music Venue",
    "flCategory": "comedy",
    "outdoorHint": ""
+  },
+  {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Gaver Farm's Christmas Season",
+   "url": "https://www.visitfrederick.org/event/gaver-farms-christmas-season/26426/",
+   "dates": [
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29"
+   ],
+   "dateKind": "list",
+   "time": "09:00",
+   "endTime": "17:00",
+   "venue": "Gaver Farm",
+   "address": "5501 Detrick Rd., Mt. Airy, MD 21771",
+   "city": "Mt. Airy",
+   "state": "MD",
+   "lat": 39.3818615,
+   "lng": -77.2408745,
+   "description": "Christmas Tree Cutting: huge selection of gorgeous Douglas Fir, Canaan Fir, Blue Spruce, and White Pine! We have tall trees! Abundant 9 foot Douglas Fir, plus smaller sizes too, 4-9 foot. November 21 - December 23, 2026 (closed Thanksgiving Day). Open 9 am - 5 pm daily. Gaver Farm provides everything you need to cut your own tree: saws, tree carts, shaking, baling, pin stand drilling and string for car tying. Easy peasy! Hayride Schedule: November 27-29 & December 5-6. 9:00 am - 5:00 pm, last outbound hayride at 4:00 pm. We have excellent walking paths too and we encourage walking to the fields with one of our handy tree carts! Farm Market and Wreath Shop are open daily too! We cut gorgeous trees, fresh from our own farm to stock our Fresh-Cut tree section inside the Farm Market PLUS apples, cider, honey, preserves, fresh wreaths, pine roping, swags, boughs and bows! Christmas Cafe (Donut Hut) open November 21-22, 25, 27-29 & December 5-6, 12-13. That means hot chocolate, cider and our famous hot apple cider donuts are back!",
+   "categories": "Holiday Events, Family Friendly, Shopping",
+   "recurrence": "",
+   "admission": ""
   },
   {
    "source": "FindLocal",
@@ -10736,6 +10819,28 @@
   },
   {
    "source": "Patch",
+   "siteCounty": "District of Columbia",
+   "title": "Save The Animals: Adopt & Foster Dogs At Risk for Euthanasia - Saturday (10AM - 4PM; Arrive by 3pm)",
+   "url": "https://patch.com/district-columbia/washingtondc/calendar/event/20261121/9bf00179-8639-4400-a96b-31fb22b69d4d/save-the-animals-adopt-foster-dogs-at-risk-for-euthanasia-saturday-10am-4pm-arrive-by-3pm",
+   "dates": [
+    "2026-11-21"
+   ],
+   "dateKind": "single",
+   "time": "12:30",
+   "endTime": "",
+   "venue": "Prince George's County Animal Services Facility & Adoption Center",
+   "address": "3750 Brown Station Rd",
+   "city": "Upper Marlboro",
+   "state": "MD",
+   "lat": 38.836399,
+   "lng": -76.7746956,
+   "description": "🚨 P lease help save dogs and cats today by applying to adopt or foster! An ongoing overcrowding crisis at PG County Animal Shelter resulted in a devastating loss of 16 dogs euthanized for space one day in mid-October! More dogs were euthanized since then! Please adopt or foster these 16 dogs at risk for euthansia. Friends of PG County Animal Shelter URGENT List Album 11-24-26 - https://www.facebook.com/share/p/1CKrFywd4c/ 📢 Community members - Adopters and fosters are needed today for dogs and cats! Please go meet and adopt them or apply to foster them . Dogs are at risk of being euthanized on Wednesday. They are over capacity with dogs and need space for more dogs coming in. 🐶 Adopters: Please go to the shelter today (10am to 4pm, arrive by 3pm) and Tuesday (11am to 7pm, arrive by 6pm). Adopters are able to meet 2 dogs and bring dogs for meet and greets. Note: Adopters of pit bulls: Review the requirements and complete the Pet Parenting Certification (that takes about an hour) before going to adopt Pit Bull Terriers and specific bully-type breeds. Pet Parenting Certification info: environment.mypgc.us/pitbulls 🐶 Prospective fosters: Fosters through the shelter and rescues are needed for dogs and cats. Please apply with rescue partners, or contact the shelter to be a foster and save a life. The Friends of PG County Animal Shelter posts about dogs which need fosters through the shelter or otherwise through rescues. Fostering is usually free with a rescue. Please review the",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
+   "source": "Patch",
    "siteCounty": "Fairfax County",
    "title": "Scout Troop 1344 - Leaf Raking Fundraiser | Nov 21 | 22",
    "url": "https://patch.com/virginia/burke/calendar/event/20261121/5bf8643f-4bd2-43d9-b284-efa5bc9b888c/scout-troop-1344-leaf-raking-fundraiser-nov-21-22",
@@ -13773,6 +13878,28 @@
    "admission": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Loudoun County",
+   "title": "Antioch Christian Fellowship Online Service",
+   "url": "https://patch.com/virginia/ashburn/calendar/event/20261122/2a516d61-57d4-43e7-8295-4d4bf5602edc/antioch-christian-fellowship-online-service",
+   "dates": [
+    "2026-11-22"
+   ],
+   "dateKind": "single",
+   "time": "14:00",
+   "endTime": "",
+   "venue": "Virtual ",
+   "address": "",
+   "city": "",
+   "state": "VA",
+   "lat": null,
+   "lng": null,
+   "description": "Pastor Talia Bush and the Ashburn Antioch Christian Fellowship family invite you to join us tomorrow for our online service! 🙏 📅 Sunday, November 22 🕑 2:00 PM EST via Zoom Embracing the truth of Jesus and the hope of family. Let's experience God and grow together! 💻 Zoom Info Meeting ID: 953 4950 3407 Passcode: 511388 Dial In: 1 719 359 4580 Scan the QR code on the flyer to join, and for more information about Antioch, visit antiochassembly.org. Bring your family and friends. See you tomorrow!",
+   "categories": "free",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "ART GLASS CENTER",
@@ -14227,7 +14354,7 @@
    "dates": [
     "2026-11-22"
    ],
-   "dateKind": "list",
+   "dateKind": "single",
    "time": "14:00",
    "endTime": "",
    "venue": "Seneca Ridge Middle School",
@@ -21707,7 +21834,7 @@
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "Semesterly chamber music recitals showcase students' creativity, initiative, collaboration and agency through the unique medium of chamber music. Thu Nov 19 11:00am To – 1:00pm The Clarice Smith Performing Arts Center Learn more Clarice website Add to Calendar Semesterly chamber music recitals showcase students' creativity, initiative, collaboration and agency through the unique medium of chamber music. These recitals feature a broad range of styles and repertoire presented in a fresh, lively way. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Park, MD 20742-1625 Get Directions with Google Maps Contact The Clarice Smith Performing Arts Center (301).405.2787 tickets-theclarice@umd.edu For access needs, accommodations, and questions, please contact The Clarice Ticket Office at tickets-theclarice@umd.edu Hosted By College of Arts and Humanities School of Music Event Tags Schools and Units The Clarice Smith Performing Arts Center College of Arts and Humanities Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Arts and Culture Music Event Topics Arts, Entertainment and Culture",
+   "description": "Semesterly chamber music recitals showcase students' creativity, initiative, collaboration and agency through the unique medium of chamber music. Tue Nov 24 11:00am To – 1:00pm The Clarice Smith Performing Arts Center Learn more Clarice website Add to Calendar Semesterly chamber music recitals showcase students' creativity, initiative, collaboration and agency through the unique medium of chamber music. These recitals feature a broad range of styles and repertoire presented in a fresh, lively way. Location The Clarice Smith Performing Arts Center 8270 Alumni Drive College Park, MD 20742-1625 Get Directions with Google Maps Contact The Clarice Smith Performing Arts Center (301).405.2787 tickets-theclarice@umd.edu For access needs, accommodations, and questions, please contact The Clarice Ticket Office at tickets-theclarice@umd.edu Hosted By College of Arts and Humanities School of Music Event Tags Schools and Units The Clarice Smith Performing Arts Center College of Arts and Humanities Audience Undergraduate Students Graduate Students Prospective Students Alumni Faculty Staff Parents & Families Friends Campus Leaders External Media Tags Arts and Culture Music Event Topics Arts, Entertainment and Culture",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -25001,7 +25128,7 @@
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "The LEAP Preschool Program is hosting touring dates on Wednesdays from 11am to 12pm weekly! Wed Nov 18 11:00am To – 12:00pm Lefrak Hall Visit LEAP Website For More Information This Link give access to information about LEAP Add to Calendar The LEAP Preschool is currently accepting applications for our afternoon sessions from 12:45pm to 4:10 pm on Mondays, Wednesdays, and Fridays. For more information about our preschool, our application process, and eligibility please visit our website https://leap.umd.edu/enrollmen... . Location Lefrak Hall Please visit room 0102 in Lefrak Hall for touring. Contact College of Behavioral and Social Sciences (301).405.1690 For access needs, accommodations, and questions, please contact Amanda Clay at aclay1@umd.edu Event Tags Audience Prospective Students Faculty Staff Parents & Families Tags Hearing and Speech Sciences Event Topics Academics",
+   "description": "The LEAP Preschool Program is hosting touring dates on Wednesdays from 11am to 12pm weekly! Wed Nov 25 11:00am To – 12:00pm Lefrak Hall Visit LEAP Website For More Information This Link give access to information about LEAP Add to Calendar The LEAP Preschool is currently accepting applications for our afternoon sessions from 12:45pm to 4:10 pm on Mondays, Wednesdays, and Fridays. For more information about our preschool, our application process, and eligibility please visit our website https://leap.umd.edu/enrollmen... . Location Lefrak Hall Please visit room 0102 in Lefrak Hall for touring. Contact College of Behavioral and Social Sciences (301).405.1690 For access needs, accommodations, and questions, please contact Amanda Clay at aclay1@umd.edu Event Tags Audience Prospective Students Faculty Staff Parents & Families Tags Hearing and Speech Sciences Event Topics Academics",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -26402,7 +26529,7 @@
    "state": "MD",
    "lat": null,
    "lng": null,
-   "description": "Join us Wednesday for fresh air, good vibes, and a little garden therapy. Wed Nov 18 1:30pm To – 3:00pm Arboretum Outreach Center Register Here Link to Google Form with registration information Add to Calendar Join us Wednesday for fresh air, good vibes, and a little garden therapy. No experience needed — just show up ready to get your hands dirty (we provide gloves!) and help cultivate our living campus. The event takes place from 1:30pm - 3pm at various places across campus so be sure to register to receive location information! Don't worry - all events will take place on campus! Location Arboretum Outreach Center The location varies across campus in our gardens. Each week's location is indicated on the registration form. Contact Facilities Management 301.405.2222 fmcrc@umd.edu For access needs, accommodations, and questions, please contact Meg Smolinski at 3013141823 Event Tags Audience Undergraduate Students Graduate Students Alumni Faculty Staff Friends External Media Tags Environmental Health Event Topics Community Engagement Health and Wellness Student Life",
+   "description": "Join us Wednesday for fresh air, good vibes, and a little garden therapy. Wed Nov 25 1:30pm To – 3:00pm Arboretum Outreach Center Register Here Link to Google Form with registration information Add to Calendar Join us Wednesday for fresh air, good vibes, and a little garden therapy. No experience needed — just show up ready to get your hands dirty (we provide gloves!) and help cultivate our living campus. The event takes place from 1:30pm - 3pm at various places across campus so be sure to register to receive location information! Don't worry - all events will take place on campus! Location Arboretum Outreach Center The location varies across campus in our gardens. Each week's location is indicated on the registration form. Contact Facilities Management 301.405.2222 fmcrc@umd.edu For access needs, accommodations, and questions, please contact Meg Smolinski at 3013141823 Event Tags Audience Undergraduate Students Graduate Students Alumni Faculty Staff Friends External Media Tags Environmental Health Event Topics Community Engagement Health and Wellness Student Life",
    "categories": "",
    "recurrence": "",
    "admission": ""
@@ -41742,6 +41869,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Visit Frederick",
+   "siteCounty": "Frederick County",
+   "title": "Santa Visits True Standard Distilling",
+   "url": "https://www.visitfrederick.org/event/santa-visits-true-standard-distilling/26423/",
+   "dates": [
+    "2026-11-29"
+   ],
+   "dateKind": "single",
+   "time": "09:00",
+   "endTime": "11:00",
+   "venue": "True Standard Distilling",
+   "address": "10 N. Carroll St., Frederick, MD 21701",
+   "city": "Frederick",
+   "state": "MD",
+   "lat": 39.4146067,
+   "lng": -77.4073042,
+   "description": "Bring the little ones to meet Santa inside and enjoy the complementary cookies and hot chocolate, plus plenty of Christmas magic with all our decor! Giving Back This Holiday Season: We’re proud to partner with the Boys & Girls Club of Frederick County and SHIP (Student Homelessness Initiative Partnership) to help make the holidays brighter for local children and families. Bring a new, unwrapped toy to donate! Prefer to give another way? QR codes will be available for monetary donations. Every contribution helps spread holiday joy. A few things to know: • This is a special family-friendly Santa event. • No tickets or reservations are required. • Donations are encouraged but never required to attend. Join us for free sweet treats, photos with Santa, and holiday memories with your little ones!",
+   "categories": "Holiday Events, Downtown Frederick, Family Friendly, Free",
+   "recurrence": "",
+   "admission": "Free, donations encouraged"
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Second Act Record Release Show",
@@ -42352,6 +42501,28 @@
    "outdoorHint": ""
   },
   {
+   "source": "Patch",
+   "siteCounty": "Fairfax County",
+   "title": "Vale Church's Christmas Tree Sale to Fight Hunger Is In Full Swing",
+   "url": "https://patch.com/virginia/oakton/calendar/event/20261129/364ad259-d613-4d44-a78e-b999efde2e73/vale-churchs-christmas-tree-sale-to-fight-hunger-is-in-full-swing",
+   "dates": [
+    "2026-11-29"
+   ],
+   "dateKind": "single",
+   "time": "11:00",
+   "endTime": "",
+   "venue": "Vale United Methodist Church",
+   "address": "11528 Vale Rd",
+   "city": "Oakton",
+   "state": "VA",
+   "lat": 38.89141559999999,
+   "lng": -77.347905,
+   "description": "Buy a Christmas Tree From Vale UMC – Feed 100 Hungry People! Buy a freshly-cut Christmas tree from Vale United Methodist Church ( 11528 Vale Road, Oakton, VA ), and your purchase will provide 100 life-saving meals for hungry children and families around the world and locally . Proceeds from our tree sale will enable us to package more than 80,000 meals which are shipped overseas to communities in need, through our partnership with global relief organization Rise Against Hunger www.riseagainsthunger.org . We will host an in-person packaging event for the community on February 7 . Our “Sponsor a Tree” program allows customers to donate (or contribute towards) a Christmas tree for a local family in need. This is a great way for those with artificial trees to support the ministry. Proceeds from donated trees also go to purchase meals, so the impact is doubled! Vale’s Christmas trees come in a wide assortment of sizes and varieties. Christmas decorations, wreaths, pine roping, and tree stands are also for sale. Enjoy a Christmas Market, hot cider and cookies while you shop! Hours are : Weekdays: 5pm to 8:30pm Saturdays: 9am to 6pm Sundays: 11am to 5pm Saturday Dec 5 from 12 to 2pm there will be Free Pony Rides & Photos with Santa and the Grinch!",
+   "categories": "paid",
+   "recurrence": "",
+   "admission": ""
+  },
+  {
    "source": "FindLocal",
    "siteCounty": "",
    "title": "Vietnam Veterans Memorial",
@@ -42634,7 +42805,7 @@
   }
  ],
  "screened": {
-  "generatedAt": "2026-11-21T15:50:02.472Z",
+  "generatedAt": "2026-11-21T20:57:03.744Z",
   "note": "",
   "sources": {
    "Dupont Circle BID": {
@@ -42643,7 +42814,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 2153
+    "ms": 1002
    },
    "Capitol Hill BID": {
     "ok": true,
@@ -42651,7 +42822,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 806
+    "ms": 475
    },
    "City of Rockville": {
     "ok": true,
@@ -42659,7 +42830,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1533
+    "ms": 65
    },
    "Adams Morgan BID": {
     "ok": true,
@@ -42667,7 +42838,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1479
+    "ms": 712
    },
    "Golden Triangle BID": {
     "ok": true,
@@ -42675,7 +42846,7 @@
     "events": 0,
     "outcome": "The BID lists no calendar; its current program pages give no dated occurrence this week",
     "error": "",
-    "ms": 2869
+    "ms": 1258
    },
    "Navy Yard BID": {
     "ok": true,
@@ -42683,7 +42854,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 843
+    "ms": 402
    },
    "DowntownDC BID": {
     "ok": true,
@@ -42691,12 +42862,12 @@
     "events": 8,
     "outcome": "",
     "error": "",
-    "ms": 1375
+    "ms": 986
    },
    "Falls Church": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 1,
+    "events": 2,
     "outcome": "",
     "error": "",
     "ms": null
@@ -42725,21 +42896,13 @@
     "error": "",
     "ms": null
    },
-   "Ticketmaster": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 3,
-    "outcome": "",
-    "error": "",
-    "ms": null
-   },
    "NoMa BID": {
     "ok": false,
     "status": "ACCESS FAILED",
     "events": 0,
     "outcome": "",
     "error": "No explicit market season and weekly schedule",
-    "ms": 1043
+    "ms": 455
    },
    "Mount Vernon Triangle CID": {
     "ok": true,
@@ -42747,31 +42910,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2819
-   },
-   "Southwest BID": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 758
-   },
-   "Visit Prince William": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 7,
-    "outcome": "",
-    "error": "",
-    "ms": 1391
-   },
-   "The Wharf": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 1185
+    "ms": 2733
    },
    "Visit Alexandria": {
     "ok": true,
@@ -42779,7 +42918,7 @@
     "events": 13,
     "outcome": "",
     "error": "",
-    "ms": 2156
+    "ms": 823
    },
    "NPS Rock Creek Park": {
     "ok": true,
@@ -42787,23 +42926,7 @@
     "events": 14,
     "outcome": "",
     "error": "",
-    "ms": 832
-   },
-   "NPS National Mall": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 33,
-    "outcome": "",
-    "error": "",
-    "ms": 439
-   },
-   "City of Takoma Park": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 512
+    "ms": 264
    },
    "DC HSEMA": {
     "ok": true,
@@ -42813,13 +42936,61 @@
     "error": "",
     "ms": null
    },
+   "Visit Prince William": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 7,
+    "outcome": "",
+    "error": "",
+    "ms": 693
+   },
+   "Southwest BID": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 250
+   },
+   "NPS National Mall": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 33,
+    "outcome": "",
+    "error": "",
+    "ms": 531
+   },
+   "The Wharf": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 695
+   },
+   "City of Takoma Park": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 432
+   },
    "M-NCPPC Prince George’s Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
     "events": 5,
     "outcome": "",
     "error": "",
-    "ms": 6736
+    "ms": 9486
+   },
+   "Ticketmaster": {
+    "ok": true,
+    "status": "EVENTS FOUND",
+    "events": 3,
+    "outcome": "",
+    "error": "",
+    "ms": null
    },
    "City of Greenbelt": {
     "ok": true,
@@ -42827,15 +42998,7 @@
     "events": 2,
     "outcome": "",
     "error": "",
-    "ms": 380
-   },
-   "City of Bowie": {
-    "ok": true,
-    "status": "COMPLETED — none qualified this week",
-    "events": 0,
-    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
-    "error": "",
-    "ms": 665
+    "ms": 366
    },
    "National Arboretum (FONA)": {
     "ok": true,
@@ -42843,23 +43006,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 584
-   },
-   "City of Hyattsville": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 827
-   },
-   "Downtown Columbia": {
-    "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher lists no events in the seven-day window",
-    "error": "",
-    "ms": 757
+    "ms": 1248
    },
    "Bethesda Urban Partnership": {
     "ok": true,
@@ -42867,7 +43014,31 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 4109
+    "ms": 13273
+   },
+   "City of Bowie": {
+    "ok": true,
+    "status": "COMPLETED — none qualified this week",
+    "events": 0,
+    "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
+    "error": "",
+    "ms": 451
+   },
+   "City of Hyattsville": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 562
+   },
+   "Downtown Columbia": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher lists no events in the seven-day window",
+    "error": "",
+    "ms": 558
    },
    "Visit Calvert": {
     "ok": true,
@@ -42875,15 +43046,7 @@
     "events": 4,
     "outcome": "",
     "error": "",
-    "ms": 557
-   },
-   "NPS DC-area parks": {
-    "ok": true,
-    "status": "EVENTS FOUND",
-    "events": 36,
-    "outcome": "",
-    "error": "",
-    "ms": 605
+    "ms": 431
    },
    "Visit St. Mary’s": {
     "ok": true,
@@ -42891,7 +43054,7 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 1554
+    "ms": 857
    },
    "Town of Vienna": {
     "ok": true,
@@ -42899,7 +43062,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 2189
+    "ms": 1664
    },
    "Town of Occoquan": {
     "ok": true,
@@ -42907,7 +43070,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 162
+    "ms": 48
    },
    "Town of Warrenton": {
     "ok": true,
@@ -42915,15 +43078,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 431
+    "ms": 600
    },
-   "Visit Stafford": {
+   "NPS DC-area parks": {
     "ok": true,
-    "status": "COMPLETED — no listings this week",
-    "events": 0,
-    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "status": "EVENTS FOUND",
+    "events": 36,
+    "outcome": "",
     "error": "",
-    "ms": 443
+    "ms": 390
    },
    "Georgetown BID": {
     "ok": true,
@@ -42931,7 +43094,15 @@
     "events": 0,
     "outcome": "",
     "error": "",
-    "ms": 7250
+    "ms": 6430
+   },
+   "Visit Stafford": {
+    "ok": true,
+    "status": "COMPLETED — no listings this week",
+    "events": 0,
+    "outcome": "Publisher no longer runs an event calendar here (its calendar pages and API return 404)",
+    "error": "",
+    "ms": 442
    },
    "Visit Fredericksburg": {
     "ok": true,
@@ -42939,15 +43110,15 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 7895
+    "ms": 12483
    },
    "NOVA Parks": {
     "ok": true,
     "status": "EVENTS FOUND",
-    "events": 5,
+    "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 947
+    "ms": 868
    },
    "Fairfax County Park Authority": {
     "ok": true,
@@ -42955,7 +43126,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 13762
+    "ms": 11292
    },
    "City of Annapolis": {
     "ok": true,
@@ -42963,7 +43134,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 729
+    "ms": 386
    },
    "City of College Park": {
     "ok": true,
@@ -42971,7 +43142,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 533
+    "ms": 568
    },
    "City of Frederick": {
     "ok": true,
@@ -42979,7 +43150,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 495
+    "ms": 386
    },
    "City of Laurel": {
     "ok": true,
@@ -42987,7 +43158,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 401
+    "ms": 657
    },
    "Town of Purcellville": {
     "ok": true,
@@ -42995,7 +43166,7 @@
     "events": 1,
     "outcome": "",
     "error": "",
-    "ms": 428
+    "ms": 422
    },
    "National Landing BID": {
     "ok": true,
@@ -43003,7 +43174,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 7898
+    "ms": 6884
    },
    "City of Fairfax": {
     "ok": true,
@@ -43011,7 +43182,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 2378
+    "ms": 1736
    },
    "Mosaic District": {
     "ok": true,
@@ -43019,7 +43190,7 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 757
+    "ms": 1457
    },
    "Union Market District": {
     "ok": true,
@@ -43027,7 +43198,7 @@
     "events": 3,
     "outcome": "",
     "error": "",
-    "ms": 1208
+    "ms": 901
    },
    "The Boro Tysons": {
     "ok": false,
@@ -43035,7 +43206,7 @@
     "events": 0,
     "outcome": "Publisher refuses requests from other websites and from the CORS proxy (HTTP 403). Not bypassed.",
     "error": "HTTP 403 (publisher refused)",
-    "ms": 91
+    "ms": 84
    },
    "One Loudoun": {
     "ok": true,
@@ -43043,7 +43214,7 @@
     "events": 0,
     "outcome": "Publisher lists no events in the seven-day window",
     "error": "",
-    "ms": 1209
+    "ms": 1155
    },
    "George Washington’s Mount Vernon": {
     "ok": true,
@@ -43051,10 +43222,10 @@
     "events": 0,
     "outcome": "Listings in the window, but none passed the date, location and outdoor checks",
     "error": "",
-    "ms": 1687
+    "ms": 1251
    }
   },
-  "count": 150,
+  "count": 149,
   "events": [
    {
     "title": "Citizens Advisory Committee on Transportation Tabling at Falls Church Farmers Market",
@@ -43130,30 +43301,6 @@
     "date": "2026-11-21",
     "id": "NPS DC-area parks|https://www.nps.gov/planyourvisit/event-details.htm?id=422BACA7-DE5E-B667-3CCF56A95F2A5DD0|2026-11-21|10:00|meet the ranger at the visitor barn",
     "confidence": "NPS explicit occurrence and time slot",
-    "category": "nature"
-   },
-   {
-    "source": "NOVA Parks",
-    "city": "Alexandria",
-    "county": "Alexandria City",
-    "state": "VA",
-    "categories": "",
-    "venue": "Carlyle House Historic Park",
-    "address": "Carlyle House Historic Park, Alexandria, VA",
-    "description": "Alexandria has grown from a small town in the 18th century to a bustling small city in the 21st century. Join us for a tour of Alexandria as we explore looking at the various Architecture styles that adorn the city streets and make it one of the best places to live and work.",
-    "time": "10:00",
-    "endTime": "11:30",
-    "lat": null,
-    "lng": null,
-    "title": "Discovering Alexandria Architecture Walking Tour",
-    "url": "https://www.novaparks.com/parks/carlyle-house-historic-park/events/discovering-alexandria-architecture-walking-tour-7",
-    "activityLocation": "Carlyle House Historic Park",
-    "dateEvidence": "NOVA Parks event calendar",
-    "outdoorEvidence": "Event title identifies an outdoor activity",
-    "outdoorEvidenceURL": "https://www.novaparks.com/parks/carlyle-house-historic-park/events/discovering-alexandria-architecture-walking-tour-7",
-    "date": "2026-11-21",
-    "id": "NOVA Parks|https://www.novaparks.com/parks/carlyle-house-historic-park/events/discovering-alexandria-architecture-walking-tour-7|2026-11-21",
-    "confidence": "NOVA Parks event calendar",
     "category": "nature"
    },
    {
@@ -43365,28 +43512,26 @@
     "category": "nature"
    },
    {
-    "source": "NOVA Parks",
-    "city": "Arlington",
-    "county": "Arlington County",
-    "state": "VA",
+    "title": "Cavalier Trail Park Grand Re-Opening",
+    "url": "https://fallschurchva.gov/Calendar.aspx?EID=14864&month=11&year=2026&day=21&calType=0",
+    "source": "Falls Church",
+    "description": "Cavalier Trail Park Grand Re-Opening November 21, 2026, 11:00 AM - 12:30 PM@ Note: Please consider biking or walking. Parking is limited on W. Westmoreland. Additional parking is available on the South Maple entrance to the park. Cavalier Trail Park Grand Re-Opening2026-11-21T11:00:00Join us for a ribbon cutting, facepainting, and some awesome playground fun. All are welcome! Note: Please consider biking or walking. Parking is limited on W. Westmoreland. Additional parking is available on the South Maple entrance to the park.600 S Maple AveFalls ChurchVA22046Join us for a ribbon cutting, facepainting, and some awesome playground fun. All are welcome! More Details New playground equipment in Cavalier Trail Park",
     "categories": "",
-    "venue": "Potomac Overlook Regional Park",
-    "address": "Potomac Overlook Regional Park, Arlington, VA",
-    "description": "This class is a perfect intro to camping! Never been before and want to learn some of the basics? Or just want to pick up some new tips and tricks? Come and pitch a tent, learn how to make some handy knots, and build a campfire. Participants will even get to enjoy some tasty smores!",
+    "venue": "",
+    "address": "600 S Maple Ave",
+    "city": "Falls Church",
+    "county": "Falls Church City",
+    "state": "VA",
     "time": "11:00",
     "endTime": "12:30",
     "lat": null,
     "lng": null,
-    "title": "Camping 101",
-    "url": "https://www.novaparks.com/parks/potomac-overlook-regional-park/events/camping-101-1",
-    "activityLocation": "Potomac Overlook Regional Park",
-    "dateEvidence": "NOVA Parks event calendar",
-    "outdoorEvidence": "Scheduled campfire at an outdoor public space (Potomac Overlook Regional Park)",
-    "outdoorEvidenceURL": "https://www.novaparks.com/parks/potomac-overlook-regional-park/events/camping-101-1",
+    "dateEvidence": "calendar card date",
+    "scheduleAmbiguous": false,
     "date": "2026-11-21",
-    "id": "NOVA Parks|https://www.novaparks.com/parks/potomac-overlook-regional-park/events/camping-101-1|2026-11-21",
-    "confidence": "NOVA Parks event calendar",
-    "category": "other"
+    "id": "Falls Church|https://fallschurchva.gov/Calendar.aspx?EID=14864&month=11&year=2026&day=21&calType=0|2026-11-21",
+    "confidence": "event page schedule",
+    "category": "nature"
    },
    {
     "source": "Union Market District",
@@ -46954,84 +47099,6 @@
   ],
   "npsIndex": [
    {
-    "t": "world war ii memorial",
-    "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
-    "lat": 38.888553,
-    "lng": -77.040542
-   },
-   {
-    "t": "korean war veterans memorial",
-    "id": "20C8A006-9D75-B08D-B9660EEE010654DD",
-    "lat": 38.888361,
-    "lng": -77.049099
-   },
-   {
-    "t": "picnic in the park: history through music",
-    "id": "C93B1275-B9C5-7702-9C246C52ED06CFA5",
-    "lat": null,
-    "lng": null
-   },
-   {
-    "t": "presidential valor: the military service of presidents and vice presidents who served in world war ii",
-    "id": "55B0C189-0B31-E797-843817D1C3CA4B3B",
-    "lat": null,
-    "lng": null
-   },
-   {
-    "t": "vietnam veterans memorial",
-    "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
-    "lat": 38.888361,
-    "lng": -77.049099
-   },
-   {
-    "t": "lincoln memorial",
-    "id": "20E95621-C801-29EC-8D514DA27A4B20BD",
-    "lat": 38.889271,
-    "lng": -77.049732
-   },
-   {
-    "t": "martin luther king, jr memorial",
-    "id": "20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
-    "lat": 38.886465,
-    "lng": -77.044619
-   },
-   {
-    "t": "franklin delano roosevelt memorial",
-    "id": "20FF2C70-D41B-B05C-B574977383870A1E",
-    "lat": 38.883884,
-    "lng": -77.044233
-   },
-   {
-    "t": "franklin delano roosevelt memorial",
-    "id": "F8807F67-EC7B-B3EA-4B71DD2E28D0B134",
-    "lat": 38.883884,
-    "lng": -77.044233
-   },
-   {
-    "t": "thomas jefferson memorial",
-    "id": "210B48F0-9F51-FC75-4436E2F198520714",
-    "lat": 38.881855,
-    "lng": -77.036562
-   },
-   {
-    "t": "fdr's wartime meetings",
-    "id": "25B98466-EF7F-8EC4-D368067C37B0863D",
-    "lat": null,
-    "lng": null
-   },
-   {
-    "t": "korean war memorial tour",
-    "id": "5874FE5C-C65A-54D7-3FAF176931965A7E",
-    "lat": null,
-    "lng": null
-   },
-   {
-    "t": "picnic in the park: history through music",
-    "id": "C94515F6-A529-F3A0-C8B385D49776D1B4",
-    "lat": null,
-    "lng": null
-   },
-   {
     "t": "stitching stories: a social stitch circle at peirce barn",
     "id": "244CC0B0-938E-177F-C91FD776EB3B0DCF",
     "lat": 38.94055,
@@ -47144,6 +47211,84 @@
     "id": "EA710881-D024-2E0F-50F03E46EEA279BF",
     "lat": 38.905367,
     "lng": -77.060363
+   },
+   {
+    "t": "world war ii memorial",
+    "id": "20BC795E-F31D-23BE-8ECD667441CCC6A3",
+    "lat": 38.888553,
+    "lng": -77.040542
+   },
+   {
+    "t": "korean war veterans memorial",
+    "id": "20C8A006-9D75-B08D-B9660EEE010654DD",
+    "lat": 38.888361,
+    "lng": -77.049099
+   },
+   {
+    "t": "picnic in the park: history through music",
+    "id": "C93B1275-B9C5-7702-9C246C52ED06CFA5",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "presidential valor: the military service of presidents and vice presidents who served in world war ii",
+    "id": "55B0C189-0B31-E797-843817D1C3CA4B3B",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "vietnam veterans memorial",
+    "id": "20D2D49A-C6EB-C60B-3FDF9FF5498CAABC",
+    "lat": 38.888361,
+    "lng": -77.049099
+   },
+   {
+    "t": "lincoln memorial",
+    "id": "20E95621-C801-29EC-8D514DA27A4B20BD",
+    "lat": 38.889271,
+    "lng": -77.049732
+   },
+   {
+    "t": "martin luther king, jr memorial",
+    "id": "20F3964D-C2EB-D551-D4D9F8FDB79A2B6B",
+    "lat": 38.886465,
+    "lng": -77.044619
+   },
+   {
+    "t": "franklin delano roosevelt memorial",
+    "id": "20FF2C70-D41B-B05C-B574977383870A1E",
+    "lat": 38.883884,
+    "lng": -77.044233
+   },
+   {
+    "t": "franklin delano roosevelt memorial",
+    "id": "F8807F67-EC7B-B3EA-4B71DD2E28D0B134",
+    "lat": 38.883884,
+    "lng": -77.044233
+   },
+   {
+    "t": "thomas jefferson memorial",
+    "id": "210B48F0-9F51-FC75-4436E2F198520714",
+    "lat": 38.881855,
+    "lng": -77.036562
+   },
+   {
+    "t": "fdr's wartime meetings",
+    "id": "25B98466-EF7F-8EC4-D368067C37B0863D",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "korean war memorial tour",
+    "id": "5874FE5C-C65A-54D7-3FAF176931965A7E",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "t": "picnic in the park: history through music",
+    "id": "C94515F6-A529-F3A0-C8B385D49776D1B4",
+    "lat": null,
+    "lng": null
    },
    {
     "t": "ranger led garden tour",
